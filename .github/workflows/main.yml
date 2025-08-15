@@ -4,7 +4,7 @@ name: Sync repos
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2 * * *' # daily at 02:00 UTC (adjust as needed)
+    - cron: "*/25 * * * *"
   push:
     paths:
       - 'ipa-repos.json'     # react when the url-list is changed
@@ -33,7 +33,7 @@ jobs:
       - name: Fetch IPA JSONs and commit updates
         env:
           REPO_LIST_PATH: 'ipa-repos.json'    # change this if your list lives elsewhere
-          DEFAULT_TARGET_DIR: 'ipa-jsons'     # default folder to save files if no path provided
+          DEFAULT_TARGET_DIR: '.'     # default folder to save files if no path provided
         run: |
           python - <<'PY'
           import os, json, sys, shutil, subprocess
