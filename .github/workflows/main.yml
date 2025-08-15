@@ -1,0 +1,155 @@
+name: Sync repos
+
+# Run on manual trigger, on pushes to the list file, and nightly (example)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *' # daily at 02:00 UTC (adjust as needed)
+  push:
+    paths:
+      - 'ipa-repos.json'     # react when the url-list is changed
+      - '.github/ipa-repos.json'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-save:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install requests
+        run: python -m pip install --upgrade pip && pip install requests
+
+      - name: Fetch IPA JSONs and commit updates
+        env:
+          REPO_LIST_PATH: 'ipa-repos.json'    # change this if your list lives elsewhere
+          DEFAULT_TARGET_DIR: 'ipa-jsons'     # default folder to save files if no path provided
+        run: |
+          python - <<'PY'
+          import os, json, sys, shutil, subprocess
+          from pathlib import Path
+          try:
+              import requests
+          except Exception as e:
+              print("requests library missing:", e)
+              sys.exit(1)
+
+          LIST_PATH = os.getenv('REPO_LIST_PATH', 'ipa-repos.json')
+          DEFAULT_DIR = os.getenv('DEFAULT_TARGET_DIR', 'ipa-jsons')
+
+          # Ensure default dir exists
+          Path(DEFAULT_DIR).mkdir(parents=True, exist_ok=True)
+
+          # Read list
+          try:
+              with open(LIST_PATH, 'r', encoding='utf-8') as f:
+                  entries = json.load(f)
+              if not isinstance(entries, list):
+                  raise ValueError("Expected a JSON array (list) at top level.")
+          except Exception as e:
+              print(f"[ERROR] Could not read/parse list file '{LIST_PATH}': {e}")
+              print("Nothing to do. Exiting successfully.")
+              sys.exit(0)
+
+          updated_files = []
+          failures = []
+
+          for i, entry in enumerate(entries):
+              # allow either {"name": "...", "url":"..."} or {"path":"...", "url":"..."}
+              name = entry.get('name')
+              url = entry.get('url')
+              path = entry.get('path')
+              if not url:
+                  print(f"[WARN] entry #{i} missing url, skipping: {entry}")
+                  failures.append((entry, "missing_url"))
+                  continue
+              if not path:
+                  if not name:
+                      print(f"[WARN] entry #{i} missing both name/path, skipping: {entry}")
+                      failures.append((entry, "missing_name_and_path"))
+                      continue
+                  # default path uses provided name (safe filename) under DEFAULT_DIR
+                  safe_name = name if name.endswith('.json') else f"{name}.json"
+                  path = os.path.join(DEFAULT_DIR, safe_name)
+
+              # Make sure folder exists
+              os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
+
+              print(f"[INFO] Fetching {url} -> {path}")
+              tmp_path = path + ".tmp"
+              try:
+                  r = requests.get(url, timeout=30)
+                  if r.status_code != 200:
+                      raise RuntimeError(f"HTTP {r.status_code}")
+                  # validate JSON by parsing
+                  parsed = r.json()   # raises if invalid JSON
+                  # write pretty JSON to tmp file
+                  with open(tmp_path, 'w', encoding='utf-8') as tf:
+                      json.dump(parsed, tf, ensure_ascii=False, indent=2)
+
+                  # If file exists, compare content and avoid replace/commit if identical
+                  if os.path.exists(path):
+                      with open(path, 'r', encoding='utf-8') as oldf:
+                          old = oldf.read()
+                      with open(tmp_path, 'r', encoding='utf-8') as newf:
+                          new = newf.read()
+                      if old == new:
+                          print(f"[INFO] No change for {path}, skipping replace.")
+                          os.remove(tmp_path)
+                          continue
+
+                  # Atomically move tmp to final path (overwrites)
+                  shutil.move(tmp_path, path)
+                  updated_files.append(path)
+                  print(f"[OK] Updated {path}")
+
+              except Exception as e:
+                  print(f"[ERROR] Failed for entry {entry}: {e}")
+                  failures.append((entry, str(e)))
+                  # clean up tmp if present
+                  try:
+                      if os.path.exists(tmp_path):
+                          os.remove(tmp_path)
+                  except:
+                      pass
+                  continue
+
+          print(f"\nSummary: {len(updated_files)} updated, {len(failures)} failed")
+          if failures:
+              print("Failures (first 10):")
+              for f in failures[:10]:
+                  print(" - ", f)
+
+          # If any files updated, commit & push them
+          if updated_files:
+              try:
+                  # Configure git user and commit only changed files
+                  subprocess.check_call(['git', 'config', 'user.name', 'github-actions[bot]'])
+                  subprocess.check_call(['git', 'config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com'])
+                  subprocess.check_call(['git', 'add'] + updated_files)
+                  # check if there is anything to commit
+                  changed = subprocess.run(['git','diff','--cached','--name-only'], capture_output=True, text=True).stdout.strip()
+                  if changed:
+                      subprocess.check_call(['git', 'commit', '-m', 'chore: update IPA repo jsons (auto)'])
+                      subprocess.check_call(['git', 'push'])
+                      print("[OK] Pushed updates.")
+                  else:
+                      print("[INFO] Nothing staged to commit.")
+              except subprocess.CalledProcessError as e:
+                  print("[ERROR] Git operations failed:", e)
+                  # don't fail the action; we want to keep older files safe
+          else:
+              print("[INFO] No updates to commit.")
+          # Always exit 0 so single failures don't fail the whole workflow
+          sys.exit(0)
+          PY
