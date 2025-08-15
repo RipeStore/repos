@@ -2,5 +2,85 @@
   {
     "name": "ethsign",
     "url": "https://repo.ethsign.fyi/"
+  },
+  {
+    "name": "apptesters",
+    "url": "https://repository.apptesters.org/"
+  },
+  {
+    "name": "feather",
+    "url": "https://raw.githubusercontent.com/khcrysalis/Feather/refs/heads/main/app-repo.json"
+  },
+  {
+    "name": "altstore",
+    "url": "https://quarksources.github.io/dist/altstore-complete.min.json"
+  },
+  {
+    "name": "anymex",
+    "url": "https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/repo/source.json"
+  },
+  {
+    "name": "aidoku",
+    "url": "https://raw.githubusercontent.com/Aidoku/Aidoku/altstore/apps.json"
+  },
+  {
+    "name": "flyinghead",
+    "url": "https://flyinghead.github.io/flycast-builds/altstore.json"
+  },
+  {
+    "name": "livecontainer",
+    "url": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/refs/heads/main/apps.json"
+  },
+  {
+    "name": "oatmeal",
+    "url": "https://altstore.oatmealdome.me/"
+  },
+  {
+    "name": "pojav",
+    "url": "https://alt.crystall1ne.dev/"
+  },
+  {
+    "name": "pokemmo",
+    "url": "https://pokemmo.com/altstore/"
+  },
+  {
+    "name": "provenance",
+    "url": "https://provenance-emu.com/apps.json"
+  },
+  {
+    "name": "qn",
+    "url": "https://qnblackcat.github.io/AltStore/apps.json"
+  },
+  {
+    "name": "quantum",
+    "url": "https://bit.ly/quantumsource-min"
+  },
+  {
+    "name": "quantum-plus",
+    "url": "https://bit.ly/quantumsource-plus-min"
+  },
+  {
+    "name": "sidestore-community",
+    "url": "https://community-apps.sidestore.io/sidecommunity.json"
+  },
+  {
+    "name": "utm",
+    "url": "https://alt.getutm.app"
+  },
+  {
+    "name": "wuxu",
+    "url": "https://wuxu1.github.io/wuxu-complete.json"
+  },
+  {
+    "name": "wuxuplus",
+    "url": "https://wuxu1.github.io/wuxu-complete-plus.json"
+  },
+  {
+    "name": "itorrent",
+    "url": "https://xitrix.github.io/iTorrent/AltStore.json"
+  },
+  {
+    "name": "zx",
+    "url": "https://aio.zxcvbn.fyi/r/repo.feather.json"
   }
 ]
