@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SODA",
+      "type": 1,
+      "bundleID": "com.snowcorp.soda",
+      "bundleIdentifier": "com.snowcorp.soda",
+      "version": "9.3.5",
+      "versionDate": "2025-08-15",
+      "fullDate": "20250815210218",
+      "size": 134657041,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-08-2025/SODA_9.3.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-08-2025/SODA_9.3.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png"
+    },
+    {
       "name": "BrickOut",
       "type": 2,
       "bundleID": "com.puzzle1studio.ap.brickoutshoottheball",
