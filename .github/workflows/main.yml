@@ -4,7 +4,7 @@ name: Sync repos
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/25 * * * *"
+    - cron: "*/5 * * * *"
   push:
     paths:
       - 'ipa-repos.json'     # react when the url-list is changed
