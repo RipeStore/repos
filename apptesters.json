@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Photoleap",
+      "type": 1,
+      "bundleID": "com.lightricks.Enlight-Editor",
+      "bundleIdentifier": "com.lightricks.Enlight-Editor",
+      "version": "2.116.2",
+      "versionDate": "2025-08-16",
+      "fullDate": "20250816232248",
+      "size": 399343852,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-08-2025/Photoleap_2.116.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-08-2025/Photoleap_2.116.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Editor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Editor.png"
+    },
+    {
       "name": "Widgy",
       "type": 1,
       "bundleID": "boomer.Smart-Video",
