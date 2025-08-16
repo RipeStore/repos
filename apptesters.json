@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Headway",
+      "type": 1,
+      "bundleID": "com.headway.books",
+      "bundleIdentifier": "com.headway.books",
+      "version": "343.1",
+      "versionDate": "2025-08-16",
+      "fullDate": "20250816130144",
+      "size": 266763335,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-08-2025/Headway_343.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-08-2025/Headway_343.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png"
+    },
+    {
       "name": "TeraBox",
       "type": 1,
       "bundleID": "com.dubox.drive",
