@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Calory",
+      "type": 1,
+      "bundleID": "com.funnmedia.calory",
+      "bundleIdentifier": "com.funnmedia.calory",
+      "version": "4.3.7",
+      "versionDate": "2025-08-17",
+      "fullDate": "20250817044325",
+      "size": 224263543,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-08-2025/Calory_4.3.7_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-08-2025/Calory_4.3.7_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.funnmedia.calory.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.funnmedia.calory.png"
+    },
+    {
       "name": "Photoleap",
       "type": 1,
       "bundleID": "com.lightricks.Enlight-Editor",
