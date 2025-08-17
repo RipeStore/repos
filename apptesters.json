@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Alarmy",
+      "type": 1,
+      "bundleID": "droom.sleepIfUCanFree",
+      "bundleIdentifier": "droom.sleepIfUCanFree",
+      "version": "25.33.0",
+      "versionDate": "2025-08-17",
+      "fullDate": "20250817190502",
+      "size": 115754826,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-08-2025/Alarmy_25.33.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-08-2025/Alarmy_25.33.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/droom.sleepIfUCanFree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/droom.sleepIfUCanFree.png"
+    },
+    {
       "name": "Yana",
       "type": 1,
       "bundleID": "com.yana.yanapp",
