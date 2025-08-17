@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "LookUp",
+      "type": 1,
+      "bundleID": "in.muditbhargava.LookUp",
+      "bundleIdentifier": "in.muditbhargava.LookUp",
+      "version": "11.1.6",
+      "versionDate": "2025-08-17",
+      "fullDate": "20250817193010",
+      "size": 190499107,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-08-2025/LookUp_11.1.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-08-2025/LookUp_11.1.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/in.muditbhargava.LookUp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/in.muditbhargava.LookUp.png"
+    },
+    {
       "name": "Alarmy",
       "type": 1,
       "bundleID": "droom.sleepIfUCanFree",
