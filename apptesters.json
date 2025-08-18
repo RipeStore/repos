@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "",
+      "type": 1,
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "version": "7.0.0",
+      "versionDate": "2025-08-18",
+      "fullDate": "20250818125839",
+      "size": 185551770,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-08-2025/_7.0.0_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-08-2025/_7.0.0_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with VIP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+    },
+    {
+      "name": "SleepCycle",
+      "type": 1,
+      "bundleID": "com.lexwarelabs.goodmorning",
+      "bundleIdentifier": "com.lexwarelabs.goodmorning",
+      "version": "6.25.32",
+      "versionDate": "2025-08-18",
+      "fullDate": "20250818124326",
+      "size": 294762235,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-08-2025/SleepCycle_6.25.32_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-08-2025/SleepCycle_6.25.32_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lexwarelabs.goodmorning.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lexwarelabs.goodmorning.png"
+    },
+    {
       "name": "FlightTracker",
       "type": 1,
       "bundleID": "com.iaftt.flightplusfree",
