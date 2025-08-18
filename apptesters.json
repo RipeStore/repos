@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "VoiceTube",
+      "type": 1,
+      "bundleID": "tw.tyche.voicetube",
+      "bundleIdentifier": "tw.tyche.voicetube",
+      "version": "4.15.0",
+      "versionDate": "2025-08-19",
+      "fullDate": "20250819050631",
+      "size": 172474689,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/VoiceTube_4.15.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/VoiceTube_4.15.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tw.tyche.voicetube.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tw.tyche.voicetube.png"
+    },
+    {
+      "name": "Across",
+      "type": 1,
+      "bundleID": "com.daymore.Across",
+      "bundleIdentifier": "com.daymore.Across",
+      "version": "1.11.16",
+      "versionDate": "2025-08-19",
+      "fullDate": "20250819050129",
+      "size": 9483199,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/Across_1.11.16_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/Across_1.11.16_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.daymore.Across.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.daymore.Across.png"
+    },
+    {
       "name": "Calm",
       "type": 1,
       "bundleID": "com.calm.calmapp",
