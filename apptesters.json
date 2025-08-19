@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "KTBSecondKick",
+      "type": 2,
+      "bundleID": "com.playgendary.ktbremaster",
+      "bundleIdentifier": "com.playgendary.ktbremaster",
+      "version": "2.13.0",
+      "versionDate": "2025-08-19",
+      "fullDate": "20250819163551",
+      "size": 169908770,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/KTBSecondKick_2.13.0_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/KTBSecondKick_2.13.0_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IGG",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.playgendary.ktbremaster.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.playgendary.ktbremaster.png"
+    },
+    {
       "name": "YAZIO",
       "type": 1,
       "bundleID": "com.yazio.ios.YAZIO",
