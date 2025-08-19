@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MyFitCoach",
+      "type": 1,
+      "bundleID": "de.my-fit-coach.myfitcoach-ios",
+      "bundleIdentifier": "de.my-fit-coach.myfitcoach-ios",
+      "version": "1.18.4",
+      "versionDate": "2025-08-19",
+      "fullDate": "20250819231259",
+      "size": 178184059,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/MyFitCoach_1.18.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/MyFitCoach_1.18.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/de.my-fit-coach.myfitcoach-ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/de.my-fit-coach.myfitcoach-ios.png"
+    },
+    {
       "name": "ShutEye",
       "type": 1,
       "bundleID": "health.sleep.sounds.tracker.alarm.calm",
