@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "CLIME",
+      "type": 1,
+      "bundleID": "com.apalonapps.radarfree",
+      "bundleIdentifier": "com.apalonapps.radarfree",
+      "version": "5.13.56",
+      "versionDate": "2025-08-19",
+      "fullDate": "20250819170604",
+      "size": 167007350,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/CLIME_5.13.56_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/CLIME_5.13.56_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.radarfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.radarfree.png"
+    },
+    {
+      "name": "iTranslate",
+      "type": 1,
+      "bundleID": "com.outerspaceapps.itranslate",
+      "bundleIdentifier": "com.outerspaceapps.itranslate",
+      "version": "17.4.45",
+      "versionDate": "2025-08-19",
+      "fullDate": "20250819170600",
+      "size": 75306822,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/iTranslate_17.4.45_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/iTranslate_17.4.45_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.outerspaceapps.itranslate.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.outerspaceapps.itranslate.png"
+    },
+    {
       "name": "KTBSecondKick",
       "type": 2,
       "bundleID": "com.playgendary.ktbremaster",
