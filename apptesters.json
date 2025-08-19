@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Facetune",
+      "type": 1,
+      "bundleID": "com.lightricks.Facetune2",
+      "bundleIdentifier": "com.lightricks.Facetune2",
+      "version": "3.99",
+      "versionDate": "2025-08-19",
+      "fullDate": "20250819144027",
+      "size": 330139087,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/Facetune_3.99_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/Facetune_3.99_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png"
+    },
+    {
+      "name": "YouTubeOLED",
+      "type": 1,
+      "bundleID": "com.google.ios.youtube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "version": "20.33.2",
+      "versionDate": "2025-08-19",
+      "fullDate": "20250819143020",
+      "size": 127986065,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/YouTubeOLED_20.33.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/YouTubeOLED_20.33.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png"
+    },
+    {
       "name": "PicsArt",
       "type": 1,
       "bundleID": "com.picsart.studio",
