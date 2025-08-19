@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "BrainTest3",
+      "type": 2,
+      "bundleID": "com.unicostudio.braintest3",
+      "bundleIdentifier": "com.unicostudio.braintest3",
+      "version": "1.76.5",
+      "versionDate": "2025-08-19",
+      "fullDate": "20250819234816",
+      "size": 120397964,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/BrainTest3_1.76.5_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/BrainTest3_1.76.5_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.unicostudio.braintest3.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.unicostudio.braintest3.png"
+    },
+    {
+      "name": "Photoroom",
+      "type": 1,
+      "bundleID": "com.dr1ven.eraser",
+      "bundleIdentifier": "com.dr1ven.eraser",
+      "version": "2025.33.01",
+      "versionDate": "2025-08-19",
+      "fullDate": "20250819233309",
+      "size": 113139301,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/Photoroom_2025.33.01_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-08-2025/Photoroom_2025.33.01_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png"
+    },
+    {
       "name": "MyFitCoach",
       "type": 1,
       "bundleID": "de.my-fit-coach.myfitcoach-ios",
