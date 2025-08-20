@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SleepMonitor",
+      "type": 1,
+      "bundleID": "com.sleepmonitor.aio",
+      "bundleIdentifier": "com.sleepmonitor.aio",
+      "version": "2.5.9",
+      "versionDate": "2025-08-21",
+      "fullDate": "20250821030421",
+      "size": 256430170,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-08-2025/SleepMonitor_2.5.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-08-2025/SleepMonitor_2.5.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sleepmonitor.aio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sleepmonitor.aio.png"
+    },
+    {
+      "name": "VEEDCaptions",
+      "type": 1,
+      "bundleID": "io.veed.appstore",
+      "bundleIdentifier": "io.veed.appstore",
+      "version": "6.5.0",
+      "versionDate": "2025-08-21",
+      "fullDate": "20250821025917",
+      "size": 64068355,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-08-2025/VEEDCaptions_6.5.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-08-2025/VEEDCaptions_6.5.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.veed.appstore.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.veed.appstore.png"
+    },
+    {
       "name": "Acrobat",
       "type": 1,
       "bundleID": "com.adobe.Adobe-Reader",
