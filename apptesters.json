@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Focos",
+      "type": 1,
+      "bundleID": "com.focos",
+      "bundleIdentifier": "com.focos",
+      "version": "2.11.34",
+      "versionDate": "2025-08-20",
+      "fullDate": "20250820142028",
+      "size": 326983783,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-08-2025/Focos_2.11.34_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-08-2025/Focos_2.11.34_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.focos.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.focos.png"
+    },
+    {
+      "name": "Headway",
+      "type": 1,
+      "bundleID": "com.headway.books",
+      "bundleIdentifier": "com.headway.books",
+      "version": "343.6",
+      "versionDate": "2025-08-20",
+      "fullDate": "20250820142017",
+      "size": 313681740,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-08-2025/Headway_343.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-08-2025/Headway_343.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png"
+    },
+    {
       "name": "GALATEA",
       "type": 1,
       "bundleID": "org.reactjs.native.Inkitt.App.Colt",
