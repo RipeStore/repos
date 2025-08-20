@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Videoleap",
+      "type": 1,
+      "bundleID": "com.lightricks.Enlight-Video",
+      "bundleIdentifier": "com.lightricks.Enlight-Video",
+      "version": "2.76.4",
+      "versionDate": "2025-08-20",
+      "fullDate": "20250820145045",
+      "size": 402111277,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-08-2025/Videoleap_2.76.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-08-2025/Videoleap_2.76.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Video.png"
+    },
+    {
+      "name": "Summarify",
+      "type": 1,
+      "bundleID": "nz.digitaltools.Tube-GPT",
+      "bundleIdentifier": "nz.digitaltools.Tube-GPT",
+      "version": "3.9.0",
+      "versionDate": "2025-08-20",
+      "fullDate": "20250820143541",
+      "size": 25828144,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-08-2025/Summarify_3.9.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-08-2025/Summarify_3.9.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nz.digitaltools.Tube-GPT.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nz.digitaltools.Tube-GPT.png"
+    },
+    {
       "name": "Focos",
       "type": 1,
       "bundleID": "com.focos",
