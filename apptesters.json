@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "NRv115480",
+      "type": 1,
+      "bundleID": "nt.nr.ios",
+      "bundleIdentifier": "nt.nr.ios",
+      "version": "11.548.0",
+      "versionDate": "2025-08-21",
+      "fullDate": "20250821032432",
+      "size": 846843728,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-08-2025/NRv115480_11.548.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-08-2025/NRv115480_11.548.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nt.nr.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nt.nr.ios.png"
+    },
+    {
       "name": "SleepMonitor",
       "type": 1,
       "bundleID": "com.sleepmonitor.aio",
