@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Picsew",
+      "type": 1,
+      "bundleID": "com.sugarmo.ScrollClip",
+      "bundleIdentifier": "com.sugarmo.ScrollClip",
+      "version": "3.12.1",
+      "versionDate": "2025-08-21",
+      "fullDate": "20250821143115",
+      "size": 35350452,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-08-2025/Picsew_3.12.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-08-2025/Picsew_3.12.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sugarmo.ScrollClip.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sugarmo.ScrollClip.png"
+    },
+    {
       "name": "Pillow",
       "type": 1,
       "bundleID": "com.neybox.Pillow",
