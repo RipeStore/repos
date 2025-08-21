@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "WaterMinder",
+      "type": 1,
+      "bundleID": "com.waterminder.waterminder",
+      "bundleIdentifier": "com.waterminder.waterminder",
+      "version": "6.10.7",
+      "versionDate": "2025-08-22",
+      "fullDate": "20250822010316",
+      "size": 194273376,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-08-2025/WaterMinder_6.10.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-08-2025/WaterMinder_6.10.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.waterminder.waterminder.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.waterminder.waterminder.png"
+    },
+    {
       "name": "LingoDeer",
       "type": 1,
       "bundleID": "com.lingodeer",
