@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Phocus",
+      "type": 1,
+      "bundleID": "com.ahmetserdarkaradeniz.Phocus",
+      "bundleIdentifier": "com.ahmetserdarkaradeniz.Phocus",
+      "version": "3.0.3",
+      "versionDate": "2025-08-21",
+      "fullDate": "20250821193640",
+      "size": 208718857,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-08-2025/Phocus_3.0.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-08-2025/Phocus_3.0.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahmetserdarkaradeniz.Phocus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahmetserdarkaradeniz.Phocus.png"
+    },
+    {
       "name": "SnapEdit",
       "type": 1,
       "bundleID": "com.sfun.snapedit",
