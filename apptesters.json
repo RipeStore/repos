@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Locket",
+      "type": 1,
+      "bundleID": "com.locket.Locket",
+      "bundleIdentifier": "com.locket.Locket",
+      "version": "2.10.0",
+      "versionDate": "2025-08-21",
+      "fullDate": "20250821054515",
+      "size": 142049031,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-08-2025/Locket_2.10.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-08-2025/Locket_2.10.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Gold",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png"
+    },
+    {
       "name": "X",
       "type": 1,
       "bundleID": "com.atebits.Tweetie2",
