@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "HelloAI",
+      "type": 1,
+      "bundleID": "com.IpadWhatsapp.InternetRocks",
+      "bundleIdentifier": "com.IpadWhatsapp.InternetRocks",
+      "version": "2025.8.2",
+      "versionDate": "2025-08-22",
+      "fullDate": "20250822235228",
+      "size": 81007794,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-08-2025/HelloAI_2025.8.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-08-2025/HelloAI_2025.8.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.IpadWhatsapp.InternetRocks.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.IpadWhatsapp.InternetRocks.png"
+    },
+    {
+      "name": "FreeYourMusic",
+      "type": 1,
+      "bundleID": "io.stampapp.Stamp",
+      "bundleIdentifier": "io.stampapp.Stamp",
+      "version": "9.18.0",
+      "versionDate": "2025-08-22",
+      "fullDate": "20250822234724",
+      "size": 27082993,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-08-2025/FreeYourMusic_9.18.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-08-2025/FreeYourMusic_9.18.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.stampapp.Stamp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.stampapp.Stamp.png"
+    },
+    {
       "name": "Homeworkouts",
       "type": 1,
       "bundleID": "com.abishkking.maleworkout",
