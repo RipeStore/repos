@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "HotWheelsUnlimited",
+      "type": 2,
+      "bundleID": "com.budgestudios.HotWheelsUnlimited",
+      "bundleIdentifier": "com.budgestudios.HotWheelsUnlimited",
+      "version": "2025.1.2",
+      "versionDate": "2025-08-23",
+      "fullDate": "20250823212747",
+      "size": 1006127064,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-08-2025/HotWheelsUnlimited_2025.1.2_Mods_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-08-2025/HotWheelsUnlimited_2025.1.2_Mods_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Mods",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.budgestudios.HotWheelsUnlimited.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.budgestudios.HotWheelsUnlimited.png"
+    },
+    {
       "name": "Masketeers",
       "type": 2,
       "bundleID": "com.appxplore.masketeers",
