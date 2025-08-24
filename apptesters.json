@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Obscura",
+      "type": 1,
+      "bundleID": "com.benricemccarthy.obscura-3",
+      "bundleIdentifier": "com.benricemccarthy.obscura-3",
+      "version": "2025.7",
+      "versionDate": "2025-08-24",
+      "fullDate": "20250824131034",
+      "size": 79232325,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-08-2025/Obscura_2025.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-08-2025/Obscura_2025.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.benricemccarthy.obscura-3.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.benricemccarthy.obscura-3.png"
+    },
+    {
       "name": "Musify",
       "type": 1,
       "bundleID": "com.TPowenda.Musify",
