@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SimplyPiano",
+      "type": 1,
+      "bundleID": "com.joytunes.asla",
+      "bundleIdentifier": "com.joytunes.asla",
+      "version": "9.10.27",
+      "versionDate": "2025-08-24",
+      "fullDate": "20250824144544",
+      "size": 136441027,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-08-2025/SimplyPiano_9.10.27_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-08-2025/SimplyPiano_9.10.27_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.asla.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.asla.png"
+    },
+    {
       "name": "Obscura",
       "type": 1,
       "bundleID": "com.benricemccarthy.obscura-3",
