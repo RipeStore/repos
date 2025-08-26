@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Unfold",
+      "type": 1,
+      "bundleID": "com.moonlab.unfoldstories",
+      "bundleIdentifier": "com.moonlab.unfoldstories",
+      "version": "8.144.0",
+      "versionDate": "2025-08-26",
+      "fullDate": "20250826165120",
+      "size": 165085577,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-08-2025/Unfold_8.144.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-08-2025/Unfold_8.144.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonlab.unfoldstories.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonlab.unfoldstories.png"
+    },
+    {
       "name": "Melodia",
       "type": 1,
       "bundleID": "co.appnation.aimusic",
