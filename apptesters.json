@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "VideoStar",
+      "type": 1,
+      "bundleID": "com.frontierdesign.videostar",
+      "bundleIdentifier": "com.frontierdesign.videostar",
+      "version": "14.3.2",
+      "versionDate": "2025-08-27",
+      "fullDate": "20250827030607",
+      "size": 325685802,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/VideoStar_14.3.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/VideoStar_14.3.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontierdesign.videostar.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontierdesign.videostar.png"
+    },
+    {
+      "name": "MergeCooking",
+      "type": 2,
+      "bundleID": "com.merge.cooking.theme.restaurant.food",
+      "bundleIdentifier": "com.merge.cooking.theme.restaurant.food",
+      "version": "1.9.0",
+      "versionDate": "2025-08-27",
+      "fullDate": "20250827025553",
+      "size": 289177191,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/MergeCooking_1.9.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/MergeCooking_1.9.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png"
+    },
+    {
       "name": "Mercury",
       "type": 1,
       "bundleID": "com.tripleglazedstudios.Weather",
