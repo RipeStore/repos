@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Facetune",
+      "type": 1,
+      "bundleID": "com.lightricks.Facetune2",
+      "bundleIdentifier": "com.lightricks.Facetune2",
+      "version": "3.100",
+      "versionDate": "2025-08-26",
+      "fullDate": "20250826142038",
+      "size": 322190299,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-08-2025/Facetune_3.100_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-08-2025/Facetune_3.100_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png"
+    },
+    {
       "name": "Phocus",
       "type": 1,
       "bundleID": "com.ahmetserdarkaradeniz.Phocus",
