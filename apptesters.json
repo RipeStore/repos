@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SleepMonitor",
+      "type": 1,
+      "bundleID": "com.sleepmonitor.aio",
+      "bundleIdentifier": "com.sleepmonitor.aio",
+      "version": "2.6.0",
+      "versionDate": "2025-08-27",
+      "fullDate": "20250827121805",
+      "size": 257968793,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/SleepMonitor_2.6.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/SleepMonitor_2.6.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sleepmonitor.aio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sleepmonitor.aio.png"
+    },
+    {
       "name": "ColorPop",
       "type": 1,
       "bundleID": "com.mwm.procolor",
