@@ -3,15 +3,6 @@
   "identifier": "fyi.zxcvbn.aio",
   "apps": [
     {
-      "name": "Pinterest",
-      "bundleIdentifier": "pinterest",
-      "localizedDescription": "from @riftysIPAlibrary |\n------------------------\nName: Pinterest\n\nVersion: 13.31\n\nTweak: \n\n- Download Videos\n- Sponsored Pins Removed (thanks to chocolate fluffy)\n\nChanges: \n\n- fixed a few issues from the previous version\n\nPatched ✓\n\nMade by @riftysIPAlibrary",
-      "downloadURL": "https://mypleasure.zxcvbn.fyi/bb64b3a0-e549-44dd-9af9-82d8af2b4cb1/pinterest-v13.31-riftysipas.ipa",
-      "iconURL": "https://mypleasure.zxcvbn.fyi/b09e325f-be60-4ac9-a736-ff5633a4c8ae/icon.jpg",
-      "version": "13.31",
-      "size": 102013779
-    },
-    {
       "name": "Bill Tracker",
       "bundleIdentifier": "com.unofficialcalculators.payplan",
       "localizedDescription": "from @riftysIPAlibrary |\n------------------------\nName: Bill Tracker Pro\n\nTweak: Full Version Unlocked\n\nVersion: 3.12.134\n\nPatched ✓\n\nMade by @riftysIPAlibrary",
