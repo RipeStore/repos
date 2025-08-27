@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FlightTracker",
+      "type": 1,
+      "bundleID": "com.iaftt.flightplusfree",
+      "bundleIdentifier": "com.iaftt.flightplusfree",
+      "version": "8.6.6",
+      "versionDate": "2025-08-27",
+      "fullDate": "20250827181946",
+      "size": 79959565,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/FlightTracker_8.6.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/FlightTracker_8.6.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iaftt.flightplusfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iaftt.flightplusfree.png"
+    },
+    {
       "name": "Aloha",
       "type": 1,
       "bundleID": "com.alohabrowser.alohabrowser",
