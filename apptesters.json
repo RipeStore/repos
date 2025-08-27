@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "GALATEA",
+      "type": 1,
+      "bundleID": "org.reactjs.native.Inkitt.App.Colt",
+      "bundleIdentifier": "org.reactjs.native.Inkitt.App.Colt",
+      "version": "14.1.10",
+      "versionDate": "2025-08-27",
+      "fullDate": "20250827191506",
+      "size": 81051944,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/GALATEA_14.1.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/GALATEA_14.1.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.reactjs.native.Inkitt.App.Colt.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.reactjs.native.Inkitt.App.Colt.png"
+    },
+    {
       "name": "swipewipe",
       "type": 1,
       "bundleID": "com.aoklab.fewerphotos",
