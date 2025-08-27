@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Aloha",
+      "type": 1,
+      "bundleID": "com.alohabrowser.alohabrowser",
+      "bundleIdentifier": "com.alohabrowser.alohabrowser",
+      "version": "7.9.0",
+      "versionDate": "2025-08-27",
+      "fullDate": "20250827150421",
+      "size": 119001176,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/Aloha_7.9.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/Aloha_7.9.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png"
+    },
+    {
       "name": "Fitia",
       "type": 1,
       "bundleID": "com.ulisesolave.Fitia",
