@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PicsArt",
+      "type": 1,
+      "bundleID": "com.picsart.studio",
+      "bundleIdentifier": "com.picsart.studio",
+      "version": "28.2.2",
+      "versionDate": "2025-08-27",
+      "fullDate": "20250827105243",
+      "size": 112977148,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/PicsArt_28.2.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-08-2025/PicsArt_28.2.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png"
+    },
+    {
       "name": "Windyapp",
       "type": 1,
       "bundleID": "co.windyapp.Windy",
