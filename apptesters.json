@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Wordscapes",
+      "type": 2,
+      "bundleID": "com.peoplefun.wordcross",
+      "bundleIdentifier": "com.peoplefun.wordcross",
+      "version": "3.2.18",
+      "versionDate": "2025-08-28",
+      "fullDate": "20250828125936",
+      "size": 192727768,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-08-2025/Wordscapes_3.2.18_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-08-2025/Wordscapes_3.2.18_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IGG",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.peoplefun.wordcross.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.peoplefun.wordcross.png"
+    },
+    {
       "name": "Quizlet",
       "type": 1,
       "bundleID": "com.quizlet.quizlet",
