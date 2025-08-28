@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "HiWidget",
+      "type": 1,
+      "bundleID": "com.zerone.hidesktop",
+      "bundleIdentifier": "com.zerone.hidesktop",
+      "version": "4.3.11",
+      "versionDate": "2025-08-28",
+      "fullDate": "20250828142007",
+      "size": 360692966,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-08-2025/HiWidget_4.3.11_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-08-2025/HiWidget_4.3.11_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png"
+    },
+    {
       "name": "Headway",
       "type": 1,
       "bundleID": "com.headway.books",
