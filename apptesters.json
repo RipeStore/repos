@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "NotePlan",
+      "type": 1,
+      "bundleID": "co.noteplan.NotePlan3",
+      "bundleIdentifier": "co.noteplan.NotePlan3",
+      "version": "3.18.1",
+      "versionDate": "2025-08-29",
+      "fullDate": "20250829034949",
+      "size": 76012039,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-08-2025/NotePlan_3.18.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-08-2025/NotePlan_3.18.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.noteplan.NotePlan3.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.noteplan.NotePlan3.png"
+    },
+    {
+      "name": "MacroFactor",
+      "type": 1,
+      "bundleID": "com.sbs.diet",
+      "bundleIdentifier": "com.sbs.diet",
+      "version": "5.2.7",
+      "versionDate": "2025-08-29",
+      "fullDate": "20250829032941",
+      "size": 78602880,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-08-2025/MacroFactor_5.2.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-08-2025/MacroFactor_5.2.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png"
+    },
+    {
       "name": "Encode",
       "type": 1,
       "bundleID": "com.upskew.encode.ios",
