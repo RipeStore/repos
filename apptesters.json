@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Captions",
+      "type": 1,
+      "bundleID": "boomer.Smart-Video",
+      "bundleIdentifier": "boomer.Smart-Video",
+      "version": "12.33.1",
+      "versionDate": "2025-08-29",
+      "fullDate": "20250829011401",
+      "size": 396288987,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-08-2025/Captions_12.33.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-08-2025/Captions_12.33.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png"
+    },
+    {
       "name": "GentlerStreak",
       "type": 1,
       "bundleID": "app.gentler.activity",
