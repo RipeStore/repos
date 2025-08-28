@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Cleanup",
+      "type": 1,
+      "bundleID": "com.codeway.cleanerplus",
+      "bundleIdentifier": "com.codeway.cleanerplus",
+      "version": "6.0.1",
+      "versionDate": "2025-08-28",
+      "fullDate": "20250828144525",
+      "size": 127304374,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-08-2025/Cleanup_6.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-08-2025/Cleanup_6.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.codeway.cleanerplus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.codeway.cleanerplus.png"
+    },
+    {
       "name": "HiWidget",
       "type": 1,
       "bundleID": "com.zerone.hidesktop",
