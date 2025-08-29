@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "HappyScale",
+      "type": 1,
+      "bundleID": "com.frontpocketsoftware.happyscale",
+      "bundleIdentifier": "com.frontpocketsoftware.happyscale",
+      "version": "2025.13.2",
+      "versionDate": "2025-08-29",
+      "fullDate": "20250829090551",
+      "size": 38132592,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-08-2025/HappyScale_2025.13.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-08-2025/HappyScale_2025.13.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontpocketsoftware.happyscale.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontpocketsoftware.happyscale.png"
+    },
+    {
       "name": "Tachimanga",
       "type": 1,
       "bundleID": "com.mangacrush.ios",
