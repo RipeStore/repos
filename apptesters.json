@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Lingokids",
+      "type": 1,
+      "bundleID": "es.monkimun.lingokids",
+      "bundleIdentifier": "es.monkimun.lingokids",
+      "version": "8.121.0",
+      "versionDate": "2025-08-29",
+      "fullDate": "20250829154742",
+      "size": 91560683,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-08-2025/Lingokids_8.121.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-08-2025/Lingokids_8.121.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/es.monkimun.lingokids.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/es.monkimun.lingokids.png"
+    },
+    {
       "name": "AlightMotion",
       "type": 1,
       "bundleID": "com.alightcreative.motion",
