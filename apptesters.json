@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "DeepGronkAI",
+      "type": 1,
+      "bundleID": "com.dreamaichatbot.dreameai",
+      "bundleIdentifier": "com.dreamaichatbot.dreameai",
+      "version": "3.0",
+      "versionDate": "2025-08-31",
+      "fullDate": "20250831013413",
+      "size": 32753785,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-08-2025/DeepGronkAI_3.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-08-2025/DeepGronkAI_3.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dreamaichatbot.dreameai.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dreamaichatbot.dreameai.png"
+    },
+    {
       "name": "IPTVExpert",
       "type": 1,
       "bundleID": "com.iptv.player",
