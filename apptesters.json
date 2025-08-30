@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Nebo",
+      "type": 1,
+      "bundleID": "com.myscript.nebo",
+      "bundleIdentifier": "com.myscript.nebo",
+      "version": "6.8.5",
+      "versionDate": "2025-08-31",
+      "fullDate": "20250831001828",
+      "size": 148746600,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-08-2025/Nebo_6.8.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-08-2025/Nebo_6.8.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myscript.nebo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myscript.nebo.png"
+    },
+    {
+      "name": "Bend",
+      "type": 1,
+      "bundleID": "com.bowery-digital.bend",
+      "bundleIdentifier": "com.bowery-digital.bend",
+      "version": "6.4.9",
+      "versionDate": "2025-08-31",
+      "fullDate": "20250831001824",
+      "size": 87782087,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-08-2025/Bend_6.4.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-08-2025/Bend_6.4.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bowery-digital.bend.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bowery-digital.bend.png"
+    },
+    {
       "name": "Widgy",
       "type": 1,
       "bundleID": "boomer.Smart-Video",
