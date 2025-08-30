@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "ShutEye",
+      "type": 1,
+      "bundleID": "health.sleep.sounds.tracker.alarm.calm",
+      "bundleIdentifier": "health.sleep.sounds.tracker.alarm.calm",
+      "version": "3.2.0",
+      "versionDate": "2025-08-30",
+      "fullDate": "20250830071515",
+      "size": 390672266,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/ShutEye_3.2.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/ShutEye_3.2.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/health.sleep.sounds.tracker.alarm.calm.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/health.sleep.sounds.tracker.alarm.calm.png"
+    },
+    {
+      "name": "StressWatch",
+      "type": 1,
+      "bundleID": "com.ideation.Stress",
+      "bundleIdentifier": "com.ideation.Stress",
+      "version": "2.3.20",
+      "versionDate": "2025-08-30",
+      "fullDate": "20250830070437",
+      "size": 219450213,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/StressWatch_2.3.20_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/StressWatch_2.3.20_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ideation.Stress.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ideation.Stress.png"
+    },
+    {
       "name": "Dazz",
       "type": 1,
       "bundleID": "dazz.camera.vintagecamera",
