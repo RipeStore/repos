@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "BandLab",
+      "type": 1,
+      "bundleID": "com.bandlab.bandlab.iphone",
+      "bundleIdentifier": "com.bandlab.bandlab.iphone",
+      "version": "11.6.0",
+      "versionDate": "2025-08-30",
+      "fullDate": "20250830185238",
+      "size": 116850995,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/BandLab_11.6.0_Boost_Membership_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/BandLab_11.6.0_Boost_Membership_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Boost Membership",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bandlab.bandlab.iphone.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bandlab.bandlab.iphone.png"
+    },
+    {
+      "name": "CHANI",
+      "type": 1,
+      "bundleID": "com.chaninicholas.chaniapp",
+      "bundleIdentifier": "com.chaninicholas.chaniapp",
+      "version": "2.4.5",
+      "versionDate": "2025-08-30",
+      "fullDate": "20250830184735",
+      "size": 22441845,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/CHANI_2.4.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/CHANI_2.4.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.chaninicholas.chaniapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.chaninicholas.chaniapp.png"
+    },
+    {
       "name": "Mercury",
       "type": 1,
       "bundleID": "com.tripleglazedstudios.Weather",
