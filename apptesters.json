@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Widgy",
+      "type": 1,
+      "bundleID": "boomer.Smart-Video",
+      "bundleIdentifier": "boomer.Smart-Video",
+      "version": "4.20",
+      "versionDate": "2025-08-30",
+      "fullDate": "20250830195758",
+      "size": 57131085,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/Widgy_4.20_Satella_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/Widgy_4.20_Satella_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Satella",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png"
+    },
+    {
       "name": "AdobeExpress",
       "type": 1,
       "bundleID": "com.adobe.post",
