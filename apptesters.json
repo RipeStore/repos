@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Mercury",
+      "type": 1,
+      "bundleID": "com.tripleglazedstudios.Weather",
+      "bundleIdentifier": "com.tripleglazedstudios.Weather",
+      "version": "2.12.1",
+      "versionDate": "2025-08-30",
+      "fullDate": "20250830172724",
+      "size": 48569307,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/Mercury_2.12.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/Mercury_2.12.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tripleglazedstudios.Weather.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tripleglazedstudios.Weather.png"
+    },
+    {
+      "name": "BrainTest",
+      "type": 2,
+      "bundleID": "com.unicostudio.braintest",
+      "bundleIdentifier": "com.unicostudio.braintest",
+      "version": "2.761.4",
+      "versionDate": "2025-08-30",
+      "fullDate": "20250830172719",
+      "size": 139491427,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/BrainTest_2.761.4_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/BrainTest_2.761.4_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.unicostudio.braintest.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.unicostudio.braintest.png"
+    },
+    {
       "name": "BrainTest4",
       "type": 2,
       "bundleID": "com.unicostudio.braintest4",
