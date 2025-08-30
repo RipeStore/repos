@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "MagicTiles3",
+      "type": 2,
+      "bundleID": "com.amanotes.magictiles",
+      "bundleIdentifier": "com.amanotes.magictiles",
+      "version": "12.083.005",
+      "versionDate": "2025-08-30",
+      "fullDate": "20250830171148",
+      "size": 202198199,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/MagicTiles3_12.083.005_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/MagicTiles3_12.083.005_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with VIP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.amanotes.magictiles.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.amanotes.magictiles.png"
+    },
+    {
+      "name": "Flo",
+      "type": 1,
+      "bundleID": "org.iggymedia.periodtracker",
+      "bundleIdentifier": "org.iggymedia.periodtracker",
+      "version": "9.86.0",
+      "versionDate": "2025-08-30",
+      "fullDate": "20250830170642",
+      "size": 121073854,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/Flo_9.86.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-08-2025/Flo_9.86.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.iggymedia.periodtracker.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.iggymedia.periodtracker.png"
+    },
+    {
       "name": "SnapEdit",
       "type": 1,
       "bundleID": "com.sfun.snapedit",
