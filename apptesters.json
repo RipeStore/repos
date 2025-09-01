@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FitbittoAppleHealth",
+      "type": 1,
+      "bundleID": "com.bickster.myFitnessSync",
+      "bundleIdentifier": "com.bickster.myFitnessSync",
+      "version": "3.1.1",
+      "versionDate": "2025-09-02",
+      "fullDate": "20250902012657",
+      "size": 44080566,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-09-2025/FitbittoAppleHealth_3.1.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-09-2025/FitbittoAppleHealth_3.1.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bickster.myFitnessSync.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bickster.myFitnessSync.png"
+    },
+    {
       "name": "Rest",
       "type": 1,
       "bundleID": "com.evolve.helm",
