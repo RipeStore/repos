@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FlightTracker",
+      "type": 1,
+      "bundleID": "com.iaftt.flightplusfree",
+      "bundleIdentifier": "com.iaftt.flightplusfree",
+      "version": "8.6.7",
+      "versionDate": "2025-09-01",
+      "fullDate": "20250901165438",
+      "size": 91460604,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-09-2025/FlightTracker_8.6.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-09-2025/FlightTracker_8.6.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iaftt.flightplusfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iaftt.flightplusfree.png"
+    },
+    {
       "name": "Stndrd",
       "type": 1,
       "bundleID": "uni.cbum",
