@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MediaConvert",
+      "type": 1,
+      "bundleID": "com.verycoolapp.mediaconvert",
+      "bundleIdentifier": "com.verycoolapp.mediaconvert",
+      "version": "4.10",
+      "versionDate": "2025-09-02",
+      "fullDate": "20250902002642",
+      "size": 61014196,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-09-2025/MediaConvert_4.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-09-2025/MediaConvert_4.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.verycoolapp.mediaconvert.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.verycoolapp.mediaconvert.png"
+    },
+    {
       "name": "Evertag",
       "type": 1,
       "bundleID": "com.leshko.tagseditor",
