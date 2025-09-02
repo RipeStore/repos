@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "ColorPop",
+      "type": 1,
+      "bundleID": "com.mwm.procolor",
+      "bundleIdentifier": "com.mwm.procolor",
+      "version": "2.55.03",
+      "versionDate": "2025-09-02",
+      "fullDate": "20250902135445",
+      "size": 254615955,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-09-2025/ColorPop_2.55.03_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-09-2025/ColorPop_2.55.03_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png"
+    },
+    {
+      "name": "Photoleap",
+      "type": 1,
+      "bundleID": "com.lightricks.Enlight-Editor",
+      "bundleIdentifier": "com.lightricks.Enlight-Editor",
+      "version": "2.117.1",
+      "versionDate": "2025-09-02",
+      "fullDate": "20250902132927",
+      "size": 387648103,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-09-2025/Photoleap_2.117.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-09-2025/Photoleap_2.117.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Editor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Editor.png"
+    },
+    {
       "name": "Infuse",
       "type": 1,
       "bundleID": "com.firecore.infuse",
