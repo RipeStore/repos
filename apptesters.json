@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Picsew",
+      "type": 1,
+      "bundleID": "com.sugarmo.ScrollClip",
+      "bundleIdentifier": "com.sugarmo.ScrollClip",
+      "version": "3.12.2",
+      "versionDate": "2025-09-02",
+      "fullDate": "20250902161036",
+      "size": 35358940,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-09-2025/Picsew_3.12.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-09-2025/Picsew_3.12.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sugarmo.ScrollClip.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sugarmo.ScrollClip.png"
+    },
+    {
       "name": "SnapEdit",
       "type": 1,
       "bundleID": "com.sfun.snapedit",
