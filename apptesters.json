@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "LINECamera",
+      "type": 1,
+      "bundleID": "jp.naver.linecamera",
+      "bundleIdentifier": "jp.naver.linecamera",
+      "version": "17.4.6",
+      "versionDate": "2025-09-04",
+      "fullDate": "20250904041520",
+      "size": 135808090,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/LINECamera_17.4.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/LINECamera_17.4.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/jp.naver.linecamera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/jp.naver.linecamera.png"
+    },
+    {
       "name": "Pigment",
       "type": 1,
       "bundleID": "com.pixite.pigment",
