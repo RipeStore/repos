@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ThePiano",
+      "type": 2,
+      "bundleID": "com.impalastudios.pianofree",
+      "bundleIdentifier": "com.impalastudios.pianofree",
+      "version": "2.15.3",
+      "versionDate": "2025-09-04",
+      "fullDate": "20250904025905",
+      "size": 121566124,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/ThePiano_2.15.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/ThePiano_2.15.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.impalastudios.pianofree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.impalastudios.pianofree.png"
+    },
+    {
       "name": "Lifesum",
       "type": 1,
       "bundleID": "com.sillens.iShape",
