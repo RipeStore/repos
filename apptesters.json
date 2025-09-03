@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "CMProCalc",
+      "type": 1,
+      "bundleID": "com.calculated.laurene",
+      "bundleIdentifier": "com.calculated.laurene",
+      "version": "278",
+      "versionDate": "2025-09-03",
+      "fullDate": "20250903234815",
+      "size": 44831515,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-09-2025/CMProCalc_278_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-09-2025/CMProCalc_278_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calculated.laurene.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calculated.laurene.png"
+    },
+    {
+      "name": "Captions",
+      "type": 1,
+      "bundleID": "boomer.Smart-Video",
+      "bundleIdentifier": "boomer.Smart-Video",
+      "version": "12.33.2",
+      "versionDate": "2025-09-03",
+      "fullDate": "20250903232750",
+      "size": 396289735,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-09-2025/Captions_12.33.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-09-2025/Captions_12.33.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png"
+    },
+    {
       "name": "Calm",
       "type": 1,
       "bundleID": "com.calm.calmapp",
