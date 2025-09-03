@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Instagram",
+      "type": 1,
+      "bundleID": "com.burbn.instagram",
+      "bundleIdentifier": "com.burbn.instagram",
+      "version": "396.0.0",
+      "versionDate": "2025-09-03",
+      "fullDate": "20250903225624",
+      "size": 251240887,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-09-2025/Instagram_396.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-09-2025/Instagram_396.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png"
+    },
+    {
+      "name": "FlightTracker",
+      "type": 1,
+      "bundleID": "com.iaftt.flightplusfree",
+      "bundleIdentifier": "com.iaftt.flightplusfree",
+      "version": "8.6.8",
+      "versionDate": "2025-09-03",
+      "fullDate": "20250903224614",
+      "size": 91523208,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-09-2025/FlightTracker_8.6.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-09-2025/FlightTracker_8.6.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iaftt.flightplusfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iaftt.flightplusfree.png"
+    },
+    {
       "name": "GALATEA",
       "type": 1,
       "bundleID": "org.reactjs.native.Inkitt.App.Colt",
