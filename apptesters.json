@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Lifesum",
+      "type": 1,
+      "bundleID": "com.sillens.iShape",
+      "bundleIdentifier": "com.sillens.iShape",
+      "version": "21.3.0",
+      "versionDate": "2025-09-04",
+      "fullDate": "20250904024350",
+      "size": 121011485,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/Lifesum_21.3.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/Lifesum_21.3.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sillens.iShape.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sillens.iShape.png"
+    },
+    {
       "name": "CMProCalc",
       "type": 1,
       "bundleID": "com.calculated.laurene",
