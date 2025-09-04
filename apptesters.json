@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SODA",
+      "type": 1,
+      "bundleID": "com.snowcorp.soda",
+      "bundleIdentifier": "com.snowcorp.soda",
+      "version": "9.3.15",
+      "versionDate": "2025-09-04",
+      "fullDate": "20250904163950",
+      "size": 136724003,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/SODA_9.3.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/SODA_9.3.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png"
+    },
+    {
       "name": "VlogNow",
       "type": 1,
       "bundleID": "com.frontrow.vlog",
