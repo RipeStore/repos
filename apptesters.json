@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Linkjar",
+      "type": 1,
+      "bundleID": "ventures.bench.linkjar-ios",
+      "bundleIdentifier": "ventures.bench.linkjar-ios",
+      "version": "1.9",
+      "versionDate": "2025-09-05",
+      "fullDate": "20250905041046",
+      "size": 2876027,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-09-2025/Linkjar_1.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-09-2025/Linkjar_1.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ventures.bench.linkjar-ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ventures.bench.linkjar-ios.png"
+    },
+    {
       "name": "AdobeFresco",
       "type": 1,
       "bundleID": "com.adobe.fresco.ios",
