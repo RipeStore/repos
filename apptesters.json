@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Photoroom",
+      "type": 1,
+      "bundleID": "com.dr1ven.eraser",
+      "bundleIdentifier": "com.dr1ven.eraser",
+      "version": "2025.35.01",
+      "versionDate": "2025-09-04",
+      "fullDate": "20250904122141",
+      "size": 115963659,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/Photoroom_2025.35.01_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/Photoroom_2025.35.01_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png"
+    },
+    {
+      "name": "PilotPro",
+      "type": 1,
+      "bundleID": "pilotpro",
+      "bundleIdentifier": "pilotpro",
+      "version": "5.43.0",
+      "versionDate": "2025-09-04",
+      "fullDate": "20250904121637",
+      "size": 29410897,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/PilotPro_5.43.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/PilotPro_5.43.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/pilotpro.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/pilotpro.png"
+    },
+    {
       "name": "HiWidget",
       "type": 1,
       "bundleID": "com.zerone.hidesktop",
