@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Headway",
+      "type": 1,
+      "bundleID": "com.headway.books",
+      "bundleIdentifier": "com.headway.books",
+      "version": "346.0",
+      "versionDate": "2025-09-04",
+      "fullDate": "20250904135310",
+      "size": 316554249,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/Headway_346.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/Headway_346.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png"
+    },
+    {
+      "name": "Blossom",
+      "type": 1,
+      "bundleID": "com.apalonapps.plants",
+      "bundleIdentifier": "com.apalonapps.plants",
+      "version": "2.62.26",
+      "versionDate": "2025-09-04",
+      "fullDate": "20250904134300",
+      "size": 235743702,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/Blossom_2.62.26_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/Blossom_2.62.26_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.plants.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.plants.png"
+    },
+    {
       "name": "YouTubeOLED",
       "type": 1,
       "bundleID": "com.google.ios.youtube",
