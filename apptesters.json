@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "YouTubeOLED",
+      "type": 1,
+      "bundleID": "com.google.ios.youtube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "version": "20.35.2",
+      "versionDate": "2025-09-04",
+      "fullDate": "20250904130747",
+      "size": 125755021,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/YouTubeOLED_20.35.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/YouTubeOLED_20.35.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png"
+    },
+    {
       "name": "Wordscapes",
       "type": 2,
       "bundleID": "com.peoplefun.wordcross",
