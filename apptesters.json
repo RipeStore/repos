@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SnoreLab",
+      "type": 1,
+      "bundleID": "com.revivasoftworks.Snore-Lab",
+      "bundleIdentifier": "com.revivasoftworks.Snore-Lab",
+      "version": "5.7.12",
+      "versionDate": "2025-09-04",
+      "fullDate": "20250904231655",
+      "size": 138243816,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/SnoreLab_5.7.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-09-2025/SnoreLab_5.7.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.revivasoftworks.Snore-Lab.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.revivasoftworks.Snore-Lab.png"
+    },
+    {
       "name": "ScannerforMe",
       "type": 1,
       "bundleID": "com.apalonapps.pdffree",
