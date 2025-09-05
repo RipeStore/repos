@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "AIDA64",
+      "type": 1,
+      "bundleID": "com.finalwire.aida64",
+      "bundleIdentifier": "com.finalwire.aida64",
+      "version": "1.61",
+      "versionDate": "2025-09-06",
+      "fullDate": "20250906004133",
+      "size": 4925137,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/AIDA64_1.61_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/AIDA64_1.61_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.finalwire.aida64.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.finalwire.aida64.png"
+    },
+    {
+      "name": "swipewipe",
+      "type": 1,
+      "bundleID": "com.aoklab.fewerphotos",
+      "bundleIdentifier": "com.aoklab.fewerphotos",
+      "version": "3.2.23",
+      "versionDate": "2025-09-06",
+      "fullDate": "20250906004128",
+      "size": 79923512,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/swipewipe_3.2.23_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/swipewipe_3.2.23_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aoklab.fewerphotos.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aoklab.fewerphotos.png"
+    },
+    {
       "name": "Captions",
       "type": 1,
       "bundleID": "boomer.Smart-Video",
