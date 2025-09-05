@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "BrickOut",
+      "type": 2,
+      "bundleID": "com.puzzle1studio.ap.brickoutshoottheball",
+      "bundleIdentifier": "com.puzzle1studio.ap.brickoutshoottheball",
+      "version": "25.0904.01",
+      "versionDate": "2025-09-05",
+      "fullDate": "20250905150418",
+      "size": 86606977,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-09-2025/BrickOut_25.0904.01_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-09-2025/BrickOut_25.0904.01_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IGG",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.puzzle1studio.ap.brickoutshoottheball.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.puzzle1studio.ap.brickoutshoottheball.png"
+    },
+    {
+      "name": "BeautyPlus",
+      "type": 1,
+      "bundleID": "com.commsource.BeautyPlus",
+      "bundleIdentifier": "com.commsource.BeautyPlus",
+      "version": "7.17.0",
+      "versionDate": "2025-09-05",
+      "fullDate": "20250905150349",
+      "size": 339083829,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-09-2025/BeautyPlus_7.17.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-09-2025/BeautyPlus_7.17.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.commsource.BeautyPlus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.commsource.BeautyPlus.png"
+    },
+    {
       "name": "Windyapp",
       "type": 1,
       "bundleID": "co.windyapp.Windy",
