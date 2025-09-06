@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Radarbot",
+      "type": 1,
+      "bundleID": "com.iteration-mobile.radarbot-free-ww",
+      "bundleIdentifier": "com.iteration-mobile.radarbot-free-ww",
+      "version": "9.30",
+      "versionDate": "2025-09-06",
+      "fullDate": "20250906210514",
+      "size": 305420906,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/Radarbot_9.30_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/Radarbot_9.30_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Gold",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iteration-mobile.radarbot-free-ww.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iteration-mobile.radarbot-free-ww.png"
+    },
+    {
+      "name": "Tarteel",
+      "type": 1,
+      "bundleID": "com.iqraapp.Iqra",
+      "bundleIdentifier": "com.iqraapp.Iqra",
+      "version": "5.66.1",
+      "versionDate": "2025-09-06",
+      "fullDate": "20250906210453",
+      "size": 111069168,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/Tarteel_5.66.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/Tarteel_5.66.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iqraapp.Iqra.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iqraapp.Iqra.png"
+    },
+    {
       "name": "Hevy",
       "type": 1,
       "bundleID": "com.hevyapp.hevy",
