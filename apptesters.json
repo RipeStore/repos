@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Moonly",
+      "type": 1,
+      "bundleID": "com.moonly.Moonly",
+      "bundleIdentifier": "com.moonly.Moonly",
+      "version": "2.4.4",
+      "versionDate": "2025-09-06",
+      "fullDate": "20250906163346",
+      "size": 275791288,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/Moonly_2.4.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/Moonly_2.4.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png"
+    },
+    {
       "name": "TeraBox",
       "type": 1,
       "bundleID": "com.dubox.drive",
