@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Textastic",
+      "type": 1,
+      "bundleID": "com.textasticapp.textastic-universal",
+      "bundleIdentifier": "com.textasticapp.textastic-universal",
+      "version": "10.7.5",
+      "versionDate": "2025-09-07",
+      "fullDate": "20250907003633",
+      "size": 10853099,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-09-2025/Textastic_10.7.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-09-2025/Textastic_10.7.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.textasticapp.textastic-universal.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.textasticapp.textastic-universal.png"
+    },
+    {
       "name": "Uplens",
       "type": 1,
       "bundleID": "app.uplens",
