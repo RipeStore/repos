@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Uplens",
+      "type": 1,
+      "bundleID": "app.uplens",
+      "bundleIdentifier": "app.uplens",
+      "version": "3.3.0",
+      "versionDate": "2025-09-06",
+      "fullDate": "20250906222556",
+      "size": 178759334,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/Uplens_3.3.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/Uplens_3.3.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.uplens.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.uplens.png"
+    },
+    {
       "name": "Facebook",
       "type": 1,
       "bundleID": "com.facebook.Facebook",
