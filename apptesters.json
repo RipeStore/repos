@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Facebook",
+      "type": 1,
+      "bundleID": "com.facebook.Facebook",
+      "bundleIdentifier": "com.facebook.Facebook",
+      "version": "529.1.0",
+      "versionDate": "2025-09-06",
+      "fullDate": "20250906220042",
+      "size": 159565062,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/Facebook_529.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2025/Facebook_529.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Facebook.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Facebook.png"
+    },
+    {
       "name": "Radarbot",
       "type": 1,
       "bundleID": "com.iteration-mobile.radarbot-free-ww",
