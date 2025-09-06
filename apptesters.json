@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Messenger",
+      "type": 1,
+      "bundleID": "com.facebook.Messenger",
+      "bundleIdentifier": "com.facebook.Messenger",
+      "version": "523.0.0",
+      "versionDate": "2025-09-07",
+      "fullDate": "20250907040223",
+      "size": 63284198,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-09-2025/Messenger_523.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-09-2025/Messenger_523.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png"
+    },
+    {
       "name": "iAWriter",
       "type": 1,
       "bundleID": "pro.writer",
