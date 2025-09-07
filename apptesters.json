@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SimplyGuitar",
+      "type": 1,
+      "bundleID": "com.joytunes.SimplyGuitar",
+      "bundleIdentifier": "com.joytunes.SimplyGuitar",
+      "version": "10.7",
+      "versionDate": "2025-09-07",
+      "fullDate": "20250907162944",
+      "size": 223526069,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-09-2025/SimplyGuitar_10.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-09-2025/SimplyGuitar_10.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.SimplyGuitar.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.SimplyGuitar.png"
+    },
+    {
+      "name": "SimplyPiano",
+      "type": 1,
+      "bundleID": "com.joytunes.asla",
+      "bundleIdentifier": "com.joytunes.asla",
+      "version": "9.10.30",
+      "versionDate": "2025-09-07",
+      "fullDate": "20250907162435",
+      "size": 136498302,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-09-2025/SimplyPiano_9.10.30_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-09-2025/SimplyPiano_9.10.30_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.asla.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.asla.png"
+    },
+    {
       "name": "FELFishEyeLens",
       "type": 1,
       "bundleID": "com.phantom.fantengmu",
