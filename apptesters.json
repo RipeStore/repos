@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "EPIK",
+      "type": 1,
+      "bundleID": "com.snowcorp.epik",
+      "bundleIdentifier": "com.snowcorp.epik",
+      "version": "6.3.4",
+      "versionDate": "2025-09-08",
+      "fullDate": "20250908052141",
+      "size": 163344791,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/EPIK_6.3.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/EPIK_6.3.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.epik.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.epik.png"
+    },
+    {
       "name": "FreeYourMusic",
       "type": 1,
       "bundleID": "io.stampapp.Stamp",
