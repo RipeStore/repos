@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Vixer",
+      "type": 1,
+      "bundleID": "com.vixerapp.Vixer",
+      "bundleIdentifier": "com.vixerapp.Vixer",
+      "version": "6.6",
+      "versionDate": "2025-09-07",
+      "fullDate": "20250907094314",
+      "size": 113855096,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-09-2025/Vixer_6.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-09-2025/Vixer_6.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vixerapp.Vixer.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vixerapp.Vixer.png"
+    },
+    {
       "name": "Messenger",
       "type": 1,
       "bundleID": "com.facebook.Messenger",
