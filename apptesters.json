@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Instagram",
+      "type": 1,
+      "bundleID": "com.burbn.instagram",
+      "bundleIdentifier": "com.burbn.instagram",
+      "version": "397.0.0",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909043607",
+      "size": 250755900,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Instagram_397.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Instagram_397.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png"
+    },
+    {
       "name": "VSCO",
       "type": 1,
       "bundleID": "co.visualsupply.cam",
