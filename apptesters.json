@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Truecaller",
+      "type": 1,
+      "bundleID": "com.truesoftware.TrueCallerOther",
+      "bundleIdentifier": "com.truesoftware.TrueCallerOther",
+      "version": "14.33.6",
+      "versionDate": "2025-09-08",
+      "fullDate": "20250908171034",
+      "size": 80757318,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/Truecaller_14.33.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/Truecaller_14.33.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.truesoftware.TrueCallerOther.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.truesoftware.TrueCallerOther.png"
+    },
+    {
       "name": "ColorPop",
       "type": 1,
       "bundleID": "com.mwm.procolor",
