@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "YouTubeMusic",
+      "type": 1,
+      "bundleID": "com.google.ios.youtubemusic",
+      "bundleIdentifier": "com.google.ios.youtubemusic",
+      "version": "8.36.2",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909012430",
+      "size": 97946345,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/YouTubeMusic_8.36.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/YouTubeMusic_8.36.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtubemusic.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtubemusic.png"
+    },
+    {
+      "name": "KeyLifts",
+      "type": 1,
+      "bundleID": "org.borrowedcache.ultimate531",
+      "bundleIdentifier": "org.borrowedcache.ultimate531",
+      "version": "5.16.11",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909011925",
+      "size": 27832802,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/KeyLifts_5.16.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/KeyLifts_5.16.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.borrowedcache.ultimate531.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.borrowedcache.ultimate531.png"
+    },
+    {
       "name": "Encode",
       "type": 1,
       "bundleID": "com.upskew.encode.ios",
