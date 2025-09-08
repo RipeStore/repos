@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "YouTubeOLED",
+      "type": 1,
+      "bundleID": "com.google.ios.youtube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "version": "20.36.3",
+      "versionDate": "2025-09-08",
+      "fullDate": "20250908233355",
+      "size": 128504222,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/YouTubeOLED_20.36.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/YouTubeOLED_20.36.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png"
+    },
+    {
+      "name": "Threads",
+      "type": 1,
+      "bundleID": "com.burbn.barcelona",
+      "bundleIdentifier": "com.burbn.barcelona",
+      "version": "397.0.0",
+      "versionDate": "2025-09-08",
+      "fullDate": "20250908232847",
+      "size": 64568410,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/Threads_397.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/Threads_397.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.barcelona.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.barcelona.png"
+    },
+    {
       "name": "Dropshare",
       "type": 1,
       "bundleID": "net.mkswap.Dropshare-iOS",
