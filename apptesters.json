@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Videoleap",
+      "type": 1,
+      "bundleID": "com.lightricks.Enlight-Video",
+      "bundleIdentifier": "com.lightricks.Enlight-Video",
+      "version": "2.78",
+      "versionDate": "2025-09-08",
+      "fullDate": "20250908115756",
+      "size": 392861490,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/Videoleap_2.78_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/Videoleap_2.78_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Video.png"
+    },
+    {
+      "name": "X",
+      "type": 1,
+      "bundleID": "com.atebits.Tweetie2",
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "version": "11.20",
+      "versionDate": "2025-09-08",
+      "fullDate": "20250908113744",
+      "size": 172699778,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/X_11.20_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/X_11.20_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atebits.Tweetie2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atebits.Tweetie2.png"
+    },
+    {
       "name": "Unscripted",
       "type": 1,
       "bundleID": "com.ibit.UNPOSED",
