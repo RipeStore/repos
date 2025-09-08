@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AlightMotion",
+      "type": 1,
+      "bundleID": "com.alightcreative.motion",
+      "bundleIdentifier": "com.alightcreative.motion",
+      "version": "6.2.37",
+      "versionDate": "2025-09-08",
+      "fullDate": "20250908211221",
+      "size": 122441812,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/AlightMotion_6.2.37_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-09-2025/AlightMotion_6.2.37_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alightcreative.motion.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alightcreative.motion.png"
+    },
+    {
       "name": "Noteshelf3",
       "type": 1,
       "bundleID": "com.fluidtouch.noteshelf3",
