@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VSCO",
+      "type": 1,
+      "bundleID": "co.visualsupply.cam",
+      "bundleIdentifier": "co.visualsupply.cam",
+      "version": "439.0.0",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909040549",
+      "size": 162592331,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/VSCO_439.0.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/VSCO_439.0.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png"
+    },
+    {
       "name": "MyScriptNotes",
       "type": 1,
       "bundleID": "com.myscript.nebo",
