@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Dazz",
+      "type": 1,
+      "bundleID": "dazz.camera.vintagecamera",
+      "bundleIdentifier": "dazz.camera.vintagecamera",
+      "version": "2.9.18",
+      "versionDate": "2025-09-10",
+      "fullDate": "20250910020255",
+      "size": 109295781,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/Dazz_2.9.18_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/Dazz_2.9.18_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/dazz.camera.vintagecamera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/dazz.camera.vintagecamera.png"
+    },
+    {
       "name": "MyFitnessPal",
       "type": 1,
       "bundleID": "com.myfitnesspal.mfp",
