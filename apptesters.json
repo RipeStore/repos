@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Clarity",
+      "type": 1,
+      "bundleID": "com.moodtools.thoughtdiary",
+      "bundleIdentifier": "com.moodtools.thoughtdiary",
+      "version": "5.5.4",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909131341",
+      "size": 216019460,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Clarity_5.5.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Clarity_5.5.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moodtools.thoughtdiary.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moodtools.thoughtdiary.png"
+    },
+    {
       "name": "TeraBox",
       "type": 1,
       "bundleID": "com.dubox.drive",
