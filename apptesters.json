@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Bazaart",
+      "type": 1,
+      "bundleID": "co.bazaart.app",
+      "bundleIdentifier": "co.bazaart.app",
+      "version": "10.8.1",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909164154",
+      "size": 89355380,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Bazaart_10.8.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Bazaart_10.8.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.bazaart.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.bazaart.app.png"
+    },
+    {
       "name": "Mondly",
       "type": 1,
       "bundleID": "com.atistudios.MondlyLanguages",
