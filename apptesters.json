@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Phocus",
+      "type": 1,
+      "bundleID": "com.ahmetserdarkaradeniz.Phocus",
+      "bundleIdentifier": "com.ahmetserdarkaradeniz.Phocus",
+      "version": "3.0.5",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909142932",
+      "size": 208714047,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Phocus_3.0.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Phocus_3.0.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahmetserdarkaradeniz.Phocus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahmetserdarkaradeniz.Phocus.png"
+    },
+    {
+      "name": "Unfold",
+      "type": 1,
+      "bundleID": "com.moonlab.unfoldstories",
+      "bundleIdentifier": "com.moonlab.unfoldstories",
+      "version": "8.145.0",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909142925",
+      "size": 165105688,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Unfold_8.145.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Unfold_8.145.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonlab.unfoldstories.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonlab.unfoldstories.png"
+    },
+    {
       "name": "PicsArt",
       "type": 1,
       "bundleID": "com.picsart.studio",
