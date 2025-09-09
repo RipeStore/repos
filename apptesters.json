@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "MacroFactor",
+      "type": 1,
+      "bundleID": "com.sbs.diet",
+      "bundleIdentifier": "com.sbs.diet",
+      "version": "5.4.0",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909213617",
+      "size": 79180749,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/MacroFactor_5.4.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/MacroFactor_5.4.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png"
+    },
+    {
+      "name": "PlantApp",
+      "type": 1,
+      "bundleID": "com.scaleup.plantid",
+      "bundleIdentifier": "com.scaleup.plantid",
+      "version": "3.1.9",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909213610",
+      "size": 86245893,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/PlantApp_3.1.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/PlantApp_3.1.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.scaleup.plantid.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.scaleup.plantid.png"
+    },
+    {
       "name": "Rest",
       "type": 1,
       "bundleID": "com.evolve.helm",
