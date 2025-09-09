@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Mondly",
+      "type": 1,
+      "bundleID": "com.atistudios.MondlyLanguages",
+      "bundleIdentifier": "com.atistudios.MondlyLanguages",
+      "version": "10.58.0",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909154629",
+      "size": 192388271,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Mondly_10.58.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Mondly_10.58.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atistudios.MondlyLanguages.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atistudios.MondlyLanguages.png"
+    },
+    {
+      "name": "Wallcraft",
+      "type": 1,
+      "bundleID": "com.wallpaperscraft.wallpapers",
+      "bundleIdentifier": "com.wallpaperscraft.wallpapers",
+      "version": "3.28",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909154025",
+      "size": 95642934,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Wallcraft_3.28_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Wallcraft_3.28_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wallpaperscraft.wallpapers.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wallpaperscraft.wallpapers.png"
+    },
+    {
       "name": "Focos",
       "type": 1,
       "bundleID": "com.focos",
