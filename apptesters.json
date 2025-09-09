@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Locket",
+      "type": 1,
+      "bundleID": "com.locket.Locket",
+      "bundleIdentifier": "com.locket.Locket",
+      "version": "2.12.1",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909095735",
+      "size": 143214900,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Locket_2.12.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Locket_2.12.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Gold",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.intsig.CamScannerLite",
