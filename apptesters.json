@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Focos",
+      "type": 1,
+      "bundleID": "com.focos",
+      "bundleIdentifier": "com.focos",
+      "version": "2.11.35",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909151505",
+      "size": 326984555,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Focos_2.11.35_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/Focos_2.11.35_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.focos.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.focos.png"
+    },
+    {
       "name": "Mojo",
       "type": 1,
       "bundleID": "archery.storify",
