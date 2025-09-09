@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Headway",
+      "type": 1,
+      "bundleID": "com.headway.books",
+      "bundleIdentifier": "com.headway.books",
+      "version": "346.5",
+      "versionDate": "2025-09-10",
+      "fullDate": "20250910005658",
+      "size": 317241473,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/Headway_346.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/Headway_346.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png"
+    },
+    {
       "name": "MacroFactor",
       "type": 1,
       "bundleID": "com.sbs.diet",
