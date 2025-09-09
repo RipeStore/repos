@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MyFitnessPal",
+      "type": 1,
+      "bundleID": "com.myfitnesspal.mfp",
+      "bundleIdentifier": "com.myfitnesspal.mfp",
+      "version": "25.36.0",
+      "versionDate": "2025-09-10",
+      "fullDate": "20250910011228",
+      "size": 124045388,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/MyFitnessPal_25.36.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/MyFitnessPal_25.36.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myfitnesspal.mfp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myfitnesspal.mfp.png"
+    },
+    {
       "name": "Headway",
       "type": 1,
       "bundleID": "com.headway.books",
