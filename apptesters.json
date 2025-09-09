@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SimplePi",
+      "type": 1,
+      "bundleID": "me.hirmer.SimplePi.free",
+      "bundleIdentifier": "me.hirmer.SimplePi.free",
+      "version": "3.3.1",
+      "versionDate": "2025-09-10",
+      "fullDate": "20250910040426",
+      "size": 8765247,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/SimplePi_3.3.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/SimplePi_3.3.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/me.hirmer.SimplePi.free.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/me.hirmer.SimplePi.free.png"
+    },
+    {
       "name": "YAZIO",
       "type": 1,
       "bundleID": "com.yazio.ios.YAZIO",
