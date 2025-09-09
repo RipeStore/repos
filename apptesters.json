@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "PicsArt",
+      "type": 1,
+      "bundleID": "com.picsart.studio",
+      "bundleIdentifier": "com.picsart.studio",
+      "version": "28.3.2",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909140413",
+      "size": 112702396,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/PicsArt_28.3.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/PicsArt_28.3.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png"
+    },
+    {
+      "name": "SleepMonitor",
+      "type": 1,
+      "bundleID": "com.sleepmonitor.aio",
+      "bundleIdentifier": "com.sleepmonitor.aio",
+      "version": "2.6.1",
+      "versionDate": "2025-09-09",
+      "fullDate": "20250909135857",
+      "size": 272522282,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/SleepMonitor_2.6.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/SleepMonitor_2.6.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sleepmonitor.aio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sleepmonitor.aio.png"
+    },
+    {
       "name": "Clarity",
       "type": 1,
       "bundleID": "com.moodtools.thoughtdiary",
