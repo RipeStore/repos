@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TikTok",
+      "type": 1,
+      "bundleID": "com.zhiliaoapp.musically",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "version": "41.6.0",
+      "versionDate": "2025-09-10",
+      "fullDate": "20250910105525",
+      "size": 360096567,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/TikTok_41.6.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/TikTok_41.6.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png"
+    },
+    {
       "name": "SimplePi",
       "type": 1,
       "bundleID": "me.hirmer.SimplePi.free",
