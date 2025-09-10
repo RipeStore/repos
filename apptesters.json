@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Buddy",
+      "type": 1,
+      "bundleID": "com.iPwners.Plonkan",
+      "bundleIdentifier": "com.iPwners.Plonkan",
+      "version": "12.64",
+      "versionDate": "2025-09-11",
+      "fullDate": "20250911041643",
+      "size": 68442564,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/Buddy_12.64_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/Buddy_12.64_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iPwners.Plonkan.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iPwners.Plonkan.png"
+    },
+    {
       "name": "Foodie",
       "type": 1,
       "bundleID": "com.linecorp.Foodie",
