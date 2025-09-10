@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VivaCut",
+      "type": 1,
+      "bundleID": "com.vivacut.videoeditor",
+      "bundleIdentifier": "com.vivacut.videoeditor",
+      "version": "4.4.6",
+      "versionDate": "2025-09-10",
+      "fullDate": "20250910115555",
+      "size": 220569710,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/VivaCut_4.4.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/VivaCut_4.4.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vivacut.videoeditor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vivacut.videoeditor.png"
+    },
+    {
       "name": "TikTok",
       "type": 1,
       "bundleID": "com.zhiliaoapp.musically",
