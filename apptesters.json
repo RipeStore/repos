@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Documents",
+      "type": 1,
+      "bundleID": "com.readdle.ReaddleDocsIPad",
+      "bundleIdentifier": "com.readdle.ReaddleDocsIPad",
+      "version": "8.17.8",
+      "versionDate": "2025-09-10",
+      "fullDate": "20250910123616",
+      "size": 265072196,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/Documents_8.17.8_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-09-2025/Documents_8.17.8_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Plus",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.ReaddleDocsIPad.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.ReaddleDocsIPad.png"
+    },
+    {
       "name": "VivaCut",
       "type": 1,
       "bundleID": "com.vivacut.videoeditor",
