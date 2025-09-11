@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Stepz",
+      "type": 1,
+      "bundleID": "com.visualhype.pedometer",
+      "bundleIdentifier": "com.visualhype.pedometer",
+      "version": "4.10.29",
+      "versionDate": "2025-09-11",
+      "fullDate": "20250911134246",
+      "size": 26712217,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/Stepz_4.10.29_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/Stepz_4.10.29_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.visualhype.pedometer.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.visualhype.pedometer.png"
+    },
+    {
+      "name": "SpeakTranslate",
+      "type": 1,
+      "bundleID": "com.appicfun.translatorfree",
+      "bundleIdentifier": "com.appicfun.translatorfree",
+      "version": "6.0.47",
+      "versionDate": "2025-09-11",
+      "fullDate": "20250911134244",
+      "size": 40958231,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/SpeakTranslate_6.0.47_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/SpeakTranslate_6.0.47_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.appicfun.translatorfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.appicfun.translatorfree.png"
+    },
+    {
       "name": "Buddy",
       "type": 1,
       "bundleID": "com.iPwners.Plonkan",
