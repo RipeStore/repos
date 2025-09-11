@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "RiseSleep",
+      "type": 1,
+      "bundleID": "com.risesci.nyx",
+      "bundleIdentifier": "com.risesci.nyx",
+      "version": "0.1.534",
+      "versionDate": "2025-09-11",
+      "fullDate": "20250911200034",
+      "size": 112550027,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/RiseSleep_0.1.534_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/RiseSleep_0.1.534_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png"
+    },
+    {
+      "name": "Captions",
+      "type": 1,
+      "bundleID": "boomer.Smart-Video",
+      "bundleIdentifier": "boomer.Smart-Video",
+      "version": "12.35.0",
+      "versionDate": "2025-09-11",
+      "fullDate": "20250911195510",
+      "size": 389262230,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/Captions_12.35.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/Captions_12.35.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png"
+    },
+    {
       "name": "1Blocker",
       "type": 1,
       "bundleID": "com.khanov.BlockerX",
