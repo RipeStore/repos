@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Splash",
+      "type": 1,
+      "bundleID": "app.cranberry.splash",
+      "bundleIdentifier": "app.cranberry.splash",
+      "version": "2.0.6",
+      "versionDate": "2025-09-11",
+      "fullDate": "20250911145828",
+      "size": 136562039,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/Splash_2.0.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/Splash_2.0.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.cranberry.splash.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.cranberry.splash.png"
+    },
+    {
       "name": "Photoleap",
       "type": 1,
       "bundleID": "com.lightricks.Enlight-Editor",
