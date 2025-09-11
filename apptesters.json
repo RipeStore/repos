@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ColorPop",
+      "type": 1,
+      "bundleID": "com.mwm.procolor",
+      "bundleIdentifier": "com.mwm.procolor",
+      "version": "2.55.05",
+      "versionDate": "2025-09-11",
+      "fullDate": "20250911203058",
+      "size": 255276869,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/ColorPop_2.55.05_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/ColorPop_2.55.05_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png"
+    },
+    {
       "name": "Compress",
       "type": 1,
       "bundleID": "com.newmarketinglab.ImageCompressor",
