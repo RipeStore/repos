@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Photoroom",
+      "type": 1,
+      "bundleID": "com.dr1ven.eraser",
+      "bundleIdentifier": "com.dr1ven.eraser",
+      "version": "2025.36.01",
+      "versionDate": "2025-09-11",
+      "fullDate": "20250911230141",
+      "size": 115024530,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/Photoroom_2025.36.01_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/Photoroom_2025.36.01_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png"
+    },
+    {
+      "name": "AllTrails",
+      "type": 1,
+      "bundleID": "com.alltrails.AllTrails",
+      "bundleIdentifier": "com.alltrails.AllTrails",
+      "version": "25.9.20",
+      "versionDate": "2025-09-11",
+      "fullDate": "20250911230130",
+      "size": 110034721,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/AllTrails_25.9.20_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/AllTrails_25.9.20_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alltrails.AllTrails.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alltrails.AllTrails.png"
+    },
+    {
       "name": "ColorPop",
       "type": 1,
       "bundleID": "com.mwm.procolor",
