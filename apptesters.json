@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "ReversoContext",
+      "type": 1,
+      "bundleID": "com.softissimo.ReversoContext",
+      "bundleIdentifier": "com.softissimo.ReversoContext",
+      "version": "15.6",
+      "versionDate": "2025-09-11",
+      "fullDate": "20250911232252",
+      "size": 175244632,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/ReversoContext_15.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/ReversoContext_15.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.softissimo.ReversoContext.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.softissimo.ReversoContext.png"
+    },
+    {
+      "name": "MergeCooking",
+      "type": 2,
+      "bundleID": "com.merge.cooking.theme.restaurant.food",
+      "bundleIdentifier": "com.merge.cooking.theme.restaurant.food",
+      "version": "1.11.0",
+      "versionDate": "2025-09-11",
+      "fullDate": "20250911231738",
+      "size": 293000787,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/MergeCooking_1.11.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-09-2025/MergeCooking_1.11.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png"
+    },
+    {
       "name": "AutoCAD",
       "type": 1,
       "bundleID": "com.autodesk.autocadws",
