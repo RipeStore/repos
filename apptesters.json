@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AlightMotion",
+      "type": 1,
+      "bundleID": "com.alightcreative.motion",
+      "bundleIdentifier": "com.alightcreative.motion",
+      "version": "6.2.38",
+      "versionDate": "2025-09-12",
+      "fullDate": "20250912125645",
+      "size": 124808097,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-09-2025/AlightMotion_6.2.38_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-09-2025/AlightMotion_6.2.38_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alightcreative.motion.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alightcreative.motion.png"
+    },
+    {
       "name": "Bazaart",
       "type": 1,
       "bundleID": "co.bazaart.app",
