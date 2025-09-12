@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Mercury",
+      "type": 1,
+      "bundleID": "com.tripleglazedstudios.Weather",
+      "bundleIdentifier": "com.tripleglazedstudios.Weather",
+      "version": "2.13",
+      "versionDate": "2025-09-13",
+      "fullDate": "20250913014755",
+      "size": 52602332,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2025/Mercury_2.13_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2025/Mercury_2.13_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tripleglazedstudios.Weather.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tripleglazedstudios.Weather.png"
+    },
+    {
       "name": "Instagram",
       "type": 1,
       "bundleID": "com.burbn.instagram",
