@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Beelinguapp",
+      "type": 1,
+      "bundleID": "com.beelinguapp.beelinguapp",
+      "bundleIdentifier": "com.beelinguapp.beelinguapp",
+      "version": "3.8.39",
+      "versionDate": "2025-09-13",
+      "fullDate": "20250913151457",
+      "size": 63836091,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2025/Beelinguapp_3.8.39_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2025/Beelinguapp_3.8.39_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.beelinguapp.beelinguapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.beelinguapp.beelinguapp.png"
+    },
+    {
+      "name": "RenovateAI",
+      "type": 1,
+      "bundleID": "app.renovateai",
+      "bundleIdentifier": "app.renovateai",
+      "version": "4.4.59",
+      "versionDate": "2025-09-13",
+      "fullDate": "20250913151453",
+      "size": 60801725,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2025/RenovateAI_4.4.59_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2025/RenovateAI_4.4.59_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.renovateai.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.renovateai.png"
+    },
+    {
       "name": "Documents",
       "type": 1,
       "bundleID": "com.readdle.ReaddleDocsIPad",
