@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Facebook",
+      "type": 1,
+      "bundleID": "com.facebook.Facebook",
+      "bundleIdentifier": "com.facebook.Facebook",
+      "version": "530.0.0",
+      "versionDate": "2025-09-13",
+      "fullDate": "20250913134930",
+      "size": 161259978,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2025/Facebook_530.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2025/Facebook_530.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Facebook.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Facebook.png"
+    },
+    {
       "name": "Locket",
       "type": 1,
       "bundleID": "com.locket.Locket",
