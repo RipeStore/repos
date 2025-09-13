@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "LumaFusion",
+      "type": 1,
+      "bundleID": "com.luma-touch.LumaFusion",
+      "bundleIdentifier": "com.luma-touch.LumaFusion",
+      "version": "5.3.2",
+      "versionDate": "2025-09-13",
+      "fullDate": "20250913153521",
+      "size": 165836897,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2025/LumaFusion_5.3.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2025/LumaFusion_5.3.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.luma-touch.LumaFusion.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.luma-touch.LumaFusion.png"
+    },
+    {
+      "name": "Noir",
+      "type": 1,
+      "bundleID": "nl.jeffreykuiken.NoirApp",
+      "bundleIdentifier": "nl.jeffreykuiken.NoirApp",
+      "version": "2025.1.8",
+      "versionDate": "2025-09-13",
+      "fullDate": "20250913153018",
+      "size": 9754813,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2025/Noir_2025.1.8_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2025/Noir_2025.1.8_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nl.jeffreykuiken.NoirApp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nl.jeffreykuiken.NoirApp.png"
+    },
+    {
       "name": "AlphaProgr",
       "type": 1,
       "bundleID": "com.alphaprogression.alphaprogression",
