@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Anime",
+      "type": 1,
+      "bundleID": "com.wallpapershub.anime",
+      "bundleIdentifier": "com.wallpapershub.anime",
+      "version": "4.0",
+      "versionDate": "2025-09-14",
+      "fullDate": "20250914202038",
+      "size": 114900323,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-09-2025/Anime_4.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-09-2025/Anime_4.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wallpapershub.anime.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wallpapershub.anime.png"
+    },
+    {
       "name": "ThePiano",
       "type": 2,
       "bundleID": "com.impalastudios.pianofree",
