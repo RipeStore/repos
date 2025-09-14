@@ -380,22 +380,6 @@
       "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png"
     },
     {
-      "name": "NBv63265",
-      "type": 1,
-      "bundleID": "nt.nb.ios",
-      "bundleIdentifier": "nt.nb.ios",
-      "version": "63.265",
-      "versionDate": "2025-09-12",
-      "fullDate": "20250912214612",
-      "size": 884682207,
-      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-09-2025/NBv63265_63.265_Premium_%40thisismanpreets_apptesters.org.ipa",
-      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-09-2025/NBv63265_63.265_Premium_%40thisismanpreets_apptesters.org.ipa",
-      "developerName": "",
-      "localizedDescription": "Injected with Premium",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nt.nb.ios.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nt.nb.ios.png"
-    },
-    {
       "name": "Komoot",
       "type": 1,
       "bundleID": "de.komoot.berlinbikeapp",
