@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PictureThis",
+      "type": 1,
+      "bundleID": "cn.danatech.xingseus",
+      "bundleIdentifier": "cn.danatech.xingseus",
+      "version": "5.30.0",
+      "versionDate": "2025-09-22",
+      "fullDate": "20250922090722",
+      "size": 128414766,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-09-2025/PictureThis_5.30.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-09-2025/PictureThis_5.30.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/cn.danatech.xingseus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/cn.danatech.xingseus.png"
+    },
+    {
       "name": "MobileScanner",
       "type": 1,
       "bundleID": "com.glority.everlens",
