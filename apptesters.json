@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Osmosis",
+      "type": 1,
+      "bundleID": "com.osmose-it.osmosis",
+      "bundleIdentifier": "com.osmose-it.osmosis",
+      "version": "5.6.12",
+      "versionDate": "2025-09-22",
+      "fullDate": "20250922123256",
+      "size": 23033275,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-09-2025/Osmosis_5.6.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-09-2025/Osmosis_5.6.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.osmose-it.osmosis.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.osmose-it.osmosis.png"
+    },
+    {
       "name": "FitnessAI",
       "type": 1,
       "bundleID": "com.jakemor.firness-ai",
