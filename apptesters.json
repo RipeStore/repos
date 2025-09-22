@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Stndrd",
+      "type": 1,
+      "bundleID": "uni.cbum",
+      "bundleIdentifier": "uni.cbum",
+      "version": "4.1.13",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923033341",
+      "size": 86204339,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Stndrd_4.1.13_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Stndrd_4.1.13_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/uni.cbum.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/uni.cbum.png"
+    },
+    {
       "name": "Widgetsmith",
       "type": 1,
       "bundleID": "com.crossforward.WidgetSmith",
