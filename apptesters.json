@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "OldRoll",
+      "type": 1,
+      "bundleID": "com.zijayrate.analogcam",
+      "bundleIdentifier": "com.zijayrate.analogcam",
+      "version": "7.8.0",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923005821",
+      "size": 150705218,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/OldRoll_7.8.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/OldRoll_7.8.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zijayrate.analogcam.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zijayrate.analogcam.png"
+    },
+    {
+      "name": "ToonMe",
+      "type": 1,
+      "bundleID": "com.informelab.toonme",
+      "bundleIdentifier": "com.informelab.toonme",
+      "version": "0.11.26",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923005315",
+      "size": 136234726,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/ToonMe_0.11.26_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/ToonMe_0.11.26_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.informelab.toonme.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.informelab.toonme.png"
+    },
+    {
       "name": "Mondly",
       "type": 1,
       "bundleID": "com.atistudios.MondlyLanguages",
