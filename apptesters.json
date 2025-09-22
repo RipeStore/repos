@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Bend",
+      "type": 1,
+      "bundleID": "com.bowery-digital.bend",
+      "bundleIdentifier": "com.bowery-digital.bend",
+      "version": "6.5.2",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923044355",
+      "size": 91973928,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Bend_6.5.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Bend_6.5.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bowery-digital.bend.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bowery-digital.bend.png"
+    },
+    {
+      "name": "Threads",
+      "type": 1,
+      "bundleID": "com.burbn.barcelona",
+      "bundleIdentifier": "com.burbn.barcelona",
+      "version": "399.0.0",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923043851",
+      "size": 53541305,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Threads_399.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Threads_399.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.barcelona.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.barcelona.png"
+    },
+    {
       "name": "CMProCalc",
       "type": 1,
       "bundleID": "com.calculated.laurene",
