@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Widgetsmith",
+      "type": 1,
+      "bundleID": "com.crossforward.WidgetSmith",
+      "bundleIdentifier": "com.crossforward.WidgetSmith",
+      "version": "8.0.2",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923014330",
+      "size": 96336591,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Widgetsmith_8.0.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Widgetsmith_8.0.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.crossforward.WidgetSmith.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.crossforward.WidgetSmith.png"
+    },
+    {
       "name": "OldRoll",
       "type": 1,
       "bundleID": "com.zijayrate.analogcam",
