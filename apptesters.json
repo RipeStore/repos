@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "",
+      "type": 1,
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "version": "7.3.0",
+      "versionDate": "2025-09-22",
+      "fullDate": "20250922092228",
+      "size": 186645044,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-09-2025/_7.3.0_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-09-2025/_7.3.0_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with VIP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+    },
+    {
       "name": "PictureThis",
       "type": 1,
       "bundleID": "cn.danatech.xingseus",
