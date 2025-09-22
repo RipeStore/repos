@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FarmVille2",
+      "type": 2,
+      "bundleID": "com.zynga.FarmVille2CountryEscape",
+      "bundleIdentifier": "com.zynga.FarmVille2CountryEscape",
+      "version": "28.4",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923044900",
+      "size": 307701847,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/FarmVille2_28.4_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/FarmVille2_28.4_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IGG",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zynga.FarmVille2CountryEscape.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zynga.FarmVille2CountryEscape.png"
+    },
+    {
       "name": "Bend",
       "type": 1,
       "bundleID": "com.bowery-digital.bend",
