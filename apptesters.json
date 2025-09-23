@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VlogNow",
+      "type": 1,
+      "bundleID": "com.frontrow.vlog",
+      "bundleIdentifier": "com.frontrow.vlog",
+      "version": "1.101",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923091936",
+      "size": 351758690,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/VlogNow_1.101_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/VlogNow_1.101_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontrow.vlog.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontrow.vlog.png"
+    },
+    {
       "name": "MapleReadCX",
       "type": 1,
       "bundleID": "com.maplepop.bmcx",
