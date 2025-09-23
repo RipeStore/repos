@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "YouTubeOLED",
+      "type": 1,
+      "bundleID": "com.google.ios.youtube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "version": "20.38.4",
+      "versionDate": "2025-09-24",
+      "fullDate": "20250924035809",
+      "size": 126935496,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-09-2025/YouTubeOLED_20.38.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-09-2025/YouTubeOLED_20.38.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png"
+    },
+    {
+      "name": "MyFitnessPal",
+      "type": 1,
+      "bundleID": "com.myfitnesspal.mfp",
+      "bundleIdentifier": "com.myfitnesspal.mfp",
+      "version": "25.38.0",
+      "versionDate": "2025-09-24",
+      "fullDate": "20250924035804",
+      "size": 119498536,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-09-2025/MyFitnessPal_25.38.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-09-2025/MyFitnessPal_25.38.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myfitnesspal.mfp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myfitnesspal.mfp.png"
+    },
+    {
       "name": "Rest",
       "type": 1,
       "bundleID": "com.evolve.helm",
