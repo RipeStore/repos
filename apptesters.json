@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Twitter",
+      "type": 1,
+      "bundleID": "com.atebits.Tweetie2",
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "version": "11.24.1",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923221657",
+      "size": 151598581,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Twitter_11.24.1_Unlocked_All_Functions_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Twitter_11.24.1_Unlocked_All_Functions_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Unlocked All Functions",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atebits.Tweetie2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atebits.Tweetie2.png"
+    },
+    {
+      "name": "Hevy",
+      "type": 1,
+      "bundleID": "com.hevyapp.hevy",
+      "bundleIdentifier": "com.hevyapp.hevy",
+      "version": "2.4.7",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923221652",
+      "size": 138057581,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Hevy_2.4.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Hevy_2.4.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png"
+    },
+    {
       "name": "TinyDecisions",
       "type": 1,
       "bundleID": "com.nixwang.decision",
