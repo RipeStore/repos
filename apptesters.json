@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "PlaneFinder",
+      "type": 1,
+      "bundleID": "uk.co.leeus.planefinderfree",
+      "bundleIdentifier": "uk.co.leeus.planefinderfree",
+      "version": "2025.5.1",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923130046",
+      "size": 110625663,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/PlaneFinder_2025.5.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/PlaneFinder_2025.5.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/uk.co.leeus.planefinderfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/uk.co.leeus.planefinderfree.png"
+    },
+    {
+      "name": "Unscripted",
+      "type": 1,
+      "bundleID": "com.ibit.UNPOSED",
+      "bundleIdentifier": "com.ibit.UNPOSED",
+      "version": "4.5.2",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923130041",
+      "size": 134352177,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Unscripted_4.5.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Unscripted_4.5.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ibit.UNPOSED.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ibit.UNPOSED.png"
+    },
+    {
       "name": "Fitbod",
       "type": 1,
       "bundleID": "com.fitbod",
