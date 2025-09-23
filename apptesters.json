@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TinyDecisions",
+      "type": 1,
+      "bundleID": "com.nixwang.decision",
+      "bundleIdentifier": "com.nixwang.decision",
+      "version": "25.9.4",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923202643",
+      "size": 51168995,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/TinyDecisions_25.9.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/TinyDecisions_25.9.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.nixwang.decision.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.nixwang.decision.png"
+    },
+    {
       "name": "CLIME",
       "type": 1,
       "bundleID": "com.apalonapps.radarfree",
