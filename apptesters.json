@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "LingoDeer",
+      "type": 1,
+      "bundleID": "com.lingodeer",
+      "bundleIdentifier": "com.lingodeer",
+      "version": "3.0.12",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923130551",
+      "size": 138426479,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/LingoDeer_3.0.12_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/LingoDeer_3.0.12_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lingodeer.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lingodeer.png"
+    },
+    {
       "name": "PlaneFinder",
       "type": 1,
       "bundleID": "uk.co.leeus.planefinderfree",
