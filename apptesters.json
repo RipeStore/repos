@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Lingokids",
+      "type": 1,
+      "bundleID": "es.monkimun.lingokids",
+      "bundleIdentifier": "es.monkimun.lingokids",
+      "version": "8.123.1",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923114457",
+      "size": 93730801,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Lingokids_8.123.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/Lingokids_8.123.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/es.monkimun.lingokids.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/es.monkimun.lingokids.png"
+    },
+    {
       "name": "VlogNow",
       "type": 1,
       "bundleID": "com.frontrow.vlog",
