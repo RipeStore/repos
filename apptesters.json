@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "CLIME",
+      "type": 1,
+      "bundleID": "com.apalonapps.radarfree",
+      "bundleIdentifier": "com.apalonapps.radarfree",
+      "version": "5.13.59",
+      "versionDate": "2025-09-23",
+      "fullDate": "20250923165125",
+      "size": 142265402,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/CLIME_5.13.59_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-09-2025/CLIME_5.13.59_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.radarfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.radarfree.png"
+    },
+    {
       "name": "GALATEA",
       "type": 1,
       "bundleID": "org.reactjs.native.Inkitt.App.Colt",
