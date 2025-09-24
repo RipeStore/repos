@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "OfflineMusic",
+      "type": 1,
+      "bundleID": "com.offlinemusic",
+      "bundleIdentifier": "com.offlinemusic",
+      "version": "3.6.9",
+      "versionDate": "2025-09-25",
+      "fullDate": "20250925013803",
+      "size": 94760039,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-09-2025/OfflineMusic_3.6.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-09-2025/OfflineMusic_3.6.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.offlinemusic.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.offlinemusic.png"
+    },
+    {
       "name": "TuneInRadio",
       "type": 1,
       "bundleID": "com.alexanderben.RadioIn",
