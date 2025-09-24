@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "TuneInRadio",
+      "type": 1,
+      "bundleID": "com.alexanderben.RadioIn",
+      "bundleIdentifier": "com.alexanderben.RadioIn",
+      "version": "40.1.0",
+      "versionDate": "2025-09-25",
+      "fullDate": "20250925001254",
+      "size": 70483489,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-09-2025/TuneInRadio_40.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-09-2025/TuneInRadio_40.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alexanderben.RadioIn.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alexanderben.RadioIn.png"
+    },
+    {
+      "name": "Trace",
+      "type": 1,
+      "bundleID": "com.morpholioapps.trace",
+      "bundleIdentifier": "com.morpholioapps.trace",
+      "version": "6.72",
+      "versionDate": "2025-09-25",
+      "fullDate": "20250925001239",
+      "size": 387666209,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-09-2025/Trace_6.72_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-09-2025/Trace_6.72_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.morpholioapps.trace.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.morpholioapps.trace.png"
+    },
+    {
       "name": "flipclock",
       "type": 1,
       "bundleID": "com.cuilingshi.flipclock",
