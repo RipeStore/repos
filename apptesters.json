@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Liit",
+      "type": 1,
+      "bundleID": "liit.photovideo.editor",
+      "bundleIdentifier": "liit.photovideo.editor",
+      "version": "1.5.4",
+      "versionDate": "2025-09-25",
+      "fullDate": "20250925035318",
+      "size": 42673388,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-09-2025/Liit_1.5.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-09-2025/Liit_1.5.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/liit.photovideo.editor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/liit.photovideo.editor.png"
+    },
+    {
+      "name": "Coconote",
+      "type": 1,
+      "bundleID": "com.bbauman.Scripty",
+      "bundleIdentifier": "com.bbauman.Scripty",
+      "version": "2.15",
+      "versionDate": "2025-09-25",
+      "fullDate": "20250925035316",
+      "size": 40587226,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-09-2025/Coconote_2.15_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-09-2025/Coconote_2.15_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bbauman.Scripty.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bbauman.Scripty.png"
+    },
+    {
       "name": "OfflineMusic",
       "type": 1,
       "bundleID": "com.offlinemusic",
