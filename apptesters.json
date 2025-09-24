@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "KineMaster",
+      "type": 1,
+      "bundleID": "com.kinemaster.kios",
+      "bundleIdentifier": "com.kinemaster.kios",
+      "version": "7.8.9",
+      "versionDate": "2025-09-24",
+      "fullDate": "20250924172049",
+      "size": 111690220,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-09-2025/KineMaster_7.8.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-09-2025/KineMaster_7.8.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kinemaster.kios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kinemaster.kios.png"
+    },
+    {
       "name": "Headway",
       "type": 1,
       "bundleID": "com.headway.books",
