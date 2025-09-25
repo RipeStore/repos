@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Pillow",
+      "type": 1,
+      "bundleID": "com.neybox.Pillow",
+      "bundleIdentifier": "com.neybox.Pillow",
+      "version": "6.1.1",
+      "versionDate": "2025-09-26",
+      "fullDate": "20250926050730",
+      "size": 485419124,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-09-2025/Pillow_6.1.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-09-2025/Pillow_6.1.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png"
+    },
+    {
       "name": "Locket",
       "type": 1,
       "bundleID": "com.locket.Locket",
