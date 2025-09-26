@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Headway",
+      "type": 1,
+      "bundleID": "com.headway.books",
+      "bundleIdentifier": "com.headway.books",
+      "version": "349.1",
+      "versionDate": "2025-09-26",
+      "fullDate": "20250926225449",
+      "size": 305698519,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-09-2025/Headway_349.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-09-2025/Headway_349.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png"
+    },
+    {
+      "name": "RiseSleep",
+      "type": 1,
+      "bundleID": "com.risesci.nyx",
+      "bundleIdentifier": "com.risesci.nyx",
+      "version": "0.1.538",
+      "versionDate": "2025-09-26",
+      "fullDate": "20250926224943",
+      "size": 116444808,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-09-2025/RiseSleep_0.1.538_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-09-2025/RiseSleep_0.1.538_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png"
+    },
+    {
       "name": "AllTrails",
       "type": 1,
       "bundleID": "com.alltrails.AllTrails",
