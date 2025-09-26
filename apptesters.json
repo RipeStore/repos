@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SODA",
+      "type": 1,
+      "bundleID": "com.snowcorp.soda",
+      "bundleIdentifier": "com.snowcorp.soda",
+      "version": "9.3.20",
+      "versionDate": "2025-09-26",
+      "fullDate": "20250926152906",
+      "size": 136902635,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-09-2025/SODA_9.3.20_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-09-2025/SODA_9.3.20_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png"
+    },
+    {
       "name": "HiWidget",
       "type": 1,
       "bundleID": "com.zerone.hidesktop",
