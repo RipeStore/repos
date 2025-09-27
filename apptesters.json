@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ShutEye",
+      "type": 1,
+      "bundleID": "health.sleep.sounds.tracker.alarm.calm",
+      "bundleIdentifier": "health.sleep.sounds.tracker.alarm.calm",
+      "version": "3.2.2",
+      "versionDate": "2025-09-27",
+      "fullDate": "20250927222608",
+      "size": 391661296,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-09-2025/ShutEye_3.2.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-09-2025/ShutEye_3.2.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/health.sleep.sounds.tracker.alarm.calm.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/health.sleep.sounds.tracker.alarm.calm.png"
+    },
+    {
       "name": "Fitia",
       "type": 1,
       "bundleID": "com.ulisesolave.Fitia",
