@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "StoryFont",
+      "type": 1,
+      "bundleID": "com.mfapp.storyFontEn",
+      "bundleIdentifier": "com.mfapp.storyFontEn",
+      "version": "3.1.7",
+      "versionDate": "2025-09-28",
+      "fullDate": "20250928211107",
+      "size": 40021540,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-09-2025/StoryFont_3.1.7_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-09-2025/StoryFont_3.1.7_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mfapp.storyFontEn.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mfapp.storyFontEn.png"
+    },
+    {
       "name": "Captions",
       "type": 1,
       "bundleID": "boomer.Smart-Video",
