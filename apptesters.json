@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Homeworkouts",
+      "type": 1,
+      "bundleID": "com.abishkking.maleworkout",
+      "bundleIdentifier": "com.abishkking.maleworkout",
+      "version": "1.40.0",
+      "versionDate": "2025-09-28",
+      "fullDate": "20250928222123",
+      "size": 374942875,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-09-2025/Homeworkouts_1.40.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-09-2025/Homeworkouts_1.40.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.abishkking.maleworkout.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.abishkking.maleworkout.png"
+    },
+    {
       "name": "Nerva",
       "type": 1,
       "bundleID": "com.mindsethealth.ibs",
