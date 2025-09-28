@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Noteful",
+      "type": 1,
+      "bundleID": "com.noteful-technologies.noteful",
+      "bundleIdentifier": "com.noteful-technologies.noteful",
+      "version": "1.4.26",
+      "versionDate": "2025-09-28",
+      "fullDate": "20250928225637",
+      "size": 93443112,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-09-2025/Noteful_1.4.26_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-09-2025/Noteful_1.4.26_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.noteful-technologies.noteful.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.noteful-technologies.noteful.png"
+    },
+    {
       "name": "Homeworkouts",
       "type": 1,
       "bundleID": "com.abishkking.maleworkout",
