@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Narwhal",
+      "type": 1,
+      "bundleID": "com.rickharrison.narwhal",
+      "bundleIdentifier": "com.rickharrison.narwhal",
+      "version": "2025.8",
+      "versionDate": "2025-09-28",
+      "fullDate": "20250928212110",
+      "size": 16638470,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-09-2025/Narwhal_2025.8_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-09-2025/Narwhal_2025.8_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.rickharrison.narwhal.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.rickharrison.narwhal.png"
+    },
+    {
       "name": "StoryFont",
       "type": 1,
       "bundleID": "com.mfapp.storyFontEn",
