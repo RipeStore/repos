@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "iTranslate",
+      "type": 1,
+      "bundleID": "com.outerspaceapps.itranslate",
+      "bundleIdentifier": "com.outerspaceapps.itranslate",
+      "version": "17.4.52",
+      "versionDate": "2025-09-29",
+      "fullDate": "20250929154921",
+      "size": 72349592,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/iTranslate_17.4.52_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/iTranslate_17.4.52_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.outerspaceapps.itranslate.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.outerspaceapps.itranslate.png"
+    },
+    {
+      "name": "PicsArt",
+      "type": 1,
+      "bundleID": "com.picsart.studio",
+      "bundleIdentifier": "com.picsart.studio",
+      "version": "28.4.3",
+      "versionDate": "2025-09-29",
+      "fullDate": "20250929153415",
+      "size": 112357918,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/PicsArt_28.4.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/PicsArt_28.4.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png"
+    },
+    {
       "name": "SleepCycle",
       "type": 1,
       "bundleID": "com.lexwarelabs.goodmorning",
