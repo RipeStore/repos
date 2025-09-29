@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SNOW",
+      "type": 1,
+      "bundleID": "com.campmobile.snow",
+      "bundleIdentifier": "com.campmobile.snow",
+      "version": "14.5.2",
+      "versionDate": "2025-09-29",
+      "fullDate": "20250929200509",
+      "size": 140154994,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/SNOW_14.5.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/SNOW_14.5.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.campmobile.snow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.campmobile.snow.png"
+    },
+    {
       "name": "Truecaller",
       "type": 1,
       "bundleID": "com.truesoftware.TrueCallerOther",
