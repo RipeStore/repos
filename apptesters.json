@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "GentlerStreak",
+      "type": 1,
+      "bundleID": "app.gentler.activity",
+      "bundleIdentifier": "app.gentler.activity",
+      "version": "5.8.1",
+      "versionDate": "2025-09-29",
+      "fullDate": "20250929110245",
+      "size": 142912258,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/GentlerStreak_5.8.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/GentlerStreak_5.8.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.gentler.activity.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.gentler.activity.png"
+    },
+    {
       "name": "HappyScale",
       "type": 1,
       "bundleID": "com.frontpocketsoftware.happyscale",
