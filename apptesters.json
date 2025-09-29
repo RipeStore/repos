@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "X",
+      "type": 1,
+      "bundleID": "com.atebits.Tweetie2",
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "version": "11.26",
+      "versionDate": "2025-09-29",
+      "fullDate": "20250929235642",
+      "size": 163669772,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/X_11.26_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/X_11.26_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atebits.Tweetie2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atebits.Tweetie2.png"
+    },
+    {
+      "name": "Yana",
+      "type": 1,
+      "bundleID": "com.yana.yanapp",
+      "bundleIdentifier": "com.yana.yanapp",
+      "version": "5.0.3",
+      "versionDate": "2025-09-29",
+      "fullDate": "20250929235640",
+      "size": 34364833,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/Yana_5.0.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/Yana_5.0.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yana.yanapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yana.yanapp.png"
+    },
+    {
       "name": "Instagram",
       "type": 1,
       "bundleID": "com.burbn.instagram",
