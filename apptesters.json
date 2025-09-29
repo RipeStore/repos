@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "QrCode",
+      "type": 1,
+      "bundleID": "com.internet-rocks.codescanner",
+      "bundleIdentifier": "com.internet-rocks.codescanner",
+      "version": "2025.9.2",
+      "versionDate": "2025-09-29",
+      "fullDate": "20250929130820",
+      "size": 113807099,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/QrCode_2025.9.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/QrCode_2025.9.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.internet-rocks.codescanner.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.internet-rocks.codescanner.png"
+    },
+    {
       "name": "MyScriptNotes",
       "type": 1,
       "bundleID": "com.myscript.nebo",
