@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "HillClimb",
+      "type": 2,
+      "bundleID": "com.fingersoft.hillclimbracing",
+      "bundleIdentifier": "com.fingersoft.hillclimbracing",
+      "version": "1.67.0",
+      "versionDate": "2025-09-30",
+      "fullDate": "20250930001658",
+      "size": 115467553,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/HillClimb_1.67.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/HillClimb_1.67.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fingersoft.hillclimbracing.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fingersoft.hillclimbracing.png"
+    },
+    {
+      "name": "Windyapp",
+      "type": 1,
+      "bundleID": "co.windyapp.Windy",
+      "bundleIdentifier": "co.windyapp.Windy",
+      "version": "15.3.2",
+      "versionDate": "2025-09-30",
+      "fullDate": "20250930001151",
+      "size": 142643676,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/Windyapp_15.3.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/Windyapp_15.3.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.windyapp.Windy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.windyapp.Windy.png"
+    },
+    {
       "name": "X",
       "type": 1,
       "bundleID": "com.atebits.Tweetie2",
