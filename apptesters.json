@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "ColorPop",
+      "type": 1,
+      "bundleID": "com.mwm.procolor",
+      "bundleIdentifier": "com.mwm.procolor",
+      "version": "2.56.03",
+      "versionDate": "2025-09-30",
+      "fullDate": "20250930133416",
+      "size": 276643826,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/ColorPop_2.56.03_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/ColorPop_2.56.03_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png"
+    },
+    {
+      "name": "Photoroom",
+      "type": 1,
+      "bundleID": "com.dr1ven.eraser",
+      "bundleIdentifier": "com.dr1ven.eraser",
+      "version": "2025.39.01",
+      "versionDate": "2025-09-30",
+      "fullDate": "20250930132910",
+      "size": 132730771,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/Photoroom_2025.39.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/Photoroom_2025.39.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png"
+    },
+    {
       "name": "Facebook",
       "type": 1,
       "bundleID": "com.facebook.Facebook",
