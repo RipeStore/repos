@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "MyDexTCG",
+      "type": 1,
+      "bundleID": "com.albertomoral.PokedexTradingCards",
+      "bundleIdentifier": "com.albertomoral.PokedexTradingCards",
+      "version": "1.7.0",
+      "versionDate": "2025-09-30",
+      "fullDate": "20250930102852",
+      "size": 19445019,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/MyDexTCG_1.7.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/MyDexTCG_1.7.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.albertomoral.PokedexTradingCards.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.albertomoral.PokedexTradingCards.png"
+    },
+    {
+      "name": "Tooboo",
+      "type": 1,
+      "bundleID": "com.hltek.ZouZou",
+      "bundleIdentifier": "com.hltek.ZouZou",
+      "version": "1.4.13",
+      "versionDate": "2025-09-30",
+      "fullDate": "20250930102850",
+      "size": 36599659,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/Tooboo_1.4.13_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/Tooboo_1.4.13_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hltek.ZouZou.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hltek.ZouZou.png"
+    },
+    {
       "name": "1Blocker",
       "type": 1,
       "bundleID": "com.khanov.BlockerX",
