@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Stndrd",
+      "type": 1,
+      "bundleID": "uni.cbum",
+      "bundleIdentifier": "uni.cbum",
+      "version": "4.1.14",
+      "versionDate": "2025-09-30",
+      "fullDate": "20250930184025",
+      "size": 91113296,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/Stndrd_4.1.14_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/Stndrd_4.1.14_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/uni.cbum.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/uni.cbum.png"
+    },
+    {
+      "name": "Aloha",
+      "type": 1,
+      "bundleID": "com.alohabrowser.alohabrowser",
+      "bundleIdentifier": "com.alohabrowser.alohabrowser",
+      "version": "7.11.0",
+      "versionDate": "2025-09-30",
+      "fullDate": "20250930183019",
+      "size": 127926151,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/Aloha_7.11.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/Aloha_7.11.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png"
+    },
+    {
       "name": "PlantApp",
       "type": 1,
       "bundleID": "com.scaleup.plantid",
