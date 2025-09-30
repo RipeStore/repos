@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Messenger",
+      "type": 1,
+      "bundleID": "com.facebook.Messenger",
+      "bundleIdentifier": "com.facebook.Messenger",
+      "version": "527.0.0",
+      "versionDate": "2025-10-01",
+      "fullDate": "20251001010658",
+      "size": 63860554,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/Messenger_527.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/Messenger_527.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png"
+    },
+    {
       "name": "YouTubeOLED",
       "type": 1,
       "bundleID": "com.google.ios.youtube",
