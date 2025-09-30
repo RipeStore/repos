@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Liit",
+      "type": 1,
+      "bundleID": "liit.photovideo.editor",
+      "bundleIdentifier": "liit.photovideo.editor",
+      "version": "1.5.5",
+      "versionDate": "2025-10-01",
+      "fullDate": "20251001030315",
+      "size": 42863593,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/Liit_1.5.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/Liit_1.5.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/liit.photovideo.editor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/liit.photovideo.editor.png"
+    },
+    {
+      "name": "Persona",
+      "type": 1,
+      "bundleID": "com.tickettothemoon.video.persona",
+      "bundleIdentifier": "com.tickettothemoon.video.persona",
+      "version": "1.14.24",
+      "versionDate": "2025-10-01",
+      "fullDate": "20251001030308",
+      "size": 164318539,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/Persona_1.14.24_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/Persona_1.14.24_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with VIP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tickettothemoon.video.persona.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tickettothemoon.video.persona.png"
+    },
+    {
       "name": "SummonersWar",
       "type": 2,
       "bundleID": "com.com2us.smon.normal.freefull.apple.kr.ios.universal",
