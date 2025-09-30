@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Dazz",
+      "type": 1,
+      "bundleID": "dazz.camera.vintagecamera",
+      "bundleIdentifier": "dazz.camera.vintagecamera",
+      "version": "2.11",
+      "versionDate": "2025-10-01",
+      "fullDate": "20251001020708",
+      "size": 112149109,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/Dazz_2.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/Dazz_2.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/dazz.camera.vintagecamera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/dazz.camera.vintagecamera.png"
+    },
+    {
       "name": "Minutes",
       "type": 1,
       "bundleID": "ventures.slam.minutes",
