@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SummonersWar",
+      "type": 2,
+      "bundleID": "com.com2us.smon.normal.freefull.apple.kr.ios.universal",
+      "bundleIdentifier": "com.com2us.smon.normal.freefull.apple.kr.ios.universal",
+      "version": "8.8.5",
+      "versionDate": "2025-10-01",
+      "fullDate": "20251001023721",
+      "size": 1530043717,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/SummonersWar_8.8.5_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/SummonersWar_8.8.5_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.com2us.smon.normal.freefull.apple.kr.ios.universal.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.com2us.smon.normal.freefull.apple.kr.ios.universal.png"
+    },
+    {
+      "name": "MyFitnessPal",
+      "type": 1,
+      "bundleID": "com.myfitnesspal.mfp",
+      "bundleIdentifier": "com.myfitnesspal.mfp",
+      "version": "25.39.0",
+      "versionDate": "2025-10-01",
+      "fullDate": "20251001022714",
+      "size": 126600229,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/MyFitnessPal_25.39.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/MyFitnessPal_25.39.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myfitnesspal.mfp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myfitnesspal.mfp.png"
+    },
+    {
       "name": "Dazz",
       "type": 1,
       "bundleID": "dazz.camera.vintagecamera",
