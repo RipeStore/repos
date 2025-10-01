@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "EPIK",
+      "type": 1,
+      "bundleID": "com.snowcorp.epik",
+      "bundleIdentifier": "com.snowcorp.epik",
+      "version": "6.3.15",
+      "versionDate": "2025-10-01",
+      "fullDate": "20251001160457",
+      "size": 164655982,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/EPIK_6.3.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/EPIK_6.3.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.epik.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.epik.png"
+    },
+    {
+      "name": "SODA",
+      "type": 1,
+      "bundleID": "com.snowcorp.soda",
+      "bundleIdentifier": "com.snowcorp.soda",
+      "version": "9.3.21",
+      "versionDate": "2025-10-01",
+      "fullDate": "20251001160451",
+      "size": 138635247,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/SODA_9.3.21_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/SODA_9.3.21_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png"
+    },
+    {
       "name": "GALATEA",
       "type": 1,
       "bundleID": "org.reactjs.native.Inkitt.App.Colt",
