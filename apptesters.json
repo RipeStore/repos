@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AllTrails",
+      "type": 1,
+      "bundleID": "com.alltrails.AllTrails",
+      "bundleIdentifier": "com.alltrails.AllTrails",
+      "version": "25.9.50",
+      "versionDate": "2025-10-02",
+      "fullDate": "20251002021904",
+      "size": 109472121,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/AllTrails_25.9.50_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/AllTrails_25.9.50_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alltrails.AllTrails.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alltrails.AllTrails.png"
+    },
+    {
       "name": "Uplens",
       "type": 1,
       "bundleID": "app.uplens",
