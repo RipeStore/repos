@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "GALATEA",
+      "type": 1,
+      "bundleID": "org.reactjs.native.Inkitt.App.Colt",
+      "bundleIdentifier": "org.reactjs.native.Inkitt.App.Colt",
+      "version": "14.6.0",
+      "versionDate": "2025-10-01",
+      "fullDate": "20251001152445",
+      "size": 82528270,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/GALATEA_14.6.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/GALATEA_14.6.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.reactjs.native.Inkitt.App.Colt.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.reactjs.native.Inkitt.App.Colt.png"
+    },
+    {
       "name": "BeatMakerPro",
       "type": 1,
       "bundleID": "com.mwm.sampler-app",
