@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "LINECamera",
+      "type": 1,
+      "bundleID": "jp.naver.linecamera",
+      "bundleIdentifier": "jp.naver.linecamera",
+      "version": "17.5.2",
+      "versionDate": "2025-10-01",
+      "fullDate": "20251001205646",
+      "size": 136518508,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/LINECamera_17.5.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/LINECamera_17.5.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/jp.naver.linecamera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/jp.naver.linecamera.png"
+    },
+    {
       "name": "Instagram",
       "type": 1,
       "bundleID": "com.burbn.instagram",
