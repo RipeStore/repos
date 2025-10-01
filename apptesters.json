@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "BeatMakerPro",
+      "type": 1,
+      "bundleID": "com.mwm.sampler-app",
+      "bundleIdentifier": "com.mwm.sampler-app",
+      "version": "4.09.01",
+      "versionDate": "2025-10-01",
+      "fullDate": "20251001144437",
+      "size": 124802791,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/BeatMakerPro_4.09.01_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/BeatMakerPro_4.09.01_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.sampler-app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.sampler-app.png"
+    },
+    {
+      "name": "FitnessAI",
+      "type": 1,
+      "bundleID": "com.jakemor.firness-ai",
+      "bundleIdentifier": "com.jakemor.firness-ai",
+      "version": "14.2",
+      "versionDate": "2025-10-01",
+      "fullDate": "20251001142430",
+      "size": 147212839,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/FitnessAI_14.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-10-2025/FitnessAI_14.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jakemor.firness-ai.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jakemor.firness-ai.png"
+    },
+    {
       "name": "SnapEdit",
       "type": 1,
       "bundleID": "com.sfun.snapedit",
