@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ChatbotAI",
+      "type": 1,
+      "bundleID": "com.talgat.AIChat",
+      "bundleIdentifier": "com.talgat.AIChat",
+      "version": "3.23",
+      "versionDate": "2025-10-02",
+      "fullDate": "20251002103531",
+      "size": 122152078,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/ChatbotAI_3.23_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/ChatbotAI_3.23_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.talgat.AIChat.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.talgat.AIChat.png"
+    },
+    {
       "name": "SnapEdit",
       "type": 1,
       "bundleID": "com.sfun.snapedit",
