@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Calm",
+      "type": 1,
+      "bundleID": "com.calm.calmapp",
+      "bundleIdentifier": "com.calm.calmapp",
+      "version": "6.80.1",
+      "versionDate": "2025-10-03",
+      "fullDate": "20251003011811",
+      "size": 118754925,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-10-2025/Calm_6.80.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-10-2025/Calm_6.80.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png"
+    },
+    {
       "name": "Wikiloc",
       "type": 1,
       "bundleID": "com.wikiloc.wikiloc",
