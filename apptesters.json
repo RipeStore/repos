@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AlarmClockforMe",
+      "type": 1,
+      "bundleID": "com.apalonapps.alarmclockfree",
+      "bundleIdentifier": "com.apalonapps.alarmclockfree",
+      "version": "3.19.18",
+      "versionDate": "2025-10-02",
+      "fullDate": "20251002130049",
+      "size": 74490656,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/AlarmClockforMe_3.19.18_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/AlarmClockforMe_3.19.18_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.alarmclockfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.alarmclockfree.png"
+    },
+    {
       "name": "Wikiloc",
       "type": 1,
       "bundleID": "com.wikiloc.wikiloc",
