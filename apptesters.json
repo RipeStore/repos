@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Lifesum",
+      "type": 1,
+      "bundleID": "com.sillens.iShape",
+      "bundleIdentifier": "com.sillens.iShape",
+      "version": "22.0.1",
+      "versionDate": "2025-10-02",
+      "fullDate": "20251002141108",
+      "size": 126614356,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/Lifesum_22.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/Lifesum_22.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sillens.iShape.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sillens.iShape.png"
+    },
+    {
+      "name": "HabitKit",
+      "type": 1,
+      "bundleID": "com.roehl.habitkit",
+      "bundleIdentifier": "com.roehl.habitkit",
+      "version": "1.14.2",
+      "versionDate": "2025-10-02",
+      "fullDate": "20251002141104",
+      "size": 82109522,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/HabitKit_1.14.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/HabitKit_1.14.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.roehl.habitkit.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.roehl.habitkit.png"
+    },
+    {
       "name": "FitnessAI",
       "type": 1,
       "bundleID": "com.jakemor.firness-ai",
