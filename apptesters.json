@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SnoreLab",
+      "type": 1,
+      "bundleID": "com.revivasoftworks.Snore-Lab",
+      "bundleIdentifier": "com.revivasoftworks.Snore-Lab",
+      "version": "5.8.2",
+      "versionDate": "2025-10-02",
+      "fullDate": "20251002215715",
+      "size": 138745817,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/SnoreLab_5.8.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/SnoreLab_5.8.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.revivasoftworks.Snore-Lab.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.revivasoftworks.Snore-Lab.png"
+    },
+    {
+      "name": "Spotify",
+      "type": 1,
+      "bundleID": "com.spotify.client",
+      "bundleIdentifier": "com.spotify.client",
+      "version": "9.0.84",
+      "versionDate": "2025-10-02",
+      "fullDate": "20251002215209",
+      "size": 90503551,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/Spotify_9.0.84_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-10-2025/Spotify_9.0.84_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.spotify.client.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.spotify.client.png"
+    },
+    {
       "name": "VideoLite",
       "type": 1,
       "bundleID": "com.videobrowser.ios",
