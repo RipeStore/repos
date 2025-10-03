@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Rest",
+      "type": 1,
+      "bundleID": "com.evolve.helm",
+      "bundleIdentifier": "com.evolve.helm",
+      "version": "3.157.0",
+      "versionDate": "2025-10-04",
+      "fullDate": "20251004041650",
+      "size": 144433648,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-10-2025/Rest_3.157.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-10-2025/Rest_3.157.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.evolve.helm.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.evolve.helm.png"
+    },
+    {
       "name": "LINECamera",
       "type": 1,
       "bundleID": "jp.naver.linecamera",
