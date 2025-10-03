@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "RiseSleep",
+      "type": 1,
+      "bundleID": "com.risesci.nyx",
+      "bundleIdentifier": "com.risesci.nyx",
+      "version": "0.1.541",
+      "versionDate": "2025-10-03",
+      "fullDate": "20251003210615",
+      "size": 117360470,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-10-2025/RiseSleep_0.1.541_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-10-2025/RiseSleep_0.1.541_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png"
+    },
+    {
+      "name": "MyFitnessPal",
+      "type": 1,
+      "bundleID": "com.myfitnesspal.mfp",
+      "bundleIdentifier": "com.myfitnesspal.mfp",
+      "version": "25.39.1",
+      "versionDate": "2025-10-03",
+      "fullDate": "20251003210610",
+      "size": 126597660,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-10-2025/MyFitnessPal_25.39.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-10-2025/MyFitnessPal_25.39.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myfitnesspal.mfp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myfitnesspal.mfp.png"
+    },
+    {
       "name": "Edith",
       "type": 1,
       "bundleID": "com.thenovik.Presets",
