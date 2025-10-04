@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Headway",
+      "type": 1,
+      "bundleID": "com.headway.books",
+      "bundleIdentifier": "com.headway.books",
+      "version": "350.2",
+      "versionDate": "2025-10-04",
+      "fullDate": "20251004160332",
+      "size": 315814620,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-10-2025/Headway_350.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-10-2025/Headway_350.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png"
+    },
+    {
       "name": "Phocus",
       "type": 1,
       "bundleID": "com.ahmetserdarkaradeniz.Phocus",
