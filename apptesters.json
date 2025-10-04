@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Phocus",
+      "type": 1,
+      "bundleID": "com.ahmetserdarkaradeniz.Phocus",
+      "bundleIdentifier": "com.ahmetserdarkaradeniz.Phocus",
+      "version": "3.0.6",
+      "versionDate": "2025-10-04",
+      "fullDate": "20251004152322",
+      "size": 211676938,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-10-2025/Phocus_3.0.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-10-2025/Phocus_3.0.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahmetserdarkaradeniz.Phocus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahmetserdarkaradeniz.Phocus.png"
+    },
+    {
       "name": "Precious",
       "type": 1,
       "bundleID": "com.laubrothersllc.BabyArt",
