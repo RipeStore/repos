@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "HeyJapan",
+      "type": 1,
+      "bundleID": "com.eup.heyjapan",
+      "bundleIdentifier": "com.eup.heyjapan",
+      "version": "2.1.9",
+      "versionDate": "2025-10-05",
+      "fullDate": "20251005033946",
+      "size": 132560396,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-10-2025/HeyJapan_2.1.9_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-10-2025/HeyJapan_2.1.9_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.eup.heyjapan.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.eup.heyjapan.png"
+    },
+    {
       "name": "RenovateAI",
       "type": 1,
       "bundleID": "app.renovateai",
