@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ThePiano",
+      "type": 2,
+      "bundleID": "com.impalastudios.pianofree",
+      "bundleIdentifier": "com.impalastudios.pianofree",
+      "version": "2.15.6",
+      "versionDate": "2025-10-06",
+      "fullDate": "20251006023130",
+      "size": 115369017,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/ThePiano_2.15.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/ThePiano_2.15.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.impalastudios.pianofree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.impalastudios.pianofree.png"
+    },
+    {
       "name": "Hiii",
       "type": 1,
       "bundleID": "com.abighead.Widgets",
