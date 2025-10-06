@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "AllTrails",
+      "type": 1,
+      "bundleID": "com.alltrails.AllTrails",
+      "bundleIdentifier": "com.alltrails.AllTrails",
+      "version": "25.9.51",
+      "versionDate": "2025-10-07",
+      "fullDate": "20251007052130",
+      "size": 108763854,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/AllTrails_25.9.51_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/AllTrails_25.9.51_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alltrails.AllTrails.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alltrails.AllTrails.png"
+    },
+    {
+      "name": "Flow",
+      "type": 1,
+      "bundleID": "design.yugen.Flow",
+      "bundleIdentifier": "design.yugen.Flow",
+      "version": "4.5.0",
+      "versionDate": "2025-10-07",
+      "fullDate": "20251007051628",
+      "size": 16486717,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/Flow_4.5.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/Flow_4.5.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/design.yugen.Flow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/design.yugen.Flow.png"
+    },
+    {
       "name": "X",
       "type": 1,
       "bundleID": "com.atebits.Tweetie2",
