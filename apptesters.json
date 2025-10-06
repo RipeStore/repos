@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "CollaNote",
+      "type": 1,
+      "bundleID": "net.quochuywdm.collanote496",
+      "bundleIdentifier": "net.quochuywdm.collanote496",
+      "version": "3.9.0",
+      "versionDate": "2025-10-06",
+      "fullDate": "20251006075201",
+      "size": 146324603,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/CollaNote_3.9.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/CollaNote_3.9.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.quochuywdm.collanote496.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.quochuywdm.collanote496.png"
+    },
+    {
       "name": "PicsArt",
       "type": 1,
       "bundleID": "com.picsart.studio",
