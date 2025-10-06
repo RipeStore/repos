@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "NRv121693",
+      "type": 1,
+      "bundleID": "nt.nr.ios",
+      "bundleIdentifier": "nt.nr.ios",
+      "version": "12.169.3",
+      "versionDate": "2025-10-06",
+      "fullDate": "20251006124223",
+      "size": 935343735,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/NRv121693_12.169.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/NRv121693_12.169.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nt.nr.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nt.nr.ios.png"
+    },
+    {
       "name": "CollaNote",
       "type": 1,
       "bundleID": "net.quochuywdm.collanote496",
