@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Documents",
+      "type": 1,
+      "bundleID": "com.readdle.ReaddleDocsIPad",
+      "bundleIdentifier": "com.readdle.ReaddleDocsIPad",
+      "version": "8.17.11",
+      "versionDate": "2025-10-06",
+      "fullDate": "20251006155423",
+      "size": 289235274,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/Documents_8.17.11_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/Documents_8.17.11_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Plus",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.ReaddleDocsIPad.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.ReaddleDocsIPad.png"
+    },
+    {
+      "name": "Mimo",
+      "type": 1,
+      "bundleID": "com.getmimo.mimo",
+      "bundleIdentifier": "com.getmimo.mimo",
+      "version": "9.26.0",
+      "versionDate": "2025-10-06",
+      "fullDate": "20251006152916",
+      "size": 131005145,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/Mimo_9.26.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/Mimo_9.26.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png"
+    },
+    {
       "name": "Headway",
       "type": 1,
       "bundleID": "com.headway.books",
