@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Mojo",
+      "type": 1,
+      "bundleID": "archery.storify",
+      "bundleIdentifier": "archery.storify",
+      "version": "1.244.0",
+      "versionDate": "2025-10-06",
+      "fullDate": "20251006140330",
+      "size": 193345448,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/Mojo_1.244.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/Mojo_1.244.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/archery.storify.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/archery.storify.png"
+    },
+    {
       "name": "Piano",
       "type": 1,
       "bundleID": "com.mwm.piano-app",
