@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PlantApp",
+      "type": 1,
+      "bundleID": "com.scaleup.plantid",
+      "bundleIdentifier": "com.scaleup.plantid",
+      "version": "3.2.2",
+      "versionDate": "2025-10-06",
+      "fullDate": "20251006125305",
+      "size": 86785551,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/PlantApp_3.2.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-10-2025/PlantApp_3.2.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.scaleup.plantid.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.scaleup.plantid.png"
+    },
+    {
       "name": "NRv121693",
       "type": 1,
       "bundleID": "nt.nr.ios",
