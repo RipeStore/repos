@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "GOWOD",
+      "type": 1,
+      "bundleID": "eu.gowod",
+      "bundleIdentifier": "eu.gowod",
+      "version": "5.2.5",
+      "versionDate": "2025-10-07",
+      "fullDate": "20251007134848",
+      "size": 49247541,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/GOWOD_5.2.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/GOWOD_5.2.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/eu.gowod.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/eu.gowod.png"
+    },
+    {
       "name": "AlightMotion",
       "type": 1,
       "bundleID": "com.alightcreative.motion",
