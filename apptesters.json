@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Balance",
+      "type": 1,
+      "bundleID": "com.elevateapp.kamino.kamino",
+      "bundleIdentifier": "com.elevateapp.kamino.kamino",
+      "version": "1.188.0",
+      "versionDate": "2025-10-07",
+      "fullDate": "20251007235111",
+      "size": 116712005,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/Balance_1.188.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/Balance_1.188.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.kamino.kamino.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.kamino.kamino.png"
+    },
+    {
+      "name": "PUSH",
+      "type": 1,
+      "bundleID": "com.ADPTVLTD.push",
+      "bundleIdentifier": "com.ADPTVLTD.push",
+      "version": "3.6.3",
+      "versionDate": "2025-10-07",
+      "fullDate": "20251007233107",
+      "size": 30315886,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/PUSH_3.6.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/PUSH_3.6.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ADPTVLTD.push.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ADPTVLTD.push.png"
+    },
+    {
       "name": "GALATEA",
       "type": 1,
       "bundleID": "org.reactjs.native.Inkitt.App.Colt",
