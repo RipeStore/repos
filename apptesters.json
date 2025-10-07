@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Kanji",
+      "type": 1,
+      "bundleID": "howell.Kanji-",
+      "bundleIdentifier": "howell.Kanji-",
+      "version": "1.5.20",
+      "versionDate": "2025-10-07",
+      "fullDate": "20251007115334",
+      "size": 50453247,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/Kanji_1.5.20_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/Kanji_1.5.20_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/howell.Kanji-.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/howell.Kanji-.png"
+    },
+    {
       "name": "Stndrd",
       "type": 1,
       "bundleID": "uni.cbum",
