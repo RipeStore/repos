@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Tarteel",
+      "type": 1,
+      "bundleID": "com.iqraapp.Iqra",
+      "bundleIdentifier": "com.iqraapp.Iqra",
+      "version": "5.68.1",
+      "versionDate": "2025-10-08",
+      "fullDate": "20251008020138",
+      "size": 112158479,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/Tarteel_5.68.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/Tarteel_5.68.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iqraapp.Iqra.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iqraapp.Iqra.png"
+    },
+    {
+      "name": "StepsApp",
+      "type": 1,
+      "bundleID": "com.gunthermarktl.stepapp",
+      "bundleIdentifier": "com.gunthermarktl.stepapp",
+      "version": "8.4.8",
+      "versionDate": "2025-10-08",
+      "fullDate": "20251008020130",
+      "size": 190256168,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/StepsApp_8.4.8_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/StepsApp_8.4.8_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gunthermarktl.stepapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gunthermarktl.stepapp.png"
+    },
+    {
       "name": "MyFitnessPal",
       "type": 1,
       "bundleID": "com.myfitnesspal.mfp",
