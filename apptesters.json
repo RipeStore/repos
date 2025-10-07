@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Photoshop",
+      "type": 1,
+      "bundleID": "com.adobe.photoshop.ios",
+      "bundleIdentifier": "com.adobe.photoshop.ios",
+      "version": "6.6.1",
+      "versionDate": "2025-10-08",
+      "fullDate": "20251008025158",
+      "size": 271312029,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/Photoshop_6.6.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/Photoshop_6.6.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.photoshop.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.photoshop.ios.png"
+    },
+    {
+      "name": "Messenger",
+      "type": 1,
+      "bundleID": "com.facebook.Messenger",
+      "bundleIdentifier": "com.facebook.Messenger",
+      "version": "528.0.0",
+      "versionDate": "2025-10-08",
+      "fullDate": "20251008024654",
+      "size": 64040447,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/Messenger_528.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/Messenger_528.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png"
+    },
+    {
       "name": "Facebook",
       "type": 1,
       "bundleID": "com.facebook.Facebook",
