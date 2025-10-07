@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Minutes",
+      "type": 1,
+      "bundleID": "ventures.slam.minutes",
+      "bundleIdentifier": "ventures.slam.minutes",
+      "version": "1.9",
+      "versionDate": "2025-10-08",
+      "fullDate": "20251008031210",
+      "size": 12708547,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/Minutes_1.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/Minutes_1.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ventures.slam.minutes.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ventures.slam.minutes.png"
+    },
+    {
       "name": "Photoshop",
       "type": 1,
       "bundleID": "com.adobe.photoshop.ios",
