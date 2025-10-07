@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Photoroom",
+      "type": 1,
+      "bundleID": "com.dr1ven.eraser",
+      "bundleIdentifier": "com.dr1ven.eraser",
+      "version": "2025.40.01",
+      "versionDate": "2025-10-07",
+      "fullDate": "20251007204047",
+      "size": 133527206,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/Photoroom_2025.40.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/Photoroom_2025.40.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png"
+    },
+    {
       "name": "Fitia",
       "type": 1,
       "bundleID": "com.ulisesolave.Fitia",
