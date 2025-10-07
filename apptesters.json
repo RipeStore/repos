@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Textastic",
+      "type": 1,
+      "bundleID": "com.textasticapp.textastic-universal",
+      "bundleIdentifier": "com.textasticapp.textastic-universal",
+      "version": "10.8",
+      "versionDate": "2025-10-07",
+      "fullDate": "20251007160407",
+      "size": 10997620,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/Textastic_10.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/Textastic_10.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.textasticapp.textastic-universal.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.textasticapp.textastic-universal.png"
+    },
+    {
       "name": "swipewipe",
       "type": 1,
       "bundleID": "com.aoklab.fewerphotos",
