@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Wallcraft",
+      "type": 1,
+      "bundleID": "com.wallpaperscraft.wallpapers",
+      "bundleIdentifier": "com.wallpaperscraft.wallpapers",
+      "version": "3.29",
+      "versionDate": "2025-10-07",
+      "fullDate": "20251007174423",
+      "size": 96465046,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/Wallcraft_3.29_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-10-2025/Wallcraft_3.29_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wallpaperscraft.wallpapers.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wallpaperscraft.wallpapers.png"
+    },
+    {
       "name": "YAZIO",
       "type": 1,
       "bundleID": "com.yazio.ios.YAZIO",
