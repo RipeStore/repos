@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Calory",
+      "type": 1,
+      "bundleID": "com.funnmedia.calory",
+      "bundleIdentifier": "com.funnmedia.calory",
+      "version": "4.4.4",
+      "versionDate": "2025-10-08",
+      "fullDate": "20251008103304",
+      "size": 260801594,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/Calory_4.4.4_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/Calory_4.4.4_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.funnmedia.calory.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.funnmedia.calory.png"
+    },
+    {
+      "name": "MADFUT",
+      "type": 2,
+      "bundleID": "com.madfut.madfut25",
+      "bundleIdentifier": "com.madfut.madfut25",
+      "version": "1.0",
+      "versionDate": "2025-10-08",
+      "fullDate": "20251008102757",
+      "size": 149825597,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/MADFUT_1.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/MADFUT_1.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.madfut.madfut25.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.madfut.madfut25.png"
+    },
+    {
       "name": "VideoGPT",
       "type": 1,
       "bundleID": "com.elven.video",
