@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "WebSSH",
+      "type": 1,
+      "bundleID": "com.itimeteo.webssh",
+      "bundleIdentifier": "com.itimeteo.webssh",
+      "version": "30.3",
+      "versionDate": "2025-10-09",
+      "fullDate": "20251009014028",
+      "size": 55573532,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-10-2025/WebSSH_30.3_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-10-2025/WebSSH_30.3_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.itimeteo.webssh.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.itimeteo.webssh.png"
+    },
+    {
+      "name": "Lifesum",
+      "type": 1,
+      "bundleID": "com.sillens.iShape",
+      "bundleIdentifier": "com.sillens.iShape",
+      "version": "22.1.0",
+      "versionDate": "2025-10-09",
+      "fullDate": "20251009013521",
+      "size": 130950596,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-10-2025/Lifesum_22.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-10-2025/Lifesum_22.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sillens.iShape.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sillens.iShape.png"
+    },
+    {
       "name": "OfflineMusic",
       "type": 1,
       "bundleID": "com.offlinemusic",
