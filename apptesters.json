@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Dehancer",
+      "type": 1,
+      "bundleID": "com.dehancer.film.ios-app",
+      "bundleIdentifier": "com.dehancer.film.ios-app",
+      "version": "5.0",
+      "versionDate": "2025-10-08",
+      "fullDate": "20251008211919",
+      "size": 190714180,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/Dehancer_5.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-10-2025/Dehancer_5.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dehancer.film.ios-app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dehancer.film.ios-app.png"
+    },
+    {
       "name": "TravelBoast",
       "type": 1,
       "bundleID": "com.travelboast.travelboast",
