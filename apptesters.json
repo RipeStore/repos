@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Instagram",
+      "type": 1,
+      "bundleID": "com.burbn.instagram",
+      "bundleIdentifier": "com.burbn.instagram",
+      "version": "401.0.0",
+      "versionDate": "2025-10-10",
+      "fullDate": "20251010011009",
+      "size": 264731089,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-10-2025/Instagram_401.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-10-2025/Instagram_401.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png"
+    },
+    {
       "name": "StudyCards",
       "type": 1,
       "bundleID": "com.cameronshemilt.StudyCards",
