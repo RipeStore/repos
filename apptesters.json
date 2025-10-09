@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SpeakTranslate",
+      "type": 1,
+      "bundleID": "com.appicfun.translatorfree",
+      "bundleIdentifier": "com.appicfun.translatorfree",
+      "version": "6.0.50",
+      "versionDate": "2025-10-09",
+      "fullDate": "20251009151256",
+      "size": 41159468,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-10-2025/SpeakTranslate_6.0.50_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-10-2025/SpeakTranslate_6.0.50_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.appicfun.translatorfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.appicfun.translatorfree.png"
+    },
+    {
       "name": "HeavyBagPro",
       "type": 1,
       "bundleID": "com.opentechiz.heavybagpro",
