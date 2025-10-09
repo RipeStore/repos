@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Fing",
+      "type": 1,
+      "bundleID": "overlook.fing",
+      "bundleIdentifier": "overlook.fing",
+      "version": "12.11.1",
+      "versionDate": "2025-10-09",
+      "fullDate": "20251009141743",
+      "size": 158417342,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-10-2025/Fing_12.11.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-10-2025/Fing_12.11.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/overlook.fing.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/overlook.fing.png"
+    },
+    {
+      "name": "Facetune",
+      "type": 1,
+      "bundleID": "com.lightricks.Facetune2",
+      "bundleIdentifier": "com.lightricks.Facetune2",
+      "version": "3.106.2",
+      "versionDate": "2025-10-09",
+      "fullDate": "20251009141732",
+      "size": 305921425,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-10-2025/Facetune_3.106.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-10-2025/Facetune_3.106.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png"
+    },
+    {
       "name": "iLovePDF",
       "type": 1,
       "bundleID": "com.ilovepdf.www",
