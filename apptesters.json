@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SleepMonitor",
+      "type": 1,
+      "bundleID": "com.sleepmonitor.aio",
+      "bundleIdentifier": "com.sleepmonitor.aio",
+      "version": "2.6.3",
+      "versionDate": "2025-10-09",
+      "fullDate": "20251009110616",
+      "size": 283175613,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-10-2025/SleepMonitor_2.6.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-10-2025/SleepMonitor_2.6.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sleepmonitor.aio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sleepmonitor.aio.png"
+    },
+    {
       "name": "Busuu",
       "type": 1,
       "bundleID": "com.busuu.english.app",
