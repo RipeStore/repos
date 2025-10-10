@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FarmVille2",
+      "type": 2,
+      "bundleID": "com.zynga.FarmVille2CountryEscape",
+      "bundleIdentifier": "com.zynga.FarmVille2CountryEscape",
+      "version": "28.5",
+      "versionDate": "2025-10-10",
+      "fullDate": "20251010210332",
+      "size": 363533813,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-10-2025/FarmVille2_28.5_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-10-2025/FarmVille2_28.5_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IGG",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zynga.FarmVille2CountryEscape.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zynga.FarmVille2CountryEscape.png"
+    },
+    {
       "name": "YAZIO",
       "type": 1,
       "bundleID": "com.yazio.ios.YAZIO",
