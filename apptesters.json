@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "BandLab",
+      "type": 1,
+      "bundleID": "com.bandlab.bandlab.iphone",
+      "bundleIdentifier": "com.bandlab.bandlab.iphone",
+      "version": "11.9.2",
+      "versionDate": "2025-10-10",
+      "fullDate": "20251010122710",
+      "size": 157384705,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-10-2025/BandLab_11.9.2_Boost_Membership_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-10-2025/BandLab_11.9.2_Boost_Membership_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Boost Membership",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bandlab.bandlab.iphone.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bandlab.bandlab.iphone.png"
+    },
+    {
       "name": "Nerva",
       "type": 1,
       "bundleID": "com.mindsethealth.ibs",
