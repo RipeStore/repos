@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Nerva",
+      "type": 1,
+      "bundleID": "com.mindsethealth.ibs",
+      "bundleIdentifier": "com.mindsethealth.ibs",
+      "version": "45.4",
+      "versionDate": "2025-10-10",
+      "fullDate": "20251010113703",
+      "size": 74273097,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-10-2025/Nerva_45.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-10-2025/Nerva_45.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mindsethealth.ibs.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mindsethealth.ibs.png"
+    },
+    {
       "name": "PhotoEditorPublic",
       "type": 1,
       "bundleID": "com.bb.Presets",
