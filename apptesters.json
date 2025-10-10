@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PhotoEditorPublic",
+      "type": 1,
+      "bundleID": "com.bb.Presets",
+      "bundleIdentifier": "com.bb.Presets",
+      "version": "1.22.0",
+      "versionDate": "2025-10-10",
+      "fullDate": "20251010103653",
+      "size": 155010326,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-10-2025/PhotoEditorPublic_1.22.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-10-2025/PhotoEditorPublic_1.22.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bb.Presets.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bb.Presets.png"
+    },
+    {
       "name": "Minutes",
       "type": 1,
       "bundleID": "ventures.slam.minutes",
