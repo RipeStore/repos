@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "BrainTest3",
+      "type": 2,
+      "bundleID": "com.unicostudio.braintest3",
+      "bundleIdentifier": "com.unicostudio.braintest3",
+      "version": "1.77.0",
+      "versionDate": "2025-10-10",
+      "fullDate": "20251010154232",
+      "size": 111995342,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-10-2025/BrainTest3_1.77.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-10-2025/BrainTest3_1.77.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.unicostudio.braintest3.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.unicostudio.braintest3.png"
+    },
+    {
       "name": "YAZIO",
       "type": 1,
       "bundleID": "com.yazio.ios.YAZIO",
