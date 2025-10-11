@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "RunGo",
+      "type": 1,
+      "bundleID": "com.leapingcoyote.rungo",
+      "bundleIdentifier": "com.leapingcoyote.rungo",
+      "version": "7.2.0",
+      "versionDate": "2025-10-12",
+      "fullDate": "20251012001656",
+      "size": 38491817,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-10-2025/RunGo_7.2.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-10-2025/RunGo_7.2.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leapingcoyote.rungo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leapingcoyote.rungo.png"
+    },
+    {
+      "name": "Endel",
+      "type": 1,
+      "bundleID": "com.endel.endel",
+      "bundleIdentifier": "com.endel.endel",
+      "version": "4.48.328",
+      "versionDate": "2025-10-12",
+      "fullDate": "20251012001149",
+      "size": 185815673,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-10-2025/Endel_4.48.328_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-10-2025/Endel_4.48.328_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.endel.endel.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.endel.endel.png"
+    },
+    {
       "name": "PUSH",
       "type": 1,
       "bundleID": "com.ADPTVLTD.push",
