@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Threads",
+      "type": 1,
+      "bundleID": "com.burbn.barcelona",
+      "bundleIdentifier": "com.burbn.barcelona",
+      "version": "402.0.0",
+      "versionDate": "2025-10-11",
+      "fullDate": "20251011123041",
+      "size": 67821944,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-10-2025/Threads_402.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-10-2025/Threads_402.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.barcelona.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.barcelona.png"
+    },
+    {
+      "name": "PilotPro",
+      "type": 1,
+      "bundleID": "pilotpro",
+      "bundleIdentifier": "pilotpro",
+      "version": "5.45.0",
+      "versionDate": "2025-10-11",
+      "fullDate": "20251011123039",
+      "size": 29395791,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-10-2025/PilotPro_5.45.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-10-2025/PilotPro_5.45.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/pilotpro.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/pilotpro.png"
+    },
+    {
       "name": "swipewipe",
       "type": 1,
       "bundleID": "com.aoklab.fewerphotos",
