@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PUSH",
+      "type": 1,
+      "bundleID": "com.ADPTVLTD.push",
+      "bundleIdentifier": "com.ADPTVLTD.push",
+      "version": "3.6.4",
+      "versionDate": "2025-10-11",
+      "fullDate": "20251011153620",
+      "size": 32900529,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-10-2025/PUSH_3.6.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-10-2025/PUSH_3.6.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ADPTVLTD.push.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ADPTVLTD.push.png"
+    },
+    {
       "name": "SleepCycle",
       "type": 1,
       "bundleID": "com.lexwarelabs.goodmorning",
