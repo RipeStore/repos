@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Splash",
+      "type": 1,
+      "bundleID": "app.cranberry.splash",
+      "bundleIdentifier": "app.cranberry.splash",
+      "version": "2.1.2",
+      "versionDate": "2025-10-12",
+      "fullDate": "20251012103816",
+      "size": 185551847,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-10-2025/Splash_2.1.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-10-2025/Splash_2.1.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.cranberry.splash.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.cranberry.splash.png"
+    },
+    {
       "name": "Photoshop",
       "type": 1,
       "bundleID": "com.adobe.photoshop.ios",
