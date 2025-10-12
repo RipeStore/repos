@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Busuu",
+      "type": 1,
+      "bundleID": "com.busuu.english.app",
+      "bundleIdentifier": "com.busuu.english.app",
+      "version": "29.21.0",
+      "versionDate": "2025-10-12",
+      "fullDate": "20251012231434",
+      "size": 158953148,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-10-2025/Busuu_29.21.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-10-2025/Busuu_29.21.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png"
+    },
+    {
       "name": "Facetune",
       "type": 1,
       "bundleID": "com.lightricks.Facetune2",
