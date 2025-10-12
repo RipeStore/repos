@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Wikiloc",
+      "type": 1,
+      "bundleID": "com.wikiloc.wikiloc",
+      "bundleIdentifier": "com.wikiloc.wikiloc",
+      "version": "3.25.6",
+      "versionDate": "2025-10-13",
+      "fullDate": "20251013040536",
+      "size": 112997677,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-10-2025/Wikiloc_3.25.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-10-2025/Wikiloc_3.25.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wikiloc.wikiloc.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wikiloc.wikiloc.png"
+    },
+    {
       "name": "Heartify",
       "type": 1,
       "bundleID": "com.heartify",
