@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Facetune",
+      "type": 1,
+      "bundleID": "com.lightricks.Facetune2",
+      "bundleIdentifier": "com.lightricks.Facetune2",
+      "version": "3.107",
+      "versionDate": "2025-10-12",
+      "fullDate": "20251012142853",
+      "size": 305222717,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-10-2025/Facetune_3.107_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-10-2025/Facetune_3.107_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.madarsoft.fitness",
