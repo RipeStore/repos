@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Mimo",
+      "type": 1,
+      "bundleID": "com.getmimo.mimo",
+      "bundleIdentifier": "com.getmimo.mimo",
+      "version": "9.27.0",
+      "versionDate": "2025-10-13",
+      "fullDate": "20251013133157",
+      "size": 136645016,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-10-2025/Mimo_9.27.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-10-2025/Mimo_9.27.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png"
+    },
+    {
+      "name": "GOWOD",
+      "type": 1,
+      "bundleID": "eu.gowod",
+      "bundleIdentifier": "eu.gowod",
+      "version": "5.2.6",
+      "versionDate": "2025-10-13",
+      "fullDate": "20251013133152",
+      "size": 46147274,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-10-2025/GOWOD_5.2.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-10-2025/GOWOD_5.2.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/eu.gowod.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/eu.gowod.png"
+    },
+    {
       "name": "YouTubeOLED",
       "type": 1,
       "bundleID": "com.google.ios.youtube",
