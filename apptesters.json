@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Calm",
+      "type": 1,
+      "bundleID": "com.calm.calmapp",
+      "bundleIdentifier": "com.calm.calmapp",
+      "version": "6.81",
+      "versionDate": "2025-10-13",
+      "fullDate": "20251013200850",
+      "size": 118832424,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-10-2025/Calm_6.81_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-10-2025/Calm_6.81_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png"
+    },
+    {
       "name": "MergeCooking",
       "type": 2,
       "bundleID": "com.merge.cooking.theme.restaurant.food",
