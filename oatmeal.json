@@ -51,6 +51,15 @@
       "beta": false,
       "versions": [
         {
+          "version": "5.0.0b2",
+          "date": "2025-10-13T00:00:00.0000000Z",
+          "localizedDescription": "Adds support for JIT on iOS 26 using StikDebug.",
+          "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b2/Non-Jailbroken.ipa",
+          "size": 17958943,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "99.0"
+        },
+        {
           "version": "5.0.0b1",
           "date": "2025-10-11T17:00:00.0000000Z",
           "localizedDescription": "This is the second public beta build based on the rewritten DolphiniOS code.\n\niOS 14 is required to run this build.",
@@ -87,10 +96,10 @@
           "maxOSVersion": "99.0"
         }
       ],
-      "version": "5.0.0b1",
-      "versionDate": "2025-10-11T17:00:00.0000000Z",
-      "versionDescription": "This is the second public beta build based on the rewritten DolphiniOS code.\n\niOS 14 is required to run this build.",
-      "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b1/Non-Jailbroken.ipa",
+      "version": "5.0.0b2",
+      "versionDate": "2025-10-13T00:00:00.0000000Z",
+      "versionDescription": "Adds support for JIT on iOS 26 using StikDebug.",
+      "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b2/Non-Jailbroken.ipa",
       "size": 17958943
     }
   ],
