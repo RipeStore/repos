@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "DictionaryAir",
+      "type": 1,
+      "bundleID": "co.airapps.dictionary",
+      "bundleIdentifier": "co.airapps.dictionary",
+      "version": "2025.9.6",
+      "versionDate": "2025-10-13",
+      "fullDate": "20251013160814",
+      "size": 70520784,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-10-2025/DictionaryAir_2025.9.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-10-2025/DictionaryAir_2025.9.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.dictionary.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.dictionary.png"
+    },
+    {
       "name": "Mojo",
       "type": 1,
       "bundleID": "archery.storify",
