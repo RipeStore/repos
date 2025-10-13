@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AlightMotion",
+      "type": 1,
+      "bundleID": "com.alightcreative.motion",
+      "bundleIdentifier": "com.alightcreative.motion",
+      "version": "6.2.43",
+      "versionDate": "2025-10-13",
+      "fullDate": "20251013123124",
+      "size": 125457698,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-10-2025/AlightMotion_6.2.43_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-10-2025/AlightMotion_6.2.43_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alightcreative.motion.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alightcreative.motion.png"
+    },
+    {
       "name": "NeoServer",
       "type": 1,
       "bundleID": "com.neo.NeoMan",
