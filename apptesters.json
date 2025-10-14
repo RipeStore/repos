@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VSCO",
+      "type": 1,
+      "bundleID": "co.visualsupply.cam",
+      "bundleIdentifier": "co.visualsupply.cam",
+      "version": "444.0.1",
+      "versionDate": "2025-10-14",
+      "fullDate": "20251014053704",
+      "size": 206349928,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/VSCO_444.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/VSCO_444.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png"
+    },
+    {
       "name": "X",
       "type": 1,
       "bundleID": "com.atebits.Tweetie2",
