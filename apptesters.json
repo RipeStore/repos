@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FlightTracker",
+      "type": 1,
+      "bundleID": "com.iaftt.flightplusfree",
+      "bundleIdentifier": "com.iaftt.flightplusfree",
+      "version": "8.6.11",
+      "versionDate": "2025-10-14",
+      "fullDate": "20251014130756",
+      "size": 98771946,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/FlightTracker_8.6.11_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/FlightTracker_8.6.11_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iaftt.flightplusfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iaftt.flightplusfree.png"
+    },
+    {
       "name": "NOAARadar",
       "type": 1,
       "bundleID": "com.itwcalculator.worldradarfree",
