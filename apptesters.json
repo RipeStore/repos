@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Uplens",
+      "type": 1,
+      "bundleID": "app.uplens",
+      "bundleIdentifier": "app.uplens",
+      "version": "3.3.5",
+      "versionDate": "2025-10-14",
+      "fullDate": "20251014191910",
+      "size": 178992130,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/Uplens_3.3.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/Uplens_3.3.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.uplens.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.uplens.png"
+    },
+    {
       "name": "Hevy",
       "type": 1,
       "bundleID": "com.hevyapp.hevy",
