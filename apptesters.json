@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "YouTubeOLED",
+      "type": 1,
+      "bundleID": "com.google.ios.youtube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "version": "20.41.5",
+      "versionDate": "2025-10-15",
+      "fullDate": "20251015024050",
+      "size": 130392261,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-10-2025/YouTubeOLED_20.41.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-10-2025/YouTubeOLED_20.41.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png"
+    },
+    {
       "name": "HeyJapan",
       "type": 1,
       "bundleID": "com.eup.heyjapan",
