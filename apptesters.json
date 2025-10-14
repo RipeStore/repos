@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "StressWatch",
+      "type": 1,
+      "bundleID": "com.ideation.Stress",
+      "bundleIdentifier": "com.ideation.Stress",
+      "version": "2.4.6",
+      "versionDate": "2025-10-14",
+      "fullDate": "20251014144834",
+      "size": 220238415,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/StressWatch_2.4.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/StressWatch_2.4.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ideation.Stress.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ideation.Stress.png"
+    },
+    {
       "name": "CleanMyPhone",
       "type": 1,
       "bundleID": "com.macpaw.iosgemini",
