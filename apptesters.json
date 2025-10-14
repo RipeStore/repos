@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Headway",
+      "type": 1,
+      "bundleID": "com.headway.books",
+      "bundleIdentifier": "com.headway.books",
+      "version": "351.5",
+      "versionDate": "2025-10-14",
+      "fullDate": "20251014231945",
+      "size": 315877964,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/Headway_351.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/Headway_351.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png"
+    },
+    {
       "name": "SCRL",
       "type": 1,
       "bundleID": "com.dopedevelopment.Panels",
