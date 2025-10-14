@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "CleanMyPhone",
+      "type": 1,
+      "bundleID": "com.macpaw.iosgemini",
+      "bundleIdentifier": "com.macpaw.iosgemini",
+      "version": "2.9.2",
+      "versionDate": "2025-10-14",
+      "fullDate": "20251014134826",
+      "size": 103343903,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/CleanMyPhone_2.9.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/CleanMyPhone_2.9.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.macpaw.iosgemini.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.macpaw.iosgemini.png"
+    },
+    {
+      "name": "DiamondFinder",
+      "type": 1,
+      "bundleID": "com.mcdiamondfinder.app",
+      "bundleIdentifier": "com.mcdiamondfinder.app",
+      "version": "3.0.17",
+      "versionDate": "2025-10-14",
+      "fullDate": "20251014134323",
+      "size": 41965391,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/DiamondFinder_3.0.17_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/DiamondFinder_3.0.17_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mcdiamondfinder.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mcdiamondfinder.app.png"
+    },
+    {
       "name": "Documents",
       "type": 1,
       "bundleID": "com.readdle.ReaddleDocsIPad",
