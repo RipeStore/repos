@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SlideShow",
+      "type": 1,
+      "bundleID": "com.spacegab.slideshow",
+      "bundleIdentifier": "com.spacegab.slideshow",
+      "version": "5.6.42",
+      "versionDate": "2025-10-14",
+      "fullDate": "20251014205427",
+      "size": 121577982,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/SlideShow_5.6.42_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/SlideShow_5.6.42_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.spacegab.slideshow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.spacegab.slideshow.png"
+    },
+    {
+      "name": "Textastic",
+      "type": 1,
+      "bundleID": "com.textasticapp.textastic-universal",
+      "bundleIdentifier": "com.textasticapp.textastic-universal",
+      "version": "10.8.1",
+      "versionDate": "2025-10-14",
+      "fullDate": "20251014205426",
+      "size": 10997483,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/Textastic_10.8.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-10-2025/Textastic_10.8.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.textasticapp.textastic-universal.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.textasticapp.textastic-universal.png"
+    },
+    {
       "name": "MkIIIPublic",
       "type": 1,
       "bundleID": "camera.lux.halide.mkii",
