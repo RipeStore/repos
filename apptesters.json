@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "RenovateAI",
+      "type": 1,
+      "bundleID": "app.renovateai",
+      "bundleIdentifier": "app.renovateai",
+      "version": "4.4.63",
+      "versionDate": "2025-10-15",
+      "fullDate": "20251015030104",
+      "size": 66040924,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-10-2025/RenovateAI_4.4.63_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-10-2025/RenovateAI_4.4.63_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.renovateai.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.renovateai.png"
+    },
+    {
       "name": "DrKegel",
       "type": 1,
       "bundleID": "games.calico.mantracker",
