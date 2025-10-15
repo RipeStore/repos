@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Minutes",
+      "type": 1,
+      "bundleID": "ventures.slam.minutes",
+      "bundleIdentifier": "ventures.slam.minutes",
+      "version": "1.9.4",
+      "versionDate": "2025-10-16",
+      "fullDate": "20251016010612",
+      "size": 15206743,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-10-2025/Minutes_1.9.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-10-2025/Minutes_1.9.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ventures.slam.minutes.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ventures.slam.minutes.png"
+    },
+    {
+      "name": "Mimo",
+      "type": 1,
+      "bundleID": "com.getmimo.mimo",
+      "bundleIdentifier": "com.getmimo.mimo",
+      "version": "9.27.1",
+      "versionDate": "2025-10-16",
+      "fullDate": "20251016005606",
+      "size": 136642673,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-10-2025/Mimo_9.27.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-10-2025/Mimo_9.27.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png"
+    },
+    {
       "name": "Rest",
       "type": 1,
       "bundleID": "com.evolve.helm",
