@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SnapEdit",
+      "type": 1,
+      "bundleID": "com.sfun.snapedit",
+      "bundleIdentifier": "com.sfun.snapedit",
+      "version": "6.1.3",
+      "versionDate": "2025-10-15",
+      "fullDate": "20251015081738",
+      "size": 124377372,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-10-2025/SnapEdit_6.1.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-10-2025/SnapEdit_6.1.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png"
+    },
+    {
       "name": "B612",
       "type": 1,
       "bundleID": "com.linecorp.b612",
