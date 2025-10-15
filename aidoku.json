@@ -51,11 +51,11 @@
       },
       "versions": [
         {
-          "version": "0.7.1",
-          "date": "2025-08-07",
-          "localizedDescription": "• Tap zones: tap the sides of the screen to switch pages without needing to swipe.\n• Download manager: view and read all downloaded chapters, and see more detailed storage usage.\n• Image upscaling (experimental): download ML image upscaling models to improve low quality images while reading. Note that this can increase the time it takes for images to load, especially for slower/older devices, and is still very much an experimental feature.\n• Keyboard support: use a connected keyboard (or if you’re just using macOS) to turn pages.\n• Custom series covers: select from alternate covers if a source provides them, or upload your own cover images.\n• Rewritten History tab: it should hopefully look pretty much the same… but be a bit less buggy! The excessive stuttering, long loading times, and needless reloading in some cases were fixed.\n• Other features and fixes:\n    • Manual page image reload option (if a page loads incorrectly)\n    • Uploading local files should actually work now\n    • Tracker searching now has a toggle•able filter for NSFW results\n    • …and more!",
-          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.1/Aidoku.ipa",
-          "size": 5619068,
+          "version": "0.7.2",
+          "date": "2025-10-15",
+          "localizedDescription": "• New settings tab: now with better organization and search support.\n• Wide page isolation and splitting: when using the double page layout (e.g. on iPads), wide pages can be detected and isolated, and when using the single page layout, there’s a new option to automatically split into two pages.\n• Komga tracker: automatically tracks reading history for Komga sources, including page progress in individual volumes.\n• Library refresh progress bar: when a library refresh starts, there’s now a better indicator of the progress towards completion.\n• Backup user settings: the content that’s backed up can now be configured, and allows including user settings.\n• Other features and fixes: content rating tags in search results, an invert tap zones option, a Bangumi tracker, relative dates for chapter releases, and many bug fixes!",
+          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.2/Aidoku.ipa",
+          "size": 5808482,
           "minOSVersion": "15.0"
         }
       ]
