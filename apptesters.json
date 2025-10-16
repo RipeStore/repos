@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PixelColor",
+      "type": 1,
+      "bundleID": "com.djitlabs.pixelcolor",
+      "bundleIdentifier": "com.djitlabs.pixelcolor",
+      "version": "5.42.01",
+      "versionDate": "2025-10-16",
+      "fullDate": "20251016135225",
+      "size": 96465691,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-10-2025/PixelColor_5.42.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-10-2025/PixelColor_5.42.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.djitlabs.pixelcolor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.djitlabs.pixelcolor.png"
+    },
+    {
       "name": "swipewipe",
       "type": 1,
       "bundleID": "com.aoklab.fewerphotos",
