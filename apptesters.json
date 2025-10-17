@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "AdobeExpressPublic",
+      "type": 1,
+      "bundleID": "com.adobe.post",
+      "bundleIdentifier": "com.adobe.post",
+      "version": "29.1.1",
+      "versionDate": "2025-10-17",
+      "fullDate": "20251017143228",
+      "size": 188011860,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/AdobeExpressPublic_29.1.1_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/AdobeExpressPublic_29.1.1_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.post.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.post.png"
+    },
+    {
+      "name": "DuolingoMaxPublic",
+      "type": 1,
+      "bundleID": "com.duolingo.DuolingoMobile",
+      "bundleIdentifier": "com.duolingo.DuolingoMobile",
+      "version": "7.96.0",
+      "versionDate": "2025-10-17",
+      "fullDate": "20251017143220",
+      "size": 190530633,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/DuolingoMaxPublic_7.96.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/DuolingoMaxPublic_7.96.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png"
+    },
+    {
       "name": "Yana",
       "type": 1,
       "bundleID": "com.yana.yanapp",
