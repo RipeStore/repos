@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Premiere",
+      "type": 1,
+      "bundleID": "com.adobe.premiere.ios",
+      "bundleIdentifier": "com.adobe.premiere.ios",
+      "version": "25.5.0",
+      "versionDate": "2025-10-18",
+      "fullDate": "20251018013917",
+      "size": 97895549,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-10-2025/Premiere_25.5.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-10-2025/Premiere_25.5.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.premiere.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.premiere.ios.png"
+    },
+    {
+      "name": "Lightroom",
+      "type": 1,
+      "bundleID": "com.adobe.lrmobilephone",
+      "bundleIdentifier": "com.adobe.lrmobilephone",
+      "version": "10.5.2",
+      "versionDate": "2025-10-18",
+      "fullDate": "20251018013409",
+      "size": 187785416,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-10-2025/Lightroom_10.5.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-10-2025/Lightroom_10.5.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.lrmobilephone.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.lrmobilephone.png"
+    },
+    {
       "name": "Euforia",
       "type": 1,
       "bundleID": "digital.euforia",
