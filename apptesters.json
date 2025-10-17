@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Luminar",
+      "type": 1,
+      "bundleID": "com.skylum.luminaripad",
+      "bundleIdentifier": "com.skylum.luminaripad",
+      "version": "2.5.5",
+      "versionDate": "2025-10-18",
+      "fullDate": "20251018015423",
+      "size": 373249461,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-10-2025/Luminar_2.5.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-10-2025/Luminar_2.5.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.skylum.luminaripad.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.skylum.luminaripad.png"
+    },
+    {
       "name": "Premiere",
       "type": 1,
       "bundleID": "com.adobe.premiere.ios",
