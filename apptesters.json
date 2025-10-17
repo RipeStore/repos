@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SnapEdit",
+      "type": 1,
+      "bundleID": "com.sfun.snapedit",
+      "bundleIdentifier": "com.sfun.snapedit",
+      "version": "6.1.4",
+      "versionDate": "2025-10-17",
+      "fullDate": "20251017094626",
+      "size": 156518802,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/SnapEdit_6.1.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/SnapEdit_6.1.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png"
+    },
+    {
       "name": "SODA",
       "type": 1,
       "bundleID": "com.snowcorp.soda",
