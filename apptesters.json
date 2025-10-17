@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AudioEditor",
+      "type": 1,
+      "bundleID": "com.hemin.mp3editor",
+      "bundleIdentifier": "com.hemin.mp3editor",
+      "version": "5.70",
+      "versionDate": "2025-10-17",
+      "fullDate": "20251017125654",
+      "size": 107609847,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/AudioEditor_5.70_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/AudioEditor_5.70_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hemin.mp3editor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hemin.mp3editor.png"
+    },
+    {
       "name": "PhotoCollagePublic",
       "type": 1,
       "bundleID": "com.reezo.RezooPipCam",
