@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "LINECamera",
+      "type": 1,
+      "bundleID": "jp.naver.linecamera",
+      "bundleIdentifier": "jp.naver.linecamera",
+      "version": "17.5.4",
+      "versionDate": "2025-10-17",
+      "fullDate": "20251017214844",
+      "size": 136520376,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/LINECamera_17.5.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/LINECamera_17.5.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/jp.naver.linecamera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/jp.naver.linecamera.png"
+    },
+    {
       "name": "Trace",
       "type": 1,
       "bundleID": "com.morpholioapps.trace",
