@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Euforia",
+      "type": 1,
+      "bundleID": "digital.euforia",
+      "bundleIdentifier": "digital.euforia",
+      "version": "1.2.13",
+      "versionDate": "2025-10-18",
+      "fullDate": "20251018002400",
+      "size": 77098979,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-10-2025/Euforia_1.2.13_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-10-2025/Euforia_1.2.13_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/digital.euforia.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/digital.euforia.png"
+    },
+    {
       "name": "LINECamera",
       "type": 1,
       "bundleID": "jp.naver.linecamera",
