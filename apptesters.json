@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "PhotoCollagePublic",
+      "type": 1,
+      "bundleID": "com.reezo.RezooPipCam",
+      "bundleIdentifier": "com.reezo.RezooPipCam",
+      "version": "2.2",
+      "versionDate": "2025-10-17",
+      "fullDate": "20251017120646",
+      "size": 107702762,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/PhotoCollagePublic_2.2_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/PhotoCollagePublic_2.2_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.reezo.RezooPipCam.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.reezo.RezooPipCam.png"
+    },
+    {
+      "name": "SlideShowMakerPublic",
+      "type": 1,
+      "bundleID": "com.debotoshdey.slideshow",
+      "bundleIdentifier": "com.debotoshdey.slideshow",
+      "version": "3.0",
+      "versionDate": "2025-10-17",
+      "fullDate": "20251017120640",
+      "size": 145832376,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/SlideShowMakerPublic_3.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-10-2025/SlideShowMakerPublic_3.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.debotoshdey.slideshow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.debotoshdey.slideshow.png"
+    },
+    {
       "name": "Minutes",
       "type": 1,
       "bundleID": "ventures.slam.minutes",
