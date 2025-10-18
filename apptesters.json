@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SnappierIPTV",
+      "type": 1,
+      "bundleID": "uk.co.snappy-code.snappierIPTV",
+      "bundleIdentifier": "uk.co.snappy-code.snappierIPTV",
+      "version": "5.0.5",
+      "versionDate": "2025-10-18",
+      "fullDate": "20251018112101",
+      "size": 63981954,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-10-2025/SnappierIPTV_5.0.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-10-2025/SnappierIPTV_5.0.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/uk.co.snappy-code.snappierIPTV.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/uk.co.snappy-code.snappierIPTV.png"
+    },
+    {
       "name": "SkyGuide",
       "type": 1,
       "bundleID": "com.fifthstarlabs.skyguide",
