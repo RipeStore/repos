@@ -60,6 +60,15 @@
           "maxOSVersion": "99.0"
         },
         {
+          "version": "5.0.0b3",
+          "date": "2025-10-13T00:00:00.0000000Z",
+          "localizedDescription": "Adds support for emulating Skylander Portal of Power, and adds fixes for JIT on some devices running iOS 17 and 18.",
+          "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b3/Non-Jailbroken.ipa",
+          "size": 17958943,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "99.0"
+        },
+        {
           "version": "5.0.0b1",
           "date": "2025-10-11T17:00:00.0000000Z",
           "localizedDescription": "This is the second public beta build based on the rewritten DolphiniOS code.\n\niOS 14 is required to run this build.",
