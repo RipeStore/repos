@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SoundLab",
+      "type": 1,
+      "bundleID": "com.castpeer.audioroom.ios",
+      "bundleIdentifier": "com.castpeer.audioroom.ios",
+      "version": "2.9.6",
+      "versionDate": "2025-10-18",
+      "fullDate": "20251018100542",
+      "size": 131916979,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-10-2025/SoundLab_2.9.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-10-2025/SoundLab_2.9.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.castpeer.audioroom.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.castpeer.audioroom.ios.png"
+    },
+    {
       "name": "Locket",
       "type": 1,
       "bundleID": "com.locket.Locket",
