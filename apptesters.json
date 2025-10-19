@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Tripsy",
+      "type": 1,
+      "bundleID": "app.tripsy.ios",
+      "bundleIdentifier": "app.tripsy.ios",
+      "version": "3.6.7",
+      "versionDate": "2025-10-19",
+      "fullDate": "20251019152919",
+      "size": 107239374,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-10-2025/Tripsy_3.6.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-10-2025/Tripsy_3.6.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png"
+    },
+    {
       "name": "Motionleap",
       "type": 1,
       "bundleID": "com.lightricks.Enlight-Phoenix",
