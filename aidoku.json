@@ -53,9 +53,9 @@
         {
           "version": "0.7.2",
           "date": "2025-10-15",
-          "localizedDescription": "• New settings tab: now with better organization and search support.\n• Wide page isolation and splitting: when using the double page layout (e.g. on iPads), wide pages can be detected and isolated, and when using the single page layout, there’s a new option to automatically split into two pages.\n• Komga tracker: automatically tracks reading history for Komga sources, including page progress in individual volumes.\n• Library refresh progress bar: when a library refresh starts, there’s now a better indicator of the progress towards completion.\n• Backup user settings: the content that’s backed up can now be configured, and allows including user settings.\n• Other features and fixes: content rating tags in search results, an invert tap zones option, a Bangumi tracker, relative dates for chapter releases, and many bug fixes!",
+          "localizedDescription": "• New settings tab: now with better organization and search support.\n• Wide page isolation and splitting: when using the double page layout (e.g. on iPads), wide pages can be detected and isolated, and when using the single page layout, there’s a new option to automatically split into two pages.\n• Komga tracker: automatically tracks reading history for Komga sources, including page progress in individual volumes.\n• Library refresh progress bar: when a library refresh starts, there’s now a better indicator of the progress towards completion.\n• Backup user settings: the content that’s backed up can now be configured, and allows including user settings.\n• Other features and fixes: content rating tags in search results, an invert tap zones option, a Bangumi tracker, relative dates for chapter releases, and many bug fixes!\n\nThe latest ipa is \"Aidoku.ipa\", build 0.7.2 (3), up to commit be6089aefa58d4a2bd77c0c93dcad40deb19bbf6.",
           "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.2/Aidoku.ipa",
-          "size": 5808482,
+          "size": 5818726,
           "minOSVersion": "15.0"
         }
       ]
