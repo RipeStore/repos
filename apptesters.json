@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Pillow",
+      "type": 1,
+      "bundleID": "com.neybox.Pillow",
+      "bundleIdentifier": "com.neybox.Pillow",
+      "version": "6.1.4",
+      "versionDate": "2025-10-20",
+      "fullDate": "20251020005532",
+      "size": 519992304,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/Pillow_6.1.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/Pillow_6.1.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png"
+    },
+    {
       "name": "Facetune",
       "type": 1,
       "bundleID": "com.lightricks.Facetune2",
