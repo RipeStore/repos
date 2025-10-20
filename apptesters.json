@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Clarity",
+      "type": 1,
+      "bundleID": "com.moodtools.thoughtdiary",
+      "bundleIdentifier": "com.moodtools.thoughtdiary",
+      "version": "5.5.7",
+      "versionDate": "2025-10-20",
+      "fullDate": "20251020194904",
+      "size": 148423619,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/Clarity_5.5.7_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/Clarity_5.5.7_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moodtools.thoughtdiary.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moodtools.thoughtdiary.png"
+    },
+    {
+      "name": "edjingMix",
+      "type": 1,
+      "bundleID": "com.edjing.edjingdjturntable",
+      "bundleIdentifier": "com.edjing.edjingdjturntable",
+      "version": "8.12.10",
+      "versionDate": "2025-10-20",
+      "fullDate": "20251020192848",
+      "size": 426829564,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/edjingMix_8.12.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/edjingMix_8.12.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.edjing.edjingdjturntable.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.edjing.edjingdjturntable.png"
+    },
+    {
       "name": "AdGuard",
       "type": 1,
       "bundleID": "com.adguard.AdguardExtension",
