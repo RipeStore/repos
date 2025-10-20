@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Moonly",
+      "type": 1,
+      "bundleID": "com.moonly.Moonly",
+      "bundleIdentifier": "com.moonly.Moonly",
+      "version": "2.4.9",
+      "versionDate": "2025-10-20",
+      "fullDate": "20251020144249",
+      "size": 164297873,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/Moonly_2.4.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/Moonly_2.4.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png"
+    },
+    {
+      "name": "Flightradar24",
+      "type": 1,
+      "bundleID": "se.resenatverket.FlightRadar24-Free",
+      "bundleIdentifier": "se.resenatverket.FlightRadar24-Free",
+      "version": "10.17.1",
+      "versionDate": "2025-10-20",
+      "fullDate": "20251020142741",
+      "size": 217319583,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/Flightradar24_10.17.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/Flightradar24_10.17.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Gold",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/se.resenatverket.FlightRadar24-Free.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/se.resenatverket.FlightRadar24-Free.png"
+    },
+    {
       "name": "SleepCycle",
       "type": 1,
       "bundleID": "com.lexwarelabs.goodmorning",
