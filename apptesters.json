@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SleepCycle",
+      "type": 1,
+      "bundleID": "com.lexwarelabs.goodmorning",
+      "bundleIdentifier": "com.lexwarelabs.goodmorning",
+      "version": "6.25.41",
+      "versionDate": "2025-10-20",
+      "fullDate": "20251020132225",
+      "size": 309199789,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/SleepCycle_6.25.41_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/SleepCycle_6.25.41_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lexwarelabs.goodmorning.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lexwarelabs.goodmorning.png"
+    },
+    {
       "name": "SCRL",
       "type": 1,
       "bundleID": "com.dopedevelopment.Panels",
