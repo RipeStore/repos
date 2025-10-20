@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "1Blocker",
+      "type": 1,
+      "bundleID": "com.khanov.BlockerX",
+      "bundleIdentifier": "com.khanov.BlockerX",
+      "version": "6.3.5",
+      "versionDate": "2025-10-20",
+      "fullDate": "20251020153318",
+      "size": 52756424,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/1Blocker_6.3.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/1Blocker_6.3.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.khanov.BlockerX.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.khanov.BlockerX.png"
+    },
+    {
       "name": "Unfold",
       "type": 1,
       "bundleID": "com.moonlab.unfoldstories",
