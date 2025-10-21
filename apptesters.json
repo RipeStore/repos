@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Productive",
+      "type": 1,
+      "bundleID": "com.beHappy.Productive",
+      "bundleIdentifier": "com.beHappy.Productive",
+      "version": "3.26.36",
+      "versionDate": "2025-10-21",
+      "fullDate": "20251021215440",
+      "size": 188482387,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/Productive_3.26.36_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/Productive_3.26.36_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.beHappy.Productive.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.beHappy.Productive.png"
+    },
+    {
+      "name": "HiWidget",
+      "type": 1,
+      "bundleID": "com.zerone.hidesktop",
+      "bundleIdentifier": "com.zerone.hidesktop",
+      "version": "4.3.45",
+      "versionDate": "2025-10-21",
+      "fullDate": "20251021214927",
+      "size": 399334103,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/HiWidget_4.3.45_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/HiWidget_4.3.45_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png"
+    },
+    {
       "name": "ProCCD",
       "type": 1,
       "bundleID": "com.yengshine.proccd",
