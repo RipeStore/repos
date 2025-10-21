@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Scanner",
+      "type": 1,
+      "bundleID": "com.apalonapps.pdffree",
+      "bundleIdentifier": "com.apalonapps.pdffree",
+      "version": "3.7.1",
+      "versionDate": "2025-10-21",
+      "fullDate": "20251021201859",
+      "size": 126354792,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/Scanner_3.7.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/Scanner_3.7.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.pdffree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.pdffree.png"
+    },
+    {
+      "name": "Temply",
+      "type": 1,
+      "bundleID": "com.templyvideo.Temply",
+      "bundleIdentifier": "com.templyvideo.Temply",
+      "version": "8.1",
+      "versionDate": "2025-10-21",
+      "fullDate": "20251021201855",
+      "size": 87666257,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/Temply_8.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/Temply_8.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.templyvideo.Temply.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.templyvideo.Temply.png"
+    },
+    {
       "name": "YAZIO",
       "type": 1,
       "bundleID": "com.yazio.ios.YAZIO",
