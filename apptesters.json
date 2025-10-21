@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "YouTubeOLED",
+      "type": 1,
+      "bundleID": "com.google.ios.youtube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "version": "20.42.3",
+      "versionDate": "2025-10-21",
+      "fullDate": "20251021130628",
+      "size": 130529664,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/YouTubeOLED_20.42.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/YouTubeOLED_20.42.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png"
+    },
+    {
       "name": "Textastic",
       "type": 1,
       "bundleID": "com.textasticapp.textastic-universal",
