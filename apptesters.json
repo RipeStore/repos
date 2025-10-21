@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VideoLite",
+      "type": 1,
+      "bundleID": "com.videobrowser.ios",
+      "bundleIdentifier": "com.videobrowser.ios",
+      "version": "620120",
+      "versionDate": "2025-10-21",
+      "fullDate": "20251021084109",
+      "size": 35603621,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/VideoLite_620120_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/VideoLite_620120_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.videobrowser.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.videobrowser.ios.png"
+    },
+    {
       "name": "Premiere",
       "type": 1,
       "bundleID": "com.adobe.premiere.ios",
