@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Mojo",
+      "type": 1,
+      "bundleID": "archery.storify",
+      "bundleIdentifier": "archery.storify",
+      "version": "1.246.0",
+      "versionDate": "2025-10-21",
+      "fullDate": "20251021150701",
+      "size": 190716261,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/Mojo_1.246.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/Mojo_1.246.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/archery.storify.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/archery.storify.png"
+    },
+    {
       "name": "Endel",
       "type": 1,
       "bundleID": "com.endel.endel",
