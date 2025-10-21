@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MelonVPNPublic",
+      "type": 1,
+      "bundleID": "com.vpnbottle.melon.unblock.fast.vpn",
+      "bundleIdentifier": "com.vpnbottle.melon.unblock.fast.vpn",
+      "version": "3.3.20",
+      "versionDate": "2025-10-21",
+      "fullDate": "20251021162757",
+      "size": 18534637,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/MelonVPNPublic_3.3.20_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/MelonVPNPublic_3.3.20_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vpnbottle.melon.unblock.fast.vpn.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vpnbottle.melon.unblock.fast.vpn.png"
+    },
+    {
       "name": "BandLab",
       "type": 1,
       "bundleID": "com.bandlab.bandlab.iphone",
