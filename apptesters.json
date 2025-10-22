@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Athlytic",
+      "type": 1,
+      "bundleID": "myndarc.newFitnessApp",
+      "bundleIdentifier": "myndarc.newFitnessApp",
+      "version": "26.1.0",
+      "versionDate": "2025-10-22",
+      "fullDate": "20251022182312",
+      "size": 27486976,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-10-2025/Athlytic_26.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-10-2025/Athlytic_26.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/myndarc.newFitnessApp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/myndarc.newFitnessApp.png"
+    },
+    {
       "name": "Photoroom",
       "type": 1,
       "bundleID": "com.dr1ven.eraser",
