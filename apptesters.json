@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "UnifiedDictionary",
+      "type": 1,
+      "bundleID": "com.bravolol.bravoLang.chineseDictionary",
+      "bundleIdentifier": "com.bravolol.bravoLang.chineseDictionary",
+      "version": "35.0",
+      "versionDate": "2025-10-22",
+      "fullDate": "20251022082136",
+      "size": 21636051,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-10-2025/UnifiedDictionary_35.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-10-2025/UnifiedDictionary_35.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bravolol.bravoLang.chineseDictionary.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bravolol.bravoLang.chineseDictionary.png"
+    },
+    {
+      "name": "VSCO",
+      "type": 1,
+      "bundleID": "co.visualsupply.cam",
+      "bundleIdentifier": "co.visualsupply.cam",
+      "version": "445.0.2",
+      "versionDate": "2025-10-22",
+      "fullDate": "20251022075126",
+      "size": 206459861,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-10-2025/VSCO_445.0.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-10-2025/VSCO_445.0.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png"
+    },
+    {
       "name": "CMProCalc",
       "type": 1,
       "bundleID": "com.calculated.laurene",
