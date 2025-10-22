@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "ColorPop",
+      "type": 1,
+      "bundleID": "com.mwm.procolor",
+      "bundleIdentifier": "com.mwm.procolor",
+      "version": "2.57.01",
+      "versionDate": "2025-10-22",
+      "fullDate": "20251022142733",
+      "size": 281603466,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-10-2025/ColorPop_2.57.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-10-2025/ColorPop_2.57.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png"
+    },
+    {
+      "name": "Tripsy",
+      "type": 1,
+      "bundleID": "app.tripsy.ios",
+      "bundleIdentifier": "app.tripsy.ios",
+      "version": "3.6.8",
+      "versionDate": "2025-10-22",
+      "fullDate": "20251022142228",
+      "size": 107243751,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-10-2025/Tripsy_3.6.8_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-10-2025/Tripsy_3.6.8_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png"
+    },
+    {
       "name": "UpNote",
       "type": 1,
       "bundleID": "com.getupnote.ios",
