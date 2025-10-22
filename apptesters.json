@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Fonts",
+      "type": 1,
+      "bundleID": "fontskeyboard.fonts",
+      "bundleIdentifier": "fontskeyboard.fonts",
+      "version": "8.4.43",
+      "versionDate": "2025-10-22",
+      "fullDate": "20251022231410",
+      "size": 58878480,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-10-2025/Fonts_8.4.43_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-10-2025/Fonts_8.4.43_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/fontskeyboard.fonts.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/fontskeyboard.fonts.png"
+    },
+    {
       "name": "SHRED",
       "type": 1,
       "bundleID": "com.shred.shredlabs",
