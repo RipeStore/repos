@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "EasyAnatomy3DPublic",
+      "type": 1,
+      "bundleID": "AB.iOsteology",
+      "bundleIdentifier": "AB.iOsteology",
+      "version": "5.24.2",
+      "versionDate": "2025-10-23",
+      "fullDate": "20251023001418",
+      "size": 1206734753,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/EasyAnatomy3DPublic_5.24.2_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/EasyAnatomy3DPublic_5.24.2_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/AB.iOsteology.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/AB.iOsteology.png"
+    },
+    {
       "name": "Fonts",
       "type": 1,
       "bundleID": "fontskeyboard.fonts",
