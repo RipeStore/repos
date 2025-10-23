@@ -1,45 +1,250 @@
 {
-  "name": "PojavLauncher Repository",
-  "identifier": "dev.crystall1ne.repos.PojavLauncher",
+  "name": "crystall1ne.dev",
+  "identifier": "dev.crystall1ne.alt",
+  "subtitle": "The source for everything crystall1nedev.",
+  "description": "Apps from the crystall1nedev and AngelAuraMC universes, now on Alt and SideStore.",
+  "iconURL": "https://crystall1ne.dev/media/the_icon.png",
+  "website": "https://crystall1ne.dev",
+  "patreonURL": "https://patreon.com/crystall1nedev",
+  "fediUsername": "crystll1ne",
+  "tintColor": "#99140b",
+  "featuredApps": [
+    "org.angelauramc.amethyst"
+  ],
+  "headerURL": "https://crystall1ne.dev/media/the_point.png",
   "apps": [
     {
-      "name": "PojavLauncher",
+      "name": "Angel Aura Amethyst",
+      "bundleIdentifier": "org.angelauramc.amethyst",
+      "developerName": "AngelAuraMC",
+      "subtitle": "Bringing Minecraft: Java Edition to mobile devices.",
+      "localizedDescription": "Angel Aura Amethyst is a Minecraft: Java Edition launcher for iOS based on the PojavLauncher project.\n\n• Play most versions of Minecraft, from the very first beta to the latest snapshots.\n• Customize with mods, resource packs, and compatible shaders\n• Create multiple instances of Minecraft for multiple versions\n• Adjust on-screen controls to your liking, or use keyboard and mouse or controllers\n• Play online with full Java Edition servers\n...and so much more!\n\nNotice: Amethyst requires JIT to function correctly. This application automatically enables JIT with AltServer, TrollStore, or when jailbroken, however other methods can be used if required.",
+      "iconURL": "https://raw.githubusercontent.com/AngelAuraMC/Amethyst-iOS/main/Natives/Assets.xcassets/AppIcon-Light.appiconset/1024x1024.png",
+      "tintColor": "#9649B8",
+      "category": "games",
+      "screenshots": {
+        "iphone": [
+          {
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_1.PNG",
+            "width": 2796,
+            "height": 1290
+          },
+          {
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_2.PNG",
+            "width": 2796,
+            "height": 1290
+          },
+          {
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_3.PNG",
+            "width": 2796,
+            "height": 1290
+          },
+          {
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_4.PNG",
+            "width": 2796,
+            "height": 1290
+          }
+        ],
+        "ipad": [
+          {
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_1.PNG",
+            "width": 2796,
+            "height": 1290
+          },
+          {
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_2.PNG",
+            "width": 2796,
+            "height": 1290
+          },
+          {
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_3.PNG",
+            "width": 2796,
+            "height": 1290
+          },
+          {
+            "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_4.PNG",
+            "width": 2796,
+            "height": 1290
+          }
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0 beta",
+          "date": "2023-05-06T17:00:00-05:00",
+          "localizedDescription": "Amethyst's 1.0 beta, built on PojavLauncher 3.0.",
+          "downloadURL": "https://crystall1ne.dev/null",
+          "size": 108175347,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.private.security.container-required",
+          "com.apple.private.mobileinstall.upgrade-enabled",
+          "com.apple.private.security.no-sandbox",
+          "com.apple.private.security.storage.AppDataContainers",
+          "com.apple.private.security.storage.MobileDocuments",
+          "com.apple.security.iokit-user-client-class",
+          "platform-application",
+          "get-task-allow",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.private.memorystatus",
+          "local.sandboxed-jit"
+        ],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "Amethyst uses the microphone to enable support for voice chat mods.",
+          "NSLocalNetworkUsageDescription": "Amethyst uses the local network to find and communicate with AltServer and LAN servers."
+        }
+      }
+    },
+    {
+      "name": "PojavLauncher iOS",
       "bundleIdentifier": "net.kdt.pojavlauncher",
       "developerName": "PojavLauncherTeam",
-      "subtitle": "Bringing Minecraft: Java Edition to mobile devices.",
-      "version": "2.2",
-      "versionDate": "2023-05-06T17:00:00-05:00",
-      "versionDescription": "PojavLauncher 2.2 Deepslate puts a focus on our core functionality, working to squash bugs, improve performance, and increase reliability.",
-      "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.2/net.kdt.pojavlauncher-2.2-ios.ipa",
-      "localizedDescription": "PojavLauncher is a Minecraft: Java Edition launcher for iOS and Android based on the Boardwalk project.\n\n• Play most versions of Minecraft, from the very first beta to the latest snapshots.\n• Customize with mods, resource packs, and compatible shaders\n• Create multiple instances of Minecraft for multiple versions\n• Adjust on-screen controls to your liking, or use keyboard and mouse or controllers\n• Play online with full Java Edition servers\n...and so much more!\n\nNotice: PojavLauncher iOS requires JIT to function correctly. This application automatically enables JIT with JITStreamer, TrollStore, or when jailbroken, however other methods can be used if required.",
+      "subtitle": "Brought Minecraft: Java Edition to mobile devices.",
+      "localizedDescription": "PojavLauncher was a Minecraft: Java Edition launcher for iOS and Android based on the Boardwalk project.\n\nNotice: PojavLauncher iOS has been discontinued and replaced by Amethyst. This application is here for archival purposes only, as it does not work on the latest version of iOS.",
       "iconURL": "https://raw.githubusercontent.com/PojavLauncherTeam/PojavLauncher_iOS/main/Natives/Assets.xcassets/AppIcon-Dark.appiconset/AppIcon-Dark_1024x1024.png",
-      "tintColor": "746344",
-      "size": 108175347,
-      "screenshotURLs": [
-        "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_1.PNG",
-        "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_2.PNG",
-        "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_3.PNG",
-        "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_4.PNG"
-      ]
+      "tintColor": "#746344",
+      "category": "games",
+      "screenshots": [
+        {
+          "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_1.PNG",
+          "width": 2796,
+          "height": 1290
+        },
+        {
+          "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_2.PNG",
+          "width": 2796,
+          "height": 1290
+        },
+        {
+          "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_3.PNG",
+          "width": 2796,
+          "height": 1290
+        },
+        {
+          "imageURL": "https://alt.crystall1ne.dev/net.kdt.pojavlauncher_iphone-ipod_4.PNG",
+          "width": 2796,
+          "height": 1290
+        }
+      ],
+      "versions": [
+        {
+          "version": "2.2",
+          "date": "2023-05-06T17:00:00-05:00",
+          "localizedDescription": "PojavLauncher 2.2 Deepslate puts a focus on our core functionality, working to squash bugs, improve performance, and increase reliability.",
+          "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.2/net.kdt.pojavlauncher-2.2-ios.ipa",
+          "size": 108175347,
+          "minOSVersion": "12.2",
+          "maxOSVersion": "18.7.1"
+        },
+        {
+          "version": "2.1.3",
+          "date": "2023-01-17T17:00:00-05:00",
+          "localizedDescription": "PojavLauncher 2.1.3 Sculk Catalyst includes various bugfixes for our users.",
+          "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.1.3/net.kdt.pojavlauncher-2.1.3-ios.ipa",
+          "size": 108175347,
+          "minOSVersion": "12.2",
+          "maxOSVersion": "18.7.1"
+        },
+        {
+          "version": "2.1.2",
+          "date": "2023-01-02T17:00:00-05:00",
+          "localizedDescription": "PojavLauncher 2.1.2 Sculk Catalyst includes various bugfixes for our users. This update is highly recommended to return to a stable codebase.",
+          "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.1.2/net.kdt.pojavlauncher-2.1.2-ios.ipa",
+          "size": 108175347,
+          "minOSVersion": "12.2",
+          "maxOSVersion": "18.7.1"
+        },
+        {
+          "version": "2.1.1",
+          "date": "2022-12-18T17:00:00-05:00",
+          "localizedDescription": "PojavLauncher 2.1.1 Sculk Catalyst includes various bugfixes for our users.",
+          "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.1.1/net.kdt.pojavlauncher-2.1.1-ios.ipa",
+          "size": 108175347,
+          "minOSVersion": "12.2",
+          "maxOSVersion": "18.7.1"
+        },
+        {
+          "version": "2.1",
+          "date": "2022-12-10T17:00:00-05:00",
+          "localizedDescription": "PojavLauncher 2.1 Sculk Catalyst is the first release of PojavLauncher for unjailbroken devices. It comes paired with improvements to the user interface, custom controls and support for keyboard, mouse, and controllers, demo mode, and performance optimizations with more compatibility.",
+          "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.1/net.kdt.pojavlauncher-2.1.ipa",
+          "size": 108175347,
+          "minOSVersion": "12.2",
+          "maxOSVersion": "18.7.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.private.security.container-required",
+          "com.apple.private.mobileinstall.upgrade-enabled",
+          "com.apple.private.security.no-sandbox",
+          "com.apple.private.security.storage.AppDataContainers",
+          "com.apple.private.security.storage.MobileDocuments",
+          "com.apple.security.iokit-user-client-class",
+          "platform-application",
+          "get-task-allow",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.private.memorystatus",
+          "local.sandboxed-jit"
+        ],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "PojavLauncher uses the microphone to enable support for voice chat mods.",
+          "NSLocalNetworkUsageDescription": "PojavLauncher uses the local network to find and communicate with AltServer and LAN servers."
+        }
+      }
     }
   ],
   "news": [
     {
+      "title": "Amethyst lands on the AltSource!",
+      "identifier": "news_gnuk6c3pqi",
+      "caption": "The successor to PojavLauncher, Angel Aura Amethyst provides powerful new capabilities while staying instantly familiar.",
+      "date": "2025-10-11T01:09",
+      "tintColor": "#99140b",
+      "notify": true,
+      "url": "https://github.com/AngelAuraMC",
+      "appID": "org.angelauramc.amethyst"
+    },
+    {
+      "title": "PojavLauncherTeam is now AngelAuraMC.",
+      "identifier": "dev.crystall1ne.alt.amethyst-news.0",
+      "caption": "We're rebuilding to enhance our core principles - and it all starts with Amethyst.",
+      "tintColor": "#9649B8",
+      "imageURL": "https://assets.angelauramc.dev/angelauramc/banner_2276x1280.png",
+      "url": "https://github.com/AngelAuraMC",
+      "appID": "org.angelauramc.amethyst",
+      "date": "2024-04-25",
+      "notify": true
+    },
+    {
+      "title": "PojavLauncher Repository is now crystall1ne.dev.",
+      "identifier": "dev.crystall1ne.alt.source-news.0",
+      "caption": "This huge update to my AltSource enables futureproofing and more space for my creations.",
+      "tintColor": "#99140b",
+      "imageURL": "https://crystall1ne.dev/media/the_point.png",
+      "url": "https://beta.crystall1ne.dev",
+      "date": "2024-04-25",
+      "notify": true
+    },
+    {
       "title": "PojavLauncher 2.2 Deepslate",
-      "identifier": "dev.crystall1ne.appnews.PojavLauncher",
+      "identifier": "dev.crystall1ne.alt.Pojav-news.0",
       "caption": "The next release of PojavLauncher is out now - get it now!",
-      "tintColor": "746344",
-      "imageURL": "https://alt.crystall1ne.dev/Pojav-Logo.png",
+      "tintColor": "#746344",
       "appID": "net.kdt.pojavlauncher",
       "date": "2023-05-06",
       "notify": true
     },
     {
       "title": "PojavLauncher 2.1.3 - New bug fix release, available now.",
-      "identifier": "dev.crystall1ne.appnews.PojavLauncher.old",
+      "identifier": "dev.crystall1ne.alt.Pojav-news.1",
       "caption": "This minor release backports a few fixes, and includes new packages for iOS 15.",
-      "tintColor": "746344",
-      "imageURL": "https://alt.crystall1ne.dev/Pojav-Logo.png",
+      "tintColor": "#746344",
       "appID": "net.kdt.pojavlauncher",
       "date": "2023-01-02",
       "notify": true
