@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Headway",
+      "type": 1,
+      "bundleID": "com.headway.books",
+      "bundleIdentifier": "com.headway.books",
+      "version": "353.0",
+      "versionDate": "2025-10-23",
+      "fullDate": "20251023205900",
+      "size": 513363390,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/Headway_353.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/Headway_353.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png"
+    },
+    {
+      "name": "VSCO",
+      "type": 1,
+      "bundleID": "co.visualsupply.cam",
+      "bundleIdentifier": "co.visualsupply.cam",
+      "version": "445.0.3",
+      "versionDate": "2025-10-23",
+      "fullDate": "20251023204850",
+      "size": 206456885,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/VSCO_445.0.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/VSCO_445.0.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png"
+    },
+    {
       "name": "Flo",
       "type": 1,
       "bundleID": "org.iggymedia.periodtracker",
