@@ -51,6 +51,15 @@
       "beta": false,
       "versions": [
         {
+          "version": "5.0.0b4",
+          "date": "2025-10-23T02:30:00.0000000Z",
+          "localizedDescription": "Beta 4 attempts to fix crashes when using JIT on devices with an A12, A13, A14, or M1 chip running iOS 26.\n\nBeta 3 adds support for emulating Skylander Portal of Power, fixes JIT on some devices running iOS 17 and 18, and fixes random errors with JIT on iOS 26.\n\nBeta 1 adds support for JIT on iOS 26 using StikDebug.",
+          "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b4/Non-Jailbroken.ipa",
+          "size": 17958943,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "99.0"
+        },
+        {
           "version": "5.0.0b3",
           "date": "2025-10-18T00:00:00.0000000Z",
           "localizedDescription": "Adds support for emulating Skylander Portal of Power, fixes JIT on some devices running iOS 17 and 18, and fixes random errors with JIT on iOS 26.",
@@ -105,10 +114,10 @@
           "maxOSVersion": "99.0"
         }
       ],
-      "version": "5.0.0b3",
-      "versionDate": "2025-10-18T00:00:00.0000000Z",
-      "versionDescription": "Adds support for emulating Skylander Portal of Power, fixes JIT on some devices running iOS 17 and 18, and fixes random errors with JIT on iOS 26.",
-      "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b3/Non-Jailbroken.ipa",
+      "version": "5.0.0b4",
+      "versionDate": "2025-10-23T02:30:00.0000000Z",
+      "versionDescription": "Beta 4 attempts to fix crashes when using JIT on devices with an A12, A13, A14, or M1 chip running iOS 26.\n\nBeta 3 adds support for emulating Skylander Portal of Power, fixes JIT on some devices running iOS 17 and 18, and fixes random errors with JIT on iOS 26.\n\nBeta 1 adds support for JIT on iOS 26 using StikDebug.",
+      "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b4/Non-Jailbroken.ipa",
       "size": 17958943
     }
   ],
