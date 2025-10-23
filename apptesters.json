@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Premiere",
+      "type": 1,
+      "bundleID": "com.adobe.premiere.ios",
+      "bundleIdentifier": "com.adobe.premiere.ios",
+      "version": "25.5.3",
+      "versionDate": "2025-10-23",
+      "fullDate": "20251023123608",
+      "size": 97896175,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/Premiere_25.5.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/Premiere_25.5.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.premiere.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.premiere.ios.png"
+    },
+    {
+      "name": "PicsArt",
+      "type": 1,
+      "bundleID": "com.picsart.studio",
+      "bundleIdentifier": "com.picsart.studio",
+      "version": "28.6.3",
+      "versionDate": "2025-10-23",
+      "fullDate": "20251023123604",
+      "size": 112392639,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/PicsArt_28.6.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/PicsArt_28.6.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png"
+    },
+    {
       "name": "UnifiedDictionary",
       "type": 1,
       "bundleID": "com.bravolol.bravoLang.chineseDictionary",
