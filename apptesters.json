@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Leto",
+      "type": 1,
+      "bundleID": "biser.stories",
+      "bundleIdentifier": "biser.stories",
+      "version": "8.5",
+      "versionDate": "2025-10-23",
+      "fullDate": "20251023162808",
+      "size": 169283663,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/Leto_8.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/Leto_8.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/biser.stories.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/biser.stories.png"
+    },
+    {
       "name": "Passbook",
       "type": 1,
       "bundleID": "com.am.pkstudio",
