@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Busuu",
+      "type": 1,
+      "bundleID": "com.busuu.english.app",
+      "bundleIdentifier": "com.busuu.english.app",
+      "version": "29.22.1",
+      "versionDate": "2025-10-23",
+      "fullDate": "20251023151702",
+      "size": 159122229,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/Busuu_29.22.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/Busuu_29.22.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png"
+    },
+    {
+      "name": "CuteWeather",
+      "type": 1,
+      "bundleID": "at.stefanstangl.CuteWeather",
+      "bundleIdentifier": "at.stefanstangl.CuteWeather",
+      "version": "5.2.28",
+      "versionDate": "2025-10-23",
+      "fullDate": "20251023151138",
+      "size": 538544571,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/CuteWeather_5.2.28_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/CuteWeather_5.2.28_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/at.stefanstangl.CuteWeather.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/at.stefanstangl.CuteWeather.png"
+    },
+    {
       "name": "CLIME",
       "type": 1,
       "bundleID": "com.apalonapps.radarfree",
