@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Endel",
+      "type": 1,
+      "bundleID": "com.endel.endel",
+      "bundleIdentifier": "com.endel.endel",
+      "version": "4.48.345",
+      "versionDate": "2025-10-23",
+      "fullDate": "20251023213943",
+      "size": 195552991,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/Endel_4.48.345_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/Endel_4.48.345_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.endel.endel.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.endel.endel.png"
+    },
+    {
+      "name": "Captions",
+      "type": 1,
+      "bundleID": "boomer.Smart-Video",
+      "bundleIdentifier": "boomer.Smart-Video",
+      "version": "12.41.0",
+      "versionDate": "2025-10-23",
+      "fullDate": "20251023212428",
+      "size": 394956781,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/Captions_12.41.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/Captions_12.41.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png"
+    },
+    {
       "name": "X",
       "type": 1,
       "bundleID": "com.atebits.Tweetie2",
