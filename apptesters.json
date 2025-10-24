@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Aloha",
+      "type": 1,
+      "bundleID": "com.alohabrowser.alohabrowser",
+      "bundleIdentifier": "com.alohabrowser.alohabrowser",
+      "version": "7.11.2",
+      "versionDate": "2025-10-24",
+      "fullDate": "20251024211039",
+      "size": 131777492,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-10-2025/Aloha_7.11.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-10-2025/Aloha_7.11.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png"
+    },
+    {
       "name": "Mondly",
       "type": 1,
       "bundleID": "com.atistudios.MondlyLanguages",
