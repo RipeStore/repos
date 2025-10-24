@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Soundmap",
+      "type": 2,
+      "bundleID": "app.mmap.mobile",
+      "bundleIdentifier": "app.mmap.mobile",
+      "version": "2.4.2",
+      "versionDate": "2025-10-24",
+      "fullDate": "20251024214557",
+      "size": 53997808,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-10-2025/Soundmap_2.4.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-10-2025/Soundmap_2.4.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.mmap.mobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.mmap.mobile.png"
+    },
+    {
+      "name": "StressWatch",
+      "type": 1,
+      "bundleID": "com.ideation.Stress",
+      "bundleIdentifier": "com.ideation.Stress",
+      "version": "2.4.8",
+      "versionDate": "2025-10-24",
+      "fullDate": "20251024213547",
+      "size": 226213533,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-10-2025/StressWatch_2.4.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-10-2025/StressWatch_2.4.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ideation.Stress.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ideation.Stress.png"
+    },
+    {
       "name": "Aloha",
       "type": 1,
       "bundleID": "com.alohabrowser.alohabrowser",
