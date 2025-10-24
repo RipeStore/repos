@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Facebook",
+      "type": 1,
+      "bundleID": "com.facebook.Facebook",
+      "bundleIdentifier": "com.facebook.Facebook",
+      "version": "536.0.0",
+      "versionDate": "2025-10-24",
+      "fullDate": "20251024131304",
+      "size": 160985494,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-10-2025/Facebook_536.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-10-2025/Facebook_536.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Facebook.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Facebook.png"
+    },
+    {
       "name": "PerfectAIPublic",
       "type": 1,
       "bundleID": "comai.redrawart.iosapp",
