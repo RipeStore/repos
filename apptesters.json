@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PerfectAIPublic",
+      "type": 1,
+      "bundleID": "comai.redrawart.iosapp",
+      "bundleIdentifier": "comai.redrawart.iosapp",
+      "version": "1.1.8",
+      "versionDate": "2025-10-24",
+      "fullDate": "20251024110751",
+      "size": 157224705,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-10-2025/PerfectAIPublic_1.1.8_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-10-2025/PerfectAIPublic_1.1.8_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/comai.redrawart.iosapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/comai.redrawart.iosapp.png"
+    },
+    {
       "name": "SNOW",
       "type": 1,
       "bundleID": "com.campmobile.snow",
