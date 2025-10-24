@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Anime",
+      "type": 1,
+      "bundleID": "com.wallpapershub.anime",
+      "bundleIdentifier": "com.wallpapershub.anime",
+      "version": "4.0.2",
+      "versionDate": "2025-10-25",
+      "fullDate": "20251025003630",
+      "size": 127133147,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-10-2025/Anime_4.0.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-10-2025/Anime_4.0.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wallpapershub.anime.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wallpapershub.anime.png"
+    },
+    {
       "name": "RiseSleep",
       "type": 1,
       "bundleID": "com.risesci.nyx",
