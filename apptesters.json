@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "MyScriptNotes",
+      "type": 1,
+      "bundleID": "com.myscript.nebo",
+      "bundleIdentifier": "com.myscript.nebo",
+      "version": "7.0.6",
+      "versionDate": "2025-10-26",
+      "fullDate": "20251026151431",
+      "size": 117328849,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-10-2025/MyScriptNotes_7.0.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-10-2025/MyScriptNotes_7.0.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myscript.nebo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myscript.nebo.png"
+    },
+    {
+      "name": "SimplySing",
+      "type": 1,
+      "bundleID": "com.joytunes.Sing",
+      "bundleIdentifier": "com.joytunes.Sing",
+      "version": "2.5.25",
+      "versionDate": "2025-10-26",
+      "fullDate": "20251026151427",
+      "size": 94146761,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-10-2025/SimplySing_2.5.25_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-10-2025/SimplySing_2.5.25_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.Sing.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.Sing.png"
+    },
+    {
       "name": "Tripsy",
       "type": 1,
       "bundleID": "app.tripsy.ios",
