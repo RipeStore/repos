@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Duolingo",
+      "type": 1,
+      "bundleID": "com.duolingo.DuolingoMobile",
+      "bundleIdentifier": "com.duolingo.DuolingoMobile",
+      "version": "7.97.0",
+      "versionDate": "2025-10-28",
+      "fullDate": "20251028002543",
+      "size": 191531812,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/Duolingo_7.97.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/Duolingo_7.97.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png"
+    },
+    {
       "name": "HeavyBagPro",
       "type": 1,
       "bundleID": "com.opentechiz.heavybagpro",
