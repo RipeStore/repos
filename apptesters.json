@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Elevate",
+      "type": 2,
+      "bundleID": "com.elevateapp.elevate",
+      "bundleIdentifier": "com.elevateapp.elevate",
+      "version": "5.213.1",
+      "versionDate": "2025-10-28",
+      "fullDate": "20251028014623",
+      "size": 381931908,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/Elevate_5.213.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/Elevate_5.213.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.elevate.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.elevate.png"
+    },
+    {
+      "name": "YouTubeMusic",
+      "type": 1,
+      "bundleID": "com.google.ios.youtubemusic",
+      "bundleIdentifier": "com.google.ios.youtubemusic",
+      "version": "8.43.3",
+      "versionDate": "2025-10-28",
+      "fullDate": "20251028014118",
+      "size": 97195563,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/YouTubeMusic_8.43.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/YouTubeMusic_8.43.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtubemusic.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtubemusic.png"
+    },
+    {
       "name": "GALATEA",
       "type": 1,
       "bundleID": "org.reactjs.native.Inkitt.App.Colt",
