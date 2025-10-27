@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Speedtest",
+      "type": 1,
+      "bundleID": "com.ookla.speedtest",
+      "bundleIdentifier": "com.ookla.speedtest",
+      "version": "6.3.4",
+      "versionDate": "2025-10-28",
+      "fullDate": "20251028004604",
+      "size": 58334016,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/Speedtest_6.3.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/Speedtest_6.3.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ookla.speedtest.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ookla.speedtest.png"
+    },
+    {
+      "name": "Instagram",
+      "type": 1,
+      "bundleID": "com.burbn.instagram",
+      "bundleIdentifier": "com.burbn.instagram",
+      "version": "404.0.0",
+      "versionDate": "2025-10-28",
+      "fullDate": "20251028004052",
+      "size": 266834004,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/Instagram_404.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/Instagram_404.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png"
+    },
+    {
       "name": "Duolingo",
       "type": 1,
       "bundleID": "com.duolingo.DuolingoMobile",
