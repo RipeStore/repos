@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "FitbittoAppleHealth",
+      "type": 1,
+      "bundleID": "com.bickster.myFitnessSync",
+      "bundleIdentifier": "com.bickster.myFitnessSync",
+      "version": "3.1.6",
+      "versionDate": "2025-10-27",
+      "fullDate": "20251027221510",
+      "size": 45458212,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-10-2025/FitbittoAppleHealth_3.1.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-10-2025/FitbittoAppleHealth_3.1.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bickster.myFitnessSync.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bickster.myFitnessSync.png"
+    },
+    {
+      "name": "Paired",
+      "type": 1,
+      "bundleID": "io.betterhalf.app",
+      "bundleIdentifier": "io.betterhalf.app",
+      "version": "2.57.0",
+      "versionDate": "2025-10-27",
+      "fullDate": "20251027221507",
+      "size": 36861649,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-10-2025/Paired_2.57.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-10-2025/Paired_2.57.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.betterhalf.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.betterhalf.app.png"
+    },
+    {
       "name": "Picoboom",
       "type": 2,
       "bundleID": "com.vanilla.picoboom",
