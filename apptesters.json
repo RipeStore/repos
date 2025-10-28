@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "GlowUp",
+      "type": 1,
+      "bundleID": "com.snowcorp.glowup",
+      "bundleIdentifier": "com.snowcorp.glowup",
+      "version": "3.3.3",
+      "versionDate": "2025-10-28",
+      "fullDate": "20251028142818",
+      "size": 162059403,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/GlowUp_3.3.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/GlowUp_3.3.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.glowup.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.glowup.png"
+    },
+    {
       "name": "WeatherLive",
       "type": 1,
       "bundleID": "com.apalonapps.wlf",
