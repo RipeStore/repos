@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Photoshop",
+      "type": 1,
+      "bundleID": "com.adobe.photoshop.ios",
+      "bundleIdentifier": "com.adobe.photoshop.ios",
+      "version": "7.0",
+      "versionDate": "2025-10-28",
+      "fullDate": "20251028160836",
+      "size": 283148360,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/Photoshop_7.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/Photoshop_7.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.photoshop.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.photoshop.ios.png"
+    },
+    {
       "name": "Photoroom",
       "type": 1,
       "bundleID": "com.dr1ven.eraser",
