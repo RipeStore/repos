@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VideoStar",
+      "type": 1,
+      "bundleID": "com.frontierdesign.videostar",
+      "bundleIdentifier": "com.frontierdesign.videostar",
+      "version": "14.4.0",
+      "versionDate": "2025-10-28",
+      "fullDate": "20251028164857",
+      "size": 548403263,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/VideoStar_14.4.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/VideoStar_14.4.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontierdesign.videostar.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontierdesign.videostar.png"
+    },
+    {
       "name": "Tripsy",
       "type": 1,
       "bundleID": "app.tripsy.ios",
