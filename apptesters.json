@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "OpusIPTVPublic",
+      "type": 1,
+      "bundleID": "com.handy.optus",
+      "bundleIdentifier": "com.handy.optus",
+      "version": "1.7.2",
+      "versionDate": "2025-10-28",
+      "fullDate": "20251028174923",
+      "size": 57328682,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/OpusIPTVPublic_1.7.2_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-10-2025/OpusIPTVPublic_1.7.2_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.handy.optus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.handy.optus.png"
+    },
+    {
       "name": "ColoringBook",
       "type": 1,
       "bundleID": "com.apalonapps.clrbook",
