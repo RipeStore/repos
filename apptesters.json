@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "CuteWeather",
+      "type": 1,
+      "bundleID": "at.stefanstangl.CuteWeather",
+      "bundleIdentifier": "at.stefanstangl.CuteWeather",
+      "version": "5.2.29",
+      "versionDate": "2025-10-29",
+      "fullDate": "20251029125255",
+      "size": 538544457,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/CuteWeather_5.2.29_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/CuteWeather_5.2.29_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/at.stefanstangl.CuteWeather.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/at.stefanstangl.CuteWeather.png"
+    },
+    {
       "name": "KineMaster",
       "type": 1,
       "bundleID": "com.kinemaster.kios",
