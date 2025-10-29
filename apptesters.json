@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Persona",
+      "type": 1,
+      "bundleID": "com.tickettothemoon.video.persona",
+      "bundleIdentifier": "com.tickettothemoon.video.persona",
+      "version": "1.14.32",
+      "versionDate": "2025-10-29",
+      "fullDate": "20251029185528",
+      "size": 167454355,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/Persona_1.14.32_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/Persona_1.14.32_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with VIP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tickettothemoon.video.persona.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tickettothemoon.video.persona.png"
+    },
+    {
+      "name": "LUTStudio",
+      "type": 1,
+      "bundleID": "com.solveit.lut-studio",
+      "bundleIdentifier": "com.solveit.lut-studio",
+      "version": "2.3.5",
+      "versionDate": "2025-10-29",
+      "fullDate": "20251029185022",
+      "size": 109368735,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/LUTStudio_2.3.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/LUTStudio_2.3.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.solveit.lut-studio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.solveit.lut-studio.png"
+    },
+    {
       "name": "Buddy",
       "type": 1,
       "bundleID": "com.iPwners.Plonkan",
