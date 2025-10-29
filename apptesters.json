@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "",
+      "type": 1,
+      "bundleID": "com.AppChief.ArabicArt",
+      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "version": "9.2.1",
+      "versionDate": "2025-10-29",
+      "fullDate": "20251029151900",
+      "size": 159302843,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/_9.2.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/_9.2.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+    },
+    {
       "name": "ColorPop",
       "type": 1,
       "bundleID": "com.mwm.procolor",
