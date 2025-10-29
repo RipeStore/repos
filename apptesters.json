@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Komoot",
+      "type": 1,
+      "bundleID": "de.komoot.berlinbikeapp",
+      "bundleIdentifier": "de.komoot.berlinbikeapp",
+      "version": "2025.42.5",
+      "versionDate": "2025-10-29",
+      "fullDate": "20251029161427",
+      "size": 168741062,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/Komoot_2025.42.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/Komoot_2025.42.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/de.komoot.berlinbikeapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/de.komoot.berlinbikeapp.png"
+    },
+    {
       "name": "MyFitCoach",
       "type": 1,
       "bundleID": "de.my-fit-coach.myfitcoach-ios",
