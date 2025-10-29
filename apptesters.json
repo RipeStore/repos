@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "NCv1747713",
+      "type": 1,
+      "bundleID": "nt.nc.ios",
+      "bundleIdentifier": "nt.nc.ios",
+      "version": "17.477.13",
+      "versionDate": "2025-10-29",
+      "fullDate": "20251029224116",
+      "size": 353195138,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/NCv1747713_17.477.13_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/NCv1747713_17.477.13_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nt.nc.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nt.nc.ios.png"
+    },
+    {
+      "name": "Evermusic",
+      "type": 1,
+      "bundleID": "com.leshko.cloudplayer",
+      "bundleIdentifier": "com.leshko.cloudplayer",
+      "version": "8.2",
+      "versionDate": "2025-10-29",
+      "fullDate": "20251029223111",
+      "size": 54103005,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/Evermusic_8.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/Evermusic_8.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leshko.cloudplayer.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leshko.cloudplayer.png"
+    },
+    {
       "name": "Duolingo",
       "type": 1,
       "bundleID": "com.duolingo.DuolingoMobile",
