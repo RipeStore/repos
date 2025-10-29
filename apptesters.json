@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Luminar",
+      "type": 1,
+      "bundleID": "com.skylum.luminaripad",
+      "bundleIdentifier": "com.skylum.luminaripad",
+      "version": "2.5.7",
+      "versionDate": "2025-10-29",
+      "fullDate": "20251029171959",
+      "size": 373284084,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/Luminar_2.5.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/Luminar_2.5.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.skylum.luminaripad.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.skylum.luminaripad.png"
+    },
+    {
       "name": "StepsApp",
       "type": 1,
       "bundleID": "com.gunthermarktl.stepapp",
