@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Lingvist",
+      "type": 1,
+      "bundleID": "ee.keel24.Lingvist",
+      "bundleIdentifier": "ee.keel24.Lingvist",
+      "version": "2.64.1",
+      "versionDate": "2025-10-29",
+      "fullDate": "20251029153407",
+      "size": 34489546,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/Lingvist_2.64.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/Lingvist_2.64.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ee.keel24.Lingvist.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ee.keel24.Lingvist.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.AppChief.ArabicArt",
