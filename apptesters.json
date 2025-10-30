@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Stndrd",
+      "type": 1,
+      "bundleID": "uni.cbum",
+      "bundleIdentifier": "uni.cbum",
+      "version": "4.1.19",
+      "versionDate": "2025-10-30",
+      "fullDate": "20251030184053",
+      "size": 103506607,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-10-2025/Stndrd_4.1.19_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-10-2025/Stndrd_4.1.19_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/uni.cbum.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/uni.cbum.png"
+    },
+    {
       "name": "LookUp",
       "type": 1,
       "bundleID": "in.muditbhargava.LookUp",
