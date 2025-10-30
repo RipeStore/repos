@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AutoCAD",
+      "type": 1,
+      "bundleID": "com.autodesk.autocadws",
+      "bundleIdentifier": "com.autodesk.autocadws",
+      "version": "6.20.0",
+      "versionDate": "2025-10-31",
+      "fullDate": "20251031032312",
+      "size": 202660245,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/AutoCAD_6.20.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/AutoCAD_6.20.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.autodesk.autocadws.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.autodesk.autocadws.png"
+    },
+    {
       "name": "YouTubeOLED",
       "type": 1,
       "bundleID": "com.google.ios.youtube",
