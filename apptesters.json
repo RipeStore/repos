@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "JunoPublic",
+      "type": 1,
+      "bundleID": "com.rationalmatter.junoapp",
+      "bundleIdentifier": "com.rationalmatter.junoapp",
+      "version": "3.7.0",
+      "versionDate": "2025-10-30",
+      "fullDate": "20251030062244",
+      "size": 198651826,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-10-2025/JunoPublic_3.7.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-10-2025/JunoPublic_3.7.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.rationalmatter.junoapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.rationalmatter.junoapp.png"
+    },
+    {
       "name": "Wikiloc",
       "type": 1,
       "bundleID": "com.wikiloc.wikiloc",
