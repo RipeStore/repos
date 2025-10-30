@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "CHANI",
+      "type": 1,
+      "bundleID": "com.chaninicholas.chaniapp",
+      "bundleIdentifier": "com.chaninicholas.chaniapp",
+      "version": "2.5.6",
+      "versionDate": "2025-10-31",
+      "fullDate": "20251031051346",
+      "size": 38554060,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/CHANI_2.5.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/CHANI_2.5.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.chaninicholas.chaniapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.chaninicholas.chaniapp.png"
+    },
+    {
       "name": "B42",
       "type": 1,
       "bundleID": "com.soccerFitYou.App",
