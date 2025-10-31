@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Pillow",
+      "type": 1,
+      "bundleID": "com.neybox.Pillow",
+      "bundleIdentifier": "com.neybox.Pillow",
+      "version": "6.2",
+      "versionDate": "2025-10-31",
+      "fullDate": "20251031224621",
+      "size": 519491692,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/Pillow_6.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/Pillow_6.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png"
+    },
+    {
+      "name": "PicsArt",
+      "type": 1,
+      "bundleID": "com.picsart.studio",
+      "bundleIdentifier": "com.picsart.studio",
+      "version": "28.6.4",
+      "versionDate": "2025-10-31",
+      "fullDate": "20251031224114",
+      "size": 112392332,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/PicsArt_28.6.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/PicsArt_28.6.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png"
+    },
+    {
       "name": "TickTick",
       "type": 1,
       "bundleID": "com.TickTick.task",
