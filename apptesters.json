@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "",
+      "type": 1,
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "version": "7.4.6",
+      "versionDate": "2025-10-31",
+      "fullDate": "20251031083407",
+      "size": 188216572,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/_7.4.6_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/_7.4.6_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with VIP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+    },
+    {
+      "name": "Tachimanga",
+      "type": 1,
+      "bundleID": "com.mangacrush.ios",
+      "bundleIdentifier": "com.mangacrush.ios",
+      "version": "4.8",
+      "versionDate": "2025-10-31",
+      "fullDate": "20251031075358",
+      "size": 122179223,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/Tachimanga_4.8_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/Tachimanga_4.8_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mangacrush.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mangacrush.ios.png"
+    },
+    {
       "name": "CHANI",
       "type": 1,
       "bundleID": "com.chaninicholas.chaniapp",
@@ -670,8 +702,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.2.2",
       "versionDate": "2025-10-30",
       "fullDate": "20251030004202",
@@ -680,8 +712,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-10-2025/_9.2.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Captions",
@@ -990,8 +1022,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.2.1",
       "versionDate": "2025-10-29",
       "fullDate": "20251029151900",
@@ -1000,8 +1032,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/_9.2.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "ColorPop",
@@ -2366,8 +2398,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.2",
       "versionDate": "2025-10-26",
       "fullDate": "20251026180455",
@@ -2376,8 +2408,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-10-2025/_9.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Bazaart",
@@ -3390,8 +3422,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "7.4.5",
       "versionDate": "2025-10-23",
       "fullDate": "20251023161756",
@@ -3400,8 +3432,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/_7.4.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "TravelBoast",
@@ -4510,8 +4542,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.1.10",
       "versionDate": "2025-10-21",
       "fullDate": "20251021154224",
@@ -4520,8 +4552,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/_9.1.10_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Facetune",
@@ -5102,8 +5134,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "7.4.0",
       "versionDate": "2025-10-20",
       "fullDate": "20251020090637",
@@ -5112,8 +5144,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/_7.4.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "MagicTiles3",
@@ -5246,8 +5278,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.1.9",
       "versionDate": "2025-10-19",
       "fullDate": "20251019211941",
@@ -5256,8 +5288,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-10-2025/_9.1.9_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Tripsy",
@@ -8142,8 +8174,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "16.4",
       "versionDate": "2025-10-12",
       "fullDate": "20251012132335",
@@ -8152,8 +8184,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-10-2025/_16.4_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "QrCode",
@@ -12686,8 +12718,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.1.8",
       "versionDate": "2025-09-30",
       "fullDate": "20250930194543",
@@ -12696,8 +12728,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/_9.1.8_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "SNOW",
@@ -13518,8 +13550,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "7.3.1",
       "versionDate": "2025-09-29",
       "fullDate": "20250929123305",
@@ -13528,8 +13560,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/_7.3.1_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "ImagineArt",
@@ -14398,8 +14430,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.1.7",
       "versionDate": "2025-09-26",
       "fullDate": "20250926234506",
@@ -14408,8 +14440,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-09-2025/_9.1.7_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Headway",
@@ -16894,8 +16926,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.1.6",
       "versionDate": "2025-09-22",
       "fullDate": "20250922142844",
@@ -16904,8 +16936,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-09-2025/_9.1.6_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Productive",
@@ -17054,8 +17086,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "7.3.0",
       "versionDate": "2025-09-22",
       "fullDate": "20250922092228",
@@ -17064,8 +17096,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-09-2025/_7.3.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "PictureThis",
@@ -19198,8 +19230,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "7.2.0",
       "versionDate": "2025-09-09",
       "fullDate": "20250909090214",
@@ -19208,8 +19240,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/_7.2.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "X",
@@ -22126,8 +22158,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "7.1.5",
       "versionDate": "2025-09-01",
       "fullDate": "20250901084334",
@@ -22136,8 +22168,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-09-2025/_7.1.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Stay",
@@ -22286,8 +22318,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.1.5",
       "versionDate": "2025-08-31",
       "fullDate": "20250831170107",
@@ -22296,8 +22328,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-08-2025/_9.1.5_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "InShot",
@@ -24622,8 +24654,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "7.1.0",
       "versionDate": "2025-08-26",
       "fullDate": "20250826084420",
@@ -24632,8 +24664,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-08-2025/_7.1.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "ImgAI",
@@ -26350,8 +26382,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.1.4",
       "versionDate": "2025-08-22",
       "fullDate": "20250822193143",
@@ -26360,8 +26392,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-08-2025/_9.1.4_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "KetoDiet",
@@ -28254,8 +28286,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "7.0.0",
       "versionDate": "2025-08-18",
       "fullDate": "20250818125839",
@@ -28264,8 +28296,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-08-2025/_7.0.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "SleepCycle",
@@ -29630,8 +29662,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.94.0",
       "versionDate": "2025-08-14",
       "fullDate": "20250814085128",
@@ -29640,8 +29672,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-08-2025/_6.94.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "CalculatorAir",
@@ -30398,8 +30430,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.1.3",
       "versionDate": "2025-08-13",
       "fullDate": "20250813032437",
@@ -30408,8 +30440,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-08-2025/_9.1.3_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Vids",
@@ -31886,8 +31918,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.1.2",
       "versionDate": "2025-08-08",
       "fullDate": "20250808171536",
@@ -31896,8 +31928,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-08-2025/_9.1.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "PSExpress",
@@ -33006,8 +33038,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.5",
       "versionDate": "2025-08-06",
       "fullDate": "20250806150328",
@@ -33016,8 +33048,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-08-2025/_9.5_Premium_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Premium",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "YAZIO",
@@ -33454,8 +33486,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.1.1",
       "versionDate": "2025-08-05",
       "fullDate": "20250805161343",
@@ -33464,8 +33496,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-08-2025/_9.1.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "HabitKit",
@@ -33598,8 +33630,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.93.5",
       "versionDate": "2025-08-05",
       "fullDate": "20250805084232",
@@ -33608,8 +33640,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-08-2025/_6.93.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "ForeFlight",
@@ -34398,8 +34430,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.1",
       "versionDate": "2025-08-01",
       "fullDate": "20250801204017",
@@ -34408,8 +34440,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-08-2025/_9.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Mockup",
@@ -36574,8 +36606,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.93.0",
       "versionDate": "2025-07-28",
       "fullDate": "20250728092531",
@@ -36584,8 +36616,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-07-2025/_6.93.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "GrowIt",
@@ -39262,8 +39294,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.92.5",
       "versionDate": "2025-07-21",
       "fullDate": "20250721082524",
@@ -39272,8 +39304,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-07-2025/_6.92.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "RiseSleep",
@@ -39630,8 +39662,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9.0.1",
       "versionDate": "2025-07-19",
       "fullDate": "20250719153755",
@@ -39640,8 +39672,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-07-2025/_9.0.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "VSCO",
@@ -40862,8 +40894,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "16.3",
       "versionDate": "2025-07-16",
       "fullDate": "20250716131925",
@@ -40872,8 +40904,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-07-2025/_16.3_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Vixer",
@@ -42238,8 +42270,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.92.0",
       "versionDate": "2025-07-14",
       "fullDate": "20250714083048",
@@ -42248,8 +42280,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-07-2025/_6.92.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Tripsy",
@@ -42670,8 +42702,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "9",
       "versionDate": "2025-07-12",
       "fullDate": "20250712043442",
@@ -42680,8 +42712,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-07-2025/_9_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "KineMaster",
@@ -43966,8 +43998,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "16.2",
       "versionDate": "2025-07-08",
       "fullDate": "20250708232930",
@@ -43976,8 +44008,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-07-2025/_16.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Headway",
@@ -48398,8 +48430,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.91.0",
       "versionDate": "2025-06-30",
       "fullDate": "20250630103501",
@@ -48408,8 +48440,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-06-2025/_6.91.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "UpNote",
@@ -49630,8 +49662,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "16.1",
       "versionDate": "2025-06-25",
       "fullDate": "20250625233328",
@@ -49640,8 +49672,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-06-2025/_16.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Beelinguapp",
@@ -51566,8 +51598,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "16",
       "versionDate": "2025-06-21",
       "fullDate": "20250621223757",
@@ -51576,8 +51608,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-06-2025/_16_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "SoundLab",
@@ -55038,8 +55070,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.90.0",
       "versionDate": "2025-06-16",
       "fullDate": "20250616083422",
@@ -55048,8 +55080,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-06-2025/_6.90.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "HappyScale",
@@ -57470,8 +57502,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.89.6",
       "versionDate": "2025-06-11",
       "fullDate": "20250611085557",
@@ -57480,8 +57512,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-06-2025/_6.89.6_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Homeworkouts",
@@ -57758,8 +57790,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "8.5.3",
       "versionDate": "2025-06-10",
       "fullDate": "20250610181913",
@@ -57768,8 +57800,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-06-2025/_8.5.3_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Osmosis",
@@ -58926,8 +58958,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.89.5",
       "versionDate": "2025-06-09",
       "fullDate": "20250609082248",
@@ -58936,8 +58968,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-06-2025/_6.89.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "NeoServer",
@@ -59278,8 +59310,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "8.5.2",
       "versionDate": "2025-06-07",
       "fullDate": "20250607141105",
@@ -59288,8 +59320,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-06-2025/_8.5.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Speedometer",
@@ -60798,8 +60830,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.89.0",
       "versionDate": "2025-06-03",
       "fullDate": "20250603233520",
@@ -60808,8 +60840,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-06-2025/_6.89.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Documents",
@@ -62110,8 +62142,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "15.9",
       "versionDate": "2025-05-31",
       "fullDate": "20250531012339",
@@ -62120,8 +62152,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-05-2025/_15.9_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "ScannerAir",
@@ -65262,8 +65294,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.88.5",
       "versionDate": "2025-05-26",
       "fullDate": "20250526085233",
@@ -65272,8 +65304,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-05-2025/_6.88.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "MediaConvert",
@@ -66766,8 +66798,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "15.7",
       "versionDate": "2025-05-21",
       "fullDate": "20250521182544",
@@ -66776,8 +66808,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-05-2025/_15.7_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "GoodPizza",
@@ -68350,8 +68382,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.88.0",
       "versionDate": "2025-05-19",
       "fullDate": "20250519084606",
@@ -68360,8 +68392,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-05-2025/_6.88.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "WebSSH",
@@ -69822,8 +69854,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "15.6",
       "versionDate": "2025-05-15",
       "fullDate": "20250515064507",
@@ -69832,8 +69864,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-05-2025/_15.6_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "VSCO",
@@ -73070,8 +73102,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.87.5",
       "versionDate": "2025-05-06",
       "fullDate": "20250506135608",
@@ -73080,8 +73112,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-05-2025/_6.87.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "swipewipe",
@@ -78654,8 +78686,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.84.2",
       "versionDate": "2025-03-26",
       "fullDate": "20250326162743",
@@ -78664,8 +78696,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2025/_6.84.2_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Documents",
@@ -79310,8 +79342,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "8.4.3",
       "versionDate": "2025-03-24",
       "fullDate": "20250324124211",
@@ -79320,8 +79352,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-03-2025/_8.4.3_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Paired",
@@ -80366,8 +80398,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "14.9.5",
       "versionDate": "2025-03-07",
       "fullDate": "20250307013554",
@@ -80376,8 +80408,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-03-2025/_14.9.5_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Vsco",
@@ -80926,8 +80958,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "6.83.0",
       "versionDate": "2025-03-05",
       "fullDate": "20250305153101",
@@ -80936,8 +80968,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-03-2025/_6.83.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Busuu",
@@ -81342,8 +81374,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.AppChief.ArabicArt",
-      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "bundleID": "com.intsig.CamScannerLite",
+      "bundleIdentifier": "com.intsig.CamScannerLite",
       "version": "14.9",
       "versionDate": "2025-03-05",
       "fullDate": "20250305022156",
@@ -81352,8 +81384,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-03-2025/_14.9_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
     },
     {
       "name": "Notability",
