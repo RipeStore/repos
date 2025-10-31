@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "B612",
+      "type": 1,
+      "bundleID": "com.linecorp.b612",
+      "bundleIdentifier": "com.linecorp.b612",
+      "version": "14.5.21",
+      "versionDate": "2025-10-31",
+      "fullDate": "20251031232732",
+      "size": 136964464,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/B612_14.5.21_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/B612_14.5.21_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.b612.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.b612.png"
+    },
+    {
       "name": "CODMunity",
       "type": 1,
       "bundleID": "com.convertify.codmobileloadout2",
