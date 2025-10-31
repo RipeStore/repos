@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TickTick",
+      "type": 1,
+      "bundleID": "com.TickTick.task",
+      "bundleIdentifier": "com.TickTick.task",
+      "version": "7.8.02",
+      "versionDate": "2025-10-31",
+      "fullDate": "20251031125036",
+      "size": 88823917,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/TickTick_7.8.02_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/TickTick_7.8.02_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.TickTick.task.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.TickTick.task.png"
+    },
+    {
       "name": "Polish",
       "type": 1,
       "bundleID": "com.photoeditor.polish",
