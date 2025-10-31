@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Premiere",
+      "type": 1,
+      "bundleID": "com.adobe.premiere.ios",
+      "bundleIdentifier": "com.adobe.premiere.ios",
+      "version": "25.6.0",
+      "versionDate": "2025-11-01",
+      "fullDate": "20251101035921",
+      "size": 98407879,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-11-2025/Premiere_25.6.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-11-2025/Premiere_25.6.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.premiere.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.premiere.ios.png"
+    },
+    {
       "name": "Locket",
       "type": 1,
       "bundleID": "com.locket.Locket",
