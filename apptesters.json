@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "MyDexTCG",
+      "type": 1,
+      "bundleID": "com.albertomoral.PokedexTradingCards",
+      "bundleIdentifier": "com.albertomoral.PokedexTradingCards",
+      "version": "1.7.3",
+      "versionDate": "2025-11-02",
+      "fullDate": "20251102035655",
+      "size": 20469121,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-11-2025/MyDexTCG_1.7.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-11-2025/MyDexTCG_1.7.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.albertomoral.PokedexTradingCards.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.albertomoral.PokedexTradingCards.png"
+    },
+    {
+      "name": "Labbet",
+      "type": 1,
+      "bundleID": "app.labbet.labbet",
+      "bundleIdentifier": "app.labbet.labbet",
+      "version": "2.49",
+      "versionDate": "2025-11-02",
+      "fullDate": "20251102035649",
+      "size": 103355994,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-11-2025/Labbet_2.49_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-11-2025/Labbet_2.49_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.labbet.labbet.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.labbet.labbet.png"
+    },
+    {
       "name": "Tripsy",
       "type": 1,
       "bundleID": "app.tripsy.ios",
