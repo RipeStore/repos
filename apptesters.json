@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Tripsy",
+      "type": 1,
+      "bundleID": "app.tripsy.ios",
+      "bundleIdentifier": "app.tripsy.ios",
+      "version": "3.6.14",
+      "versionDate": "2025-11-02",
+      "fullDate": "20251102015130",
+      "size": 106934033,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-11-2025/Tripsy_3.6.14_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-11-2025/Tripsy_3.6.14_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png"
+    },
+    {
       "name": "VSCO",
       "type": 1,
       "bundleID": "co.visualsupply.cam",
