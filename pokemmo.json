@@ -5,7 +5,7 @@
     {
       "bundleIdentifier": "eu.pokemmo.client",
       "developerName": "PokeMMO",
-      "downloadURL": "https://dl.pokemmo.com/PokeMMO-Client.ipa?r=30761",
+      "downloadURL": "https://dl.pokemmo.com/PokeMMO-Client.ipa?r=30780",
       "iconURL": "https://pokemmo.com/build/images/altstore.f5930b35.png",
       "localizedDescription": "PokeMMO is a free to play mmorpg, come join a growing community as you level up and discover new monsters. Available now on PC, Android, iOS, Mac, and Linux.",
       "name": "PokeMMO",
@@ -16,10 +16,10 @@
         "https://pokemmo.com/build/images/screenshot/e.ed0aa85b.png",
         "https://pokemmo.com/build/images/screenshot/a.debf11f5.png"
       ],
-      "size": 135777160,
+      "size": 135763398,
       "tintColor": "73ACE2",
-      "version": "30761",
-      "versionDate": "2025-11-01T10:38:22+00:00"
+      "version": "30780",
+      "versionDate": "2025-11-02T04:23:58+00:00"
     }
   ]
 }
