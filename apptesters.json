@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Vintify",
+      "type": 1,
+      "bundleID": "vintage.photo.editor.retro.aesthetic.effect",
+      "bundleIdentifier": "vintage.photo.editor.retro.aesthetic.effect",
+      "version": "2.5.0",
+      "versionDate": "2025-11-03",
+      "fullDate": "20251103032404",
+      "size": 171622044,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/Vintify_2.5.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/Vintify_2.5.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/vintage.photo.editor.retro.aesthetic.effect.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/vintage.photo.editor.retro.aesthetic.effect.png"
+    },
+    {
       "name": "Moodshot",
       "type": 1,
       "bundleID": "irfandegirmenci.Moodshot",
