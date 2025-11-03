@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Notability",
+      "type": 1,
+      "bundleID": "com.gingerlabs.Notability",
+      "bundleIdentifier": "com.gingerlabs.Notability",
+      "version": "15.0.18",
+      "versionDate": "2025-11-04",
+      "fullDate": "20251104004956",
+      "size": 206343634,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-11-2025/Notability_15.0.18_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-11-2025/Notability_15.0.18_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gingerlabs.Notability.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gingerlabs.Notability.png"
+    },
+    {
       "name": "Widgy",
       "type": 1,
       "bundleID": "boomer.Smart-Video",
