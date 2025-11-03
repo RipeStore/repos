@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Coconote",
+      "type": 1,
+      "bundleID": "com.bbauman.Scripty",
+      "bundleIdentifier": "com.bbauman.Scripty",
+      "version": "2.22",
+      "versionDate": "2025-11-04",
+      "fullDate": "20251104032547",
+      "size": 46697341,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-11-2025/Coconote_2.22_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-11-2025/Coconote_2.22_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bbauman.Scripty.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bbauman.Scripty.png"
+    },
+    {
       "name": "Impulse",
       "type": 1,
       "bundleID": "gen.tech.impulse",
