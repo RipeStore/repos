@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "InShot",
+      "type": 1,
+      "bundleID": "com.camerasideas.InstaShot",
+      "bundleIdentifier": "com.camerasideas.InstaShot",
+      "version": "1.91.1",
+      "versionDate": "2025-11-03",
+      "fullDate": "20251103162246",
+      "size": 125080981,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/InShot_1.91.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/InShot_1.91.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.InstaShot.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.InstaShot.png"
+    },
+    {
       "name": "TunerPro",
       "type": 1,
       "bundleID": "com.mwm.guitartuner",
