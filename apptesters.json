@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Stepz",
+      "type": 1,
+      "bundleID": "com.visualhype.pedometer",
+      "bundleIdentifier": "com.visualhype.pedometer",
+      "version": "4.10.32",
+      "versionDate": "2025-11-03",
+      "fullDate": "20251103225440",
+      "size": 26766937,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/Stepz_4.10.32_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/Stepz_4.10.32_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.visualhype.pedometer.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.visualhype.pedometer.png"
+    },
+    {
       "name": "Instagram",
       "type": 1,
       "bundleID": "com.burbn.instagram",
