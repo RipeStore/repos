@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Peachy",
+      "type": 1,
+      "bundleID": "com.camerasideas.Peachy",
+      "bundleIdentifier": "com.camerasideas.Peachy",
+      "version": "2.7.2",
+      "versionDate": "2025-11-03",
+      "fullDate": "20251103173309",
+      "size": 167419177,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/Peachy_2.7.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/Peachy_2.7.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.Peachy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.Peachy.png"
+    },
+    {
+      "name": "SnoreLab",
+      "type": 1,
+      "bundleID": "com.revivasoftworks.Snore-Lab",
+      "bundleIdentifier": "com.revivasoftworks.Snore-Lab",
+      "version": "5.9.2",
+      "versionDate": "2025-11-03",
+      "fullDate": "20251103171802",
+      "size": 150540251,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/SnoreLab_5.9.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/SnoreLab_5.9.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.revivasoftworks.Snore-Lab.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.revivasoftworks.Snore-Lab.png"
+    },
+    {
       "name": "Stiiitch",
       "type": 1,
       "bundleID": "com.abighead.stiiitch",
