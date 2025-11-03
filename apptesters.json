@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Heartify",
+      "type": 1,
+      "bundleID": "com.heartify",
+      "bundleIdentifier": "com.heartify",
+      "version": "2.4.7",
+      "versionDate": "2025-11-03",
+      "fullDate": "20251103053001",
+      "size": 205044558,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/Heartify_2.4.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/Heartify_2.4.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.heartify.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.heartify.png"
+    },
+    {
       "name": "PlaceGuesser",
       "type": 2,
       "bundleID": "com.mobivalley.LookAroundApp",
