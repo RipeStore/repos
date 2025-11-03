@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Reface",
+      "type": 1,
+      "bundleID": "com.neocortext.doublicatapp",
+      "bundleIdentifier": "com.neocortext.doublicatapp",
+      "version": "5.26.0",
+      "versionDate": "2025-11-03",
+      "fullDate": "20251103130054",
+      "size": 113095435,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/Reface_5.26.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/Reface_5.26.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neocortext.doublicatapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neocortext.doublicatapp.png"
+    },
+    {
+      "name": "PilotPro",
+      "type": 1,
+      "bundleID": "pilotpro",
+      "bundleIdentifier": "pilotpro",
+      "version": "5.46.0",
+      "versionDate": "2025-11-03",
+      "fullDate": "20251103130051",
+      "size": 28095845,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/PilotPro_5.46.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/PilotPro_5.46.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/pilotpro.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/pilotpro.png"
+    },
+    {
       "name": "UnifiedDictionary",
       "type": 1,
       "bundleID": "com.bravolol.bravoLang.chineseDictionary",
