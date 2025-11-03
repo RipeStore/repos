@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Impulse",
+      "type": 1,
+      "bundleID": "gen.tech.impulse",
+      "bundleIdentifier": "gen.tech.impulse",
+      "version": "1.37",
+      "versionDate": "2025-11-04",
+      "fullDate": "20251104031542",
+      "size": 86677196,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-11-2025/Impulse_1.37_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-11-2025/Impulse_1.37_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/gen.tech.impulse.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/gen.tech.impulse.png"
+    },
+    {
+      "name": "Threads",
+      "type": 1,
+      "bundleID": "com.burbn.barcelona",
+      "bundleIdentifier": "com.burbn.barcelona",
+      "version": "405.0.0",
+      "versionDate": "2025-11-04",
+      "fullDate": "20251104031034",
+      "size": 70746397,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-11-2025/Threads_405.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-11-2025/Threads_405.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.barcelona.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.barcelona.png"
+    },
+    {
       "name": "TeraBox",
       "type": 1,
       "bundleID": "com.dubox.drive",
