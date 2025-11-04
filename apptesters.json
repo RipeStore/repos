@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Peachy",
+      "type": 1,
+      "bundleID": "com.camerasideas.Peachy",
+      "bundleIdentifier": "com.camerasideas.Peachy",
+      "version": "2.7.4",
+      "versionDate": "2025-11-04",
+      "fullDate": "20251104222026",
+      "size": 167427760,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-11-2025/Peachy_2.7.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-11-2025/Peachy_2.7.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.Peachy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.Peachy.png"
+    },
+    {
       "name": "Rest",
       "type": 1,
       "bundleID": "com.evolve.helm",
