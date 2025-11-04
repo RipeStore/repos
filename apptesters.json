@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "30DayFitness",
+      "type": 1,
+      "bundleID": "com.vigorapps.30DayFitness",
+      "bundleIdentifier": "com.vigorapps.30DayFitness",
+      "version": "6.29.22",
+      "versionDate": "2025-11-04",
+      "fullDate": "20251104135230",
+      "size": 49301487,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-11-2025/30DayFitness_6.29.22_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-11-2025/30DayFitness_6.29.22_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vigorapps.30DayFitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vigorapps.30DayFitness.png"
+    },
+    {
       "name": "Fitbod",
       "type": 1,
       "bundleID": "com.fitbod",
