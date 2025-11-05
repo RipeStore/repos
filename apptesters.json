@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ThePiano",
+      "type": 2,
+      "bundleID": "com.impalastudios.pianofree",
+      "bundleIdentifier": "com.impalastudios.pianofree",
+      "version": "2.16.0",
+      "versionDate": "2025-11-05",
+      "fullDate": "20251105181443",
+      "size": 107213633,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-11-2025/ThePiano_2.16.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-11-2025/ThePiano_2.16.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.impalastudios.pianofree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.impalastudios.pianofree.png"
+    },
+    {
       "name": "Unscripted",
       "type": 1,
       "bundleID": "com.ibit.UNPOSED",
