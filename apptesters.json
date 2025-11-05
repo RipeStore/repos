@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PilotPro",
+      "type": 1,
+      "bundleID": "pilotpro",
+      "bundleIdentifier": "pilotpro",
+      "version": "5.47.0",
+      "versionDate": "2025-11-05",
+      "fullDate": "20251105161832",
+      "size": 28095769,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-11-2025/PilotPro_5.47.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-11-2025/PilotPro_5.47.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/pilotpro.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/pilotpro.png"
+    },
+    {
       "name": "ScannerforMe",
       "type": 1,
       "bundleID": "com.apalonapps.pdffree",
