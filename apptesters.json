@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TunerPro",
+      "type": 1,
+      "bundleID": "com.mwm.guitartuner",
+      "bundleIdentifier": "com.mwm.guitartuner",
+      "version": "3.19.02",
+      "versionDate": "2025-11-06",
+      "fullDate": "20251106203737",
+      "size": 271696700,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-11-2025/TunerPro_3.19.02_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-11-2025/TunerPro_3.19.02_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.guitartuner.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.guitartuner.png"
+    },
+    {
       "name": "VEEDCaptions",
       "type": 1,
       "bundleID": "io.veed.appstore",
