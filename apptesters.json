@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Documents",
+      "type": 1,
+      "bundleID": "com.readdle.ReaddleDocsIPad",
+      "bundleIdentifier": "com.readdle.ReaddleDocsIPad",
+      "version": "8.17.14",
+      "versionDate": "2025-11-06",
+      "fullDate": "20251106174149",
+      "size": 294424574,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-11-2025/Documents_8.17.14_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-11-2025/Documents_8.17.14_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Plus",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.ReaddleDocsIPad.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.ReaddleDocsIPad.png"
+    },
+    {
       "name": "Aloha",
       "type": 1,
       "bundleID": "com.alohabrowser.alohabrowser",
