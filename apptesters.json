@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "LUTStudio",
+      "type": 1,
+      "bundleID": "com.solveit.lut-studio",
+      "bundleIdentifier": "com.solveit.lut-studio",
+      "version": "2.3.6",
+      "versionDate": "2025-11-06",
+      "fullDate": "20251106200224",
+      "size": 109368714,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-11-2025/LUTStudio_2.3.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-11-2025/LUTStudio_2.3.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.solveit.lut-studio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.solveit.lut-studio.png"
+    },
+    {
+      "name": "PixelColor",
+      "type": 1,
+      "bundleID": "com.djitlabs.pixelcolor",
+      "bundleIdentifier": "com.djitlabs.pixelcolor",
+      "version": "5.43.01",
+      "versionDate": "2025-11-06",
+      "fullDate": "20251106200220",
+      "size": 94815637,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-11-2025/PixelColor_5.43.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-11-2025/PixelColor_5.43.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.djitlabs.pixelcolor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.djitlabs.pixelcolor.png"
+    },
+    {
       "name": "ColorPop",
       "type": 1,
       "bundleID": "com.mwm.procolor",
