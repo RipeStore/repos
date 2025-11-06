@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VEEDCaptions",
+      "type": 1,
+      "bundleID": "io.veed.appstore",
+      "bundleIdentifier": "io.veed.appstore",
+      "version": "7.4.0",
+      "versionDate": "2025-11-06",
+      "fullDate": "20251106200730",
+      "size": 129096938,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-11-2025/VEEDCaptions_7.4.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-11-2025/VEEDCaptions_7.4.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.veed.appstore.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.veed.appstore.png"
+    },
+    {
       "name": "LUTStudio",
       "type": 1,
       "bundleID": "com.solveit.lut-studio",
