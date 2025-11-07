@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Avatarify",
+      "type": 1,
+      "bundleID": "com.v43years.avatarify2",
+      "bundleIdentifier": "com.v43years.avatarify2",
+      "version": "2.30",
+      "versionDate": "2025-11-07",
+      "fullDate": "20251107213033",
+      "size": 170347531,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-11-2025/Avatarify_2.30_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-11-2025/Avatarify_2.30_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.v43years.avatarify2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.v43years.avatarify2.png"
+    },
+    {
       "name": "SnapEdit",
       "type": 1,
       "bundleID": "com.sfun.snapedit",
