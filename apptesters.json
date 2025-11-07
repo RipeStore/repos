@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "LINECamera",
+      "type": 1,
+      "bundleID": "jp.naver.linecamera",
+      "bundleIdentifier": "jp.naver.linecamera",
+      "version": "17.6.0",
+      "versionDate": "2025-11-07",
+      "fullDate": "20251107215041",
+      "size": 137050385,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-11-2025/LINECamera_17.6.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-11-2025/LINECamera_17.6.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/jp.naver.linecamera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/jp.naver.linecamera.png"
+    },
+    {
       "name": "Avatarify",
       "type": 1,
       "bundleID": "com.v43years.avatarify2",
