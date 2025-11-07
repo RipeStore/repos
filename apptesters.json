@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "CleanMyPhone",
+      "type": 1,
+      "bundleID": "com.macpaw.iosgemini",
+      "bundleIdentifier": "com.macpaw.iosgemini",
+      "version": "2.9.5",
+      "versionDate": "2025-11-08",
+      "fullDate": "20251108005121",
+      "size": 103635429,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-11-2025/CleanMyPhone_2.9.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-11-2025/CleanMyPhone_2.9.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.macpaw.iosgemini.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.macpaw.iosgemini.png"
+    },
+    {
       "name": "ProCCD",
       "type": 1,
       "bundleID": "com.yengshine.proccd",
