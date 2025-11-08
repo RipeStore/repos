@@ -9,6 +9,62 @@
   "featuredApps": [],
   "apps": [
     {
+      "name": "Infinity Blade III",
+      "bundleIdentifier": "com.chairentertainment.IB3",
+      "marketplaceID": "",
+      "developerName": "ChAIR Entertainment",
+      "subtitle": "The epic conclusion to the Infinity Blade saga",
+      "localizedDescription": "The epic conclusion to the Infinity Blade saga! Siris and Isa have joined with the God-King Raidriar in a desperate attempt to destroy the Worker of Secrets and his army of Deathless titans and warriors.",
+      "iconURL": "https://github.com/RipeStore/icons/blob/main/IB3/IB3-Icon.webp?raw=true",
+      "tintColor": "#cd0b0b",
+      "category": "other",
+      "screenshots": [
+        {
+          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB3/IB3_Screen08_iPad.webp?raw=true",
+          "width": 1000,
+          "height": 750
+        },
+        {
+          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB3/IB3_Screen05_iPad.webp?raw=true",
+          "width": 1000,
+          "height": 750
+        },
+        {
+          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB3/IB3_Screen02_iPad.webp?raw=true",
+          "width": 1000,
+          "height": 750
+        },
+        {
+          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB3/IB3_Screen03_iPad.webp?raw=true",
+          "width": 1000,
+          "height": 750
+        },
+        {
+          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB3/IB3_Screen13_iPad.webp?raw=true",
+          "width": 1000,
+          "height": 750
+        }
+      ],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/RipeStore/ib/releases/download/r1/Blade_III_-_Community_Patch_v2.2.ipa",
+          "size": 1884300000,
+          "version": "1.4.4",
+          "buildVersion": null,
+          "date": "2024-02-22T11:19:00+05:30",
+          "localizedDescription": "The epic conclusion to the Infinity Blade saga! Siris and Isa have joined with the God-King Raidriar in a desperate attempt to destroy the Worker of Secrets and his army of Deathless titans and warriors.",
+          "minOSVersion": "10.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSUbiquitousDisplaySet": "com.chair.IB3_iCloudDisplay"
+        }
+      },
+      "patreon": {}
+    },
+    {
       "name": "Infinity Blade II",
       "bundleIdentifier": "com.chairentertainment.IB2",
       "marketplaceID": "",
@@ -194,5 +250,17 @@
       "patreon": {}
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "The Infinity Blade series!",
+      "identifier": "news_m9nh92pzl7",
+      "caption": "The Infinity Blade saga begins once again!",
+      "date": "2025-11-08T16:55",
+      "tintColor": "#cd0b0b",
+      "imageURL": "https://cdn2.unrealengine.com/Infinity+Blade%2FTab+Images%2FInfintiy-Blade-Overview-1400x800-96570af251fc03ab352769bb819aaf1b62a3863e.png",
+      "notify": true,
+      "url": "https://store.yemoja.xyz/",
+      "appID": null
+    }
+  ]
 }
