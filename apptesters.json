@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SODA",
+      "type": 1,
+      "bundleID": "com.snowcorp.soda",
+      "bundleIdentifier": "com.snowcorp.soda",
+      "version": "9.5.2",
+      "versionDate": "2025-11-09",
+      "fullDate": "20251109044755",
+      "size": 141245265,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-11-2025/SODA_9.5.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-11-2025/SODA_9.5.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png"
+    },
+    {
       "name": "FELFishEyeLens",
       "type": 1,
       "bundleID": "com.phantom.fantengmu",
