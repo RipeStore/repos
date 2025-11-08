@@ -1,0 +1,93 @@
+{
+  "name": "RipeStore",
+  "subtitle": "IPAs straight from the source",
+  "description": "Most IPAs are unpatched",
+  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
+  "website": "https://ripestore.github.io/",
+  "patreonURL": "",
+  "tintColor": "#6156e2",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "Keka",
+      "bundleIdentifier": "com.aone.Keka-iOS",
+      "marketplaceID": "",
+      "developerName": "aonez",
+      "subtitle": "The file archiver for iOS",
+      "localizedDescription": "Keka is a full featured file archiver, as easy as it can be.\nWith Keka you can compress as many files as you want in a bunch of formats. You can also encrypt them to store and share securely and with privacy.\nKeka can also browse and extract lots of compressed files, from ZIP and 7Z to RAR archives. Whether they are encrypted or encoded in with old charsets this is not a problem for Keka.\nCompression formats supported:\n7Z, ZIP, TAR, ZSTD, GZIP, BZIP2 and AppleArchive (AAR)\nExtraction formats supported:\n7Z, ZIP, RAR, TAR, GZIP, BZIP2, AAR, XZ, ZSTD, ISO, LZMA, EXE, CAB, MSI, PAX, JAR, APK, APPX, XPI, IPA, CPGZ, CPIO, XIP, CPT and many more\nTerms of Use: https://www.keka.io/termsofuse",
+      "iconURL": "https://camo.githubusercontent.com/eb408c867471549d18523b656c7adb5e45ed0fcf42c827ae2f9956690d5fce37/68747470733a2f2f7777772e6b656b612e696f2f696d672f4b656b612d5371756172652d353132783531322e706e67",
+      "tintColor": "#9e7060",
+      "category": "other",
+      "screenshots": [
+        "https://github.com/RipeStore/Keka/blob/main/Dark-Actions.png?raw=true",
+        "https://github.com/RipeStore/Keka/blob/main/Dark-Browser.png?raw=true",
+        "https://github.com/RipeStore/Keka/blob/main/Dark-Compression.png?raw=true",
+        "https://github.com/RipeStore/Keka/blob/main/Dark-Encryption.png?raw=true",
+        "https://github.com/RipeStore/Keka/blob/main/Dark-Tasks.png?raw=true"
+      ],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/RipeStore/Keka/releases/download/v1.6.0/Keka_1.6.0.ipa",
+          "size": 26100000,
+          "version": "1.6.0",
+          "buildVersion": "1574",
+          "date": "2025-10-08T03:05:00+05:30",
+          "localizedDescription": "Keka for iOS, the iOS file archiver.",
+          "minOSVersion": "15.5"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    },
+    {
+      "name": "Suwatte",
+      "bundleIdentifier": "com.ceres.suwatte",
+      "marketplaceID": "",
+      "developerName": "Mantton",
+      "subtitle": "Suwatte is an ad-free, open source & feature-rich comic/manga reader for iOS.",
+      "localizedDescription": "Suwatte is an all-in-one comic reader app for iOS, with support for OPDS, CBZ and external sources. Suwatte handles all reading options with maximum personalization options.",
+      "iconURL": "https://avatars.githubusercontent.com/u/100905272?s=200&v=4",
+      "tintColor": "#7f7f7f",
+      "category": "entertainment",
+      "screenshots": [
+        "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_7.png?raw=true",
+        "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_8.png?raw=true",
+        "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_13.png?raw=true",
+        "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_14.png?raw=true",
+        "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_3.png?raw=true",
+        "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_4.png?raw=true",
+        "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_11.png?raw=true",
+        "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_12.png?raw=true",
+        "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_10.png?raw=true",
+        "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_2.png?raw=true",
+        "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_6.png?raw=true",
+        "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_15.png?raw=true",
+        "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_9.png?raw=true"
+      ],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/RipeStore/Suwatte/releases/download/v6.0.1/Suwatte_6.0.1.ipa",
+          "size": 13200000,
+          "version": "6.0.1",
+          "buildVersion": null,
+          "date": "2025-09-08T09:15:00+05:30",
+          "localizedDescription": "Minor update",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSFaceIDUsageDescription": "Verify Biometrics to Protect Library",
+          "NSPhotoLibraryUsageDescription": "This is required to save images to your device."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
