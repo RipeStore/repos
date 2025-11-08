@@ -82,5 +82,21 @@
   {
     "name": "zx",
     "url": "https://aio.zxcvbn.fyi/r/repo.feather.json"
+  },
+  {
+    "name": "hottub",
+    "url": "https://hottubapp.io/altstore"
+  },
+  {
+    "name": "omnidev",
+    "url": "https://raw.githubusercontent.com/Omni-Development/The-Omni-Repository/refs/heads/main/app-repo.json"
+  },
+  {
+    "name": "driftywinds",
+    "url": "https://driftywinds.github.io/AltStore/apps.json"
+  },
+  {
+    "name": "ish",
+    "url": "https://ish.app/altstore.json"
   }
 ]
