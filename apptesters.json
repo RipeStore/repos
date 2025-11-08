@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Twitter",
+      "type": 1,
+      "bundleID": "com.atebits.Tweetie2",
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "version": "11.38",
+      "versionDate": "2025-11-08",
+      "fullDate": "20251108124658",
+      "size": 158831525,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-11-2025/Twitter_11.38_Unlocked_All_Functions_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-11-2025/Twitter_11.38_Unlocked_All_Functions_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Unlocked All Functions",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atebits.Tweetie2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atebits.Tweetie2.png"
+    },
+    {
       "name": "CleanMyPhone",
       "type": 1,
       "bundleID": "com.macpaw.iosgemini",
