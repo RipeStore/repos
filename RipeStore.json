@@ -15,7 +15,6 @@
     {
       "name": "Infinity Blade III",
       "bundleIdentifier": "com.chairentertainment.IB3",
-      "marketplaceID": "",
       "developerName": "ChAIR Entertainment",
       "subtitle": "The epic conclusion to the Infinity Blade saga",
       "localizedDescription": "The epic conclusion to the Infinity Blade saga! Siris and Isa have joined with the God-King Raidriar in a desperate attempt to destroy the Worker of Secrets and his army of Deathless titans and warriors.",
@@ -64,13 +63,11 @@
         "privacy": {
           "NSUbiquitousDisplaySet": "com.chair.IB3_iCloudDisplay"
         }
-      },
-      "patreon": {}
+      }
     },
     {
       "name": "Infinity Blade II",
       "bundleIdentifier": "com.chairentertainment.IB2",
-      "marketplaceID": "",
       "developerName": "ChAIR Entertainment",
       "subtitle": "The second installment in the IB series",
       "localizedDescription": "The God King-slayer, Siris, having learned that he is in fact a Deathless who used to be known as Ausar, embarks on a quest to find the Worker of Secrets. The Worker created the Infinity Blade as a weapon that could kill the Deathless and Siris wants to fully understand how the Blade works and its true purpose. Siris’ partner, Isa, is shaken by the realization that the man she followed on a quest to rid the world of Deathless is himself immortal, and leaves to forge her own destiny.\n\nSiris heads to Saranthia to find the Vault of Tears, where the Worker of Secrets is imprisoned. There he meets Thane, High Lord of the House Ix. Upon defeating Thane, Siris unlocks a seal, but dies in the process. Fortunately, a mechanical helper named Tel revives Siris in a Phoenix Chamber.\n\nAgain and again, Siris returns to Saranthia. He defeats three Blood Sentinels, each of whom guards a seal that unlocks the way to the Worker of Secrets. Siris sacrifices himself each time he unlocks a seal, but is always reborn.\n\nWith the Vault finally unsealed, Siris meets the Worker of Secrets, only to learn that another Deathless must take the Worker’s place if he’s to be freed. Siris hunts down and captures the God King, whose real name is Raidriar.\n\nBringing Raidriar to the Vault of Tears, Siris is ready to finally learn the mystery of the Infinity Blade, but the Worker has other ideas. He betrays Siris and locks him in the Vault of Tears with Raidriar. It’s revealed the Ausar was the one who originally imprisoned the Worker, who now has his revenge.\n\nWith the God King and Siris imprisoned together and the Worker free, Isa arrives at Vault of Tears. Presumably she’s there to free Siris",
@@ -114,13 +111,11 @@
         "privacy": {
           "NSUbiquitousDisplaySet": "com.chair.IB2_iCloudDisplay"
         }
-      },
-      "patreon": {}
+      }
     },
     {
       "name": "Infinity Blade I",
       "bundleIdentifier": "com.chairentertainment.birthright",
-      "marketplaceID": "",
       "developerName": "ChAIR Entertainment",
       "subtitle": "A revolutionary action role-playing sword game.",
       "localizedDescription": "One knight, known as the Sacrifice, is chosen each generation to journey to the heart of the Dark Citadel and battle the Deathless God King. None ever survives. But in sacrificing a young man each generation to be cut down by the Infinity Blade, the simple farmers of the Citadel’s neighboring villages are spared the God King’s wrath.\n\nAnd so it goes, for generation after generation, until Siris, another member of the sacrificial bloodline, manages to slay the God King and claim the Infinity Blade as his own.\n\nAfter killing the God King, Siris finds the Infinity Blade to be more than a sword. It’s a key as well, one that opens a secret passage to a dungeon in the Dark Citadel. After fighting three immortal Deathless imprisoned in the dungeon, Siris unlocks another hidden room. This one filled with inanimate God King bodies floating inside tanks.\n\nUltimately, Siris is lead into battle against a mechanized warrior, Zero, whom he defeats. But with his dying breath, Zero warns Siris that someone will come looking for the Infinity Blade.",
@@ -167,13 +162,11 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
-      },
-      "patreon": {}
+      }
     },
     {
       "name": "Keka",
       "bundleIdentifier": "com.aone.Keka-iOS",
-      "marketplaceID": "",
       "developerName": "aonez",
       "subtitle": "The file archiver for iOS",
       "localizedDescription": "Keka is a full featured file archiver, as easy as it can be.\nWith Keka you can compress as many files as you want in a bunch of formats. You can also encrypt them to store and share securely and with privacy.\nKeka can also browse and extract lots of compressed files, from ZIP and 7Z to RAR archives. Whether they are encrypted or encoded in with old charsets this is not a problem for Keka.\nCompression formats supported:\n7Z, ZIP, TAR, ZSTD, GZIP, BZIP2 and AppleArchive (AAR)\nExtraction formats supported:\n7Z, ZIP, RAR, TAR, GZIP, BZIP2, AAR, XZ, ZSTD, ISO, LZMA, EXE, CAB, MSI, PAX, JAR, APK, APPX, XPI, IPA, CPGZ, CPIO, XIP, CPT and many more\nTerms of Use: https://www.keka.io/termsofuse",
@@ -200,13 +193,11 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
-      },
-      "patreon": {}
+      }
     },
     {
       "name": "Suwatte",
       "bundleIdentifier": "com.ceres.suwatte",
-      "marketplaceID": "",
       "developerName": "Mantton",
       "subtitle": "Suwatte is an ad-free, open source & feature-rich comic/manga reader for iOS.",
       "localizedDescription": "Suwatte is an all-in-one comic reader app for iOS, with support for OPDS, CBZ and external sources. Suwatte handles all reading options with maximum personalization options.",
@@ -245,8 +236,7 @@
           "NSFaceIDUsageDescription": "Verify Biometrics to Protect Library",
           "NSPhotoLibraryUsageDescription": "This is required to save images to your device."
         }
-      },
-      "patreon": {}
+      }
     }
   ],
   "news": [
