@@ -98,5 +98,9 @@
   {
     "name": "ish",
     "url": "https://ish.app/altstore.json"
+  },
+  {
+    "name": "mangayomi",
+    "url": "https://raw.githubusercontent.com/kodjodevf/mangayomi/refs/heads/main/repo/source.json"
   }
 ]
