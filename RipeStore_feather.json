@@ -23,7 +23,7 @@
       "iconURL": "https://github.com/RipeStore/icons/blob/main/SPARK/icon_200x200ia-75.webp?raw=true",
       "tintColor": "#787886",
       "category": "utilities",
-      "screenshots": [
+      "screenshotURLs": [
         "https://github.com/RipeStore/icons/blob/main/SPARK/s1_230x499bb.webp?raw=true",
         "https://github.com/RipeStore/icons/blob/main/SPARK/s2_230x499bb.webp?raw=true",
         "https://github.com/RipeStore/icons/blob/main/SPARK/s3_230x499bb.webp?raw=true",
@@ -209,7 +209,7 @@
       "iconURL": "https://camo.githubusercontent.com/eb408c867471549d18523b656c7adb5e45ed0fcf42c827ae2f9956690d5fce37/68747470733a2f2f7777772e6b656b612e696f2f696d672f4b656b612d5371756172652d353132783531322e706e67",
       "tintColor": "#9e7060",
       "category": "other",
-      "screenshots": [
+      "screenshotURLs": [
         "https://github.com/RipeStore/Keka/blob/main/Dark-Actions.png?raw=true",
         "https://github.com/RipeStore/Keka/blob/main/Dark-Browser.png?raw=true",
         "https://github.com/RipeStore/Keka/blob/main/Dark-Compression.png?raw=true",
@@ -240,7 +240,7 @@
       "iconURL": "https://avatars.githubusercontent.com/u/100905272?s=200&v=4",
       "tintColor": "#7f7f7f",
       "category": "entertainment",
-      "screenshots": [
+      "screenshotURLs": [
         "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_7.png?raw=true",
         "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_8.png?raw=true",
         "https://github.com/Suwatte/Suwatte/raw/main/images/PIC_13.png?raw=true",
@@ -280,7 +280,7 @@
       "title": "The Infinity Blade series!",
       "identifier": "news_m9nh92pzl7",
       "caption": "The Infinity Blade saga begins once again!",
-      "date": "2025-11-08T16:55",
+      "date": "2025-11-08T16:55:00+05:30",
       "tintColor": "#cd0b0b",
       "imageURL": "https://cdn2.unrealengine.com/Infinity+Blade%2FTab+Images%2FInfintiy-Blade-Overview-1400x800-96570af251fc03ab352769bb819aaf1b62a3863e.png",
       "notify": true,
