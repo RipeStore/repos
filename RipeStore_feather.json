@@ -2,7 +2,9 @@
   "name": "RipeStore",
   "subtitle": "The high quality sideloading experience you deserve.",
   "description": "Please note that most of the IPAs are unpatched, meaning you need to patch them yourself with tweaks (for example SideloadFix, FixFilePicker etc) while signing.",
+  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
   "website": "https://ripestore.github.io/",
+  "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
     "com.chairentertainment.birthright",
@@ -37,7 +39,6 @@
         }
       ],
       "appPermissions": {
-        "entitlements": [],
         "privacy": {
           "NSAccentColorName": "BlueTint",
           "NSFaceIDUsageDescription": "To authenticate and provide access to the app."
@@ -91,7 +92,6 @@
         }
       ],
       "appPermissions": {
-        "entitlements": [],
         "privacy": {
           "NSUbiquitousDisplaySet": "com.chair.IB3_iCloudDisplay"
         }
@@ -139,7 +139,6 @@
         }
       ],
       "appPermissions": {
-        "entitlements": [],
         "privacy": {
           "NSUbiquitousDisplaySet": "com.chair.IB2_iCloudDisplay"
         }
@@ -190,11 +189,7 @@
           "size": 636900000,
           "minOSVersion": "10.0"
         }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      }
+      ]
     },
     {
       "name": "Keka",
@@ -221,11 +216,7 @@
           "size": 26100000,
           "minOSVersion": "15.5"
         }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      }
+      ]
     },
     {
       "name": "Suwatte",
@@ -262,7 +253,6 @@
         }
       ],
       "appPermissions": {
-        "entitlements": [],
         "privacy": {
           "NSAccentColorName": "AccentColor",
           "NSFaceIDUsageDescription": "Verify Biometrics to Protect Library",
