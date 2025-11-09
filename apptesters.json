@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "StressWatch",
+      "type": 1,
+      "bundleID": "com.ideation.Stress",
+      "bundleIdentifier": "com.ideation.Stress",
+      "version": "2.4.10",
+      "versionDate": "2025-11-09",
+      "fullDate": "20251109193358",
+      "size": 226457736,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-11-2025/StressWatch_2.4.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-11-2025/StressWatch_2.4.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ideation.Stress.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ideation.Stress.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.AppChief.ArabicArt",
