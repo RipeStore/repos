@@ -1,14 +1,11 @@
 {
   "name": "RipeStore",
-  "identifier": "com.ripestore.source",
-  "subtitle": "The high quality sideloading experience you deserve.",
-  "description": "Please note that most of the IPAs are unpatched, meaning you need to patch them yourself with tweaks (for example SideloadFix, FixFilePicker etc) while signing.",
-  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
+  "identifier": "com.ripestore.repo",
+  "subtitle": "High-quality sideloading experience",
   "website": "https://ripestore.github.io/",
-  "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.chairentertainment.birthright",
+    "ai.devl.RenPySpark",
     "com.chairentertainment.IB2",
     "com.chairentertainment.IB3"
   ],
@@ -17,164 +14,96 @@
       "name": "Spark",
       "bundleIdentifier": "ai.devl.RenPySpark",
       "developerName": "Devon Lewis",
-      "subtitle": "Play  Your Ren'Py Visual Novels",
-      "localizedDescription": "Spark: Your Premier Tool for Ren'Py Visual Novels Management\n\nSpark is an independent utility for managing and launching Ren'Py novels and is not affiliated with or supported by the official Ren'Py project. Users should refrain from contacting the Ren'Py team for support related to this app.\n\nKey Features:\n\nSelf-Sufficient Novel Import and Launch: As an independent utility, Spark facilitates the importing and launching of your preferred Ren'Py novels.\n\nTailored Compatibility Options:\nChoose from Multiple Engine Versions: Opt for either Ren'Py engine version 8.3.0, 8.2.3, 8.1.3, 8.0.3, 7.8.0, 7.7.3, 7.6.3, or 7.5.3.\nCustomizable Novel Settings: Adjust the Ren'Py version for each novel for the best performance.\nNote: User experience may vary with each novel. Smaller devices may face rendering issues, and older titles might contain bugs. Some titles may not work at all. We do our best to provide support.\n\nAdvanced Save Management:\nComprehensive Save Overview: Easily view and manage all your game saves.\nBackup and Restore Functions: Securely backup your progress and restore at your convenience.\nSimplified Save Importation and Deletion: Full control over your game saves.\n\nRobust Novel Management:\nEffortless Organization: Manage all your novels with ease.\nEnhanced Novel Control: Delete, rename, and manage novel versions.\nEasy Novel Import: Add new novels through zip, apk, 7z, or rar files.\n\nSpark, while not affiliated with Ren'Py, stands as your essential tool for diving into the vast universe of Ren'Py visual novels. It's a gateway to your chosen stories, with full user control over novel management.\n\nAdditional Licensing Information:\nRen'Py contains free software licensed under various licenses, including the GNU Lesser General Public License. For a complete list of the software and licenses, please visit Ren'Py's official page.",
+      "localizedDescription": "Spark lets you play and manage Ren'Py visual novels on iOS with multiple engine versions, custom saves, and import tools.",
       "iconURL": "https://github.com/RipeStore/icons/blob/main/SPARK/icon_200x200ia-75.webp?raw=true",
-      "tintColor": "#787886",
-      "category": "utilities",
-      "screenshots": [
-        "https://github.com/RipeStore/icons/blob/main/SPARK/s1_230x499bb.webp?raw=true",
-        "https://github.com/RipeStore/icons/blob/main/SPARK/s2_230x499bb.webp?raw=true",
-        "https://github.com/RipeStore/icons/blob/main/SPARK/s3_230x499bb.webp?raw=true",
-        "https://github.com/RipeStore/icons/blob/main/SPARK/s4_230x499bb.webp?raw=true",
-        "https://github.com/RipeStore/icons/blob/main/SPARK/s5_230x499bb.webp?raw=true"
-      ],
       "versions": [
         {
+          "version": "1.3.2",
+          "date": "2025-11-03T09:11:00Z",
+          "localizedDescription": "Adds multi-persistent saves and Ren’Py 8.4.1, 8.3.7, 7.8.7 engine support.",
           "downloadURL": "https://github.com/RipeStore/spark/releases/download/v1.3.2/Spark_1.3.2.ipa",
           "size": 153500000,
-          "version": "1.3.2",
-          "date": "2025-11-03T09:11:00+05:30",
-          "localizedDescription": "MultiPersistent Saves (Used for importing saves in multi episode games)\nRen’Py 8.4.1, 8.3.7, 7.8.7\nEngine performance enhancements across all engines\nOverlay buttons no longer fall out of view during rotation\nTurbo Rewind (hold rewind button to quickly rewind scenes)\nLibrary Screen performance enhancements",
           "minOSVersion": "15.6"
         }
       ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSAccentColorName": "BlueTint",
-          "NSFaceIDUsageDescription": "To authenticate and provide access to the app."
-        }
-      },
-      "version": "1.3.2",
-      "downloadURL": "https://github.com/RipeStore/spark/releases/download/v1.3.2/Spark_1.3.2.ipa",
-      "size": 153500000,
-      "date": "2025-11-03T09:11:00+05:30",
-      "localizedDescription": "MultiPersistent Saves (Used for importing saves in multi episode games)\nRen’Py 8.4.1, 8.3.7, 7.8.7\nEngine performance enhancements across all engines\nOverlay buttons no longer fall out of view during rotation\nTurbo Rewind (hold rewind button to quickly rewind scenes)\nLibrary Screen performance enhancements"
+      "screenshotURLs": [
+        "https://github.com/RipeStore/icons/blob/main/SPARK/s1_230x499bb.webp?raw=true",
+        "https://github.com/RipeStore/icons/blob/main/SPARK/s2_230x499bb.webp?raw=true",
+        "https://github.com/RipeStore/icons/blob/main/SPARK/s3_230x499bb.webp?raw=true"
+      ]
     },
     {
       "name": "Infinity Blade III",
       "bundleIdentifier": "com.chairentertainment.IB3",
       "developerName": "ChAIR Entertainment",
-      "subtitle": "The epic conclusion to the Infinity Blade saga",
-      "localizedDescription": "The epic conclusion to the Infinity Blade saga! Siris and Isa have joined with the God-King Raidriar in a desperate attempt to destroy the Worker of Secrets and his army of Deathless titans and warriors.",
+      "localizedDescription": "The epic conclusion to the Infinity Blade saga. Siris and Isa unite to defeat the Worker of Secrets and his army of Deathless.",
       "iconURL": "https://github.com/RipeStore/icons/blob/main/IB3/IB3-Icon.webp?raw=true",
-      "tintColor": "#cd0b0b",
-      "category": "other",
-      "screenshots": [
-        {
-          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB3/IB3_Screen08_iPad.webp?raw=true",
-          "width": 1000,
-          "height": 750
-        },
-        {
-          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB3/IB3_Screen05_iPad.webp?raw=true",
-          "width": 1000,
-          "height": 750
-        },
-        {
-          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB3/IB3_Screen02_iPad.webp?raw=true",
-          "width": 1000,
-          "height": 750
-        },
-        {
-          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB3/IB3_Screen03_iPad.webp?raw=true",
-          "width": 1000,
-          "height": 750
-        },
-        {
-          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB3/IB3_Screen13_iPad.webp?raw=true",
-          "width": 1000,
-          "height": 750
-        }
-      ],
       "versions": [
         {
           "version": "1.4.4",
-          "date": "2024-02-22T12:00:00+05:30",
-          "localizedDescription": "The epic conclusion to the Infinity Blade saga! Siris and Isa have joined with the God-King Raidriar in a desperate attempt to destroy the Worker of Secrets and his army of Deathless titans and warriors.",
+          "date": "2024-02-22T12:00:00Z",
+          "localizedDescription": "Community patch with iOS 15+ support and stability fixes.",
           "downloadURL": "https://github.com/RipeStore/ib/releases/download/r1/Blade_III_-_Community_Patch_v2.2.ipa",
           "size": 1884300000,
           "minOSVersion": "10.0"
         }
       ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSUbiquitousDisplaySet": "com.chair.IB3_iCloudDisplay"
-        }
-      },
-      "version": "1.4.4",
-      "downloadURL": "https://github.com/RipeStore/ib/releases/download/r1/Blade_III_-_Community_Patch_v2.2.ipa",
-      "size": 1884300000,
-      "date": "2024-02-22T12:00:00+05:30",
-      "localizedDescription": "The epic conclusion to the Infinity Blade saga! Siris and Isa have joined with the God-King Raidriar in a desperate attempt to destroy the Worker of Secrets and his army of Deathless titans and warriors."
+      "screenshotURLs": [
+        "https://github.com/RipeStore/icons/blob/main/IB3/IB3_Screen02_iPad.webp?raw=true",
+        "https://github.com/RipeStore/icons/blob/main/IB3/IB3_Screen05_iPad.webp?raw=true",
+        "https://github.com/RipeStore/icons/blob/main/IB3/IB3_Screen13_iPad.webp?raw=true"
+      ]
     },
     {
       "name": "Infinity Blade II",
       "bundleIdentifier": "com.chairentertainment.IB2",
       "developerName": "ChAIR Entertainment",
-      "subtitle": "The second installment in the IB series",
-      "localizedDescription": "The God King-slayer, Siris, having learned that he is in fact a Deathless who used to be known as Ausar, embarks on a quest to find the Worker of Secrets. The Worker created the Infinity Blade as a weapon that could kill the Deathless and Siris wants to fully understand how the Blade works and its true purpose. Siris’ partner, Isa, is shaken by the realization that the man she followed on a quest to rid the world of Deathless is himself immortal, and leaves to forge her own destiny.\n\nSiris heads to Saranthia to find the Vault of Tears, where the Worker of Secrets is imprisoned. There he meets Thane, High Lord of the House Ix. Upon defeating Thane, Siris unlocks a seal, but dies in the process. Fortunately, a mechanical helper named Tel revives Siris in a Phoenix Chamber.\n\nAgain and again, Siris returns to Saranthia. He defeats three Blood Sentinels, each of whom guards a seal that unlocks the way to the Worker of Secrets. Siris sacrifices himself each time he unlocks a seal, but is always reborn.\n\nWith the Vault finally unsealed, Siris meets the Worker of Secrets, only to learn that another Deathless must take the Worker’s place if he’s to be freed. Siris hunts down and captures the God King, whose real name is Raidriar.\n\nBringing Raidriar to the Vault of Tears, Siris is ready to finally learn the mystery of the Infinity Blade, but the Worker has other ideas. He betrays Siris and locks him in the Vault of Tears with Raidriar. It’s revealed the Ausar was the one who originally imprisoned the Worker, who now has his revenge.\n\nWith the God King and Siris imprisoned together and the Worker free, Isa arrives at Vault of Tears. Presumably she’s there to free Siris",
+      "localizedDescription": "Siris returns to uncover the secrets of the Infinity Blade and face the Worker once more.",
       "iconURL": "https://github.com/RipeStore/icons/blob/main/IB2/IB2_ICON.png?raw=true",
-      "tintColor": "#ce2929",
-      "category": "games",
-      "screenshots": [
-        {
-          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB2/IB2_Opening.webp?raw=true",
-          "width": 1000,
-          "height": 608
-        },
-        {
-          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB2/screenshot.infinity-blade-2.1280x720.2011-12-01.26.jpg?raw=true",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB2/screenshot.infinity-blade-2.1280x720.2011-12-01.5.jpg?raw=true",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "imageURL": "https://github.com/RipeStore/icons/blob/main/IB2/Cavalier_waiting_IB2_2.webp?raw=true",
-          "width": 1000,
-          "height": 625
-        }
-      ],
       "versions": [
         {
           "version": "1.3.5",
-          "date": "2024-02-21T00:01:00+05:30",
-          "localizedDescription": "The God King-slayer, Siris, having learned that he is in fact a Deathless who used to be known as Ausar, embarks on a quest to find the Worker of Secrets. The Worker created the Infinity Blade as a weapon that could kill the Deathless and Siris wants to fully understand how the Blade works and its true purpose. Siris’ partner, Isa, is shaken by the realization that the man she followed on a quest to rid the world of Deathless is himself immortal, and leaves to forge her own destiny.\n\nSiris heads to Saranthia to find the Vault of Tears, where the Worker of Secrets is imprisoned. There he meets Thane, High Lord of the House Ix. Upon defeating Thane, Siris unlocks a seal, but dies in the process. Fortunately, a mechanical helper named Tel revives Siris in a Phoenix Chamber.\n\nAgain and again, Siris returns to Saranthia. He defeats three Blood Sentinels, each of whom guards a seal that unlocks the way to the Worker of Secrets. Siris sacrifices himself each time he unlocks a seal, but is always reborn.\n\nWith the Vault finally unsealed, Siris meets the Worker of Secrets, only to learn that another Deathless must take the Worker’s place if he’s to be freed. Siris hunts down and captures the God King, whose real name is Raidriar.\n\nBringing Raidriar to the Vault of Tears, Siris is ready to finally learn the mystery of the Infinity Blade, but the Worker has other ideas. He betrays Siris and locks him in the Vault of Tears with Raidriar. It’s revealed the Ausar was the one who originally imprisoned the Worker, who now has his revenge.\n\nWith the God King and Siris imprisoned together and the Worker free, Isa arrives at Vault of Tears. Presumably she’s there to free Siris",
+          "date": "2024-02-21T00:01:00Z",
+          "localizedDescription": "Community patch for iOS 15+, fixes rendering and performance.",
           "downloadURL": "https://github.com/RipeStore/ib/releases/download/r1/Blade_II_-_Community_Patch_v2.1.ipa",
           "size": 1101900000,
           "minOSVersion": "10.0"
         }
       ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSUbiquitousDisplaySet": "com.chair.IB2_iCloudDisplay"
+      "screenshotURLs": [
+        "https://github.com/RipeStore/icons/blob/main/IB2/IB2_Opening.webp?raw=true",
+        "https://github.com/RipeStore/icons/blob/main/IB2/Cavalier_waiting_IB2_2.webp?raw=true"
+      ]
+    },
+    {
+      "name": "Infinity Blade I",
+      "bundleIdentifier": "com.chairentertainment.birthright",
+      "developerName": "ChAIR Entertainment",
+      "localizedDescription": "The original sword-fighting adventure that began the saga.",
+      "iconURL": "https://github.com/RipeStore/icons/blob/main/IB1/IB1_icon.png?raw=true",
+      "versions": [
+        {
+          "version": "1.4.3",
+          "date": "2024-02-20T12:46:00Z",
+          "localizedDescription": "Community patch for iOS 15+, restored functionality and textures.",
+          "downloadURL": "https://github.com/RipeStore/ib/releases/download/r1/Blade_I_-_Community_Patch_v1.1.ipa",
+          "size": 636900000,
+          "minOSVersion": "10.0"
         }
-      },
-      "version": "1.3.5",
-      "downloadURL": "https://github.com/RipeStore/ib/releases/download/r1/Blade_II_-_Community_Patch_v2.1.ipa",
-      "size": 1101900000,
-      "date": "2024-02-21T00:01:00+05:30",
-      "localizedDescription": "The God King-slayer, Siris, having learned that he is in fact a Deathless who used to be known as Ausar, embarks on a quest to find the Worker of Secrets. The Worker created the Infinity Blade as a weapon that could kill the Deathless and Siris wants to fully understand how the Blade works and its true purpose. Siris’ partner, Isa, is shaken by the realization that the man she followed on a quest to rid the world of Deathless is himself immortal, and leaves to forge her own destiny.\n\nSiris heads to Saranthia to find the Vault of Tears, where the Worker of Secrets is imprisoned. There he meets Thane, High Lord of the House Ix. Upon defeating Thane, Siris unlocks a seal, but dies in the process. Fortunately, a mechanical helper named Tel revives Siris in a Phoenix Chamber.\n\nAgain and again, Siris returns to Saranthia. He defeats three Blood Sentinels, each of whom guards a seal that unlocks the way to the Worker of Secrets. Siris sacrifices himself each time he unlocks a seal, but is always reborn.\n\nWith the Vault finally unsealed, Siris meets the Worker of Secrets, only to learn that another Deathless must take the Worker’s place if he’s to be freed. Siris hunts down and captures the God King, whose real name is Raidriar.\n\nBringing Raidriar to the Vault of Tears, Siris is ready to finally learn the mystery of the Infinity Blade, but the Worker has other ideas. He betrays Siris and locks him in the Vault of Tears with Raidriar. It’s revealed the Ausar was the one who originally imprisoned the Worker, who now has his revenge.\n\nWith the God King and Siris imprisoned together and the Worker free, Isa arrives at Vault of Tears. Presumably she’s there to free Siris"
+      ],
+      "screenshotURLs": [
+        "https://github.com/RipeStore/icons/blob/main/IB1/Beta-IB1-Gameplay-A-IGN.webp?raw=true",
+        "https://github.com/RipeStore/icons/blob/main/IB1/V1.0-IB1-Gameplay-D-IGN.webp?raw=true"
+      ]
     }
   ],
   "news": [
     {
-      "title": "The Infinity Blade series!",
-      "identifier": "news_m9nh92pzl7",
-      "caption": "The Infinity Blade saga begins once again!",
-      "date": "2025-11-08T16:55",
-      "tintColor": "#cd0b0b",
-      "imageURL": "https://cdn2.unrealengine.com/Infinity+Blade%2FTab+Images%2FInfintiy-Blade-Overview-1400x800-96570af251fc03ab352769bb819aaf1b62a3863e.png",
-      "notify": true,
-      "url": "https://store.yemoja.xyz/",
-      "appID": null
+      "title": "Infinity Blade Series Returns!",
+      "identifier": "news_ripestore_ib",
+      "caption": "The full trilogy is now available.",
+      "date": "2025-11-08T16:55:00Z",
+      "url": "https://ripestore.github.io/"
     }
   ]
 }
