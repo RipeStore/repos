@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Facetune",
+      "type": 1,
+      "bundleID": "com.lightricks.Facetune2",
+      "bundleIdentifier": "com.lightricks.Facetune2",
+      "version": "3.110",
+      "versionDate": "2025-11-10",
+      "fullDate": "20251110055654",
+      "size": 310872385,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-11-2025/Facetune_3.110_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-11-2025/Facetune_3.110_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png"
+    },
+    {
       "name": "Coconote",
       "type": 1,
       "bundleID": "com.bbauman.Scripty",
