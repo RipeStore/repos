@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Mercury",
+      "type": 1,
+      "bundleID": "com.tripleglazedstudios.Weather",
+      "bundleIdentifier": "com.tripleglazedstudios.Weather",
+      "version": "3.0.4",
+      "versionDate": "2025-11-10",
+      "fullDate": "20251110111744",
+      "size": 57580505,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-11-2025/Mercury_3.0.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-11-2025/Mercury_3.0.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tripleglazedstudios.Weather.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tripleglazedstudios.Weather.png"
+    },
+    {
       "name": "SnapEdit",
       "type": 1,
       "bundleID": "com.sfun.snapedit",
