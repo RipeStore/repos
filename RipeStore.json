@@ -18,7 +18,7 @@
       "name": "Spark",
       "bundleIdentifier": "ai.devl.RenPySpark",
       "developerName": "Devon Lewis",
-      "subtitle": "Play  Your Ren'Py Visual Novels",
+      "subtitle": "Play Your Ren'Py Visual Novels",
       "localizedDescription": "Spark: Your Premier Tool for Ren'Py Visual Novels Management\n\nSpark is an independent utility for managing and launching Ren'Py novels and is not affiliated with or supported by the official Ren'Py project. Users should refrain from contacting the Ren'Py team for support related to this app.\n\nKey Features:\n\nSelf-Sufficient Novel Import and Launch: As an independent utility, Spark facilitates the importing and launching of your preferred Ren'Py novels.\n\nTailored Compatibility Options:\nChoose from Multiple Engine Versions: Opt for either Ren'Py engine version 8.3.0, 8.2.3, 8.1.3, 8.0.3, 7.8.0, 7.7.3, 7.6.3, or 7.5.3.\nCustomizable Novel Settings: Adjust the Ren'Py version for each novel for the best performance.\nNote: User experience may vary with each novel. Smaller devices may face rendering issues, and older titles might contain bugs. Some titles may not work at all. We do our best to provide support.\n\nAdvanced Save Management:\nComprehensive Save Overview: Easily view and manage all your game saves.\nBackup and Restore Functions: Securely backup your progress and restore at your convenience.\nSimplified Save Importation and Deletion: Full control over your game saves.\n\nRobust Novel Management:\nEffortless Organization: Manage all your novels with ease.\nEnhanced Novel Control: Delete, rename, and manage novel versions.\nEasy Novel Import: Add new novels through zip, apk, 7z, or rar files.\n\nSpark, while not affiliated with Ren'Py, stands as your essential tool for diving into the vast universe of Ren'Py visual novels. It's a gateway to your chosen stories, with full user control over novel management.\n\nAdditional Licensing Information:\nRen'Py contains free software licensed under various licenses, including the GNU Lesser General Public License. For a complete list of the software and licenses, please visit Ren'Py's official page.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/icon_400x400bb.webp",
       "tintColor": "#787886",
@@ -73,7 +73,7 @@
       "localizedDescription": "The epic conclusion to the Infinity Blade saga! Siris and Isa have joined with the God-King Raidriar in a desperate attempt to destroy the Worker of Secrets and his army of Deathless titans and warriors.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3-Icon.webp",
       "tintColor": "#cd0b0b",
-      "category": "other",
+      "category": "games",
       "screenshots": [
         {
           "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen08_iPad.webp",
@@ -245,7 +245,7 @@
       "localizedDescription": "Keka is a full featured file archiver, as easy as it can be.\nWith Keka you can compress as many files as you want in a bunch of formats. You can also encrypt them to store and share securely and with privacy.\nKeka can also browse and extract lots of compressed files, from ZIP and 7Z to RAR archives. Whether they are encrypted or encoded in with old charsets this is not a problem for Keka.\nCompression formats supported:\n7Z, ZIP, TAR, ZSTD, GZIP, BZIP2 and AppleArchive (AAR)\nExtraction formats supported:\n7Z, ZIP, RAR, TAR, GZIP, BZIP2, AAR, XZ, ZSTD, ISO, LZMA, EXE, CAB, MSI, PAX, JAR, APK, APPX, XPI, IPA, CPGZ, CPIO, XIP, CPT and many more\nTerms of Use: https://www.keka.io/termsofuse",
       "iconURL": "https://camo.githubusercontent.com/eb408c867471549d18523b656c7adb5e45ed0fcf42c827ae2f9956690d5fce37/68747470733a2f2f7777772e6b656b612e696f2f696d672f4b656b612d5371756172652d353132783531322e706e67",
       "tintColor": "#9e7060",
-      "category": "other",
+      "category": "utilities",
       "screenshots": [
         {
           "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Actions.png"
