@@ -15,6 +15,64 @@
   ],
   "apps": [
     {
+      "name": "Gacha Club",
+      "bundleIdentifier": "com.lunime.gachaclub",
+      "developerName": "Lunime",
+      "subtitle": "Roleplaying",
+      "localizedDescription": "- Welcome to Gacha Club -\nWhat club will you join? Get the party started and create your own anime styled characters and dress them up in your favorite fashion outfits! Choose from thousands of dresses, shirts, hairstyles, weapons, and much more! After designing your characters, enter the Studio and create any scene you can imagine! Add pets, objects, and choose your favorite background! Customization is 100% free, there are no in-app purchases!\n\nReady for more action? Gacha over 180 units to use in battle! Choose from four different modes, including Story mode, Tower mode, and more! Collect gems, gold, and materials to enhance, awaken, and increase your skill levels! You can also play your favorite mini-games and collect gems and bytes to Gacha for more units! What are you waiting for? Step into Gacha Club and begin your adventure today!\n\nCREATE YOUR OWN CHARACTERS\n- Customize 10 main characters and 90 extra characters!\n- Change the colors for almost all of your items!\n- Choose from 600 different poses!\n- Adjust your hair/eyes/items to fit your characters!\n- Choose and customize hundreds of pets and objects!\n- Set custom profiles for all your characters!\n- Import and Export your friend’s characters!\n\nSTUDIO MODE\n- Add up to 10 characters anywhere on the screen!\n- Add your favorite pets and objects to the scene, too!\n- Choose from a wide variety of backgrounds and foregrounds!\n- Make your characters talk to each other with custom text boxes, pets too!\n- Add a Narrator to create story-telling scenes!\n- Save and Load up to 15 scenes!\n- Use face presets to quickly change your face.\n\nGACHA AND BATTLE\n- Gacha over 180 units to use in battle!\n- Gacha for 150 pets to increase your stats!\n- Collect super rare Corrupted and DJ characters!\n- Use materials to enhance, awaken, and increase skill levels!\n- Choose from four battle modes: Story, Training, Tower, and Shadows of Corruption\n\nMINI GAMES\n- Play fun mini-games such as Usagi vs Neko or Mascot Whack!\n- Collect gems and bytes to gacha for more characters!\n- Free 2 Play, you can farm for gems easily!\n- Play offline! No Wi-Fi is needed to play!\n\n«Notes»\n- The game may lag on old devices \u0026 devices with 4k screens.\n- Please restart the game if you experience lag over time.\n- If you experience glitches with the game, please make sure you have storage available on your phone.\n- There are no In-App Purchases.\n\nThank you for playing Gacha Club!",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/GACHACLUB/icon_GACHACLUB.webp",
+      "tintColor": "#1cacdc",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/GACHACLUB/01.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/GACHACLUB/02.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/GACHACLUB/03.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/GACHACLUB/04.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/GACHACLUB/05.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/GACHACLUB/06.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/GACHACLUB/07.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/GACHACLUB/08.webp"
+      ],
+      "versions": [
+        {
+          "version": "4.0.0",
+          "date": "2023-08-19T04:20:00+05:30",
+          "localizedDescription": "Minor bugs fixed",
+          "downloadURL": "https://github.com/RipeStore/GachaClub/releases/download/nov-2025/Gacha.Club_4.0.0.ipa",
+          "size": 106600000,
+          "minOSVersion": "11.0"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2020-08-17T04:18:00+05:30",
+          "localizedDescription": "Fixed save bug and increased image quality.",
+          "downloadURL": "https://github.com/RipeStore/GachaClub/releases/download/nov-2025/Gacha.Club_2.0.0.ipa",
+          "size": 126700000,
+          "minOSVersion": "11.0"
+        },
+        {
+          "version": "1.0.6",
+          "date": "2020-08-16T00:31:00+05:30",
+          "localizedDescription": "Minor update",
+          "downloadURL": "https://github.com/RipeStore/GachaClub/releases/download/nov-2025/Gacha.Club_1.0.6.ipa",
+          "size": 106800000,
+          "minOSVersion": "11.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Required by Apple",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Required by Apple",
+          "NSLocationAlwaysUsageDescription": "Required by Apple",
+          "NSLocationWhenInUseUsageDescription": "Required by Apple",
+          "NSMainNibFile": "MainWindow",
+          "NSMainNibFile~ipad": "MainWindow-iPad",
+          "NSPhotoLibraryUsageDescription": "Required by Apple"
+        }
+      }
+    },
+    {
       "name": "Spark",
       "bundleIdentifier": "ai.devl.RenPySpark",
       "developerName": "Devon Lewis",
@@ -23,30 +81,20 @@
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/icon_400x400bb.webp",
       "tintColor": "#787886",
       "category": "utilities",
-      "screenshots": [
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s1_230x499bb.webp"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s2_230x499bb.webp"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s3_230x499bb.webp"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s4_230x499bb.webp"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s5_230x499bb.webp"
-        }
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s1_230x499bb.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s2_230x499bb.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s3_230x499bb.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s4_230x499bb.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s5_230x499bb.webp"
       ],
       "versions": [
         {
-          "downloadURL": "https://github.com/RipeStore/spark/releases/download/v1.3.2/Spark_1.3.2.ipa",
-          "size": 153500000,
           "version": "1.3.2",
           "date": "2025-11-03T09:11:00+05:30",
           "localizedDescription": "MultiPersistent Saves (Used for importing saves in multi episode games)\nRen’Py 8.4.1, 8.3.7, 7.8.7\nEngine performance enhancements across all engines\nOverlay buttons no longer fall out of view during rotation\nTurbo Rewind (hold rewind button to quickly rewind scenes)\nLibrary Screen performance enhancements",
+          "downloadURL": "https://github.com/RipeStore/spark/releases/download/v1.3.2/Spark_1.3.2.ipa",
+          "size": 153500000,
           "minOSVersion": "15.6"
         }
       ],
@@ -56,14 +104,7 @@
           "NSAccentColorName": "BlueTint",
           "NSFaceIDUsageDescription": "To authenticate and provide access to the app."
         }
-      },
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s1_230x499bb.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s2_230x499bb.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s3_230x499bb.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s4_230x499bb.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s5_230x499bb.webp"
-      ]
+      }
     },
     {
       "name": "Infinity Blade III",
@@ -74,32 +115,12 @@
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3-Icon.webp",
       "tintColor": "#cd0b0b",
       "category": "games",
-      "screenshots": [
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen08_iPad.webp",
-          "width": 1000,
-          "height": 750
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen05_iPad.webp",
-          "width": 1000,
-          "height": 750
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen02_iPad.webp",
-          "width": 1000,
-          "height": 750
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen03_iPad.webp",
-          "width": 1000,
-          "height": 750
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen13_iPad.webp",
-          "width": 1000,
-          "height": 750
-        }
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen08_iPad.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen05_iPad.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen02_iPad.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen03_iPad.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen13_iPad.webp"
       ],
       "versions": [
         {
@@ -116,14 +137,7 @@
         "privacy": {
           "NSUbiquitousDisplaySet": "com.chair.IB3_iCloudDisplay"
         }
-      },
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen08_iPad.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen05_iPad.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen02_iPad.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen03_iPad.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB3/IB3_Screen13_iPad.webp"
-      ]
+      }
     },
     {
       "name": "Infinity Blade II",
@@ -134,27 +148,11 @@
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB2/IB2_ICON.png",
       "tintColor": "#ce2929",
       "category": "games",
-      "screenshots": [
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB2/IB2_Opening.webp",
-          "width": 1000,
-          "height": 608
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB2/screenshot.infinity-blade-2.1280x720.2011-12-01.26.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB2/screenshot.infinity-blade-2.1280x720.2011-12-01.5.jpg",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB2/Cavalier_waiting_IB2_2.webp",
-          "width": 1000,
-          "height": 625
-        }
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB2/IB2_Opening.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB2/screenshot.infinity-blade-2.1280x720.2011-12-01.26.jpg",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB2/screenshot.infinity-blade-2.1280x720.2011-12-01.5.jpg",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB2/Cavalier_waiting_IB2_2.webp"
       ],
       "versions": [
         {
@@ -171,13 +169,7 @@
         "privacy": {
           "NSUbiquitousDisplaySet": "com.chair.IB2_iCloudDisplay"
         }
-      },
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB2/IB2_Opening.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB2/screenshot.infinity-blade-2.1280x720.2011-12-01.26.jpg",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB2/screenshot.infinity-blade-2.1280x720.2011-12-01.5.jpg",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB2/Cavalier_waiting_IB2_2.webp"
-      ]
+      }
     },
     {
       "name": "Infinity Blade I",
@@ -188,32 +180,12 @@
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/IB1_icon.png",
       "tintColor": "#d83030",
       "category": "games",
-      "screenshots": [
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/Beta-IB1-Gameplay-A-IGN.webp",
-          "width": 720,
-          "height": 405
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/Beta-IB1-Gameplay-B-IGN.webp",
-          "width": 720,
-          "height": 480
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/Beta-IB1-Gameplay-C-IGN.webp",
-          "width": 720,
-          "height": 480
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/V1.0-IB1-Gameplay-A-IGN.webp",
-          "width": 640,
-          "height": 426
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/V1.0-IB1-Gameplay-D-IGN.webp",
-          "width": 640,
-          "height": 426
-        }
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/Beta-IB1-Gameplay-A-IGN.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/Beta-IB1-Gameplay-B-IGN.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/Beta-IB1-Gameplay-C-IGN.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/V1.0-IB1-Gameplay-A-IGN.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/V1.0-IB1-Gameplay-D-IGN.webp"
       ],
       "versions": [
         {
@@ -228,14 +200,7 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
-      },
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/Beta-IB1-Gameplay-A-IGN.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/Beta-IB1-Gameplay-B-IGN.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/Beta-IB1-Gameplay-C-IGN.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/V1.0-IB1-Gameplay-A-IGN.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/IB1/V1.0-IB1-Gameplay-D-IGN.webp"
-      ]
+      }
     },
     {
       "name": "Keka",
@@ -246,22 +211,12 @@
       "iconURL": "https://camo.githubusercontent.com/eb408c867471549d18523b656c7adb5e45ed0fcf42c827ae2f9956690d5fce37/68747470733a2f2f7777772e6b656b612e696f2f696d672f4b656b612d5371756172652d353132783531322e706e67",
       "tintColor": "#9e7060",
       "category": "utilities",
-      "screenshots": [
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Actions.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Browser.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Compression.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Encryption.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Tasks.png"
-        }
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Actions.png",
+        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Browser.png",
+        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Compression.png",
+        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Encryption.png",
+        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Tasks.png"
       ],
       "versions": [
         {
@@ -276,64 +231,31 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
-      },
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Actions.png",
-        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Browser.png",
-        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Compression.png",
-        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Encryption.png",
-        "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Dark-Tasks.png"
-      ]
+      }
     },
     {
       "name": "Suwatte",
       "bundleIdentifier": "com.ceres.suwatte",
       "developerName": "Mantton",
-      "subtitle": "Suwatte is an ad-free, open source & feature-rich comic/manga reader for iOS.",
+      "subtitle": "Suwatte is an ad-free, open source \u0026 feature-rich comic/manga reader for iOS.",
       "localizedDescription": "Suwatte is an all-in-one comic reader app for iOS, with support for OPDS, CBZ and external sources. Suwatte handles all reading options with maximum personalization options.",
-      "iconURL": "https://avatars.githubusercontent.com/u/100905272?s=200&v=4",
+      "iconURL": "https://avatars.githubusercontent.com/u/100905272?s=200\u0026v=4",
       "tintColor": "#7f7f7f",
       "category": "entertainment",
-      "screenshots": [
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_7.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_8.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_13.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_14.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_3.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_4.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_11.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_12.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_10.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_2.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_6.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_15.png"
-        },
-        {
-          "imageURL": "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_9.png"
-        }
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_7.png",
+        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_8.png",
+        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_13.png",
+        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_14.png",
+        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_3.png",
+        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_4.png",
+        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_11.png",
+        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_12.png",
+        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_10.png",
+        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_2.png",
+        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_6.png",
+        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_15.png",
+        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_9.png"
       ],
       "versions": [
         {
@@ -352,22 +274,7 @@
           "NSFaceIDUsageDescription": "Verify Biometrics to Protect Library",
           "NSPhotoLibraryUsageDescription": "This is required to save images to your device."
         }
-      },
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_7.png",
-        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_8.png",
-        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_13.png",
-        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_14.png",
-        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_3.png",
-        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_4.png",
-        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_11.png",
-        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_12.png",
-        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_10.png",
-        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_2.png",
-        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_6.png",
-        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_15.png",
-        "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_9.png"
-      ]
+      }
     }
   ],
   "news": [
@@ -375,12 +282,11 @@
       "title": "The Infinity Blade series!",
       "identifier": "news_m9nh92pzl7",
       "caption": "The Infinity Blade saga begins once again!",
-      "date": "2025-11-08T16:55:00Z",
+      "date": "2025-11-08T22:25:00Z",
       "tintColor": "#cd0b0b",
       "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/UN/1400x800-96570af251fc03ab352769bb819aaf1b62a3863e.png",
       "notify": true,
-      "url": "https://store.yemoja.xyz/",
-      "appID": null
+      "url": "https://store.yemoja.xyz/"
     }
   ]
 }
