@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TikTok",
+      "type": 1,
+      "bundleID": "com.zhiliaoapp.musically",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "version": "42.5.0",
+      "versionDate": "2025-11-12",
+      "fullDate": "20251112021701",
+      "size": 393560755,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-11-2025/TikTok_42.5.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-11-2025/TikTok_42.5.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png"
+    },
+    {
       "name": "MyFitnessPal",
       "type": 1,
       "bundleID": "com.myfitnesspal.mfp",
