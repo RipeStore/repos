@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "KineMaster",
+      "type": 1,
+      "bundleID": "com.kinemaster.kios",
+      "bundleIdentifier": "com.kinemaster.kios",
+      "version": "8.0.4",
+      "versionDate": "2025-11-11",
+      "fullDate": "20251111134012",
+      "size": 117860785,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-11-2025/KineMaster_8.0.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-11-2025/KineMaster_8.0.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kinemaster.kios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kinemaster.kios.png"
+    },
+    {
+      "name": "Foodie",
+      "type": 1,
+      "bundleID": "com.linecorp.Foodie",
+      "bundleIdentifier": "com.linecorp.Foodie",
+      "version": "7.4.1",
+      "versionDate": "2025-11-11",
+      "fullDate": "20251111134007",
+      "size": 135991432,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-11-2025/Foodie_7.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-11-2025/Foodie_7.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.Foodie.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.Foodie.png"
+    },
+    {
       "name": "YouCut",
       "type": 1,
       "bundleID": "com.shantanu.YouCut",
