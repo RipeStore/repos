@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PeakVisor",
+      "type": 1,
+      "bundleID": "ru.routes.peakvisor",
+      "bundleIdentifier": "ru.routes.peakvisor",
+      "version": "5.69",
+      "versionDate": "2025-11-12",
+      "fullDate": "20251112032727",
+      "size": 109535470,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-11-2025/PeakVisor_5.69_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-11-2025/PeakVisor_5.69_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png"
+    },
+    {
       "name": "TikTok",
       "type": 1,
       "bundleID": "com.zhiliaoapp.musically",
