@@ -15,6 +15,164 @@
   ],
   "apps": [
     {
+      "name": "Flappy Bird",
+      "bundleIdentifier": "org.brandonplank.flappybird",
+      "developerName": "BrandonPlank",
+      "subtitle": "A simple but infuriatingly difficult game",
+      "localizedDescription": "Flappy Bird is an infuriatingly difficult casual game in which you need to steer a hapless pixelated bird through tubes.\n\nFlap Through the Gap :\n\nThe principle of Flappy Bird is very simple - to fly through as many gaps as you can without hitting a pipe. It's a similar gaming mechanic to the popular tap-to-hover helicopter genre of games like iCopter TNG. It's fun - but insanely frustrating!\n\nTap to Flap :\n\nThe controls in Flappy Bird are simple - you just tap to flap - but the game is so hard that you can spend an hour practicing and you'll still only have made it through five or six gaps. Sometimes you'll think that you've made it through a gap only to clip the edge of the pipe on your way back and then it's back to the beginning for you.\n\nA 90s Throwback :\nGraphically, Flappy Bird is very basic and looks like its come straight out of an 8-bit console. The bird himself is cute and his little pixelated face makes you feel all the sorrier when you smack him into a pipe for the 500th time. \n\nThe background in Flappy Bird is unimaginative and looks like it's been lifted from any of the countless cutesy platformers of the early 1990s. Don't expect any lavish animation either, Flappy Bird is pretty jerky.\n\nCrazy Fun :\n\nFlappy Bird can be so annoying that you'll want to throw your phone out of the window, and at the same time it hooks you into coming back as you think \"surely I'll get the hang of it now\". Once you've installed Flappy Bird you'll wish you hadn't!\n\nThis is a Swift remake of the original game. You can find the source at https://github.com/brandonplank/flappybird",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/FLAPPY/icon_FLAPPYBIRD.png",
+      "tintColor": "#7ce49c",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/FLAPPY/01.PNG",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/FLAPPY/02.PNG",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/FLAPPY/03.PNG",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/FLAPPY/04.PNG"
+      ],
+      "versions": [
+        {
+          "version": "4.3",
+          "date": "2022-06-14T13:14:00+05:30",
+          "localizedDescription": "• Removed Leaderboard\n• Removed Accounts\n• Removed Anti-Cheat",
+          "downloadURL": "https://github.com/RipeStore/flappybird/releases/download/4.3/org.brandonplank.flappybird.ipa",
+          "size": 2100000,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "(Beta) Stossycord",
+      "bundleIdentifier": "com.stossy11.Stossycord",
+      "developerName": "stossy11",
+      "subtitle": "An open-source Discord client",
+      "localizedDescription": "Stossycord is a fully native Discord client designed for iOS. It aims to deliver a fast, secure, and privacy-focused experience tailored for Apple devices.\n\nFeatures :\n\n- Sending messages\n- Receiving messages (text)\n- Replying to messages\n- Uploading attachments (images, video, files)\n- Receiving attachments (images, video, audio, files)\n- Direct Messages (send \u0026 receive)\n- Discord Settings (currently used for folders)\n- User Profiles\n- Basic channel list and navigation\n- Basic account/session management (login/logout)\n\nNote: Stossycord is still in beta so there will be bugs and glitches, if you find any, please write to us on Discord  at https://discord.gg/sNzwHGDVEJ\n\nOr create a Github Issue at https://github.com/Stossycord/Stossycord/issues",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/STOSSYCORD/icon_STOSSYCORD.png",
+      "tintColor": "#8ccc04",
+      "category": "social",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/STOSSYCORD/01.PNG",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/STOSSYCORD/02.PNG",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/STOSSYCORD/03.PNG",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/STOSSYCORD/04.PNG"
+      ],
+      "versions": [
+        {
+          "version": "0.6",
+          "date": "2025-09-29T12:58:00+05:30",
+          "localizedDescription": "• Added Liquid Glass Support\n• Updated WebSocket Reconnection\n•  Brand New Login UI",
+          "downloadURL": "https://github.com/RipeStore/Stossycord/releases/download/0.6/Stossycord.ipa",
+          "size": 1600000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSDocumentsFolderUsageDescription": "We need access to your documents folder to import files.",
+          "NSFaceIDUsageDescription": "Stossycord needs Face ID to keep your Token Safe",
+          "NSFileProviderPresenceUsageDescription": "We need access to your file provider to import files.",
+          "NSPhotoLibraryAddUsageDescription": "Stossycord needs access to your Photo library to upload photos and videos to Discord",
+          "NSPhotoLibraryUsageDescription": "Stossycord needs access to your Photo library to upload photos and videos to Discord"
+        }
+      }
+    },
+    {
+      "name": "Nyxian",
+      "bundleIdentifier": "com.cr4zy.nyxian",
+      "developerName": "ProjectNyxian",
+      "subtitle": "IDE to develop native code iOS apps on unjailbroken iOS devices",
+      "localizedDescription": "Nyxian is an iOS app that enables users to code, compile, link, sign, and even execute or rapidly test iOS applications directly on their device.\n\nNyxian is the successor to the former FridaCodeManager project, which was deprecated in favor of Nyxian since FridaCodeManager required a jailbreak to function, whereas Nyxian does not.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/NYXIAN/icon_NYXIAN.png",
+      "tintColor": "#a474dc",
+      "category": "developer",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/NYXIAN/01.PNG",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/NYXIAN/02.PNG",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/NYXIAN/03.PNG",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/NYXIAN/04.PNG",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/NYXIAN/05.PNG"
+      ],
+      "versions": [
+        {
+          "version": "0.6.0",
+          "date": "2025-09-06T23:39:00+05:30",
+          "localizedDescription": "• A lot of changes, the most important thing is that you can now use your free Apple Developer Certificate and that its compatible with iPad!",
+          "downloadURL": "https://github.com/RipeStore/Nyxian/releases/download/0.6.0/nyxian_0.6.ipa",
+          "size": 155100000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "The guest app is requesting for this permission.",
+          "NSBluetoothAlwaysUsageDescription": "The guest app is requesting for this permission.",
+          "NSBluetoothPeripheralUsageDescription": "The guest app is requesting for this permission.",
+          "NSCalendarsFullAccessUsageDescription": "The guest app is requesting for this permission.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "The guest app is requesting for this permission.",
+          "NSCameraUsageDescription": "The guest app is requesting for this permission.",
+          "NSContactsUsageDescription": "The guest app is requesting for this permission.",
+          "NSFaceIDUsageDescription": "The guest app is requesting for this permission.",
+          "NSFallDetectionUsageDescription": "The guest app is requesting for this permission.",
+          "NSGKFriendListUsageDescription": "The guest app is requesting for this permission.",
+          "NSHealthClinicalHealthRecordsShareUsageDescription": "The guest app is requesting for this permission.",
+          "NSHealthShareUsageDescription": "The guest app is requesting for this permission.",
+          "NSHealthUpdateUsageDescription": "The guest app is requesting for this permission.",
+          "NSHomeKitUsageDescription": "The guest app is requesting for this permission.",
+          "NSIdentityUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocalNetworkUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationWhenInUseUsageDescription": "The guest app is requesting for this permission.",
+          "NSMicrophoneUsageDescription": "The guest app is requesting for this permission.",
+          "NSMotionUsageDescription": "The guest app is requesting for this permission.",
+          "NSNearbyInteractionAllowOnceUsageDescription": "The guest app is requesting for this permission.",
+          "NSNearbyInteractionUsageDescription": "The guest app is requesting for this permission.",
+          "NSPhotoLibraryAddUsageDescription": "The guest app is requesting for this permission.",
+          "NSPhotoLibraryUsageDescription": "The guest app is requesting for this permission.",
+          "NSRemindersFullAccessUsageDescription": "The guest app is requesting for this permission.",
+          "NSSensorKitUsageDescription": "The guest app is requesting for this permission.",
+          "NSSiriUsageDescription": "The guest app is requesting for this permission.",
+          "NSSpeechRecognitionUsageDescription": "The guest app is requesting for this permission.",
+          "NSUserTrackingUsageDescription": "The guest app is requesting for this permission."
+        }
+      }
+    },
+    {
+      "name": "RamBench",
+      "bundleIdentifier": "com.Autumn.RamBench",
+      "developerName": "Propenchiefer",
+      "subtitle": "iOS RAM Benchmarking Tool",
+      "localizedDescription": "RAMBench is an iOS app designed to benchmark the RAM limits of your iOS device. With recent iOS updates (18.2–26) introducing changes to memory management that have caused confusion (specifically for emulation and power-users of the platform), RAMBench provides a clear way to test memory allocation limits specific to your device and iOS version.\n\nThe app allocates memory incrementally until it reaches the system’s limit, records the maximum allocated amount alongside the iOS version.\n\nFeatures\n- These are not 100% accurate, definitely take with a grain of salt\n- Memory Benchmarking: Allocates memory in chunks until the process is killed.\n- iOS Version Tracking: Saves benchmark results with the iOS version (e.g., 18.5), allowing comparison across updates.\n- Detailed Benchmark results\n- Memory Stats, Updates every second to show:\n- Total Device RAM\n- Total Used RAM\n- This App’s RAM\n- Free RAM\n\nLimitations :\n- iOS Restrictions: Mach APIs provide limited per-process memory details due to sandboxing, so metrics are system-wide or app-specific. \n\n- Memory Compression: iOS compresses memory, so the app’s reported RAM (e.g., 6 GB allocated) may use less physical RAM (e.g., 5.8 GB). \n\n-  Rounding: Total RAM is rounded (e.g., 7.98 GB to 8 GB) for simplicity, which may slightly skew calculations.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/RAMBENCH/icon_RAMBENCH.png",
+      "tintColor": "#314dcd",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/RAMBENCH/01.PNG",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/RAMBENCH/02.PNG",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/RAMBENCH/03.PNG",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/RAMBENCH/04.PNG"
+      ],
+      "versions": [
+        {
+          "version": "1.3",
+          "date": "2025-08-02T19:41:00+05:30",
+          "localizedDescription": "• Fixed iPad's showing fake allocations\n• Added Detailed benchmark result pages (shows allocation rate, pressure, allocation chart, and more in depth device information)\n• Added a Allocation Graph for iPad's\n• Added iOS 26 \u0026 Tinted icons\n• Added new credits and info tab\n• Increased allocation speed for iPad's\n• Increased Memory Status accuracy\n• Increased OS version accuracy",
+          "downloadURL": "https://github.com/RipeStore/iOSRamBench/releases/download/1.3/RamBench.ipa",
+          "size": 2400000,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
       "name": "Gacha Club",
       "bundleIdentifier": "com.lunime.gachaclub",
       "developerName": "Lunime",
@@ -36,24 +194,24 @@
       "versions": [
         {
           "version": "4.0.0",
-          "date": "2023-08-19T04:20:00+05:30",
-          "localizedDescription": "Minor bugs fixed",
+          "date": "2023-08-18T22:50:00+05:30",
+          "localizedDescription": "• Minor bugs fixed",
           "downloadURL": "https://github.com/RipeStore/GachaClub/releases/download/nov-2025/Gacha.Club_4.0.0.ipa",
           "size": 106600000,
           "minOSVersion": "11.0"
         },
         {
           "version": "2.0.0",
-          "date": "2020-08-17T04:18:00+05:30",
-          "localizedDescription": "Fixed save bug and increased image quality.",
+          "date": "2020-08-16T22:48:00+05:30",
+          "localizedDescription": "• Fixed save bug and increased image quality.",
           "downloadURL": "https://github.com/RipeStore/GachaClub/releases/download/nov-2025/Gacha.Club_2.0.0.ipa",
           "size": 126700000,
           "minOSVersion": "11.0"
         },
         {
           "version": "1.0.6",
-          "date": "2020-08-16T00:31:00+05:30",
-          "localizedDescription": "Minor update",
+          "date": "2020-08-15T19:01:00+05:30",
+          "localizedDescription": "• Minor update",
           "downloadURL": "https://github.com/RipeStore/GachaClub/releases/download/nov-2025/Gacha.Club_1.0.6.ipa",
           "size": 106800000,
           "minOSVersion": "11.0"
@@ -91,8 +249,8 @@
       "versions": [
         {
           "version": "1.3.2",
-          "date": "2025-11-03T09:11:00+05:30",
-          "localizedDescription": "MultiPersistent Saves (Used for importing saves in multi episode games)\nRen’Py 8.4.1, 8.3.7, 7.8.7\nEngine performance enhancements across all engines\nOverlay buttons no longer fall out of view during rotation\nTurbo Rewind (hold rewind button to quickly rewind scenes)\nLibrary Screen performance enhancements",
+          "date": "2025-11-02T16:41:00+05:30",
+          "localizedDescription": "• MultiPersistent Saves (Used for importing saves in multi episode games)\n• Ren’Py 8.4.1, 8.3.7, 7.8.7\n• Engine performance enhancements across all engines\n• Overlay buttons no longer fall out of view during rotation\n• Turbo Rewind (hold rewind button to quickly rewind scenes)\n• Library Screen performance enhancements",
           "downloadURL": "https://github.com/RipeStore/spark/releases/download/v1.3.2/Spark_1.3.2.ipa",
           "size": 153500000,
           "minOSVersion": "15.6"
@@ -125,8 +283,8 @@
       "versions": [
         {
           "version": "1.4.4",
-          "date": "2024-02-22T05:49:00+05:30",
-          "localizedDescription": "The epic conclusion to the Infinity Blade saga! Siris and Isa have joined with the God-King Raidriar in a desperate attempt to destroy the Worker of Secrets and his army of Deathless titans and warriors.",
+          "date": "2024-02-21T18:49:00+05:30",
+          "localizedDescription": "• Community patch",
           "downloadURL": "https://github.com/RipeStore/ib/releases/download/r1/Blade_III_-_Community_Patch_v2.2.ipa",
           "size": 1884300000,
           "minOSVersion": "10.0"
@@ -157,8 +315,8 @@
       "versions": [
         {
           "version": "1.3.5",
-          "date": "2024-02-21T00:01:00+05:30",
-          "localizedDescription": "The God King-slayer, Siris, having learned that he is in fact a Deathless who used to be known as Ausar, embarks on a quest to find the Worker of Secrets. The Worker created the Infinity Blade as a weapon that could kill the Deathless and Siris wants to fully understand how the Blade works and its true purpose. Siris’ partner, Isa, is shaken by the realization that the man she followed on a quest to rid the world of Deathless is himself immortal, and leaves to forge her own destiny.\n\nSiris heads to Saranthia to find the Vault of Tears, where the Worker of Secrets is imprisoned. There he meets Thane, High Lord of the House Ix. Upon defeating Thane, Siris unlocks a seal, but dies in the process. Fortunately, a mechanical helper named Tel revives Siris in a Phoenix Chamber.\n\nAgain and again, Siris returns to Saranthia. He defeats three Blood Sentinels, each of whom guards a seal that unlocks the way to the Worker of Secrets. Siris sacrifices himself each time he unlocks a seal, but is always reborn.\n\nWith the Vault finally unsealed, Siris meets the Worker of Secrets, only to learn that another Deathless must take the Worker’s place if he’s to be freed. Siris hunts down and captures the God King, whose real name is Raidriar.\n\nBringing Raidriar to the Vault of Tears, Siris is ready to finally learn the mystery of the Infinity Blade, but the Worker has other ideas. He betrays Siris and locks him in the Vault of Tears with Raidriar. It’s revealed the Ausar was the one who originally imprisoned the Worker, who now has his revenge.\n\nWith the God King and Siris imprisoned together and the Worker free, Isa arrives at Vault of Tears. Presumably she’s there to free Siris",
+          "date": "2024-02-20T13:01:00+05:30",
+          "localizedDescription": "• Community patch",
           "downloadURL": "https://github.com/RipeStore/ib/releases/download/r1/Blade_II_-_Community_Patch_v2.1.ipa",
           "size": 1101900000,
           "minOSVersion": "10.0"
@@ -190,8 +348,8 @@
       "versions": [
         {
           "version": "1.4.3",
-          "date": "2024-02-20T12:46:00+05:30",
-          "localizedDescription": "One knight, known as the Sacrifice, is chosen each generation to journey to the heart of the Dark Citadel and battle the Deathless God King. None ever survives. But in sacrificing a young man each generation to be cut down by the Infinity Blade, the simple farmers of the Citadel’s neighboring villages are spared the God King’s wrath.\n\nAnd so it goes, for generation after generation, until Siris, another member of the sacrificial bloodline, manages to slay the God King and claim the Infinity Blade as his own.\n\nAfter killing the God King, Siris finds the Infinity Blade to be more than a sword. It’s a key as well, one that opens a secret passage to a dungeon in the Dark Citadel. After fighting three immortal Deathless imprisoned in the dungeon, Siris unlocks another hidden room. This one filled with inanimate God King bodies floating inside tanks.\n\nUltimately, Siris is lead into battle against a mechanized warrior, Zero, whom he defeats. But with his dying breath, Zero warns Siris that someone will come looking for the Infinity Blade.",
+          "date": "2024-02-20T01:46:00+05:30",
+          "localizedDescription": "• Community patch",
           "downloadURL": "https://github.com/RipeStore/ib/releases/download/r1/Blade_I-Community_Patch-v2.1.ipa",
           "size": 636900000,
           "minOSVersion": "10.0"
@@ -221,8 +379,8 @@
       "versions": [
         {
           "version": "1.6.0",
-          "date": "2025-10-07T21:35:00+05:30",
-          "localizedDescription": "Keka is a full featured file archiver, as easy as it can be.\n\nWith Keka you can compress as many files as you want in a bunch of formats. You can also encrypt them to store and share securely and with privacy.\n\nKeka can also browse and extract lots of compressed files, from ZIP and 7Z to RAR archives. Whether they are encrypted or encoded in with old charsets this is not a problem for Keka.\n\nCompression formats supported:\n7Z, ZIP, TAR, ZSTD, GZIP, BZIP2 and AppleArchive (AAR)\nExtraction formats supported:\n7Z, ZIP, RAR, TAR, GZIP, BZIP2, AAR, XZ, ZSTD, ISO, LZMA, EXE, CAB, MSI, PAX, JAR, APK, APPX, XPI, IPA, CPGZ, CPIO, XIP, CPT and many more\n\nTerms of Use: https://www.keka.io/termsofuse",
+          "date": "2025-10-07T05:05:00+05:30",
+          "localizedDescription": "• Using Liquid icon on macOS 26 and later (Thanks to @vslavik, @avidrissman \u0026 @siracusa)\n• Using liblzma for XZ compression if possible (Thanks to @kytta) #1654\n• Enhanced XAR extraction\n• Added 4GB FAT32 split option (Thanks to @jezcaudle) #1662\n• Minor fixes\n• Updated UNRAR from 7.11 to 7.13 (Thanks to rarlab)\n• Updated Danish translation (Thanks to @jacobpalm) #1650\n• Italian translation updated (Thanks to @VinBoiSoft from https://vinboisoft.altervista.org) #1663\n• French translation updated (Thanks to @Marc66) #1664\n• Russian translation updated (Thanks to @nitrodox) #1665",
           "downloadURL": "https://github.com/RipeStore/Keka/releases/download/v1.6.0/Keka_1.6.0.ipa",
           "size": 26100000,
           "minOSVersion": "15.5"
@@ -260,8 +418,8 @@
       "versions": [
         {
           "version": "6.0.1",
-          "date": "2025-09-07T22:15:00+05:30",
-          "localizedDescription": "Suwatte is an all-in-one comic reader app for iOS, with support for OPDS, CBZ and external sources. Suwatte handles all reading options with maximum personalization options.",
+          "date": "2025-09-07T05:45:00+05:30",
+          "localizedDescription": "• Auto Delete Downloads Fix",
           "downloadURL": "https://github.com/RipeStore/Suwatte/releases/download/v6.0.1/Suwatte_6.0.1.ipa",
           "size": 13200000,
           "minOSVersion": "15.0"
