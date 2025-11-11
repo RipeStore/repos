@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "YouTubeOLED",
+      "type": 1,
+      "bundleID": "com.google.ios.youtube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "version": "20.45.3",
+      "versionDate": "2025-11-11",
+      "fullDate": "20251111070931",
+      "size": 128972746,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-11-2025/YouTubeOLED_20.45.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-11-2025/YouTubeOLED_20.45.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png"
+    },
+    {
       "name": "BeautyPlus",
       "type": 1,
       "bundleID": "com.commsource.BeautyPlus",
