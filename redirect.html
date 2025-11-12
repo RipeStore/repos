@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trigger repo install</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    window.onload = () => {
+      const params = new URLSearchParams(window.location.search);
+      const target = params.get('r');
+      if (!target) {
+        document.body.innerHTML = '<p>No redirect target provided.</p>';
+        return;
+      }
+
+      // Display link in case automatic redirect fails
+      document.body.innerHTML = `
+        <p>Redirecting to:</p>
+        <p><a id="link" href="${target}">${target}</a></p>
+      `;
+
+      // Try to perform the redirect
+      try {
+        window.location.href = target;
+      } catch (e) {
+        console.error('Redirect failed:', e);
+      }
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
