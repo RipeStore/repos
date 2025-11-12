@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Photoroom",
+      "type": 1,
+      "bundleID": "com.dr1ven.eraser",
+      "bundleIdentifier": "com.dr1ven.eraser",
+      "version": "2025.45.02",
+      "versionDate": "2025-11-12",
+      "fullDate": "20251112144440",
+      "size": 135571559,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-11-2025/Photoroom_2025.45.02_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-11-2025/Photoroom_2025.45.02_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png"
+    },
+    {
       "name": "Lifesum",
       "type": 1,
       "bundleID": "com.sillens.iShape",
