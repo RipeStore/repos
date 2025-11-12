@@ -3,7 +3,7 @@
   "subtitle": "The high quality sideloading experience you deserve.",
   "identifier": "com.ripestore.source",
   "sourceURL": "https://raw.githubusercontent.com/RipeStore/repos/main/RipeStore_feather.json",
-  "description": "Please note that most of the IPAs are unpatched, meaning you need to patch them yourself with tweaks (for example SideloadFix, FixFilePicker etc) while signing.",
+  "description": "Do not expect in-app-purchases or mods that unlock premium features. Rarely, only important patches to ensure app function might be applied.\n\nPlease note that most of the IPAs are fully unpatched, meaning you need to patch them yourself with tweaks (for example SideloadFix, FixFilePicker etc) while signing.",
   "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
   "website": "https://ripestore.github.io/",
   "patreonURL": "https://ripestore.github.io/",
@@ -34,9 +34,9 @@
       "versions": [
         {
           "version": "3.40",
-          "date": "2025-10-07T04:51:00+05:30",
+          "date": "2025-10-06T23:21:00+05:30",
           "localizedDescription": "• Ranger's Choice 9 is live!",
-          "downloadURL": "https://hey",
+          "downloadURL": "https://github.com/RipeStore/delightgames/releases/download/3.40/Delight_Games_Premium_Library_3.40.ipa",
           "size": 88100000,
           "minOSVersion": "15.6"
         }
