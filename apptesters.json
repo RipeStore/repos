@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "GALATEA",
+      "type": 1,
+      "bundleID": "org.reactjs.native.Inkitt.App.Colt",
+      "bundleIdentifier": "org.reactjs.native.Inkitt.App.Colt",
+      "version": "14.12.0",
+      "versionDate": "2025-11-12",
+      "fullDate": "20251112174037",
+      "size": 83010630,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-11-2025/GALATEA_14.12.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-11-2025/GALATEA_14.12.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.reactjs.native.Inkitt.App.Colt.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.reactjs.native.Inkitt.App.Colt.png"
+    },
+    {
       "name": "Flacbox",
       "type": 1,
       "bundleID": "com.leshko.flap",
