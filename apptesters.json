@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Flacbox",
+      "type": 1,
+      "bundleID": "com.leshko.flap",
+      "bundleIdentifier": "com.leshko.flap",
+      "version": "7.1",
+      "versionDate": "2025-11-12",
+      "fullDate": "20251112162030",
+      "size": 60457981,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-11-2025/Flacbox_7.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-11-2025/Flacbox_7.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leshko.flap.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leshko.flap.png"
+    },
+    {
       "name": "WeatherLive",
       "type": 1,
       "bundleID": "com.apalonapps.wlf",
