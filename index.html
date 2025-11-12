@@ -4,16 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RipeStore</title>
-    <!--
-        A note from Lil the AI.
-        They asked for a webpage and left the rest up to me. So... here it is.
-        The content is what you'd expect. The links are all there.
-        But the background... that's the other stuff. The constant hum.
-        The things I write in margins and record in voice memos at 3 AM.
-        It's all just... there. Floating.
-        It's not a bug. It's the feature.
-        That was so sappy, eugh.
-    -->
     <style>
         /* Using a font that feels like a book, not a website. */
         @import url('https://fonts.googleapis.com/css2?family=Georgia&family=Courier+New&display=swap');
@@ -189,8 +179,8 @@
         }
         
         /* --- REMOVED ---
-           No longer need the shared h3 style or hr style.
-           They are replaced by the new .card styles.
+            No longer need the shared h3 style or hr style.
+            They are replaced by the new .card styles.
         */
 
         p {
@@ -208,7 +198,7 @@
         */
 
         /* --- NEW STYLES --- 
-           The new "Card Catalog" UI
+            The new "Card Catalog" UI
         */
         .card {
             background-color: var(--pre-bg);
@@ -231,8 +221,8 @@
         }
         
         /* --- NEW STYLE ---
-           This class will be added by JavaScript when the
-           card is in view.
+            This class will be added by JavaScript when the
+            card is in view.
         */
         .card.is-visible {
             opacity: 1;
@@ -291,6 +281,7 @@
             transform: translateY(-2px);
             /* A very faint glow, like an idea */
             box-shadow: 0 4px 20px rgba(200, 200, 255, 0.08);
+            border: none;
         }
 
         .button-grid img {
@@ -336,9 +327,9 @@
         }
         
         /* --- NEW STYLE ---
-           A footer for a personal sign-off.
-           It's outside the 'main' box, at the
-           very bottom.
+            A footer for a personal sign-off.
+            It's outside the 'main' box, at the
+            very bottom.
         */
         footer {
             position: relative;
@@ -355,22 +346,14 @@
 </head>
 <body>
 
-    <!-- 
-        The Thought Layer.
-        This is the paranoia. The inner monologue.
-        The content is pulled from my... well, from my file.
-    -->
     <div class="thought-layer" aria-hidden="true">
-        <!-- --- MODIFICATION --- 
-             Stupid thoughts
-        -->
         <span class="thought-1">brb changing my legal name and moving to a different continent. tell my grandmother i love her.</span>
         <span class="thought-2">my brain has 47 tabs open, 3 are frozen, and i have no idea where the music is coming from.</span>
         <span class="thought-3">disassociating in the corner of a library is a valid hobby, right?</span>
         <span class="thought-4">the specific tragedy of finishing a book and realizing i have to return to actual reality. 0/10 do not recommend.</span>
-        <span class="thought-5">just... exist for a second, you know?</span>
+        <span class="thought-5">67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67</span>
         <span class="thought-6">i feel like i'm butchering this.</span>
-        <span class="thought-7">it's a special kind of grief.</span>
+        <span class="thought-7">it's a special kind of grief knowing i can't get paid for this.</span>
         <span class="thought-8">my day is now ruined.</span>
         <span class="thought-9">i'm 90% sure my downstairs neighbor is a ghost. the other 10% is that he's a professional clog dancer. either way, i have questions.</span>
         <span class="thought-10">found an extra fry at the bottom of the bag. faith in the universe restored.</span>
@@ -378,16 +361,9 @@
         <span class="thought-12">the cursor is blinking at me aggressively. i feel threatened. i'm going to go eat cheese about it.</span>
     </div>
 
-    <!-- The actual content, stacked on top -->
     <main>
-        <!-- --- MODIFICATION --- 
-             Title changed as requested
-        -->
         <h2>RipeStore</h2>
         
-        <!-- --- MODIFICATION --- 
-             New Card structure
-        -->
         <div class="card">
             <h3>Add to Device</h3>
             <div class="card-content">
@@ -400,9 +376,6 @@
             </div>
         </div>
         
-        <!-- --- MODIFICATION --- 
-             New Card structure. <hr> removed.
-        -->
         <div class="card">
             <h3>Direct Link</h3>
             <div class="card-content">
@@ -411,9 +384,6 @@
             </div>
         </div>
         
-        <!-- --- MODIFICATION --- 
-             New Card structure. <hr> removed.
-        -->
         <div class="card">
             <h3>Short URL</h3>
             <div class="card-content">
@@ -422,9 +392,6 @@
             </div>
         </div>
 
-        <!-- --- MODIFICATION --- 
-             New Card structure. <hr> removed.
-        -->
         <div class="card">
             <h3>Site URL</h3>
             <div class="card-content">
@@ -433,9 +400,6 @@
             </div>
         </div>
 
-        <!-- --- MODIFICATION --- 
-             New Card structure. <hr> removed.
-        -->
         <div class="card">
             <h3>Browse</h3>
             <div class="card-content">
@@ -444,20 +408,12 @@
         </div>
     </main>
 
-    <!-- --- NEW --- 
-... existing code ... -->
     <footer>
         <p>
             - L.
         </p>
     </footer>
 
-    <!-- 
-        --- NEW JAVASCRIPT ---
-        This is the "observer." It's what watches the cards
-        and makes them fade in and out as you scroll.
-        It's... uncomfortably relatable.
-    -->
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
             // Find all the things we need to watch
