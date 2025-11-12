@@ -9,11 +9,83 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.chairentertainment.birthright",
-    "com.chairentertainment.IB2",
-    "com.chairentertainment.IB3"
+    "com.sybogames.subway.surfers.game",
+    "com.chairentertainment.IB3",
+    "com.your-company.DelightGames"
   ],
   "apps": [
+    {
+      "name": "Delight Games Premium Library",
+      "bundleIdentifier": "com.your-company.DelightGames",
+      "developerName": "Delight Games LLC",
+      "subtitle": "Choice Text Adventures",
+      "localizedDescription": "YOU HAVE FOUND A MASSIVE TROVE OF CHOICE-BASED GAMEBOOKS!\n\n• 80+ choice-based interactive volumes with genres ranging from fantasy, horror, mystery, adventure, even some romance. Immerse yourself in new worlds!\n• New gamebooks are added regularly.\n• No-wifi, no problem. \n• Small download and easy on your battery.\n• Fully accessible to blind users (e.g. Voiceover compatible).\n\n*** ACTUALLY FREE AND NO PAYING FOR A CHOICE ***\nPlay well and you will be rewarded with the currency you need to finish everything without spending a penny. Hunt down those achievements, get the high ranks, and choose to watch the rewarded videos as they become available. Not that I don’t appreciate your monetary support and I’m confident that you will find it well worth it, but know that you do not have to.\n\nAlso unlike many choice-based games, you do NOT spend currency to make choices. No choice is walled off from you for need of gems, etc. nor is there any such hint to spoil which is the “better choice”. You choose!\n\n*** PREMIUM OPTION ***\nFor a one-time up front purchase, you get ALL current and future content unlocked without worry about getting gouged later. Plus there’s no ads and some exclusive bonus content made available to you as well. There's nothing else like it on the App Store!\n\n*** ABOUT DELIGHT GAMES ***\nIf you're new to Delight Games you might say \"Interactive novels? But I don't like to read.\" You might even say this in a whiny voice (although we hope not). \n\nWell, even for you book haters, now reading is addictive because with Delight Games interactive novels you make the choices for the main character, alter the story, alter your stats, and try to stay alive. Can you make it to the end? If so, what kind of score and rank can you get? \n\nIf you like interactive fiction or just want to try something different from the typical soul-sucking mobile games, this is the ULTIMATE download for you!",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/DELIGHTGAMES/icon_DELIGHTGAMES.png",
+      "tintColor": "#e4391a",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/DELIGHTGAMES/01.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/DELIGHTGAMES/02.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/DELIGHTGAMES/03.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/DELIGHTGAMES/04.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/DELIGHTGAMES/05.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/DELIGHTGAMES/06.webp"
+      ],
+      "versions": [
+        {
+          "version": "3.40",
+          "date": "2025-10-07T04:51:00+05:30",
+          "localizedDescription": "• Ranger's Choice 9 is live!",
+          "downloadURL": "https://hey",
+          "size": 88100000,
+          "minOSVersion": "15.6"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSUserTrackingUsageDescription": "Tapping Allow will help us to serve relevant ads that are tailored to you."
+        }
+      }
+    },
+    {
+      "name": "Subway Surfers City",
+      "bundleIdentifier": "com.sybogames.subway.surfers.game",
+      "developerName": "Sybo Games",
+      "subtitle": "Get running and join the hype!",
+      "localizedDescription": "Jump into the world of Subway City and play the newest endless running game. Conquer the new obstacles, reach new heights, and collect new characters! Jake, Tricky, Fresh and Yutani will take you on new adventures in Subway Surfers City. \n\nSubway Surfers City brings an arcade runner quest with super-charged visuals, new characters, thrilling missions and more. Play now and run like never before!\n\nKey features:\n- UNLOCK LIVELY DISTRICTS: Explore the edges of Subway City while running away from Guard and Dog. Collect XP to unlock new areas!\n- UNCOVER SECRETS: Stomp and jump for a new way to play this runner game. Reach new depths and heights and discover hard-to-reach Secret Stars!\n- COLLECT AND UPGRADE SURFERS \u0026 BOARDS: Each Subway Surfer and board has unique power ups – coin magnets, bouncy shields, and many more! Upgrade and combine runners and boards to play your way. Collect them all by playing and opening mystery boxes, and upgrade their powers. \n- COMPLETE MISSIONS AND WIN REWARDS: The crew needs you to run your best! Play smart and finish missions to unlock new items and win boosters.\n- CONQUER TRIALS: Are you ready for the biggest challenge of your running skills? Trials are adrenaline-pumping limited runs that require your best performance to get the best rewards.\n- PLAY OFFLINE: Subway Surfers City is available offline! Play with no wifi or no internet connection at all. Access to some features will be limited. \n\nDownload Subway Surfers City now and play for free! Some in-game items can also be purchased for real money.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/icon_SUBWAY2.png",
+      "tintColor": "#f46227",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/01.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/02.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/03.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/04.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/05.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/06.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/07.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/08.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/09.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/10.webp"
+      ],
+      "versions": [
+        {
+          "version": "1.27.0",
+          "date": "2025-10-20T10:03:00+05:30",
+          "localizedDescription": "Hard Mode is here!  – Update Subway Surfers City to take on new goals with the help of your crew!\n\n• Hard Mode for District Trials: take on harder goals, complete them to earn more rewards!\n• Get bonus score from your crew members in trials!\n• Bug fixes removing the hurdles between you and your next best score.\n\nStay tuned as more exciting features and content are coming!",
+          "downloadURL": "https://github.com/RipeStore/subway2/releases/download/1.27.0/com.sybogames.subway.surfers.game-1.27.0.ipa",
+          "size": 197900000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you."
+        }
+      }
+    },
     {
       "name": "Flappy Bird",
       "bundleIdentifier": "org.brandonplank.flappybird",
@@ -62,8 +134,8 @@
       "versions": [
         {
           "version": "0.6",
-          "date": "2025-09-29T12:58:00+05:30",
-          "localizedDescription": "• Added Liquid Glass Support\n• Updated WebSocket Reconnection\n•  Brand New Login UI",
+          "date": "2025-09-29T07:28:00+05:30",
+          "localizedDescription": "• Added Liquid Glass Support\n• Updated WebSocket Reconnection\n• Brand New Login UI",
           "downloadURL": "https://github.com/RipeStore/Stossycord/releases/download/0.6/Stossycord.ipa",
           "size": 1600000,
           "minOSVersion": "16.0"
@@ -81,7 +153,7 @@
       }
     },
     {
-      "name": "Nyxian",
+      "name": "(Beta) Nyxian",
       "bundleIdentifier": "com.cr4zy.nyxian",
       "developerName": "ProjectNyxian",
       "subtitle": "IDE to develop native code iOS apps on unjailbroken iOS devices",
