@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MapleReadCX",
+      "type": 1,
+      "bundleID": "com.maplepop.bmcx",
+      "bundleIdentifier": "com.maplepop.bmcx",
+      "version": "6.2.1",
+      "versionDate": "2025-11-13",
+      "fullDate": "20251113050735",
+      "size": 20198155,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-11-2025/MapleReadCX_6.2.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-11-2025/MapleReadCX_6.2.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maplepop.bmcx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maplepop.bmcx.png"
+    },
+    {
       "name": "GlowUp",
       "type": 1,
       "bundleID": "com.snowcorp.glowup",
