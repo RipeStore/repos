@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VideoLite",
+      "type": 1,
+      "bundleID": "com.videobrowser.ios",
+      "bundleIdentifier": "com.videobrowser.ios",
+      "version": "620140",
+      "versionDate": "2025-11-12",
+      "fullDate": "20251112223636",
+      "size": 33066193,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-11-2025/VideoLite_620140_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-11-2025/VideoLite_620140_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.videobrowser.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.videobrowser.ios.png"
+    },
+    {
       "name": "Duolingo",
       "type": 1,
       "bundleID": "com.duolingo.DuolingoMobile",
