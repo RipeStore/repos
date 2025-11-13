@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "CLIME",
+      "type": 1,
+      "bundleID": "com.apalonapps.radarfree",
+      "bundleIdentifier": "com.apalonapps.radarfree",
+      "version": "5.13.63",
+      "versionDate": "2025-11-13",
+      "fullDate": "20251113185939",
+      "size": 179740997,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-11-2025/CLIME_5.13.63_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-11-2025/CLIME_5.13.63_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.radarfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.radarfree.png"
+    },
+    {
+      "name": "ScannerforMe",
+      "type": 1,
+      "bundleID": "com.apalonapps.pdffree",
+      "bundleIdentifier": "com.apalonapps.pdffree",
+      "version": "4.24.32",
+      "versionDate": "2025-11-13",
+      "fullDate": "20251113183932",
+      "size": 152007359,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-11-2025/ScannerforMe_4.24.32_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-11-2025/ScannerforMe_4.24.32_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.pdffree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.pdffree.png"
+    },
+    {
       "name": "Mojo",
       "type": 1,
       "bundleID": "archery.storify",
