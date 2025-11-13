@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MacroFactor",
+      "type": 1,
+      "bundleID": "com.sbs.diet",
+      "bundleIdentifier": "com.sbs.diet",
+      "version": "5.6.0",
+      "versionDate": "2025-11-14",
+      "fullDate": "20251114035651",
+      "size": 93350559,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-11-2025/MacroFactor_5.6.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-11-2025/MacroFactor_5.6.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png"
+    },
+    {
       "name": "SNOW",
       "type": 1,
       "bundleID": "com.campmobile.snow",
