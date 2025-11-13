@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Wikiloc",
+      "type": 1,
+      "bundleID": "com.wikiloc.wikiloc",
+      "bundleIdentifier": "com.wikiloc.wikiloc",
+      "version": "3.25.9",
+      "versionDate": "2025-11-13",
+      "fullDate": "20251113140354",
+      "size": 112969819,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-11-2025/Wikiloc_3.25.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-11-2025/Wikiloc_3.25.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wikiloc.wikiloc.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wikiloc.wikiloc.png"
+    },
+    {
       "name": "HiWidget",
       "type": 1,
       "bundleID": "com.zerone.hidesktop",
