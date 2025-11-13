@@ -2,7 +2,7 @@
   "name": "RipeStore",
   "subtitle": "The high quality sideloading experience you deserve.",
   "identifier": "com.ripestore.source",
-  "sourceURL": "https://raw.githubusercontent.com/RipeStore/repos/main/RipeStore_feather.json",
+  "sourceURL": "https://raw.githubusercontent.com/RipeStore/repos/main/RipeStore.json",
   "description": "Do not expect in-app-purchases or mods that unlock premium features. Rarely, only important patches to ensure app function might be applied.\n\nPlease note that most of the IPAs are fully unpatched, meaning you need to patch them yourself with tweaks (for example SideloadFix, FixFilePicker etc) while signing.",
   "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
   "website": "https://ripestore.github.io/",
