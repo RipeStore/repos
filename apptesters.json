@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "edjingMix",
+      "type": 1,
+      "bundleID": "com.edjing.edjingdjturntable",
+      "bundleIdentifier": "com.edjing.edjingdjturntable",
+      "version": "8.15.01",
+      "versionDate": "2025-11-14",
+      "fullDate": "20251114012603",
+      "size": 434032033,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-11-2025/edjingMix_8.15.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-11-2025/edjingMix_8.15.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.edjing.edjingdjturntable.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.edjing.edjingdjturntable.png"
+    },
+    {
       "name": "Moonly",
       "type": 1,
       "bundleID": "com.moonly.Moonly",
