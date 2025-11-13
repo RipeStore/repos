@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Moonly",
+      "type": 1,
+      "bundleID": "com.moonly.Moonly",
+      "bundleIdentifier": "com.moonly.Moonly",
+      "version": "2.5.1",
+      "versionDate": "2025-11-13",
+      "fullDate": "20251113230026",
+      "size": 166184732,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-11-2025/Moonly_2.5.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-11-2025/Moonly_2.5.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png"
+    },
+    {
       "name": "Captions",
       "type": 1,
       "bundleID": "boomer.Smart-Video",
