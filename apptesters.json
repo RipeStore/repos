@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "LoFiCam",
+      "type": 1,
+      "bundleID": "com.paha.LoFiCam",
+      "bundleIdentifier": "com.paha.LoFiCam",
+      "version": "3.11.0",
+      "versionDate": "2025-11-14",
+      "fullDate": "20251114124236",
+      "size": 346085917,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-11-2025/LoFiCam_3.11.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-11-2025/LoFiCam_3.11.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.paha.LoFiCam.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.paha.LoFiCam.png"
+    },
+    {
       "name": "Facetune",
       "type": 1,
       "bundleID": "com.lightricks.Facetune2",
