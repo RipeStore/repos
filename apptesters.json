@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Shapy",
+      "type": 1,
+      "bundleID": "com.blake.femalefitness",
+      "bundleIdentifier": "com.blake.femalefitness",
+      "version": "10.4.4",
+      "versionDate": "2025-11-14",
+      "fullDate": "20251114134814",
+      "size": 41720932,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-11-2025/Shapy_10.4.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-11-2025/Shapy_10.4.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.blake.femalefitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.blake.femalefitness.png"
+    },
+    {
       "name": "SixPackAbsAbsWorkout",
       "type": 1,
       "bundleID": "com.abishkking.sixpack",
