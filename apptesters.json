@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Peanote",
+      "type": 1,
+      "bundleID": "com.mwm.nota",
+      "bundleIdentifier": "com.mwm.nota",
+      "version": "1.4.1",
+      "versionDate": "2025-11-16",
+      "fullDate": "20251116044403",
+      "size": 31949940,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-11-2025/Peanote_1.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-11-2025/Peanote_1.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.nota.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.nota.png"
+    },
+    {
+      "name": "MacroFactor",
+      "type": 1,
+      "bundleID": "com.sbs.diet",
+      "bundleIdentifier": "com.sbs.diet",
+      "version": "5.6.2",
+      "versionDate": "2025-11-16",
+      "fullDate": "20251116042857",
+      "size": 90984369,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-11-2025/MacroFactor_5.6.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-11-2025/MacroFactor_5.6.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png"
+    },
+    {
       "name": "Encode",
       "type": 1,
       "bundleID": "com.upskew.encode.ios",
