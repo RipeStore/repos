@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Clarity",
+      "type": 1,
+      "bundleID": "com.moodtools.thoughtdiary",
+      "bundleIdentifier": "com.moodtools.thoughtdiary",
+      "version": "5.5.9",
+      "versionDate": "2025-11-15",
+      "fullDate": "20251115111712",
+      "size": 149884843,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-11-2025/Clarity_5.5.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-11-2025/Clarity_5.5.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moodtools.thoughtdiary.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moodtools.thoughtdiary.png"
+    },
+    {
       "name": "NeoServer",
       "type": 1,
       "bundleID": "com.neo.NeoMan",
