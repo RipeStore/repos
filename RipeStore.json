@@ -355,6 +355,14 @@
       ],
       "versions": [
         {
+          "version": "1.3.3",
+          "date": "2025-11-15T13:11:00Z",
+          "localizedDescription": "• Fixed Translations\n• Fixes for Quick Menu\n• Engine 8.5.0\n",
+          "downloadURL": "https://github.com/RipeStore/spark/releases/download/v1.3.3/Spark_1.3.3.ipa",
+          "size": 167100000,
+          "minOSVersion": "15.6"
+        },
+        {
           "version": "1.3.2",
           "date": "2025-11-02T11:11:00Z",
           "localizedDescription": "• MultiPersistent Saves (Used for importing saves in multi episode games)\n• Ren’Py 8.4.1, 8.3.7, 7.8.7\n• Engine performance enhancements across all engines\n• Overlay buttons no longer fall out of view during rotation\n• Turbo Rewind (hold rewind button to quickly rewind scenes)\n• Library Screen performance enhancements",
