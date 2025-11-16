@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SwiftyCompiler",
+      "type": 1,
+      "bundleID": "com.hassantaleb.SwiftCompiler",
+      "bundleIdentifier": "com.hassantaleb.SwiftCompiler",
+      "version": "9.18",
+      "versionDate": "2025-11-17",
+      "fullDate": "20251117021136",
+      "size": 32345726,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/SwiftyCompiler_9.18_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/SwiftyCompiler_9.18_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hassantaleb.SwiftCompiler.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hassantaleb.SwiftCompiler.png"
+    },
+    {
       "name": "Lampa",
       "type": 1,
       "bundleID": "com.lampa.photo",
