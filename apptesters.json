@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Lampa",
+      "type": 1,
+      "bundleID": "com.lampa.photo",
+      "bundleIdentifier": "com.lampa.photo",
+      "version": "1.7.4",
+      "versionDate": "2025-11-17",
+      "fullDate": "20251117015632",
+      "size": 57388343,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/Lampa_1.7.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/Lampa_1.7.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lampa.photo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lampa.photo.png"
+    },
+    {
       "name": "Busuu",
       "type": 1,
       "bundleID": "com.busuu.english.app",
