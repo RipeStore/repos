@@ -51,11 +51,11 @@
       },
       "versions": [
         {
-          "version": "0.7.2",
-          "date": "2025-10-15",
-          "localizedDescription": "• New settings tab: now with better organization and search support.\n• Wide page isolation and splitting: when using the double page layout (e.g. on iPads), wide pages can be detected and isolated, and when using the single page layout, there’s a new option to automatically split into two pages.\n• Komga tracker: automatically tracks reading history for Komga sources, including page progress in individual volumes.\n• Library refresh progress bar: when a library refresh starts, there’s now a better indicator of the progress towards completion.\n• Backup user settings: the content that’s backed up can now be configured, and allows including user settings.\n• Other features and fixes: content rating tags in search results, an invert tap zones option, a Bangumi tracker, relative dates for chapter releases, and many bug fixes!\n\nThe latest ipa is \"Aidoku.ipa\", build 0.7.2 (3), up to commit be6089aefa58d4a2bd77c0c93dcad40deb19bbf6.",
-          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.2/Aidoku.ipa",
-          "size": 5818726,
+          "version": "0.7.3",
+          "date": "2025-11-17",
+          "localizedDescription": "• Background downloading (iOS 26+): feel free to switch off the app while your downloads (and library refresh) complete.\n• Download compression: downloading should now be significantly faster and result in less storage usage by default, and you can now export downloaded chapters as cbz files.\n• Automatic backups: Aidoku can now schedule periodic backups in the background just in case something happens and you need to restore old data.\n• Built•in Kavita source and tracker (just like Komga).\n• New search tab: redesigned look, now with filter options and search history.\n• Local files improvements: metadata can now be parsed from ComicInfo.xml files (and downloads from other sources now save this).\n• Download badges: see how many downloaded chapters you have, next to the unread badge.\n• Many bug fixes: various iPadOS issues, Komga PDF pages, download crashes, auto tracking logic, etc.",
+          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.3/Aidoku.ipa",
+          "size": 6179371,
           "minOSVersion": "15.0"
         }
       ]
