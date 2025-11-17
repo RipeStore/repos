@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Pillow",
+      "type": 1,
+      "bundleID": "com.neybox.Pillow",
+      "bundleIdentifier": "com.neybox.Pillow",
+      "version": "6.2.1",
+      "versionDate": "2025-11-17",
+      "fullDate": "20251117151317",
+      "size": 519438698,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/Pillow_6.2.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/Pillow_6.2.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png"
+    },
+    {
+      "name": "PixelColor",
+      "type": 1,
+      "bundleID": "com.djitlabs.pixelcolor",
+      "bundleIdentifier": "com.djitlabs.pixelcolor",
+      "version": "5.44.00",
+      "versionDate": "2025-11-17",
+      "fullDate": "20251117150812",
+      "size": 93312407,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/PixelColor_5.44.00_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/PixelColor_5.44.00_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.djitlabs.pixelcolor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.djitlabs.pixelcolor.png"
+    },
+    {
       "name": "Unfold",
       "type": 1,
       "bundleID": "com.moonlab.unfoldstories",
