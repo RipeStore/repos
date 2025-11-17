@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "StepsApp",
+      "type": 1,
+      "bundleID": "com.gunthermarktl.stepapp",
+      "bundleIdentifier": "com.gunthermarktl.stepapp",
+      "version": "8.5.4",
+      "versionDate": "2025-11-17",
+      "fullDate": "20251117052655",
+      "size": 216544859,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/StepsApp_8.5.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/StepsApp_8.5.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gunthermarktl.stepapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gunthermarktl.stepapp.png"
+    },
+    {
+      "name": "Faker2",
+      "type": 1,
+      "bundleID": "com.woopss.faker2",
+      "bundleIdentifier": "com.woopss.faker2",
+      "version": "1.6",
+      "versionDate": "2025-11-17",
+      "fullDate": "20251117052653",
+      "size": 49013809,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/Faker2_1.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/Faker2_1.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.woopss.faker2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.woopss.faker2.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.AppChief.ArabicArt",
