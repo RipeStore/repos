@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Spool",
+      "type": 1,
+      "bundleID": "com.pixiteapps.spool",
+      "bundleIdentifier": "com.pixiteapps.spool",
+      "version": "1.15",
+      "versionDate": "2025-11-18",
+      "fullDate": "20251118030221",
+      "size": 66834899,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-11-2025/Spool_1.15_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-11-2025/Spool_1.15_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.pixiteapps.spool.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.pixiteapps.spool.png"
+    },
+    {
       "name": "Lightroom",
       "type": 1,
       "bundleID": "com.adobe.lrmobilephone",
