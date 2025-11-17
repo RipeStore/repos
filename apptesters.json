@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "YouTubeOLED",
+      "type": 1,
+      "bundleID": "com.google.ios.youtube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "version": "20.46.2",
+      "versionDate": "2025-11-17",
+      "fullDate": "20251117222041",
+      "size": 129302945,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/YouTubeOLED_20.46.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/YouTubeOLED_20.46.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtube.png"
+    },
+    {
+      "name": "WaterMinder",
+      "type": 1,
+      "bundleID": "com.waterminder.waterminder",
+      "bundleIdentifier": "com.waterminder.waterminder",
+      "version": "7.1",
+      "versionDate": "2025-11-17",
+      "fullDate": "20251117221533",
+      "size": 188366686,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/WaterMinder_7.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/WaterMinder_7.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.waterminder.waterminder.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.waterminder.waterminder.png"
+    },
+    {
       "name": "RiseSleep",
       "type": 1,
       "bundleID": "com.risesci.nyx",
