@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "NOAARadar",
+      "type": 1,
+      "bundleID": "com.itwcalculator.worldradarfree",
+      "bundleIdentifier": "com.itwcalculator.worldradarfree",
+      "version": "5.16.0",
+      "versionDate": "2025-11-18",
+      "fullDate": "20251118191456",
+      "size": 131263930,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-11-2025/NOAARadar_5.16.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-11-2025/NOAARadar_5.16.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.itwcalculator.worldradarfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.itwcalculator.worldradarfree.png"
+    },
+    {
       "name": "Pillow",
       "type": 1,
       "bundleID": "com.neybox.Pillow",
