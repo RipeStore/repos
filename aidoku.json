@@ -55,7 +55,7 @@
           "date": "2025-11-17",
           "localizedDescription": "• Background downloading (iOS 26+): feel free to switch off the app while your downloads (and library refresh) complete.\n• Download compression: downloading should now be significantly faster and result in less storage usage by default, and you can now export downloaded chapters as cbz files.\n• Automatic backups: Aidoku can now schedule periodic backups in the background just in case something happens and you need to restore old data.\n• Built•in Kavita source and tracker (just like Komga).\n• New search tab: redesigned look, now with filter options and search history.\n• Local files improvements: metadata can now be parsed from ComicInfo.xml files (and downloads from other sources now save this).\n• Download badges: see how many downloaded chapters you have, next to the unread badge.\n• Many bug fixes: various iPadOS issues, Komga PDF pages, download crashes, auto tracking logic, etc.",
           "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.3/Aidoku.ipa",
-          "size": 6179371,
+          "size": 6197020,
           "minOSVersion": "15.0"
         }
       ]
