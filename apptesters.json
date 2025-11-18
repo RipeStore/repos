@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Endel",
+      "type": 1,
+      "bundleID": "com.endel.endel",
+      "bundleIdentifier": "com.endel.endel",
+      "version": "4.48.398",
+      "versionDate": "2025-11-18",
+      "fullDate": "20251118175927",
+      "size": 195939250,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-11-2025/Endel_4.48.398_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-11-2025/Endel_4.48.398_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.endel.endel.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.endel.endel.png"
+    },
+    {
       "name": "Homeworkouts",
       "type": 1,
       "bundleID": "com.abishkking.maleworkout",
