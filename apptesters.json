@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Euforia",
+      "type": 1,
+      "bundleID": "digital.euforia",
+      "bundleIdentifier": "digital.euforia",
+      "version": "1.2.15",
+      "versionDate": "2025-11-19",
+      "fullDate": "20251119000059",
+      "size": 82746918,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-11-2025/Euforia_1.2.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-11-2025/Euforia_1.2.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/digital.euforia.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/digital.euforia.png"
+    },
+    {
       "name": "HeavyBagPro",
       "type": 1,
       "bundleID": "com.opentechiz.heavybagpro",
