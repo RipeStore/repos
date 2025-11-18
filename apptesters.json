@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ColoringBook",
+      "type": 1,
+      "bundleID": "com.apalonapps.clrbook",
+      "bundleIdentifier": "com.apalonapps.clrbook",
+      "version": "1.5.3",
+      "versionDate": "2025-11-18",
+      "fullDate": "20251118114811",
+      "size": 159006092,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-11-2025/ColoringBook_1.5.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-11-2025/ColoringBook_1.5.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.clrbook.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.clrbook.png"
+    },
+    {
       "name": "Fitbod",
       "type": 1,
       "bundleID": "com.fitbod",
