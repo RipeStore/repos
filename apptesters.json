@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Elevate",
+      "type": 2,
+      "bundleID": "com.elevateapp.elevate",
+      "bundleIdentifier": "com.elevateapp.elevate",
+      "version": "5.216.0",
+      "versionDate": "2025-11-18",
+      "fullDate": "20251118222037",
+      "size": 382204375,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-11-2025/Elevate_5.216.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-11-2025/Elevate_5.216.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.elevate.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.elevate.png"
+    },
+    {
       "name": "duet",
       "type": 1,
       "bundleID": "com.kairos.duet",
