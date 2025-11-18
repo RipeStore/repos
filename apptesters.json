@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SimplySing",
+      "type": 1,
+      "bundleID": "com.joytunes.Sing",
+      "bundleIdentifier": "com.joytunes.Sing",
+      "version": "2.6.1",
+      "versionDate": "2025-11-19",
+      "fullDate": "20251119050529",
+      "size": 93869465,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-11-2025/SimplySing_2.6.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-11-2025/SimplySing_2.6.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.Sing.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.Sing.png"
+    },
+    {
       "name": "Dictionary",
       "type": 1,
       "bundleID": "com.mobisystems.OxfordDictionaryOfEnglishFree",
