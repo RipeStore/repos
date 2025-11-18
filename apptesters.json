@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "HappyScale",
+      "type": 1,
+      "bundleID": "com.frontpocketsoftware.happyscale",
+      "bundleIdentifier": "com.frontpocketsoftware.happyscale",
+      "version": "2025.16",
+      "versionDate": "2025-11-19",
+      "fullDate": "20251119001624",
+      "size": 40797275,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-11-2025/HappyScale_2025.16_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-11-2025/HappyScale_2025.16_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontpocketsoftware.happyscale.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontpocketsoftware.happyscale.png"
+    },
+    {
+      "name": "Photoshop",
+      "type": 1,
+      "bundleID": "com.adobe.photoshop.ios",
+      "bundleIdentifier": "com.adobe.photoshop.ios",
+      "version": "7.1.1",
+      "versionDate": "2025-11-19",
+      "fullDate": "20251119001107",
+      "size": 284701872,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-11-2025/Photoshop_7.1.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-11-2025/Photoshop_7.1.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.photoshop.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.photoshop.ios.png"
+    },
+    {
       "name": "Euforia",
       "type": 1,
       "bundleID": "digital.euforia",
