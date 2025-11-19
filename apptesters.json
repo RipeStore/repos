@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Windyapp",
+      "type": 1,
+      "bundleID": "co.windyapp.Windy",
+      "bundleIdentifier": "co.windyapp.Windy",
+      "version": "15.4.1",
+      "versionDate": "2025-11-20",
+      "fullDate": "20251120021124",
+      "size": 149188694,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/Windyapp_15.4.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/Windyapp_15.4.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.windyapp.Windy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.windyapp.Windy.png"
+    },
+    {
       "name": "MyScriptNotes",
       "type": 1,
       "bundleID": "com.myscript.nebo",
