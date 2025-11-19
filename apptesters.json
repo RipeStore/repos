@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Hiii",
+      "type": 1,
+      "bundleID": "com.abighead.Widgets",
+      "bundleIdentifier": "com.abighead.Widgets",
+      "version": "2.3.1",
+      "versionDate": "2025-11-20",
+      "fullDate": "20251120042200",
+      "size": 131432736,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/Hiii_2.3.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/Hiii_2.3.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.abighead.Widgets.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.abighead.Widgets.png"
+    },
+    {
       "name": "X",
       "type": 1,
       "bundleID": "com.atebits.Tweetie2",
