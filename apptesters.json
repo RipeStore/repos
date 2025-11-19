@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MagicTiles3",
+      "type": 2,
+      "bundleID": "com.amanotes.magictiles",
+      "bundleIdentifier": "com.amanotes.magictiles",
+      "version": "12.111.015",
+      "versionDate": "2025-11-19",
+      "fullDate": "20251119052107",
+      "size": 211080569,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-11-2025/MagicTiles3_12.111.015_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-11-2025/MagicTiles3_12.111.015_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with VIP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.amanotes.magictiles.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.amanotes.magictiles.png"
+    },
+    {
       "name": "Reels",
       "type": 1,
       "bundleID": "com.TetianaKolomiichuk.Reel-Templates",
