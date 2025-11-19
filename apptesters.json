@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AdobeExpress",
+      "type": 1,
+      "bundleID": "com.adobe.post",
+      "bundleIdentifier": "com.adobe.post",
+      "version": "29.4.0",
+      "versionDate": "2025-11-20",
+      "fullDate": "20251120045709",
+      "size": 111500647,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/AdobeExpress_29.4.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/AdobeExpress_29.4.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.post.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.post.png"
+    },
+    {
       "name": "Hiii",
       "type": 1,
       "bundleID": "com.abighead.Widgets",
