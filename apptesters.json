@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Infuse",
+      "type": 1,
+      "bundleID": "com.firecore.infuse",
+      "bundleIdentifier": "com.firecore.infuse",
+      "version": "8.3.2",
+      "versionDate": "2025-11-19",
+      "fullDate": "20251119221458",
+      "size": 74385263,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-11-2025/Infuse_8.3.2_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-11-2025/Infuse_8.3.2_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Plus",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.firecore.infuse.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.firecore.infuse.png"
+    },
+    {
       "name": "Captions",
       "type": 1,
       "bundleID": "boomer.Smart-Video",
