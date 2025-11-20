@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "PeakVisor",
+      "type": 1,
+      "bundleID": "ru.routes.peakvisor",
+      "bundleIdentifier": "ru.routes.peakvisor",
+      "version": "5.71",
+      "versionDate": "2025-11-21",
+      "fullDate": "20251121034201",
+      "size": 112042852,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/PeakVisor_5.71_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/PeakVisor_5.71_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png"
+    },
+    {
+      "name": "BoxBox",
+      "type": 1,
+      "bundleID": "club.boxbox.widgets-ios",
+      "bundleIdentifier": "club.boxbox.widgets-ios",
+      "version": "5.3.2",
+      "versionDate": "2025-11-21",
+      "fullDate": "20251121032655",
+      "size": 90252363,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/BoxBox_5.3.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/BoxBox_5.3.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/club.boxbox.widgets-ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/club.boxbox.widgets-ios.png"
+    },
+    {
       "name": "Dazz",
       "type": 1,
       "bundleID": "dazz.camera.vintagecamera",
