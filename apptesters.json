@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "BoxBox",
+      "type": 1,
+      "bundleID": "club.boxbox.widgets-ios",
+      "bundleIdentifier": "club.boxbox.widgets-ios",
+      "version": "5.3.1",
+      "versionDate": "2025-11-20",
+      "fullDate": "20251120083730",
+      "size": 90273719,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/BoxBox_5.3.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/BoxBox_5.3.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/club.boxbox.widgets-ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/club.boxbox.widgets-ios.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.AppChief.ArabicArt",
