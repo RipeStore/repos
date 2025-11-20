@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "KineMaster",
+      "type": 1,
+      "bundleID": "com.kinemaster.kios",
+      "bundleIdentifier": "com.kinemaster.kios",
+      "version": "8.0.7",
+      "versionDate": "2025-11-20",
+      "fullDate": "20251120085235",
+      "size": 117887940,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/KineMaster_8.0.7_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/KineMaster_8.0.7_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kinemaster.kios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kinemaster.kios.png"
+    },
+    {
       "name": "BoxBox",
       "type": 1,
       "bundleID": "club.boxbox.widgets-ios",
