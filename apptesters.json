@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VEEDCaptions",
+      "type": 1,
+      "bundleID": "io.veed.appstore",
+      "bundleIdentifier": "io.veed.appstore",
+      "version": "7.5.0",
+      "versionDate": "2025-11-20",
+      "fullDate": "20251120145316",
+      "size": 129966847,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/VEEDCaptions_7.5.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/VEEDCaptions_7.5.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.veed.appstore.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.veed.appstore.png"
+    },
+    {
       "name": "SpeakTranslate",
       "type": 1,
       "bundleID": "com.appicfun.translatorfree",
