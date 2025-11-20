@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Wikiloc",
+      "type": 1,
+      "bundleID": "com.wikiloc.wikiloc",
+      "bundleIdentifier": "com.wikiloc.wikiloc",
+      "version": "3.25.10",
+      "versionDate": "2025-11-20",
+      "fullDate": "20251120124750",
+      "size": 112983570,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/Wikiloc_3.25.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-11-2025/Wikiloc_3.25.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wikiloc.wikiloc.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wikiloc.wikiloc.png"
+    },
+    {
       "name": "KineMaster",
       "type": 1,
       "bundleID": "com.kinemaster.kios",
