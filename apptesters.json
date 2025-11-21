@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Moonly",
+      "type": 1,
+      "bundleID": "com.moonly.Moonly",
+      "bundleIdentifier": "com.moonly.Moonly",
+      "version": "2.5.2",
+      "versionDate": "2025-11-21",
+      "fullDate": "20251121141321",
+      "size": 167488680,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/Moonly_2.5.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/Moonly_2.5.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png"
+    },
+    {
       "name": "Fonts",
       "type": 1,
       "bundleID": "fontskeyboard.fonts",
