@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "RiseSleep",
+      "type": 1,
+      "bundleID": "com.risesci.nyx",
+      "bundleIdentifier": "com.risesci.nyx",
+      "version": "0.1.549",
+      "versionDate": "2025-11-21",
+      "fullDate": "20251121212926",
+      "size": 132887588,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/RiseSleep_0.1.549_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/RiseSleep_0.1.549_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png"
+    },
+    {
       "name": "MacroFactor",
       "type": 1,
       "bundleID": "com.sbs.diet",
