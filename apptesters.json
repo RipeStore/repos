@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Encode",
+      "type": 1,
+      "bundleID": "com.upskew.encode.ios",
+      "bundleIdentifier": "com.upskew.encode.ios",
+      "version": "6.14.0",
+      "versionDate": "2025-11-21",
+      "fullDate": "20251121164854",
+      "size": 47086721,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/Encode_6.14.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/Encode_6.14.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.upskew.encode.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.upskew.encode.ios.png"
+    },
+    {
+      "name": "DictionaryAir",
+      "type": 1,
+      "bundleID": "co.airapps.dictionary",
+      "bundleIdentifier": "co.airapps.dictionary",
+      "version": "2025.11.1",
+      "versionDate": "2025-11-21",
+      "fullDate": "20251121164851",
+      "size": 74592859,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/DictionaryAir_2025.11.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/DictionaryAir_2025.11.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.dictionary.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.dictionary.png"
+    },
+    {
       "name": "edjingMix",
       "type": 1,
       "bundleID": "com.edjing.edjingdjturntable",
