@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MacroFactor",
+      "type": 1,
+      "bundleID": "com.sbs.diet",
+      "bundleIdentifier": "com.sbs.diet",
+      "version": "5.6.6",
+      "versionDate": "2025-11-21",
+      "fullDate": "20251121204920",
+      "size": 93410198,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/MacroFactor_5.6.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-11-2025/MacroFactor_5.6.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png"
+    },
+    {
       "name": "Evertag",
       "type": 1,
       "bundleID": "com.leshko.tagseditor",
