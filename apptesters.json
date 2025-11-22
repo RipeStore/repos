@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Boostcamp",
+      "type": 1,
+      "bundleID": "com.bpmhealth.boostfitness",
+      "bundleIdentifier": "com.bpmhealth.boostfitness",
+      "version": "248",
+      "versionDate": "2025-11-22",
+      "fullDate": "20251122100045",
+      "size": 78351235,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2025/Boostcamp_248_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2025/Boostcamp_248_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bpmhealth.boostfitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bpmhealth.boostfitness.png"
+    },
+    {
       "name": "Dazz",
       "type": 1,
       "bundleID": "dazz.camera.vintagecamera",
