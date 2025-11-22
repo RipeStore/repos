@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Zing",
+      "type": 1,
+      "bundleID": "com.coach.zing",
+      "bundleIdentifier": "com.coach.zing",
+      "version": "1.117.0",
+      "versionDate": "2025-11-22",
+      "fullDate": "20251122171649",
+      "size": 275918696,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2025/Zing_1.117.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2025/Zing_1.117.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.coach.zing.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.coach.zing.png"
+    },
+    {
+      "name": "Trace",
+      "type": 1,
+      "bundleID": "com.morpholioapps.trace",
+      "bundleIdentifier": "com.morpholioapps.trace",
+      "version": "6.78",
+      "versionDate": "2025-11-22",
+      "fullDate": "20251122171634",
+      "size": 386826945,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2025/Trace_6.78_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2025/Trace_6.78_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.morpholioapps.trace.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.morpholioapps.trace.png"
+    },
+    {
       "name": "Precious",
       "type": 1,
       "bundleID": "com.laubrothersllc.BabyArt",
