@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Dehancer",
+      "type": 1,
+      "bundleID": "com.dehancer.film.ios-app",
+      "bundleIdentifier": "com.dehancer.film.ios-app",
+      "version": "5.2",
+      "versionDate": "2025-11-22",
+      "fullDate": "20251122104551",
+      "size": 191243886,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2025/Dehancer_5.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2025/Dehancer_5.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dehancer.film.ios-app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dehancer.film.ios-app.png"
+    },
+    {
       "name": "Boostcamp",
       "type": 1,
       "bundleID": "com.bpmhealth.boostfitness",
