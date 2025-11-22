@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Bend",
+      "type": 1,
+      "bundleID": "com.bowery-digital.bend",
+      "bundleIdentifier": "com.bowery-digital.bend",
+      "version": "7.0.5",
+      "versionDate": "2025-11-22",
+      "fullDate": "20251122170117",
+      "size": 97899126,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2025/Bend_7.0.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2025/Bend_7.0.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bowery-digital.bend.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bowery-digital.bend.png"
+    },
+    {
+      "name": "CHANI",
+      "type": 1,
+      "bundleID": "com.chaninicholas.chaniapp",
+      "bundleIdentifier": "com.chaninicholas.chaniapp",
+      "version": "2.6.1",
+      "versionDate": "2025-11-22",
+      "fullDate": "20251122165614",
+      "size": 38003092,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2025/CHANI_2.6.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-11-2025/CHANI_2.6.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.chaninicholas.chaniapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.chaninicholas.chaniapp.png"
+    },
+    {
       "name": "Dehancer",
       "type": 1,
       "bundleID": "com.dehancer.film.ios-app",
