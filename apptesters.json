@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ism",
+      "type": 1,
+      "bundleID": "com.ahaf.mshion",
+      "bundleIdentifier": "com.ahaf.mshion",
+      "version": "7.28.0",
+      "versionDate": "2025-11-23",
+      "fullDate": "20251123020837",
+      "size": 112087389,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-11-2025/ism_7.28.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-11-2025/ism_7.28.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahaf.mshion.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahaf.mshion.png"
+    },
+    {
       "name": "Bananai",
       "type": 1,
       "bundleID": "com.mwm.bananai",
