@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MetadataEditor",
+      "type": 1,
+      "bundleID": "com.andrespizabuckmann.MetadataEditor",
+      "bundleIdentifier": "com.andrespizabuckmann.MetadataEditor",
+      "version": "3.1.2",
+      "versionDate": "2025-11-23",
+      "fullDate": "20251123221553",
+      "size": 48790934,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-11-2025/MetadataEditor_3.1.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-11-2025/MetadataEditor_3.1.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andrespizabuckmann.MetadataEditor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andrespizabuckmann.MetadataEditor.png"
+    },
+    {
       "name": "Facetune",
       "type": 1,
       "bundleID": "com.lightricks.Facetune2",
