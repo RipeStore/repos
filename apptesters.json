@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Noteful",
+      "type": 1,
+      "bundleID": "com.noteful-technologies.noteful",
+      "bundleIdentifier": "com.noteful-technologies.noteful",
+      "version": "1.4.30",
+      "versionDate": "2025-11-24",
+      "fullDate": "20251124051654",
+      "size": 94043538,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/Noteful_1.4.30_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/Noteful_1.4.30_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.noteful-technologies.noteful.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.noteful-technologies.noteful.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.AppChief.ArabicArt",
