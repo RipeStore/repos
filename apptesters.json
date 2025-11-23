@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "MacroFactor",
+      "type": 1,
+      "bundleID": "com.sbs.diet",
+      "bundleIdentifier": "com.sbs.diet",
+      "version": "5.6.7",
+      "versionDate": "2025-11-23",
+      "fullDate": "20251123063901",
+      "size": 93437011,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-11-2025/MacroFactor_5.6.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-11-2025/MacroFactor_5.6.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png"
+    },
+    {
+      "name": "Tripsy",
+      "type": 1,
+      "bundleID": "app.tripsy.ios",
+      "bundleIdentifier": "app.tripsy.ios",
+      "version": "3.6.20",
+      "versionDate": "2025-11-23",
+      "fullDate": "20251123063857",
+      "size": 111197639,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-11-2025/Tripsy_3.6.20_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-11-2025/Tripsy_3.6.20_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png"
+    },
+    {
       "name": "ism",
       "type": 1,
       "bundleID": "com.ahaf.mshion",
