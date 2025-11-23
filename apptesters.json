@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Peanote",
+      "type": 1,
+      "bundleID": "com.mwm.nota",
+      "bundleIdentifier": "com.mwm.nota",
+      "version": "1.4.2",
+      "versionDate": "2025-11-23",
+      "fullDate": "20251123145439",
+      "size": 31818874,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-11-2025/Peanote_1.4.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-11-2025/Peanote_1.4.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.nota.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.nota.png"
+    },
+    {
       "name": "SnapEdit",
       "type": 1,
       "bundleID": "com.sfun.snapedit",
