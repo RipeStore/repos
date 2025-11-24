@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ScannerAir",
+      "type": 1,
+      "bundleID": "co.airapps.scannerapp",
+      "bundleIdentifier": "co.airapps.scannerapp",
+      "version": "2025.11.1",
+      "versionDate": "2025-11-24",
+      "fullDate": "20251124145823",
+      "size": 95349777,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/ScannerAir_2025.11.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/ScannerAir_2025.11.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.scannerapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.scannerapp.png"
+    },
+    {
       "name": "Mimo",
       "type": 1,
       "bundleID": "com.getmimo.mimo",
