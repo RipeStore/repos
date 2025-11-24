@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "CalculatorAir",
+      "type": 1,
+      "bundleID": "com.CalculatorForiPad.InternetRocks",
+      "bundleIdentifier": "com.CalculatorForiPad.InternetRocks",
+      "version": "2025.11.1",
+      "versionDate": "2025-11-24",
+      "fullDate": "20251124151829",
+      "size": 96712134,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/CalculatorAir_2025.11.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/CalculatorAir_2025.11.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.CalculatorForiPad.InternetRocks.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.CalculatorForiPad.InternetRocks.png"
+    },
+    {
       "name": "ScannerAir",
       "type": 1,
       "bundleID": "co.airapps.scannerapp",
