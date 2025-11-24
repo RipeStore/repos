@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ColoringBookforMe",
+      "type": 1,
+      "bundleID": "com.apalonapps.clrbook",
+      "bundleIdentifier": "com.apalonapps.clrbook",
+      "version": "4.50.25",
+      "versionDate": "2025-11-24",
+      "fullDate": "20251124135802",
+      "size": 122583052,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/ColoringBookforMe_4.50.25_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/ColoringBookforMe_4.50.25_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.clrbook.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.clrbook.png"
+    },
+    {
       "name": "Locket",
       "type": 1,
       "bundleID": "com.locket.Locket",
