@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Truecaller",
+      "type": 1,
+      "bundleID": "com.truesoftware.TrueCallerOther",
+      "bundleIdentifier": "com.truesoftware.TrueCallerOther",
+      "version": "14.44.6",
+      "versionDate": "2025-11-24",
+      "fullDate": "20251124181417",
+      "size": 77703385,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/Truecaller_14.44.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/Truecaller_14.44.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.truesoftware.TrueCallerOther.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.truesoftware.TrueCallerOther.png"
+    },
+    {
       "name": "SCRL",
       "type": 1,
       "bundleID": "com.dopedevelopment.Panels",
