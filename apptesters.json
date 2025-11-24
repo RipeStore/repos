@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Calm",
+      "type": 1,
+      "bundleID": "com.calm.calmapp",
+      "bundleIdentifier": "com.calm.calmapp",
+      "version": "6.84",
+      "versionDate": "2025-11-25",
+      "fullDate": "20251125023107",
+      "size": 119725172,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/Calm_6.84_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/Calm_6.84_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png"
+    },
+    {
       "name": "Notability",
       "type": 1,
       "bundleID": "com.gingerlabs.Notability",
