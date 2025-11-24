@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Mimo",
+      "type": 1,
+      "bundleID": "com.getmimo.mimo",
+      "bundleIdentifier": "com.getmimo.mimo",
+      "version": "9.34.0",
+      "versionDate": "2025-11-24",
+      "fullDate": "20251124141815",
+      "size": 140114791,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/Mimo_9.34.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/Mimo_9.34.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png"
+    },
+    {
+      "name": "Stemz",
+      "type": 1,
+      "bundleID": "com.mwm.stems",
+      "bundleIdentifier": "com.mwm.stems",
+      "version": "4.02.18",
+      "versionDate": "2025-11-24",
+      "fullDate": "20251124141808",
+      "size": 173856464,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/Stemz_4.02.18_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/Stemz_4.02.18_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.stems.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.stems.png"
+    },
+    {
       "name": "ColoringBookforMe",
       "type": 1,
       "bundleID": "com.apalonapps.clrbook",
