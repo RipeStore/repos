@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VlogNow",
+      "type": 1,
+      "bundleID": "com.frontrow.vlog",
+      "bundleIdentifier": "com.frontrow.vlog",
+      "version": "1.103.1",
+      "versionDate": "2025-11-24",
+      "fullDate": "20251124201932",
+      "size": 374610447,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/VlogNow_1.103.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/VlogNow_1.103.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontrow.vlog.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontrow.vlog.png"
+    },
+    {
       "name": "JSCodePad",
       "type": 1,
       "bundleID": "com.markodevcic.js-code-pad",
