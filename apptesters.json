@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AdobeFresco",
+      "type": 1,
+      "bundleID": "com.adobe.fresco.ios",
+      "bundleIdentifier": "com.adobe.fresco.ios",
+      "version": "7.0.1",
+      "versionDate": "2025-11-26",
+      "fullDate": "20251126044729",
+      "size": 763318254,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-11-2025/AdobeFresco_7.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-11-2025/AdobeFresco_7.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.fresco.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.fresco.ios.png"
+    },
+    {
       "name": "B612",
       "type": 1,
       "bundleID": "com.linecorp.b612",
