@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "YouTubeMusic",
+      "type": 1,
+      "bundleID": "com.google.ios.youtubemusic",
+      "bundleIdentifier": "com.google.ios.youtubemusic",
+      "version": "8.47.3",
+      "versionDate": "2025-11-25",
+      "fullDate": "20251125162913",
+      "size": 97735135,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/YouTubeMusic_8.47.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/YouTubeMusic_8.47.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtubemusic.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtubemusic.png"
+    },
+    {
+      "name": "TikTok",
+      "type": 1,
+      "bundleID": "com.zhiliaoapp.musically",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "version": "42.7.0",
+      "versionDate": "2025-11-25",
+      "fullDate": "20251125162858",
+      "size": 398355367,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/TikTok_42.7.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/TikTok_42.7.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png"
+    },
+    {
       "name": "BeatMakerPro",
       "type": 1,
       "bundleID": "com.mwm.sampler-app",
