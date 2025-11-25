@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TinyDecisions",
+      "type": 1,
+      "bundleID": "com.nixwang.decision",
+      "bundleIdentifier": "com.nixwang.decision",
+      "version": "25.11.0",
+      "versionDate": "2025-11-25",
+      "fullDate": "20251125201515",
+      "size": 54318346,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/TinyDecisions_25.11.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/TinyDecisions_25.11.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.nixwang.decision.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.nixwang.decision.png"
+    },
+    {
       "name": "TravelBoast",
       "type": 1,
       "bundleID": "com.travelboast.travelboast",
