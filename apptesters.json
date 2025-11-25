@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "GlowUp",
+      "type": 1,
+      "bundleID": "com.snowcorp.glowup",
+      "bundleIdentifier": "com.snowcorp.glowup",
+      "version": "3.5.1",
+      "versionDate": "2025-11-26",
+      "fullDate": "20251126005700",
+      "size": 179551832,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-11-2025/GlowUp_3.5.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-11-2025/GlowUp_3.5.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.glowup.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.glowup.png"
+    },
+    {
       "name": "Bazaart",
       "type": 1,
       "bundleID": "co.bazaart.app",
