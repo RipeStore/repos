@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "B612",
+      "type": 1,
+      "bundleID": "com.linecorp.b612",
+      "bundleIdentifier": "com.linecorp.b612",
+      "version": "14.6.15",
+      "versionDate": "2025-11-26",
+      "fullDate": "20251126042221",
+      "size": 145915200,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-11-2025/B612_14.6.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-11-2025/B612_14.6.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.b612.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.b612.png"
+    },
+    {
       "name": "GlowUp",
       "type": 1,
       "bundleID": "com.snowcorp.glowup",
