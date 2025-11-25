@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FreeYourMusic",
+      "type": 1,
+      "bundleID": "io.stampapp.Stamp",
+      "bundleIdentifier": "io.stampapp.Stamp",
+      "version": "9.20.0",
+      "versionDate": "2025-11-25",
+      "fullDate": "20251125213522",
+      "size": 27293530,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/FreeYourMusic_9.20.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/FreeYourMusic_9.20.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.stampapp.Stamp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.stampapp.Stamp.png"
+    },
+    {
       "name": "TinyDecisions",
       "type": 1,
       "bundleID": "com.nixwang.decision",
