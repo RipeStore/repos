@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Uplens",
+      "type": 1,
+      "bundleID": "app.uplens",
+      "bundleIdentifier": "app.uplens",
+      "version": "3.4.1",
+      "versionDate": "2025-11-25",
+      "fullDate": "20251125142340",
+      "size": 179084216,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/Uplens_3.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/Uplens_3.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.uplens.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.uplens.png"
+    },
+    {
+      "name": "Piano",
+      "type": 1,
+      "bundleID": "com.mwm.piano-app",
+      "bundleIdentifier": "com.mwm.piano-app",
+      "version": "3.53.00",
+      "versionDate": "2025-11-25",
+      "fullDate": "20251125142334",
+      "size": 150067150,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/Piano_3.53.00_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/Piano_3.53.00_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.piano-app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.piano-app.png"
+    },
+    {
       "name": "KineMaster",
       "type": 1,
       "bundleID": "com.kinemaster.kios",
