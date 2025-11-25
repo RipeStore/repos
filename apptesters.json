@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "BeatMakerPro",
+      "type": 1,
+      "bundleID": "com.mwm.sampler-app",
+      "bundleIdentifier": "com.mwm.sampler-app",
+      "version": "4.11.00",
+      "versionDate": "2025-11-25",
+      "fullDate": "20251125144348",
+      "size": 124324467,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/BeatMakerPro_4.11.00_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/BeatMakerPro_4.11.00_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.sampler-app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.sampler-app.png"
+    },
+    {
       "name": "Uplens",
       "type": 1,
       "bundleID": "app.uplens",
