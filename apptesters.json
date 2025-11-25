@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MergeCooking",
+      "type": 2,
+      "bundleID": "com.merge.cooking.theme.restaurant.food",
+      "bundleIdentifier": "com.merge.cooking.theme.restaurant.food",
+      "version": "1.18.0",
+      "versionDate": "2025-11-25",
+      "fullDate": "20251125233138",
+      "size": 283753523,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/MergeCooking_1.18.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/MergeCooking_1.18.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png"
+    },
+    {
       "name": "Labbet",
       "type": 1,
       "bundleID": "app.labbet.labbet",
