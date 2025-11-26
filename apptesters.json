@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Shapy",
+      "type": 1,
+      "bundleID": "com.blake.femalefitness",
+      "bundleIdentifier": "com.blake.femalefitness",
+      "version": "10.4.5",
+      "versionDate": "2025-11-26",
+      "fullDate": "20251126204522",
+      "size": 41762995,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-11-2025/Shapy_10.4.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-11-2025/Shapy_10.4.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.blake.femalefitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.blake.femalefitness.png"
+    },
+    {
       "name": "Focos",
       "type": 1,
       "bundleID": "com.focos",
