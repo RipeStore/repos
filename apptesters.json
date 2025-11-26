@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ProCCD",
+      "type": 1,
+      "bundleID": "com.yengshine.proccd",
+      "bundleIdentifier": "com.yengshine.proccd",
+      "version": "5.1.2",
+      "versionDate": "2025-11-26",
+      "fullDate": "20251126081358",
+      "size": 252606691,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-11-2025/ProCCD_5.1.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-11-2025/ProCCD_5.1.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yengshine.proccd.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yengshine.proccd.png"
+    },
+    {
       "name": "Life",
       "type": 1,
       "bundleID": "co.lovetap.Female-by-Design",
