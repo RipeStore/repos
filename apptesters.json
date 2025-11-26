@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ism",
+      "type": 1,
+      "bundleID": "com.ahaf.mshion",
+      "bundleIdentifier": "com.ahaf.mshion",
+      "version": "7.29.0",
+      "versionDate": "2025-11-27",
+      "fullDate": "20251127044631",
+      "size": 119584394,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-11-2025/ism_7.29.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-11-2025/ism_7.29.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahaf.mshion.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahaf.mshion.png"
+    },
+    {
       "name": "PicsArt",
       "type": 1,
       "bundleID": "com.picsart.studio",
