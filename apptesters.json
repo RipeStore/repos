@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PixelColor",
+      "type": 1,
+      "bundleID": "com.djitlabs.pixelcolor",
+      "bundleIdentifier": "com.djitlabs.pixelcolor",
+      "version": "5.45.00",
+      "versionDate": "2025-11-27",
+      "fullDate": "20251127145752",
+      "size": 93612980,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-11-2025/PixelColor_5.45.00_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-11-2025/PixelColor_5.45.00_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.djitlabs.pixelcolor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.djitlabs.pixelcolor.png"
+    },
+    {
       "name": "iTranslate",
       "type": 1,
       "bundleID": "com.outerspaceapps.itranslate",
