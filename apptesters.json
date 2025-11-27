@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Action",
+      "type": 1,
+      "bundleID": "com.future.kapi",
+      "bundleIdentifier": "com.future.kapi",
+      "version": "3.24.0",
+      "versionDate": "2025-11-27",
+      "fullDate": "20251127193830",
+      "size": 166368018,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-11-2025/Action_3.24.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-11-2025/Action_3.24.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.future.kapi.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.future.kapi.png"
+    },
+    {
+      "name": "NoFusion",
+      "type": 1,
+      "bundleID": "com.grey.swiftcamera",
+      "bundleIdentifier": "com.grey.swiftcamera",
+      "version": "2.5.46",
+      "versionDate": "2025-11-27",
+      "fullDate": "20251127193826",
+      "size": 99421392,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-11-2025/NoFusion_2.5.46_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-11-2025/NoFusion_2.5.46_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.grey.swiftcamera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.grey.swiftcamera.png"
+    },
+    {
       "name": "Fitia",
       "type": 1,
       "bundleID": "com.ulisesolave.Fitia",
