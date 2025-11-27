@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Motobit",
+      "type": 1,
+      "bundleID": "com.getmotobit.motobit",
+      "bundleIdentifier": "com.getmotobit.motobit",
+      "version": "1.0.51",
+      "versionDate": "2025-11-28",
+      "fullDate": "20251128051436",
+      "size": 44229396,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-11-2025/Motobit_1.0.51_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-11-2025/Motobit_1.0.51_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmotobit.motobit.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmotobit.motobit.png"
+    },
+    {
+      "name": "BandLab",
+      "type": 1,
+      "bundleID": "com.bandlab.bandlab.iphone",
+      "bundleIdentifier": "com.bandlab.bandlab.iphone",
+      "version": "11.12.3",
+      "versionDate": "2025-11-28",
+      "fullDate": "20251128050929",
+      "size": 141521329,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-11-2025/BandLab_11.12.3_Boost_Membership_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-11-2025/BandLab_11.12.3_Boost_Membership_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Boost Membership",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bandlab.bandlab.iphone.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bandlab.bandlab.iphone.png"
+    },
+    {
       "name": "Tarteel",
       "type": 1,
       "bundleID": "com.iqraapp.Iqra",
