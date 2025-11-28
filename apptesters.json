@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TunerPro",
+      "type": 1,
+      "bundleID": "com.mwm.guitartuner",
+      "bundleIdentifier": "com.mwm.guitartuner",
+      "version": "3.19.05",
+      "versionDate": "2025-11-28",
+      "fullDate": "20251128170137",
+      "size": 271496102,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-11-2025/TunerPro_3.19.05_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-11-2025/TunerPro_3.19.05_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.guitartuner.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.guitartuner.png"
+    },
+    {
       "name": "iTranslate",
       "type": 1,
       "bundleID": "com.outerspaceapps.itranslate",
