@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Fing",
+      "type": 1,
+      "bundleID": "overlook.fing",
+      "bundleIdentifier": "overlook.fing",
+      "version": "12.11.4",
+      "versionDate": "2025-11-28",
+      "fullDate": "20251128133613",
+      "size": 176018190,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-11-2025/Fing_12.11.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-11-2025/Fing_12.11.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/overlook.fing.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/overlook.fing.png"
+    },
+    {
       "name": "Shapy",
       "type": 1,
       "bundleID": "com.blake.femalefitness",
