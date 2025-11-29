@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Scoreboard",
+      "type": 1,
+      "bundleID": "com.edwinchan.Scoreboard",
+      "bundleIdentifier": "com.edwinchan.Scoreboard",
+      "version": "1.8.2",
+      "versionDate": "2025-11-29",
+      "fullDate": "20251129061319",
+      "size": 13786419,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-11-2025/Scoreboard_1.8.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-11-2025/Scoreboard_1.8.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.edwinchan.Scoreboard.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.edwinchan.Scoreboard.png"
+    },
+    {
       "name": "ProCCD",
       "type": 1,
       "bundleID": "com.yengshine.proccd",
