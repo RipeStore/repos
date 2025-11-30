@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PUSH",
+      "type": 1,
+      "bundleID": "com.ADPTVLTD.push",
+      "bundleIdentifier": "com.ADPTVLTD.push",
+      "version": "3.8.0",
+      "versionDate": "2025-11-30",
+      "fullDate": "20251130151244",
+      "size": 37570075,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-11-2025/PUSH_3.8.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-11-2025/PUSH_3.8.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ADPTVLTD.push.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ADPTVLTD.push.png"
+    },
+    {
       "name": "Avatarify",
       "type": 1,
       "bundleID": "com.v43years.avatarify2",
