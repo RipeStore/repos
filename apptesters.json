@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SnapCut",
+      "type": 1,
+      "bundleID": "com.mwm.moments",
+      "bundleIdentifier": "com.mwm.moments",
+      "version": "1.0.46",
+      "versionDate": "2025-11-30",
+      "fullDate": "20251130181755",
+      "size": 242689066,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-11-2025/SnapCut_1.0.46_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-11-2025/SnapCut_1.0.46_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.moments.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.moments.png"
+    },
+    {
       "name": "PUSH",
       "type": 1,
       "bundleID": "com.ADPTVLTD.push",
