@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Dropshare",
+      "type": 1,
+      "bundleID": "net.mkswap.Dropshare-iOS",
+      "bundleIdentifier": "net.mkswap.Dropshare-iOS",
+      "version": "3.58",
+      "versionDate": "2025-11-30",
+      "fullDate": "20251130235352",
+      "size": 69885030,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-11-2025/Dropshare_3.58_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-11-2025/Dropshare_3.58_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.mkswap.Dropshare-iOS.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.mkswap.Dropshare-iOS.png"
+    },
+    {
       "name": "VSCO",
       "type": 1,
       "bundleID": "co.visualsupply.cam",
