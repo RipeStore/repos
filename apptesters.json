@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SimplyPiano",
+      "type": 1,
+      "bundleID": "com.joytunes.asla",
+      "bundleIdentifier": "com.joytunes.asla",
+      "version": "9.10.46",
+      "versionDate": "2025-12-01",
+      "fullDate": "20251201030416",
+      "size": 138289885,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-12-2025/SimplyPiano_9.10.46_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-12-2025/SimplyPiano_9.10.46_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.asla.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.asla.png"
+    },
+    {
+      "name": "WebSSH",
+      "type": 1,
+      "bundleID": "com.itimeteo.webssh",
+      "bundleIdentifier": "com.itimeteo.webssh",
+      "version": "30.6",
+      "versionDate": "2025-12-01",
+      "fullDate": "20251201025913",
+      "size": 59045229,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-12-2025/WebSSH_30.6_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-12-2025/WebSSH_30.6_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.itimeteo.webssh.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.itimeteo.webssh.png"
+    },
+    {
       "name": "Calisteniapp",
       "type": 1,
       "bundleID": "com.inakitajes.Calisthenial",
