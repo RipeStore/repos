@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "HappyScale",
+      "type": 1,
+      "bundleID": "com.frontpocketsoftware.happyscale",
+      "bundleIdentifier": "com.frontpocketsoftware.happyscale",
+      "version": "2025.17",
+      "versionDate": "2025-11-30",
+      "fullDate": "20251130225837",
+      "size": 40823959,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-11-2025/HappyScale_2025.17_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-11-2025/HappyScale_2025.17_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontpocketsoftware.happyscale.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontpocketsoftware.happyscale.png"
+    },
+    {
       "name": "Uplens",
       "type": 1,
       "bundleID": "app.uplens",
