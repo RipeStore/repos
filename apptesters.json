@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "InCollage",
+      "type": 1,
+      "bundleID": "PhotoEditor.PhotoCollage.inCollage",
+      "bundleIdentifier": "PhotoEditor.PhotoCollage.inCollage",
+      "version": "2.2.10",
+      "versionDate": "2025-12-01",
+      "fullDate": "20251201113540",
+      "size": 142032243,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-12-2025/InCollage_2.2.10_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-12-2025/InCollage_2.2.10_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/PhotoEditor.PhotoCollage.inCollage.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/PhotoEditor.PhotoCollage.inCollage.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.intsig.CamScannerLite",
