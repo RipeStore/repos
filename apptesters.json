@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Impulse",
+      "type": 1,
+      "bundleID": "gen.tech.impulse",
+      "bundleIdentifier": "gen.tech.impulse",
+      "version": "1.39",
+      "versionDate": "2025-12-02",
+      "fullDate": "20251202031005",
+      "size": 87633011,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-12-2025/Impulse_1.39_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-12-2025/Impulse_1.39_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/gen.tech.impulse.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/gen.tech.impulse.png"
+    },
+    {
       "name": "BlockBlast",
       "type": 2,
       "bundleID": "com.blockpuzzle.us.ios",
