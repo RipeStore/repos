@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Bananai",
+      "type": 1,
+      "bundleID": "com.mwm.bananai",
+      "bundleIdentifier": "com.mwm.bananai",
+      "version": "1.0.22",
+      "versionDate": "2025-12-01",
+      "fullDate": "20251201131057",
+      "size": 317661129,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-12-2025/Bananai_1.0.22_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-12-2025/Bananai_1.0.22_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.bananai.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.bananai.png"
+    },
+    {
       "name": "ColoringBook",
       "type": 1,
       "bundleID": "com.apalonapps.clrbook",
