@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "NFCTools",
+      "type": 1,
+      "bundleID": "com.wakdev.wdnfc",
+      "bundleIdentifier": "com.wakdev.wdnfc",
+      "version": "2.34",
+      "versionDate": "2025-12-03",
+      "fullDate": "20251203021418",
+      "size": 4009912,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-12-2025/NFCTools_2.34_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-12-2025/NFCTools_2.34_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wakdev.wdnfc.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wakdev.wdnfc.png"
+    },
+    {
+      "name": "Facetune",
+      "type": 1,
+      "bundleID": "com.lightricks.Facetune2",
+      "bundleIdentifier": "com.lightricks.Facetune2",
+      "version": "3.113",
+      "versionDate": "2025-12-03",
+      "fullDate": "20251203021405",
+      "size": 342121084,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-12-2025/Facetune_3.113_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-12-2025/Facetune_3.113_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png"
+    },
+    {
       "name": "Infuse",
       "type": 1,
       "bundleID": "com.firecore.infuse",
