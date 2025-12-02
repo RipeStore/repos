@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SoundLab",
+      "type": 1,
+      "bundleID": "com.castpeer.audioroom.ios",
+      "bundleIdentifier": "com.castpeer.audioroom.ios",
+      "version": "2.9.8",
+      "versionDate": "2025-12-02",
+      "fullDate": "20251202232339",
+      "size": 132164498,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-12-2025/SoundLab_2.9.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-12-2025/SoundLab_2.9.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.castpeer.audioroom.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.castpeer.audioroom.ios.png"
+    },
+    {
+      "name": "Boostcamp",
+      "type": 1,
+      "bundleID": "com.bpmhealth.boostfitness",
+      "bundleIdentifier": "com.bpmhealth.boostfitness",
+      "version": "249",
+      "versionDate": "2025-12-02",
+      "fullDate": "20251202232336",
+      "size": 78352215,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-12-2025/Boostcamp_249_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-12-2025/Boostcamp_249_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bpmhealth.boostfitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bpmhealth.boostfitness.png"
+    },
+    {
       "name": "Instagram",
       "type": 1,
       "bundleID": "com.burbn.instagram",
