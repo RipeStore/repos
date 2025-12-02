@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SCRL",
+      "type": 1,
+      "bundleID": "com.dopedevelopment.Panels",
+      "bundleIdentifier": "com.dopedevelopment.Panels",
+      "version": "9.23",
+      "versionDate": "2025-12-02",
+      "fullDate": "20251202145732",
+      "size": 62328775,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-12-2025/SCRL_9.23_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-12-2025/SCRL_9.23_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png"
+    },
+    {
+      "name": "NOAARadar",
+      "type": 1,
+      "bundleID": "com.itwcalculator.worldradarfree",
+      "bundleIdentifier": "com.itwcalculator.worldradarfree",
+      "version": "5.16.1",
+      "versionDate": "2025-12-02",
+      "fullDate": "20251202144225",
+      "size": 131203666,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-12-2025/NOAARadar_5.16.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-12-2025/NOAARadar_5.16.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.itwcalculator.worldradarfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.itwcalculator.worldradarfree.png"
+    },
+    {
       "name": "Action",
       "type": 1,
       "bundleID": "com.future.kapi",
