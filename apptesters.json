@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ProFit",
+      "type": 1,
+      "bundleID": "com.maxty.gofitness",
+      "bundleIdentifier": "com.maxty.gofitness",
+      "version": "7.13.15",
+      "versionDate": "2025-12-02",
+      "fullDate": "20251202134712",
+      "size": 52954053,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-12-2025/ProFit_7.13.15_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-12-2025/ProFit_7.13.15_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maxty.gofitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maxty.gofitness.png"
+    },
+    {
       "name": "Shapy",
       "type": 1,
       "bundleID": "com.blake.femalefitness",
