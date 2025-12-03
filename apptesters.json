@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Stemz",
+      "type": 1,
+      "bundleID": "com.mwm.stems",
+      "bundleIdentifier": "com.mwm.stems",
+      "version": "4.02.20",
+      "versionDate": "2025-12-04",
+      "fullDate": "20251204011342",
+      "size": 174587380,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-12-2025/Stemz_4.02.20_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-12-2025/Stemz_4.02.20_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.stems.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.stems.png"
+    },
+    {
+      "name": "Animock",
+      "type": 1,
+      "bundleID": "com.hassantaleb.mockup",
+      "bundleIdentifier": "com.hassantaleb.mockup",
+      "version": "4.6",
+      "versionDate": "2025-12-04",
+      "fullDate": "20251204011339",
+      "size": 85477476,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-12-2025/Animock_4.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-12-2025/Animock_4.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hassantaleb.mockup.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hassantaleb.mockup.png"
+    },
+    {
       "name": "Facetune",
       "type": 1,
       "bundleID": "com.lightricks.Facetune2",
