@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Peanote",
+      "type": 1,
+      "bundleID": "com.mwm.nota",
+      "bundleIdentifier": "com.mwm.nota",
+      "version": "1.4.3",
+      "versionDate": "2025-12-03",
+      "fullDate": "20251203142132",
+      "size": 32017278,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-12-2025/Peanote_1.4.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-12-2025/Peanote_1.4.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.nota.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.nota.png"
+    },
+    {
       "name": "SODA",
       "type": 1,
       "bundleID": "com.snowcorp.soda",
