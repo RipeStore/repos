@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TinyDecisions",
+      "type": 1,
+      "bundleID": "com.nixwang.decision",
+      "bundleIdentifier": "com.nixwang.decision",
+      "version": "25.12.0",
+      "versionDate": "2025-12-03",
+      "fullDate": "20251203063938",
+      "size": 54320114,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-12-2025/TinyDecisions_25.12.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-12-2025/TinyDecisions_25.12.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.nixwang.decision.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.nixwang.decision.png"
+    },
+    {
       "name": "SnoreLab",
       "type": 1,
       "bundleID": "com.revivasoftworks.Snore-Lab",
