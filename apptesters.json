@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Sketchar",
+      "type": 1,
+      "bundleID": "tech.sketchar.ios",
+      "bundleIdentifier": "tech.sketchar.ios",
+      "version": "10.2",
+      "versionDate": "2025-12-03",
+      "fullDate": "20251203152142",
+      "size": 195766848,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-12-2025/Sketchar_10.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-12-2025/Sketchar_10.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.sketchar.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.sketchar.ios.png"
+    },
+    {
+      "name": "Mockview",
+      "type": 1,
+      "bundleID": "com.kavsoft.MockviewApp",
+      "bundleIdentifier": "com.kavsoft.MockviewApp",
+      "version": "4.1",
+      "versionDate": "2025-12-03",
+      "fullDate": "20251203151637",
+      "size": 91199965,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-12-2025/Mockview_4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-12-2025/Mockview_4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kavsoft.MockviewApp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kavsoft.MockviewApp.png"
+    },
+    {
       "name": "Peanote",
       "type": 1,
       "bundleID": "com.mwm.nota",
