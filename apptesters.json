@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Thenx",
+      "type": 1,
+      "bundleID": "com.calisthenics.thenx",
+      "bundleIdentifier": "com.calisthenics.thenx",
+      "version": "6.5.3",
+      "versionDate": "2025-12-04",
+      "fullDate": "20251204100952",
+      "size": 136583760,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-12-2025/Thenx_6.5.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-12-2025/Thenx_6.5.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calisthenics.thenx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calisthenics.thenx.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.AppChief.ArabicArt",
