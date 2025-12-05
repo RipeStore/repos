@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SnapEdit",
+      "type": 1,
+      "bundleID": "com.sfun.snapedit",
+      "bundleIdentifier": "com.sfun.snapedit",
+      "version": "6.3.0",
+      "versionDate": "2025-12-05",
+      "fullDate": "20251205202214",
+      "size": 128144657,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-12-2025/SnapEdit_6.3.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-12-2025/SnapEdit_6.3.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png"
+    },
+    {
       "name": "Hevy",
       "type": 1,
       "bundleID": "com.hevyapp.hevy",
