@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "EeveeSpotify",
+      "type": 1,
+      "bundleID": "com.spotify.client",
+      "bundleIdentifier": "com.spotify.client",
+      "version": "8.9.8",
+      "versionDate": "2025-12-05",
+      "fullDate": "20251205131716",
+      "size": 67488729,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-12-2025/EeveeSpotify_8.9.8_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-12-2025/EeveeSpotify_8.9.8_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.spotify.client.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.spotify.client.png"
+    },
+    {
+      "name": "BeautyPlus",
+      "type": 1,
+      "bundleID": "com.commsource.BeautyPlus",
+      "bundleIdentifier": "com.commsource.BeautyPlus",
+      "version": "7.25.0",
+      "versionDate": "2025-12-05",
+      "fullDate": "20251205131702",
+      "size": 359146911,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-12-2025/BeautyPlus_7.25.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-12-2025/BeautyPlus_7.25.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.commsource.BeautyPlus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.commsource.BeautyPlus.png"
+    },
+    {
       "name": "LINECamera",
       "type": 1,
       "bundleID": "jp.naver.linecamera",
