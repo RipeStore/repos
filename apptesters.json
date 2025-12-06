@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "WaterMinder",
+      "type": 1,
+      "bundleID": "com.waterminder.waterminder",
+      "bundleIdentifier": "com.waterminder.waterminder",
+      "version": "7.1.4",
+      "versionDate": "2025-12-07",
+      "fullDate": "20251207032136",
+      "size": 188381036,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/WaterMinder_7.1.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/WaterMinder_7.1.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.waterminder.waterminder.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.waterminder.waterminder.png"
+    },
+    {
+      "name": "Flo",
+      "type": 1,
+      "bundleID": "org.iggymedia.periodtracker",
+      "bundleIdentifier": "org.iggymedia.periodtracker",
+      "version": "9.93.2",
+      "versionDate": "2025-12-07",
+      "fullDate": "20251207031630",
+      "size": 126834239,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Flo_9.93.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Flo_9.93.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.iggymedia.periodtracker.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.iggymedia.periodtracker.png"
+    },
+    {
       "name": "Retrx",
       "type": 1,
       "bundleID": "com.bikinstudio.screenx",
