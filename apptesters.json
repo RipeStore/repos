@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Clarity",
+      "type": 1,
+      "bundleID": "com.moodtools.thoughtdiary",
+      "bundleIdentifier": "com.moodtools.thoughtdiary",
+      "version": "5.5.10",
+      "versionDate": "2025-12-07",
+      "fullDate": "20251207001120",
+      "size": 149853064,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Clarity_5.5.10_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Clarity_5.5.10_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moodtools.thoughtdiary.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moodtools.thoughtdiary.png"
+    },
+    {
       "name": "WeatherLive",
       "type": 1,
       "bundleID": "com.apalonapps.wlf",
