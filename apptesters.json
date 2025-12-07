@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SimplyPiano",
+      "type": 1,
+      "bundleID": "com.joytunes.asla",
+      "bundleIdentifier": "com.joytunes.asla",
+      "version": "9.10.48",
+      "versionDate": "2025-12-07",
+      "fullDate": "20251207174746",
+      "size": 137552981,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/SimplyPiano_9.10.48_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/SimplyPiano_9.10.48_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.asla.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.asla.png"
+    },
+    {
       "name": "Vids",
       "type": 1,
       "bundleID": "viral.vision.vids",
