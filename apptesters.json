@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Balance",
+      "type": 1,
+      "bundleID": "com.elevateapp.kamino.kamino",
+      "bundleIdentifier": "com.elevateapp.kamino.kamino",
+      "version": "1.191.0",
+      "versionDate": "2025-12-09",
+      "fullDate": "20251209021843",
+      "size": 118797154,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Balance_1.191.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Balance_1.191.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.kamino.kamino.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.kamino.kamino.png"
+    },
+    {
       "name": "MergeCooking",
       "type": 2,
       "bundleID": "com.merge.cooking.theme.restaurant.food",
