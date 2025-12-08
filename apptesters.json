@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VideoStar",
+      "type": 1,
+      "bundleID": "com.frontierdesign.videostar",
+      "bundleIdentifier": "com.frontierdesign.videostar",
+      "version": "14.4.6",
+      "versionDate": "2025-12-09",
+      "fullDate": "20251209045942",
+      "size": 606588642,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/VideoStar_14.4.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/VideoStar_14.4.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontierdesign.videostar.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontierdesign.videostar.png"
+    },
+    {
       "name": "Fitbod",
       "type": 1,
       "bundleID": "com.fitbod",
