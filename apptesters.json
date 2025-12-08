@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Fitbod",
+      "type": 1,
+      "bundleID": "com.fitbod",
+      "bundleIdentifier": "com.fitbod",
+      "version": "7.24.0",
+      "versionDate": "2025-12-09",
+      "fullDate": "20251209045436",
+      "size": 113749618,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Fitbod_7.24.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Fitbod_7.24.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fitbod.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fitbod.png"
+    },
+    {
       "name": "YouTubeOLED",
       "type": 1,
       "bundleID": "com.google.ios.youtube",
