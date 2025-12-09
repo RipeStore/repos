@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Minecraft",
+      "type": 2,
+      "bundleID": "com.mojang.minecraftpe",
+      "bundleIdentifier": "com.mojang.minecraftpe",
+      "version": "1.21.124",
+      "versionDate": "2025-12-09",
+      "fullDate": "20251209131617",
+      "size": 585589655,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Minecraft_1.21.124_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Minecraft_1.21.124_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mojang.minecraftpe.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mojang.minecraftpe.png"
+    },
+    {
+      "name": "LUTStudio",
+      "type": 1,
+      "bundleID": "com.solveit.lut-studio",
+      "bundleIdentifier": "com.solveit.lut-studio",
+      "version": "2.3.8",
+      "versionDate": "2025-12-09",
+      "fullDate": "20251209131611",
+      "size": 109362409,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/LUTStudio_2.3.8_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/LUTStudio_2.3.8_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.solveit.lut-studio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.solveit.lut-studio.png"
+    },
+    {
       "name": "PicsArt",
       "type": 1,
       "bundleID": "com.picsart.studio",
