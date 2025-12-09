@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Coconote",
+      "type": 1,
+      "bundleID": "com.bbauman.Scripty",
+      "bundleIdentifier": "com.bbauman.Scripty",
+      "version": "2.29",
+      "versionDate": "2025-12-09",
+      "fullDate": "20251209093537",
+      "size": 49008725,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Coconote_2.29_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Coconote_2.29_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bbauman.Scripty.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bbauman.Scripty.png"
+    },
+    {
       "name": "VideoStar",
       "type": 1,
       "bundleID": "com.frontierdesign.videostar",
