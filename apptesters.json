@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Foodie",
+      "type": 1,
+      "bundleID": "com.linecorp.Foodie",
+      "bundleIdentifier": "com.linecorp.Foodie",
+      "version": "7.4.6",
+      "versionDate": "2025-12-10",
+      "fullDate": "20251210021515",
+      "size": 105748832,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Foodie_7.4.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Foodie_7.4.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.Foodie.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.Foodie.png"
+    },
+    {
       "name": "Duolingo",
       "type": 1,
       "bundleID": "com.duolingo.DuolingoMobile",
