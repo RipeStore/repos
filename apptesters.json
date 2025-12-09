@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Buddy",
+      "type": 1,
+      "bundleID": "com.iPwners.Plonkan",
+      "bundleIdentifier": "com.iPwners.Plonkan",
+      "version": "13.14",
+      "versionDate": "2025-12-10",
+      "fullDate": "20251210050638",
+      "size": 76375923,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Buddy_13.14_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Buddy_13.14_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iPwners.Plonkan.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iPwners.Plonkan.png"
+    },
+    {
       "name": "MyFitnessPal",
       "type": 1,
       "bundleID": "com.myfitnesspal.mfp",
