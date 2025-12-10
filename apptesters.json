@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Documents",
+      "type": 1,
+      "bundleID": "com.readdle.ReaddleDocsIPad",
+      "bundleIdentifier": "com.readdle.ReaddleDocsIPad",
+      "version": "8.17.17",
+      "versionDate": "2025-12-10",
+      "fullDate": "20251210171109",
+      "size": 310847717,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Documents_8.17.17_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Documents_8.17.17_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Plus",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.ReaddleDocsIPad.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.ReaddleDocsIPad.png"
+    },
+    {
       "name": "Productive",
       "type": 1,
       "bundleID": "com.beHappy.Productive",
