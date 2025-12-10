@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "wpsoffice",
+      "type": 1,
+      "bundleID": "com.kingsoft.office.g.wpsoffice",
+      "bundleIdentifier": "com.kingsoft.office.g.wpsoffice",
+      "version": "11.37.20",
+      "versionDate": "2025-12-10",
+      "fullDate": "20251210083254",
+      "size": 328437291,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/wpsoffice_11.37.20_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/wpsoffice_11.37.20_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kingsoft.office.g.wpsoffice.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kingsoft.office.g.wpsoffice.png"
+    },
+    {
+      "name": "StressWatch",
+      "type": 1,
+      "bundleID": "com.ideation.Stress",
+      "bundleIdentifier": "com.ideation.Stress",
+      "version": "2.4.14",
+      "versionDate": "2025-12-10",
+      "fullDate": "20251210075237",
+      "size": 227903258,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/StressWatch_2.4.14_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/StressWatch_2.4.14_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ideation.Stress.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ideation.Stress.png"
+    },
+    {
       "name": "Dictionary",
       "type": 1,
       "bundleID": "com.mobisystems.OxfordDictionaryOfEnglishFree",
