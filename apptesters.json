@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Cleanup",
+      "type": 1,
+      "bundleID": "com.codeway.cleanerplus",
+      "bundleIdentifier": "com.codeway.cleanerplus",
+      "version": "6.7.1",
+      "versionDate": "2025-12-10",
+      "fullDate": "20251210180142",
+      "size": 148360591,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Cleanup_6.7.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Cleanup_6.7.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.codeway.cleanerplus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.codeway.cleanerplus.png"
+    },
+    {
+      "name": "Lightroom",
+      "type": 1,
+      "bundleID": "com.adobe.lrmobilephone",
+      "bundleIdentifier": "com.adobe.lrmobilephone",
+      "version": "11.1.0",
+      "versionDate": "2025-12-10",
+      "fullDate": "20251210180133",
+      "size": 200116130,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Lightroom_11.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/Lightroom_11.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.lrmobilephone.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.lrmobilephone.png"
+    },
+    {
       "name": "Documents",
       "type": 1,
       "bundleID": "com.readdle.ReaddleDocsIPad",
