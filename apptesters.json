@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SleepMonitor",
+      "type": 1,
+      "bundleID": "com.sleepmonitor.aio",
+      "bundleIdentifier": "com.sleepmonitor.aio",
+      "version": "2.6.11",
+      "versionDate": "2025-12-10",
+      "fullDate": "20251210125941",
+      "size": 304460622,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/SleepMonitor_2.6.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-12-2025/SleepMonitor_2.6.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sleepmonitor.aio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sleepmonitor.aio.png"
+    },
+    {
       "name": "Bend",
       "type": 1,
       "bundleID": "com.bowery-digital.bend",
