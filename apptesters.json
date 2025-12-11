@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "InShot",
+      "type": 1,
+      "bundleID": "com.camerasideas.InstaShot",
+      "bundleIdentifier": "com.camerasideas.InstaShot",
+      "version": "1.92.0",
+      "versionDate": "2025-12-11",
+      "fullDate": "20251211144647",
+      "size": 126652323,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-12-2025/InShot_1.92.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-12-2025/InShot_1.92.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.InstaShot.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.InstaShot.png"
+    },
+    {
+      "name": "TikTok",
+      "type": 1,
+      "bundleID": "com.zhiliaoapp.musically",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "version": "42.9.0",
+      "versionDate": "2025-12-11",
+      "fullDate": "20251211133008",
+      "size": 409552484,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-12-2025/TikTok_42.9.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-12-2025/TikTok_42.9.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png"
+    },
+    {
       "name": "SnappierIPTV",
       "type": 1,
       "bundleID": "uk.co.snappy-code.snappierIPTV",
