@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Captions",
+      "type": 1,
+      "bundleID": "boomer.Smart-Video",
+      "bundleIdentifier": "boomer.Smart-Video",
+      "version": "12.48.1",
+      "versionDate": "2025-12-13",
+      "fullDate": "20251213024904",
+      "size": 416774178,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-12-2025/Captions_12.48.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-12-2025/Captions_12.48.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png"
+    },
+    {
       "name": "ism",
       "type": 1,
       "bundleID": "com.ahaf.mshion",
