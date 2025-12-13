@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Letterboxd",
+      "type": 1,
+      "bundleID": "com.letterboxd.LetterboxdApp",
+      "bundleIdentifier": "com.letterboxd.LetterboxdApp",
+      "version": "4.8.4",
+      "versionDate": "2025-12-14",
+      "fullDate": "20251214025411",
+      "size": 47103352,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-12-2025/Letterboxd_4.8.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-12-2025/Letterboxd_4.8.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.letterboxd.LetterboxdApp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.letterboxd.LetterboxdApp.png"
+    },
+    {
       "name": "Locket",
       "type": 1,
       "bundleID": "com.locket.Locket",
