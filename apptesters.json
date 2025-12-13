@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "BrickOut",
+      "type": 2,
+      "bundleID": "com.puzzle1studio.ap.brickoutshoottheball",
+      "bundleIdentifier": "com.puzzle1studio.ap.brickoutshoottheball",
+      "version": "25.1212.00",
+      "versionDate": "2025-12-14",
+      "fullDate": "20251214044935",
+      "size": 102662260,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-12-2025/BrickOut_25.1212.00_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-12-2025/BrickOut_25.1212.00_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IGG",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.puzzle1studio.ap.brickoutshoottheball.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.puzzle1studio.ap.brickoutshoottheball.png"
+    },
+    {
+      "name": "AlphaProgr",
+      "type": 1,
+      "bundleID": "com.alphaprogression.alphaprogression",
+      "bundleIdentifier": "com.alphaprogression.alphaprogression",
+      "version": "6.3",
+      "versionDate": "2025-12-14",
+      "fullDate": "20251214044927",
+      "size": 142861759,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-12-2025/AlphaProgr_6.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-12-2025/AlphaProgr_6.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alphaprogression.alphaprogression.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alphaprogression.alphaprogression.png"
+    },
+    {
       "name": "X",
       "type": 1,
       "bundleID": "com.atebits.Tweetie2",
