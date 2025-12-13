@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "NoFusion",
+      "type": 1,
+      "bundleID": "com.grey.swiftcamera",
+      "bundleIdentifier": "com.grey.swiftcamera",
+      "version": "2.5.48",
+      "versionDate": "2025-12-13",
+      "fullDate": "20251213102014",
+      "size": 95695041,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-12-2025/NoFusion_2.5.48_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-12-2025/NoFusion_2.5.48_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.grey.swiftcamera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.grey.swiftcamera.png"
+    },
+    {
       "name": "Notability",
       "type": 1,
       "bundleID": "com.gingerlabs.Notability",
