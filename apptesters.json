@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FujiXWeekly",
+      "type": 1,
+      "bundleID": "com.fujixweekly.fujixweeklyrecipes",
+      "bundleIdentifier": "com.fujixweekly.fujixweeklyrecipes",
+      "version": "1.12.0",
+      "versionDate": "2025-12-14",
+      "fullDate": "20251214121509",
+      "size": 12710343,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-12-2025/FujiXWeekly_1.12.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-12-2025/FujiXWeekly_1.12.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fujixweekly.fujixweeklyrecipes.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fujixweekly.fujixweeklyrecipes.png"
+    },
+    {
       "name": "Drafts",
       "type": 1,
       "bundleID": "com.agiletortoise.Drafts5",
