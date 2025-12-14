@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FujiXWeekly",
+      "type": 1,
+      "bundleID": "com.fujixweekly.fujixweeklyrecipes",
+      "bundleIdentifier": "com.fujixweekly.fujixweeklyrecipes",
+      "version": "1.12.1",
+      "versionDate": "2025-12-15",
+      "fullDate": "20251215025506",
+      "size": 12710083,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-12-2025/FujiXWeekly_1.12.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-12-2025/FujiXWeekly_1.12.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fujixweekly.fujixweeklyrecipes.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fujixweekly.fujixweeklyrecipes.png"
+    },
+    {
       "name": "MacroFactor",
       "type": 1,
       "bundleID": "com.sbs.diet",
