@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ReversoContext",
+      "type": 1,
+      "bundleID": "com.softissimo.ReversoContext",
+      "bundleIdentifier": "com.softissimo.ReversoContext",
+      "version": "16.4",
+      "versionDate": "2025-12-15",
+      "fullDate": "20251215030509",
+      "size": 154261046,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-12-2025/ReversoContext_16.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-12-2025/ReversoContext_16.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.softissimo.ReversoContext.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.softissimo.ReversoContext.png"
+    },
+    {
       "name": "FujiXWeekly",
       "type": 1,
       "bundleID": "com.fujixweekly.fujixweeklyrecipes",
