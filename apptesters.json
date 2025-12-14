@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Calory",
+      "type": 1,
+      "bundleID": "com.funnmedia.calory",
+      "bundleIdentifier": "com.funnmedia.calory",
+      "version": "4.6.2",
+      "versionDate": "2025-12-14",
+      "fullDate": "20251214162031",
+      "size": 300654454,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-12-2025/Calory_4.6.2_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-12-2025/Calory_4.6.2_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.funnmedia.calory.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.funnmedia.calory.png"
+    },
+    {
       "name": "Uplens",
       "type": 1,
       "bundleID": "app.uplens",
