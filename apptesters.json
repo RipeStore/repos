@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VlogNow",
+      "type": 1,
+      "bundleID": "com.frontrow.vlog",
+      "bundleIdentifier": "com.frontrow.vlog",
+      "version": "2.0.1",
+      "versionDate": "2025-12-14",
+      "fullDate": "20251214194108",
+      "size": 391633552,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-12-2025/VlogNow_2.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-12-2025/VlogNow_2.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontrow.vlog.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontrow.vlog.png"
+    },
+    {
       "name": "TikTok",
       "type": 1,
       "bundleID": "com.zhiliaoapp.musically",
