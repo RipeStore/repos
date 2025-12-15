@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Wallcraft",
+      "type": 1,
+      "bundleID": "com.wallpaperscraft.wallpapers",
+      "bundleIdentifier": "com.wallpaperscraft.wallpapers",
+      "version": "3.31",
+      "versionDate": "2025-12-15",
+      "fullDate": "20251215122138",
+      "size": 118619631,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-12-2025/Wallcraft_3.31_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-12-2025/Wallcraft_3.31_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wallpaperscraft.wallpapers.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wallpaperscraft.wallpapers.png"
+    },
+    {
       "name": "ScannerAir",
       "type": 1,
       "bundleID": "co.airapps.scannerapp",
