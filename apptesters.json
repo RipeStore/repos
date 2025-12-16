@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MyFitnessPal",
+      "type": 1,
+      "bundleID": "com.myfitnesspal.mfp",
+      "bundleIdentifier": "com.myfitnesspal.mfp",
+      "version": "25.50.0",
+      "versionDate": "2025-12-17",
+      "fullDate": "20251217030136",
+      "size": 135934420,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-12-2025/MyFitnessPal_25.50.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-12-2025/MyFitnessPal_25.50.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myfitnesspal.mfp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myfitnesspal.mfp.png"
+    },
+    {
       "name": "Nerva",
       "type": 1,
       "bundleID": "com.mindsethealth.ibs",
