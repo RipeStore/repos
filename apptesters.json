@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "VideoStar",
+      "type": 1,
+      "bundleID": "com.frontierdesign.videostar",
+      "bundleIdentifier": "com.frontierdesign.videostar",
+      "version": "15.0.0",
+      "versionDate": "2025-12-16",
+      "fullDate": "20251216121021",
+      "size": 620735283,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-12-2025/VideoStar_15.0.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-12-2025/VideoStar_15.0.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontierdesign.videostar.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontierdesign.videostar.png"
+    },
+    {
+      "name": "Mondly",
+      "type": 1,
+      "bundleID": "com.atistudios.MondlyLanguages",
+      "bundleIdentifier": "com.atistudios.MondlyLanguages",
+      "version": "10.65.0",
+      "versionDate": "2025-12-16",
+      "fullDate": "20251216114512",
+      "size": 196775351,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-12-2025/Mondly_10.65.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-12-2025/Mondly_10.65.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atistudios.MondlyLanguages.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atistudios.MondlyLanguages.png"
+    },
+    {
       "name": "TikTok",
       "type": 1,
       "bundleID": "com.zhiliaoapp.musically",
