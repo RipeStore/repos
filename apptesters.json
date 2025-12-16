@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "DiamondFinder",
+      "type": 1,
+      "bundleID": "com.mcdiamondfinder.app",
+      "bundleIdentifier": "com.mcdiamondfinder.app",
+      "version": "4.0.1",
+      "versionDate": "2025-12-16",
+      "fullDate": "20251216222531",
+      "size": 47265976,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-12-2025/DiamondFinder_4.0.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-12-2025/DiamondFinder_4.0.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mcdiamondfinder.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mcdiamondfinder.app.png"
+    },
+    {
       "name": "Action",
       "type": 1,
       "bundleID": "com.future.kapi",
