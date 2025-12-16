@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Action",
+      "type": 1,
+      "bundleID": "com.future.kapi",
+      "bundleIdentifier": "com.future.kapi",
+      "version": "3.28.0",
+      "versionDate": "2025-12-16",
+      "fullDate": "20251216204018",
+      "size": 171531188,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-12-2025/Action_3.28.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-12-2025/Action_3.28.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.future.kapi.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.future.kapi.png"
+    },
+    {
       "name": "PixelColor",
       "type": 1,
       "bundleID": "com.djitlabs.pixelcolor",
