@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "DaVinci",
+      "type": 1,
+      "bundleID": "com.hubx.imagination",
+      "bundleIdentifier": "com.hubx.imagination",
+      "version": "4.3.3",
+      "versionDate": "2025-12-17",
+      "fullDate": "20251217191751",
+      "size": 106185636,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-12-2025/DaVinci_4.3.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-12-2025/DaVinci_4.3.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hubx.imagination.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hubx.imagination.png"
+    },
+    {
       "name": "Yazio",
       "type": 1,
       "bundleID": "com.yazio.ios.YAZIO",
