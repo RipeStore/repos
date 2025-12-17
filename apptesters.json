@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "WolframAlpha",
+      "type": 1,
+      "bundleID": "com.wolframalpha.wolframalphaviewer",
+      "bundleIdentifier": "com.wolframalpha.wolframalphaviewer",
+      "version": "2.6.1",
+      "versionDate": "2025-12-18",
+      "fullDate": "20251218002623",
+      "size": 178726992,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/WolframAlpha_2.6.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/WolframAlpha_2.6.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wolframalpha.wolframalphaviewer.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wolframalpha.wolframalphaviewer.png"
+    },
+    {
       "name": "Procreate",
       "type": 1,
       "bundleID": "au.com.savageinteractive.procreate",
