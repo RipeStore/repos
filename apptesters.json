@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "TravelBoast",
+      "type": 1,
+      "bundleID": "com.travelboast.travelboast",
+      "bundleIdentifier": "com.travelboast.travelboast",
+      "version": "2.17",
+      "versionDate": "2025-12-18",
+      "fullDate": "20251218020153",
+      "size": 313314018,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/TravelBoast_2.17_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/TravelBoast_2.17_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.travelboast.travelboast.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.travelboast.travelboast.png"
+    },
+    {
+      "name": "Soundmap",
+      "type": 2,
+      "bundleID": "app.mmap.mobile",
+      "bundleIdentifier": "app.mmap.mobile",
+      "version": "2.7.2",
+      "versionDate": "2025-12-18",
+      "fullDate": "20251218015148",
+      "size": 55005440,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/Soundmap_2.7.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/Soundmap_2.7.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.mmap.mobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.mmap.mobile.png"
+    },
+    {
       "name": "ColorPop",
       "type": 1,
       "bundleID": "com.mwm.procolor",
