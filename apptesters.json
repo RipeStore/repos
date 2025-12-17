@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "CrossyRoad",
+      "type": 2,
+      "bundleID": "com.hipsterwhale.crossy",
+      "bundleIdentifier": "com.hipsterwhale.crossy",
+      "version": "7.9.1",
+      "versionDate": "2025-12-17",
+      "fullDate": "20251217162021",
+      "size": 131853529,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-12-2025/CrossyRoad_7.9.1_noads_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-12-2025/CrossyRoad_7.9.1_noads_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with noads",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hipsterwhale.crossy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hipsterwhale.crossy.png"
+    },
+    {
       "name": "ChatSmith",
       "type": 1,
       "bundleID": "co.vulcanlabs.moodtracker",
