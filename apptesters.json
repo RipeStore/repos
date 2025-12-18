@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SoundLab",
+      "type": 1,
+      "bundleID": "com.castpeer.audioroom.ios",
+      "bundleIdentifier": "com.castpeer.audioroom.ios",
+      "version": "2.10.1",
+      "versionDate": "2025-12-18",
+      "fullDate": "20251218104314",
+      "size": 133113280,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/SoundLab_2.10.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/SoundLab_2.10.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.castpeer.audioroom.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.castpeer.audioroom.ios.png"
+    },
+    {
+      "name": "Textastic",
+      "type": 1,
+      "bundleID": "com.textasticapp.textastic-universal",
+      "bundleIdentifier": "com.textasticapp.textastic-universal",
+      "version": "10.8.6",
+      "versionDate": "2025-12-18",
+      "fullDate": "20251218103811",
+      "size": 11985628,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/Textastic_10.8.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/Textastic_10.8.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.textasticapp.textastic-universal.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.textasticapp.textastic-universal.png"
+    },
+    {
       "name": "MDClock",
       "type": 1,
       "bundleID": "tech.miidii.MDClock",
