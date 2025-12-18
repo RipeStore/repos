@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Calendars",
+      "type": 1,
+      "bundleID": "com.readdle.CalendarsLite",
+      "bundleIdentifier": "com.readdle.CalendarsLite",
+      "version": "5.37.14",
+      "versionDate": "2025-12-18",
+      "fullDate": "20251218164512",
+      "size": 278089309,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/Calendars_5.37.14_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/Calendars_5.37.14_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.CalendarsLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.CalendarsLite.png"
+    },
+    {
       "name": "SnapEdit",
       "type": 1,
       "bundleID": "com.sfun.snapedit",
