@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Flo",
+      "type": 1,
+      "bundleID": "org.iggymedia.periodtracker",
+      "bundleIdentifier": "org.iggymedia.periodtracker",
+      "version": "9.94.0",
+      "versionDate": "2025-12-19",
+      "fullDate": "20251219025905",
+      "size": 126341989,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-12-2025/Flo_9.94.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-12-2025/Flo_9.94.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.iggymedia.periodtracker.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.iggymedia.periodtracker.png"
+    },
+    {
       "name": "ShutEye",
       "type": 1,
       "bundleID": "health.sleep.sounds.tracker.alarm.calm",
