@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Vixer",
+      "type": 1,
+      "bundleID": "com.vixerapp.Vixer",
+      "bundleIdentifier": "com.vixerapp.Vixer",
+      "version": "7.0",
+      "versionDate": "2025-12-18",
+      "fullDate": "20251218120829",
+      "size": 113565713,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/Vixer_7.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/Vixer_7.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vixerapp.Vixer.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vixerapp.Vixer.png"
+    },
+    {
+      "name": "Temply",
+      "type": 1,
+      "bundleID": "com.templyvideo.Temply",
+      "bundleIdentifier": "com.templyvideo.Temply",
+      "version": "9.0",
+      "versionDate": "2025-12-18",
+      "fullDate": "20251218115324",
+      "size": 87312543,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/Temply_9.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-12-2025/Temply_9.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.templyvideo.Temply.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.templyvideo.Temply.png"
+    },
+    {
       "name": "SoundLab",
       "type": 1,
       "bundleID": "com.castpeer.audioroom.ios",
