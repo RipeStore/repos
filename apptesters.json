@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "iTranslate",
+      "type": 1,
+      "bundleID": "com.outerspaceapps.itranslate",
+      "bundleIdentifier": "com.outerspaceapps.itranslate",
+      "version": "17.4.64",
+      "versionDate": "2025-12-19",
+      "fullDate": "20251219185020",
+      "size": 72497003,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-12-2025/iTranslate_17.4.64_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-12-2025/iTranslate_17.4.64_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.outerspaceapps.itranslate.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.outerspaceapps.itranslate.png"
+    },
+    {
+      "name": "Fitia",
+      "type": 1,
+      "bundleID": "com.ulisesolave.Fitia",
+      "bundleIdentifier": "com.ulisesolave.Fitia",
+      "version": "20.0.5",
+      "versionDate": "2025-12-19",
+      "fullDate": "20251219185014",
+      "size": 131462759,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-12-2025/Fitia_20.0.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-12-2025/Fitia_20.0.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png"
+    },
+    {
       "name": "DBLEGENDS",
       "type": 1,
       "bundleID": "jp.co.bandainamcoent.BNEI0333",
