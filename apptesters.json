@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Pillow",
+      "type": 1,
+      "bundleID": "com.neybox.Pillow",
+      "bundleIdentifier": "com.neybox.Pillow",
+      "version": "6.2.4",
+      "versionDate": "2025-12-20",
+      "fullDate": "20251220035146",
+      "size": 524723766,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-12-2025/Pillow_6.2.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-12-2025/Pillow_6.2.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png"
+    },
+    {
       "name": "Coconote",
       "type": 1,
       "bundleID": "com.bbauman.Scripty",
