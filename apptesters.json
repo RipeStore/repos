@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VSCO",
+      "type": 1,
+      "bundleID": "co.visualsupply.cam",
+      "bundleIdentifier": "co.visualsupply.cam",
+      "version": "453.0.1",
+      "versionDate": "2025-12-19",
+      "fullDate": "20251219090802",
+      "size": 206756633,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-12-2025/VSCO_453.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-12-2025/VSCO_453.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png"
+    },
+    {
       "name": "Dazz",
       "type": 1,
       "bundleID": "dazz.camera.vintagecamera",
