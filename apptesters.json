@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "swipewipe",
+      "type": 1,
+      "bundleID": "com.aoklab.fewerphotos",
+      "bundleIdentifier": "com.aoklab.fewerphotos",
+      "version": "3.2.42",
+      "versionDate": "2025-12-19",
+      "fullDate": "20251219230611",
+      "size": 135036780,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-12-2025/swipewipe_3.2.42_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-12-2025/swipewipe_3.2.42_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aoklab.fewerphotos.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aoklab.fewerphotos.png"
+    },
+    {
       "name": "Photoroom",
       "type": 1,
       "bundleID": "com.dr1ven.eraser",
