@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Thenics",
+      "type": 1,
+      "bundleID": "com.innothenics.thenics",
+      "bundleIdentifier": "com.innothenics.thenics",
+      "version": "6.1.2",
+      "versionDate": "2025-12-21",
+      "fullDate": "20251221041603",
+      "size": 88693822,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-12-2025/Thenics_6.1.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-12-2025/Thenics_6.1.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.innothenics.thenics.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.innothenics.thenics.png"
+    },
+    {
       "name": "Bend",
       "type": 1,
       "bundleID": "com.bowery-digital.bend",
