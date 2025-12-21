@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MyFitCoach",
+      "type": 1,
+      "bundleID": "de.my-fit-coach.myfitcoach-ios",
+      "bundleIdentifier": "de.my-fit-coach.myfitcoach-ios",
+      "version": "1.20.2",
+      "versionDate": "2025-12-21",
+      "fullDate": "20251221185301",
+      "size": 175288351,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-12-2025/MyFitCoach_1.20.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-12-2025/MyFitCoach_1.20.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/de.my-fit-coach.myfitcoach-ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/de.my-fit-coach.myfitcoach-ios.png"
+    },
+    {
       "name": "Moment",
       "type": 1,
       "bundleID": "com.momentinc.procamera",
