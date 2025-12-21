@@ -48,10 +48,6 @@
     "url": "https://provenance-emu.com/apps.json"
   },
   {
-    "name": "qn",
-    "url": "https://qnblackcat.github.io/AltStore/apps.json"
-  },
-  {
     "name": "quantum",
     "url": "https://bit.ly/quantumsource-min"
   },
