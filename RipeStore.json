@@ -20,7 +20,7 @@
       "bundleIdentifier": "com.telltalegames.BAT100",
       "developerName": "LCG Entertainment, Inc",
       "subtitle": "Enter the fractured psyche of Bruce Wayne where your choices have consequences",
-      "localizedDescription": "The main app will provide you access to the free content. Get episode data from, this is to be extracted and copied into the app's documents folder in your files (On My iPhone/Batman...)  : https://pixeldrain.com/api/file/TsTFeA1N (3.07 GB)\n\nReport broken links at : https://github.com/RipeStore/repos/issues\n\nJoin the \"Telltale Archival Project\" Discord for guidance : https://discord.gg/Ztt3GcvexG\n\n----\n\n**All Episodes now available to download via in-app!**\n\nEnter the fractured psyche of Bruce Wayne and discover the powerful and far-reaching consequences of your choices as the Dark Knight.\n\nIn this gritty and violent new story from the award-winning creators of The Walking Dead – A Telltale Games Series, you'll make discoveries that will shatter Bruce Wayne's world, and the already fragile stability of a corrupt Gotham City.\n\nYour actions and your choices will determine the fate of the Batman.\n\nIncludes Episode 1 (FREE) in this all-new series from the award-winning studio, Telltale Games.",
+      "localizedDescription": "The main app will provide you access to the free content. \n\nGet episode data from the url below, this is to be extracted and copied into the app's documents folder in your files (On My iPhone/Batman...)  : \n\nhttps://pixeldrain.com/api/file/TsTFeA1N (3.07 GB)\n\nReport broken links at : https://github.com/RipeStore/repos/issues\n\nJoin the \"Telltale Archival Project\" Discord for guidance : https://discord.gg/Ztt3GcvexG\n\n----\n\n**All Episodes now available to download via in-app!**\n\nEnter the fractured psyche of Bruce Wayne and discover the powerful and far-reaching consequences of your choices as the Dark Knight.\n\nIn this gritty and violent new story from the award-winning creators of The Walking Dead – A Telltale Games Series, you'll make discoveries that will shatter Bruce Wayne's world, and the already fragile stability of a corrupt Gotham City.\n\nYour actions and your choices will determine the fate of the Batman.\n\nIncludes Episode 1 (FREE) in this all-new series from the award-winning studio, Telltale Games.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/telltale/BATMAN_TTS/icon_BATMAN.webp",
       "tintColor": "#7f7f7f",
       "category": "games",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "name": "Subway Surfers City",
+      "name": "Subway Surfers City (Region Locked)",
       "bundleIdentifier": "com.sybogames.subway.surfers.game",
       "developerName": "Sybo Games",
       "subtitle": "Get running and join the hype! Region Locked!",
@@ -557,7 +557,7 @@
       "caption": "A game that simply disappeared in plain sight. Brought back to life.",
       "date": "2025-11-14T16:08:00Z",
       "tintColor": "#0f0f0f",
-      "notify": true,
+      "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/telltale/BATMAN_TTS/poster.jpg",
       "url": "https://store.yemoja.xyz/app?bundle=com.telltalegames.BAT100\u0026version=1.8\u0026repo=https%3A%2F%2Fraw.githubusercontent.com%2Fripestore%2Frepos%2Fmain%2FRipeStore.json",
       "appID": "com.telltalegames.BAT100"
     },
@@ -568,7 +568,6 @@
       "date": "2025-11-08T22:25:00Z",
       "tintColor": "#cd0b0b",
       "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/UN/1400x800-96570af251fc03ab352769bb819aaf1b62a3863e.png",
-      "notify": true,
       "url": "https://store.yemoja.xyz/"
     }
   ]
