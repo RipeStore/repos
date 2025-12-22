@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Mimo",
+      "type": 1,
+      "bundleID": "com.getmimo.mimo",
+      "bundleIdentifier": "com.getmimo.mimo",
+      "version": "10.0.0",
+      "versionDate": "2025-12-22",
+      "fullDate": "20251222142154",
+      "size": 76091749,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-12-2025/Mimo_10.0.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-12-2025/Mimo_10.0.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png"
+    },
+    {
+      "name": "ScannerforMe",
+      "type": 1,
+      "bundleID": "com.apalonapps.pdffree",
+      "bundleIdentifier": "com.apalonapps.pdffree",
+      "version": "4.24.34",
+      "versionDate": "2025-12-22",
+      "fullDate": "20251222140647",
+      "size": 150618080,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-12-2025/ScannerforMe_4.24.34_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-12-2025/ScannerforMe_4.24.34_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.pdffree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.pdffree.png"
+    },
+    {
       "name": "Uplens",
       "type": 1,
       "bundleID": "app.uplens",
