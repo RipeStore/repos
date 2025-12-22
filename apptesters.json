@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Moonly",
+      "type": 1,
+      "bundleID": "com.moonly.Moonly",
+      "bundleIdentifier": "com.moonly.Moonly",
+      "version": "2.5.9",
+      "versionDate": "2025-12-23",
+      "fullDate": "20251223032041",
+      "size": 168244678,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-12-2025/Moonly_2.5.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-12-2025/Moonly_2.5.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png"
+    },
+    {
       "name": "PowerThesaurus",
       "type": 1,
       "bundleID": "org.powerthesaurus.powerthesaurus",
