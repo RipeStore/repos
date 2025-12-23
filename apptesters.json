@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "KTBSecondKick",
+      "type": 2,
+      "bundleID": "com.playgendary.ktbremaster",
+      "bundleIdentifier": "com.playgendary.ktbremaster",
+      "version": "2.14.8",
+      "versionDate": "2025-12-24",
+      "fullDate": "20251224051400",
+      "size": 174759307,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-12-2025/KTBSecondKick_2.14.8_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-12-2025/KTBSecondKick_2.14.8_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IGG",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.playgendary.ktbremaster.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.playgendary.ktbremaster.png"
+    },
+    {
       "name": "FitnessAI",
       "type": 1,
       "bundleID": "com.jakemor.firness-ai",
