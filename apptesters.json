@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Moment",
+      "type": 1,
+      "bundleID": "com.momentinc.procamera",
+      "bundleIdentifier": "com.momentinc.procamera",
+      "version": "1.0.3",
+      "versionDate": "2025-12-23",
+      "fullDate": "20251223131257",
+      "size": 15960001,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-12-2025/Moment_1.0.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-12-2025/Moment_1.0.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.momentinc.procamera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.momentinc.procamera.png"
+    },
+    {
       "name": "Feather",
       "type": 1,
       "bundleID": "thewonderofyou.Feather",
