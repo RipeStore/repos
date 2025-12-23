@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Peachy",
+      "type": 1,
+      "bundleID": "com.camerasideas.Peachy",
+      "bundleIdentifier": "com.camerasideas.Peachy",
+      "version": "2.8.1",
+      "versionDate": "2025-12-23",
+      "fullDate": "20251223190217",
+      "size": 170875174,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-12-2025/Peachy_2.8.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-12-2025/Peachy_2.8.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.Peachy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.Peachy.png"
+    },
+    {
+      "name": "Komoot",
+      "type": 1,
+      "bundleID": "de.komoot.berlinbikeapp",
+      "bundleIdentifier": "de.komoot.berlinbikeapp",
+      "version": "2025.53.0",
+      "versionDate": "2025-12-23",
+      "fullDate": "20251223184708",
+      "size": 179464038,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-12-2025/Komoot_2025.53.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-12-2025/Komoot_2025.53.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/de.komoot.berlinbikeapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/de.komoot.berlinbikeapp.png"
+    },
+    {
       "name": "CollaNote",
       "type": 1,
       "bundleID": "net.quochuywdm.collanote496",
