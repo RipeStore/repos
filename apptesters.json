@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Feather",
+      "type": 1,
+      "bundleID": "thewonderofyou.Feather",
+      "bundleIdentifier": "thewonderofyou.Feather",
+      "version": "2.5.0",
+      "versionDate": "2025-12-23",
+      "fullDate": "20251223130753",
+      "size": 24967367,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-12-2025/Feather_2.5.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-12-2025/Feather_2.5.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/thewonderofyou.Feather.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/thewonderofyou.Feather.png"
+    },
+    {
+      "name": "WebVideoCast",
+      "type": 1,
+      "bundleID": "com.instantbits.cast.webvideo",
+      "bundleIdentifier": "com.instantbits.cast.webvideo",
+      "version": "2.49",
+      "versionDate": "2025-12-23",
+      "fullDate": "20251223130249",
+      "size": 46630646,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-12-2025/WebVideoCast_2.49_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-12-2025/WebVideoCast_2.49_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.instantbits.cast.webvideo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.instantbits.cast.webvideo.png"
+    },
+    {
       "name": "ShutEye",
       "type": 1,
       "bundleID": "health.sleep.sounds.tracker.alarm.calm",
