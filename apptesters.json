@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Stepz",
+      "type": 1,
+      "bundleID": "com.visualhype.pedometer",
+      "bundleIdentifier": "com.visualhype.pedometer",
+      "version": "4.10.34",
+      "versionDate": "2025-12-24",
+      "fullDate": "20251224205153",
+      "size": 26322715,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-12-2025/Stepz_4.10.34_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-12-2025/Stepz_4.10.34_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.visualhype.pedometer.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.visualhype.pedometer.png"
+    },
+    {
       "name": "Rest",
       "type": 1,
       "bundleID": "com.evolve.helm",
