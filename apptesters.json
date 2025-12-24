@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "GentlerStreak",
+      "type": 1,
+      "bundleID": "app.gentler.activity",
+      "bundleIdentifier": "app.gentler.activity",
+      "version": "5.11",
+      "versionDate": "2025-12-24",
+      "fullDate": "20251224155018",
+      "size": 190183830,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-12-2025/GentlerStreak_5.11_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-12-2025/GentlerStreak_5.11_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.gentler.activity.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.gentler.activity.png"
+    },
+    {
       "name": "MacroFactor",
       "type": 1,
       "bundleID": "com.sbs.diet",
