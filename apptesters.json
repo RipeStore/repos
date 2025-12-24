@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ChatSmith",
+      "type": 1,
+      "bundleID": "co.vulcanlabs.moodtracker",
+      "bundleIdentifier": "co.vulcanlabs.moodtracker",
+      "version": "8.251222.2",
+      "versionDate": "2025-12-24",
+      "fullDate": "20251224162050",
+      "size": 506629539,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-12-2025/ChatSmith_8.251222.2_Satella_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-12-2025/ChatSmith_8.251222.2_Satella_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Satella",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.vulcanlabs.moodtracker.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.vulcanlabs.moodtracker.png"
+    },
+    {
       "name": "BillTracker",
       "type": 1,
       "bundleID": "com.unofficialcalculators.payplan",
