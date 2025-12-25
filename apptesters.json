@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AIMarvels",
+      "type": 1,
+      "bundleID": "com.hitpaw.photoenhancer",
+      "bundleIdentifier": "com.hitpaw.photoenhancer",
+      "version": "1.94.0",
+      "versionDate": "2025-12-25",
+      "fullDate": "20251225074809",
+      "size": 165089354,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-12-2025/AIMarvels_1.94.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-12-2025/AIMarvels_1.94.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hitpaw.photoenhancer.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hitpaw.photoenhancer.png"
+    },
+    {
       "name": "Threads",
       "type": 1,
       "bundleID": "com.burbn.barcelona",
