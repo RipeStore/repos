@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PUSH",
+      "type": 1,
+      "bundleID": "com.ADPTVLTD.push",
+      "bundleIdentifier": "com.ADPTVLTD.push",
+      "version": "3.9.2",
+      "versionDate": "2025-12-28",
+      "fullDate": "20251228052414",
+      "size": 64346557,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-12-2025/PUSH_3.9.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-12-2025/PUSH_3.9.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ADPTVLTD.push.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ADPTVLTD.push.png"
+    },
+    {
       "name": "MagicEraser",
       "type": 1,
       "bundleID": "com.hhp.magicEraser",
