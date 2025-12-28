@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "OrNETBrowser",
+      "type": 1,
+      "bundleID": "ch.b-eng.tor",
+      "bundleIdentifier": "ch.b-eng.tor",
+      "version": "3.9.12",
+      "versionDate": "2025-12-28",
+      "fullDate": "20251228173508",
+      "size": 126484611,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-12-2025/OrNETBrowser_3.9.12_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-12-2025/OrNETBrowser_3.9.12_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ch.b-eng.tor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ch.b-eng.tor.png"
+    },
+    {
+      "name": "Purgo",
+      "type": 1,
+      "bundleID": "com.tonymasek.Purgo",
+      "bundleIdentifier": "com.tonymasek.Purgo",
+      "version": "1.4.0",
+      "versionDate": "2025-12-28",
+      "fullDate": "20251228173005",
+      "size": 9507813,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-12-2025/Purgo_1.4.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-12-2025/Purgo_1.4.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tonymasek.Purgo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tonymasek.Purgo.png"
+    },
+    {
       "name": "Fitia",
       "type": 1,
       "bundleID": "com.ulisesolave.Fitia",
