@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "BrainOut",
+      "type": 2,
+      "bundleID": "com.mind.quiz.brain.out",
+      "bundleIdentifier": "com.mind.quiz.brain.out",
+      "version": "1.6.3",
+      "versionDate": "2025-12-28",
+      "fullDate": "20251228215532",
+      "size": 145244761,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-12-2025/BrainOut_1.6.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-12-2025/BrainOut_1.6.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mind.quiz.brain.out.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mind.quiz.brain.out.png"
+    },
+    {
       "name": "Letterboxd",
       "type": 1,
       "bundleID": "com.letterboxd.LetterboxdApp",
