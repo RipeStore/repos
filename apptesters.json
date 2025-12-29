@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Bend",
+      "type": 1,
+      "bundleID": "com.bowery-digital.bend",
+      "bundleIdentifier": "com.bowery-digital.bend",
+      "version": "7.0.8",
+      "versionDate": "2025-12-29",
+      "fullDate": "20251229154833",
+      "size": 98220183,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-12-2025/Bend_7.0.8_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-12-2025/Bend_7.0.8_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bowery-digital.bend.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bowery-digital.bend.png"
+    },
+    {
       "name": "Soulver",
       "type": 1,
       "bundleID": "app.soulver.appstore.mac",
