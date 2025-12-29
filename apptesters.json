@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Lifesum",
+      "type": 1,
+      "bundleID": "com.sillens.iShape",
+      "bundleIdentifier": "com.sillens.iShape",
+      "version": "23.3.1",
+      "versionDate": "2025-12-29",
+      "fullDate": "20251229183859",
+      "size": 145758190,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-12-2025/Lifesum_23.3.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-12-2025/Lifesum_23.3.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sillens.iShape.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sillens.iShape.png"
+    },
+    {
       "name": "Documents",
       "type": 1,
       "bundleID": "com.readdle.ReaddleDocsIPad",
