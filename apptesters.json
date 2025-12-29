@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "RunGo",
+      "type": 1,
+      "bundleID": "com.leapingcoyote.rungo",
+      "bundleIdentifier": "com.leapingcoyote.rungo",
+      "version": "7.2.3",
+      "versionDate": "2025-12-30",
+      "fullDate": "20251230034035",
+      "size": 37857667,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-12-2025/RunGo_7.2.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-12-2025/RunGo_7.2.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leapingcoyote.rungo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leapingcoyote.rungo.png"
+    },
+    {
       "name": "OldRoll",
       "type": 1,
       "bundleID": "com.zijayrate.analogcam",
