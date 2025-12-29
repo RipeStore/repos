@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Soulver",
+      "type": 1,
+      "bundleID": "app.soulver.appstore.mac",
+      "bundleIdentifier": "app.soulver.appstore.mac",
+      "version": "3.15.2",
+      "versionDate": "2025-12-29",
+      "fullDate": "20251229150328",
+      "size": 14330957,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-12-2025/Soulver_3.15.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-12-2025/Soulver_3.15.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.soulver.appstore.mac.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.soulver.appstore.mac.png"
+    },
+    {
+      "name": "Photoroom",
+      "type": 1,
+      "bundleID": "com.dr1ven.eraser",
+      "bundleIdentifier": "com.dr1ven.eraser",
+      "version": "2025.52.01",
+      "versionDate": "2025-12-29",
+      "fullDate": "20251229144319",
+      "size": 141966528,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-12-2025/Photoroom_2025.52.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-12-2025/Photoroom_2025.52.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png"
+    },
+    {
       "name": "Locket",
       "type": 1,
       "bundleID": "com.locket.Locket",
