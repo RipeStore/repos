@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ism",
+      "type": 1,
+      "bundleID": "com.ahaf.mshion",
+      "bundleIdentifier": "com.ahaf.mshion",
+      "version": "7.33.0",
+      "versionDate": "2025-12-30",
+      "fullDate": "20251230205401",
+      "size": 120852776,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-12-2025/ism_7.33.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-12-2025/ism_7.33.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahaf.mshion.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahaf.mshion.png"
+    },
+    {
       "name": "ReelsApp",
       "type": 1,
       "bundleID": "com.nextgen.reelsapp",
