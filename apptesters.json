@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TeraBox",
+      "type": 1,
+      "bundleID": "com.dubox.drive",
+      "bundleIdentifier": "com.dubox.drive",
+      "version": "4.10.0",
+      "versionDate": "2025-12-30",
+      "fullDate": "20251230201832",
+      "size": 193415836,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-12-2025/TeraBox_4.10.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-12-2025/TeraBox_4.10.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dubox.drive.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dubox.drive.png"
+    },
+    {
       "name": "FoundIt",
       "type": 2,
       "bundleID": "games.urmobi.found.it",
