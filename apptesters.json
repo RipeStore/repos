@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MergeCooking",
+      "type": 2,
+      "bundleID": "com.merge.cooking.theme.restaurant.food",
+      "bundleIdentifier": "com.merge.cooking.theme.restaurant.food",
+      "version": "1.24.0",
+      "versionDate": "2025-12-31",
+      "fullDate": "20251231131551",
+      "size": 304978505,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-12-2025/MergeCooking_1.24.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-12-2025/MergeCooking_1.24.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png"
+    },
+    {
       "name": "Reface",
       "type": 1,
       "bundleID": "com.neocortext.doublicatapp",
