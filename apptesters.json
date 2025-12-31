@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VideoLite",
+      "type": 1,
+      "bundleID": "com.videobrowser.ios",
+      "bundleIdentifier": "com.videobrowser.ios",
+      "version": "621200",
+      "versionDate": "2025-12-31",
+      "fullDate": "20251231204209",
+      "size": 32882121,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-12-2025/VideoLite_621200_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-12-2025/VideoLite_621200_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.videobrowser.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.videobrowser.ios.png"
+    },
+    {
       "name": "INTVL",
       "type": 1,
       "bundleID": "com.intvl.app",
