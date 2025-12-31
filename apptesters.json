@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "RenovateAI",
+      "type": 1,
+      "bundleID": "app.renovateai",
+      "bundleIdentifier": "app.renovateai",
+      "version": "4.4.69",
+      "versionDate": "2025-12-31",
+      "fullDate": "20251231212218",
+      "size": 72574895,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-12-2025/RenovateAI_4.4.69_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-12-2025/RenovateAI_4.4.69_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.renovateai.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.renovateai.png"
+    },
+    {
+      "name": "Komoot",
+      "type": 1,
+      "bundleID": "de.komoot.berlinbikeapp",
+      "bundleIdentifier": "de.komoot.berlinbikeapp",
+      "version": "2026.01.2",
+      "versionDate": "2025-12-31",
+      "fullDate": "20251231212214",
+      "size": 130450888,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-12-2025/Komoot_2026.01.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-12-2025/Komoot_2026.01.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/de.komoot.berlinbikeapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/de.komoot.berlinbikeapp.png"
+    },
+    {
       "name": "VideoLite",
       "type": 1,
       "bundleID": "com.videobrowser.ios",
