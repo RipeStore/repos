@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Action",
+      "type": 1,
+      "bundleID": "com.future.kapi",
+      "bundleIdentifier": "com.future.kapi",
+      "version": "3.33.0",
+      "versionDate": "2025-12-31",
+      "fullDate": "20251231112516",
+      "size": 172273466,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-12-2025/Action_3.33.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-12-2025/Action_3.33.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.future.kapi.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.future.kapi.png"
+    },
+    {
       "name": "SkyGuide",
       "type": 1,
       "bundleID": "com.fifthstarlabs.skyguide",
