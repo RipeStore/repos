@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Yazio",
+      "type": 1,
+      "bundleID": "com.yazio.ios.YAZIO",
+      "bundleIdentifier": "com.yazio.ios.YAZIO",
+      "version": "12.63.2",
+      "versionDate": "2025-12-31",
+      "fullDate": "20251231155119",
+      "size": 117328547,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-12-2025/Yazio_12.63.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-12-2025/Yazio_12.63.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yazio.ios.YAZIO.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yazio.ios.YAZIO.png"
+    },
+    {
       "name": "Textastic",
       "type": 1,
       "bundleID": "com.textasticapp.textastic-universal",
