@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "LavaSurvival",
+      "type": 2,
+      "bundleID": "com.gamelegendstudio.lavasurvival",
+      "bundleIdentifier": "com.gamelegendstudio.lavasurvival",
+      "version": "1.1.4",
+      "versionDate": "2026-01-01",
+      "fullDate": "20260101220504",
+      "size": 583840820,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-01-2026/LavaSurvival_1.1.4_Mods_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-01-2026/LavaSurvival_1.1.4_Mods_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Mods",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gamelegendstudio.lavasurvival.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gamelegendstudio.lavasurvival.png"
+    },
+    {
+      "name": "Reels",
+      "type": 1,
+      "bundleID": "com.TetianaKolomiichuk.Reel-Templates",
+      "bundleIdentifier": "com.TetianaKolomiichuk.Reel-Templates",
+      "version": "3.5.3",
+      "versionDate": "2026-01-01",
+      "fullDate": "20260101220459",
+      "size": 124090561,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-01-2026/Reels_3.5.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-01-2026/Reels_3.5.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.TetianaKolomiichuk.Reel-Templates.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.TetianaKolomiichuk.Reel-Templates.png"
+    },
+    {
       "name": "ClearMindsHypnotherapy",
       "type": 1,
       "bundleID": "com.clearmindshypnotherapy.app",
