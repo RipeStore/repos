@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "OfflineMusic",
+      "type": 1,
+      "bundleID": "com.offlinemusic",
+      "bundleIdentifier": "com.offlinemusic",
+      "version": "3.7.8",
+      "versionDate": "2026-01-02",
+      "fullDate": "20260102103627",
+      "size": 95404747,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-01-2026/OfflineMusic_3.7.8_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-01-2026/OfflineMusic_3.7.8_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.offlinemusic.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.offlinemusic.png"
+    },
+    {
       "name": "Lifesum",
       "type": 1,
       "bundleID": "com.sillens.iShape",
