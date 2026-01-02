@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Calory",
+      "type": 1,
+      "bundleID": "com.funnmedia.calory",
+      "bundleIdentifier": "com.funnmedia.calory",
+      "version": "4.6.3",
+      "versionDate": "2026-01-02",
+      "fullDate": "20260102214250",
+      "size": 299334852,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-01-2026/Calory_4.6.3_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-01-2026/Calory_4.6.3_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.funnmedia.calory.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.funnmedia.calory.png"
+    },
+    {
+      "name": "Soundmap",
+      "type": 2,
+      "bundleID": "app.mmap.mobile",
+      "bundleIdentifier": "app.mmap.mobile",
+      "version": "2.7.5",
+      "versionDate": "2026-01-02",
+      "fullDate": "20260102213745",
+      "size": 55018742,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-01-2026/Soundmap_2.7.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-01-2026/Soundmap_2.7.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.mmap.mobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.mmap.mobile.png"
+    },
+    {
       "name": "Stndrd",
       "type": 1,
       "bundleID": "uni.cbum",
