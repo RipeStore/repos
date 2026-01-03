@@ -41,6 +41,7 @@
           "com.apple.developer.icloud-container-environment",
           "com.apple.developer.icloud-container-identifiers",
           "com.apple.developer.icloud-services",
+          "com.apple.developer.ubiquity-container-identifiers",
           "com.apple.developer.ubiquity-kvstore-identifier"
         ],
         "privacy": {
@@ -51,12 +52,13 @@
       },
       "versions": [
         {
-          "version": "0.7.3",
-          "date": "2025-11-17",
-          "localizedDescription": "• Background downloading (iOS 26+): feel free to switch off the app while your downloads (and library refresh) complete.\n• Download compression: downloading should now be significantly faster and result in less storage usage by default, and you can now export downloaded chapters as cbz files.\n• Automatic backups: Aidoku can now schedule periodic backups in the background just in case something happens and you need to restore old data.\n• Built•in Kavita source and tracker (just like Komga).\n• New search tab: redesigned look, now with filter options and search history.\n• Local files improvements: metadata can now be parsed from ComicInfo.xml files (and downloads from other sources now save this).\n• Download badges: see how many downloaded chapters you have, next to the unread badge.\n• Many bug fixes: various iPadOS issues, Komga PDF pages, download crashes, auto tracking logic, etc.",
-          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.7.3/Aidoku.ipa",
-          "size": 6197921,
-          "minOSVersion": "15.0"
+          "version": "0.8",
+          "date": "2026-01-03",
+          "localizedDescription": "• New icon: updated for liquid glass.\n• Fluid transitions: Aidoku now fits in with more iOS 26 apps, letting you swipe to close the reader and other views.\n• Insights: reading time is now tracked (starting from this update), and you can see reading statistics in the insights page.\n• Library improvements: list mode, additional filter options, persistent filters, and improved multi•select.\n• Auto reader background color option: determine the reader background based on page color.\n• Live Text support: copy text and use Apple's built in image text translation feature by pressing the live text icon in the bottom right corner of page images.\n• Incognito indicator: a noticeable banner at the top now reminds you when reading history won't be tracked.\n• Fixed library refresh: should be more stable/consistent now, as I've seen a lot of people with issues recently.\n• Lots of other things! Check [the website](https://aidoku.app/release•notes/) for a more complete list.",
+          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.8/Aidoku.ipa",
+          "size": 8586369,
+          "minOSVersion": "15.0",
+          "buildVersion": "2"
         }
       ]
     }
