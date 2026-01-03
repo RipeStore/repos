@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "CollaNote",
+      "type": 1,
+      "bundleID": "net.quochuywdm.collanote496",
+      "bundleIdentifier": "net.quochuywdm.collanote496",
+      "version": "4.0.4",
+      "versionDate": "2026-01-03",
+      "fullDate": "20260103081902",
+      "size": 130189248,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-01-2026/CollaNote_4.0.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-01-2026/CollaNote_4.0.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.quochuywdm.collanote496.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.quochuywdm.collanote496.png"
+    },
+    {
+      "name": "Enki",
+      "type": 1,
+      "bundleID": "PHCXZHD53T.com.enki.insights",
+      "bundleIdentifier": "PHCXZHD53T.com.enki.insights",
+      "version": "2.40.4",
+      "versionDate": "2026-01-03",
+      "fullDate": "20260103081358",
+      "size": 18482661,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-01-2026/Enki_2.40.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-01-2026/Enki_2.40.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/PHCXZHD53T.com.enki.insights.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/PHCXZHD53T.com.enki.insights.png"
+    },
+    {
       "name": "ShutEye",
       "type": 1,
       "bundleID": "health.sleep.sounds.tracker.alarm.calm",
