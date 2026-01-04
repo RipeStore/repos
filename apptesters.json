@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Homeworkouts",
+      "type": 1,
+      "bundleID": "com.abishkking.maleworkout",
+      "bundleIdentifier": "com.abishkking.maleworkout",
+      "version": "1.44.0",
+      "versionDate": "2026-01-04",
+      "fullDate": "20260104091119",
+      "size": 363946769,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-01-2026/Homeworkouts_1.44.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-01-2026/Homeworkouts_1.44.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.abishkking.maleworkout.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.abishkking.maleworkout.png"
+    },
+    {
       "name": "HiWidget",
       "type": 1,
       "bundleID": "com.zerone.hidesktop",
