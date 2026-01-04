@@ -56,9 +56,9 @@
           "date": "2026-01-03",
           "localizedDescription": "• New icon: updated for liquid glass.\n• Fluid transitions: Aidoku now fits in with more iOS 26 apps, letting you swipe to close the reader and other views.\n• Insights: reading time is now tracked (starting from this update), and you can see reading statistics in the insights page.\n• Library improvements: list mode, additional filter options, persistent filters, and improved multi•select.\n• Auto reader background color option: determine the reader background based on page color.\n• Live Text support: copy text and use Apple's built in image text translation feature by pressing the live text icon in the bottom right corner of page images.\n• Incognito indicator: a noticeable banner at the top now reminds you when reading history won't be tracked.\n• Fixed library refresh: should be more stable/consistent now, as I've seen a lot of people with issues recently.\n• Lots of other things! Check [the website](https://aidoku.app/release•notes/) for a more complete list.",
           "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.8/Aidoku.ipa",
-          "size": 8586369,
+          "size": 8599915,
           "minOSVersion": "15.0",
-          "buildVersion": "2"
+          "buildVersion": "3"
         }
       ]
     }
