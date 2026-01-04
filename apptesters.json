@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TikTok",
+      "type": 1,
+      "bundleID": "com.zhiliaoapp.musically",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "version": "43.1.0",
+      "versionDate": "2026-01-04",
+      "fullDate": "20260104055540",
+      "size": 406666324,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-01-2026/TikTok_43.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-01-2026/TikTok_43.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png"
+    },
+    {
       "name": "iTranslate",
       "type": 1,
       "bundleID": "com.outerspaceapps.itranslate",
