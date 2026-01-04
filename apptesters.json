@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SleepMonitor",
+      "type": 1,
+      "bundleID": "com.sleepmonitor.aio",
+      "bundleIdentifier": "com.sleepmonitor.aio",
+      "version": "2.6.13",
+      "versionDate": "2026-01-04",
+      "fullDate": "20260104134151",
+      "size": 317477840,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-01-2026/SleepMonitor_2.6.13_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-01-2026/SleepMonitor_2.6.13_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sleepmonitor.aio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sleepmonitor.aio.png"
+    },
+    {
       "name": "SnapEdit",
       "type": 1,
       "bundleID": "com.sfun.snapedit",
