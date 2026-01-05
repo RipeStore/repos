@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TuneInRadio",
+      "type": 1,
+      "bundleID": "com.alexanderben.RadioIn",
+      "bundleIdentifier": "com.alexanderben.RadioIn",
+      "version": "40.7.0",
+      "versionDate": "2026-01-06",
+      "fullDate": "20260106021253",
+      "size": 72788850,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-01-2026/TuneInRadio_40.7.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-01-2026/TuneInRadio_40.7.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alexanderben.RadioIn.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alexanderben.RadioIn.png"
+    },
+    {
       "name": "Instagram",
       "type": 1,
       "bundleID": "com.burbn.instagram",
