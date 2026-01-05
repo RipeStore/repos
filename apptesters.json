@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Slopes",
+      "type": 1,
+      "bundleID": "com.consumedbycode.slopes",
+      "bundleIdentifier": "com.consumedbycode.slopes",
+      "version": "2026.1",
+      "versionDate": "2026-01-05",
+      "fullDate": "20260105063845",
+      "size": 90320407,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/Slopes_2026.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/Slopes_2026.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.consumedbycode.slopes.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.consumedbycode.slopes.png"
+    },
+    {
+      "name": "Mercury",
+      "type": 1,
+      "bundleID": "com.tripleglazedstudios.Weather",
+      "bundleIdentifier": "com.tripleglazedstudios.Weather",
+      "version": "3.1.2",
+      "versionDate": "2026-01-05",
+      "fullDate": "20260105054338",
+      "size": 58172054,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/Mercury_3.1.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/Mercury_3.1.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tripleglazedstudios.Weather.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tripleglazedstudios.Weather.png"
+    },
+    {
       "name": "Moonly",
       "type": 1,
       "bundleID": "com.moonly.Moonly",
