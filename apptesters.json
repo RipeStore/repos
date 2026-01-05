@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TranslateNow",
+      "type": 1,
+      "bundleID": "solutions.wzp.translator",
+      "bundleIdentifier": "solutions.wzp.translator",
+      "version": "2025.12.2",
+      "versionDate": "2026-01-05",
+      "fullDate": "20260105214136",
+      "size": 172513263,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/TranslateNow_2025.12.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/TranslateNow_2025.12.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/solutions.wzp.translator.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/solutions.wzp.translator.png"
+    },
+    {
       "name": "duet",
       "type": 1,
       "bundleID": "com.kairos.duet",
