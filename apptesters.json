@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "BlockBlast",
+      "type": 2,
+      "bundleID": "com.blockpuzzle.us.ios",
+      "bundleIdentifier": "com.blockpuzzle.us.ios",
+      "version": "6.6.9",
+      "versionDate": "2026-01-05",
+      "fullDate": "20260105164043",
+      "size": 128719209,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/BlockBlast_6.6.9_noads_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/BlockBlast_6.6.9_noads_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with noads",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.blockpuzzle.us.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.blockpuzzle.us.ios.png"
+    },
+    {
+      "name": "Calendars",
+      "type": 1,
+      "bundleID": "com.readdle.CalendarsLite",
+      "bundleIdentifier": "com.readdle.CalendarsLite",
+      "version": "5.37.17",
+      "versionDate": "2026-01-05",
+      "fullDate": "20260105163531",
+      "size": 280375778,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/Calendars_5.37.17_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/Calendars_5.37.17_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.CalendarsLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.CalendarsLite.png"
+    },
+    {
       "name": "Encode",
       "type": 1,
       "bundleID": "com.upskew.encode.ios",
