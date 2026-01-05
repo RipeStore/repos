@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Instagram",
+      "type": 1,
+      "bundleID": "com.burbn.instagram",
+      "bundleIdentifier": "com.burbn.instagram",
+      "version": "411.0.0",
+      "versionDate": "2026-01-06",
+      "fullDate": "20260106020240",
+      "size": 245750710,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-01-2026/Instagram_411.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-01-2026/Instagram_411.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png"
+    },
+    {
       "name": "ToonMe",
       "type": 1,
       "bundleID": "com.informelab.toonme",
