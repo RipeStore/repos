@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Cleanup",
+      "type": 1,
+      "bundleID": "com.codeway.cleanerplus",
+      "bundleIdentifier": "com.codeway.cleanerplus",
+      "version": "6.9.0",
+      "versionDate": "2026-01-05",
+      "fullDate": "20260105142951",
+      "size": 147320356,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/Cleanup_6.9.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/Cleanup_6.9.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.codeway.cleanerplus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.codeway.cleanerplus.png"
+    },
+    {
+      "name": "AIMarvels",
+      "type": 1,
+      "bundleID": "com.hitpaw.photoenhancer",
+      "bundleIdentifier": "com.hitpaw.photoenhancer",
+      "version": "1.95.0",
+      "versionDate": "2026-01-05",
+      "fullDate": "20260105142945",
+      "size": 172404370,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/AIMarvels_1.95.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/AIMarvels_1.95.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hitpaw.photoenhancer.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hitpaw.photoenhancer.png"
+    },
+    {
       "name": "Motionleap",
       "type": 1,
       "bundleID": "com.lightricks.Enlight-Phoenix",
