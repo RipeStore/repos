@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Facetune",
+      "type": 1,
+      "bundleID": "com.lightricks.Facetune2",
+      "bundleIdentifier": "com.lightricks.Facetune2",
+      "version": "3.115",
+      "versionDate": "2026-01-05",
+      "fullDate": "20260105231649",
+      "size": 340207081,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/Facetune_3.115_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/Facetune_3.115_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png"
+    },
+    {
       "name": "TranslateNow",
       "type": 1,
       "bundleID": "solutions.wzp.translator",
