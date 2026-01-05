@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Motionleap",
+      "type": 1,
+      "bundleID": "com.lightricks.Enlight-Phoenix",
+      "bundleIdentifier": "com.lightricks.Enlight-Phoenix",
+      "version": "1.9.33",
+      "versionDate": "2026-01-05",
+      "fullDate": "20260105133434",
+      "size": 176407531,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/Motionleap_1.9.33_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/Motionleap_1.9.33_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Phoenix.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Phoenix.png"
+    },
+    {
       "name": "MagicTiles3",
       "type": 2,
       "bundleID": "com.amanotes.magictiles",
