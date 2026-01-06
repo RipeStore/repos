@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "WebSSH",
+      "type": 1,
+      "bundleID": "com.itimeteo.webssh",
+      "bundleIdentifier": "com.itimeteo.webssh",
+      "version": "30.7",
+      "versionDate": "2026-01-07",
+      "fullDate": "20260107025659",
+      "size": 59620387,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-01-2026/WebSSH_30.7_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-01-2026/WebSSH_30.7_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.itimeteo.webssh.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.itimeteo.webssh.png"
+    },
+    {
+      "name": "Soundmap",
+      "type": 2,
+      "bundleID": "app.mmap.mobile",
+      "bundleIdentifier": "app.mmap.mobile",
+      "version": "2.7.7",
+      "versionDate": "2026-01-07",
+      "fullDate": "20260107025656",
+      "size": 57262660,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-01-2026/Soundmap_2.7.7_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-01-2026/Soundmap_2.7.7_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.mmap.mobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.mmap.mobile.png"
+    },
+    {
       "name": "Darkroom",
       "type": 1,
       "bundleID": "co.bergen.Darkroom",
