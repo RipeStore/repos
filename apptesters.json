@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Athlytic",
+      "type": 1,
+      "bundleID": "myndarc.newFitnessApp",
+      "bundleIdentifier": "myndarc.newFitnessApp",
+      "version": "26.2.2",
+      "versionDate": "2026-01-06",
+      "fullDate": "20260106163946",
+      "size": 27901780,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-01-2026/Athlytic_26.2.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-01-2026/Athlytic_26.2.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/myndarc.newFitnessApp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/myndarc.newFitnessApp.png"
+    },
+    {
       "name": "EPIK",
       "type": 1,
       "bundleID": "com.snowcorp.epik",
