@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "PUSH",
+      "type": 1,
+      "bundleID": "com.ADPTVLTD.push",
+      "bundleIdentifier": "com.ADPTVLTD.push",
+      "version": "3.9.7",
+      "versionDate": "2026-01-08",
+      "fullDate": "20260108023837",
+      "size": 40264132,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-01-2026/PUSH_3.9.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-01-2026/PUSH_3.9.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ADPTVLTD.push.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ADPTVLTD.push.png"
+    },
+    {
+      "name": "Shapr3D",
+      "type": 1,
+      "bundleID": "com.shapr3d.shapr",
+      "bundleIdentifier": "com.shapr3d.shapr",
+      "version": "5.1013.0",
+      "versionDate": "2026-01-08",
+      "fullDate": "20260108023255",
+      "size": 1163161292,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-01-2026/Shapr3D_5.1013.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-01-2026/Shapr3D_5.1013.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.shapr3d.shapr.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.shapr3d.shapr.png"
+    },
+    {
       "name": "SoundLab",
       "type": 1,
       "bundleID": "com.castpeer.audioroom.ios",
