@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "swipewipe",
+      "type": 1,
+      "bundleID": "com.aoklab.fewerphotos",
+      "bundleIdentifier": "com.aoklab.fewerphotos",
+      "version": "3.2.43",
+      "versionDate": "2026-01-07",
+      "fullDate": "20260107192057",
+      "size": 123697900,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-01-2026/swipewipe_3.2.43_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-01-2026/swipewipe_3.2.43_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aoklab.fewerphotos.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aoklab.fewerphotos.png"
+    },
+    {
+      "name": "Fonts",
+      "type": 1,
+      "bundleID": "fontskeyboard.fonts",
+      "bundleIdentifier": "fontskeyboard.fonts",
+      "version": "8.4.48",
+      "versionDate": "2026-01-07",
+      "fullDate": "20260107192054",
+      "size": 59975900,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-01-2026/Fonts_8.4.48_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-01-2026/Fonts_8.4.48_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/fontskeyboard.fonts.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/fontskeyboard.fonts.png"
+    },
+    {
       "name": "BlockBlast",
       "type": 2,
       "bundleID": "com.blockpuzzle.us.ios",
