@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Fitia",
+      "type": 1,
+      "bundleID": "com.ulisesolave.Fitia",
+      "bundleIdentifier": "com.ulisesolave.Fitia",
+      "version": "20.0.8",
+      "versionDate": "2026-01-08",
+      "fullDate": "20260108040846",
+      "size": 131692516,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-01-2026/Fitia_20.0.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-01-2026/Fitia_20.0.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png"
+    },
+    {
       "name": "PUSH",
       "type": 1,
       "bundleID": "com.ADPTVLTD.push",
