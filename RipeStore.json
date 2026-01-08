@@ -630,16 +630,6 @@
   ],
   "news": [
     {
-      "title": "Batman : The Telltale Series",
-      "identifier": "news_jdkmv216p0",
-      "caption": "A game that simply disappeared in plain sight. Brought back to life.",
-      "date": "2025-11-14T16:08:00Z",
-      "tintColor": "#0f0f0f",
-      "notify": true,
-      "url": "https://store.yemoja.xyz/app?bundle=com.telltalegames.BAT100\u0026version=1.8\u0026repo=https%3A%2F%2Fraw.githubusercontent.com%2Fripestore%2Frepos%2Fmain%2FRipeStore.json",
-      "appID": "com.telltalegames.BAT100"
-    },
-    {
       "title": "The Infinity Blade series!",
       "identifier": "news_m9nh92pzl7",
       "caption": "The Infinity Blade saga begins once again!",
