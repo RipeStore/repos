@@ -4,39 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="RipeStore Repository Configuration">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#050505" media="(prefers-color-scheme: dark)">
+
     <title>RipeStore</title>
     <style>
         :root {
-            /* --- PALETTE --- */
+            /* Light Theme */
             --bg-page: #ffffff;
             --text-main: #0f0f0f;
             --text-mute: #7a7a7a;
             
-            /* Button Palette (Replicating the reference image style) */
-            --btn-bg: #000000;
-            --btn-border: #3a3a3c;
-            --btn-text-title: #ffffff;
-            --btn-text-sub: #8e8e93;
+            --btn-bg: #ffffff;
+            --btn-border: #e5e5e5;
+            --btn-border-hover: #000000;
+            --btn-text-title: #000000;
+            --btn-text-sub: #666666;
+            --icon-inner-border: rgba(0,0,0,0.06);
 
-            /* Metrics */
             --container-w: 720px;
-            --radius-btn: 28px; /* Rounded corners from reference */
+            --radius-btn: 24px;
             --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", Roboto, Arial, sans-serif;
             --font-mono: "SF Mono", "Roboto Mono", monospace;
         }
 
         @media (prefers-color-scheme: dark) {
             :root {
+                /* Dark Theme */
                 --bg-page: #050505;
                 --text-main: #ededed;
                 --text-mute: #888888;
                 
-                /* In dark mode, the buttons blend in more, border becomes more subtle */
-                --btn-border: #2c2c2e;
+                --btn-bg: #000000;
+                --btn-border: #333333;
+                --btn-border-hover: #666666;
+                --btn-text-title: #ffffff;
+                --btn-text-sub: #8e8e93;
+                --icon-inner-border: rgba(255,255,255,0.1);
             }
         }
 
-        /* --- BASE --- */
         *, *::before, *::after { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
         
         body {
@@ -59,7 +69,7 @@
             flex-direction: column;
         }
 
-        /* --- COMPACT HEADER --- */
+        /* Header */
         header { margin-bottom: 40px; }
         
         h1 {
@@ -80,7 +90,7 @@
             opacity: 0.8;
         }
 
-        /* --- NEW BUTTON STYLE (Recreated from image) --- */
+        /* App Install Buttons */
         .grid-stadium {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -96,47 +106,49 @@
             border: 2px solid var(--btn-border);
             border-radius: var(--radius-btn);
             padding: 12px;
-            transition: transform 0.2s cubic-bezier(0.25, 0.8, 0.25, 1), border-color 0.2s;
+            transition: transform 0.2s cubic-bezier(0.25, 0.8, 0.25, 1), border-color 0.2s, background-color 0.2s;
         }
 
         .app-btn:hover {
             transform: translateY(-2px);
-            border-color: var(--text-mute);
+            border-color: var(--btn-border-hover);
         }
         
         .app-btn:active { transform: scale(0.98); }
 
         .btn-icon {
-            width: 60px;
-            height: 60px;
-            border-radius: 14px; /* Icon's own rounded corners */
-            margin-right: 16px;
+            width: 56px;
+            height: 56px;
+            border-radius: 13px;
+            margin-right: 14px;
             flex-shrink: 0;
-            /* Optional: adds a subtle inner border to the icon itself, like in the reference */
-            box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1); 
+            box-shadow: inset 0 0 0 1px var(--icon-inner-border); 
+            display: block;
         }
 
         .btn-text {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            min-width: 0;
         }
 
         .btn-title {
             color: var(--btn-text-title);
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: 700;
             line-height: 1.2;
+            white-space: nowrap;
         }
 
         .btn-subtitle {
             color: var(--btn-text-sub);
-            font-size: 0.95rem;
+            font-size: 0.9rem;
             font-weight: 500;
             line-height: 1.2;
         }
 
-        /* --- BLENDED LIST --- */
+        /* Manual Config List */
         .list-group {
             display: flex;
             flex-direction: column;
@@ -159,7 +171,6 @@
             user-select: none;
         }
 
-        /* Normal State */
         .url-row {
             display: flex;
             align-items: center;
@@ -167,7 +178,7 @@
             color: var(--text-mute);
             font-family: var(--font-mono);
             font-size: 0.85rem;
-            transition: opacity 0.2s, transform 0.2s;
+            transition: opacity 0.2s;
         }
 
         .url-row:hover { color: var(--text-main); }
@@ -182,7 +193,6 @@
         }
         .url-row:hover .icon-copy { opacity: 1; transform: translateX(0); }
 
-        /* Success State */
         .success-msg {
             position: absolute;
             left: 0;
@@ -199,7 +209,6 @@
             transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
 
-        /* Toggled Class */
         .list-item.is-copied .url-row {
             opacity: 0;
             transform: translateY(-10px);
@@ -209,7 +218,7 @@
             transform: translateY(0);
         }
 
-        /* --- FOOTER --- */
+        /* Footer */
         footer { margin-top: auto; padding-top: 60px; }
         .footer-link {
             color: var(--text-mute);
@@ -223,13 +232,13 @@
             border-bottom-color: var(--text-main);
         }
 
-        /* --- MOBILE TWEAKS --- */
+        /* Responsive */
         @media (max-width: 600px) {
             .wrapper { padding: 40px 20px; }
-            .grid-stadium { gap: 12px; }
-            /* On smaller screens, stack them for better readability */
-            .grid-stadium { grid-template-columns: 1fr; }
-            .btn-title { font-size: 1.1rem; }
+            .grid-stadium { 
+                grid-template-columns: 1fr;
+                gap: 12px; 
+            }
         }
     </style>
 </head>
@@ -364,7 +373,7 @@
                     document.execCommand('copy');
                     document.body.removeChild(ta);
                     runAnimation();
-                } catch (e) { console.error('Copy failed'); }
+                } catch (e) { console.error('Copy failed', e); }
             });
         });
     </script>
