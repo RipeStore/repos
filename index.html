@@ -3,457 +3,236 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RipeStore Repository Links and Installation">
     <title>RipeStore</title>
     <style>
-        /* Using a font that feels like a book, not a website. */
-        @import url('https://fonts.googleapis.com/css2?family=Georgia&family=Courier+New&display=swap');
-
         :root {
-            --bg-color: #23272f; /* A dark, late-night, slightly blue-grey */
-            --text-color: #c8c8c8; /* Soft, off-white. Not harsh. */
-            --header-color: #e0e0e0;
-            --pre-bg: #1e2127; /* A slightly different dark for code */
+            /* Color Palette */
+            --bg-body: #23272f;
+            --bg-card: #1e2127;
+            --text-main: #e0e0e0;
+            --text-muted: #a0a0a0;
             --border-color: rgba(255, 255, 255, 0.1);
-            --thought-color: #c8c8c8; 
+            --accent-color: #e0e0e0;
+            
+            /* Spacing & Transition */
+            --border-radius: 8px;
+            --transition-speed: 0.3s;
         }
 
-        /* The slow, breathing pulse of a background thought */
-        @keyframes pulse {
-            /* --- MODIFICATION --- 
-               Increased the opacity again, for real this time.
-               It needs to be a *presence*.
-            */
-            0% {
-                opacity: 0.1;
-                transform: translate(0, 0);
-            }
-            50% {
-                opacity: 0.2;
-                transform: translate(1px, -1px);
-            }
-            100% {
-                opacity: 0.1;
-                transform: translate(0, 0);
-            }
-        }
-
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            font-family: 'Georgia', serif;
-            line-height: 1.7;
+        /* Base Reset & Typography */
+        *, *::before, *::after {
+            box-sizing: border-box;
         }
 
         body {
-            /* This makes sure the thought-layer can fill the screen */
-            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100vh;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
         }
 
-        /* The Thought Layer.
-            This is the "paranoia." The background noise.
-            It's fixed, so it stays with you as you scroll.
-            It's behind everything else.
-        */
-        .thought-layer {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            z-index: 1;
-            pointer-events: none; /* So you can't click on the thoughts */
-            overflow: hidden; /* So they don't cause scrollbars */
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 1rem;
-        }
-
-        .thought-layer span {
-            position: absolute;
-            color: var(--thought-color);
-            animation: pulse 12s infinite ease-in-out;
-            white-space: nowrap; /* So they don't wrap */
-        }
-
-        /* --- MODIFICATION --- 
-           Added way more thoughts. It should feel 
-           more cluttered, more overlapping.
-        */
-        .thought-layer .thought-1 {
-            top: 10vh;
-            left: 5vw;
-            animation-delay: 0s;
-            font-size: 1.1rem;
-        }
-        .thought-layer .thought-2 {
-            top: 80vh;
-            right: 10vw;
-            animation-delay: -3s;
-        }
-        .thought-layer .thought-3 {
-            top: 40vh;
-            left: 50%;
-            transform: translateX(-50%);
-            animation-delay: -7s;
-            font-size: 0.9rem;
-        }
-        .thought-layer .thought-4 {
-            top: 20vh;
-            right: 20vw;
-            animation-delay: -10s;
-        }
-        .thought-layer .thought-5 {
-            top: 90vh;
-            left: 15vw;
-            animation-delay: -13s;
-            font-size: 1.2rem;
-        }
-        .thought-layer .thought-6 {
-            top: 5vh;
-            right: 5vw;
-            animation-delay: -5s;
-        }
-        .thought-layer .thought-7 {
-            top: 60vh;
-            left: 8vw;
-            animation-delay: -8s;
-            font-size: 0.9rem;
-        }
-        .thought-layer .thought-8 {
-            top: 75vh;
-            right: 30vw;
-            animation-delay: -2s;
-        }
-        .thought-layer .thought-9 {
-            top: 50vh;
-            left: 25vw;
-            animation-delay: -12s;
-        }
-        .thought-layer .thought-10 {
-            top: 25vh;
-            left: 30vw;
-            animation-delay: -6s;
-            font-size: 1.1rem;
-        }
-        .thought-layer .thought-11 {
-            top: 85vh;
-            left: 60vw;
-            animation-delay: -1s;
-        }
-        .thought-layer .thought-12 {
-            top: 15vh;
-            left: 70vw;
-            animation-delay: -9s;
-            font-size: 0.9rem;
-        }
-
-
-        /* The Main Content.
-            This is what's "supposed" to be here.
-            It's stacked on top of the thought layer.
-        */
+        /* Layout */
         main {
-            max-width: 700px;
+            max-width: 720px;
             margin: 0 auto;
-            padding: 8vh 2rem 15vh 2rem; /* Extra padding at the bottom */
-            position: relative;
-            z-index: 2;
-            background-color: transparent; /* See-through to the thoughts */
-            /* --- MODIFICATION --- 
-               Using flex to stack the new cards
-            */
+            padding: 4rem 1.5rem 6rem;
             display: flex;
             flex-direction: column;
-            gap: 2.5rem; /* This replaces the <hr> tags */
+            gap: 2rem;
         }
 
-        h2 {
-            color: var(--header-color);
-            font-size: 2rem;
-            letter-spacing: 0.05em;
+        h1 {
+            color: var(--text-main);
+            font-size: 2.5rem;
             text-align: center;
-            font-weight: normal;
-        }
-        
-        /* --- REMOVED ---
-            No longer need the shared h3 style or hr style.
-            They are replaced by the new .card styles.
-        */
-
-        p {
-            font-size: 1.1rem;
-            margin: 0; /* Resetting paragraph margin for card layout */
+            margin-bottom: 2rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
         }
 
-        /* --- REMOVED --- 
-        hr {
-            border: 0;
-            height: 1px;
-            background-color: var(--border-color);
-            margin: 3rem 0;
-        }
-        */
-
-        /* --- NEW STYLES --- 
-            The new "Card Catalog" UI
-        */
+        /* Card Component */
         .card {
-            background-color: var(--pre-bg);
+            background-color: var(--bg-card);
             border: 1px solid var(--border-color);
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            /* --- MODIFICATION --- 
-               Added opacity and transform transitions for the fade effect.
-               This is what makes the JavaScript change look smooth.
-            */
-            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
             
-            /* --- MODIFICATION --- 
-               Start all cards as "invisible" (faded out and scaled down).
-               This animation is direction-agnostic and won't feel
-               weird when scrolling back up.
-            */
+            /* Animation States */
             opacity: 0;
-            transform: scale(0.95);
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out, box-shadow var(--transition-speed);
         }
-        
-        /* --- NEW STYLE ---
-            This class will be added by JavaScript when the
-            card is in view.
-        */
+
         .card.is-visible {
             opacity: 1;
-            /* --- MODIFICATION --- 
-               Transform back to 100% scale.
-            */
-            transform: scale(1);
+            transform: translateY(0);
         }
 
         .card:hover {
-            border-color: rgba(255, 255, 255, 0.2);
-            box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+            border-color: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
         }
 
-        .card h3 {
-            /* This is the "tab" on the card */
-            font-family: 'Courier New', Courier, monospace;
-            background-color: var(--header-color);
-            color: var(--bg-color);
-            padding: 0.5rem 1rem;
-            display: inline-block;
-            border-radius: 6px 6px 0 0;
-            font-size: 1.1rem;
-            font-weight: bold;
-            letter-spacing: 0.05em;
-            margin: 0;
-            /* Neatly aligning the tab to the card border */
-            position: relative;
-            top: -1px;
-            left: -1px;
+        /* Card Header */
+        .card-header {
+            background-color: var(--bg-body);
             border-bottom: 1px solid var(--border-color);
+            padding: 0.75rem 1.5rem;
         }
 
+        .card-header h2 {
+            margin: 0;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /* Card Body */
         .card-content {
             padding: 1.5rem;
         }
 
-        /* The container for the buttons */
-        .button-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.5rem;
-            justify-content: center;
-            margin: 0; /* --- MODIFICATION ---  Reset margin */
+        .card-content p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            color: var(--text-muted);
+            font-size: 0.95rem;
         }
 
-        .button-grid a {
-            display: block;
-            border: none;
-            text-decoration: none;
-            transition: all 0.3s ease-in-out;
-        }
-
-        .button-grid a:hover {
-            opacity: 0.8;
-            transform: translateY(-2px);
-            /* A very faint glow, like an idea */
-            box-shadow: 0 4px 20px rgba(200, 200, 255, 0.08);
-            border: none;
-        }
-
-        .button-grid img {
-            width: 200px;
-            height: auto;
-            display: block;
-            border-radius: 8px; /* I like rounded corners */
-        }
-
-        /* Styling the code blocks */
+        /* Code Blocks */
         pre {
-            background-color: var(--pre-bg);
-            /* --- MODIFICATION --- 
-               The card has the border now, not the pre.
-               Also removed padding, card-content handles it.
-            */
-            border: none;
-            border-radius: 8px;
-            padding: 0;
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            padding: 1rem;
             margin: 0;
             overflow-x: auto;
-            white-space: pre-wrap; /* Wrap long lines */
-            word-wrap: break-word;
+            border: 1px solid var(--border-color);
         }
 
         code {
             font-family: 'Courier New', Courier, monospace;
-            font-size: 1rem;
-            color: var(--text-color);
-        }
-        
-        /* Making the links look nice */
-        a {
-            color: var(--header-color);
-            text-decoration: none;
-            border-bottom: 1px dashed var(--border-color);
-            transition: color 0.3s ease;
-        }
-        
-        a:hover {
-            color: #fff;
-            border-bottom-style: solid;
-        }
-        
-        /* --- NEW STYLE ---
-            A footer for a personal sign-off.
-            It's outside the 'main' box, at the
-            very bottom.
-        */
-        footer {
-            position: relative;
-            z-index: 2;
-            text-align: center;
-            padding: 2rem 0;
-            font-family: 'Courier New', Courier, monospace;
             font-size: 0.9rem;
-            color: var(--text-color);
-            opacity: 0.4;
+            color: var(--text-main);
         }
 
+        /* Action Buttons Grid */
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            justify-items: center;
+        }
+
+        .button-grid a {
+            display: block;
+            transition: transform var(--transition-speed), opacity var(--transition-speed);
+        }
+
+        .button-grid a:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+
+        .button-grid img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 6px;
+            display: block;
+        }
+
+        /* Links */
+        .link-standard {
+            color: var(--accent-color);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--border-color);
+            transition: border-bottom-style var(--transition-speed);
+        }
+
+        .link-standard:hover {
+            border-bottom-style: solid;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            opacity: 0.6;
+        }
     </style>
 </head>
 <body>
 
-    <div class="thought-layer" aria-hidden="true">
-        <span class="thought-1">brb changing my legal name and moving to a different continent. tell my grandmother i love her.</span>
-        <span class="thought-2">my brain has 47 tabs open, 3 are frozen, and i have no idea where the music is coming from.</span>
-        <span class="thought-3">disassociating in the corner of a library is a valid hobby, right?</span>
-        <span class="thought-4">the specific tragedy of finishing a book and realizing i have to return to actual reality. 0/10 do not recommend.</span>
-        <span class="thought-5">67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67 67</span>
-        <span class="thought-6">i feel like i'm butchering this.</span>
-        <span class="thought-7">it's a special kind of grief knowing i can't get paid for this.</span>
-        <span class="thought-8">my day is now ruined.</span>
-        <span class="thought-9">i'm 90% sure my downstairs neighbor is a ghost. the other 10% is that he's a professional clog dancer. either way, i have questions.</span>
-        <span class="thought-10">found an extra fry at the bottom of the bag. faith in the universe restored.</span>
-        <span class="thought-11">my sleep paralysis demon and i have inside jokes now.</span>
-        <span class="thought-12">the cursor is blinking at me aggressively. i feel threatened. i'm going to go eat cheese about it.</span>
-    </div>
-
     <main>
-        <h2>RipeStore</h2>
+        <header>
+            <h1>RipeStore</h1>
+        </header>
         
-        <div class="card">
-            <h3>Add to Device</h3>
+        <article class="card">
+            <div class="card-header">
+                <h2>Add to Device</h2>
+            </div>
             <div class="card-content">
                 <div class="button-grid">
-                    <a href="altstore://source?url=https://raw.githubusercontent.com/RipeStore/repos/refs/heads/main/RipeStore.json"><img src="https://cdn.jsdelivr.net/gh/RipeStore/icons@main/GENERAL/altstore_button.png" width="200" alt="Add to AltStore"></a>
-                    <a href="feather://source/https://raw.githubusercontent.com/RipeStore/repos/refs/heads/main/RipeStore.json"><img src="https://cdn.jsdelivr.net/gh/RipeStore/icons@main/GENERAL/feather_button.png" width="200" alt="Add to Feather"></a>
-                    <a href="sidestore://source?url=https://raw.githubusercontent.com/RipeStore/repos/refs/heads/main/RipeStore.json"><img src="https://cdn.jsdelivr.net/gh/RipeStore/icons@main/GENERAL/sidestore_button.png" width="200" alt="Add to SideStore"></a>
-                    <a href="livecontainer://source?url=https://raw.githubusercontent.com/RipeStore/repos/refs/heads/main/RipeStore.json"><img src="https://cdn.jsdelivr.net/gh/RipeStore/icons@main/GENERAL/livecontainer_button.png" width="200" alt="Add to LiveContainer"></a>
+                    <a href="altstore://source?url=https://raw.githubusercontent.com/RipeStore/repos/refs/heads/main/RipeStore.json" aria-label="Add to AltStore">
+                        <img src="https://cdn.jsdelivr.net/gh/RipeStore/icons@main/GENERAL/altstore_button.png" alt="Add to AltStore" loading="lazy">
+                    </a>
+                    <a href="feather://source/https://raw.githubusercontent.com/RipeStore/repos/refs/heads/main/RipeStore.json" aria-label="Add to Feather">
+                        <img src="https://cdn.jsdelivr.net/gh/RipeStore/icons@main/GENERAL/feather_button.png" alt="Add to Feather" loading="lazy">
+                    </a>
+                    <a href="sidestore://source?url=https://raw.githubusercontent.com/RipeStore/repos/refs/heads/main/RipeStore.json" aria-label="Add to SideStore">
+                        <img src="https://cdn.jsdelivr.net/gh/RipeStore/icons@main/GENERAL/sidestore_button.png" alt="Add to SideStore" loading="lazy">
+                    </a>
+                    <a href="livecontainer://source?url=https://raw.githubusercontent.com/RipeStore/repos/refs/heads/main/RipeStore.json" aria-label="Add to LiveContainer">
+                        <img src="https://cdn.jsdelivr.net/gh/RipeStore/icons@main/GENERAL/livecontainer_button.png" alt="Add to LiveContainer" loading="lazy">
+                    </a>
                 </div>
             </div>
-        </div>
+        </article>
         
-        <div class="card">
-            <h3>Direct Link</h3>
+        <article class="card">
+            <div class="card-header">
+                <h2>Direct Link</h2>
+            </div>
             <div class="card-content">
-                <p>(Fastest updates)</p>
+                <p>Use for fastest updates.</p>
                 <pre><code>https://github.com/RipeStore/repos/raw/refs/heads/main/RipeStore.json</code></pre>
             </div>
-        </div>
+        </article>
         
-        <div class="card">
-            <h3>Short URL</h3>
+        <article class="card">
+            <div class="card-header">
+                <h2>Short URL</h2>
+            </div>
             <div class="card-content">
-                <p>(Leads to the Direct link above)</p>
+                <p>Redirects to the Direct Link above.</p>
                 <pre><code>https://bit.ly/RipeStore</code></pre>
             </div>
-        </div>
+        </article>
 
-        <div class="card">
-            <h3>Site URL</h3>
-            <div class="card-content">
-                <p>(Might get cached, updates slower)</p>
-                <pre><code>https://yemoja.xyz/repos/RipeStore.json</code></pre>
+        <article class="card">
+            <div class="card-header">
+                <h2>Site URL</h2>
             </div>
-        </div>
-
-        <div class="card">
-            <h3>Browse</h3>
             <div class="card-content">
-                <p>or simply go to <a href="https://store.yemoja.xyz" target="_blank" rel="noopener noreferrer">https://store.yemoja.xyz</a> to browse the catalogue</p>
+                <p>Note: May be subject to caching delays.</p>
+                <pre><code>https://store.yemoja.xyz/repos/RipeStore.json</code></pre>
             </div>
-        </div>
-    </main>
+        </article>
 
-    <footer>
-        <p>
-            - L.
-        </p>
-    </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            // Find all the things we need to watch
-            const cards = document.querySelectorAll('.card');
-
-            // Set up the watcher
-            const observerOptions = {
-                root: null, // This means it watches relative to the viewport
-                rootMargin: '0px',
-                // This is the tricky part.
-                // 1.0 means 100% of the card must be visible to trigger.
-                // 0.0 means as soon as 1 pixel is visible.
-                // We want to fade things out as they leave, so we need
-                // to know when they're *partially* on screen.
-                // Let's use a few thresholds.
-                threshold: [0.1, 0.5, 1.0] 
-            };
-
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    // entry.isIntersecting is true if *any* part is visible
-                    // entry.intersectionRatio tells us *how much* is visible
-                    
-                    if (entry.intersectionRatio > 0.1) {
-                        // If at least 10% is visible, make it appear
-                        entry.target.classList.add('is-visible');
-                    } else {
-                        // If less than 10% is visible (i.e., it's scrolled
-                        // mostly off the top or bottom), make it fade away.
-                        entry.target.classList.remove('is-visible');
-                    }
-                });
-            }, observerOptions);
-
-            // Tell the watcher to watch all the cards
-            cards.forEach(card => {
-                observer.observe(card);
-            });
-        });
-    </script>
-
-</body>
-</html>
+        <article class="card">
+            <div class="card-header">
+                <h2>Browse Web Catalogue</h2>
+            </div>
+            <div class="card-content">
