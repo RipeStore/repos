@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "TuneInRadio",
+      "type": 1,
+      "bundleID": "com.alexanderben.RadioIn",
+      "bundleIdentifier": "com.alexanderben.RadioIn",
+      "version": "40.7.1",
+      "versionDate": "2026-01-08",
+      "fullDate": "20260108061904",
+      "size": 72371913,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-01-2026/TuneInRadio_40.7.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-01-2026/TuneInRadio_40.7.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alexanderben.RadioIn.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alexanderben.RadioIn.png"
+    },
+    {
+      "name": "PlaceGuesser",
+      "type": 2,
+      "bundleID": "com.mobivalley.LookAroundApp",
+      "bundleIdentifier": "com.mobivalley.LookAroundApp",
+      "version": "1.48.0",
+      "versionDate": "2026-01-08",
+      "fullDate": "20260108060859",
+      "size": 48677675,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-01-2026/PlaceGuesser_1.48.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-01-2026/PlaceGuesser_1.48.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mobivalley.LookAroundApp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mobivalley.LookAroundApp.png"
+    },
+    {
       "name": "Fitia",
       "type": 1,
       "bundleID": "com.ulisesolave.Fitia",
