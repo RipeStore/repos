@@ -10,17 +10,110 @@
   "headerURL": "https://i.imgur.com/nhHq9ly.png",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.sybogames.subway.surfers.game",
     "com.chairentertainment.IB3",
     "com.your-company.DelightGames"
   ],
   "apps": [
     {
+      "name": "SimpleFrontend",
+      "bundleIdentifier": "com.jimdude.SimpleFrontend",
+      "developerName": "Stossy11",
+      "subtitle": "Frontend for your web-apps and emulators",
+      "localizedDescription": "SimpleFrontend is an easy to use and lightweight frontend for native \u0026 web-based applications, emulators, etc. \n\nJust paste in a link to any site or app urlscheme you want, enter its details and the app loads it instantly in a clean, native interface to launch everything just at one tap.\n\nFeatures\n- Launch web-based applications by pasting a URL\n- Clean, Easy to use interface\n- Fast and lightweight performance\n- Works with a wide range of native emulators using URL Schemes.\n- No configuration required\n\nWhether you’re exploring classic experiences or testing web-based tools, SimpleFrontend provides a streamlined way to launch and use them.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/SIMPLEFRONTEND/logo.png",
+      "tintColor": "#8c14d4",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SIMPLEFRONTEND/1.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SIMPLEFRONTEND/2.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SIMPLEFRONTEND/3.webp"
+      ],
+      "versions": [
+        {
+          "version": "1.2",
+          "date": "2025-12-17T05:15:00Z",
+          "localizedDescription": "Fixed UI elements",
+          "downloadURL": "https://github.com/RipeStore/SimpleFrontend/releases/download/v1.2/SimpleFrontend_1.2.ipa",
+          "size": 2900000,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "NekoSurf",
+      "bundleIdentifier": "com.wrngwrld.Chanyan",
+      "developerName": "Marvin Jaeckisch",
+      "subtitle": "A Chan Reader written in Flutter",
+      "localizedDescription": "🍀 4chan image board viewer for iOS and Android, written in Flutter\n\nFeatures :\n• Boards and threads that can be favorised\n• Boards in grid- or listview\n• Sortable boards\n• Fast video and image gallery (Support for WebM on iOS)\n• Downloadable images and Videos (WebMs will be converted to MP4)\n• Download all images from one board\n• Supporting Dark Mode",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/NEKOSURF/logo.png",
+      "tintColor": "#6cd4ec",
+      "category": "social",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/NEKOSURF/1.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/NEKOSURF/2.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/NEKOSURF/3.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/NEKOSURF/4.webp"
+      ],
+      "versions": [
+        {
+          "version": "0.10.3",
+          "date": "2025-10-18T19:49:00Z",
+          "localizedDescription": "• Update icon to use icon composer on iOS\n• Remove legacy launch assets\n• Fix transparent app icon",
+          "downloadURL": "https://github.com/RipeStore/NekoSurf/releases/download/v0.10.3/NekoSurf_0.10.3_flight.ipa",
+          "size": 45400000,
+          "minOSVersion": "15.8.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Runner requires to play music.",
+          "NSCameraUsageDescription": "Runner requires access to your phone’s camera.",
+          "NSPhotoLibraryUsageDescription": "Runnerphotos description"
+        }
+      }
+    },
+    {
+      "name": "ImageX",
+      "bundleIdentifier": "com.tinyperfectapps.imagex",
+      "developerName": "Lyu Jiahao",
+      "subtitle": "Upscale, Enhance using Waifu2x",
+      "localizedDescription": "Note : Features behind in-app purchases.\n\n• AI Super Resolution\n• AI Frame Interpolation\n• Dozens of models\n• Local processing\n• GPU acceleration\n• Rich formats\n• Waifu2x \n• Real-CUGAN \n• Real-ESRGAN \n• SRMD \n• RealSR \n• RIFE \n• IFRNet\n\n- ImageX built-in a variety of latest image enhancement AI algorithms.\n\n- AI Super Resolution, enlarges the image, improve the image quality, noise reduction.\n- AI Frame Interpolation, improve the smoothness of animated image.\n- Dozens of pre-trained models, suitable for different styles.\n- Local offline processing, no upload required, ensuring privacy.\n- Support GPU hardware acceleration, faster processing speed.\n- Rich format, support JPG PNG APNG GIF WebP HEIC format.\n- No ads.\n- Supports iOS and Mac (sold separately).\n(For batch processing and faster speeds, we recommend the Mac version)\n\nPrivacy Protection:\nAll images are processed offline locally on the device, no uploading, no privacy risk.\n\nNon-Pro version restrictions:\n- iOS\n1. Any side of the output that is higher than 1280 pixels or the output that is an animated image does not support saving and sharing.\n2. Batch saving and sharing are not supported.\n- Mac\n1. Any side of the output that is higher than 1280 pixels or the output that is an animated image will be ignored.\n\nSubscription:\n1. Upgrade to Pro with Subscription or Lifetime Purchase to unlock full access.\n2. If subscribing to the Pro version (monthly subscription or annual subscription; lifetime purchases are not included), the subscription will automatically renew unless you cancel the subscription 24 hours before the end of the next recurring date.\n3. Pro for iOS and Mac are sold separately; iOS in-app purchases are only applicable to iOS App use, and Mac in-app purchases are only applicable to Mac App use.\n4. For batch processing and faster speeds, please choose the Mac version.\n\nPrivacy Policy: https://www.tinyperfectapps.com/res/imagex/policy/imagex_privacy_policy.html\nTerms of Use: https://www.tinyperfectapps.com/res/imagex/policy/imagex_terms_and_conditions.html\n\nReference projects:\nWaifu2x\n- nagadomi/waifu2x: https://github.com/nagadomi/waifu2x (MIT)\n- lltcggie/waifu2x-caffe: https://github.com/lltcggie/waifu2x-caffe (MIT)\n- nihui/waifu2x-ncnn-vulkan: https://github.com/nihui/waifu2x-ncnn-vulkan (MIT)\nReal-CUGAN\n- bilibili/ailab: https://github.com/bilibili/ailab/tree/main/Real-CUGAN (MIT)\n- nihui/realcugan-ncnn-vulkan: https://github.com/nihui/realcugan-ncnn-vulkan (MIT)\nReal-ESRGAN\n- xinntao/Real-ESRGAN: https://github.com/xinntao/Real-ESRGAN (BSD3)\n- xinntao/Real-ESRGAN-ncnn-vulkan: https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan (MIT)\nSRMD\n- cszn/SRMD: https://github.com/cszn/SRMD (MIT)\n- cszn/KAIR: https://github.com/cszn/KAIR (MIT)\n- nihui/srmd-ncnn-vulkan: https://github.com/nihui/srmd-ncnn-vulkan (MIT)\nRealSR\n- jixiaozhong/RealSR: https://github.com/jixiaozhong/RealSR (Apache2)\n- nihui/realsr-ncnn-vulkan: https://github.com/nihui/realsr-ncnn-vulkan (MIT)\nRIFE\n- megvii-research/ECCV2022-RIFE: https://github.com/megvii-research/ECCV2022-RIFE (MIT)\n- nihui/rife-ncnn-vulkan: https://github.com/nihui/rife-ncnn-vulkan (MIT)\nIFRNet\n- ltkong218/IFRNet: https://github.com/ltkong218/IFRNet (MIT)\n- nihui/ifrnet-ncnn-vulkan: https://github.com/nihui/ifrnet-ncnn-vulkan (MIT)",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/IMAGEX/logo.png",
+      "tintColor": "#7f7f7f",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/IMAGEX/1.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/IMAGEX/2.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/IMAGEX/3.webp"
+      ],
+      "versions": [
+        {
+          "version": "1.1.3",
+          "date": "2023-08-26T23:03:00Z",
+          "localizedDescription": "Bug fixes.",
+          "downloadURL": "https://github.com/RipeStore/imagex/releases/download/v1.1.3/ImageX_1.1.3.ipa",
+          "size": 293700000,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor"
+        }
+      }
+    },
+    {
       "name": "Batman - The Telltale Series",
       "bundleIdentifier": "com.telltalegames.BAT100",
       "developerName": "LCG Entertainment, Inc",
       "subtitle": "Enter the fractured psyche of Bruce Wayne where your choices have consequences",
-      "localizedDescription": "The main app will provide you access to the free content. \n\nGet episode data from the url below, this is to be extracted and copied into the app's documents folder in your files (On My iPhone/Batman...)  : \n\nhttps://pixeldrain.com/api/file/TsTFeA1N (3.07 GB)\n\nReport broken links at : https://github.com/RipeStore/repos/issues\n\nJoin the \"Telltale Archival Project\" Discord for guidance : https://discord.gg/Ztt3GcvexG\n\n----\n\n**All Episodes now available to download via in-app!**\n\nEnter the fractured psyche of Bruce Wayne and discover the powerful and far-reaching consequences of your choices as the Dark Knight.\n\nIn this gritty and violent new story from the award-winning creators of The Walking Dead – A Telltale Games Series, you'll make discoveries that will shatter Bruce Wayne's world, and the already fragile stability of a corrupt Gotham City.\n\nYour actions and your choices will determine the fate of the Batman.\n\nIncludes Episode 1 (FREE) in this all-new series from the award-winning studio, Telltale Games.",
+      "localizedDescription": "The main app will provide you access to the free content. Get episode data from, this is to be extracted and copied into the app's documents folder in your files (On My iPhone/Batman...)  : https://pixeldrain.com/api/file/TsTFeA1N (3.07 GB)\n\nReport broken links at : https://github.com/RipeStore/repos/issues\n\nJoin the \"Telltale Archival Project\" Discord for guidance : https://discord.gg/Ztt3GcvexG\n\n----\n\n**All Episodes now available to download via in-app!**\n\nEnter the fractured psyche of Bruce Wayne and discover the powerful and far-reaching consequences of your choices as the Dark Knight.\n\nIn this gritty and violent new story from the award-winning creators of The Walking Dead – A Telltale Games Series, you'll make discoveries that will shatter Bruce Wayne's world, and the already fragile stability of a corrupt Gotham City.\n\nYour actions and your choices will determine the fate of the Batman.\n\nIncludes Episode 1 (FREE) in this all-new series from the award-winning studio, Telltale Games.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/telltale/BATMAN_TTS/icon_BATMAN.webp",
       "tintColor": "#7f7f7f",
       "category": "games",
@@ -84,44 +177,6 @@
       }
     },
     {
-      "name": "Subway Surfers City (Region Locked)",
-      "bundleIdentifier": "com.sybogames.subway.surfers.game",
-      "developerName": "Sybo Games",
-      "subtitle": "Get running and join the hype! Region Locked!",
-      "localizedDescription": "Jump into the world of Subway City and play the newest endless running game. Conquer the new obstacles, reach new heights, and collect new characters! Jake, Tricky, Fresh and Yutani will take you on new adventures in Subway Surfers City. \n\nSubway Surfers City brings an arcade runner quest with super-charged visuals, new characters, thrilling missions and more. Play now and run like never before!\n\nKey features:\n- UNLOCK LIVELY DISTRICTS: Explore the edges of Subway City while running away from Guard and Dog. Collect XP to unlock new areas!\n- UNCOVER SECRETS: Stomp and jump for a new way to play this runner game. Reach new depths and heights and discover hard-to-reach Secret Stars!\n- COLLECT AND UPGRADE SURFERS \u0026 BOARDS: Each Subway Surfer and board has unique power ups – coin magnets, bouncy shields, and many more! Upgrade and combine runners and boards to play your way. Collect them all by playing and opening mystery boxes, and upgrade their powers. \n- COMPLETE MISSIONS AND WIN REWARDS: The crew needs you to run your best! Play smart and finish missions to unlock new items and win boosters.\n- CONQUER TRIALS: Are you ready for the biggest challenge of your running skills? Trials are adrenaline-pumping limited runs that require your best performance to get the best rewards.\n- PLAY OFFLINE: Subway Surfers City is available offline! Play with no wifi or no internet connection at all. Access to some features will be limited. \n\nDownload Subway Surfers City now and play for free! Some in-game items can also be purchased for real money.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/icon_SUBWAY2.png",
-      "tintColor": "#f46227",
-      "category": "games",
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/01.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/02.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/03.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/04.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/05.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/06.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/07.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/08.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/09.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons/SUBWAY2/10.webp"
-      ],
-      "versions": [
-        {
-          "version": "1.27.0",
-          "date": "2025-10-20T04:33:00Z",
-          "localizedDescription": "Hard Mode is here!  – Update Subway Surfers City to take on new goals with the help of your crew!\n\n• Hard Mode for District Trials: take on harder goals, complete them to earn more rewards!\n• Get bonus score from your crew members in trials!\n• Bug fixes removing the hurdles between you and your next best score.\n\nStay tuned as more exciting features and content are coming!",
-          "downloadURL": "https://github.com/RipeStore/subway2/releases/download/1.27.0/com.sybogames.subway.surfers.game-1.27.0.ipa",
-          "size": 197900000,
-          "minOSVersion": "16.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you."
-        }
-      }
-    },
-    {
       "name": "Flappy Bird",
       "bundleIdentifier": "org.brandonplank.flappybird",
       "developerName": "BrandonPlank",
@@ -168,8 +223,16 @@
       ],
       "versions": [
         {
+          "version": "0.8",
+          "date": "2025-12-30T08:41:00Z",
+          "localizedDescription": "Note - Might show up as 0.7 internally.\n\n• Fix Apple Music RPC crashing the app\n• Fix Permissions",
+          "downloadURL": "https://github.com/RipeStore/Stossycord/releases/download/0.8/Stossycord.ipa",
+          "size": 1700000,
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.6",
-          "date": "2025-09-29T01:58:00Z",
+          "date": "2025-09-28T20:28:00Z",
           "localizedDescription": "• Added Liquid Glass Support\n• Updated WebSocket Reconnection\n• Brand New Login UI",
           "downloadURL": "https://github.com/RipeStore/Stossycord/releases/download/0.6/Stossycord.ipa",
           "size": 1600000,
@@ -205,8 +268,16 @@
       ],
       "versions": [
         {
+          "version": "0.8.1",
+          "date": "2025-12-13T18:47:00Z",
+          "localizedDescription": "• Fixed LDEThreadController object leak causing infinite pthreads to be created\n• Fixed sub iOS 26.0 crash in code editor",
+          "downloadURL": "https://github.com/RipeStore/Nyxian/releases/download/0.8.1/nyxian_0.8.1_kate.ipa",
+          "size": 155300000,
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "0.6.0",
-          "date": "2025-09-06T18:09:00Z",
+          "date": "2025-09-06T12:39:00Z",
           "localizedDescription": "• A lot of changes, the most important thing is that you can now use your free Apple Developer Certificate and that its compatible with iPad!",
           "downloadURL": "https://github.com/RipeStore/Nyxian/releases/download/0.6.0/nyxian_0.6.ipa",
           "size": 155100000,
@@ -355,6 +426,13 @@
       ],
       "versions": [
         {
+          "version": "1.3.4",
+          "date": "2025-11-28T00:22:00Z",
+          "localizedDescription": "• Engine 7.8.8 (7.8.7 Memory Leak Fix)\n• New Safe Mode Logic:\n- Safe mode now utilizes vanilla engines\n- Selected Device Variants apply on Safe Mode\n- Spark Overlay will be available on Safe Mode\n- Speak Integration can be disabled with a separate option\n\n• Separated console \u0026 developer mode settings\n• Orphan File Error fix\n• Marshal load Error fix\n• Fixed certain ZIP files not importing\n• Fixed transparent text boxes not applying if running with game specific Ren'Py settings\n• Archive System Rework :\n- Added the ability to extract password protected archives.\n\n• Added Ren'py Options - Use Less Memory \u0026 Less Screen Updates\n\n*** New strings have not yet been translated ***",
+          "downloadURL": "https://github.com/RipeStore/spark/releases/download/v1.3.4/Spark_1.3.4.ipa",
+          "size": 238800000
+        },
+        {
           "version": "1.3.3",
           "date": "2025-11-15T13:11:00Z",
           "localizedDescription": "• Fixed Translations\n• Fixes for Quick Menu\n• Engine 8.5.0\n",
@@ -481,7 +559,7 @@
       "developerName": "aonez",
       "subtitle": "The file archiver for iOS",
       "localizedDescription": "Keka is a full featured file archiver, as easy as it can be.\nWith Keka you can compress as many files as you want in a bunch of formats. You can also encrypt them to store and share securely and with privacy.\nKeka can also browse and extract lots of compressed files, from ZIP and 7Z to RAR archives. Whether they are encrypted or encoded in with old charsets this is not a problem for Keka.\nCompression formats supported:\n7Z, ZIP, TAR, ZSTD, GZIP, BZIP2 and AppleArchive (AAR)\nExtraction formats supported:\n7Z, ZIP, RAR, TAR, GZIP, BZIP2, AAR, XZ, ZSTD, ISO, LZMA, EXE, CAB, MSI, PAX, JAR, APK, APPX, XPI, IPA, CPGZ, CPIO, XIP, CPT and many more\nTerms of Use: https://www.keka.io/termsofuse",
-      "iconURL": "https://camo.githubusercontent.com/eb408c867471549d18523b656c7adb5e45ed0fcf42c827ae2f9956690d5fce37/68747470733a2f2f7777772e6b656b612e696f2f696d672f4b656b612d5371756172652d353132783531322e706e67",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/Keka@main/Keka-Squish-128x128.png",
       "tintColor": "#9e7060",
       "category": "utilities",
       "screenshotURLs": [
@@ -557,7 +635,7 @@
       "caption": "A game that simply disappeared in plain sight. Brought back to life.",
       "date": "2025-11-14T16:08:00Z",
       "tintColor": "#0f0f0f",
-      "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/telltale/BATMAN_TTS/poster.jpg",
+      "notify": true,
       "url": "https://store.yemoja.xyz/app?bundle=com.telltalegames.BAT100\u0026version=1.8\u0026repo=https%3A%2F%2Fraw.githubusercontent.com%2Fripestore%2Frepos%2Fmain%2FRipeStore.json",
       "appID": "com.telltalegames.BAT100"
     },
@@ -568,6 +646,7 @@
       "date": "2025-11-08T22:25:00Z",
       "tintColor": "#cd0b0b",
       "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/UN/1400x800-96570af251fc03ab352769bb819aaf1b62a3863e.png",
+      "notify": true,
       "url": "https://store.yemoja.xyz/"
     }
   ]
