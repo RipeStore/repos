@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "StressWatch",
+      "type": 1,
+      "bundleID": "com.ideation.Stress",
+      "bundleIdentifier": "com.ideation.Stress",
+      "version": "2.4.17",
+      "versionDate": "2026-01-09",
+      "fullDate": "20260109092437",
+      "size": 235654698,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-01-2026/StressWatch_2.4.17_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-01-2026/StressWatch_2.4.17_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ideation.Stress.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ideation.Stress.png"
+    },
+    {
+      "name": "CollaNote",
+      "type": 1,
+      "bundleID": "net.quochuywdm.collanote496",
+      "bundleIdentifier": "net.quochuywdm.collanote496",
+      "version": "4.0.5",
+      "versionDate": "2026-01-09",
+      "fullDate": "20260109091930",
+      "size": 130202881,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-01-2026/CollaNote_4.0.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-01-2026/CollaNote_4.0.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.quochuywdm.collanote496.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.quochuywdm.collanote496.png"
+    },
+    {
       "name": "KineMaster",
       "type": 1,
       "bundleID": "com.kinemaster.kios",
