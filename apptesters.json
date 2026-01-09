@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SnapEdit",
+      "type": 1,
+      "bundleID": "com.sfun.snapedit",
+      "bundleIdentifier": "com.sfun.snapedit",
+      "version": "6.3.9",
+      "versionDate": "2026-01-09",
+      "fullDate": "20260109181611",
+      "size": 128312107,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-01-2026/SnapEdit_6.3.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-01-2026/SnapEdit_6.3.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png"
+    },
+    {
       "name": "NutriCoach",
       "type": 1,
       "bundleID": "nutrition.coach",
