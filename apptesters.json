@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "NoteAI",
+      "type": 1,
+      "bundleID": "com.hubx.noteai",
+      "bundleIdentifier": "com.hubx.noteai",
+      "version": "1.0.36",
+      "versionDate": "2026-01-09",
+      "fullDate": "20260109125523",
+      "size": 43334426,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-01-2026/NoteAI_1.0.36_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-01-2026/NoteAI_1.0.36_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hubx.noteai.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hubx.noteai.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.AppChief.ArabicArt",
