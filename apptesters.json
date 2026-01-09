@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SNOW",
+      "type": 1,
+      "bundleID": "com.campmobile.snow",
+      "bundleIdentifier": "com.campmobile.snow",
+      "version": "14.7.10",
+      "versionDate": "2026-01-10",
+      "fullDate": "20260110021830",
+      "size": 135935168,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-01-2026/SNOW_14.7.10_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-01-2026/SNOW_14.7.10_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.campmobile.snow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.campmobile.snow.png"
+    },
+    {
       "name": "Instagram",
       "type": 1,
       "bundleID": "com.burbn.instagram",
