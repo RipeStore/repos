@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VideoShow",
+      "type": 1,
+      "bundleID": "com.enjoy.VideoShow",
+      "bundleIdentifier": "com.enjoy.VideoShow",
+      "version": "6.0.00",
+      "versionDate": "2026-01-11",
+      "fullDate": "20260111044157",
+      "size": 259123725,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-01-2026/VideoShow_6.0.00_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-01-2026/VideoShow_6.0.00_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with VIP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.enjoy.VideoShow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.enjoy.VideoShow.png"
+    },
+    {
       "name": "Uplens",
       "type": 1,
       "bundleID": "app.uplens",
