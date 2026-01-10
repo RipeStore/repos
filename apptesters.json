@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Uplens",
+      "type": 1,
+      "bundleID": "app.uplens",
+      "bundleIdentifier": "app.uplens",
+      "version": "3.4.6",
+      "versionDate": "2026-01-10",
+      "fullDate": "20260110225625",
+      "size": 178546577,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-01-2026/Uplens_3.4.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-01-2026/Uplens_3.4.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.uplens.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.uplens.png"
+    },
+    {
       "name": "Duolingo",
       "type": 1,
       "bundleID": "com.duolingo.DuolingoMobile",
