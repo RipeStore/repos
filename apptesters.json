@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "BrainTest4",
+      "type": 2,
+      "bundleID": "com.unicostudio.braintest4",
+      "bundleIdentifier": "com.unicostudio.braintest4",
+      "version": "1.28.0",
+      "versionDate": "2026-01-10",
+      "fullDate": "20260110170029",
+      "size": 167238620,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-01-2026/BrainTest4_1.28.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-01-2026/BrainTest4_1.28.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.unicostudio.braintest4.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.unicostudio.braintest4.png"
+    },
+    {
       "name": "MergeCooking",
       "type": 2,
       "bundleID": "com.merge.cooking.theme.restaurant.food",
