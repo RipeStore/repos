@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "StepsApp",
+      "type": 1,
+      "bundleID": "com.gunthermarktl.stepapp",
+      "bundleIdentifier": "com.gunthermarktl.stepapp",
+      "version": "8.6.4",
+      "versionDate": "2026-01-12",
+      "fullDate": "20260112032926",
+      "size": 166884801,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-01-2026/StepsApp_8.6.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-01-2026/StepsApp_8.6.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gunthermarktl.stepapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gunthermarktl.stepapp.png"
+    },
+    {
+      "name": "Precious",
+      "type": 1,
+      "bundleID": "com.laubrothersllc.BabyArt",
+      "bundleIdentifier": "com.laubrothersllc.BabyArt",
+      "version": "3.49.10",
+      "versionDate": "2026-01-12",
+      "fullDate": "20260112032910",
+      "size": 317890453,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-01-2026/Precious_3.49.10_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-01-2026/Precious_3.49.10_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.laubrothersllc.BabyArt.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.laubrothersllc.BabyArt.png"
+    },
+    {
       "name": "X",
       "type": 1,
       "bundleID": "com.atebits.Tweetie2",
