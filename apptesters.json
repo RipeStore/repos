@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Swiftgram",
+      "type": 1,
+      "bundleID": "app.swiftgram.ios",
+      "bundleIdentifier": "app.swiftgram.ios",
+      "version": "12.3",
+      "versionDate": "2026-01-12",
+      "fullDate": "20260112020847",
+      "size": 80973142,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-01-2026/Swiftgram_12.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-01-2026/Swiftgram_12.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.swiftgram.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.swiftgram.ios.png"
+    },
+    {
       "name": "Lightleap",
       "type": 1,
       "bundleID": "com.lightricks.Enlight-Photos",
