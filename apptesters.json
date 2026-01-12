@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "QrCode",
+      "type": 1,
+      "bundleID": "com.internet-rocks.codescanner",
+      "bundleIdentifier": "com.internet-rocks.codescanner",
+      "version": "2025.12.4",
+      "versionDate": "2026-01-12",
+      "fullDate": "20260112165304",
+      "size": 138150726,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-01-2026/QrCode_2025.12.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-01-2026/QrCode_2025.12.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.internet-rocks.codescanner.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.internet-rocks.codescanner.png"
+    },
+    {
       "name": "Mockup",
       "type": 1,
       "bundleID": "com.hasankassem.mockup",
