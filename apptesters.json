@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Notability",
+      "type": 1,
+      "bundleID": "com.gingerlabs.Notability",
+      "bundleIdentifier": "com.gingerlabs.Notability",
+      "version": "15.3.2",
+      "versionDate": "2026-01-13",
+      "fullDate": "20260113012956",
+      "size": 227667303,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-01-2026/Notability_15.3.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-01-2026/Notability_15.3.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gingerlabs.Notability.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gingerlabs.Notability.png"
+    },
+    {
       "name": "Elevate",
       "type": 2,
       "bundleID": "com.elevateapp.elevate",
