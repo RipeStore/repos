@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Flacbox",
+      "type": 1,
+      "bundleID": "com.leshko.flap",
+      "bundleIdentifier": "com.leshko.flap",
+      "version": "7.2",
+      "versionDate": "2026-01-14",
+      "fullDate": "20260114041508",
+      "size": 60344013,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-01-2026/Flacbox_7.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-01-2026/Flacbox_7.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leshko.flap.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leshko.flap.png"
+    },
+    {
       "name": "Premiere",
       "type": 1,
       "bundleID": "com.adobe.premiere.ios",
