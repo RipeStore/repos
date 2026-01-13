@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "DaVinci",
+      "type": 1,
+      "bundleID": "com.hubx.imagination",
+      "bundleIdentifier": "com.hubx.imagination",
+      "version": "4.3.8",
+      "versionDate": "2026-01-13",
+      "fullDate": "20260113143211",
+      "size": 105704721,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-01-2026/DaVinci_4.3.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-01-2026/DaVinci_4.3.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hubx.imagination.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hubx.imagination.png"
+    },
+    {
+      "name": "Busuu",
+      "type": 1,
+      "bundleID": "com.busuu.english.app",
+      "bundleIdentifier": "com.busuu.english.app",
+      "version": "29.28.0",
+      "versionDate": "2026-01-13",
+      "fullDate": "20260113143204",
+      "size": 158677166,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-01-2026/Busuu_29.28.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-01-2026/Busuu_29.28.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png"
+    },
+    {
       "name": "Scanner",
       "type": 1,
       "bundleID": "com.apalonapps.pdffree",
