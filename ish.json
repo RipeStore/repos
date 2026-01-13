@@ -13,11 +13,11 @@
       "screenshotURLs": [
         "https://ish.app/assets/front-iphone-full.png"
       ],
-      "version": "Build 804",
-      "versionDate": "2026-01-10T06:12:43+00:00",
+      "version": "Build 805",
+      "versionDate": "2026-01-13T06:14:37+00:00",
       "versionDescription": "Automated daily build",
-      "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/804/iSH.ipa",
-      "size": 4603471
+      "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/805/iSH.ipa",
+      "size": 4603468
     }
   ],
   "userInfo": {}
