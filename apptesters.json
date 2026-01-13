@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "KineMaster",
+      "type": 1,
+      "bundleID": "com.kinemaster.kios",
+      "bundleIdentifier": "com.kinemaster.kios",
+      "version": "8.0.16",
+      "versionDate": "2026-01-13",
+      "fullDate": "20260113124133",
+      "size": 116444428,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-01-2026/KineMaster_8.0.16_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-01-2026/KineMaster_8.0.16_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kinemaster.kios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kinemaster.kios.png"
+    },
+    {
       "name": "Fitia",
       "type": 1,
       "bundleID": "com.ulisesolave.Fitia",
