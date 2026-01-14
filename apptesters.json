@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PlantSnap",
+      "type": 1,
+      "bundleID": "net.plantsnap.freemium",
+      "bundleIdentifier": "net.plantsnap.freemium",
+      "version": "7.5.0",
+      "versionDate": "2026-01-15",
+      "fullDate": "20260115013506",
+      "size": 54437575,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-01-2026/PlantSnap_7.5.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-01-2026/PlantSnap_7.5.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.plantsnap.freemium.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.plantsnap.freemium.png"
+    },
+    {
       "name": "VSCO",
       "type": 1,
       "bundleID": "co.visualsupply.cam",
