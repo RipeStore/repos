@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Bananai",
+      "type": 1,
+      "bundleID": "com.mwm.bananai",
+      "bundleIdentifier": "com.mwm.bananai",
+      "version": "1.0.24",
+      "versionDate": "2026-01-14",
+      "fullDate": "20260114142134",
+      "size": 338369740,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-01-2026/Bananai_1.0.24_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-01-2026/Bananai_1.0.24_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.bananai.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.bananai.png"
+    },
+    {
       "name": "NoteAI",
       "type": 1,
       "bundleID": "com.hubx.noteai",
