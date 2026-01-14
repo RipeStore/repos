@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Peachy",
+      "type": 1,
+      "bundleID": "com.camerasideas.Peachy",
+      "bundleIdentifier": "com.camerasideas.Peachy",
+      "version": "2.9.2",
+      "versionDate": "2026-01-14",
+      "fullDate": "20260114150657",
+      "size": 172366183,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-01-2026/Peachy_2.9.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-01-2026/Peachy_2.9.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.Peachy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.Peachy.png"
+    },
+    {
+      "name": "Aloha",
+      "type": 1,
+      "bundleID": "com.alohabrowser.alohabrowser",
+      "bundleIdentifier": "com.alohabrowser.alohabrowser",
+      "version": "8.0.0",
+      "versionDate": "2026-01-14",
+      "fullDate": "20260114150651",
+      "size": 139038003,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-01-2026/Aloha_8.0.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-01-2026/Aloha_8.0.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png"
+    },
+    {
       "name": "Bananai",
       "type": 1,
       "bundleID": "com.mwm.bananai",
