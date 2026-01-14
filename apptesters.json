@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AlarmClockforMe",
+      "type": 1,
+      "bundleID": "com.apalonapps.alarmclockfree",
+      "bundleIdentifier": "com.apalonapps.alarmclockfree",
+      "version": "3.19.21",
+      "versionDate": "2026-01-14",
+      "fullDate": "20260114173220",
+      "size": 73259477,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-01-2026/AlarmClockforMe_3.19.21_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-01-2026/AlarmClockforMe_3.19.21_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.alarmclockfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.alarmclockfree.png"
+    },
+    {
       "name": "ism",
       "type": 1,
       "bundleID": "com.ahaf.mshion",
