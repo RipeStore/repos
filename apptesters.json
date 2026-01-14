@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "NoteAI",
+      "type": 1,
+      "bundleID": "com.hubx.noteai",
+      "bundleIdentifier": "com.hubx.noteai",
+      "version": "1.0.37",
+      "versionDate": "2026-01-14",
+      "fullDate": "20260114124125",
+      "size": 43340792,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-01-2026/NoteAI_1.0.37_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-01-2026/NoteAI_1.0.37_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hubx.noteai.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hubx.noteai.png"
+    },
+    {
       "name": "Coconote",
       "type": 1,
       "bundleID": "com.bbauman.Scripty",
