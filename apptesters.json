@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Unfold",
+      "type": 1,
+      "bundleID": "com.moonlab.unfoldstories",
+      "bundleIdentifier": "com.moonlab.unfoldstories",
+      "version": "8.153.0",
+      "versionDate": "2026-01-15",
+      "fullDate": "20260115134734",
+      "size": 174370509,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-01-2026/Unfold_8.153.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-01-2026/Unfold_8.153.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonlab.unfoldstories.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonlab.unfoldstories.png"
+    },
+    {
       "name": "Detail",
       "type": 1,
       "bundleID": "co.detail.duo",
