@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Buddy",
+      "type": 1,
+      "bundleID": "com.iPwners.Plonkan",
+      "bundleIdentifier": "com.iPwners.Plonkan",
+      "version": "13.22",
+      "versionDate": "2026-01-15",
+      "fullDate": "20260115164925",
+      "size": 81596181,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-01-2026/Buddy_13.22_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-01-2026/Buddy_13.22_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iPwners.Plonkan.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iPwners.Plonkan.png"
+    },
+    {
+      "name": "Bearable",
+      "type": 1,
+      "bundleID": "co.codeleap.bearable",
+      "bundleIdentifier": "co.codeleap.bearable",
+      "version": "1.0.582",
+      "versionDate": "2026-01-15",
+      "fullDate": "20260115162919",
+      "size": 57766249,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-01-2026/Bearable_1.0.582_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-01-2026/Bearable_1.0.582_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.codeleap.bearable.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.codeleap.bearable.png"
+    },
+    {
       "name": "Mojo",
       "type": 1,
       "bundleID": "archery.storify",
