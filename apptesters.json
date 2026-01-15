@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Mojo",
+      "type": 1,
+      "bundleID": "archery.storify",
+      "bundleIdentifier": "archery.storify",
+      "version": "1.255.1",
+      "versionDate": "2026-01-15",
+      "fullDate": "20260115155909",
+      "size": 191860877,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-01-2026/Mojo_1.255.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-01-2026/Mojo_1.255.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/archery.storify.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/archery.storify.png"
+    },
+    {
       "name": "GOWOD",
       "type": 1,
       "bundleID": "eu.gowod",
