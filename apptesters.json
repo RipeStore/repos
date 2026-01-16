@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "CodeSnackIDE",
+      "type": 1,
+      "bundleID": "com.cloud-compiler",
+      "bundleIdentifier": "com.cloud-compiler",
+      "version": "5.9.12",
+      "versionDate": "2026-01-17",
+      "fullDate": "20260117041044",
+      "size": 22135389,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-01-2026/CodeSnackIDE_5.9.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-01-2026/CodeSnackIDE_5.9.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.cloud-compiler.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.cloud-compiler.png"
+    },
+    {
       "name": "Calendars",
       "type": 1,
       "bundleID": "com.readdle.CalendarsLite",
