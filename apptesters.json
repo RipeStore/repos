@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Locket",
+      "type": 1,
+      "bundleID": "com.locket.Locket",
+      "bundleIdentifier": "com.locket.Locket",
+      "version": "2.29.0",
+      "versionDate": "2026-01-17",
+      "fullDate": "20260117054053",
+      "size": 361202707,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-01-2026/Locket_2.29.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-01-2026/Locket_2.29.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Gold",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png"
+    },
+    {
       "name": "CodeSnackIDE",
       "type": 1,
       "bundleID": "com.cloud-compiler",
