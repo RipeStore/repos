@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "WABusiness",
+      "type": 1,
+      "bundleID": "net.whatsapp.WhatsAppSMB",
+      "bundleIdentifier": "net.whatsapp.WhatsAppSMB",
+      "version": "25.37.76",
+      "versionDate": "2026-01-18",
+      "fullDate": "20260118014046",
+      "size": 138881989,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-01-2026/WABusiness_25.37.76_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-01-2026/WABusiness_25.37.76_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.whatsapp.WhatsAppSMB.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.whatsapp.WhatsAppSMB.png"
+    },
+    {
+      "name": "WhatsApp",
+      "type": 1,
+      "bundleID": "net.whatsapp.WhatsApp",
+      "bundleIdentifier": "net.whatsapp.WhatsApp",
+      "version": "25.37.76",
+      "versionDate": "2026-01-18",
+      "fullDate": "20260118013534",
+      "size": 130641916,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-01-2026/WhatsApp_25.37.76_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-01-2026/WhatsApp_25.37.76_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.whatsapp.WhatsApp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.whatsapp.WhatsApp.png"
+    },
+    {
       "name": "Daygram",
       "type": 1,
       "bundleID": "com.saltycrackers.daygram",
