@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AlohaVPN",
+      "type": 1,
+      "bundleID": "com.alohabrowser.vpn",
+      "bundleIdentifier": "com.alohabrowser.vpn",
+      "version": "2.6.3",
+      "versionDate": "2026-01-18",
+      "fullDate": "20260118192916",
+      "size": 169120622,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-01-2026/AlohaVPN_2.6.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-01-2026/AlohaVPN_2.6.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.vpn.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.vpn.png"
+    },
+    {
       "name": "Tarteel",
       "type": 1,
       "bundleID": "com.iqraapp.Iqra",
