@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "InShot",
+      "type": 1,
+      "bundleID": "com.camerasideas.InstaShot",
+      "bundleIdentifier": "com.camerasideas.InstaShot",
+      "version": "1.93.0",
+      "versionDate": "2026-01-19",
+      "fullDate": "20260119061514",
+      "size": 127682522,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-01-2026/InShot_1.93.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-01-2026/InShot_1.93.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.InstaShot.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.InstaShot.png"
+    },
+    {
       "name": "SimplyGuitar",
       "type": 1,
       "bundleID": "com.joytunes.SimplyGuitar",
