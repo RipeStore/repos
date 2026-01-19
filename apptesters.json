@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SoundCloud",
+      "type": 1,
+      "bundleID": "com.soundcloud.TouchApp",
+      "bundleIdentifier": "com.soundcloud.TouchApp",
+      "version": "8.44.0",
+      "versionDate": "2026-01-20",
+      "fullDate": "20260120002511",
+      "size": 107344035,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-01-2026/SoundCloud_8.44.0_noads_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-01-2026/SoundCloud_8.44.0_noads_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with noads",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.soundcloud.TouchApp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.soundcloud.TouchApp.png"
+    },
+    {
       "name": "RiseSleep",
       "type": 1,
       "bundleID": "com.risesci.nyx",
