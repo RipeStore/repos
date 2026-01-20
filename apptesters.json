@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Unscripted",
+      "type": 1,
+      "bundleID": "com.ibit.UNPOSED",
+      "bundleIdentifier": "com.ibit.UNPOSED",
+      "version": "4.6.3",
+      "versionDate": "2026-01-21",
+      "fullDate": "20260121051909",
+      "size": 157162903,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/Unscripted_4.6.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/Unscripted_4.6.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ibit.UNPOSED.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ibit.UNPOSED.png"
+    },
+    {
+      "name": "Fitbod",
+      "type": 1,
+      "bundleID": "com.fitbod",
+      "bundleIdentifier": "com.fitbod",
+      "version": "8.1.0",
+      "versionDate": "2026-01-21",
+      "fullDate": "20260121051403",
+      "size": 112985760,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/Fitbod_8.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/Fitbod_8.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fitbod.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fitbod.png"
+    },
+    {
       "name": "YouTubeMusic",
       "type": 1,
       "bundleID": "com.google.ios.youtubemusic",
