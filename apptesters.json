@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Lightroom",
+      "type": 1,
+      "bundleID": "com.adobe.lrmobilephone",
+      "bundleIdentifier": "com.adobe.lrmobilephone",
+      "version": "11.1.1",
+      "versionDate": "2026-01-20",
+      "fullDate": "20260120224059",
+      "size": 197999067,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-01-2026/Lightroom_11.1.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-01-2026/Lightroom_11.1.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.lrmobilephone.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.lrmobilephone.png"
+    },
+    {
       "name": "Instagram",
       "type": 1,
       "bundleID": "com.burbn.instagram",
