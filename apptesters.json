@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "YouCut",
+      "type": 1,
+      "bundleID": "com.shantanu.YouCut",
+      "bundleIdentifier": "com.shantanu.YouCut",
+      "version": "1.27.0",
+      "versionDate": "2026-01-21",
+      "fullDate": "20260121020200",
+      "size": 85717738,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/YouCut_1.27.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/YouCut_1.27.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.shantanu.YouCut.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.shantanu.YouCut.png"
+    },
+    {
       "name": "VSCO",
       "type": 1,
       "bundleID": "co.visualsupply.cam",
