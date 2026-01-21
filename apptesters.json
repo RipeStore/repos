@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "MergeCooking",
+      "type": 2,
+      "bundleID": "com.merge.cooking.theme.restaurant.food",
+      "bundleIdentifier": "com.merge.cooking.theme.restaurant.food",
+      "version": "1.27.1",
+      "versionDate": "2026-01-22",
+      "fullDate": "20260122040950",
+      "size": 307413480,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/MergeCooking_1.27.1_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/MergeCooking_1.27.1_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png"
+    },
+    {
+      "name": "OrNETBrowser",
+      "type": 1,
+      "bundleID": "ch.b-eng.tor",
+      "bundleIdentifier": "ch.b-eng.tor",
+      "version": "3.9.15",
+      "versionDate": "2026-01-22",
+      "fullDate": "20260122035942",
+      "size": 124132126,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/OrNETBrowser_3.9.15_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/OrNETBrowser_3.9.15_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ch.b-eng.tor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ch.b-eng.tor.png"
+    },
+    {
       "name": "AdobeFresco",
       "type": 1,
       "bundleID": "com.adobe.fresco.ios",
