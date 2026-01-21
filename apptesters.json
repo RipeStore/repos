@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VivaCut",
+      "type": 1,
+      "bundleID": "com.vivacut.videoeditor",
+      "bundleIdentifier": "com.vivacut.videoeditor",
+      "version": "4.5.3",
+      "versionDate": "2026-01-21",
+      "fullDate": "20260121094440",
+      "size": 223080551,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/VivaCut_4.5.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/VivaCut_4.5.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vivacut.videoeditor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vivacut.videoeditor.png"
+    },
+    {
       "name": "Darkroom",
       "type": 1,
       "bundleID": "co.bergen.Darkroom",
