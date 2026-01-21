@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "CleanMyPhone",
+      "type": 1,
+      "bundleID": "com.macpaw.iosgemini",
+      "bundleIdentifier": "com.macpaw.iosgemini",
+      "version": "2.11.1",
+      "versionDate": "2026-01-21",
+      "fullDate": "20260121201724",
+      "size": 114769442,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/CleanMyPhone_2.11.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/CleanMyPhone_2.11.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.macpaw.iosgemini.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.macpaw.iosgemini.png"
+    },
+    {
+      "name": "Tripsy",
+      "type": 1,
+      "bundleID": "app.tripsy.ios",
+      "bundleIdentifier": "app.tripsy.ios",
+      "version": "3.7.4",
+      "versionDate": "2026-01-21",
+      "fullDate": "20260121201718",
+      "size": 113512765,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/Tripsy_3.7.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/Tripsy_3.7.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png"
+    },
+    {
       "name": "ShutEye",
       "type": 1,
       "bundleID": "health.sleep.sounds.tracker.alarm.calm",
