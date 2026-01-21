@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Facetune",
+      "type": 1,
+      "bundleID": "com.lightricks.Facetune2",
+      "bundleIdentifier": "com.lightricks.Facetune2",
+      "version": "3.116.1",
+      "versionDate": "2026-01-22",
+      "fullDate": "20260122013343",
+      "size": 336595473,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/Facetune_3.116.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/Facetune_3.116.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png"
+    },
+    {
       "name": "1Blocker",
       "type": 1,
       "bundleID": "com.khanov.BlockerX",
