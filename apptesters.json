@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Calm",
+      "type": 1,
+      "bundleID": "com.calm.calmapp",
+      "bundleIdentifier": "com.calm.calmapp",
+      "version": "6.87.1",
+      "versionDate": "2026-01-21",
+      "fullDate": "20260121230253",
+      "size": 119703740,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/Calm_6.87.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/Calm_6.87.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png"
+    },
+    {
+      "name": "FujiXWeekly",
+      "type": 1,
+      "bundleID": "com.fujixweekly.fujixweeklyrecipes",
+      "bundleIdentifier": "com.fujixweekly.fujixweeklyrecipes",
+      "version": "1.12.2",
+      "versionDate": "2026-01-21",
+      "fullDate": "20260121223749",
+      "size": 12551506,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/FujiXWeekly_1.12.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/FujiXWeekly_1.12.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fujixweekly.fujixweeklyrecipes.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fujixweekly.fujixweeklyrecipes.png"
+    },
+    {
       "name": "Action",
       "type": 1,
       "bundleID": "com.future.kapi",
