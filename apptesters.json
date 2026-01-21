@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "1Blocker",
+      "type": 1,
+      "bundleID": "com.khanov.BlockerX",
+      "bundleIdentifier": "com.khanov.BlockerX",
+      "version": "6.4.1",
+      "versionDate": "2026-01-22",
+      "fullDate": "20260122004836",
+      "size": 57085560,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/1Blocker_6.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/1Blocker_6.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.khanov.BlockerX.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.khanov.BlockerX.png"
+    },
+    {
+      "name": "RiseSleep",
+      "type": 1,
+      "bundleID": "com.risesci.nyx",
+      "bundleIdentifier": "com.risesci.nyx",
+      "version": "0.1.562",
+      "versionDate": "2026-01-22",
+      "fullDate": "20260122004820",
+      "size": 140167437,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/RiseSleep_0.1.562_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/RiseSleep_0.1.562_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png"
+    },
+    {
       "name": "Duolingo",
       "type": 1,
       "bundleID": "com.duolingo.DuolingoMobile",
