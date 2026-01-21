@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Fing",
+      "type": 1,
+      "bundleID": "overlook.fing",
+      "bundleIdentifier": "overlook.fing",
+      "version": "12.11.6",
+      "versionDate": "2026-01-21",
+      "fullDate": "20260121151100",
+      "size": 175500444,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/Fing_12.11.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-01-2026/Fing_12.11.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/overlook.fing.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/overlook.fing.png"
+    },
+    {
       "name": "FitnessOnline",
       "type": 1,
       "bundleID": "com.aiti.FitnessOnline",
