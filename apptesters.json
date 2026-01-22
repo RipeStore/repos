@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Peanote",
+      "type": 1,
+      "bundleID": "com.mwm.nota",
+      "bundleIdentifier": "com.mwm.nota",
+      "version": "1.4.4",
+      "versionDate": "2026-01-22",
+      "fullDate": "20260122200459",
+      "size": 31557994,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/Peanote_1.4.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/Peanote_1.4.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.nota.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.nota.png"
+    },
+    {
+      "name": "Foodie",
+      "type": 1,
+      "bundleID": "com.linecorp.Foodie",
+      "bundleIdentifier": "com.linecorp.Foodie",
+      "version": "7.4.10",
+      "versionDate": "2026-01-22",
+      "fullDate": "20260122193243",
+      "size": 105507471,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/Foodie_7.4.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/Foodie_7.4.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.Foodie.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.Foodie.png"
+    },
+    {
       "name": "VEEDCaptions",
       "type": 1,
       "bundleID": "io.veed.appstore",
