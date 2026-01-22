@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Balance",
+      "type": 1,
+      "bundleID": "com.elevateapp.kamino.kamino",
+      "bundleIdentifier": "com.elevateapp.kamino.kamino",
+      "version": "1.193.0",
+      "versionDate": "2026-01-23",
+      "fullDate": "20260123000750",
+      "size": 118204082,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-01-2026/Balance_1.193.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-01-2026/Balance_1.193.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.kamino.kamino.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.kamino.kamino.png"
+    },
+    {
+      "name": "Locket",
+      "type": 1,
+      "bundleID": "com.locket.Locket",
+      "bundleIdentifier": "com.locket.Locket",
+      "version": "2.29.1",
+      "versionDate": "2026-01-22",
+      "fullDate": "20260122233235",
+      "size": 361211800,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/Locket_2.29.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/Locket_2.29.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Gold",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png"
+    },
+    {
       "name": "Polish",
       "type": 1,
       "bundleID": "com.photoeditor.polish",
