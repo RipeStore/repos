@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Polish",
+      "type": 1,
+      "bundleID": "com.photoeditor.polish",
+      "bundleIdentifier": "com.photoeditor.polish",
+      "version": "2.1.4",
+      "versionDate": "2026-01-22",
+      "fullDate": "20260122231227",
+      "size": 127978013,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/Polish_2.1.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-01-2026/Polish_2.1.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.photoeditor.polish.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.photoeditor.polish.png"
+    },
+    {
       "name": "TravelBoast",
       "type": 1,
       "bundleID": "com.travelboast.travelboast",
