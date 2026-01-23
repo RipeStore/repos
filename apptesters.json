@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "HiWidget",
+      "type": 1,
+      "bundleID": "com.zerone.hidesktop",
+      "bundleIdentifier": "com.zerone.hidesktop",
+      "version": "4.3.80",
+      "versionDate": "2026-01-23",
+      "fullDate": "20260123145932",
+      "size": 450558566,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-01-2026/HiWidget_4.3.80_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-01-2026/HiWidget_4.3.80_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png"
+    },
+    {
       "name": "Evertag",
       "type": 1,
       "bundleID": "com.leshko.tagseditor",
