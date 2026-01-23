@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "BrickOut",
+      "type": 2,
+      "bundleID": "com.puzzle1studio.ap.brickoutshoottheball",
+      "bundleIdentifier": "com.puzzle1studio.ap.brickoutshoottheball",
+      "version": "26.0121.00",
+      "versionDate": "2026-01-23",
+      "fullDate": "20260123172516",
+      "size": 102324935,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-01-2026/BrickOut_26.0121.00_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-01-2026/BrickOut_26.0121.00_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IGG",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.puzzle1studio.ap.brickoutshoottheball.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.puzzle1studio.ap.brickoutshoottheball.png"
+    },
+    {
       "name": "Bloomberg",
       "type": 1,
       "bundleID": "com.bloomberg.Bloomberg",
