@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Evertag",
+      "type": 1,
+      "bundleID": "com.leshko.tagseditor",
+      "bundleIdentifier": "com.leshko.tagseditor",
+      "version": "4.1",
+      "versionDate": "2026-01-23",
+      "fullDate": "20260123133924",
+      "size": 40237541,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-01-2026/Evertag_4.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-01-2026/Evertag_4.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leshko.tagseditor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leshko.tagseditor.png"
+    },
+    {
       "name": "Captions",
       "type": 1,
       "bundleID": "boomer.Smart-Video",
