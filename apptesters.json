@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Bloomberg",
+      "type": 1,
+      "bundleID": "com.bloomberg.Bloomberg",
+      "bundleIdentifier": "com.bloomberg.Bloomberg",
+      "version": "6.51.1",
+      "versionDate": "2026-01-23",
+      "fullDate": "20260123171512",
+      "size": 25702367,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-01-2026/Bloomberg_6.51.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-01-2026/Bloomberg_6.51.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bloomberg.Bloomberg.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bloomberg.Bloomberg.png"
+    },
+    {
+      "name": "NYTGames",
+      "type": 2,
+      "bundleID": "com.magmic.NYTCrosswords09",
+      "bundleIdentifier": "com.magmic.NYTCrosswords09",
+      "version": "6.10.0",
+      "versionDate": "2026-01-23",
+      "fullDate": "20260123171509",
+      "size": 52682748,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-01-2026/NYTGames_6.10.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-01-2026/NYTGames_6.10.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.magmic.NYTCrosswords09.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.magmic.NYTCrosswords09.png"
+    },
+    {
       "name": "PSExpress",
       "type": 1,
       "bundleID": "com.adobe.PSMobile",
