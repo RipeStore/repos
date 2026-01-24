@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SkyGuide",
+      "type": 1,
+      "bundleID": "com.fifthstarlabs.skyguide",
+      "bundleIdentifier": "com.fifthstarlabs.skyguide",
+      "version": "12.0.10",
+      "versionDate": "2026-01-24",
+      "fullDate": "20260124053406",
+      "size": 272913724,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-01-2026/SkyGuide_12.0.10_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-01-2026/SkyGuide_12.0.10_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Plus",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fifthstarlabs.skyguide.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fifthstarlabs.skyguide.png"
+    },
+    {
       "name": "PeakVisor",
       "type": 1,
       "bundleID": "ru.routes.peakvisor",
