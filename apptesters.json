@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ProCCD",
+      "type": 1,
+      "bundleID": "com.yengshine.proccd",
+      "bundleIdentifier": "com.yengshine.proccd",
+      "version": "5.4.0",
+      "versionDate": "2026-01-25",
+      "fullDate": "20260125020608",
+      "size": 193654696,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-01-2026/ProCCD_5.4.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-01-2026/ProCCD_5.4.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yengshine.proccd.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yengshine.proccd.png"
+    },
+    {
       "name": "AdobeFresco",
       "type": 1,
       "bundleID": "com.adobe.fresco.ios",
