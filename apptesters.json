@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Busuu",
+      "type": 1,
+      "bundleID": "com.busuu.english.app",
+      "bundleIdentifier": "com.busuu.english.app",
+      "version": "29.30.0",
+      "versionDate": "2026-01-26",
+      "fullDate": "20260126001321",
+      "size": 159828974,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/Busuu_29.30.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/Busuu_29.30.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png"
+    },
+    {
       "name": "SimplyGuitar",
       "type": 1,
       "bundleID": "com.joytunes.SimplyGuitar",
