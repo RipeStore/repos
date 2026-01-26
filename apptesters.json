@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TranslateNow",
+      "type": 1,
+      "bundleID": "solutions.wzp.translator",
+      "bundleIdentifier": "solutions.wzp.translator",
+      "version": "2026.1.2",
+      "versionDate": "2026-01-26",
+      "fullDate": "20260126171204",
+      "size": 172511428,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/TranslateNow_2026.1.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/TranslateNow_2026.1.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/solutions.wzp.translator.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/solutions.wzp.translator.png"
+    },
+    {
       "name": "ShutEye",
       "type": 1,
       "bundleID": "health.sleep.sounds.tracker.alarm.calm",
