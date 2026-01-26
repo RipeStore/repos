@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Boostcamp",
+      "type": 1,
+      "bundleID": "com.bpmhealth.boostfitness",
+      "bundleIdentifier": "com.bpmhealth.boostfitness",
+      "version": "251",
+      "versionDate": "2026-01-26",
+      "fullDate": "20260126093956",
+      "size": 79086048,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/Boostcamp_251_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/Boostcamp_251_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bpmhealth.boostfitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bpmhealth.boostfitness.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.intsig.CamScannerLite",
