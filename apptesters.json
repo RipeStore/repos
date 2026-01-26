@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "iTranslate",
+      "type": 1,
+      "bundleID": "com.outerspaceapps.itranslate",
+      "bundleIdentifier": "com.outerspaceapps.itranslate",
+      "version": "17.4.69",
+      "versionDate": "2026-01-26",
+      "fullDate": "20260126142543",
+      "size": 90753070,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/iTranslate_17.4.69_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/iTranslate_17.4.69_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.outerspaceapps.itranslate.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.outerspaceapps.itranslate.png"
+    },
+    {
+      "name": "Mimo",
+      "type": 1,
+      "bundleID": "com.getmimo.mimo",
+      "bundleIdentifier": "com.getmimo.mimo",
+      "version": "11.1.0",
+      "versionDate": "2026-01-26",
+      "fullDate": "20260126141037",
+      "size": 78035253,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/Mimo_11.1.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/Mimo_11.1.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png"
+    },
+    {
       "name": "YouCut",
       "type": 1,
       "bundleID": "com.shantanu.YouCut",
