@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SoundLab",
+      "type": 1,
+      "bundleID": "com.castpeer.audioroom.ios",
+      "bundleIdentifier": "com.castpeer.audioroom.ios",
+      "version": "2.10.4",
+      "versionDate": "2026-01-26",
+      "fullDate": "20260126122013",
+      "size": 133129316,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/SoundLab_2.10.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/SoundLab_2.10.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.castpeer.audioroom.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.castpeer.audioroom.ios.png"
+    },
+    {
       "name": "Boostcamp",
       "type": 1,
       "bundleID": "com.bpmhealth.boostfitness",
