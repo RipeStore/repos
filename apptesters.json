@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "ScannerAir",
+      "type": 1,
+      "bundleID": "co.airapps.scannerapp",
+      "bundleIdentifier": "co.airapps.scannerapp",
+      "version": "2026.1.2",
+      "versionDate": "2026-01-26",
+      "fullDate": "20260126165141",
+      "size": 94056797,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/ScannerAir_2026.1.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/ScannerAir_2026.1.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.scannerapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.scannerapp.png"
+    },
+    {
+      "name": "DictionaryAir",
+      "type": 1,
+      "bundleID": "co.airapps.dictionary",
+      "bundleIdentifier": "co.airapps.dictionary",
+      "version": "2026.1.2",
+      "versionDate": "2026-01-26",
+      "fullDate": "20260126163636",
+      "size": 73644022,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/DictionaryAir_2026.1.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/DictionaryAir_2026.1.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.dictionary.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.dictionary.png"
+    },
+    {
       "name": "Edith",
       "type": 1,
       "bundleID": "com.thenovik.Presets",
