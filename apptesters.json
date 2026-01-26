@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SnoreLab",
+      "type": 1,
+      "bundleID": "com.revivasoftworks.Snore-Lab",
+      "bundleIdentifier": "com.revivasoftworks.Snore-Lab",
+      "version": "6.1.1",
+      "versionDate": "2026-01-26",
+      "fullDate": "20260126212332",
+      "size": 154678988,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/SnoreLab_6.1.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/SnoreLab_6.1.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.revivasoftworks.Snore-Lab.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.revivasoftworks.Snore-Lab.png"
+    },
+    {
       "name": "Instagram",
       "type": 1,
       "bundleID": "com.burbn.instagram",
