@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "KKPhoto",
+      "type": 1,
+      "bundleID": "tech.miidii.AlbumManager",
+      "bundleIdentifier": "tech.miidii.AlbumManager",
+      "version": "2.2.2",
+      "versionDate": "2026-01-27",
+      "fullDate": "20260127220029",
+      "size": 17693410,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-01-2026/KKPhoto_2.2.2_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-01-2026/KKPhoto_2.2.2_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.AlbumManager.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.AlbumManager.png"
+    },
+    {
       "name": "UpNote",
       "type": 1,
       "bundleID": "com.getupnote.ios",
