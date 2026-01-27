@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Duolingo",
+      "type": 1,
+      "bundleID": "com.duolingo.DuolingoMobile",
+      "bundleIdentifier": "com.duolingo.DuolingoMobile",
+      "version": "7.107.2",
+      "versionDate": "2026-01-27",
+      "fullDate": "20260127224035",
+      "size": 214617111,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-01-2026/Duolingo_7.107.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-01-2026/Duolingo_7.107.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png"
+    },
+    {
       "name": "KKPhoto",
       "type": 1,
       "bundleID": "tech.miidii.AlbumManager",
