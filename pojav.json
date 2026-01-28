@@ -73,7 +73,7 @@
           "version": "1.0 beta",
           "date": "2023-05-06T17:00:00-05:00",
           "localizedDescription": "Amethyst's 1.0 beta, built on PojavLauncher 3.0.",
-          "downloadURL": "https://crystall1ne.dev/null",
+          "downloadURL": "https://ci.angelauramc.dev/job/Amethyst-iOS/lastSuccessful/artifact/org.angelauramc.amethyst-1.0-ios.ipa",
           "size": 108175347,
           "minOSVersion": "14.0"
         }

@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "AdobeExpress",
+      "type": 1,
+      "bundleID": "com.adobe.post",
+      "bundleIdentifier": "com.adobe.post",
+      "version": "29.7.0",
+      "versionDate": "2026-01-28",
+      "fullDate": "20260128061756",
+      "size": 193455314,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-01-2026/AdobeExpress_29.7.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-01-2026/AdobeExpress_29.7.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.post.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.post.png"
+    },
+    {
+      "name": "PeakVisor",
+      "type": 1,
+      "bundleID": "ru.routes.peakvisor",
+      "bundleIdentifier": "ru.routes.peakvisor",
+      "version": "5.78",
+      "versionDate": "2026-01-28",
+      "fullDate": "20260128055248",
+      "size": 127317574,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-01-2026/PeakVisor_5.78_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-01-2026/PeakVisor_5.78_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png"
+    },
+    {
       "name": "Photoshop",
       "type": 1,
       "bundleID": "com.adobe.photoshop.ios",
