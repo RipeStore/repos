@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "LUTStudio",
+      "type": 1,
+      "bundleID": "com.solveit.lut-studio",
+      "bundleIdentifier": "com.solveit.lut-studio",
+      "version": "3.0.0",
+      "versionDate": "2026-01-30",
+      "fullDate": "20260130015759",
+      "size": 109471733,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-01-2026/LUTStudio_3.0.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-01-2026/LUTStudio_3.0.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.solveit.lut-studio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.solveit.lut-studio.png"
+    },
+    {
       "name": "RiseSleep",
       "type": 1,
       "bundleID": "com.risesci.nyx",
