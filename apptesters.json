@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Photomyne",
+      "type": 1,
+      "bundleID": "com.photomyne.photomyneapplite",
+      "bundleIdentifier": "com.photomyne.photomyneapplite",
+      "version": "32.3",
+      "versionDate": "2026-01-30",
+      "fullDate": "20260130031811",
+      "size": 169398311,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-01-2026/Photomyne_32.3_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-01-2026/Photomyne_32.3_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.photomyne.photomyneapplite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.photomyne.photomyneapplite.png"
+    },
+    {
       "name": "LUTStudio",
       "type": 1,
       "bundleID": "com.solveit.lut-studio",
