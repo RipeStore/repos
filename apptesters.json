@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MDClock",
+      "type": 1,
+      "bundleID": "tech.miidii.MDClock",
+      "bundleIdentifier": "tech.miidii.MDClock",
+      "version": "2.64",
+      "versionDate": "2026-01-30",
+      "fullDate": "20260130132933",
+      "size": 312939408,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-01-2026/MDClock_2.64_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-01-2026/MDClock_2.64_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDClock.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDClock.png"
+    },
+    {
       "name": "HiWidget",
       "type": 1,
       "bundleID": "com.zerone.hidesktop",
