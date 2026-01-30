@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "HiWidget",
+      "type": 1,
+      "bundleID": "com.zerone.hidesktop",
+      "bundleIdentifier": "com.zerone.hidesktop",
+      "version": "4.3.82",
+      "versionDate": "2026-01-30",
+      "fullDate": "20260130083401",
+      "size": 450552124,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-01-2026/HiWidget_4.3.82_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-01-2026/HiWidget_4.3.82_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png"
+    },
+    {
       "name": "FreeYourMusic",
       "type": 1,
       "bundleID": "io.stampapp.Stamp",
