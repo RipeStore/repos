@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Truecaller",
+      "type": 1,
+      "bundleID": "com.truesoftware.TrueCallerOther",
+      "bundleIdentifier": "com.truesoftware.TrueCallerOther",
+      "version": "26.3.5",
+      "versionDate": "2026-01-30",
+      "fullDate": "20260130144952",
+      "size": 79078170,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-01-2026/Truecaller_26.3.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-01-2026/Truecaller_26.3.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.truesoftware.TrueCallerOther.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.truesoftware.TrueCallerOther.png"
+    },
+    {
       "name": "MDClock",
       "type": 1,
       "bundleID": "tech.miidii.MDClock",
