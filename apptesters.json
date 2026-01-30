@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Balance",
+      "type": 1,
+      "bundleID": "com.elevateapp.kamino.kamino",
+      "bundleIdentifier": "com.elevateapp.kamino.kamino",
+      "version": "1.194.0",
+      "versionDate": "2026-01-31",
+      "fullDate": "20260131015423",
+      "size": 118206127,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-01-2026/Balance_1.194.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-01-2026/Balance_1.194.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.kamino.kamino.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.kamino.kamino.png"
+    },
+    {
       "name": "Foodie",
       "type": 1,
       "bundleID": "com.linecorp.Foodie",
