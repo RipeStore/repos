@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MacroFactor",
+      "type": 1,
+      "bundleID": "com.sbs.diet",
+      "bundleIdentifier": "com.sbs.diet",
+      "version": "5.7.5",
+      "versionDate": "2026-02-01",
+      "fullDate": "20260201030320",
+      "size": 89616112,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-02-2026/MacroFactor_5.7.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-02-2026/MacroFactor_5.7.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png"
+    },
+    {
       "name": "Workouts",
       "type": 1,
       "bundleID": "com.sbs.train",
