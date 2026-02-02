@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "VSCO",
+      "type": 1,
+      "bundleID": "co.visualsupply.cam",
+      "bundleIdentifier": "co.visualsupply.cam",
+      "version": "456.0.1",
+      "versionDate": "2026-02-02",
+      "fullDate": "20260202060338",
+      "size": 207752556,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-02-2026/VSCO_456.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-02-2026/VSCO_456.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png"
+    },
+    {
+      "name": "Benky",
+      "type": 1,
+      "bundleID": "app.benkyo.Benkyo",
+      "bundleIdentifier": "app.benkyo.Benkyo",
+      "version": "2.5.3",
+      "versionDate": "2026-02-02",
+      "fullDate": "20260202052831",
+      "size": 109643383,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-02-2026/Benky_2.5.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-02-2026/Benky_2.5.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.benkyo.Benkyo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.benkyo.Benkyo.png"
+    },
+    {
       "name": "Crsel",
       "type": 1,
       "bundleID": "com.frameoneapps.Crsel",
