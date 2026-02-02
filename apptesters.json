@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Documents",
+      "type": 1,
+      "bundleID": "com.readdle.ReaddleDocsIPad",
+      "bundleIdentifier": "com.readdle.ReaddleDocsIPad",
+      "version": "8.19.2",
+      "versionDate": "2026-02-02",
+      "fullDate": "20260202173041",
+      "size": 354773408,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-02-2026/Documents_8.19.2_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-02-2026/Documents_8.19.2_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Plus",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.ReaddleDocsIPad.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.ReaddleDocsIPad.png"
+    },
+    {
       "name": "Facetune",
       "type": 1,
       "bundleID": "com.lightricks.Facetune2",
