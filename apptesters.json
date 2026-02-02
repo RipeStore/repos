@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TunerPro",
+      "type": 1,
+      "bundleID": "com.mwm.guitartuner",
+      "bundleIdentifier": "com.mwm.guitartuner",
+      "version": "4.00.00",
+      "versionDate": "2026-02-02",
+      "fullDate": "20260202161511",
+      "size": 274864942,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-02-2026/TunerPro_4.00.00_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-02-2026/TunerPro_4.00.00_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.guitartuner.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.guitartuner.png"
+    },
+    {
       "name": "Mimo",
       "type": 1,
       "bundleID": "com.getmimo.mimo",
