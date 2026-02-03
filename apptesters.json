@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "RunGo",
+      "type": 1,
+      "bundleID": "com.leapingcoyote.rungo",
+      "bundleIdentifier": "com.leapingcoyote.rungo",
+      "version": "7.2.4",
+      "versionDate": "2026-02-03",
+      "fullDate": "20260203132210",
+      "size": 38631071,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/RunGo_7.2.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/RunGo_7.2.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leapingcoyote.rungo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leapingcoyote.rungo.png"
+    },
+    {
       "name": "SleepCycle",
       "type": 1,
       "bundleID": "com.lexwarelabs.goodmorning",
