@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Slopes",
+      "type": 1,
+      "bundleID": "com.consumedbycode.slopes",
+      "bundleIdentifier": "com.consumedbycode.slopes",
+      "version": "2026.4",
+      "versionDate": "2026-02-04",
+      "fullDate": "20260204012549",
+      "size": 90502323,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/Slopes_2026.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/Slopes_2026.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.consumedbycode.slopes.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.consumedbycode.slopes.png"
+    },
+    {
       "name": "UpNote",
       "type": 1,
       "bundleID": "com.getupnote.ios",
