@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Messenger",
+      "type": 1,
+      "bundleID": "com.facebook.Messenger",
+      "bundleIdentifier": "com.facebook.Messenger",
+      "version": "547.0.0",
+      "versionDate": "2026-02-03",
+      "fullDate": "20260203183920",
+      "size": 67100675,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/Messenger_547.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/Messenger_547.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png"
+    },
+    {
       "name": "Thenics",
       "type": 1,
       "bundleID": "com.innothenics.thenics",
