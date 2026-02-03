@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Animock",
+      "type": 1,
+      "bundleID": "com.hassantaleb.mockup",
+      "bundleIdentifier": "com.hassantaleb.mockup",
+      "version": "5.0",
+      "versionDate": "2026-02-03",
+      "fullDate": "20260203195939",
+      "size": 85373813,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/Animock_5.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/Animock_5.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hassantaleb.mockup.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hassantaleb.mockup.png"
+    },
+    {
+      "name": "SCRL",
+      "type": 1,
+      "bundleID": "com.dopedevelopment.Panels",
+      "bundleIdentifier": "com.dopedevelopment.Panels",
+      "version": "9.27.2",
+      "versionDate": "2026-02-03",
+      "fullDate": "20260203193930",
+      "size": 60452224,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/SCRL_9.27.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/SCRL_9.27.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png"
+    },
+    {
       "name": "Messenger",
       "type": 1,
       "bundleID": "com.facebook.Messenger",
