@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SHRED",
+      "type": 1,
+      "bundleID": "com.shred.shredlabs",
+      "bundleIdentifier": "com.shred.shredlabs",
+      "version": "5.3.8",
+      "versionDate": "2026-02-04",
+      "fullDate": "20260204042223",
+      "size": 147857803,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/SHRED_5.3.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/SHRED_5.3.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.shred.shredlabs.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.shred.shredlabs.png"
+    },
+    {
+      "name": "FreeYourMusic",
+      "type": 1,
+      "bundleID": "io.stampapp.Stamp",
+      "bundleIdentifier": "io.stampapp.Stamp",
+      "version": "9.22.1",
+      "versionDate": "2026-02-04",
+      "fullDate": "20260204040219",
+      "size": 26496530,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/FreeYourMusic_9.22.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/FreeYourMusic_9.22.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.stampapp.Stamp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.stampapp.Stamp.png"
+    },
+    {
       "name": "CodeSnackIDE",
       "type": 1,
       "bundleID": "com.cloud-compiler",
