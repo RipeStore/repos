@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Premiere",
+      "type": 1,
+      "bundleID": "com.adobe.premiere.ios",
+      "bundleIdentifier": "com.adobe.premiere.ios",
+      "version": "26.5.0",
+      "versionDate": "2026-02-04",
+      "fullDate": "20260204020603",
+      "size": 68408598,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/Premiere_26.5.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/Premiere_26.5.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.premiere.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.premiere.ios.png"
+    },
+    {
       "name": "Slopes",
       "type": 1,
       "bundleID": "com.consumedbycode.slopes",
