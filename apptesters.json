@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ScannerAir",
+      "type": 1,
+      "bundleID": "co.airapps.scannerapp",
+      "bundleIdentifier": "co.airapps.scannerapp",
+      "version": "2026.1.3",
+      "versionDate": "2026-02-03",
+      "fullDate": "20260203160239",
+      "size": 94056790,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/ScannerAir_2026.1.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/ScannerAir_2026.1.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.scannerapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.scannerapp.png"
+    },
+    {
       "name": "FujiXWeekly",
       "type": 1,
       "bundleID": "com.fujixweekly.fujixweeklyrecipes",
