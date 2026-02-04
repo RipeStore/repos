@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "NOAARadar",
+      "type": 1,
+      "bundleID": "com.itwcalculator.worldradarfree",
+      "bundleIdentifier": "com.itwcalculator.worldradarfree",
+      "version": "5.17.0",
+      "versionDate": "2026-02-04",
+      "fullDate": "20260204164451",
+      "size": 148748214,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/NOAARadar_5.17.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/NOAARadar_5.17.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.itwcalculator.worldradarfree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.itwcalculator.worldradarfree.png"
+    },
+    {
       "name": "Polarr",
       "type": 1,
       "bundleID": "co.polarr.ppe",
