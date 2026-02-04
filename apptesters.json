@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Locket",
+      "type": 1,
+      "bundleID": "com.locket.Locket",
+      "bundleIdentifier": "com.locket.Locket",
+      "version": "2.31.1",
+      "versionDate": "2026-02-04",
+      "fullDate": "20260204073334",
+      "size": 337786884,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/Locket_2.31.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/Locket_2.31.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Gold",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png"
+    },
+    {
       "name": "Noteful",
       "type": 1,
       "bundleID": "com.noteful-technologies.noteful",
