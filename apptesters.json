@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Instagram",
+      "type": 1,
+      "bundleID": "com.burbn.instagram",
+      "bundleIdentifier": "com.burbn.instagram",
+      "version": "415.1.0",
+      "versionDate": "2026-02-04",
+      "fullDate": "20260204204710",
+      "size": 252527667,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/Instagram_415.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-02-2026/Instagram_415.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png"
+    },
+    {
       "name": "Shapr3D",
       "type": 1,
       "bundleID": "com.shapr3d.shapr",
