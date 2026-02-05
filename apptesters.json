@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SkyGuide",
+      "type": 1,
+      "bundleID": "com.fifthstarlabs.skyguide",
+      "bundleIdentifier": "com.fifthstarlabs.skyguide",
+      "version": "12.0.11",
+      "versionDate": "2026-02-06",
+      "fullDate": "20260206002907",
+      "size": 272857659,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-02-2026/SkyGuide_12.0.11_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-02-2026/SkyGuide_12.0.11_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Plus",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fifthstarlabs.skyguide.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fifthstarlabs.skyguide.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.AppChief.ArabicArt",
