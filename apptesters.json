@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Flightradar24",
+      "type": 1,
+      "bundleID": "se.resenatverket.FlightRadar24-Free",
+      "bundleIdentifier": "se.resenatverket.FlightRadar24-Free",
+      "version": "11.0.0",
+      "versionDate": "2026-02-05",
+      "fullDate": "20260205174217",
+      "size": 220584642,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-02-2026/Flightradar24_11.0.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-02-2026/Flightradar24_11.0.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Gold",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/se.resenatverket.FlightRadar24-Free.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/se.resenatverket.FlightRadar24-Free.png"
+    },
+    {
       "name": "Documents",
       "type": 1,
       "bundleID": "com.readdle.ReaddleDocsIPad",
