@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SimplySing",
+      "type": 1,
+      "bundleID": "com.joytunes.Sing",
+      "bundleIdentifier": "com.joytunes.Sing",
+      "version": "2.7.0",
+      "versionDate": "2026-02-09",
+      "fullDate": "20260209011014",
+      "size": 92861869,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/SimplySing_2.7.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/SimplySing_2.7.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.Sing.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.Sing.png"
+    },
+    {
+      "name": "BeautyPlus",
+      "type": 1,
+      "bundleID": "com.commsource.BeautyPlus",
+      "bundleIdentifier": "com.commsource.BeautyPlus",
+      "version": "7.31.0",
+      "versionDate": "2026-02-09",
+      "fullDate": "20260209010953",
+      "size": 363016846,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/BeautyPlus_7.31.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/BeautyPlus_7.31.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.commsource.BeautyPlus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.commsource.BeautyPlus.png"
+    },
+    {
       "name": "Komoot",
       "type": 1,
       "bundleID": "de.komoot.berlinbikeapp",
