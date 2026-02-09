@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "VEEDCaptions",
+      "type": 1,
+      "bundleID": "io.veed.appstore",
+      "bundleIdentifier": "io.veed.appstore",
+      "version": "8.4.1",
+      "versionDate": "2026-02-09",
+      "fullDate": "20260209160338",
+      "size": 141133392,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/VEEDCaptions_8.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/VEEDCaptions_8.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.veed.appstore.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.veed.appstore.png"
+    },
+    {
+      "name": "Busuu",
+      "type": 1,
+      "bundleID": "com.busuu.english.app",
+      "bundleIdentifier": "com.busuu.english.app",
+      "version": "30.1.0",
+      "versionDate": "2026-02-09",
+      "fullDate": "20260209154327",
+      "size": 159997448,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/Busuu_30.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/Busuu_30.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png"
+    },
+    {
       "name": "edjingMix",
       "type": 1,
       "bundleID": "com.edjing.edjingdjturntable",
