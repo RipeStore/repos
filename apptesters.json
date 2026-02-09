@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Carly",
+      "type": 1,
+      "bundleID": "com.iViNi.BMWhatLite2",
+      "bundleIdentifier": "com.iViNi.BMWhatLite2",
+      "version": "41.26.020913",
+      "versionDate": "2026-02-09",
+      "fullDate": "20260209193011",
+      "size": 307519154,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/Carly_41.26.020913_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/Carly_41.26.020913_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iViNi.BMWhatLite2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iViNi.BMWhatLite2.png"
+    },
+    {
       "name": "Pigment",
       "type": 1,
       "bundleID": "com.pixite.pigment",
