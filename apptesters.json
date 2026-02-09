@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Detail",
+      "type": 1,
+      "bundleID": "co.detail.duo",
+      "bundleIdentifier": "co.detail.duo",
+      "version": "5.5.5",
+      "versionDate": "2026-02-09",
+      "fullDate": "20260209140253",
+      "size": 214550305,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/Detail_5.5.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/Detail_5.5.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.detail.duo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.detail.duo.png"
+    },
+    {
       "name": "InShot",
       "type": 1,
       "bundleID": "com.camerasideas.InstaShot",
