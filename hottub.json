@@ -3,12 +3,13 @@
   "name": "Hot Tub",
   "subtitle": "Porn Without the Pop-Ups.",
   "description": "Hot Tub is an elegant, native porn app. Thoughtfully designed, ethically made, and free to use.\n\n==================================\n🚨 READ THIS BEFORE INSTALLING 🚨\n\nApple requires your device to be set to \"Unrated\" (not just 18+) before installing this app, even though the default is typically 18+:\n\n1. Open Settings → Screen Time → Content & Privacy Restrictions\n2. Turn Content & Privacy Restrictions ON (if off)\n3. Go to App Store, Media, Web & Games → Apps\n4. Change the rating from 18+ to Unrated\n\n⚠️ WARNING: Never set the rating below 18+. This will remove apps from your home screen and disrupt your device organization.\n\n🚨 Apple iOS 26.1 Bug: Hot Tub may uninstall itself due to an Apple issue. To fix, toggle the rating from Unrated → 18+ → Unrated. This may need to be repeated periodically.\n\n📖 Need more help? Visit: https://docs.hottubapp.io/faq/\n\n==================================\n\n✨ Key Features\n\n📱 iOS native\nThe first porn app on iOS\n\n👤 No account needed\nJust install and start watching\n\n🎬 Tabbed browsing\nOpen multiple videos like browser tabs\n\n❤️ Favorites\nSave videos you love\n\n📺 Watch history\nTrack what you've watched\n\n🔐 Private & secure\nYour data stays on your device\n\n🔒 Face/Touch ID\nLock the app with biometric security\n\n🔊 Speaker warnings\nGet notified when connected to Bluetooth speakers\n\n🎛️ Filters & blocks\nHide performers, block keywords, and more\n\n🔎 Advanced search\nFind exactly what you want\n\n🌐 Multi-network\nAccess multiple video sources\n\n🚫 Minimal interruptions\nClean experience without intrusive ads\n\n🌈 LGBTQ+ Friendly\nInclusive content preferences\n\n🎨 Customizable\nTons of options to customize your experience\n\n🔌 Open API\nCreate and host your own sources\n\n\nWhy Hot Tub?\nBecause porn websites are frustrating.\n\n🌀 Redirect hell.\n🤖 Data brokers stalking your clicks.\n🎯 Aggressive pop-ups.\n📱 Mobile sites that barely work.\n\nSound familiar?\n\nWe wanted something better. So we built Hot Tub: a sleek, native iOS app that's clean, private, and easy to use.\n\nJust you, your queue, and the content you actually want to see.\n\n🛠 What Makes Hot Tub Special?\n🛋 Built for Comfort.\nSwipe between videos, open multiple tabs, intuitive gestures that just feels right.\n\n🔒 Lock It Down.\nYour privacy is our priority. With a built in privacy screen, Face/Touch ID, and customizable controls, Hot Tub keeps things private when it matters most.\n\n✨ Advanced Search (Hot Tub Pro — Subscribers Only).\nLooking for something specific? With Hot Tub Pro, unlock advanced search, filtering, and categories across multiple networks — because sometimes you really know what you're in the mood for.\n\n🔊 Output device notifications\nGet notifications when you're accidentally connected to that bluetooth speaker... No more embarrassing moments.\n\n📱 Designed for iOS 15-18.\nHot Tub is a fully native iOS app — no hacks, no shortcuts, no sketchy installs. Just smooth, native performance that works exactly how you'd expect.\n\n\"Why not just use [Pornsite Name]?\nLet's be real: Websites kinda suck.\n\nThey're clunky, cluttered, and constantly trying to sell you junk you don't need.\nWe've all been there:\n\n👀 You're browsing.\n👆 You're about to click.\n💥 BAM — the page moves.\n🔄 You're stuck in pop-up hell! An endless loop of fake giveaways and sketchy redirects. (Sorry, no, you didn't actually win a free tablet.)\n\nWith Hot Tub, you get a clean, focused experience.\nNo sketchy redirects. No intrusive pop-ups. No data harvesting.\n\nJust you, a clean interface, and the content you actually want.\n\nHow Is It Free?\nSimple. Hot Tub is funded by our community.\n\nWe don't sell your data. We don't do creepy tracking.\nHot Tub stays free thanks to:\n\n💙 Supporters\n🌟 Hot Tub Pro Members (who unlock extra features)\n🎁 Donations from people like you.\n\nWe believe porn should feel good — not shady.\nClean experience. Respectful monetization. Just better.\n\nTake a Dip.\n✅ Browse popular, categories, or search.\n✅ Tap videos to open them in new tabs.\n✅ Swipe between your open videos, save your favorites.\n✅ Close the app, and lock it down.\n\nClean experience.\nNo nonsense.\nJust Hot Tub — your private, cozy corner of the internet.\n\nThe water is warm. Download Hot Tub and take a dip.\nYour new favorite app is waiting.\n",
+  "iconURL": "https://cdn.hottubapp.io/assets/appicon.png",
+  "headerURL": "https://cdn.hottubapp.io/assets/banner.png",
   "website": "https://hottubapp.io/altstore",
+  "tintColor": "#A700FF",
   "featuredApps": [
     "com.c1d3r.Hot-Tub"
   ],
-  "iconURL": "https://cdn.hottubapp.io/assets/appicon.png",
-  "headerURL": "https://cdn.hottubapp.io/assets/banner.png",
   "apps": [
     {
       "name": "Hot Tub",
@@ -28,18 +29,22 @@
       "tintColor": "#A700FF",
       "versions": [
         {
+          "version": "2.2.6",
+          "buildVersion": "36",
+          "date": "2026-02-09T00:00:00Z",
+          "size": 29281874,
+          "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.2.6(36).ipa",
+          "localizedDescription": "Features:\n\nIntroducing support for immersive VR thumbnails players\n\nAdded in-app support ticket system\n\nBrowse, vote, and create feature suggestions\n\nShare/export from the Vault\n\n\n\nEnhancements:\n\nRedesigned the help & feedback section in settings\n\nRedesigned the report video section\n\nImprove caching/loading strategies\n\nImprove error presentation to better describe failures\n\nImprove loading state management while executing multiple strategies\n\nImprove preview compositing when no preview is provided.\n\nImprove gesture responsiveness\n\n\n\nBug fixes:\n\nFixed videos not showing watched label\n\nFixed bug causing blank screen after unlocking (I am so sorry y’all!)\n\nFixed bug causing the unlock button tap gesture to not work on some devices",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.2.5",
           "buildVersion": "35",
           "date": "2026-01-19T00:00:00Z",
           "size": 29281874,
           "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.2.5(35).ipa",
           "localizedDescription": "Features:\n- Hot Tub Rewind: Your year in review\n- Vault: Your personal private, photo & video storage.\n- Tapes: A new way to watch short form content.\n\nEnhancements:\n- Crash recovery system\n- Improve app performance, and optimize battery usage\n- Add language override option in setting\n- Improvements to how server filter are stored & recalled\n- Improve in-memory video cache\n- Improve video URL handling for custom schemes like vlc:// and more\n- Improve caching strategies\n- Improve error message presentation\n- Improve loading state management\n- Improve preview compositing when no preview is provided\n- Improve audio normalization with active equalization & active compression\n- Improve gesture responsiveness\n\nBug fixes:\n- Fix blur on screen recording\n- Fixed progress slider gesture bug",
-          "minOSVersion": "15.0",
-          "channels": [
-            "general",
-            "beta",
-            "pal"
-          ]
+          "minOSVersion": "15.0"
         },
         {
           "version": "2.2.4",
@@ -48,12 +53,7 @@
           "size": 29281874,
           "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.2.4(34).ipa",
           "localizedDescription": "Features:\n- Hot Tub Rewind: Your year in review\n- Vault: Your personal private, photo & video storage.\n- Tapes: A new way to watch short form content.\n\nEnhancements:\n- Crash recovery system\n- improve app performance, and optimize battery usage\n- Add language override option in setting\n- Improvements to how server filter are stored & recalled\n- Improve in-memory video cache\n- Improve video URL handling for custom schemes like vlc:// and more\n\nBug fixes:\n- Fix blur on screen recording\n- Fixed progress slider gesture bug",
-          "minOSVersion": "15.0",
-          "channels": [
-            "general",
-            "beta",
-            "pal"
-          ]
+          "minOSVersion": "15.0"
         },
         {
           "version": "2.2.3",
@@ -62,12 +62,7 @@
           "size": 29281874,
           "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.2.3(33).ipa",
           "localizedDescription": "Features:\n- Hot Tub Rewind: Your year in review\n- Vault: Your personal private, photo & video storage.\n- Tapes: A new way to watch short form content.\n\nEnhancements:\n- Crash recovery system\n- improve app performance, and optimize battery usage\n- Add language override option in setting\n- Improvements to how server filter are stored & recalled\n- Improve in-memory video cache\n- Improve video URL handling for custom schemes like vlc:// and more\n\nBug fixes:\n- Fix blur on screen recording",
-          "minOSVersion": "15.0",
-          "channels": [
-            "general",
-            "beta",
-            "pal"
-          ]
+          "minOSVersion": "15.0"
         },
         {
           "version": "2.2.2",
@@ -76,12 +71,7 @@
           "size": 29281874,
           "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.2.2(32).ipa",
           "localizedDescription": "Features:\n- Hot Tub Rewind: Your year in review\n- Vault: Your personal private, photo & video storage.\n- Tapes: A new way to watch short form content.\n\nEnhancements:\n- Crash recovery system\n- improve app performance, and optimize battery usage\n- Add language override option in setting\n- Improvements to how server filter are stored & recalled\n- Improve in-memory video cache\n- Improve video URL handling for custom schemes like vlc:// and more\n\nBug fixes:\n- Fix blur on screen recording",
-          "minOSVersion": "15.0",
-          "channels": [
-            "general",
-            "beta",
-            "pal"
-          ]
+          "minOSVersion": "15.0"
         },
         {
           "version": "2.1.4",
@@ -89,10 +79,6 @@
           "date": "2025-10-29T00:00:00Z",
           "size": 29281874,
           "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.1.4(27).ipa",
-          "channels": [
-            "general",
-            "pal"
-          ],
           "localizedDescription": "Enhancements:\niOS 26 support\nImproved gesture handling\nImprove video extraction fallback logic when using Yt-Dlp\nImprove video scrubber/progress bar\nShow pending video extraction progress\nAdded the ability to cancel on-going extractions\nView copy error details when adding a source\nOptimize requests when pinging sources in settings\nImprove URL sanitization when adding a source (internal IPs are automatically prefixed with http://)\nImprove mini player\nImprove vertical video row layout\nLoop previews infinitely\nUpdate FAQ link\nNest duplicate video qualities in a sub-menu\nImprove YT-DLP format filtering\nOptimize video resources when paging in the queue\nLoop preview & video playback\nOpen links via in-app browser, rather than switching to safari\nAdd haptics when selecting a category\nImprove responsiveness of loading indicator when tapping a video row\nImprove support for inline row content\nAdd fallback for preview generation\nSupport HLS previews\nOptimize database read/write operations\nRe-implemented & improved search suggestions bar\nAdded marquee text to long video titles\nAdded more dev/debug tools\nGerman language support\nimprove app performance, and optimize battery usage\nAdd language override option in setting\nImprovements to how server filter are stored & recalled\nImprove in-memory video cache\nImprove video URL handling for custom schemes like vlc:// and more\n\nFeatures:\nAdded a system theme & tint color settings\nAuto-preview\nAdded the ability to block videos by uploader and/or keywords\nAdded an option to use the system player over Hot Tubs custom player\nAdded stats section in settings\n\nBug Fixes:\nFixed filters & settings not presenting on some devices\nFixed provided formats not being played\nFixed headers not being passed to the player\nFixed miscellaneous crashes\nFixed blur on screen recording\nRefresh videos on server preferences change\nPrevent preview generating on embeds (since it's already handled) \nFixed edge case when playing videos provided with formats\nFixed extraneous database writes on launch\nApply selected filters if dismissed from inside the muli-select picker view\nPrevent duplicate videos from appearing in the list\n",
           "minOSVersion": "15.0"
         },
@@ -102,10 +88,6 @@
           "date": "2025-03-17T00:00:00Z",
           "size": 29281874,
           "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.1.2(19).ipa",
-          "channels": [
-            "general",
-            "pal"
-          ],
           "localizedDescription": "Enhancements:\nEnhanced onboarding flow now asks for sexuality & other preferences.\nImproved authentication flow for a smoother experience.\nOptimized database operations for better performance.\nAdded ability to persist database in keychain (preventing data loss upon reinstall).\nEnhanced Mini Player with drag gestures, location persistence, and tap-to-open functionality.\nAdded alternative app icons.\nAdded Data section in settings with import/export and cache clearing options.\nAdded toggles to show/hide Categories, Favorites, and Watch History sections.\nAdded verified icon on videos.\nAnimated categories & video rows for a more dynamic interface.\nAdded change log view.\nAdded Health Resources section.\nAdded Notifications section in settings.\nOptimized to cache popular video results.\nFallback to passcode if biometric authentication fails\nAutomatically retry loading with alternate format if initial load fails\nInitial localization support (Added French translations)\n\nNew Features:\nImplemented video quality selection.\nAdded custom server/source support.\nAdded URL replacement rules (customize domain redirects).\nImplemented proxy support for all API calls.\nAdded dynamic question/feedback via polls.\nAdded support for custom YTDLP options and remote commands.\nMade lock screen bubbles and confetti respond to device tilting.\nAdded option to disable & hide recently viewed videos.\nImplemented dynamic category loading with sorting by usage.\nAdded tap-to-open functionality for notices with optional URLs.\nAdded the ability to tap a tag to search by it\n\nBug Fixes:\nFixed Discord link.\nFixed pagination with automatic loading of more content.\nFixed issue where notices on home page would expand causing layout problems.\nFixed loading progress indicator visibility.\nFixed subscription status checking and response handling.\nImproved handling of decoding errors for better stability.\nFixed refresh after changing sexuality from onboarding.\n\nEnjoy the new updates and keep the feedback coming!\n",
           "minOSVersion": "15.0"
         },
@@ -115,9 +97,6 @@
           "date": "2025-03-02T00:00:00Z",
           "size": 21719175,
           "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.1.1(17).ipa",
-          "channels": [
-            "general"
-          ],
           "localizedDescription": "Enhancements:\nImproved layout for large screens for a better viewing experience.\nFixed pagination with automatic loading of more content.\nEnhanced onboarding flow now asks for sexuality & other preferences.\nImproved authentication flow for a smoother experience.\nOptimized database operations for better performance.\nAdded ability to persist database in keychain (preventing data loss upon reinstall).\nEnhanced Mini Player with drag gestures, location persistence, and tap-to-open functionality.\nAdded alternative app icons.\nAdded Data section in settings with import/export and cache clearing options.\nAdded toggles to show/hide Categories, Favorites, and Watch History sections.\nAdded verified icon on videos.\nAnimated categories & video rows for a more dynamic interface.\nAdded change log view.\nAdded Health Resources section.\nAdded Notifications section in settings.\nImplemented video quality selection.\nOptimized to cache popular video results.\n\nNew Features:\nAdded custom server/source support.\nAdded URL replacement rules (customize domain redirects).\nImplemented proxy support for all API calls.\nAdded dynamic question/feedback via polls.\nAdded support for custom YTDLP options and remote commands.\nMade lock screen bubbles and confetti respond to device tilting.\nAdded option to disable & hide recently viewed videos.\nImplemented dynamic category loading with sorting by usage.\nAdded tap-to-open functionality for notices with optional URLs.\n\nBug Fixes:\nFixed Discord link.\nFixed issue where notices on home page would expand causing layout problems.\nFixed loading progress indicator visibility.\nFixed subscription status checking and response handling.\nImproved handling of decoding errors for better stability.\nFixed refresh after changing sexuality from onboarding.\n\nEnjoy the new updates and keep the feedback coming!",
           "minOSVersion": "15.0"
         },
@@ -127,10 +106,6 @@
           "date": "2025-01-21T21:47:12Z",
           "size": 21719175,
           "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.1.0(11).ipa",
-          "channels": [
-            "general",
-            "pal"
-          ],
           "localizedDescription": "Enhancements:\nImproved layout for large screens for a better viewing experience.\nSkip buttons now feature animations and dynamically determine durations when appropriate, with customizable settings.\nPrivacy screen now auto-dismisses/unlocks within a short timeframe for added convenience.\nEnhanced membership flow and subscription page for a smoother user experience.\nHome bar indicator is hidden during video playback for an immersive viewing experience.\nOptimized initial loading process to minimize the number of requests.\nUnlock button now includes fun animations to enhance interactivity.\n\nNew Features:\nIntroduced a referral and reward program.\nAdded settings to customize skip durations.\nAdded quick-access buttons to join Discord and leave a review in the settings menu.\nEnabled Picture-in-Picture (PIP) mode when switching between apps.\nIntroduced a mini player for minimized queue view.\nAdded a mini play/pause button directly on the video progress bar.\nAdded support for multi-select filters in search and browsing.\nImplemented remote previews for videos.\nAdded a context menu to videos for additional actions.\nAdded a setting for dominant hand preference (we got you, lefties!).\n\nBug Fixes:\nFixed an issue where selecting a category from \"See More\" didn't display results.\nResolved a bug causing the slider/progress bar to jump back to zero.\nFixed channel preferences not persisting between app launches.\nFixed URL scheme issues in the authentication flow.\n\nEnjoy the new updates and keep the feedback coming!",
           "minOSVersion": "15.0"
         },
@@ -140,10 +115,6 @@
           "date": "2025-01-01T00:00:00Z",
           "size": 21169183,
           "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.0.6(9).ipa",
-          "channels": [
-            "general",
-            "pal"
-          ],
           "localizedDescription": "Added dynamic filters.\nImprove support for new networks.\nPrevent redundant searches.\nLock screen improvements.\nMinor bug fixes & improvements.",
           "minOSVersion": "15.0"
         },
@@ -153,10 +124,6 @@
           "date": "2024-12-10T00:00:00Z",
           "size": 21138245,
           "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.0.5(6).ipa",
-          "channels": [
-            "general",
-            "pal"
-          ],
           "localizedDescription": "Added settings to toggle haptics feedback.\nAdded settings to toggle notifications when changing audio output (speaker/headphones/bluetooth).\nAdded labels to watched & favorited videos\nEnhanced video row gestures (long press to load preview, tap to play video in queue)\nEnhanced preview loading\nAdded status alerts to lock/privacy page\nAdded search suggestions\nImproved lock/privacy screen presentation.\nImproved filters and sexuality options.\nMinor bug fixes & improvements",
           "minOSVersion": "15.0"
         }
