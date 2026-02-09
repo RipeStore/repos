@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "HappyScale",
+      "type": 1,
+      "bundleID": "com.frontpocketsoftware.happyscale",
+      "bundleIdentifier": "com.frontpocketsoftware.happyscale",
+      "version": "2026.2",
+      "versionDate": "2026-02-09",
+      "fullDate": "20260209233107",
+      "size": 40207414,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/HappyScale_2026.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/HappyScale_2026.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontpocketsoftware.happyscale.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontpocketsoftware.happyscale.png"
+    },
+    {
       "name": "ShutEye",
       "type": 1,
       "bundleID": "health.sleep.sounds.tracker.alarm.calm",
