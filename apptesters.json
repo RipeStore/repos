@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Swiftgram",
+      "type": 1,
+      "bundleID": "app.swiftgram.ios",
+      "bundleIdentifier": "app.swiftgram.ios",
+      "version": "12.3.3",
+      "versionDate": "2026-02-09",
+      "fullDate": "20260209202042",
+      "size": 83647735,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/Swiftgram_12.3.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/Swiftgram_12.3.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.swiftgram.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.swiftgram.ios.png"
+    },
+    {
+      "name": "duet",
+      "type": 1,
+      "bundleID": "com.kairos.duet",
+      "bundleIdentifier": "com.kairos.duet",
+      "version": "3.1.0",
+      "versionDate": "2026-02-09",
+      "fullDate": "20260209202039",
+      "size": 44128525,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/duet_3.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/duet_3.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kairos.duet.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kairos.duet.png"
+    },
+    {
       "name": "Carly",
       "type": 1,
       "bundleID": "com.iViNi.BMWhatLite2",
