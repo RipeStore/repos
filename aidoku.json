@@ -56,9 +56,9 @@
           "date": "2026-02-09",
           "localizedDescription": "• Pinned sources should stay pinned\n• Error when restoring chapters from backup resolved\n• Insights page more accurately determines chapter read count\n• Kavita source login issues resolved\n• Lots of other fixes (30+)! Check [the website](https://aidoku.app/release•notes/) for a more complete list.",
           "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.8.1/Aidoku.ipa",
-          "size": 8629496,
+          "size": 8636349,
           "minOSVersion": "15.0",
-          "buildVersion": "2"
+          "buildVersion": "3"
         }
       ]
     }
