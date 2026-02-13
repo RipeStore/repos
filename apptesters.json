@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Instagram",
+      "type": 1,
+      "bundleID": "com.burbn.instagram",
+      "bundleIdentifier": "com.burbn.instagram",
+      "version": "416.1.0",
+      "versionDate": "2026-02-13",
+      "fullDate": "20260213145813",
+      "size": 278280724,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-02-2026/Instagram_416.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-02-2026/Instagram_416.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png"
+    },
+    {
+      "name": "GentlerStreak",
+      "type": 1,
+      "bundleID": "app.gentler.activity",
+      "bundleIdentifier": "app.gentler.activity",
+      "version": "5.11.2",
+      "versionDate": "2026-02-13",
+      "fullDate": "20260213143804",
+      "size": 93362409,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-02-2026/GentlerStreak_5.11.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-02-2026/GentlerStreak_5.11.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.gentler.activity.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.gentler.activity.png"
+    },
+    {
       "name": "Encode",
       "type": 1,
       "bundleID": "com.upskew.encode.ios",
