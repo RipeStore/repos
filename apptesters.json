@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Calm",
+      "type": 1,
+      "bundleID": "com.calm.calmapp",
+      "bundleIdentifier": "com.calm.calmapp",
+      "version": "6.89",
+      "versionDate": "2026-02-13",
+      "fullDate": "20260213171838",
+      "size": 85138854,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-02-2026/Calm_6.89_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-02-2026/Calm_6.89_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png"
+    },
+    {
+      "name": "Bearable",
+      "type": 1,
+      "bundleID": "co.codeleap.bearable",
+      "bundleIdentifier": "co.codeleap.bearable",
+      "version": "1.0.585",
+      "versionDate": "2026-02-13",
+      "fullDate": "20260213171835",
+      "size": 57502410,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-02-2026/Bearable_1.0.585_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-02-2026/Bearable_1.0.585_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.codeleap.bearable.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.codeleap.bearable.png"
+    },
+    {
       "name": "Instagram",
       "type": 1,
       "bundleID": "com.burbn.instagram",
