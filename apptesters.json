@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Aloha",
+      "type": 1,
+      "bundleID": "com.alohabrowser.alohabrowser",
+      "bundleIdentifier": "com.alohabrowser.alohabrowser",
+      "version": "8.1.0",
+      "versionDate": "2026-02-13",
+      "fullDate": "20260213184850",
+      "size": 86930512,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-02-2026/Aloha_8.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-02-2026/Aloha_8.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png"
+    },
+    {
       "name": "Calm",
       "type": 1,
       "bundleID": "com.calm.calmapp",
