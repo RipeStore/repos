@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ToonSquid",
+      "type": 1,
+      "bundleID": "com.keiwando.toonsquid",
+      "bundleIdentifier": "com.keiwando.toonsquid",
+      "version": "2.0.20",
+      "versionDate": "2026-02-16",
+      "fullDate": "20260216022138",
+      "size": 30147255,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-02-2026/ToonSquid_2.0.20_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-02-2026/ToonSquid_2.0.20_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.keiwando.toonsquid.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.keiwando.toonsquid.png"
+    },
+    {
       "name": "Sofa",
       "type": 1,
       "bundleID": "com.astrio.Sofa",
