@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "MyScriptNotes",
+      "type": 1,
+      "bundleID": "com.myscript.nebo",
+      "bundleIdentifier": "com.myscript.nebo",
+      "version": "7.1.0",
+      "versionDate": "2026-02-16",
+      "fullDate": "20260216134318",
+      "size": 123945176,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-02-2026/MyScriptNotes_7.1.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-02-2026/MyScriptNotes_7.1.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myscript.nebo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myscript.nebo.png"
+    },
+    {
+      "name": "Noteful",
+      "type": 1,
+      "bundleID": "com.noteful-technologies.noteful",
+      "bundleIdentifier": "com.noteful-technologies.noteful",
+      "version": "1.4.35",
+      "versionDate": "2026-02-16",
+      "fullDate": "20260216133811",
+      "size": 93991295,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-02-2026/Noteful_1.4.35_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-02-2026/Noteful_1.4.35_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.noteful-technologies.noteful.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.noteful-technologies.noteful.png"
+    },
+    {
       "name": "Pillow",
       "type": 1,
       "bundleID": "com.neybox.Pillow",
