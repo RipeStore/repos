@@ -29,6 +29,15 @@
       "tintColor": "#A700FF",
       "versions": [
         {
+          "version": "2.2.7",
+          "buildVersion": "38",
+          "date": "2026-02-16T00:00:00Z",
+          "size": 29281874,
+          "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.2.7(38).ipa",
+          "localizedDescription": "Features:\n\nAdded support for live-stream videos\n\nAdded channel status indicator to the channel picker\n\nAdded search suggestions to Tapes\n\nAdded retry button when video playback fails\n\n\n\nEnhancements:\n\nImprove playback support\n\nCache optimizations\n\nImprove uploader/profile page navigation\n\nImprove iPad layout\n\nImprove gesture safe area in player view",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "2.2.6",
           "buildVersion": "36",
           "date": "2026-02-09T00:00:00Z",

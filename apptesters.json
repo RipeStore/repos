@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Bend",
+      "type": 1,
+      "bundleID": "com.bowery-digital.bend",
+      "bundleIdentifier": "com.bowery-digital.bend",
+      "version": "7.2.0",
+      "versionDate": "2026-02-17",
+      "fullDate": "20260217015712",
+      "size": 98513963,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-02-2026/Bend_7.2.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-02-2026/Bend_7.2.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bowery-digital.bend.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bowery-digital.bend.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.AppChief.ArabicArt",
