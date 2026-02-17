@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SHRED",
+      "type": 1,
+      "bundleID": "com.shred.shredlabs",
+      "bundleIdentifier": "com.shred.shredlabs",
+      "version": "5.3.9",
+      "versionDate": "2026-02-17",
+      "fullDate": "20260217134829",
+      "size": 146992989,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-02-2026/SHRED_5.3.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-02-2026/SHRED_5.3.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.shred.shredlabs.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.shred.shredlabs.png"
+    },
+    {
       "name": "Soundmap",
       "type": 2,
       "bundleID": "app.mmap.mobile",
