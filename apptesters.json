@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AdobeScan",
+      "type": 1,
+      "bundleID": "com.adobe.scan.ios",
+      "bundleIdentifier": "com.adobe.scan.ios",
+      "version": "26.02.18",
+      "versionDate": "2026-02-19",
+      "fullDate": "20260219131236",
+      "size": 178239405,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-02-2026/AdobeScan_26.02.18_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-02-2026/AdobeScan_26.02.18_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.scan.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.scan.ios.png"
+    },
+    {
       "name": "FilmicPro",
       "type": 1,
       "bundleID": "com.cinegenix.filmic.pro",
