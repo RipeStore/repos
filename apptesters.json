@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Things",
+      "type": 1,
+      "bundleID": "com.culturedcode.ThingsiPad",
+      "bundleIdentifier": "com.culturedcode.ThingsiPad",
+      "version": "3.22.7",
+      "versionDate": "2026-02-20",
+      "fullDate": "20260220181704",
+      "size": 23363378,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-02-2026/Things_3.22.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-02-2026/Things_3.22.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.culturedcode.ThingsiPad.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.culturedcode.ThingsiPad.png"
+    },
+    {
+      "name": "BloonsTD6",
+      "type": 2,
+      "bundleID": "com.ninjakiwi.bloonstd6",
+      "bundleIdentifier": "com.ninjakiwi.bloonstd6",
+      "version": "53.2",
+      "versionDate": "2026-02-20",
+      "fullDate": "20260220181156",
+      "size": 72995132,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-02-2026/BloonsTD6_53.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-02-2026/BloonsTD6_53.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ninjakiwi.bloonstd6.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ninjakiwi.bloonstd6.png"
+    },
+    {
       "name": "AdobeFresco",
       "type": 1,
       "bundleID": "com.adobe.fresco.ios",
