@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FilmCamPublic",
+      "type": 1,
+      "bundleID": "filmcamera.vintagecamera.retro.cam.analog",
+      "bundleIdentifier": "filmcamera.vintagecamera.retro.cam.analog",
+      "version": "1.0.8",
+      "versionDate": "2026-02-22",
+      "fullDate": "20260222235259",
+      "size": 70141640,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-02-2026/FilmCamPublic_1.0.8_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-02-2026/FilmCamPublic_1.0.8_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/filmcamera.vintagecamera.retro.cam.analog.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/filmcamera.vintagecamera.retro.cam.analog.png"
+    },
+    {
       "name": "Radarbot",
       "type": 1,
       "bundleID": "com.iteration-mobile.radarbot-free-ww",
