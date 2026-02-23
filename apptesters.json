@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "ProCamera",
+      "type": 1,
+      "bundleID": "com.cocologics.ProCamera",
+      "bundleIdentifier": "com.cocologics.ProCamera",
+      "version": "26.1.3",
+      "versionDate": "2026-02-23",
+      "fullDate": "20260223182443",
+      "size": 136756388,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-02-2026/ProCamera_26.1.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-02-2026/ProCamera_26.1.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.cocologics.ProCamera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.cocologics.ProCamera.png"
+    },
+    {
+      "name": "koala",
+      "type": 1,
+      "bundleID": "com.elf-audio.koala",
+      "bundleIdentifier": "com.elf-audio.koala",
+      "version": "1.4150",
+      "versionDate": "2026-02-23",
+      "fullDate": "20260223181935",
+      "size": 42057110,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-02-2026/koala_1.4150_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-02-2026/koala_1.4150_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elf-audio.koala.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elf-audio.koala.png"
+    },
+    {
       "name": "Stellarium",
       "type": 1,
       "bundleID": "com.noctuasoftware.stellarium-mobile-plus",
