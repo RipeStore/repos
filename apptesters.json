@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "CollaNote",
+      "type": 1,
+      "bundleID": "net.quochuywdm.collanote496",
+      "bundleIdentifier": "net.quochuywdm.collanote496",
+      "version": "4.0.6",
+      "versionDate": "2026-02-24",
+      "fullDate": "20260224045655",
+      "size": 123736186,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-02-2026/CollaNote_4.0.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-02-2026/CollaNote_4.0.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.quochuywdm.collanote496.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.quochuywdm.collanote496.png"
+    },
+    {
       "name": "moneycontrol",
       "type": 1,
       "bundleID": "com.moneycontrol.mc",
