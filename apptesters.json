@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SoundCloud",
+      "type": 1,
+      "bundleID": "com.soundcloud.TouchApp",
+      "bundleIdentifier": "com.soundcloud.TouchApp",
+      "version": "8.49.1",
+      "versionDate": "2026-02-25",
+      "fullDate": "20260225015550",
+      "size": 107900987,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-02-2026/SoundCloud_8.49.1_noads_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-02-2026/SoundCloud_8.49.1_noads_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with noads",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.soundcloud.TouchApp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.soundcloud.TouchApp.png"
+    },
+    {
       "name": "Instagram",
       "type": 1,
       "bundleID": "com.burbn.instagram",
