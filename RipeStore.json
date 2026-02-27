@@ -161,6 +161,14 @@
       ],
       "versions": [
         {
+          "version": "4.4",
+          "date": "2026-02-22T12:03:00Z",
+          "localizedDescription": "• Ranger’s Choice: Chapter 10 is now live!\n• New options for Premium users to customize their experience in the Custom Theme Editor.\n• Major behind-the-scenes overhaul and performance improvements.\n• All new look with Themes tailored to each story, and Premium users get to design their own themes too!\n• Based on user feedback we now sync coins, luck and achievements between all of your iOS devices.\n• Found a bug? Please let us know via Contact Us in the Settings menu.",
+          "downloadURL": "https://cdn.yemoja.xyz/delightgames/4.4/com.your-company.DelightGames_4.4.ipa",
+          "size": 179300000,
+          "minOSVersion": "15.6"
+        },
+        {
           "version": "3.40",
           "date": "2025-10-06T17:51:00Z",
           "localizedDescription": "• Ranger's Choice 9 is live!",
@@ -633,7 +641,7 @@
       "title": "The Infinity Blade series!",
       "identifier": "news_m9nh92pzl7",
       "caption": "The Infinity Blade saga begins once again!",
-      "date": "2025-11-08T22:25:00Z",
+      "date": "2025-11-09T03:55:00Z",
       "tintColor": "#cd0b0b",
       "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/UN/1400x800-96570af251fc03ab352769bb819aaf1b62a3863e.png",
       "notify": true,
