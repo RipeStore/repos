@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "BHTikTokPlus",
+      "type": 1,
+      "bundleID": "com.zhiliaoapp.musically",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "version": "43.9.0",
+      "versionDate": "2026-02-27",
+      "fullDate": "20260227132535",
+      "size": 396130174,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-02-2026/BHTikTokPlus_43.9.0_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-02-2026/BHTikTokPlus_43.9.0_Plus_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Plus",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png"
+    },
+    {
+      "name": "ZombieCatchers",
+      "type": 2,
+      "bundleID": "fi.twomenandadog.zombiecatchers",
+      "bundleIdentifier": "fi.twomenandadog.zombiecatchers",
+      "version": "1.61.2",
+      "versionDate": "2026-02-27",
+      "fullDate": "20260227132028",
+      "size": 112146264,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-02-2026/ZombieCatchers_1.61.2_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-02-2026/ZombieCatchers_1.61.2_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IGG",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/fi.twomenandadog.zombiecatchers.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/fi.twomenandadog.zombiecatchers.png"
+    },
+    {
       "name": "SoundCloud",
       "type": 1,
       "bundleID": "com.soundcloud.TouchApp",
