@@ -15,6 +15,38 @@
   ],
   "apps": [
     {
+      "name": "ByeTunes",
+      "bundleIdentifier": "com.EduAlexxis.MusicManager",
+      "developerName": "EduAlexxis",
+      "subtitle": "On-device music and ringtone injection for iOS",
+      "localizedDescription": "ByeTunes is a native iOS app that lets you inject music (MP3, M4A, FLAC, WAV) and ringtones directly into your device's media library—without needing a computer connection for every sync. It communicates directly with the iOS media database, giving you the power to manage your music on your terms.\n\nFeatures :\n\n• Direct Music Injection: Add songs to your Apple Music library without a PC.\n• Ringtone Manager: Inject custom ringtones (.m4r and .mp3 auto-conversion).\n• Playlist Support: Create and manage playlists on the fly.\n• No Computer Needed (after setup): Once paired, you're free!\n• Metadata Editing: Auto-fetched from iTunes or Deezer.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/BYETUNES/ICON.webp",
+      "tintColor": "#aa0e1c",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/BYETUNES/IMG_8815.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/BYETUNES/IMG_8818.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/BYETUNES/IMG_8819.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/BYETUNES/IMG_8820.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/BYETUNES/IMG_8821.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/BYETUNES/IMG_8822.webp"
+      ],
+      "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-01-28T16:02:00Z",
+          "localizedDescription": "• Added support for static lyrics.\n• Fixed compatibility issues with iOS 17 and iOS 18.\n• Introduced experimental support for iOS 16.\n• Added the ability to manually edit metadata.\n• Added support for the native Glass UI navigation bar on iOS 26.\n• Added support for importing folders and subfolders.\n• Improved first-launch instructions.\n• Fixed various bugs and improved overall code performance.",
+          "downloadURL": "https://cdn.yemoja.xyz/ByeTunes/v1.0.1/ByeTunes.ipa",
+          "size": 12000000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
       "name": "SimpleFrontend",
       "bundleIdentifier": "com.jimdude.SimpleFrontend",
       "developerName": "Stossy11",
@@ -59,6 +91,14 @@
         "https://cdn.jsdelivr.net/gh/RipeStore/icons/NEKOSURF/4.webp"
       ],
       "versions": [
+        {
+          "version": "0.10.4",
+          "date": "2026-01-15T10:41:00Z",
+          "localizedDescription": "• Migrate to ffmpeg_kit_flutter_new ",
+          "downloadURL": "https://cdn.yemoja.xyz/NekoSurf/v0.10.4/NekoSurf_0.10.4_flight.ipa",
+          "size": 49900000,
+          "minOSVersion": "15.8.4"
+        },
         {
           "version": "0.10.3",
           "date": "2025-10-18T19:49:00Z",
@@ -226,8 +266,7 @@
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/RipeStore/icons/STOSSYCORD/01.PNG",
         "https://cdn.jsdelivr.net/gh/RipeStore/icons/STOSSYCORD/02.PNG",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons/STOSSYCORD/03.PNG",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons/STOSSYCORD/04.PNG"
+        "https://cdn.jsdelivr.net/gh/RipeStore/icons/STOSSYCORD/03.PNG"
       ],
       "versions": [
         {
@@ -275,6 +314,14 @@
         "https://cdn.jsdelivr.net/gh/RipeStore/icons/NYXIAN/05.PNG"
       ],
       "versions": [
+        {
+          "version": "0.8.6",
+          "date": "2026-02-06T10:10:00Z",
+          "localizedDescription": "Release Notes\n\nJailed Nyxian\n\nImprovements\n• Improved KernelLogViewController\n• Improved keyboard Tab button with indentation features\n• Reduced jitter of XCodeButton animations\n\nFeatures\n• Added Undo and Redo buttons to CodeEditor\n\nFixes\n• Fixed utility compilation failing due to missing flags on lower iOS versions\n• Fixed utility development issues\n• Fixed iOS 14 appearance issues\n• Fixed LDEWindow focusing on iPadOS\n• Fixed home path for utilities\n• Fixed DYLD_INSERT_LIBRARIES handling\n\nLiveContainer\n\nFixes\n• Fixed a bug where the bundle was kept as LiveProcess instead of being overwritten with the expected value\n• _CFGetProcessPath is now properly overwritten\n\nJailbroken Nyxian\n• Initial release",
+          "downloadURL": "https://cdn.yemoja.xyz/Nyxian/0.8.6/nyxian.ipa",
+          "size": 87500000,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "0.8.1",
           "date": "2025-12-13T18:47:00Z",
@@ -599,7 +646,7 @@
       "subtitle": "Suwatte is an ad-free, open source \u0026 feature-rich comic/manga reader for iOS.",
       "localizedDescription": "Suwatte is an all-in-one comic reader app for iOS, with support for OPDS, CBZ and external sources. Suwatte handles all reading options with maximum personalization options.",
       "iconURL": "https://avatars.githubusercontent.com/u/100905272?s=200\u0026v=4",
-      "tintColor": "#7f7f7f",
+      "tintColor": "#6823bd",
       "category": "entertainment",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/Suwatte/Suwatte@main/images/PIC_7.png",
