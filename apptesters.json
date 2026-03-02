@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Precious",
+      "type": 1,
+      "bundleID": "com.laubrothersllc.BabyArt",
+      "bundleIdentifier": "com.laubrothersllc.BabyArt",
+      "version": "3.50.3",
+      "versionDate": "2026-03-02",
+      "fullDate": "20260302222433",
+      "size": 318432957,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-03-2026/Precious_3.50.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-03-2026/Precious_3.50.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.laubrothersllc.BabyArt.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.laubrothersllc.BabyArt.png"
+    },
+    {
+      "name": "X",
+      "type": 1,
+      "bundleID": "com.atebits.Tweetie2",
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "version": "11.69",
+      "versionDate": "2026-03-02",
+      "fullDate": "20260302221922",
+      "size": 183264776,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-03-2026/X_11.69_BHX_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-03-2026/X_11.69_BHX_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with BHX",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atebits.Tweetie2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.atebits.Tweetie2.png"
+    },
+    {
       "name": "GOWOD",
       "type": 1,
       "bundleID": "eu.gowod",
