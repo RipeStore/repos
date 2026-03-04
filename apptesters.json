@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TravelBoast",
+      "type": 1,
+      "bundleID": "com.travelboast.travelboast",
+      "bundleIdentifier": "com.travelboast.travelboast",
+      "version": "2.29",
+      "versionDate": "2026-03-05",
+      "fullDate": "20260305041450",
+      "size": 372290657,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-03-2026/TravelBoast_2.29_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-03-2026/TravelBoast_2.29_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.travelboast.travelboast.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.travelboast.travelboast.png"
+    },
+    {
       "name": "Soundmap",
       "type": 2,
       "bundleID": "app.mmap.mobile",
