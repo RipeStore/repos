@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Things",
+      "type": 1,
+      "bundleID": "com.culturedcode.ThingsiPad",
+      "bundleIdentifier": "com.culturedcode.ThingsiPad",
+      "version": "3.22.8",
+      "versionDate": "2026-03-06",
+      "fullDate": "20260306000318",
+      "size": 23352323,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-03-2026/Things_3.22.8_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-03-2026/Things_3.22.8_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.culturedcode.ThingsiPad.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.culturedcode.ThingsiPad.png"
+    },
+    {
       "name": "koala",
       "type": 1,
       "bundleID": "com.elf-audio.koala",
