@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ShutEye",
+      "type": 1,
+      "bundleID": "health.sleep.sounds.tracker.alarm.calm",
+      "bundleIdentifier": "health.sleep.sounds.tracker.alarm.calm",
+      "version": "3.3.6",
+      "versionDate": "2026-03-07",
+      "fullDate": "20260307021619",
+      "size": 446984165,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-03-2026/ShutEye_3.3.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-03-2026/ShutEye_3.3.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/health.sleep.sounds.tracker.alarm.calm.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/health.sleep.sounds.tracker.alarm.calm.png"
+    },
+    {
       "name": "SimplySing",
       "type": 1,
       "bundleID": "com.joytunes.Sing",
