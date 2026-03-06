@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Videoleap",
+      "type": 1,
+      "bundleID": "com.lightricks.Enlight-Video",
+      "bundleIdentifier": "com.lightricks.Enlight-Video",
+      "version": "2.82",
+      "versionDate": "2026-03-07",
+      "fullDate": "20260307042212",
+      "size": 382639023,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-03-2026/Videoleap_2.82_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-03-2026/Videoleap_2.82_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Video.png"
+    },
+    {
+      "name": "AdobeScan",
+      "type": 1,
+      "bundleID": "com.adobe.scan.ios",
+      "bundleIdentifier": "com.adobe.scan.ios",
+      "version": "26.03.06",
+      "versionDate": "2026-03-07",
+      "fullDate": "20260307041700",
+      "size": 178103503,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-03-2026/AdobeScan_26.03.06_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-03-2026/AdobeScan_26.03.06_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.scan.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.scan.ios.png"
+    },
+    {
       "name": "AIRetouch",
       "type": 1,
       "bundleID": "com.picretouch.photoeditor",
