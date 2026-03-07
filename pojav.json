@@ -70,11 +70,21 @@
       },
       "versions": [
         {
-          "version": "1.0",
-          "date": "2023-05-06T17:00:00-05:00",
-          "localizedDescription": "Amethyst's 1.0 beta, built on PojavLauncher 3.0.",
-          "downloadURL": "https://ci.angelauramc.dev/job/Amethyst-iOS/lastSuccessfulBuild/artifact/artifacts/org.angelauramc.amethyst-1.0-ios.ipa",
-          "size": 108175347,
+          "version": "1.0-287e821",
+          "date": "2026-03-07T03:23:43.773901+00:00",
+          "localizedDescription": "Thanks for helping test Amethyst! To see what's new, check commit \"287e821\" on the GitHub repo.",
+          "downloadURL": "https://alt.crystall1ne.dev/resources/amethyst/287e821/org.angelauramc.amethyst-1.0-ios.ipa",
+          "size": 150357328,
+          "beta": true,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.0-e49c3fa",
+          "date": "2026-03-07T02:54:16.444233+00:00",
+          "localizedDescription": "Thanks for helping test Amethyst! To see what's new, check commit \"e49c3fa\" on the GitHub repo.",
+          "downloadURL": "https://alt.crystall1ne.dev/resources/amethyst/e49c3fa/org.angelauramc.amethyst-1.0-ios.ipa",
+          "size": 150357349,
+          "beta": true,
           "minOSVersion": "14.0"
         }
       ],
