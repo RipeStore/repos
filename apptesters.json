@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Mindllama",
+      "type": 1,
+      "bundleID": "com.vitalii.mind",
+      "bundleIdentifier": "com.vitalii.mind",
+      "version": "2.5.6",
+      "versionDate": "2026-03-07",
+      "fullDate": "20260307191511",
+      "size": 182111972,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-03-2026/Mindllama_2.5.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-03-2026/Mindllama_2.5.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vitalii.mind.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vitalii.mind.png"
+    },
+    {
       "name": "Mercury",
       "type": 1,
       "bundleID": "com.tripleglazedstudios.Weather",
