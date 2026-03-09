@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Flightradar24",
+      "type": 1,
+      "bundleID": "se.resenatverket.FlightRadar24-Free",
+      "bundleIdentifier": "se.resenatverket.FlightRadar24-Free",
+      "version": "11.1.1",
+      "versionDate": "2026-03-09",
+      "fullDate": "20260309141511",
+      "size": 221021869,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/Flightradar24_11.1.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/Flightradar24_11.1.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Gold",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/se.resenatverket.FlightRadar24-Free.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/se.resenatverket.FlightRadar24-Free.png"
+    },
+    {
       "name": "swipewipe",
       "type": 1,
       "bundleID": "com.aoklab.fewerphotos",
