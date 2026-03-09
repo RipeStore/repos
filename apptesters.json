@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Spotify",
+      "type": 1,
+      "bundleID": "com.spotify.client",
+      "bundleIdentifier": "com.spotify.client",
+      "version": "9.1.24",
+      "versionDate": "2026-03-09",
+      "fullDate": "20260309164607",
+      "size": 99392024,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/Spotify_9.1.24_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/Spotify_9.1.24_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.spotify.client.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.spotify.client.png"
+    },
+    {
       "name": "WeatherRadar",
       "type": 1,
       "bundleID": "de.wetteronline.WetterApppro",
