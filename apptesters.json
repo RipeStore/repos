@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Mercury",
+      "type": 1,
+      "bundleID": "com.tripleglazedstudios.Weather",
+      "bundleIdentifier": "com.tripleglazedstudios.Weather",
+      "version": "3.4.5",
+      "versionDate": "2026-03-10",
+      "fullDate": "20260310015421",
+      "size": 59002951,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-03-2026/Mercury_3.4.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-03-2026/Mercury_3.4.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tripleglazedstudios.Weather.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tripleglazedstudios.Weather.png"
+    },
+    {
       "name": "NeoServer",
       "type": 1,
       "bundleID": "com.neo.NeoMan",
