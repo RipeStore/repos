@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Notability",
+      "type": 1,
+      "bundleID": "com.gingerlabs.Notability",
+      "bundleIdentifier": "com.gingerlabs.Notability",
+      "version": "15.4.3",
+      "versionDate": "2026-03-10",
+      "fullDate": "20260310231951",
+      "size": 236452370,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-03-2026/Notability_15.4.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-03-2026/Notability_15.4.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gingerlabs.Notability.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gingerlabs.Notability.png"
+    },
+    {
+      "name": "OfflineMusic",
+      "type": 1,
+      "bundleID": "com.offlinemusic",
+      "bundleIdentifier": "com.offlinemusic",
+      "version": "3.8.3",
+      "versionDate": "2026-03-10",
+      "fullDate": "20260310225942",
+      "size": 95465686,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-03-2026/OfflineMusic_3.8.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-03-2026/OfflineMusic_3.8.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.offlinemusic.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.offlinemusic.png"
+    },
+    {
       "name": "GOWOD",
       "type": 1,
       "bundleID": "eu.gowod",
