@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Calendars",
+      "type": 1,
+      "bundleID": "com.readdle.CalendarsLite",
+      "bundleIdentifier": "com.readdle.CalendarsLite",
+      "version": "5.37.23",
+      "versionDate": "2026-03-12",
+      "fullDate": "20260312001534",
+      "size": 285116971,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-03-2026/Calendars_5.37.23_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-03-2026/Calendars_5.37.23_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.CalendarsLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.CalendarsLite.png"
+    },
+    {
+      "name": "AdobeExpress",
+      "type": 1,
+      "bundleID": "com.adobe.post",
+      "bundleIdentifier": "com.adobe.post",
+      "version": "29.8.1",
+      "versionDate": "2026-03-11",
+      "fullDate": "20260311233523",
+      "size": 130772585,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/AdobeExpress_29.8.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/AdobeExpress_29.8.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.post.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.post.png"
+    },
+    {
       "name": "ThePiano",
       "type": 2,
       "bundleID": "com.impalastudios.pianofree",
