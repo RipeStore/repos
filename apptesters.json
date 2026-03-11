@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Photoroom",
+      "type": 1,
+      "bundleID": "com.dr1ven.eraser",
+      "bundleIdentifier": "com.dr1ven.eraser",
+      "version": "2026.10.01",
+      "versionDate": "2026-03-11",
+      "fullDate": "20260311143806",
+      "size": 144088419,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/Photoroom_2026.10.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/Photoroom_2026.10.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png"
+    },
+    {
+      "name": "AIMarvels",
+      "type": 1,
+      "bundleID": "com.hitpaw.photoenhancer",
+      "bundleIdentifier": "com.hitpaw.photoenhancer",
+      "version": "1.99.0",
+      "versionDate": "2026-03-11",
+      "fullDate": "20260311140252",
+      "size": 174037425,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/AIMarvels_1.99.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/AIMarvels_1.99.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hitpaw.photoenhancer.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hitpaw.photoenhancer.png"
+    },
+    {
       "name": "CleanMyPhone",
       "type": 1,
       "bundleID": "com.macpaw.iosgemini",
