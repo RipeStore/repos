@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "PSExpress",
+      "type": 1,
+      "bundleID": "com.adobe.PSMobile",
+      "bundleIdentifier": "com.adobe.PSMobile",
+      "version": "26.9.1",
+      "versionDate": "2026-03-11",
+      "fullDate": "20260311151322",
+      "size": 159798429,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/PSExpress_26.9.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/PSExpress_26.9.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.PSMobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.PSMobile.png"
+    },
+    {
+      "name": "HabitKit",
+      "type": 1,
+      "bundleID": "com.roehl.habitkit",
+      "bundleIdentifier": "com.roehl.habitkit",
+      "version": "1.14.6",
+      "versionDate": "2026-03-11",
+      "fullDate": "20260311145315",
+      "size": 86425888,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/HabitKit_1.14.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/HabitKit_1.14.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.roehl.habitkit.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.roehl.habitkit.png"
+    },
+    {
       "name": "Photoroom",
       "type": 1,
       "bundleID": "com.dr1ven.eraser",
