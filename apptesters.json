@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Detail",
+      "type": 1,
+      "bundleID": "co.detail.duo",
+      "bundleIdentifier": "co.detail.duo",
+      "version": "5.5.9",
+      "versionDate": "2026-03-11",
+      "fullDate": "20260311165351",
+      "size": 220929880,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/Detail_5.5.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/Detail_5.5.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.detail.duo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.detail.duo.png"
+    },
+    {
       "name": "VEEDCaptions",
       "type": 1,
       "bundleID": "io.veed.appstore",
