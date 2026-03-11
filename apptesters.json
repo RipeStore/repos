@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "CleanMyPhone",
+      "type": 1,
+      "bundleID": "com.macpaw.iosgemini",
+      "bundleIdentifier": "com.macpaw.iosgemini",
+      "version": "2.12.1",
+      "versionDate": "2026-03-11",
+      "fullDate": "20260311135744",
+      "size": 114453907,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/CleanMyPhone_2.12.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/CleanMyPhone_2.12.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.macpaw.iosgemini.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.macpaw.iosgemini.png"
+    },
+    {
       "name": "Duolingo",
       "type": 1,
       "bundleID": "com.duolingo.DuolingoMobile",
