@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TikTok",
+      "type": 1,
+      "bundleID": "com.zhiliaoapp.musically",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "version": "44.2.0",
+      "versionDate": "2026-03-12",
+      "fullDate": "20260312153913",
+      "size": 413100887,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-03-2026/TikTok_44.2.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-03-2026/TikTok_44.2.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png"
+    },
+    {
       "name": "SimplyDraw",
       "type": 1,
       "bundleID": "com.joytunes.Draw",
