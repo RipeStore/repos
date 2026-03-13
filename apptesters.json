@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "VSCO",
+      "type": 1,
+      "bundleID": "co.visualsupply.cam",
+      "bundleIdentifier": "co.visualsupply.cam",
+      "version": "458.1.0",
+      "versionDate": "2026-03-14",
+      "fullDate": "20260314045143",
+      "size": 211158518,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-03-2026/VSCO_458.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-03-2026/VSCO_458.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png"
+    },
+    {
+      "name": "OVFEditor",
+      "type": 1,
+      "bundleID": "com.mutaeb.OVF-Editor",
+      "bundleIdentifier": "com.mutaeb.OVF-Editor",
+      "version": "6.0.0",
+      "versionDate": "2026-03-14",
+      "fullDate": "20260314044139",
+      "size": 19937046,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-03-2026/OVFEditor_6.0.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-03-2026/OVFEditor_6.0.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mutaeb.OVF-Editor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mutaeb.OVF-Editor.png"
+    },
+    {
       "name": "BlockBlast",
       "type": 2,
       "bundleID": "com.blockpuzzle.us.ios",
