@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "BlockBlast",
+      "type": 2,
+      "bundleID": "com.blockpuzzle.us.ios",
+      "bundleIdentifier": "com.blockpuzzle.us.ios",
+      "version": "6.8.6",
+      "versionDate": "2026-03-14",
+      "fullDate": "20260314040630",
+      "size": 132959262,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-03-2026/BlockBlast_6.8.6_noads_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-03-2026/BlockBlast_6.8.6_noads_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with noads",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.blockpuzzle.us.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.blockpuzzle.us.ios.png"
+    },
+    {
+      "name": "Bend",
+      "type": 1,
+      "bundleID": "com.bowery-digital.bend",
+      "bundleIdentifier": "com.bowery-digital.bend",
+      "version": "7.2.4",
+      "versionDate": "2026-03-14",
+      "fullDate": "20260314040624",
+      "size": 118326041,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-03-2026/Bend_7.2.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-03-2026/Bend_7.2.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bowery-digital.bend.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bowery-digital.bend.png"
+    },
+    {
       "name": "Scoreboard",
       "type": 1,
       "bundleID": "com.edwinchan.Scoreboard",
