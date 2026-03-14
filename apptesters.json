@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Boostcamp",
+      "type": 1,
+      "bundleID": "com.bpmhealth.boostfitness",
+      "bundleIdentifier": "com.bpmhealth.boostfitness",
+      "version": "252",
+      "versionDate": "2026-03-15",
+      "fullDate": "20260315035117",
+      "size": 90060253,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-03-2026/Boostcamp_252_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-03-2026/Boostcamp_252_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bpmhealth.boostfitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bpmhealth.boostfitness.png"
+    },
+    {
       "name": "AlevioOS",
       "type": 1,
       "bundleID": "com.alevioos.app",
