@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Busuu",
+      "type": 1,
+      "bundleID": "com.busuu.english.app",
+      "bundleIdentifier": "com.busuu.english.app",
+      "version": "30.5.0",
+      "versionDate": "2026-03-16",
+      "fullDate": "20260316002403",
+      "size": 155777674,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-03-2026/Busuu_30.5.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-03-2026/Busuu_30.5.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png"
+    },
+    {
       "name": "Flo",
       "type": 1,
       "bundleID": "org.iggymedia.periodtracker",
