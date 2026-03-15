@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "OVFEditor",
+      "type": 1,
+      "bundleID": "com.mutaeb.OVF-Editor",
+      "bundleIdentifier": "com.mutaeb.OVF-Editor",
+      "version": "6.1.0",
+      "versionDate": "2026-03-15",
+      "fullDate": "20260315201311",
+      "size": 19938842,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-03-2026/OVFEditor_6.1.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-03-2026/OVFEditor_6.1.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mutaeb.OVF-Editor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mutaeb.OVF-Editor.png"
+    },
+    {
+      "name": "Speedometer",
+      "type": 1,
+      "bundleID": "com.jps.gpspeedhud",
+      "bundleIdentifier": "com.jps.gpspeedhud",
+      "version": "8.0.7",
+      "versionDate": "2026-03-15",
+      "fullDate": "20260315200807",
+      "size": 33828799,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-03-2026/Speedometer_8.0.7_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-03-2026/Speedometer_8.0.7_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jps.gpspeedhud.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jps.gpspeedhud.png"
+    },
+    {
       "name": "Documents",
       "type": 1,
       "bundleID": "com.readdle.ReaddleDocsIPad",
