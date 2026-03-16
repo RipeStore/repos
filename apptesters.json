@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Wikiloc",
+      "type": 1,
+      "bundleID": "com.wikiloc.wikiloc",
+      "bundleIdentifier": "com.wikiloc.wikiloc",
+      "version": "3.26.5",
+      "versionDate": "2026-03-16",
+      "fullDate": "20260316162634",
+      "size": 186356148,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-03-2026/Wikiloc_3.26.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-03-2026/Wikiloc_3.26.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wikiloc.wikiloc.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wikiloc.wikiloc.png"
+    },
+    {
       "name": "Stemz",
       "type": 1,
       "bundleID": "com.mwm.stems",
