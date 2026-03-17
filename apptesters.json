@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Fitia",
+      "type": 1,
+      "bundleID": "com.ulisesolave.Fitia",
+      "bundleIdentifier": "com.ulisesolave.Fitia",
+      "version": "22.2",
+      "versionDate": "2026-03-18",
+      "fullDate": "20260318032859",
+      "size": 100394811,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/Fitia_22.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/Fitia_22.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png"
+    },
+    {
       "name": "TikTok",
       "type": 1,
       "bundleID": "com.zhiliaoapp.musically",
