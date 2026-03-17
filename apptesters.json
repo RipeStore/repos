@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "ColorPop",
+      "type": 1,
+      "bundleID": "com.mwm.procolor",
+      "bundleIdentifier": "com.mwm.procolor",
+      "version": "2.59.01",
+      "versionDate": "2026-03-17",
+      "fullDate": "20260317131820",
+      "size": 241588592,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-03-2026/ColorPop_2.59.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-03-2026/ColorPop_2.59.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png"
+    },
+    {
+      "name": "Piano",
+      "type": 1,
+      "bundleID": "com.mwm.piano-app",
+      "bundleIdentifier": "com.mwm.piano-app",
+      "version": "3.56.00",
+      "versionDate": "2026-03-17",
+      "fullDate": "20260317131811",
+      "size": 149309688,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-03-2026/Piano_3.56.00_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-03-2026/Piano_3.56.00_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.piano-app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.piano-app.png"
+    },
+    {
       "name": "Homeworkouts",
       "type": 1,
       "bundleID": "com.abishkking.maleworkout",
