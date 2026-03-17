@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Moonly",
+      "type": 1,
+      "bundleID": "com.moonly.Moonly",
+      "bundleIdentifier": "com.moonly.Moonly",
+      "version": "2.7.0",
+      "versionDate": "2026-03-17",
+      "fullDate": "20260317142844",
+      "size": 133179080,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-03-2026/Moonly_2.7.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-03-2026/Moonly_2.7.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png"
+    },
+    {
+      "name": "Cure",
+      "type": 1,
+      "bundleID": "app.cranberry.cure",
+      "bundleIdentifier": "app.cranberry.cure",
+      "version": "2.2",
+      "versionDate": "2026-03-17",
+      "fullDate": "20260317142836",
+      "size": 166091532,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-03-2026/Cure_2.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-03-2026/Cure_2.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.cranberry.cure.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.cranberry.cure.png"
+    },
+    {
       "name": "ColorPop",
       "type": 1,
       "bundleID": "com.mwm.procolor",
