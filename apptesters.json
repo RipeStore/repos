@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "1Blocker",
+      "type": 1,
+      "bundleID": "com.khanov.BlockerX",
+      "bundleIdentifier": "com.khanov.BlockerX",
+      "version": "6.5",
+      "versionDate": "2026-03-18",
+      "fullDate": "20260318125052",
+      "size": 58069204,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/1Blocker_6.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/1Blocker_6.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.khanov.BlockerX.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.khanov.BlockerX.png"
+    },
+    {
+      "name": "MDClock",
+      "type": 1,
+      "bundleID": "tech.miidii.MDClock",
+      "bundleIdentifier": "tech.miidii.MDClock",
+      "version": "2.66",
+      "versionDate": "2026-03-18",
+      "fullDate": "20260318124538",
+      "size": 316997100,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/MDClock_2.66_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/MDClock_2.66_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDClock.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDClock.png"
+    },
+    {
       "name": "wpsoffice",
       "type": 1,
       "bundleID": "com.kingsoft.office.g.wpsoffice",
