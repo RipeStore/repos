@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "AudioEditor",
+      "type": 1,
+      "bundleID": "com.hemin.mp3editor",
+      "bundleIdentifier": "com.hemin.mp3editor",
+      "version": "5.72",
+      "versionDate": "2026-03-19",
+      "fullDate": "20260319041416",
+      "size": 106462904,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-03-2026/AudioEditor_5.72_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-03-2026/AudioEditor_5.72_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hemin.mp3editor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hemin.mp3editor.png"
+    },
+    {
       "name": "Splice",
       "type": 1,
       "bundleID": "com.path36.SpliceFree",
