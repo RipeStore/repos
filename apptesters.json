@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VlogNow",
+      "type": 1,
+      "bundleID": "com.frontrow.vlog",
+      "bundleIdentifier": "com.frontrow.vlog",
+      "version": "2.3.0",
+      "versionDate": "2026-03-18",
+      "fullDate": "20260318163151",
+      "size": 401024415,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/VlogNow_2.3.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/VlogNow_2.3.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontrow.vlog.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontrow.vlog.png"
+    },
+    {
       "name": "SleepCycle",
       "type": 1,
       "bundleID": "com.lexwarelabs.goodmorning",
