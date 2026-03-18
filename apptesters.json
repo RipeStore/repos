@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "wpsoffice",
+      "type": 1,
+      "bundleID": "com.kingsoft.office.g.wpsoffice",
+      "bundleIdentifier": "com.kingsoft.office.g.wpsoffice",
+      "version": "11.37.40",
+      "versionDate": "2026-03-18",
+      "fullDate": "20260318100010",
+      "size": 323544102,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/wpsoffice_11.37.40_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/wpsoffice_11.37.40_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kingsoft.office.g.wpsoffice.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kingsoft.office.g.wpsoffice.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "tech.miidii.MDBlank",
