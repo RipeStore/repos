@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "MergeCooking",
+      "type": 2,
+      "bundleID": "com.merge.cooking.theme.restaurant.food",
+      "bundleIdentifier": "com.merge.cooking.theme.restaurant.food",
+      "version": "1.33.0",
+      "versionDate": "2026-03-20",
+      "fullDate": "20260320034135",
+      "size": 319627174,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/MergeCooking_1.33.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/MergeCooking_1.33.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png"
+    },
+    {
+      "name": "Zoomable",
+      "type": 1,
+      "bundleID": "com.actowise.browser",
+      "bundleIdentifier": "com.actowise.browser",
+      "version": "3.6",
+      "versionDate": "2026-03-20",
+      "fullDate": "20260320033131",
+      "size": 5946848,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/Zoomable_3.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/Zoomable_3.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.actowise.browser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.actowise.browser.png"
+    },
+    {
       "name": "KeyLifts",
       "type": 1,
       "bundleID": "org.borrowedcache.ultimate531",
