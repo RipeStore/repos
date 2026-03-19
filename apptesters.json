@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Pillow",
+      "type": 1,
+      "bundleID": "com.neybox.Pillow",
+      "bundleIdentifier": "com.neybox.Pillow",
+      "version": "6.2.9",
+      "versionDate": "2026-03-19",
+      "fullDate": "20260319132759",
+      "size": 545968918,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-03-2026/Pillow_6.2.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-03-2026/Pillow_6.2.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png"
+    },
+    {
+      "name": "FitnessAI",
+      "type": 1,
+      "bundleID": "com.jakemor.firness-ai",
+      "bundleIdentifier": "com.jakemor.firness-ai",
+      "version": "15.5",
+      "versionDate": "2026-03-19",
+      "fullDate": "20260319132250",
+      "size": 139700829,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-03-2026/FitnessAI_15.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-03-2026/FitnessAI_15.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jakemor.firness-ai.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jakemor.firness-ai.png"
+    },
+    {
       "name": "StressWatch",
       "type": 1,
       "bundleID": "com.ideation.Stress",
