@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "simpleweather",
+      "type": 1,
+      "bundleID": "com.andyworks.weather",
+      "bundleIdentifier": "com.andyworks.weather",
+      "version": "3.47",
+      "versionDate": "2026-03-19",
+      "fullDate": "20260319212552",
+      "size": 199842051,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-03-2026/simpleweather_3.47_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-03-2026/simpleweather_3.47_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andyworks.weather.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andyworks.weather.png"
+    },
+    {
       "name": "Facetune",
       "type": 1,
       "bundleID": "com.lightricks.Facetune2",
