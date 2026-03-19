@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Drafts",
+      "type": 1,
+      "bundleID": "com.agiletortoise.Drafts5",
+      "bundleIdentifier": "com.agiletortoise.Drafts5",
+      "version": "51.0.2",
+      "versionDate": "2026-03-20",
+      "fullDate": "20260320021037",
+      "size": 39500498,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/Drafts_51.0.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/Drafts_51.0.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.agiletortoise.Drafts5.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.agiletortoise.Drafts5.png"
+    },
+    {
       "name": "SNOW",
       "type": 1,
       "bundleID": "com.campmobile.snow",
