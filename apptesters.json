@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Camera",
+      "type": 1,
+      "bundleID": "com.andyworks.camera",
+      "bundleIdentifier": "com.andyworks.camera",
+      "version": "1.45",
+      "versionDate": "2026-03-20",
+      "fullDate": "20260320212722",
+      "size": 150986861,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/Camera_1.45_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/Camera_1.45_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andyworks.camera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andyworks.camera.png"
+    },
+    {
       "name": "Minutes",
       "type": 1,
       "bundleID": "ventures.slam.minutes",
