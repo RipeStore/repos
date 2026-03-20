@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "InCollage",
+      "type": 1,
+      "bundleID": "PhotoEditor.PhotoCollage.inCollage",
+      "bundleIdentifier": "PhotoEditor.PhotoCollage.inCollage",
+      "version": "2.2.31",
+      "versionDate": "2026-03-20",
+      "fullDate": "20260320090842",
+      "size": 99371047,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/InCollage_2.2.31_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/InCollage_2.2.31_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/PhotoEditor.PhotoCollage.inCollage.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/PhotoEditor.PhotoCollage.inCollage.png"
+    },
+    {
+      "name": "AIMarvels",
+      "type": 1,
+      "bundleID": "com.hitpaw.photoenhancer",
+      "bundleIdentifier": "com.hitpaw.photoenhancer",
+      "version": "1.100.0",
+      "versionDate": "2026-03-20",
+      "fullDate": "20260320083323",
+      "size": 184530096,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/AIMarvels_1.100.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/AIMarvels_1.100.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hitpaw.photoenhancer.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hitpaw.photoenhancer.png"
+    },
+    {
       "name": "HiWidget",
       "type": 1,
       "bundleID": "com.zerone.hidesktop",
