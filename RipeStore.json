@@ -626,6 +626,14 @@
       ],
       "versions": [
         {
+          "version": "1.6.4",
+          "date": "2026-03-20T17:10:00Z",
+          "localizedDescription": "• Please report with a screenshot and some feedback if possible.\n• Include an email so further feedback can be provided.\n• You can also report to info@keka.io or at https://issues.keka.io.",
+          "downloadURL": "https://cdn.yemoja.xyz/Keka/v1.6.4/com.aone.Keka-iOS_1.6.4.ipa",
+          "size": 25200000,
+          "minOSVersion": "15.5"
+        },
+        {
           "version": "1.6.0",
           "date": "2025-10-06T23:35:00Z",
           "localizedDescription": "• Using Liquid icon on macOS 26 and later (Thanks to @vslavik, @avidrissman \u0026 @siracusa)\n• Using liblzma for XZ compression if possible (Thanks to @kytta) #1654\n• Enhanced XAR extraction\n• Added 4GB FAT32 split option (Thanks to @jezcaudle) #1662\n• Minor fixes\n• Updated UNRAR from 7.11 to 7.13 (Thanks to rarlab)\n• Updated Danish translation (Thanks to @jacobpalm) #1650\n• Italian translation updated (Thanks to @VinBoiSoft from https://vinboisoft.altervista.org) #1663\n• French translation updated (Thanks to @Marc66) #1664\n• Russian translation updated (Thanks to @nitrodox) #1665",
