@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Pillow",
+      "type": 1,
+      "bundleID": "com.neybox.Pillow",
+      "bundleIdentifier": "com.neybox.Pillow",
+      "version": "6.2.11",
+      "versionDate": "2026-03-21",
+      "fullDate": "20260321230706",
+      "size": 545959024,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-03-2026/Pillow_6.2.11_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-03-2026/Pillow_6.2.11_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png"
+    },
+    {
       "name": "Drafts",
       "type": 1,
       "bundleID": "com.agiletortoise.Drafts5",
