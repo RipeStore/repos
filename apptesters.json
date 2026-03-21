@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Messenger",
+      "type": 1,
+      "bundleID": "com.facebook.Messenger",
+      "bundleIdentifier": "com.facebook.Messenger",
+      "version": "553.0.0",
+      "versionDate": "2026-03-21",
+      "fullDate": "20260321205133",
+      "size": 71793752,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-03-2026/Messenger_553.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-03-2026/Messenger_553.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png"
+    },
+    {
       "name": "Impulse",
       "type": 1,
       "bundleID": "gen.tech.impulse",
