@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Speedometer",
+      "type": 1,
+      "bundleID": "com.jps.gpspeedhud",
+      "bundleIdentifier": "com.jps.gpspeedhud",
+      "version": "8.0.11",
+      "versionDate": "2026-03-23",
+      "fullDate": "20260323035015",
+      "size": 33818847,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Speedometer_8.0.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Speedometer_8.0.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jps.gpspeedhud.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jps.gpspeedhud.png"
+    },
+    {
+      "name": "Narwhal",
+      "type": 1,
+      "bundleID": "com.rickharrison.narwhal",
+      "bundleIdentifier": "com.rickharrison.narwhal",
+      "version": "2026.4",
+      "versionDate": "2026-03-23",
+      "fullDate": "20260323034511",
+      "size": 16799596,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Narwhal_2026.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Narwhal_2026.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.rickharrison.narwhal.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.rickharrison.narwhal.png"
+    },
+    {
       "name": "Picsart",
       "type": 1,
       "bundleID": "com.picsart.studio",
