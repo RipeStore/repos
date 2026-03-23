@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Truecaller",
+      "type": 1,
+      "bundleID": "com.truesoftware.TrueCallerOther",
+      "bundleIdentifier": "com.truesoftware.TrueCallerOther",
+      "version": "26.11.5",
+      "versionDate": "2026-03-23",
+      "fullDate": "20260323182800",
+      "size": 87858962,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Truecaller_26.11.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Truecaller_26.11.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.truesoftware.TrueCallerOther.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.truesoftware.TrueCallerOther.png"
+    },
+    {
+      "name": "iTranslate",
+      "type": 1,
+      "bundleID": "com.outerspaceapps.itranslate",
+      "bundleIdentifier": "com.outerspaceapps.itranslate",
+      "version": "17.4.72",
+      "versionDate": "2026-03-23",
+      "fullDate": "20260323173250",
+      "size": 100464775,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/iTranslate_17.4.72_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/iTranslate_17.4.72_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.outerspaceapps.itranslate.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.outerspaceapps.itranslate.png"
+    },
+    {
       "name": "Wikiloc",
       "type": 1,
       "bundleID": "com.wikiloc.wikiloc",
