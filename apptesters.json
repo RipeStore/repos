@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Stay",
+      "type": 1,
+      "bundleID": "com.dajiu.stay.pro",
+      "bundleIdentifier": "com.dajiu.stay.pro",
+      "version": "2.9.20",
+      "versionDate": "2026-03-23",
+      "fullDate": "20260323075036",
+      "size": 37285049,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Stay_2.9.20_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Stay_2.9.20_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dajiu.stay.pro.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dajiu.stay.pro.png"
+    },
+    {
       "name": "Speedometer",
       "type": 1,
       "bundleID": "com.jps.gpspeedhud",
