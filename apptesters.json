@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Wikiloc",
+      "type": 1,
+      "bundleID": "com.wikiloc.wikiloc",
+      "bundleIdentifier": "com.wikiloc.wikiloc",
+      "version": "3.26.6",
+      "versionDate": "2026-03-23",
+      "fullDate": "20260323165737",
+      "size": 186924496,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Wikiloc_3.26.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Wikiloc_3.26.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wikiloc.wikiloc.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wikiloc.wikiloc.png"
+    },
+    {
       "name": "Flightradar24",
       "type": 1,
       "bundleID": "se.resenatverket.FlightRadar24-Free",
