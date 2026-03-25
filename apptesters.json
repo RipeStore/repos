@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Tripsy",
+      "type": 1,
+      "bundleID": "app.tripsy.ios",
+      "bundleIdentifier": "app.tripsy.ios",
+      "version": "3.8.0",
+      "versionDate": "2026-03-25",
+      "fullDate": "20260325170730",
+      "size": 113310944,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/Tripsy_3.8.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/Tripsy_3.8.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png"
+    },
+    {
+      "name": "Motionleap",
+      "type": 1,
+      "bundleID": "com.lightricks.Enlight-Phoenix",
+      "bundleIdentifier": "com.lightricks.Enlight-Phoenix",
+      "version": "1.9.36",
+      "versionDate": "2026-03-25",
+      "fullDate": "20260325165219",
+      "size": 178433991,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/Motionleap_1.9.36_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/Motionleap_1.9.36_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Phoenix.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Phoenix.png"
+    },
+    {
       "name": "Moonly",
       "type": 1,
       "bundleID": "com.moonly.Moonly",
