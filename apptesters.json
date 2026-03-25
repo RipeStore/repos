@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ProCCD",
+      "type": 1,
+      "bundleID": "com.yengshine.proccd",
+      "bundleIdentifier": "com.yengshine.proccd",
+      "version": "5.7.0",
+      "versionDate": "2026-03-26",
+      "fullDate": "20260326013528",
+      "size": 230737852,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/ProCCD_5.7.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/ProCCD_5.7.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yengshine.proccd.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yengshine.proccd.png"
+    },
+    {
       "name": "DiamondFinder",
       "type": 1,
       "bundleID": "com.mcdiamondfinder.app",
