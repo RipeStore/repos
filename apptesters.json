@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Fing",
+      "type": 1,
+      "bundleID": "overlook.fing",
+      "bundleIdentifier": "overlook.fing",
+      "version": "12.11.9",
+      "versionDate": "2026-03-25",
+      "fullDate": "20260325150139",
+      "size": 175158751,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/Fing_12.11.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/Fing_12.11.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/overlook.fing.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/overlook.fing.png"
+    },
+    {
+      "name": "AlightMotion",
+      "type": 1,
+      "bundleID": "com.alightcreative.motion",
+      "bundleIdentifier": "com.alightcreative.motion",
+      "version": "6.2.52",
+      "versionDate": "2026-03-25",
+      "fullDate": "20260325150133",
+      "size": 125547317,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/AlightMotion_6.2.52_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/AlightMotion_6.2.52_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alightcreative.motion.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alightcreative.motion.png"
+    },
+    {
       "name": "SCRL",
       "type": 1,
       "bundleID": "com.dopedevelopment.Panels",
