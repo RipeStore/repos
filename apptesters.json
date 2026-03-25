@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "",
+      "type": 1,
+      "bundleID": "com.madarsoft.fitness",
+      "bundleIdentifier": "com.madarsoft.fitness",
+      "version": "7.14.0",
+      "versionDate": "2026-03-25",
+      "fullDate": "20260325101542",
+      "size": 187469050,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/_7.14.0_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/_7.14.0_VIP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with VIP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.madarsoft.fitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.madarsoft.fitness.png"
+    },
+    {
       "name": "SnapEdit",
       "type": 1,
       "bundleID": "com.sfun.snapedit",
