@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SnapEdit",
+      "type": 1,
+      "bundleID": "com.sfun.snapedit",
+      "bundleIdentifier": "com.sfun.snapedit",
+      "version": "6.4.6",
+      "versionDate": "2026-03-25",
+      "fullDate": "20260325092033",
+      "size": 76526717,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/SnapEdit_6.4.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/SnapEdit_6.4.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png"
+    },
+    {
+      "name": "LINECamera",
+      "type": 1,
+      "bundleID": "jp.naver.linecamera",
+      "bundleIdentifier": "jp.naver.linecamera",
+      "version": "18.2.0",
+      "versionDate": "2026-03-25",
+      "fullDate": "20260325073012",
+      "size": 189257318,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/LINECamera_18.2.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/LINECamera_18.2.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/jp.naver.linecamera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/jp.naver.linecamera.png"
+    },
+    {
       "name": "Messenger",
       "type": 1,
       "bundleID": "com.facebook.Messenger",
