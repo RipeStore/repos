@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "AlevioOS",
+      "type": 1,
+      "bundleID": "com.alevioos.app",
+      "bundleIdentifier": "com.alevioos.app",
+      "version": "2.4.9",
+      "versionDate": "2026-03-26",
+      "fullDate": "20260326224929",
+      "size": 28824258,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/AlevioOS_2.4.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/AlevioOS_2.4.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alevioos.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alevioos.app.png"
+    },
+    {
+      "name": "Radiance",
+      "type": 1,
+      "bundleID": "SimpleTools.Wallpaper-Workshop",
+      "bundleIdentifier": "SimpleTools.Wallpaper-Workshop",
+      "version": "2.2.8",
+      "versionDate": "2026-03-26",
+      "fullDate": "20260326222923",
+      "size": 31010794,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/Radiance_2.2.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/Radiance_2.2.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/SimpleTools.Wallpaper-Workshop.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/SimpleTools.Wallpaper-Workshop.png"
+    },
+    {
       "name": "Rest",
       "type": 1,
       "bundleID": "com.evolve.helm",
