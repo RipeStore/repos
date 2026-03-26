@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "RiseSleep",
+      "type": 1,
+      "bundleID": "com.risesci.nyx",
+      "bundleIdentifier": "com.risesci.nyx",
+      "version": "0.1.577",
+      "versionDate": "2026-03-26",
+      "fullDate": "20260326235450",
+      "size": 143269160,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/RiseSleep_0.1.577_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/RiseSleep_0.1.577_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png"
+    },
+    {
+      "name": "Fitia",
+      "type": 1,
+      "bundleID": "com.ulisesolave.Fitia",
+      "bundleIdentifier": "com.ulisesolave.Fitia",
+      "version": "22.3.4",
+      "versionDate": "2026-03-26",
+      "fullDate": "20260326235442",
+      "size": 101879099,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/Fitia_22.3.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/Fitia_22.3.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png"
+    },
+    {
       "name": "AlevioOS",
       "type": 1,
       "bundleID": "com.alevioos.app",
