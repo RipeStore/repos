@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MapleReadCX",
+      "type": 1,
+      "bundleID": "com.maplepop.bmcx",
+      "bundleIdentifier": "com.maplepop.bmcx",
+      "version": "6.3",
+      "versionDate": "2026-03-27",
+      "fullDate": "20260327105140",
+      "size": 19109102,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-03-2026/MapleReadCX_6.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-03-2026/MapleReadCX_6.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maplepop.bmcx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maplepop.bmcx.png"
+    },
+    {
       "name": "Homeworkouts",
       "type": 1,
       "bundleID": "com.abishkking.maleworkout",
