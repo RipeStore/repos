@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FitnessAI",
+      "type": 1,
+      "bundleID": "com.jakemor.firness-ai",
+      "bundleIdentifier": "com.jakemor.firness-ai",
+      "version": "16.1",
+      "versionDate": "2026-03-28",
+      "fullDate": "20260328021218",
+      "size": 139898359,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/FitnessAI_16.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/FitnessAI_16.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jakemor.firness-ai.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jakemor.firness-ai.png"
+    },
+    {
       "name": "Bend",
       "type": 1,
       "bundleID": "com.bowery-digital.bend",
