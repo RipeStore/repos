@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Tripsy",
+      "type": 1,
+      "bundleID": "app.tripsy.ios",
+      "bundleIdentifier": "app.tripsy.ios",
+      "version": "3.8.2",
+      "versionDate": "2026-03-27",
+      "fullDate": "20260327200514",
+      "size": 113268639,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-03-2026/Tripsy_3.8.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-03-2026/Tripsy_3.8.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png"
+    },
+    {
       "name": "ScannerPro",
       "type": 1,
       "bundleID": "com.readdle.Scanner",
