@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "AlightMotion",
+      "type": 1,
+      "bundleID": "com.alightcreative.motion",
+      "bundleIdentifier": "com.alightcreative.motion",
+      "version": "6.2.53",
+      "versionDate": "2026-03-27",
+      "fullDate": "20260327143351",
+      "size": 125550213,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-03-2026/AlightMotion_6.2.53_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-03-2026/AlightMotion_6.2.53_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alightcreative.motion.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alightcreative.motion.png"
+    },
+    {
+      "name": "BEAT",
+      "type": 1,
+      "bundleID": "reels-maker-one",
+      "bundleIdentifier": "reels-maker-one",
+      "version": "1.23.0",
+      "versionDate": "2026-03-27",
+      "fullDate": "20260327143345",
+      "size": 146410916,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-03-2026/BEAT_1.23.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-03-2026/BEAT_1.23.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/reels-maker-one.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/reels-maker-one.png"
+    },
+    {
       "name": "FilmicPro",
       "type": 1,
       "bundleID": "com.cinegenix.filmic.pro",
