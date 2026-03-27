@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ScannerPro",
+      "type": 1,
+      "bundleID": "com.readdle.Scanner",
+      "bundleIdentifier": "com.readdle.Scanner",
+      "version": "8.36.0",
+      "versionDate": "2026-03-27",
+      "fullDate": "20260327171931",
+      "size": 285664318,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-03-2026/ScannerPro_8.36.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-03-2026/ScannerPro_8.36.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.Scanner.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.Scanner.png"
+    },
+    {
       "name": "PSExpress",
       "type": 1,
       "bundleID": "com.adobe.PSMobile",
