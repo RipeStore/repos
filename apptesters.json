@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "ProCCD",
+      "type": 1,
+      "bundleID": "com.yengshine.proccd",
+      "bundleIdentifier": "com.yengshine.proccd",
+      "version": "5.7.1",
+      "versionDate": "2026-03-28",
+      "fullDate": "20260328012143",
+      "size": 230737417,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/ProCCD_5.7.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/ProCCD_5.7.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yengshine.proccd.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yengshine.proccd.png"
+    },
+    {
+      "name": "Polish",
+      "type": 1,
+      "bundleID": "com.photoeditor.polish",
+      "bundleIdentifier": "com.photoeditor.polish",
+      "version": "2.1.7",
+      "versionDate": "2026-03-28",
+      "fullDate": "20260328011633",
+      "size": 129549978,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/Polish_2.1.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/Polish_2.1.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.photoeditor.polish.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.photoeditor.polish.png"
+    },
+    {
       "name": "Things",
       "type": 1,
       "bundleID": "com.culturedcode.ThingsiPad",
