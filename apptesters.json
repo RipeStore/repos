@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Slopes",
+      "type": 1,
+      "bundleID": "com.consumedbycode.slopes",
+      "bundleIdentifier": "com.consumedbycode.slopes",
+      "version": "2026.10",
+      "versionDate": "2026-03-29",
+      "fullDate": "20260329012805",
+      "size": 89002420,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-03-2026/Slopes_2026.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-03-2026/Slopes_2026.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.consumedbycode.slopes.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.consumedbycode.slopes.png"
+    },
+    {
       "name": "FRZYSPORT",
       "type": 1,
       "bundleID": "com.ntosport.app",
