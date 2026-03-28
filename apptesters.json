@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FRZYSPORT",
+      "type": 1,
+      "bundleID": "com.ntosport.app",
+      "bundleIdentifier": "com.ntosport.app",
+      "version": "1.5",
+      "versionDate": "2026-03-29",
+      "fullDate": "20260329012259",
+      "size": 16681075,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-03-2026/FRZYSPORT_1.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-03-2026/FRZYSPORT_1.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ntosport.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ntosport.app.png"
+    },
+    {
       "name": "UpNote",
       "type": 1,
       "bundleID": "com.getupnote.ios",
