@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Speedometer",
+      "type": 1,
+      "bundleID": "com.jps.gpspeedhud",
+      "bundleIdentifier": "com.jps.gpspeedhud",
+      "version": "8.0.12",
+      "versionDate": "2026-03-29",
+      "fullDate": "20260329022315",
+      "size": 33897232,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-03-2026/Speedometer_8.0.12_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-03-2026/Speedometer_8.0.12_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jps.gpspeedhud.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jps.gpspeedhud.png"
+    },
+    {
       "name": "Slopes",
       "type": 1,
       "bundleID": "com.consumedbycode.slopes",
