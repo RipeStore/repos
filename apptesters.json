@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ProFit",
+      "type": 1,
+      "bundleID": "com.maxty.gofitness",
+      "bundleIdentifier": "com.maxty.gofitness",
+      "version": "7.16.18",
+      "versionDate": "2026-03-28",
+      "fullDate": "20260328161015",
+      "size": 52545574,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/ProFit_7.16.18_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/ProFit_7.16.18_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maxty.gofitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maxty.gofitness.png"
+    },
+    {
       "name": "TinyDecisions",
       "type": 1,
       "bundleID": "com.nixwang.decision",
