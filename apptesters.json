@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "VSCO",
+      "type": 1,
+      "bundleID": "co.visualsupply.cam",
+      "bundleIdentifier": "co.visualsupply.cam",
+      "version": "459.0.1",
+      "versionDate": "2026-03-30",
+      "fullDate": "20260330020248",
+      "size": 212263591,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-03-2026/VSCO_459.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-03-2026/VSCO_459.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png"
+    },
+    {
+      "name": "NBv66293",
+      "type": 1,
+      "bundleID": "nt.nb.ios",
+      "bundleIdentifier": "nt.nb.ios",
+      "version": "66.293",
+      "versionDate": "2026-03-30",
+      "fullDate": "20260330015127",
+      "size": 1038944288,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-03-2026/NBv66293_66.293_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-03-2026/NBv66293_66.293_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nt.nb.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nt.nb.ios.png"
+    },
+    {
       "name": "Busuu",
       "type": 1,
       "bundleID": "com.busuu.english.app",
