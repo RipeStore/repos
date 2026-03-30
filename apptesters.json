@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Foodie",
+      "type": 1,
+      "bundleID": "com.linecorp.Foodie",
+      "bundleIdentifier": "com.linecorp.Foodie",
+      "version": "7.4.32",
+      "versionDate": "2026-03-31",
+      "fullDate": "20260331023205",
+      "size": 108671551,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Foodie_7.4.32_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Foodie_7.4.32_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.Foodie.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.Foodie.png"
+    },
+    {
       "name": "swipewipe",
       "type": 1,
       "bundleID": "com.aoklab.fewerphotos",
