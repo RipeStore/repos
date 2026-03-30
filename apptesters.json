@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Balance",
+      "type": 1,
+      "bundleID": "com.elevateapp.kamino.kamino",
+      "bundleIdentifier": "com.elevateapp.kamino.kamino",
+      "version": "1.200.0",
+      "versionDate": "2026-03-31",
+      "fullDate": "20260331005524",
+      "size": 121685526,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Balance_1.200.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Balance_1.200.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.kamino.kamino.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.kamino.kamino.png"
+    },
+    {
+      "name": "Duolingo",
+      "type": 1,
+      "bundleID": "com.duolingo.DuolingoMobile",
+      "bundleIdentifier": "com.duolingo.DuolingoMobile",
+      "version": "7.116.0",
+      "versionDate": "2026-03-31",
+      "fullDate": "20260331002500",
+      "size": 207152998,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Duolingo_7.116.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Duolingo_7.116.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png"
+    },
+    {
       "name": "Facelab",
       "type": 1,
       "bundleID": "com.lyrebirdstudio.facelab",
