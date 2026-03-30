@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Instagram",
+      "type": 1,
+      "bundleID": "com.burbn.instagram",
+      "bundleIdentifier": "com.burbn.instagram",
+      "version": "423.0.0",
+      "versionDate": "2026-03-31",
+      "fullDate": "20260331033727",
+      "size": 249470269,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Instagram_423.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Instagram_423.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png"
+    },
+    {
       "name": "Foodie",
       "type": 1,
       "bundleID": "com.linecorp.Foodie",
