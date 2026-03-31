@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TORSuite",
+      "type": 1,
+      "bundleID": "com.youssef.developer.Full-Browser",
+      "bundleIdentifier": "com.youssef.developer.Full-Browser",
+      "version": "10.8",
+      "versionDate": "2026-03-31",
+      "fullDate": "20260331084336",
+      "size": 187225097,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/TORSuite_10.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/TORSuite_10.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.youssef.developer.Full-Browser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.youssef.developer.Full-Browser.png"
+    },
+    {
       "name": "TikTok",
       "type": 1,
       "bundleID": "com.zhiliaoapp.musically",
