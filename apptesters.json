@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Photoroom",
+      "type": 1,
+      "bundleID": "com.dr1ven.eraser",
+      "bundleIdentifier": "com.dr1ven.eraser",
+      "version": "2026.13.02",
+      "versionDate": "2026-03-31",
+      "fullDate": "20260331110910",
+      "size": 150679376,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Photoroom_2026.13.02_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Photoroom_2026.13.02_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png"
+    },
+    {
+      "name": "Sofa",
+      "type": 1,
+      "bundleID": "com.astrio.Sofa",
+      "bundleIdentifier": "com.astrio.Sofa",
+      "version": "5.0",
+      "versionDate": "2026-03-31",
+      "fullDate": "20260331095853",
+      "size": 190392307,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Sofa_5.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Sofa_5.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.astrio.Sofa.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.astrio.Sofa.png"
+    },
+    {
       "name": "TORSuite",
       "type": 1,
       "bundleID": "com.youssef.developer.Full-Browser",
