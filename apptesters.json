@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Aloha",
+      "type": 1,
+      "bundleID": "com.alohabrowser.alohabrowser",
+      "bundleIdentifier": "com.alohabrowser.alohabrowser",
+      "version": "8.3.0",
+      "versionDate": "2026-03-31",
+      "fullDate": "20260331164047",
+      "size": 145354354,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Aloha_8.3.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Aloha_8.3.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png"
+    },
+    {
       "name": "Calendars",
       "type": 1,
       "bundleID": "com.readdle.CalendarsLite",
