@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Calendars",
+      "type": 1,
+      "bundleID": "com.readdle.CalendarsLite",
+      "bundleIdentifier": "com.readdle.CalendarsLite",
+      "version": "5.37.25",
+      "versionDate": "2026-03-31",
+      "fullDate": "20260331153015",
+      "size": 305055619,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Calendars_5.37.25_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Calendars_5.37.25_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.CalendarsLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.CalendarsLite.png"
+    },
+    {
+      "name": "Wallcraft",
+      "type": 1,
+      "bundleID": "com.wallpaperscraft.wallpapers",
+      "bundleIdentifier": "com.wallpaperscraft.wallpapers",
+      "version": "3.34",
+      "versionDate": "2026-03-31",
+      "fullDate": "20260331152503",
+      "size": 117771832,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Wallcraft_3.34_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Wallcraft_3.34_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wallpaperscraft.wallpapers.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wallpaperscraft.wallpapers.png"
+    },
+    {
       "name": "ThePiano",
       "type": 2,
       "bundleID": "com.impalastudios.pianofree",
