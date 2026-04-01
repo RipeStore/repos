@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SCRL",
+      "type": 1,
+      "bundleID": "com.dopedevelopment.Panels",
+      "bundleIdentifier": "com.dopedevelopment.Panels",
+      "version": "9.30.1",
+      "versionDate": "2026-04-01",
+      "fullDate": "20260401223941",
+      "size": 83309343,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-04-2026/SCRL_9.30.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-04-2026/SCRL_9.30.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png"
+    },
+    {
       "name": "Facebook",
       "type": 1,
       "bundleID": "com.facebook.Facebook",
