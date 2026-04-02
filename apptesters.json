@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Origami",
+      "type": 1,
+      "bundleID": "com.oribot.origami",
+      "bundleIdentifier": "com.oribot.origami",
+      "version": "4.72",
+      "versionDate": "2026-04-03",
+      "fullDate": "20260403021648",
+      "size": 191428815,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-04-2026/Origami_4.72_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-04-2026/Origami_4.72_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.oribot.origami.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.oribot.origami.png"
+    },
+    {
       "name": "Mercury",
       "type": 1,
       "bundleID": "com.tripleglazedstudios.Weather",
