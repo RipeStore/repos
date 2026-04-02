@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "B612",
+      "type": 1,
+      "bundleID": "com.linecorp.b612",
+      "bundleIdentifier": "com.linecorp.b612",
+      "version": "15.0.20",
+      "versionDate": "2026-04-02",
+      "fullDate": "20260402235124",
+      "size": 147637069,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-04-2026/B612_15.0.20_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-04-2026/B612_15.0.20_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.b612.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.b612.png"
+    },
+    {
+      "name": "SODA",
+      "type": 1,
+      "bundleID": "com.snowcorp.soda",
+      "bundleIdentifier": "com.snowcorp.soda",
+      "version": "10.1.2",
+      "versionDate": "2026-04-02",
+      "fullDate": "20260402233112",
+      "size": 150275341,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-04-2026/SODA_10.1.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-04-2026/SODA_10.1.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png"
+    },
+    {
       "name": "SNOW",
       "type": 1,
       "bundleID": "com.campmobile.snow",
