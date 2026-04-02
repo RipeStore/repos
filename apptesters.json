@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "EPIK",
+      "type": 1,
+      "bundleID": "com.snowcorp.epik",
+      "bundleIdentifier": "com.snowcorp.epik",
+      "version": "7.0.160",
+      "versionDate": "2026-04-02",
+      "fullDate": "20260402162836",
+      "size": 168529776,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-04-2026/EPIK_7.0.160_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-04-2026/EPIK_7.0.160_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.epik.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.epik.png"
+    },
+    {
+      "name": "Pillow",
+      "type": 1,
+      "bundleID": "com.neybox.Pillow",
+      "bundleIdentifier": "com.neybox.Pillow",
+      "version": "6.2.12",
+      "versionDate": "2026-04-02",
+      "fullDate": "20260402161810",
+      "size": 562030353,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-04-2026/Pillow_6.2.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-04-2026/Pillow_6.2.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png"
+    },
+    {
       "name": "ThePiano",
       "type": 2,
       "bundleID": "com.impalastudios.pianofree",
