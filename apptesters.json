@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "edjingMix",
+      "type": 1,
+      "bundleID": "com.edjing.edjingdjturntable",
+      "bundleIdentifier": "com.edjing.edjingdjturntable",
+      "version": "8.21.05",
+      "versionDate": "2026-04-04",
+      "fullDate": "20260404002614",
+      "size": 428869508,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/edjingMix_8.21.05_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/edjingMix_8.21.05_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.edjing.edjingdjturntable.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.edjing.edjingdjturntable.png"
+    },
+    {
+      "name": "SoundLab",
+      "type": 1,
+      "bundleID": "com.castpeer.audioroom.ios",
+      "bundleIdentifier": "com.castpeer.audioroom.ios",
+      "version": "2.10.9",
+      "versionDate": "2026-04-04",
+      "fullDate": "20260404001104",
+      "size": 128253987,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/SoundLab_2.10.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/SoundLab_2.10.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.castpeer.audioroom.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.castpeer.audioroom.ios.png"
+    },
+    {
       "name": "Wallpapers",
       "type": 1,
       "bundleID": "com.apalonapps.wallpaperspys",
