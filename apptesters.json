@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "UpNote",
+      "type": 1,
+      "bundleID": "com.getupnote.ios",
+      "bundleIdentifier": "com.getupnote.ios",
+      "version": "9.18.2",
+      "versionDate": "2026-04-04",
+      "fullDate": "20260404042415",
+      "size": 52256195,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/UpNote_9.18.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/UpNote_9.18.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getupnote.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getupnote.ios.png"
+    },
+    {
+      "name": "swipewipe",
+      "type": 1,
+      "bundleID": "com.aoklab.fewerphotos",
+      "bundleIdentifier": "com.aoklab.fewerphotos",
+      "version": "3.3.6",
+      "versionDate": "2026-04-04",
+      "fullDate": "20260404042405",
+      "size": 150140953,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/swipewipe_3.3.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/swipewipe_3.3.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aoklab.fewerphotos.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aoklab.fewerphotos.png"
+    },
+    {
       "name": "VSCO",
       "type": 1,
       "bundleID": "co.visualsupply.cam",
