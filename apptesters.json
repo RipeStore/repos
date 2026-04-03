@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "PSExpress",
+      "type": 1,
+      "bundleID": "com.adobe.PSMobile",
+      "bundleIdentifier": "com.adobe.PSMobile",
+      "version": "26.14.0",
+      "versionDate": "2026-04-03",
+      "fullDate": "20260403143922",
+      "size": 164836640,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-04-2026/PSExpress_26.14.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-04-2026/PSExpress_26.14.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.PSMobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.PSMobile.png"
+    },
+    {
+      "name": "Scanner",
+      "type": 1,
+      "bundleID": "com.apalonapps.pdffree",
+      "bundleIdentifier": "com.apalonapps.pdffree",
+      "version": "2.11.6",
+      "versionDate": "2026-04-03",
+      "fullDate": "20260403143917",
+      "size": 94301855,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-04-2026/Scanner_2.11.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-04-2026/Scanner_2.11.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.pdffree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.pdffree.png"
+    },
+    {
       "name": "CLIME",
       "type": 1,
       "bundleID": "com.apalonapps.radarfree",
