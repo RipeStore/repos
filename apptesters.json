@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Wallpapers",
+      "type": 1,
+      "bundleID": "com.apalonapps.wallpaperspys",
+      "bundleIdentifier": "com.apalonapps.wallpaperspys",
+      "version": "2.4.3",
+      "versionDate": "2026-04-03",
+      "fullDate": "20260403231055",
+      "size": 37092164,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-04-2026/Wallpapers_2.4.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-04-2026/Wallpapers_2.4.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.wallpaperspys.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.wallpaperspys.png"
+    },
+    {
       "name": "Sofa",
       "type": 1,
       "bundleID": "com.astrio.Sofa",
