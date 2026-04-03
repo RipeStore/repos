@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VideoLite",
+      "type": 1,
+      "bundleID": "com.videobrowser.ios",
+      "bundleIdentifier": "com.videobrowser.ios",
+      "version": "622200",
+      "versionDate": "2026-04-04",
+      "fullDate": "20260404011638",
+      "size": 34607160,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/VideoLite_622200_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/VideoLite_622200_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.videobrowser.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.videobrowser.ios.png"
+    },
+    {
       "name": "edjingMix",
       "type": 1,
       "bundleID": "com.edjing.edjingdjturntable",
