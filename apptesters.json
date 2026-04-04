@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "MergeCooking",
+      "type": 2,
+      "bundleID": "com.merge.cooking.theme.restaurant.food",
+      "bundleIdentifier": "com.merge.cooking.theme.restaurant.food",
+      "version": "1.35.1",
+      "versionDate": "2026-04-05",
+      "fullDate": "20260405002749",
+      "size": 324646169,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-04-2026/MergeCooking_1.35.1_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-04-2026/MergeCooking_1.35.1_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png"
+    },
+    {
+      "name": "Slopes",
+      "type": 1,
+      "bundleID": "com.consumedbycode.slopes",
+      "bundleIdentifier": "com.consumedbycode.slopes",
+      "version": "2026.11",
+      "versionDate": "2026-04-05",
+      "fullDate": "20260405002241",
+      "size": 89057020,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-04-2026/Slopes_2026.11_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-04-2026/Slopes_2026.11_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.consumedbycode.slopes.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.consumedbycode.slopes.png"
+    },
+    {
       "name": "Speedometer",
       "type": 1,
       "bundleID": "com.jps.gpspeedhud",
