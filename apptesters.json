@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "UpNote",
+      "type": 1,
+      "bundleID": "com.getupnote.ios",
+      "bundleIdentifier": "com.getupnote.ios",
+      "version": "9.18.3",
+      "versionDate": "2026-04-05",
+      "fullDate": "20260405032312",
+      "size": 52257516,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-04-2026/UpNote_9.18.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-04-2026/UpNote_9.18.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getupnote.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getupnote.ios.png"
+    },
+    {
       "name": "MergeCooking",
       "type": 2,
       "bundleID": "com.merge.cooking.theme.restaurant.food",
