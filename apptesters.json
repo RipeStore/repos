@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SimplyGuitar",
+      "type": 1,
+      "bundleID": "com.joytunes.SimplyGuitar",
+      "bundleIdentifier": "com.joytunes.SimplyGuitar",
+      "version": "10.17",
+      "versionDate": "2026-04-05",
+      "fullDate": "20260405150910",
+      "size": 180019469,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-04-2026/SimplyGuitar_10.17_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-04-2026/SimplyGuitar_10.17_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.SimplyGuitar.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.SimplyGuitar.png"
+    },
+    {
       "name": "BoldVoice",
       "type": 1,
       "bundleID": "com.wellocution.iosapp",
