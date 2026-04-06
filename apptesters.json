@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Rest",
+      "type": 1,
+      "bundleID": "com.evolve.helm",
+      "bundleIdentifier": "com.evolve.helm",
+      "version": "3.180.0",
+      "versionDate": "2026-04-06",
+      "fullDate": "20260406203254",
+      "size": 172839904,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-04-2026/Rest_3.180.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-04-2026/Rest_3.180.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.evolve.helm.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.evolve.helm.png"
+    },
+    {
       "name": "Notability",
       "type": 1,
       "bundleID": "com.gingerlabs.Notability",
