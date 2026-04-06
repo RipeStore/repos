@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "",
+      "type": 1,
+      "bundleID": "com.AppChief.ArabicArt",
+      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "version": "9.6.1",
+      "versionDate": "2026-04-06",
+      "fullDate": "20260406140153",
+      "size": 165518950,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-04-2026/_9.6.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-04-2026/_9.6.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+    },
+    {
+      "name": "ProFit",
+      "type": 1,
+      "bundleID": "com.maxty.gofitness",
+      "bundleIdentifier": "com.maxty.gofitness",
+      "version": "7.17.2",
+      "versionDate": "2026-04-06",
+      "fullDate": "20260406130145",
+      "size": 52655115,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-04-2026/ProFit_7.17.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-04-2026/ProFit_7.17.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maxty.gofitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maxty.gofitness.png"
+    },
+    {
       "name": "CollaNote",
       "type": 1,
       "bundleID": "net.quochuywdm.collanote496",
