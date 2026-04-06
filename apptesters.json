@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Mockup",
+      "type": 1,
+      "bundleID": "com.hasankassem.mockup",
+      "bundleIdentifier": "com.hasankassem.mockup",
+      "version": "4.1.4",
+      "versionDate": "2026-04-07",
+      "fullDate": "20260407044541",
+      "size": 64610728,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Mockup_4.1.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Mockup_4.1.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hasankassem.mockup.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hasankassem.mockup.png"
+    },
+    {
+      "name": "PowerThesaurus",
+      "type": 1,
+      "bundleID": "org.powerthesaurus.powerthesaurus",
+      "bundleIdentifier": "org.powerthesaurus.powerthesaurus",
+      "version": "2.10.0",
+      "versionDate": "2026-04-07",
+      "fullDate": "20260407042535",
+      "size": 22739708,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/PowerThesaurus_2.10.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/PowerThesaurus_2.10.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.powerthesaurus.powerthesaurus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.powerthesaurus.powerthesaurus.png"
+    },
+    {
       "name": "Athlytic",
       "type": 1,
       "bundleID": "myndarc.newFitnessApp",
