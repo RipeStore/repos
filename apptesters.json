@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "RiseSleep",
+      "type": 1,
+      "bundleID": "com.risesci.nyx",
+      "bundleIdentifier": "com.risesci.nyx",
+      "version": "0.1.581",
+      "versionDate": "2026-04-07",
+      "fullDate": "20260407204507",
+      "size": 143748250,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/RiseSleep_0.1.581_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/RiseSleep_0.1.581_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png"
+    },
+    {
       "name": "SimplyDraw",
       "type": 1,
       "bundleID": "com.joytunes.Draw",
