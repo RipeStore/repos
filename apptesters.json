@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "GentlerStreak",
+      "type": 1,
+      "bundleID": "app.gentler.activity",
+      "bundleIdentifier": "app.gentler.activity",
+      "version": "5.12.1",
+      "versionDate": "2026-04-08",
+      "fullDate": "20260408131456",
+      "size": 196014512,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-04-2026/GentlerStreak_5.12.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-04-2026/GentlerStreak_5.12.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.gentler.activity.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.gentler.activity.png"
+    },
+    {
       "name": "Wallpapers",
       "type": 1,
       "bundleID": "com.apalonapps.wallpaperspys",
