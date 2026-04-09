@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Luminar",
+      "type": 1,
+      "bundleID": "com.skylum.luminaripad",
+      "bundleIdentifier": "com.skylum.luminaripad",
+      "version": "3.5",
+      "versionDate": "2026-04-09",
+      "fullDate": "20260409165818",
+      "size": 555124417,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-04-2026/Luminar_3.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-04-2026/Luminar_3.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.skylum.luminaripad.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.skylum.luminaripad.png"
+    },
+    {
       "name": "Wallpapers",
       "type": 1,
       "bundleID": "com.apalonapps.wallpaperspys",
