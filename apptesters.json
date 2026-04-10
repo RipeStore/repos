@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "PeakVisor",
+      "type": 1,
+      "bundleID": "ru.routes.peakvisor",
+      "bundleIdentifier": "ru.routes.peakvisor",
+      "version": "5.94",
+      "versionDate": "2026-04-11",
+      "fullDate": "20260411011232",
+      "size": 130897500,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-04-2026/PeakVisor_5.94_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-04-2026/PeakVisor_5.94_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png"
+    },
+    {
       "name": "FlexIPTV",
       "type": 1,
       "bundleID": "com.funlabsoft.iptv",
