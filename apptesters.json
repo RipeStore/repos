@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Polish",
+      "type": 1,
+      "bundleID": "com.photoeditor.polish",
+      "bundleIdentifier": "com.photoeditor.polish",
+      "version": "2.2.1",
+      "versionDate": "2026-04-10",
+      "fullDate": "20260410205604",
+      "size": 134137168,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/Polish_2.2.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/Polish_2.2.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.photoeditor.polish.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.photoeditor.polish.png"
+    },
+    {
+      "name": "GrowMe",
+      "type": 1,
+      "bundleID": "com.book.summaries.reading",
+      "bundleIdentifier": "com.book.summaries.reading",
+      "version": "1.2.2",
+      "versionDate": "2026-04-10",
+      "fullDate": "20260410203557",
+      "size": 69970918,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/GrowMe_1.2.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/GrowMe_1.2.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.book.summaries.reading.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.book.summaries.reading.png"
+    },
+    {
       "name": "Sofa",
       "type": 1,
       "bundleID": "com.astrio.Sofa",
