@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "HiWidget",
+      "type": 1,
+      "bundleID": "com.zerone.hidesktop",
+      "bundleIdentifier": "com.zerone.hidesktop",
+      "version": "4.4.10",
+      "versionDate": "2026-04-10",
+      "fullDate": "20260410083251",
+      "size": 418622209,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/HiWidget_4.4.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/HiWidget_4.4.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png"
+    },
+    {
+      "name": "Minutes",
+      "type": 1,
+      "bundleID": "ventures.slam.minutes",
+      "bundleIdentifier": "ventures.slam.minutes",
+      "version": "1.11",
+      "versionDate": "2026-04-10",
+      "fullDate": "20260410053237",
+      "size": 20312799,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/Minutes_1.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/Minutes_1.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ventures.slam.minutes.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ventures.slam.minutes.png"
+    },
+    {
       "name": "SnapEdit",
       "type": 1,
       "bundleID": "com.sfun.snapedit",
