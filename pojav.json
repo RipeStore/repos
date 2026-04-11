@@ -70,6 +70,15 @@
       },
       "versions": [
         {
+          "version": "1.0.ed267f5",
+          "date": "2026-04-11T00:08:28.188993+00:00",
+          "localizedDescription": "Thanks for helping test Amethyst! To see what's new, check commit \"ed267f5\" on the GitHub repo.",
+          "downloadURL": "https://alt.crystall1ne.dev/resources/amethyst/ed267f5/org.angelauramc.amethyst-1.0-ios.ipa",
+          "size": 150348650,
+          "beta": true,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.0.ba4a002",
           "date": "2026-03-15T05:22:01.984176+00:00",
           "localizedDescription": "Thanks for helping test Amethyst! To see what's new, check commit \"ba4a002\" on the GitHub repo.",
