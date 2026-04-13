@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "YouTubeMusic",
+      "type": 1,
+      "bundleID": "com.google.ios.youtubemusic",
+      "bundleIdentifier": "com.google.ios.youtubemusic",
+      "version": "9.15.2",
+      "versionDate": "2026-04-14",
+      "fullDate": "20260414025341",
+      "size": 98865785,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/YouTubeMusic_9.15.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/YouTubeMusic_9.15.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtubemusic.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtubemusic.png"
+    },
+    {
+      "name": "Fitbod",
+      "type": 1,
+      "bundleID": "com.fitbod",
+      "bundleIdentifier": "com.fitbod",
+      "version": "8.13.0",
+      "versionDate": "2026-04-14",
+      "fullDate": "20260414025333",
+      "size": 80680091,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/Fitbod_8.13.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/Fitbod_8.13.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fitbod.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fitbod.png"
+    },
+    {
       "name": "Wordscapes",
       "type": 2,
       "bundleID": "com.peoplefun.wordcross",
