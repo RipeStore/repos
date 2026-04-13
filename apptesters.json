@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "HiWidget",
+      "type": 1,
+      "bundleID": "com.zerone.hidesktop",
+      "bundleIdentifier": "com.zerone.hidesktop",
+      "version": "4.4.11",
+      "versionDate": "2026-04-13",
+      "fullDate": "20260413091430",
+      "size": 418974488,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-04-2026/HiWidget_4.4.11_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-04-2026/HiWidget_4.4.11_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png"
+    },
+    {
+      "name": "DictionaryAir",
+      "type": 1,
+      "bundleID": "co.airapps.dictionary",
+      "bundleIdentifier": "co.airapps.dictionary",
+      "version": "2026.3.5",
+      "versionDate": "2026-04-13",
+      "fullDate": "20260413065912",
+      "size": 73343960,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-04-2026/DictionaryAir_2026.3.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-04-2026/DictionaryAir_2026.3.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.dictionary.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.dictionary.png"
+    },
+    {
       "name": "WaterMinder",
       "type": 1,
       "bundleID": "com.waterminder.waterminder",
