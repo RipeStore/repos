@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "NFCTools",
+      "type": 1,
+      "bundleID": "com.wakdev.wdnfc",
+      "bundleIdentifier": "com.wakdev.wdnfc",
+      "version": "2.36",
+      "versionDate": "2026-04-14",
+      "fullDate": "20260414035855",
+      "size": 4057577,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/NFCTools_2.36_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/NFCTools_2.36_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wakdev.wdnfc.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wakdev.wdnfc.png"
+    },
+    {
       "name": "YouTubeMusic",
       "type": 1,
       "bundleID": "com.google.ios.youtubemusic",
