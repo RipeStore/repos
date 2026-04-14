@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SleepCycle",
+      "type": 1,
+      "bundleID": "com.lexwarelabs.goodmorning",
+      "bundleIdentifier": "com.lexwarelabs.goodmorning",
+      "version": "6.26.14",
+      "versionDate": "2026-04-14",
+      "fullDate": "20260414120455",
+      "size": 340848796,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/SleepCycle_6.26.14_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/SleepCycle_6.26.14_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lexwarelabs.goodmorning.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lexwarelabs.goodmorning.png"
+    },
+    {
       "name": "NeoServer",
       "type": 1,
       "bundleID": "com.neo.NeoMan",
