@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "BloonsTD6",
+      "type": 2,
+      "bundleID": "com.ninjakiwi.bloonstd6",
+      "bundleIdentifier": "com.ninjakiwi.bloonstd6",
+      "version": "54.1",
+      "versionDate": "2026-04-14",
+      "fullDate": "20260414173210",
+      "size": 74661071,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/BloonsTD6_54.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/BloonsTD6_54.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ninjakiwi.bloonstd6.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ninjakiwi.bloonstd6.png"
+    },
+    {
       "name": "PUSH",
       "type": 1,
       "bundleID": "com.ADPTVLTD.push",
