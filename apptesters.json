@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SimplyPiano",
+      "type": 1,
+      "bundleID": "com.joytunes.asla",
+      "bundleIdentifier": "com.joytunes.asla",
+      "version": "9.10.63",
+      "versionDate": "2026-04-15",
+      "fullDate": "20260415173908",
+      "size": 159809613,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/SimplyPiano_9.10.63_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/SimplyPiano_9.10.63_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.asla.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.asla.png"
+    },
+    {
+      "name": "Lingvist",
+      "type": 1,
+      "bundleID": "ee.keel24.Lingvist",
+      "bundleIdentifier": "ee.keel24.Lingvist",
+      "version": "2.65.3",
+      "versionDate": "2026-04-15",
+      "fullDate": "20260415171900",
+      "size": 38818501,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Lingvist_2.65.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Lingvist_2.65.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ee.keel24.Lingvist.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ee.keel24.Lingvist.png"
+    },
+    {
       "name": "Lightroom",
       "type": 1,
       "bundleID": "com.adobe.lrmobilephone",
