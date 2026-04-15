@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Premiere",
+      "type": 1,
+      "bundleID": "com.adobe.premiere.ios",
+      "bundleIdentifier": "com.adobe.premiere.ios",
+      "version": "26.10.0",
+      "versionDate": "2026-04-15",
+      "fullDate": "20260415071619",
+      "size": 60576588,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Premiere_26.10.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Premiere_26.10.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.premiere.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.premiere.ios.png"
+    },
+    {
       "name": "VideoLite",
       "type": 1,
       "bundleID": "com.videobrowser.ios",
