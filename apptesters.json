@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Fitia",
+      "type": 1,
+      "bundleID": "com.ulisesolave.Fitia",
+      "bundleIdentifier": "com.ulisesolave.Fitia",
+      "version": "22.3.9",
+      "versionDate": "2026-04-16",
+      "fullDate": "20260416021203",
+      "size": 102185847,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-04-2026/Fitia_22.3.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-04-2026/Fitia_22.3.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png"
+    },
+    {
       "name": "GrowMe",
       "type": 1,
       "bundleID": "com.book.summaries.reading",
