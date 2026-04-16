@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "EPIK",
+      "type": 1,
+      "bundleID": "com.snowcorp.epik",
+      "bundleIdentifier": "com.snowcorp.epik",
+      "version": "7.1.0",
+      "versionDate": "2026-04-17",
+      "fullDate": "20260417032615",
+      "size": 174657863,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-04-2026/EPIK_7.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-04-2026/EPIK_7.1.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.epik.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.epik.png"
+    },
+    {
+      "name": "CMProCalc",
+      "type": 1,
+      "bundleID": "com.calculated.laurene",
+      "bundleIdentifier": "com.calculated.laurene",
+      "version": "307",
+      "versionDate": "2026-04-17",
+      "fullDate": "20260417030109",
+      "size": 47725417,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-04-2026/CMProCalc_307_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-04-2026/CMProCalc_307_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calculated.laurene.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calculated.laurene.png"
+    },
+    {
       "name": "Unscripted",
       "type": 1,
       "bundleID": "com.ibit.UNPOSED",
