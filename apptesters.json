@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Bearable",
+      "type": 1,
+      "bundleID": "co.codeleap.bearable",
+      "bundleIdentifier": "co.codeleap.bearable",
+      "version": "1.0.592",
+      "versionDate": "2026-04-16",
+      "fullDate": "20260416221848",
+      "size": 58712777,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-04-2026/Bearable_1.0.592_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-04-2026/Bearable_1.0.592_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.codeleap.bearable.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.codeleap.bearable.png"
+    },
+    {
+      "name": "SnapEdit",
+      "type": 1,
+      "bundleID": "com.sfun.snapedit",
+      "bundleIdentifier": "com.sfun.snapedit",
+      "version": "6.4.9",
+      "versionDate": "2026-04-16",
+      "fullDate": "20260416214339",
+      "size": 106372312,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-04-2026/SnapEdit_6.4.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-04-2026/SnapEdit_6.4.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png"
+    },
+    {
       "name": "NOAARadar",
       "type": 1,
       "bundleID": "com.itwcalculator.worldradarfree",
