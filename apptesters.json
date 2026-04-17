@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ZombieCatchers",
+      "type": 2,
+      "bundleID": "fi.twomenandadog.zombiecatchers",
+      "bundleIdentifier": "fi.twomenandadog.zombiecatchers",
+      "version": "1.64.32",
+      "versionDate": "2026-04-17",
+      "fullDate": "20260417165835",
+      "size": 110354746,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-04-2026/ZombieCatchers_1.64.32_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-04-2026/ZombieCatchers_1.64.32_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IGG",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/fi.twomenandadog.zombiecatchers.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/fi.twomenandadog.zombiecatchers.png"
+    },
+    {
       "name": "SwipeMix",
       "type": 1,
       "bundleID": "com.museworks.swipemix",
