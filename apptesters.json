@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FreeYourMusic",
+      "type": 1,
+      "bundleID": "io.stampapp.Stamp",
+      "bundleIdentifier": "io.stampapp.Stamp",
+      "version": "9.24.0",
+      "versionDate": "2026-04-17",
+      "fullDate": "20260417193459",
+      "size": 26511488,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-04-2026/FreeYourMusic_9.24.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-04-2026/FreeYourMusic_9.24.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.stampapp.Stamp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.stampapp.Stamp.png"
+    },
+    {
       "name": "Aloha",
       "type": 1,
       "bundleID": "com.alohabrowser.alohabrowser",
