@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "LINECamera",
+      "type": 1,
+      "bundleID": "jp.naver.linecamera",
+      "bundleIdentifier": "jp.naver.linecamera",
+      "version": "18.2.7",
+      "versionDate": "2026-04-17",
+      "fullDate": "20260417222540",
+      "size": 192284769,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-04-2026/LINECamera_18.2.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-04-2026/LINECamera_18.2.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/jp.naver.linecamera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/jp.naver.linecamera.png"
+    },
+    {
       "name": "VlogNow",
       "type": 1,
       "bundleID": "com.frontrow.vlog",
