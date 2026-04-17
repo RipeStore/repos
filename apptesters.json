@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Captions",
+      "type": 1,
+      "bundleID": "boomer.Smart-Video",
+      "bundleIdentifier": "boomer.Smart-Video",
+      "version": "13.13.1",
+      "versionDate": "2026-04-18",
+      "fullDate": "20260418030615",
+      "size": 409169443,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-04-2026/Captions_13.13.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-04-2026/Captions_13.13.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png"
+    },
+    {
       "name": "LINECamera",
       "type": 1,
       "bundleID": "jp.naver.linecamera",
