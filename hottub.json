@@ -29,6 +29,20 @@
       "tintColor": "#A700FF",
       "versions": [
         {
+          "version": "2.3.2",
+          "buildVersion": "46",
+          "date": "2026-04-18T01:31:55.000Z",
+          "size": 94322096,
+          "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.3.2(46).ipa",
+          "localizedDescription": "- Added a new menu for saving to tags + playlists\n- Improve player overlay presentation policies (cooldown after dismissal, block presentation while typing or scrolled away from pending video)\n- Extending HeatSense on device intelligence models, now suggest recommended tags\n- Improve playback support / compatibility\n- Fix button dead-zone\n- In-app purchase flow enhancements",
+          "minOSVersion": "15.0",
+          "hash": {
+            "md5": "587d3b8b5da1d5dce8efda6cf5576cba",
+            "sha256": "40608b89feac7d18e3b377413e834f77188733f21d96f07ab4f647abfe62a729"
+          },
+          "metadata": {}
+        },
+        {
           "version": "2.2.7",
           "buildVersion": "38",
           "date": "2026-02-16T00:00:00.000Z",
