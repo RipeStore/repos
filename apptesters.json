@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "PREQUEL",
+      "type": 1,
+      "bundleID": "com.aiarlabs.prequel",
+      "bundleIdentifier": "com.aiarlabs.prequel",
+      "version": "2.92.0",
+      "versionDate": "2026-04-20",
+      "fullDate": "20260420011558",
+      "size": 274846061,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/PREQUEL_2.92.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/PREQUEL_2.92.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aiarlabs.prequel.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aiarlabs.prequel.png"
+    },
+    {
+      "name": "Moovit",
+      "type": 1,
+      "bundleID": "com.tranzmate.tranzmate1",
+      "bundleIdentifier": "com.tranzmate.tranzmate1",
+      "version": "5.189.1",
+      "versionDate": "2026-04-20",
+      "fullDate": "20260420010550",
+      "size": 106818096,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/Moovit_5.189.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/Moovit_5.189.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tranzmate.tranzmate1.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tranzmate.tranzmate1.png"
+    },
+    {
       "name": "Busuu",
       "type": 1,
       "bundleID": "com.busuu.english.app",
