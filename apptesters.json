@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "DictionaryAir",
+      "type": 1,
+      "bundleID": "co.airapps.dictionary",
+      "bundleIdentifier": "co.airapps.dictionary",
+      "version": "2026.4.1",
+      "versionDate": "2026-04-20",
+      "fullDate": "20260420060306",
+      "size": 73342392,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/DictionaryAir_2026.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/DictionaryAir_2026.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.dictionary.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.airapps.dictionary.png"
+    },
+    {
       "name": "TravelBoast",
       "type": 1,
       "bundleID": "com.travelboast.travelboast",
