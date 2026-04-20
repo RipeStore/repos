@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Clarity",
+      "type": 1,
+      "bundleID": "com.moodtools.thoughtdiary",
+      "bundleIdentifier": "com.moodtools.thoughtdiary",
+      "version": "5.5.19",
+      "versionDate": "2026-04-20",
+      "fullDate": "20260420220037",
+      "size": 144893127,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/Clarity_5.5.19_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/Clarity_5.5.19_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moodtools.thoughtdiary.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moodtools.thoughtdiary.png"
+    },
+    {
       "name": "Elevate",
       "type": 2,
       "bundleID": "com.elevateapp.elevate",
