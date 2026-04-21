@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "TORVPN",
+      "type": 1,
+      "bundleID": "com.youssef.developer.Full-Browser",
+      "bundleIdentifier": "com.youssef.developer.Full-Browser",
+      "version": "11.2",
+      "versionDate": "2026-04-21",
+      "fullDate": "20260421190710",
+      "size": 187247188,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-04-2026/TORVPN_11.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-04-2026/TORVPN_11.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.youssef.developer.Full-Browser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.youssef.developer.Full-Browser.png"
+    },
+    {
+      "name": "Endel",
+      "type": 1,
+      "bundleID": "com.endel.endel",
+      "bundleIdentifier": "com.endel.endel",
+      "version": "4.49.109",
+      "versionDate": "2026-04-21",
+      "fullDate": "20260421181654",
+      "size": 218212274,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-04-2026/Endel_4.49.109_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-04-2026/Endel_4.49.109_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.endel.endel.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.endel.endel.png"
+    },
+    {
       "name": "TikTok",
       "type": 1,
       "bundleID": "com.zhiliaoapp.musically",
