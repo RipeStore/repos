@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "TikTok",
+      "type": 1,
+      "bundleID": "com.zhiliaoapp.musically",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "version": "44.8.0",
+      "versionDate": "2026-04-21",
+      "fullDate": "20260421144616",
+      "size": 420366165,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-04-2026/TikTok_44.8.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-04-2026/TikTok_44.8.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png"
+    },
+    {
+      "name": "Detail",
+      "type": 1,
+      "bundleID": "co.detail.duo",
+      "bundleIdentifier": "co.detail.duo",
+      "version": "5.5.15",
+      "versionDate": "2026-04-21",
+      "fullDate": "20260421141558",
+      "size": 224449507,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-04-2026/Detail_5.5.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-04-2026/Detail_5.5.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.detail.duo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.detail.duo.png"
+    },
+    {
       "name": "Truecaller",
       "type": 1,
       "bundleID": "com.truesoftware.TrueCallerOther",
