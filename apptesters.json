@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Facebook",
+      "type": 1,
+      "bundleID": "com.facebook.Facebook",
+      "bundleIdentifier": "com.facebook.Facebook",
+      "version": "558.0.0",
+      "versionDate": "2026-04-22",
+      "fullDate": "20260422155057",
+      "size": 186294787,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/Facebook_558.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/Facebook_558.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Facebook.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Facebook.png"
+    },
+    {
+      "name": "Messenger",
+      "type": 1,
+      "bundleID": "com.facebook.Messenger",
+      "bundleIdentifier": "com.facebook.Messenger",
+      "version": "558.0.0",
+      "versionDate": "2026-04-22",
+      "fullDate": "20260422154049",
+      "size": 81371760,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/Messenger_558.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/Messenger_558.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png"
+    },
+    {
       "name": "GOWOD",
       "type": 1,
       "bundleID": "eu.gowod",
