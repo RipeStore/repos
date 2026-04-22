@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Ladder",
+      "type": 1,
+      "bundleID": "com.ladder.bootcamp",
+      "bundleIdentifier": "com.ladder.bootcamp",
+      "version": "4.6.1",
+      "versionDate": "2026-04-22",
+      "fullDate": "20260422232303",
+      "size": 121103631,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/Ladder_4.6.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/Ladder_4.6.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ladder.bootcamp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ladder.bootcamp.png"
+    },
+    {
+      "name": "Hevy",
+      "type": 1,
+      "bundleID": "com.hevyapp.hevy",
+      "bundleIdentifier": "com.hevyapp.hevy",
+      "version": "3.0.8",
+      "versionDate": "2026-04-22",
+      "fullDate": "20260422231252",
+      "size": 116277664,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/Hevy_3.0.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/Hevy_3.0.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png"
+    },
+    {
       "name": "Crsel",
       "type": 1,
       "bundleID": "com.frameoneapps.Crsel",
