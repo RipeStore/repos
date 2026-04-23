@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Homeworkouts",
+      "type": 1,
+      "bundleID": "com.abishkking.maleworkout",
+      "bundleIdentifier": "com.abishkking.maleworkout",
+      "version": "1.50.0",
+      "versionDate": "2026-04-23",
+      "fullDate": "20260423081030",
+      "size": 196566368,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-04-2026/Homeworkouts_1.50.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-04-2026/Homeworkouts_1.50.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.abishkking.maleworkout.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.abishkking.maleworkout.png"
+    },
+    {
+      "name": "HiWidget",
+      "type": 1,
+      "bundleID": "com.zerone.hidesktop",
+      "bundleIdentifier": "com.zerone.hidesktop",
+      "version": "4.4.15",
+      "versionDate": "2026-04-23",
+      "fullDate": "20260423075003",
+      "size": 420516214,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-04-2026/HiWidget_4.4.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-04-2026/HiWidget_4.4.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png"
+    },
+    {
       "name": "Tripsy",
       "type": 1,
       "bundleID": "app.tripsy.ios",
