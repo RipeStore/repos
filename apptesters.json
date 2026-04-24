@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "GrowMe",
+      "type": 1,
+      "bundleID": "com.book.summaries.reading",
+      "bundleIdentifier": "com.book.summaries.reading",
+      "version": "1.2.4",
+      "versionDate": "2026-04-25",
+      "fullDate": "20260425002520",
+      "size": 68869801,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/GrowMe_1.2.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/GrowMe_1.2.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.book.summaries.reading.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.book.summaries.reading.png"
+    },
+    {
+      "name": "Calm",
+      "type": 1,
+      "bundleID": "com.calm.calmapp",
+      "bundleIdentifier": "com.calm.calmapp",
+      "version": "6.93.1",
+      "versionDate": "2026-04-24",
+      "fullDate": "20260424232959",
+      "size": 122668296,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-04-2026/Calm_6.93.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-04-2026/Calm_6.93.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png"
+    },
+    {
       "name": "Mockup",
       "type": 1,
       "bundleID": "com.hasankassem.mockup",
