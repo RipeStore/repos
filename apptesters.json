@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Calm",
+      "type": 1,
+      "bundleID": "com.calm.calmapp",
+      "bundleIdentifier": "com.calm.calmapp",
+      "version": "6.94",
+      "versionDate": "2026-04-25",
+      "fullDate": "20260425034657",
+      "size": 125303054,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/Calm_6.94_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/Calm_6.94_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png"
+    },
+    {
+      "name": "duet",
+      "type": 1,
+      "bundleID": "com.kairos.duet",
+      "bundleIdentifier": "com.kairos.duet",
+      "version": "3.1.5",
+      "versionDate": "2026-04-25",
+      "fullDate": "20260425034148",
+      "size": 44369660,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/duet_3.1.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/duet_3.1.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kairos.duet.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kairos.duet.png"
+    },
+    {
       "name": "Hevy",
       "type": 1,
       "bundleID": "com.hevyapp.hevy",
