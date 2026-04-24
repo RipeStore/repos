@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Chai",
+      "type": 1,
+      "bundleID": "com.beauchamp.Messenger.external",
+      "bundleIdentifier": "com.beauchamp.Messenger.external",
+      "version": "20260422.0.0",
+      "versionDate": "2026-04-24",
+      "fullDate": "20260424123830",
+      "size": 65376018,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-04-2026/Chai_20260422.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-04-2026/Chai_20260422.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.beauchamp.Messenger.external.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.beauchamp.Messenger.external.png"
+    },
+    {
       "name": "LingoDeer",
       "type": 1,
       "bundleID": "com.lingodeer",
