@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "UpNote",
+      "type": 1,
+      "bundleID": "com.getupnote.ios",
+      "bundleIdentifier": "com.getupnote.ios",
+      "version": "9.18.4",
+      "versionDate": "2026-04-26",
+      "fullDate": "20260426115728",
+      "size": 52254560,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-04-2026/UpNote_9.18.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-04-2026/UpNote_9.18.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getupnote.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getupnote.ios.png"
+    },
+    {
       "name": "MDClock",
       "type": 1,
       "bundleID": "tech.miidii.MDClock",
