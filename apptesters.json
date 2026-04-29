@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MediaConvert",
+      "type": 1,
+      "bundleID": "com.verycoolapp.mediaconvert",
+      "bundleIdentifier": "com.verycoolapp.mediaconvert",
+      "version": "4.14",
+      "versionDate": "2026-04-29",
+      "fullDate": "20260429063944",
+      "size": 61126421,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-04-2026/MediaConvert_4.14_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-04-2026/MediaConvert_4.14_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.verycoolapp.mediaconvert.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.verycoolapp.mediaconvert.png"
+    },
+    {
       "name": "Premiere",
       "type": 1,
       "bundleID": "com.adobe.premiere.ios",
