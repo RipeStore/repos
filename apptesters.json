@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Captions",
+      "type": 1,
+      "bundleID": "boomer.Smart-Video",
+      "bundleIdentifier": "boomer.Smart-Video",
+      "version": "13.15.0",
+      "versionDate": "2026-04-29",
+      "fullDate": "20260429211405",
+      "size": 410470105,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-04-2026/Captions_13.15.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-04-2026/Captions_13.15.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png"
+    },
+    {
+      "name": "Duolingo",
+      "type": 1,
+      "bundleID": "com.duolingo.DuolingoMobile",
+      "bundleIdentifier": "com.duolingo.DuolingoMobile",
+      "version": "7.120.1",
+      "versionDate": "2026-04-29",
+      "fullDate": "20260429204853",
+      "size": 210103378,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-04-2026/Duolingo_7.120.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-04-2026/Duolingo_7.120.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png"
+    },
+    {
       "name": "Detail",
       "type": 1,
       "bundleID": "co.detail.duo",
