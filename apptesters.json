@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Detail",
+      "type": 1,
+      "bundleID": "co.detail.duo",
+      "bundleIdentifier": "co.detail.duo",
+      "version": "5.5.16",
+      "versionDate": "2026-04-29",
+      "fullDate": "20260429193335",
+      "size": 224457814,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-04-2026/Detail_5.5.16_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-04-2026/Detail_5.5.16_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.detail.duo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.detail.duo.png"
+    },
+    {
+      "name": "Cleanup",
+      "type": 1,
+      "bundleID": "com.codeway.cleanerplus",
+      "bundleIdentifier": "com.codeway.cleanerplus",
+      "version": "6.14.0",
+      "versionDate": "2026-04-29",
+      "fullDate": "20260429191326",
+      "size": 116325820,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-04-2026/Cleanup_6.14.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-04-2026/Cleanup_6.14.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.codeway.cleanerplus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.codeway.cleanerplus.png"
+    },
+    {
       "name": "PSExpress",
       "type": 1,
       "bundleID": "com.adobe.PSMobile",
