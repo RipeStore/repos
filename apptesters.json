@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Pillow",
+      "type": 1,
+      "bundleID": "com.neybox.Pillow",
+      "bundleIdentifier": "com.neybox.Pillow",
+      "version": "6.4",
+      "versionDate": "2026-04-30",
+      "fullDate": "20260430123856",
+      "size": 562072952,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-04-2026/Pillow_6.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-04-2026/Pillow_6.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neybox.Pillow.png"
+    },
+    {
+      "name": "ProFit",
+      "type": 1,
+      "bundleID": "com.maxty.gofitness",
+      "bundleIdentifier": "com.maxty.gofitness",
+      "version": "7.19.0",
+      "versionDate": "2026-04-30",
+      "fullDate": "20260430102344",
+      "size": 53178465,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-04-2026/ProFit_7.19.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-04-2026/ProFit_7.19.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maxty.gofitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maxty.gofitness.png"
+    },
+    {
       "name": "SnapEdit",
       "type": 1,
       "bundleID": "com.sfun.snapedit",
