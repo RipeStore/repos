@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VlogNow",
+      "type": 1,
+      "bundleID": "com.frontrow.vlog",
+      "bundleIdentifier": "com.frontrow.vlog",
+      "version": "2.4.0",
+      "versionDate": "2026-05-02",
+      "fullDate": "20260502235240",
+      "size": 428934270,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-05-2026/VlogNow_2.4.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-05-2026/VlogNow_2.4.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontrow.vlog.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontrow.vlog.png"
+    },
+    {
       "name": "Bazaart",
       "type": 1,
       "bundleID": "co.bazaart.app",
