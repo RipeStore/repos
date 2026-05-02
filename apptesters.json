@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SODA",
+      "type": 1,
+      "bundleID": "com.snowcorp.soda",
+      "bundleIdentifier": "com.snowcorp.soda",
+      "version": "10.1.12",
+      "versionDate": "2026-05-02",
+      "fullDate": "20260502072631",
+      "size": 152391634,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-05-2026/SODA_10.1.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-05-2026/SODA_10.1.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.soda.png"
+    },
+    {
+      "name": "RiseSleep",
+      "type": 1,
+      "bundleID": "com.risesci.nyx",
+      "bundleIdentifier": "com.risesci.nyx",
+      "version": "0.1.589",
+      "versionDate": "2026-05-02",
+      "fullDate": "20260502070616",
+      "size": 142056710,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-05-2026/RiseSleep_0.1.589_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-05-2026/RiseSleep_0.1.589_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png"
+    },
+    {
       "name": "PeakVisor",
       "type": 1,
       "bundleID": "ru.routes.peakvisor",
