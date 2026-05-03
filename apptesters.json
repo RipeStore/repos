@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "UpNote",
+      "type": 1,
+      "bundleID": "com.getupnote.ios",
+      "bundleIdentifier": "com.getupnote.ios",
+      "version": "9.18.5",
+      "versionDate": "2026-05-03",
+      "fullDate": "20260503232202",
+      "size": 52256074,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-05-2026/UpNote_9.18.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-05-2026/UpNote_9.18.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getupnote.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getupnote.ios.png"
+    },
+    {
+      "name": "Busuu",
+      "type": 1,
+      "bundleID": "com.busuu.english.app",
+      "bundleIdentifier": "com.busuu.english.app",
+      "version": "30.12.0",
+      "versionDate": "2026-05-03",
+      "fullDate": "20260503232156",
+      "size": 158461695,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-05-2026/Busuu_30.12.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-05-2026/Busuu_30.12.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png"
+    },
+    {
       "name": "VDIT",
       "type": 1,
       "bundleID": "me.imgbase.videoday",
