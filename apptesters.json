@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "",
+      "type": 1,
+      "bundleID": "com.AppChief.ArabicArt",
+      "bundleIdentifier": "com.AppChief.ArabicArt",
+      "version": "9.7.2",
+      "versionDate": "2026-05-04",
+      "fullDate": "20260504084749",
+      "size": 111955411,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-05-2026/_9.7.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-05-2026/_9.7.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png"
+    },
+    {
+      "name": "AlevioOS",
+      "type": 1,
+      "bundleID": "com.alevioos.app",
+      "bundleIdentifier": "com.alevioos.app",
+      "version": "2.5.1",
+      "versionDate": "2026-05-04",
+      "fullDate": "20260504061734",
+      "size": 28823274,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-05-2026/AlevioOS_2.5.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-05-2026/AlevioOS_2.5.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alevioos.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alevioos.app.png"
+    },
+    {
       "name": "UpNote",
       "type": 1,
       "bundleID": "com.getupnote.ios",
