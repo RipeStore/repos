@@ -65,14 +65,17 @@
       ],
       "appPermissions": {
         "entitlements": [
-          "com.apple.security.application-groups",
-          "com.apple.developer.siri"
+          "com.apple.developer.siri",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-domains",
+          "com.apple.security.application-groups"
         ],
         "privacy": {
-          "NSFaceIDUsageDescription": "FaceID is used to prevent unauthorized access to Hot Tub",
           "NSCameraUsageDescription": "This app needs access to your camera to capture photos and videos for your vault.",
+          "NSFaceIDUsageDescription": "FaceID is used to prevent unauthorized access to the app.",
           "NSMicrophoneUsageDescription": "This app needs access to your microphone to record audio with videos for your vault.",
-          "NSMotionUsageDescription": "This app uses motion sensors to enhance visual effects and detect shake gestures for the debug menu."
+          "NSMotionUsageDescription": "This app uses motion sensors to enhance visual effects and detect shake gestures for the debug menu.",
+          "NSPhotoLibraryUsageDescription": "Hot Tub needs access to your photo library to scan for sensitive content. Scanning is done only on your device; nothing is uploaded."
         }
       }
     }
