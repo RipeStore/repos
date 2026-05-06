@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Headway",
+      "type": 1,
+      "bundleID": "com.headway.books",
+      "bundleIdentifier": "com.headway.books",
+      "version": "380.5",
+      "versionDate": "2026-05-07",
+      "fullDate": "20260507034911",
+      "size": 277367840,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/Headway_380.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/Headway_380.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png"
+    },
+    {
+      "name": "Hevy",
+      "type": 1,
+      "bundleID": "com.hevyapp.hevy",
+      "bundleIdentifier": "com.hevyapp.hevy",
+      "version": "3.0.11",
+      "versionDate": "2026-05-07",
+      "fullDate": "20260507033410",
+      "size": 112578100,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/Hevy_3.0.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/Hevy_3.0.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png"
+    },
+    {
       "name": "BHTikTokPlus",
       "type": 1,
       "bundleID": "com.zhiliaoapp.musically",
