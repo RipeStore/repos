@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FotMob",
+      "type": 1,
+      "bundleID": "com.mobilefootie.fotmobpro",
+      "bundleIdentifier": "com.mobilefootie.fotmobpro",
+      "version": "1232.0",
+      "versionDate": "2026-05-07",
+      "fullDate": "20260507043214",
+      "size": 75379027,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/FotMob_1232.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/FotMob_1232.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mobilefootie.fotmobpro.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mobilefootie.fotmobpro.png"
+    },
+    {
       "name": "Headway",
       "type": 1,
       "bundleID": "com.headway.books",
