@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Tiimo",
+      "type": 1,
+      "bundleID": "com.tiimo.app",
+      "bundleIdentifier": "com.tiimo.app",
+      "version": "3.51.0",
+      "versionDate": "2026-05-08",
+      "fullDate": "20260508232423",
+      "size": 94566705,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-05-2026/Tiimo_3.51.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-05-2026/Tiimo_3.51.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tiimo.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tiimo.app.png"
+    },
+    {
       "name": "Reels",
       "type": 1,
       "bundleID": "com.TetianaKolomiichuk.Reel-Templates",
