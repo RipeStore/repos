@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MapleReadCX",
+      "type": 1,
+      "bundleID": "com.maplepop.bmcx",
+      "bundleIdentifier": "com.maplepop.bmcx",
+      "version": "6.4",
+      "versionDate": "2026-05-13",
+      "fullDate": "20260513025720",
+      "size": 19100982,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-05-2026/MapleReadCX_6.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-05-2026/MapleReadCX_6.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maplepop.bmcx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maplepop.bmcx.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.intsig.CamScannerLite",
