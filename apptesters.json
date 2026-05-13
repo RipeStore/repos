@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "PeakVisor",
+      "type": 1,
+      "bundleID": "ru.routes.peakvisor",
+      "bundleIdentifier": "ru.routes.peakvisor",
+      "version": "5.97.1",
+      "versionDate": "2026-05-14",
+      "fullDate": "20260514031846",
+      "size": 132539420,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-05-2026/PeakVisor_5.97.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-05-2026/PeakVisor_5.97.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png"
+    },
+    {
+      "name": "ShutEye",
+      "type": 1,
+      "bundleID": "health.sleep.sounds.tracker.alarm.calm",
+      "bundleIdentifier": "health.sleep.sounds.tracker.alarm.calm",
+      "version": "3.4.1",
+      "versionDate": "2026-05-14",
+      "fullDate": "20260514025313",
+      "size": 491335858,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-05-2026/ShutEye_3.4.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-05-2026/ShutEye_3.4.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/health.sleep.sounds.tracker.alarm.calm.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/health.sleep.sounds.tracker.alarm.calm.png"
+    },
+    {
       "name": "SleepMonitor",
       "type": 1,
       "bundleID": "com.sleepmonitor.aio",
