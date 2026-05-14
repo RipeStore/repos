@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Hevy",
+      "type": 1,
+      "bundleID": "com.hevyapp.hevy",
+      "bundleIdentifier": "com.hevyapp.hevy",
+      "version": "3.0.12",
+      "versionDate": "2026-05-15",
+      "fullDate": "20260515025643",
+      "size": 116484598,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-05-2026/Hevy_3.0.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-05-2026/Hevy_3.0.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png"
+    },
+    {
+      "name": "Facebook",
+      "type": 1,
+      "bundleID": "com.facebook.Facebook",
+      "bundleIdentifier": "com.facebook.Facebook",
+      "version": "561.0.0",
+      "versionDate": "2026-05-15",
+      "fullDate": "20260515013622",
+      "size": 180685156,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-05-2026/Facebook_561.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-05-2026/Facebook_561.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Facebook.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Facebook.png"
+    },
+    {
       "name": "Threads",
       "type": 1,
       "bundleID": "com.burbn.barcelona",
