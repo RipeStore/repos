@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "CollaNote",
+      "type": 1,
+      "bundleID": "net.quochuywdm.collanote496",
+      "bundleIdentifier": "net.quochuywdm.collanote496",
+      "version": "4.1.2",
+      "versionDate": "2026-05-14",
+      "fullDate": "20260514092557",
+      "size": 132800335,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-05-2026/CollaNote_4.1.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-05-2026/CollaNote_4.1.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.quochuywdm.collanote496.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/net.quochuywdm.collanote496.png"
+    },
+    {
+      "name": "HiWidget",
+      "type": 1,
+      "bundleID": "com.zerone.hidesktop",
+      "bundleIdentifier": "com.zerone.hidesktop",
+      "version": "4.4.20",
+      "versionDate": "2026-05-14",
+      "fullDate": "20260514091529",
+      "size": 420214805,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-05-2026/HiWidget_4.4.20_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-05-2026/HiWidget_4.4.20_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png"
+    },
+    {
       "name": "Premiere",
       "type": 1,
       "bundleID": "com.adobe.premiere.ios",
