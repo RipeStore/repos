@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Sketchar",
+      "type": 1,
+      "bundleID": "tech.sketchar.ios",
+      "bundleIdentifier": "tech.sketchar.ios",
+      "version": "10.6",
+      "versionDate": "2026-05-15",
+      "fullDate": "20260515125613",
+      "size": 119322176,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-05-2026/Sketchar_10.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-05-2026/Sketchar_10.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.sketchar.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.sketchar.ios.png"
+    },
+    {
+      "name": "EeveeSpotify",
+      "type": 1,
+      "bundleID": "com.spotify.client",
+      "bundleIdentifier": "com.spotify.client",
+      "version": "9.1.46",
+      "versionDate": "2026-05-15",
+      "fullDate": "20260515115557",
+      "size": 115771856,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-05-2026/EeveeSpotify_9.1.46_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-05-2026/EeveeSpotify_9.1.46_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.spotify.client.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.spotify.client.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.intsig.CamScannerLite",
