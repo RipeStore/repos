@@ -57,9 +57,9 @@
           "date": "2026-05-18",
           "localizedDescription": "• New migration flow: view series details and optionally copy data instead of completely migrating.\n• Kavita API key login: in addition to OIDC and basic auth, use an API key if it works better for you.\n• Continuous with gaps reading mode: like the Webtoon mode, but with gaps between pages.\n• Fixed tracker search bar: should show again on iOS 26.4+.\n• Improved double page reader: new page offset setting and double page handling fixes.\n• Various other bug fixes and small features: see [the website]() for a more complete list.",
           "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.8.3/Aidoku.ipa",
-          "size": 9280281,
+          "size": 9287296,
           "minOSVersion": "15.0",
-          "buildVersion": "2"
+          "buildVersion": "3"
         }
       ]
     }
