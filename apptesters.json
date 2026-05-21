@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Uplens",
+      "type": 1,
+      "bundleID": "app.uplens",
+      "bundleIdentifier": "app.uplens",
+      "version": "4.0.3",
+      "versionDate": "2026-05-22",
+      "fullDate": "20260522025828",
+      "size": 176844881,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-05-2026/Uplens_4.0.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-05-2026/Uplens_4.0.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.uplens.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.uplens.png"
+    },
+    {
       "name": "BoldVoice",
       "type": 1,
       "bundleID": "com.wellocution.iosapp",
