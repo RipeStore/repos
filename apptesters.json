@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "HappyScale",
+      "type": 1,
+      "bundleID": "com.frontpocketsoftware.happyscale",
+      "bundleIdentifier": "com.frontpocketsoftware.happyscale",
+      "version": "2026.5",
+      "versionDate": "2026-05-25",
+      "fullDate": "20260525205345",
+      "size": 41044639,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-05-2026/HappyScale_2026.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-05-2026/HappyScale_2026.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontpocketsoftware.happyscale.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontpocketsoftware.happyscale.png"
+    },
+    {
       "name": "Yazio",
       "type": 1,
       "bundleID": "com.yazio.ios.YAZIO",
