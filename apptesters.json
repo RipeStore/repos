@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Detail",
+      "type": 1,
+      "bundleID": "co.detail.duo",
+      "bundleIdentifier": "co.detail.duo",
+      "version": "5.5.20",
+      "versionDate": "2026-05-27",
+      "fullDate": "20260527165604",
+      "size": 247274102,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-05-2026/Detail_5.5.20_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-05-2026/Detail_5.5.20_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.detail.duo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.detail.duo.png"
+    },
+    {
+      "name": "ThePiano",
+      "type": 2,
+      "bundleID": "com.impalastudios.pianofree",
+      "bundleIdentifier": "com.impalastudios.pianofree",
+      "version": "2.19.3",
+      "versionDate": "2026-05-27",
+      "fullDate": "20260527165049",
+      "size": 83339186,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-05-2026/ThePiano_2.19.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-05-2026/ThePiano_2.19.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.impalastudios.pianofree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.impalastudios.pianofree.png"
+    },
+    {
       "name": "Moonly",
       "type": 1,
       "bundleID": "com.moonly.Moonly",
