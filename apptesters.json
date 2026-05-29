@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "CARROT",
+      "type": 1,
+      "bundleID": "com.grailr.CARROTweather",
+      "bundleIdentifier": "com.grailr.CARROTweather",
+      "version": "6.6",
+      "versionDate": "2026-05-29",
+      "fullDate": "20260529101118",
+      "size": 287975844,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-05-2026/CARROT_6.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-05-2026/CARROT_6.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.grailr.CARROTweather.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.grailr.CARROTweather.png"
+    },
+    {
+      "name": "AdobeFresco",
+      "type": 1,
+      "bundleID": "com.adobe.fresco.ios",
+      "bundleIdentifier": "com.adobe.fresco.ios",
+      "version": "7.3.3",
+      "versionDate": "2026-05-29",
+      "fullDate": "20260529071951",
+      "size": 752822412,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-05-2026/AdobeFresco_7.3.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-05-2026/AdobeFresco_7.3.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.fresco.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.fresco.ios.png"
+    },
+    {
       "name": "Captions",
       "type": 1,
       "bundleID": "boomer.Smart-Video",
