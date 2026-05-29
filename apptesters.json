@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Captions",
+      "type": 1,
+      "bundleID": "boomer.Smart-Video",
+      "bundleIdentifier": "boomer.Smart-Video",
+      "version": "13.19.0",
+      "versionDate": "2026-05-29",
+      "fullDate": "20260529063932",
+      "size": 107634467,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-05-2026/Captions_13.19.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-05-2026/Captions_13.19.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png"
+    },
+    {
+      "name": "VSCO",
+      "type": 1,
+      "bundleID": "co.visualsupply.cam",
+      "bundleIdentifier": "co.visualsupply.cam",
+      "version": "461.3.0",
+      "versionDate": "2026-05-29",
+      "fullDate": "20260529052400",
+      "size": 212968435,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-05-2026/VSCO_461.3.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-05-2026/VSCO_461.3.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png"
+    },
+    {
       "name": "Luminar",
       "type": 1,
       "bundleID": "com.skylum.luminaripad",
