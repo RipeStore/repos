@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MacroFactor",
+      "type": 1,
+      "bundleID": "com.sbs.diet",
+      "bundleIdentifier": "com.sbs.diet",
+      "version": "5.7.9",
+      "versionDate": "2026-05-29",
+      "fullDate": "20260529220716",
+      "size": 102718724,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-05-2026/MacroFactor_5.7.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-05-2026/MacroFactor_5.7.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.diet.png"
+    },
+    {
       "name": "Dropshare",
       "type": 1,
       "bundleID": "net.mkswap.Dropshare-iOS",
