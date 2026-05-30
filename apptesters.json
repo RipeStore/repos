@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Locket",
+      "type": 1,
+      "bundleID": "com.locket.Locket",
+      "bundleIdentifier": "com.locket.Locket",
+      "version": "2.49.1",
+      "versionDate": "2026-05-30",
+      "fullDate": "20260530053459",
+      "size": 338003926,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-05-2026/Locket_2.49.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-05-2026/Locket_2.49.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Gold",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png"
+    },
+    {
       "name": "RiseSleep",
       "type": 1,
       "bundleID": "com.risesci.nyx",
