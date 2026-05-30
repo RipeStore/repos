@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Homeworkouts",
+      "type": 1,
+      "bundleID": "com.abishkking.maleworkout",
+      "bundleIdentifier": "com.abishkking.maleworkout",
+      "version": "1.51.0",
+      "versionDate": "2026-05-30",
+      "fullDate": "20260530095624",
+      "size": 198034453,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-05-2026/Homeworkouts_1.51.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-05-2026/Homeworkouts_1.51.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.abishkking.maleworkout.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.abishkking.maleworkout.png"
+    },
+    {
       "name": "Locket",
       "type": 1,
       "bundleID": "com.locket.Locket",
