@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Flightradar24",
+      "type": 1,
+      "bundleID": "se.resenatverket.FlightRadar24-Free",
+      "bundleIdentifier": "se.resenatverket.FlightRadar24-Free",
+      "version": "11.5.1",
+      "versionDate": "2026-05-30",
+      "fullDate": "20260530173255",
+      "size": 225225201,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-05-2026/Flightradar24_11.5.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-05-2026/Flightradar24_11.5.1_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Gold",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/se.resenatverket.FlightRadar24-Free.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/se.resenatverket.FlightRadar24-Free.png"
+    },
+    {
       "name": "FlightTracker",
       "type": 1,
       "bundleID": "com.iaftt.flightplusfree",
