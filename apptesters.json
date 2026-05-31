@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "MuslimPro",
+      "type": 1,
+      "bundleID": "com.bitsmedia.muslimpro",
+      "bundleIdentifier": "com.bitsmedia.muslimpro",
+      "version": "17.5",
+      "versionDate": "2026-05-31",
+      "fullDate": "20260531172953",
+      "size": 131987928,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-05-2026/MuslimPro_17.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-05-2026/MuslimPro_17.5_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bitsmedia.muslimpro.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bitsmedia.muslimpro.png"
+    },
+    {
       "name": "PUSH",
       "type": 1,
       "bundleID": "com.ADPTVLTD.push",
