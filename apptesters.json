@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Camera",
+      "type": 1,
+      "bundleID": "com.andyworks.camera",
+      "bundleIdentifier": "com.andyworks.camera",
+      "version": "1.50",
+      "versionDate": "2026-06-02",
+      "fullDate": "20260602023632",
+      "size": 82784274,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/Camera_1.50_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/Camera_1.50_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andyworks.camera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andyworks.camera.png"
+    },
+    {
+      "name": "Paste",
+      "type": 1,
+      "bundleID": "com.wiheads.paste",
+      "bundleIdentifier": "com.wiheads.paste",
+      "version": "6.6.0",
+      "versionDate": "2026-06-02",
+      "fullDate": "20260602020059",
+      "size": 77296391,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/Paste_6.6.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/Paste_6.6.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wiheads.paste.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wiheads.paste.png"
+    },
+    {
       "name": "Duolingo",
       "type": 1,
       "bundleID": "com.duolingo.DuolingoMobile",
