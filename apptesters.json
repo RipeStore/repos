@@ -12,6 +12,54 @@
   },
   "apps": [
     {
+      "name": "MDClock",
+      "type": 1,
+      "bundleID": "tech.miidii.MDClock",
+      "bundleIdentifier": "tech.miidii.MDClock",
+      "version": "2.69",
+      "versionDate": "2026-06-02",
+      "fullDate": "20260602080512",
+      "size": 196785110,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/MDClock_2.69_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/MDClock_2.69_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDClock.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDClock.png"
+    },
+    {
+      "name": "",
+      "type": 1,
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
+      "version": "4.0.2",
+      "versionDate": "2026-06-02",
+      "fullDate": "20260602072440",
+      "size": 166179019,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/_4.0.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/_4.0.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
+    },
+    {
+      "name": "Picsart",
+      "type": 1,
+      "bundleID": "com.picsart.studio",
+      "bundleIdentifier": "com.picsart.studio",
+      "version": "30.0.1",
+      "versionDate": "2026-06-02",
+      "fullDate": "20260602071928",
+      "size": 108153324,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/Picsart_30.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/Picsart_30.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png"
+    },
+    {
       "name": "TikTok",
       "type": 1,
       "bundleID": "com.zhiliaoapp.musically",
@@ -318,8 +366,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.18.5",
       "versionDate": "2026-06-01",
       "fullDate": "20260601085053",
@@ -328,8 +376,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-06-2026/_7.18.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "MobileScanner",
@@ -702,8 +750,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "4.0.1",
       "versionDate": "2026-05-30",
       "fullDate": "20260530215852",
@@ -712,8 +760,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-05-2026/_4.0.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Flightradar24",
@@ -2302,8 +2350,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "4.0.0",
       "versionDate": "2026-05-26",
       "fullDate": "20260526180636",
@@ -2312,8 +2360,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-05-2026/_4.0.0_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Elevate",
@@ -2558,8 +2606,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.8.1",
       "versionDate": "2026-05-26",
       "fullDate": "20260526015441",
@@ -2568,8 +2616,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-05-2026/_9.8.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "UpNote",
@@ -2782,8 +2830,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.18.0",
       "versionDate": "2026-05-25",
       "fullDate": "20260525085836",
@@ -2792,8 +2840,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-05-2026/_7.18.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Crsel",
@@ -2830,8 +2878,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "18.1",
       "versionDate": "2026-05-24",
       "fullDate": "20260524230132",
@@ -2840,8 +2888,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-05-2026/_18.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Yazio",
@@ -3198,8 +3246,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "17.9",
       "versionDate": "2026-05-22",
       "fullDate": "20260522201355",
@@ -3208,8 +3256,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-05-2026/_17.9_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SnapEdit",
@@ -4062,8 +4110,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "17.8",
       "versionDate": "2026-05-20",
       "fullDate": "20260520193126",
@@ -4072,8 +4120,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-05-2026/_17.8_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "InShot",
@@ -4110,8 +4158,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.8",
       "versionDate": "2026-05-20",
       "fullDate": "20260520150433",
@@ -4120,8 +4168,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-05-2026/_9.8_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "NutriCoach",
@@ -6094,8 +6142,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.17.5",
       "versionDate": "2026-05-15",
       "fullDate": "20260515092026",
@@ -6104,8 +6152,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-05-2026/_7.17.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "HiWidget",
@@ -7694,8 +7742,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.17.0",
       "versionDate": "2026-05-12",
       "fullDate": "20260512003856",
@@ -7704,8 +7752,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-05-2026/_7.17.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Notability",
@@ -8558,8 +8606,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "3.12.7",
       "versionDate": "2026-05-10",
       "fullDate": "20260510032736",
@@ -8568,8 +8616,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-05-2026/_3.12.7_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "BoldVoice",
@@ -10846,8 +10894,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.7.2",
       "versionDate": "2026-05-04",
       "fullDate": "20260504084749",
@@ -10856,8 +10904,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-05-2026/_9.7.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "AlevioOS",
@@ -11630,8 +11678,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.7.1",
       "versionDate": "2026-05-01",
       "fullDate": "20260501032938",
@@ -11640,8 +11688,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-05-2026/_9.7.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "NotePlan",
@@ -13022,8 +13070,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "3.12.6",
       "versionDate": "2026-04-28",
       "fullDate": "20260428080716",
@@ -13032,8 +13080,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-04-2026/_3.12.6_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Bend",
@@ -13486,8 +13534,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.7",
       "versionDate": "2026-04-27",
       "fullDate": "20260427185545",
@@ -13496,8 +13544,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/_9.7_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Thenx",
@@ -13822,8 +13870,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.16.5",
       "versionDate": "2026-04-27",
       "fullDate": "20260427090458",
@@ -13832,8 +13880,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/_7.16.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Dictionary",
@@ -14062,8 +14110,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "3.12.5",
       "versionDate": "2026-04-25",
       "fullDate": "20260425050733",
@@ -14072,8 +14120,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/_3.12.5_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "ProCCD",
@@ -16510,8 +16558,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.16.0",
       "versionDate": "2026-04-20",
       "fullDate": "20260420085357",
@@ -16520,8 +16568,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/_7.16.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "TinyDecisions",
@@ -16750,8 +16798,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "17.7",
       "versionDate": "2026-04-19",
       "fullDate": "20260419223009",
@@ -16760,8 +16808,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-04-2026/_17.7_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SimplyGuitar",
@@ -16846,8 +16894,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.6.3",
       "versionDate": "2026-04-19",
       "fullDate": "20260419040239",
@@ -16856,8 +16904,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-04-2026/_9.6.3_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Sketchar",
@@ -17662,8 +17710,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "17.6",
       "versionDate": "2026-04-16",
       "fullDate": "20260416195305",
@@ -17672,8 +17720,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-04-2026/_17.6_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Facetune",
@@ -19806,8 +19854,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.15.5",
       "versionDate": "2026-04-10",
       "fullDate": "20260410160517",
@@ -19816,8 +19864,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/_7.15.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Sketchar",
@@ -20830,8 +20878,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.6.2",
       "versionDate": "2026-04-08",
       "fullDate": "20260408010244",
@@ -20840,8 +20888,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-04-2026/_9.6.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SnoreLab",
@@ -21406,8 +21454,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.15.0",
       "versionDate": "2026-04-07",
       "fullDate": "20260407090131",
@@ -21416,8 +21464,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/_7.15.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "MDClock",
@@ -21726,8 +21774,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.6.1",
       "versionDate": "2026-04-06",
       "fullDate": "20260406140153",
@@ -21736,8 +21784,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-04-2026/_9.6.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "ProFit",
@@ -23422,8 +23470,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.6",
       "versionDate": "2026-04-01",
       "fullDate": "20260401022320",
@@ -23432,8 +23480,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-04-2026/_9.6_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "ProCCD",
@@ -24142,8 +24190,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.14.5",
       "versionDate": "2026-03-30",
       "fullDate": "20260330115927",
@@ -24152,8 +24200,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-03-2026/_7.14.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Buddy",
@@ -26110,8 +26158,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.14.0",
       "versionDate": "2026-03-25",
       "fullDate": "20260325101542",
@@ -26120,8 +26168,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/_7.14.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SnapEdit",
@@ -26334,8 +26382,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "17.5",
       "versionDate": "2026-03-25",
       "fullDate": "20260325004319",
@@ -26344,8 +26392,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/_17.5_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "AutoCAD",
@@ -26782,8 +26830,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "3.12.3",
       "versionDate": "2026-03-24",
       "fullDate": "20260324062650",
@@ -26792,8 +26840,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-03-2026/_3.12.3_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "YouTubeMusic",
@@ -27998,8 +28046,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "3.12.2",
       "versionDate": "2026-03-20",
       "fullDate": "20260320054700",
@@ -28008,8 +28056,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/_3.12.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "MergeCooking",
@@ -28734,8 +28782,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "17.4",
       "versionDate": "2026-03-19",
       "fullDate": "20260319134321",
@@ -28744,8 +28792,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-03-2026/_17.4_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Pillow",
@@ -29278,8 +29326,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "3.12.1",
       "versionDate": "2026-03-18",
       "fullDate": "20260318055434",
@@ -29288,8 +29336,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/_3.12.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "AlevioOS",
@@ -30046,8 +30094,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "17.3",
       "versionDate": "2026-03-16",
       "fullDate": "20260316215848",
@@ -30056,8 +30104,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-03-2026/_17.3_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SimplyDraw",
@@ -30318,8 +30366,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.13.5",
       "versionDate": "2026-03-16",
       "fullDate": "20260316085453",
@@ -30328,8 +30376,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-03-2026/_7.13.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Slopes",
@@ -31646,8 +31694,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.13.1",
       "versionDate": "2026-03-12",
       "fullDate": "20260312091241",
@@ -31656,8 +31704,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-03-2026/_7.13.1_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "MergeCooking",
@@ -31790,8 +31838,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.5.8",
       "versionDate": "2026-03-12",
       "fullDate": "20260312005053",
@@ -31800,8 +31848,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-03-2026/_9.5.8_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Calendars",
@@ -33006,8 +33054,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.13.0",
       "versionDate": "2026-03-09",
       "fullDate": "20260309120935",
@@ -33016,8 +33064,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/_7.13.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "FlightTracker",
@@ -33150,8 +33198,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "3.12",
       "versionDate": "2026-03-08",
       "fullDate": "20260308201732",
@@ -33160,8 +33208,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-03-2026/_3.12_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Fitia",
@@ -35966,8 +36014,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "17.0",
       "versionDate": "2026-02-17",
       "fullDate": "20260217135353",
@@ -35976,8 +36024,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-02-2026/_17.0_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Locket",
@@ -36094,8 +36142,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.5.4",
       "versionDate": "2026-02-17",
       "fullDate": "20260217003155",
@@ -36104,8 +36152,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-02-2026/_9.5.4_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Bazaart",
@@ -36782,8 +36830,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.5.3",
       "versionDate": "2026-02-14",
       "fullDate": "20260214022017",
@@ -36792,8 +36840,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-02-2026/_9.5.3_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "OfflineMusic",
@@ -38238,8 +38286,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.5.2",
       "versionDate": "2026-02-10",
       "fullDate": "20260210004107",
@@ -38248,8 +38296,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-02-2026/_9.5.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Dazz",
@@ -38622,8 +38670,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.12.0",
       "versionDate": "2026-02-09",
       "fullDate": "20260209084634",
@@ -38632,8 +38680,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-02-2026/_7.12.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "LINECamera",
@@ -39646,8 +39694,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.5.1",
       "versionDate": "2026-02-05",
       "fullDate": "20260205214341",
@@ -39656,8 +39704,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-02-2026/_9.5.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Dropshare",
@@ -44286,8 +44334,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "16.9",
       "versionDate": "2026-01-26",
       "fullDate": "20260126192731",
@@ -44296,8 +44344,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/_16.9_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SCRL",
@@ -44574,8 +44622,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.11.0",
       "versionDate": "2026-01-26",
       "fullDate": "20260126082944",
@@ -44584,8 +44632,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-01-2026/_7.11.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "QrCode",
@@ -46766,8 +46814,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.5",
       "versionDate": "2026-01-20",
       "fullDate": "20260120214524",
@@ -46776,8 +46824,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-01-2026/_9.5_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "edjingMix",
@@ -47630,8 +47678,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.10.5",
       "versionDate": "2026-01-19",
       "fullDate": "20260119085610",
@@ -47640,8 +47688,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-01-2026/_7.10.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "HiWidget",
@@ -50142,8 +50190,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.10.0",
       "versionDate": "2026-01-12",
       "fullDate": "20260112084534",
@@ -50152,8 +50200,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-01-2026/_7.10.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Peachy",
@@ -50590,8 +50638,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.4.4",
       "versionDate": "2026-01-09",
       "fullDate": "20260109233737",
@@ -50600,8 +50648,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-01-2026/_9.4.4_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "RiseSleep",
@@ -50782,8 +50830,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.4.3",
       "versionDate": "2026-01-09",
       "fullDate": "20260109111508",
@@ -50792,8 +50840,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-01-2026/_9.4.3_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Slopes",
@@ -51278,8 +51326,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.4.2",
       "versionDate": "2026-01-08",
       "fullDate": "20260108140453",
@@ -51288,8 +51336,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-01-2026/_9.4.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "DaVinci",
@@ -51486,8 +51534,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "16.8",
       "versionDate": "2026-01-07",
       "fullDate": "20260107232651",
@@ -51496,8 +51544,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-01-2026/_16.8_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Endel",
@@ -52686,8 +52734,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "3.11.2",
       "versionDate": "2026-01-05",
       "fullDate": "20260105082856",
@@ -52696,8 +52744,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-01-2026/_3.11.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Slopes",
@@ -54606,8 +54654,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.9.0",
       "versionDate": "2025-12-29",
       "fullDate": "20251229084206",
@@ -54616,8 +54664,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-12-2025/_7.9.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Mercury",
@@ -54654,8 +54702,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.4.1",
       "versionDate": "2025-12-29",
       "fullDate": "20251229065138",
@@ -54664,8 +54712,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-12-2025/_9.4.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "DictionaryAir",
@@ -54702,8 +54750,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.4",
       "versionDate": "2025-12-29",
       "fullDate": "20251229004059",
@@ -54712,8 +54760,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-12-2025/_9.4_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "ImgAI",
@@ -57166,8 +57214,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.8.5",
       "versionDate": "2025-12-22",
       "fullDate": "20251222093608",
@@ -57176,8 +57224,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-12-2025/_7.8.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SnapEdit",
@@ -57422,8 +57470,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "16.7",
       "versionDate": "2025-12-21",
       "fullDate": "20251221131208",
@@ -57432,8 +57480,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-12-2025/_16.7_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Locket",
@@ -60638,8 +60686,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "16.6",
       "versionDate": "2025-12-17",
       "fullDate": "20251217012106",
@@ -60648,8 +60696,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-12-2025/_16.6_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "RiseSleep",
@@ -61598,8 +61646,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "16.5",
       "versionDate": "2025-12-16",
       "fullDate": "20251216025753",
@@ -61608,8 +61656,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-12-2025/_16.5_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "ThePiano",
@@ -62238,8 +62286,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.8.0",
       "versionDate": "2025-12-15",
       "fullDate": "20251215090116",
@@ -62248,8 +62296,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-12-2025/_7.8.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "AIMarvels",
@@ -62494,8 +62542,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "3.11.1",
       "versionDate": "2025-12-14",
       "fullDate": "20251214230825",
@@ -62504,8 +62552,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-12-2025/_3.11.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "MDClock",
@@ -66958,8 +67006,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.3.6",
       "versionDate": "2025-12-04",
       "fullDate": "20251204094944",
@@ -66968,8 +67016,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-12-2025/_9.3.6_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SnoreLab",
@@ -67342,8 +67390,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.7.1",
       "versionDate": "2025-12-03",
       "fullDate": "20251203090534",
@@ -67352,8 +67400,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-12-2025/_7.7.1_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "InCollage",
@@ -67518,8 +67566,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.3.5",
       "versionDate": "2025-12-02",
       "fullDate": "20251202235846",
@@ -67528,8 +67576,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-12-2025/_9.3.5_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SoundLab",
@@ -68446,8 +68494,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.7.0",
       "versionDate": "2025-12-01",
       "fullDate": "20251201083525",
@@ -68456,8 +68504,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-12-2025/_7.7.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SnapEdit",
@@ -68894,8 +68942,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.3.4",
       "versionDate": "2025-11-29",
       "fullDate": "20251129154503",
@@ -68904,8 +68952,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-11-2025/_9.3.4_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Animock",
@@ -70638,8 +70686,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.3.3",
       "versionDate": "2025-11-25",
       "fullDate": "20251125100813",
@@ -70648,8 +70696,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-11-2025/_9.3.3_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SnapEdit",
@@ -71230,8 +71278,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.6.5",
       "versionDate": "2025-11-24",
       "fullDate": "20251124090229",
@@ -71240,8 +71288,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/_7.6.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "VivaCut",
@@ -71310,8 +71358,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.3.2",
       "versionDate": "2025-11-24",
       "fullDate": "20251124040640",
@@ -71320,8 +71368,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-11-2025/_9.3.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Scoreboard",
@@ -74734,8 +74782,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.6.0",
       "versionDate": "2025-11-17",
       "fullDate": "20251117085213",
@@ -74744,8 +74792,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/_7.6.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "StepsApp",
@@ -74782,8 +74830,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.3",
       "versionDate": "2025-11-17",
       "fullDate": "20251117021639",
@@ -74792,8 +74840,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-11-2025/_9.3_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SwiftyCompiler",
@@ -76334,8 +76382,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.2.6",
       "versionDate": "2025-11-12",
       "fullDate": "20251112194047",
@@ -76344,8 +76392,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-11-2025/_9.2.6_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "GALATEA",
@@ -77566,8 +77614,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.5.5",
       "versionDate": "2025-11-10",
       "fullDate": "20251110084720",
@@ -77576,8 +77624,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-11-2025/_7.5.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Facetune",
@@ -77822,8 +77870,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.2.5",
       "versionDate": "2025-11-09",
       "fullDate": "20251109133834",
@@ -77832,8 +77880,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-11-2025/_9.2.5_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Polish",
@@ -78702,8 +78750,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.2.4",
       "versionDate": "2025-11-06",
       "fullDate": "20251106003011",
@@ -78712,8 +78760,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-11-2025/_9.2.4_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Widgy",
@@ -80286,8 +80334,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.5.0",
       "versionDate": "2025-11-03",
       "fullDate": "20251103121035",
@@ -80296,8 +80344,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-11-2025/_7.5.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Heartify",
@@ -80702,8 +80750,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.2.3",
       "versionDate": "2025-11-01",
       "fullDate": "20251101171019",
@@ -80712,8 +80760,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-11-2025/_9.2.3_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "FitnessAI",
@@ -81150,8 +81198,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.4.6",
       "versionDate": "2025-10-31",
       "fullDate": "20251031083407",
@@ -81160,8 +81208,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-10-2025/_7.4.6_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Tachimanga",
@@ -81838,8 +81886,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.2.2",
       "versionDate": "2025-10-30",
       "fullDate": "20251030004202",
@@ -81848,8 +81896,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-10-2025/_9.2.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Captions",
@@ -82158,8 +82206,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.2.1",
       "versionDate": "2025-10-29",
       "fullDate": "20251029151900",
@@ -82168,8 +82216,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-10-2025/_9.2.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "ColorPop",
@@ -83534,8 +83582,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.2",
       "versionDate": "2025-10-26",
       "fullDate": "20251026180455",
@@ -83544,8 +83592,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-10-2025/_9.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Bazaart",
@@ -84558,8 +84606,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.4.5",
       "versionDate": "2025-10-23",
       "fullDate": "20251023161756",
@@ -84568,8 +84616,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-10-2025/_7.4.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "TravelBoast",
@@ -85678,8 +85726,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.1.10",
       "versionDate": "2025-10-21",
       "fullDate": "20251021154224",
@@ -85688,8 +85736,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-10-2025/_9.1.10_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Facetune",
@@ -86270,8 +86318,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.4.0",
       "versionDate": "2025-10-20",
       "fullDate": "20251020090637",
@@ -86280,8 +86328,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-10-2025/_7.4.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "MagicTiles3",
@@ -86414,8 +86462,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.1.9",
       "versionDate": "2025-10-19",
       "fullDate": "20251019211941",
@@ -86424,8 +86472,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-10-2025/_9.1.9_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Tripsy",
@@ -89310,8 +89358,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "16.4",
       "versionDate": "2025-10-12",
       "fullDate": "20251012132335",
@@ -89320,8 +89368,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-10-2025/_16.4_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "QrCode",
@@ -93854,8 +93902,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.1.8",
       "versionDate": "2025-09-30",
       "fullDate": "20250930194543",
@@ -93864,8 +93912,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-09-2025/_9.1.8_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SNOW",
@@ -94686,8 +94734,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.3.1",
       "versionDate": "2025-09-29",
       "fullDate": "20250929123305",
@@ -94696,8 +94744,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-09-2025/_7.3.1_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "ImagineArt",
@@ -95566,8 +95614,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.1.7",
       "versionDate": "2025-09-26",
       "fullDate": "20250926234506",
@@ -95576,8 +95624,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-09-2025/_9.1.7_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Headway",
@@ -98062,8 +98110,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.1.6",
       "versionDate": "2025-09-22",
       "fullDate": "20250922142844",
@@ -98072,8 +98120,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-09-2025/_9.1.6_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Productive",
@@ -98222,8 +98270,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.3.0",
       "versionDate": "2025-09-22",
       "fullDate": "20250922092228",
@@ -98232,8 +98280,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-09-2025/_7.3.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "PictureThis",
@@ -100366,8 +100414,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.2.0",
       "versionDate": "2025-09-09",
       "fullDate": "20250909090214",
@@ -100376,8 +100424,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-09-2025/_7.2.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "X",
@@ -103294,8 +103342,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.1.5",
       "versionDate": "2025-09-01",
       "fullDate": "20250901084334",
@@ -103304,8 +103352,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-09-2025/_7.1.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Stay",
@@ -103454,8 +103502,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.1.5",
       "versionDate": "2025-08-31",
       "fullDate": "20250831170107",
@@ -103464,8 +103512,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-08-2025/_9.1.5_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "InShot",
@@ -105790,8 +105838,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.1.0",
       "versionDate": "2025-08-26",
       "fullDate": "20250826084420",
@@ -105800,8 +105848,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-08-2025/_7.1.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "ImgAI",
@@ -107518,8 +107566,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.1.4",
       "versionDate": "2025-08-22",
       "fullDate": "20250822193143",
@@ -107528,8 +107576,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-08-2025/_9.1.4_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "KetoDiet",
@@ -109422,8 +109470,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "7.0.0",
       "versionDate": "2025-08-18",
       "fullDate": "20250818125839",
@@ -109432,8 +109480,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-08-2025/_7.0.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "SleepCycle",
@@ -110798,8 +110846,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "6.94.0",
       "versionDate": "2025-08-14",
       "fullDate": "20250814085128",
@@ -110808,8 +110856,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-08-2025/_6.94.0_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "CalculatorAir",
@@ -111566,8 +111614,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.1.3",
       "versionDate": "2025-08-13",
       "fullDate": "20250813032437",
@@ -111576,8 +111624,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-08-2025/_9.1.3_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Vids",
@@ -113054,8 +113102,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.1.2",
       "versionDate": "2025-08-08",
       "fullDate": "20250808171536",
@@ -113064,8 +113112,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-08-2025/_9.1.2_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "PSExpress",
@@ -114174,8 +114222,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.5",
       "versionDate": "2025-08-06",
       "fullDate": "20250806150328",
@@ -114184,8 +114232,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-08-2025/_9.5_Premium_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Premium",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "YAZIO",
@@ -114622,8 +114670,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.1.1",
       "versionDate": "2025-08-05",
       "fullDate": "20250805161343",
@@ -114632,8 +114680,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-08-2025/_9.1.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "HabitKit",
@@ -114766,8 +114814,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "6.93.5",
       "versionDate": "2025-08-05",
       "fullDate": "20250805084232",
@@ -114776,8 +114824,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-08-2025/_6.93.5_VIP_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with VIP",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "ForeFlight",
@@ -115566,8 +115614,8 @@
     {
       "name": "",
       "type": 1,
-      "bundleID": "com.intsig.CamScannerLite",
-      "bundleIdentifier": "com.intsig.CamScannerLite",
+      "bundleID": "tech.miidii.MDBlank",
+      "bundleIdentifier": "tech.miidii.MDBlank",
       "version": "9.1",
       "versionDate": "2025-08-01",
       "fullDate": "20250801204017",
@@ -115576,8 +115624,8 @@
       "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-08-2025/_9.1_Pro_%40thisismanpreets_apptesters.org.ipa",
       "developerName": "",
       "localizedDescription": "Injected with Pro",
-      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
-      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png"
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png"
     },
     {
       "name": "Mockup",
