@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "HappyScale",
+      "type": 1,
+      "bundleID": "com.frontpocketsoftware.happyscale",
+      "bundleIdentifier": "com.frontpocketsoftware.happyscale",
+      "version": "2026.5.3",
+      "versionDate": "2026-06-02",
+      "fullDate": "20260602214943",
+      "size": 26687146,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/HappyScale_2026.5.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/HappyScale_2026.5.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontpocketsoftware.happyscale.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontpocketsoftware.happyscale.png"
+    },
+    {
+      "name": "MobileScanner",
+      "type": 1,
+      "bundleID": "com.glority.everlens",
+      "bundleIdentifier": "com.glority.everlens",
+      "version": "2.24.1",
+      "versionDate": "2026-06-02",
+      "fullDate": "20260602205912",
+      "size": 94510753,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/MobileScanner_2.24.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-06-2026/MobileScanner_2.24.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.glority.everlens.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.glority.everlens.png"
+    },
+    {
       "name": "FlightTracker",
       "type": 1,
       "bundleID": "com.iaftt.flightplusfree",
