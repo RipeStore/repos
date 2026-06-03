@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "ScannerPro",
+      "type": 1,
+      "bundleID": "com.readdle.Scanner",
+      "bundleIdentifier": "com.readdle.Scanner",
+      "version": "8.36.4",
+      "versionDate": "2026-06-04",
+      "fullDate": "20260604022341",
+      "size": 187367069,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-06-2026/ScannerPro_8.36.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-06-2026/ScannerPro_8.36.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.Scanner.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.Scanner.png"
+    },
+    {
       "name": "Stemz",
       "type": 1,
       "bundleID": "com.mwm.stems",
