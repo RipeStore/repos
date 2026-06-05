@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Analogue",
+      "type": 1,
+      "bundleID": "Cristian-Teichner.Analogue",
+      "bundleIdentifier": "Cristian-Teichner.Analogue",
+      "version": "1.4.2",
+      "versionDate": "2026-06-06",
+      "fullDate": "20260606024205",
+      "size": 602895651,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-06-2026/Analogue_1.4.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-06-2026/Analogue_1.4.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/Cristian-Teichner.Analogue.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/Cristian-Teichner.Analogue.png"
+    },
+    {
+      "name": "Animock",
+      "type": 1,
+      "bundleID": "com.hassantaleb.mockup",
+      "bundleIdentifier": "com.hassantaleb.mockup",
+      "version": "5.6",
+      "versionDate": "2026-06-06",
+      "fullDate": "20260606020140",
+      "size": 115403942,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-06-2026/Animock_5.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-06-2026/Animock_5.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hassantaleb.mockup.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hassantaleb.mockup.png"
+    },
+    {
       "name": "Infuse",
       "type": 1,
       "bundleID": "com.firecore.infuse",
