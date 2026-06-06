@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Labbet",
+      "type": 1,
+      "bundleID": "app.labbet.labbet",
+      "bundleIdentifier": "app.labbet.labbet",
+      "version": "2.61",
+      "versionDate": "2026-06-06",
+      "fullDate": "20260606163854",
+      "size": 116609637,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-06-2026/Labbet_2.61_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-06-2026/Labbet_2.61_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.labbet.labbet.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.labbet.labbet.png"
+    },
+    {
       "name": "GentlerStreak",
       "type": 1,
       "bundleID": "app.gentler.activity",
