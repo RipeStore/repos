@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Boostcamp",
+      "type": 1,
+      "bundleID": "com.bpmhealth.boostfitness",
+      "bundleIdentifier": "com.bpmhealth.boostfitness",
+      "version": "260",
+      "versionDate": "2026-06-06",
+      "fullDate": "20260606064910",
+      "size": 80864505,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-06-2026/Boostcamp_260_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-06-2026/Boostcamp_260_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bpmhealth.boostfitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bpmhealth.boostfitness.png"
+    },
+    {
       "name": "Analogue",
       "type": 1,
       "bundleID": "Cristian-Teichner.Analogue",
