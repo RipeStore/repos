@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Apollo",
+      "type": 1,
+      "bundleID": "com.christianselig.Apollo",
+      "bundleIdentifier": "com.christianselig.Apollo",
+      "version": "3.1.1",
+      "versionDate": "2026-06-07",
+      "fullDate": "20260607032917",
+      "size": 138064637,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-06-2026/Apollo_3.1.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-06-2026/Apollo_3.1.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.christianselig.Apollo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.christianselig.Apollo.png"
+    },
+    {
       "name": "Locket",
       "type": 1,
       "bundleID": "com.locket.Locket",
