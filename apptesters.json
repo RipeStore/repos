@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "ShutEye",
+      "type": 1,
+      "bundleID": "health.sleep.sounds.tracker.alarm.calm",
+      "bundleIdentifier": "health.sleep.sounds.tracker.alarm.calm",
+      "version": "3.4.4",
+      "versionDate": "2026-06-07",
+      "fullDate": "20260607164626",
+      "size": 490211237,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-06-2026/ShutEye_3.4.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-06-2026/ShutEye_3.4.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/health.sleep.sounds.tracker.alarm.calm.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/health.sleep.sounds.tracker.alarm.calm.png"
+    },
+    {
+      "name": "Facetune",
+      "type": 1,
+      "bundleID": "com.lightricks.Facetune2",
+      "bundleIdentifier": "com.lightricks.Facetune2",
+      "version": "26.15",
+      "versionDate": "2026-06-07",
+      "fullDate": "20260607163531",
+      "size": 367499543,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-06-2026/Facetune_26.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-06-2026/Facetune_26.15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png"
+    },
+    {
       "name": "Moovit",
       "type": 1,
       "bundleID": "com.tranzmate.tranzmate1",
