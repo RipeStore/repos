@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "RiseSleep",
+      "type": 1,
+      "bundleID": "com.risesci.nyx",
+      "bundleIdentifier": "com.risesci.nyx",
+      "version": "0.1.600",
+      "versionDate": "2026-06-08",
+      "fullDate": "20260608041053",
+      "size": 138888157,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-06-2026/RiseSleep_0.1.600_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-06-2026/RiseSleep_0.1.600_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png"
+    },
+    {
       "name": "Stellarium",
       "type": 1,
       "bundleID": "com.noctuasoftware.stellarium-mobile-plus",
