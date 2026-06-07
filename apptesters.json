@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Moovit",
+      "type": 1,
+      "bundleID": "com.tranzmate.tranzmate1",
+      "bundleIdentifier": "com.tranzmate.tranzmate1",
+      "version": "5.193.2",
+      "versionDate": "2026-06-07",
+      "fullDate": "20260607144932",
+      "size": 101696069,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-06-2026/Moovit_5.193.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-06-2026/Moovit_5.193.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tranzmate.tranzmate1.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tranzmate.tranzmate1.png"
+    },
+    {
+      "name": "Bazaart",
+      "type": 1,
+      "bundleID": "co.bazaart.app",
+      "bundleIdentifier": "co.bazaart.app",
+      "version": "26.3.3",
+      "versionDate": "2026-06-07",
+      "fullDate": "20260607115752",
+      "size": 80754565,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-06-2026/Bazaart_26.3.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-06-2026/Bazaart_26.3.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.bazaart.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.bazaart.app.png"
+    },
+    {
       "name": "BoldVoice",
       "type": 1,
       "bundleID": "com.wellocution.iosapp",
