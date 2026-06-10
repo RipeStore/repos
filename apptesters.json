@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Labbet",
+      "type": 1,
+      "bundleID": "app.labbet.labbet",
+      "bundleIdentifier": "app.labbet.labbet",
+      "version": "2.62",
+      "versionDate": "2026-06-10",
+      "fullDate": "20260610200759",
+      "size": 116630732,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-06-2026/Labbet_2.62_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-06-2026/Labbet_2.62_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.labbet.labbet.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.labbet.labbet.png"
+    },
+    {
+      "name": "Rest",
+      "type": 1,
+      "bundleID": "com.evolve.helm",
+      "bundleIdentifier": "com.evolve.helm",
+      "version": "3.190.0",
+      "versionDate": "2026-06-10",
+      "fullDate": "20260610193243",
+      "size": 79806193,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-06-2026/Rest_3.190.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-06-2026/Rest_3.190.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.evolve.helm.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.evolve.helm.png"
+    },
+    {
       "name": "Bearable",
       "type": 1,
       "bundleID": "co.codeleap.bearable",
