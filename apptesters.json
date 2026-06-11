@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "VivaCut",
+      "type": 1,
+      "bundleID": "com.vivacut.videoeditor",
+      "bundleIdentifier": "com.vivacut.videoeditor",
+      "version": "4.6.0",
+      "versionDate": "2026-06-11",
+      "fullDate": "20260611082524",
+      "size": 203109116,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-06-2026/VivaCut_4.6.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-06-2026/VivaCut_4.6.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vivacut.videoeditor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.vivacut.videoeditor.png"
+    },
+    {
+      "name": "MDClock",
+      "type": 1,
+      "bundleID": "tech.miidii.MDClock",
+      "bundleIdentifier": "tech.miidii.MDClock",
+      "version": "2.69.1",
+      "versionDate": "2026-06-11",
+      "fullDate": "20260611054434",
+      "size": 196778411,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-06-2026/MDClock_2.69.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-06-2026/MDClock_2.69.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDClock.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDClock.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "com.madarsoft.fitness",
