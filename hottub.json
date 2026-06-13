@@ -97,10 +97,13 @@
       ],
       "appPermissions": {
         "entitlements": [
-          "com.apple.developer.siri",
           "com.apple.developer.applesignin",
           "com.apple.developer.associated-domains",
-          "com.apple.security.application-groups"
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.siri",
+          "com.apple.security.application-groups",
+          "get-task-allow"
         ],
         "privacy": {
           "NSCameraUsageDescription": "This app needs access to your camera to capture photos and videos for your vault.",
