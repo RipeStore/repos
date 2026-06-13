@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "BoldVoice",
+      "type": 1,
+      "bundleID": "com.wellocution.iosapp",
+      "bundleIdentifier": "com.wellocution.iosapp",
+      "version": "4.0.1",
+      "versionDate": "2026-06-13",
+      "fullDate": "20260613232248",
+      "size": 147178062,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-06-2026/BoldVoice_4.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-06-2026/BoldVoice_4.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wellocution.iosapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wellocution.iosapp.png"
+    },
+    {
+      "name": "Bazaart",
+      "type": 1,
+      "bundleID": "co.bazaart.app",
+      "bundleIdentifier": "co.bazaart.app",
+      "version": "26.3.5",
+      "versionDate": "2026-06-13",
+      "fullDate": "20260613222727",
+      "size": 104831502,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-06-2026/Bazaart_26.3.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-06-2026/Bazaart_26.3.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.bazaart.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.bazaart.app.png"
+    },
+    {
       "name": "EPIK",
       "type": 1,
       "bundleID": "com.snowcorp.epik",
