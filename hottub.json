@@ -29,6 +29,38 @@
       "tintColor": "#A700FF",
       "versions": [
         {
+          "version": "2.3.3",
+          "buildVersion": "53",
+          "date": "2026-06-13T15:54:14.000Z",
+          "size": 100529206,
+          "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.3.3(53).ipa",
+          "localizedDescription": "- Fix card disappearing\n- Improve PIP responsiveness\n- Preliminary download support\n- Fix playlist card layout\n- Local playback histograms (support for upcoming features)\n- Improve playback support for direct URLs\n- In App Purchases entitlements bug fixes & improvements\n- Improve audio normalization processing\n- Fix uploader follow button\n- Animate removal of player tabs\n- Fix player controls safe area layout\n- Fix searches not updating\n- Fix tags in Tapes\n- Improve flexible API model decoding + serialization\n- Optimize startup/launch times\n- Optimize performance for improved device thermals + battery life\n- Fix search term completion/suggestions missing a space\n- Fix swipe up gesture area on media player bar\n- Fix autoplay toggle switch—don’t auto play previews when disabled.\n- Added the ability to select text from video titles\n- Added Urban Dictionary lookup in text selection\n- Support for AirPlay in the custom Hot Tub player, deprecating the system player for maintainability (if the Hot Tub player is missing any features pl let me know)\n- Improve support for CDNs with AES-128 encrypted streams\n- Fix filter pickers on iOS 15 + 16\n- New icon",
+          "minOSVersion": "15.0",
+          "hash": {
+            "md5": "24182984884035636b351209de21c20e",
+            "sha256": "5b1e19a127bddbf88f66d93aa52e2782533cd224374c73d2aed4e0fb899652ab"
+          },
+          "metadata": {
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "This app needs access to your camera to capture photos and videos for your vault.",
+                "NSFaceIDUsageDescription": "FaceID is used to prevent unauthorized access to the app.",
+                "NSMotionUsageDescription": "This app uses motion sensors to enhance visual effects and detect shake gestures for the debug menu.",
+                "NSMicrophoneUsageDescription": "This app needs access to your microphone to record audio with videos for your vault.",
+                "NSPhotoLibraryUsageDescription": "Hot Tub needs access to your photo library to scan for sensitive content. Scanning is done only on your device; nothing is uploaded."
+              },
+              "entitlements": [
+                "com.apple.developer.applesignin",
+                "com.apple.developer.associated-domains",
+                "com.apple.developer.kernel.extended-virtual-addressing",
+                "com.apple.developer.kernel.increased-memory-limit",
+                "com.apple.security.application-groups",
+                "get-task-allow"
+              ]
+            }
+          }
+        },
+        {
           "version": "2.3.2",
           "buildVersion": "46",
           "date": "2026-04-18T01:31:55.000Z",
