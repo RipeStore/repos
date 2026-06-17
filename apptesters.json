@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "LEMOFM",
+      "type": 1,
+      "bundleID": "com.LEMO.LemoFM",
+      "bundleIdentifier": "com.LEMO.LemoFM",
+      "version": "1.11.2",
+      "versionDate": "2026-06-17",
+      "fullDate": "20260617060054",
+      "size": 101861825,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-06-2026/LEMOFM_1.11.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-06-2026/LEMOFM_1.11.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.LEMO.LemoFM.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.LEMO.LemoFM.png"
+    },
+    {
       "name": "Bazaart",
       "type": 1,
       "bundleID": "co.bazaart.app",
