@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Fitia",
+      "type": 1,
+      "bundleID": "com.ulisesolave.Fitia",
+      "bundleIdentifier": "com.ulisesolave.Fitia",
+      "version": "23.1.12",
+      "versionDate": "2026-06-18",
+      "fullDate": "20260618055243",
+      "size": 105108658,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-06-2026/Fitia_23.1.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-06-2026/Fitia_23.1.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png"
+    },
+    {
+      "name": "Pigment",
+      "type": 1,
+      "bundleID": "com.pixite.pigment",
+      "bundleIdentifier": "com.pixite.pigment",
+      "version": "3.12.2",
+      "versionDate": "2026-06-18",
+      "fullDate": "20260618053721",
+      "size": 141471374,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-06-2026/Pigment_3.12.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-06-2026/Pigment_3.12.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.pixite.pigment.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.pixite.pigment.png"
+    },
+    {
       "name": "B612",
       "type": 1,
       "bundleID": "com.linecorp.b612",
