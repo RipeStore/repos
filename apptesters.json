@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Locket",
+      "type": 1,
+      "bundleID": "com.locket.Locket",
+      "bundleIdentifier": "com.locket.Locket",
+      "version": "2.52.0",
+      "versionDate": "2026-06-19",
+      "fullDate": "20260619041239",
+      "size": 337263328,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-06-2026/Locket_2.52.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-06-2026/Locket_2.52.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Gold",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png"
+    },
+    {
+      "name": "UnifiedDictionary",
+      "type": 1,
+      "bundleID": "com.bravolol.bravoLang.chineseDictionary",
+      "bundleIdentifier": "com.bravolol.bravoLang.chineseDictionary",
+      "version": "35.4",
+      "versionDate": "2026-06-19",
+      "fullDate": "20260619031720",
+      "size": 21044654,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-06-2026/UnifiedDictionary_35.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-06-2026/UnifiedDictionary_35.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bravolol.bravoLang.chineseDictionary.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bravolol.bravoLang.chineseDictionary.png"
+    },
+    {
       "name": "YouCut",
       "type": 1,
       "bundleID": "com.shantanu.YouCut",
