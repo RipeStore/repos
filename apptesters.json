@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Peachy",
+      "type": 1,
+      "bundleID": "com.camerasideas.Peachy",
+      "bundleIdentifier": "com.camerasideas.Peachy",
+      "version": "2.12.0",
+      "versionDate": "2026-06-20",
+      "fullDate": "20260620010546",
+      "size": 190787073,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-06-2026/Peachy_2.12.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-06-2026/Peachy_2.12.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.Peachy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.Peachy.png"
+    },
+    {
       "name": "Crsel",
       "type": 1,
       "bundleID": "com.frameoneapps.Crsel",
