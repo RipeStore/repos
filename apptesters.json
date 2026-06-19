@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "VideoLite",
+      "type": 1,
+      "bundleID": "com.videobrowser.ios",
+      "bundleIdentifier": "com.videobrowser.ios",
+      "version": "623000",
+      "versionDate": "2026-06-20",
+      "fullDate": "20260620034653",
+      "size": 39669645,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-06-2026/VideoLite_623000_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-06-2026/VideoLite_623000_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.videobrowser.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.videobrowser.ios.png"
+    },
+    {
       "name": "Peachy",
       "type": 1,
       "bundleID": "com.camerasideas.Peachy",
