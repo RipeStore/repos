@@ -51,6 +51,15 @@
       "beta": false,
       "versions": [
         {
+          "version": "5.0.0b6",
+          "date": "2026-06-16T21:42:57.0000000Z",
+          "localizedDescription": "Beta 6 adds support for JIT on non-jailbroken devices running iOS 26.6 and iOS 27 beta.",
+          "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
+          "size": 17963367,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "99.0"
+        },
+        {
           "version": "5.0.0b4",
           "date": "2025-10-23T02:30:00.0000000Z",
           "localizedDescription": "Beta 4 attempts to fix crashes when using JIT on devices with an A12, A13, A14, or M1 chip running iOS 26.\n\nBeta 3 adds support for emulating Skylander Portal of Power, fixes JIT on some devices running iOS 17 and 18, and fixes random errors with JIT on iOS 26.\n\nBeta 1 adds support for JIT on iOS 26 using StikDebug.",
@@ -114,11 +123,11 @@
           "maxOSVersion": "99.0"
         }
       ],
-      "version": "5.0.0b4",
-      "versionDate": "2025-10-23T02:30:00.0000000Z",
-      "versionDescription": "Beta 4 attempts to fix crashes when using JIT on devices with an A12, A13, A14, or M1 chip running iOS 26.\n\nBeta 3 adds support for emulating Skylander Portal of Power, fixes JIT on some devices running iOS 17 and 18, and fixes random errors with JIT on iOS 26.\n\nBeta 1 adds support for JIT on iOS 26 using StikDebug.",
-      "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b4/Non-Jailbroken.ipa",
-      "size": 17958943
+      "version": "5.0.0b6",
+      "versionDate": "2026-06-16T21:42:57.0000000Z",
+      "versionDescription": "Beta 6 adds support for JIT on non-jailbroken devices running iOS 26.6 and iOS 27 beta.",
+      "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
+      "size": 17963367
     }
   ],
   "news": [
