@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "TinyDecisions",
+      "type": 1,
+      "bundleID": "com.nixwang.decision",
+      "bundleIdentifier": "com.nixwang.decision",
+      "version": "26.6",
+      "versionDate": "2026-06-21",
+      "fullDate": "20260621214549",
+      "size": 77894143,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-06-2026/TinyDecisions_26.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-06-2026/TinyDecisions_26.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.nixwang.decision.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.nixwang.decision.png"
+    },
+    {
       "name": "SimplyDraw",
       "type": 1,
       "bundleID": "com.joytunes.Draw",
