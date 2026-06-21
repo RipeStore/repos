@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Busuu",
+      "type": 1,
+      "bundleID": "com.busuu.english.app",
+      "bundleIdentifier": "com.busuu.english.app",
+      "version": "30.19.0",
+      "versionDate": "2026-06-21",
+      "fullDate": "20260621232141",
+      "size": 157639434,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-06-2026/Busuu_30.19.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-06-2026/Busuu_30.19.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png"
+    },
+    {
+      "name": "Fitia",
+      "type": 1,
+      "bundleID": "com.ulisesolave.Fitia",
+      "bundleIdentifier": "com.ulisesolave.Fitia",
+      "version": "23.1.14",
+      "versionDate": "2026-06-21",
+      "fullDate": "20260621224617",
+      "size": 125068619,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-06-2026/Fitia_23.1.14_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-06-2026/Fitia_23.1.14_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png"
+    },
+    {
       "name": "TinyDecisions",
       "type": 1,
       "bundleID": "com.nixwang.decision",
