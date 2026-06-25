@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Remini",
+      "type": 1,
+      "bundleID": "com.bigwinepot.nwdn.international",
+      "bundleIdentifier": "com.bigwinepot.nwdn.international",
+      "version": "2.10.206",
+      "versionDate": "2026-06-25",
+      "fullDate": "20260625190725",
+      "size": 119830175,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-06-2026/Remini_2.10.206_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-06-2026/Remini_2.10.206_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bigwinepot.nwdn.international.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bigwinepot.nwdn.international.png"
+    },
+    {
       "name": "BoldVoice",
       "type": 1,
       "bundleID": "com.wellocution.iosapp",
