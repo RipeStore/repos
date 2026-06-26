@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SimplyDraw",
+      "type": 1,
+      "bundleID": "com.joytunes.Draw",
+      "bundleIdentifier": "com.joytunes.Draw",
+      "version": "1.6.36",
+      "versionDate": "2026-06-26",
+      "fullDate": "20260626190945",
+      "size": 137768043,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-06-2026/SimplyDraw_1.6.36_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-06-2026/SimplyDraw_1.6.36_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.Draw.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.Draw.png"
+    },
+    {
+      "name": "GlowUp",
+      "type": 1,
+      "bundleID": "com.snowcorp.glowup",
+      "bundleIdentifier": "com.snowcorp.glowup",
+      "version": "4.2.10",
+      "versionDate": "2026-06-26",
+      "fullDate": "20260626180901",
+      "size": 186701354,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-06-2026/GlowUp_4.2.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-06-2026/GlowUp_4.2.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.glowup.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.glowup.png"
+    },
+    {
       "name": "Moonly",
       "type": 1,
       "bundleID": "com.moonly.Moonly",
