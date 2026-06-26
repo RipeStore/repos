@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "HiWidget",
+      "type": 1,
+      "bundleID": "com.zerone.hidesktop",
+      "bundleIdentifier": "com.zerone.hidesktop",
+      "version": "4.4.35",
+      "versionDate": "2026-06-26",
+      "fullDate": "20260626081438",
+      "size": 427427727,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-06-2026/HiWidget_4.4.35_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-06-2026/HiWidget_4.4.35_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png"
+    },
+    {
       "name": "ism",
       "type": 1,
       "bundleID": "com.ahaf.mshion",
