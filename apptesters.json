@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "LEMOFM",
+      "type": 1,
+      "bundleID": "com.LEMO.LemoFM",
+      "bundleIdentifier": "com.LEMO.LemoFM",
+      "version": "1.11.3",
+      "versionDate": "2026-06-28",
+      "fullDate": "20260628173735",
+      "size": 103160476,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-06-2026/LEMOFM_1.11.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-06-2026/LEMOFM_1.11.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.LEMO.LemoFM.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.LEMO.LemoFM.png"
+    },
+    {
       "name": "Videoleap",
       "type": 1,
       "bundleID": "com.lightricks.Enlight-Video",
