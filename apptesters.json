@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Moovit",
+      "type": 1,
+      "bundleID": "com.tranzmate.tranzmate1",
+      "bundleIdentifier": "com.tranzmate.tranzmate1",
+      "version": "5.195.0",
+      "versionDate": "2026-06-30",
+      "fullDate": "20260630003020",
+      "size": 104793290,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-06-2026/Moovit_5.195.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-06-2026/Moovit_5.195.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tranzmate.tranzmate1.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tranzmate.tranzmate1.png"
+    },
+    {
+      "name": "Elevate",
+      "type": 2,
+      "bundleID": "com.elevateapp.elevate",
+      "bundleIdentifier": "com.elevateapp.elevate",
+      "version": "5.246.0",
+      "versionDate": "2026-06-30",
+      "fullDate": "20260630001817",
+      "size": 412377368,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-06-2026/Elevate_5.246.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-06-2026/Elevate_5.246.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.elevate.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.elevate.png"
+    },
+    {
       "name": "Boostcamp",
       "type": 1,
       "bundleID": "com.bpmhealth.boostfitness",
