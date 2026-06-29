@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Boostcamp",
+      "type": 1,
+      "bundleID": "com.bpmhealth.boostfitness",
+      "bundleIdentifier": "com.bpmhealth.boostfitness",
+      "version": "262",
+      "versionDate": "2026-06-29",
+      "fullDate": "20260629231225",
+      "size": 91963338,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-06-2026/Boostcamp_262_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-06-2026/Boostcamp_262_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bpmhealth.boostfitness.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bpmhealth.boostfitness.png"
+    },
+    {
+      "name": "Duolingo",
+      "type": 1,
+      "bundleID": "com.duolingo.DuolingoMobile",
+      "bundleIdentifier": "com.duolingo.DuolingoMobile",
+      "version": "7.129.0",
+      "versionDate": "2026-06-29",
+      "fullDate": "20260629230651",
+      "size": 207260150,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-06-2026/Duolingo_7.129.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/29-06-2026/Duolingo_7.129.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png"
+    },
+    {
       "name": "ThePiano",
       "type": 2,
       "bundleID": "com.impalastudios.pianofree",
