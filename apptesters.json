@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SCRL",
+      "type": 1,
+      "bundleID": "com.dopedevelopment.Panels",
+      "bundleIdentifier": "com.dopedevelopment.Panels",
+      "version": "9.43.1",
+      "versionDate": "2026-06-30",
+      "fullDate": "20260630234857",
+      "size": 71581398,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-06-2026/SCRL_9.43.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-06-2026/SCRL_9.43.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png"
+    },
+    {
       "name": "ColorPop",
       "type": 1,
       "bundleID": "com.mwm.procolor",
