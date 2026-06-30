@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Action",
+      "type": 1,
+      "bundleID": "com.future.kapi",
+      "bundleIdentifier": "com.future.kapi",
+      "version": "4.29.0",
+      "versionDate": "2026-07-01",
+      "fullDate": "20260701041217",
+      "size": 201776710,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-07-2026/Action_4.29.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-07-2026/Action_4.29.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.future.kapi.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.future.kapi.png"
+    },
+    {
       "name": "MyFitnessPal",
       "type": 1,
       "bundleID": "com.myfitnesspal.mfp",
