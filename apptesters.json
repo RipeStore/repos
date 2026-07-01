@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Luminar",
+      "type": 1,
+      "bundleID": "com.skylum.luminaripad",
+      "bundleIdentifier": "com.skylum.luminaripad",
+      "version": "4.1",
+      "versionDate": "2026-07-02",
+      "fullDate": "20260702015910",
+      "size": 536067442,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-07-2026/Luminar_4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-07-2026/Luminar_4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.skylum.luminaripad.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.skylum.luminaripad.png"
+    },
+    {
+      "name": "Crsel",
+      "type": 1,
+      "bundleID": "com.frameoneapps.Crsel",
+      "bundleIdentifier": "com.frameoneapps.Crsel",
+      "version": "1.4.0",
+      "versionDate": "2026-07-02",
+      "fullDate": "20260702011342",
+      "size": 117545197,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-07-2026/Crsel_1.4.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/02-07-2026/Crsel_1.4.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frameoneapps.Crsel.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frameoneapps.Crsel.png"
+    },
+    {
       "name": "Yazio",
       "type": 1,
       "bundleID": "com.yazio.ios.YAZIO",
