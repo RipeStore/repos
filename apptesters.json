@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "superagent",
+      "type": 1,
+      "bundleID": "com.agent.super.extension.safari",
+      "bundleIdentifier": "com.agent.super.extension.safari",
+      "version": "4.4.1",
+      "versionDate": "2026-07-01",
+      "fullDate": "20260701050254",
+      "size": 25835039,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-07-2026/superagent_4.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-07-2026/superagent_4.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.agent.super.extension.safari.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.agent.super.extension.safari.png"
+    },
+    {
+      "name": "BoldVoice",
+      "type": 1,
+      "bundleID": "com.wellocution.iosapp",
+      "bundleIdentifier": "com.wellocution.iosapp",
+      "version": "4.0.9",
+      "versionDate": "2026-07-01",
+      "fullDate": "20260701044739",
+      "size": 158299050,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-07-2026/BoldVoice_4.0.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/01-07-2026/BoldVoice_4.0.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wellocution.iosapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wellocution.iosapp.png"
+    },
+    {
       "name": "Action",
       "type": 1,
       "bundleID": "com.future.kapi",
