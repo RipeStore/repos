@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SCRL",
+      "type": 1,
+      "bundleID": "com.dopedevelopment.Panels",
+      "bundleIdentifier": "com.dopedevelopment.Panels",
+      "version": "9.44.1",
+      "versionDate": "2026-07-05",
+      "fullDate": "20260705235948",
+      "size": 71577831,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-07-2026/SCRL_9.44.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-07-2026/SCRL_9.44.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png"
+    },
+    {
       "name": "Moonly",
       "type": 1,
       "bundleID": "com.moonly.Moonly",
@@ -19740,6 +19756,38 @@
       "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.fresco.ios.png"
     },
     {
+      "name": "AdobeFresco",
+      "type": 1,
+      "bundleID": "com.adobe.fresco.ios",
+      "bundleIdentifier": "com.adobe.fresco.ios",
+      "version": "7.3.0",
+      "versionDate": "2026-05-07",
+      "fullDate": "20260507054739",
+      "size": 736852232,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/AdobeFresco_7.3.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/AdobeFresco_7.3.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IAP",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.fresco.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.fresco.ios.png"
+    },
+    {
+      "name": "TravelBoast",
+      "type": 1,
+      "bundleID": "com.travelboast.travelboast",
+      "bundleIdentifier": "com.travelboast.travelboast",
+      "version": "2.38",
+      "versionDate": "2026-05-07",
+      "fullDate": "20260507052015",
+      "size": 434058911,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/TravelBoast_2.38_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/TravelBoast_2.38_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.travelboast.travelboast.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.travelboast.travelboast.png"
+    },
+    {
       "name": "TravelBoast",
       "type": 1,
       "bundleID": "com.travelboast.travelboast",
@@ -19772,6 +19820,22 @@
       "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mobilefootie.fotmobpro.png"
     },
     {
+      "name": "FotMob",
+      "type": 1,
+      "bundleID": "com.mobilefootie.fotmobpro",
+      "bundleIdentifier": "com.mobilefootie.fotmobpro",
+      "version": "1232.0",
+      "versionDate": "2026-05-07",
+      "fullDate": "20260507043214",
+      "size": 75379027,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/FotMob_1232.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/FotMob_1232.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mobilefootie.fotmobpro.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mobilefootie.fotmobpro.png"
+    },
+    {
       "name": "Headway",
       "type": 1,
       "bundleID": "com.headway.books",
@@ -19786,6 +19850,38 @@
       "localizedDescription": "Injected with Premium",
       "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png",
       "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png"
+    },
+    {
+      "name": "Headway",
+      "type": 1,
+      "bundleID": "com.headway.books",
+      "bundleIdentifier": "com.headway.books",
+      "version": "380.5",
+      "versionDate": "2026-05-07",
+      "fullDate": "20260507034911",
+      "size": 277367840,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/Headway_380.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/Headway_380.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png"
+    },
+    {
+      "name": "Hevy",
+      "type": 1,
+      "bundleID": "com.hevyapp.hevy",
+      "bundleIdentifier": "com.hevyapp.hevy",
+      "version": "3.0.11",
+      "versionDate": "2026-05-07",
+      "fullDate": "20260507033410",
+      "size": 112578100,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/Hevy_3.0.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-05-2026/Hevy_3.0.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png"
     },
     {
       "name": "Hevy",
