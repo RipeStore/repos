@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "BoldVoice",
+      "type": 1,
+      "bundleID": "com.wellocution.iosapp",
+      "bundleIdentifier": "com.wellocution.iosapp",
+      "version": "4.1.2",
+      "versionDate": "2026-07-08",
+      "fullDate": "20260708230349",
+      "size": 143912026,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-07-2026/BoldVoice_4.1.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-07-2026/BoldVoice_4.1.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wellocution.iosapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wellocution.iosapp.png"
+    },
+    {
+      "name": "Fitia",
+      "type": 1,
+      "bundleID": "com.ulisesolave.Fitia",
+      "bundleIdentifier": "com.ulisesolave.Fitia",
+      "version": "23.2.1",
+      "versionDate": "2026-07-08",
+      "fullDate": "20260708225839",
+      "size": 125582500,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-07-2026/Fitia_23.2.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-07-2026/Fitia_23.2.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png"
+    },
+    {
       "name": "FELFishEyeLens",
       "type": 1,
       "bundleID": "com.phantom.fantengmu",
