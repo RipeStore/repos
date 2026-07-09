@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "SCRL",
+      "type": 1,
+      "bundleID": "com.dopedevelopment.Panels",
+      "bundleIdentifier": "com.dopedevelopment.Panels",
+      "version": "9.44.3",
+      "versionDate": "2026-07-10",
+      "fullDate": "20260710005027",
+      "size": 72944789,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-07-2026/SCRL_9.44.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-07-2026/SCRL_9.44.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png"
+    },
+    {
       "name": "ProCCD",
       "type": 1,
       "bundleID": "com.yengshine.proccd",
