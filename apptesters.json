@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "HiWidget",
+      "type": 1,
+      "bundleID": "com.zerone.hidesktop",
+      "bundleIdentifier": "com.zerone.hidesktop",
+      "version": "5.0.0",
+      "versionDate": "2026-07-10",
+      "fullDate": "20260710085811",
+      "size": 436014733,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-07-2026/HiWidget_5.0.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-07-2026/HiWidget_5.0.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png"
+    },
+    {
+      "name": "Workouts",
+      "type": 1,
+      "bundleID": "com.sbs.train",
+      "bundleIdentifier": "com.sbs.train",
+      "version": "1.2.4",
+      "versionDate": "2026-07-10",
+      "fullDate": "20260710054222",
+      "size": 201640456,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-07-2026/Workouts_1.2.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-07-2026/Workouts_1.2.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.train.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.train.png"
+    },
+    {
       "name": "SODA",
       "type": 1,
       "bundleID": "com.snowcorp.soda",
