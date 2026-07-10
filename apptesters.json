@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SimplyDraw",
+      "type": 1,
+      "bundleID": "com.joytunes.Draw",
+      "bundleIdentifier": "com.joytunes.Draw",
+      "version": "1.6.38",
+      "versionDate": "2026-07-10",
+      "fullDate": "20260710180525",
+      "size": 139166298,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-07-2026/SimplyDraw_1.6.38_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-07-2026/SimplyDraw_1.6.38_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.Draw.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.Draw.png"
+    },
+    {
+      "name": "Pigment",
+      "type": 1,
+      "bundleID": "com.pixite.pigment",
+      "bundleIdentifier": "com.pixite.pigment",
+      "version": "3.13.1",
+      "versionDate": "2026-07-10",
+      "fullDate": "20260710173003",
+      "size": 149806783,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-07-2026/Pigment_3.13.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-07-2026/Pigment_3.13.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.pixite.pigment.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.pixite.pigment.png"
+    },
+    {
       "name": "KineMaster",
       "type": 1,
       "bundleID": "com.kinemaster.kios",
