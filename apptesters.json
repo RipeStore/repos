@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Crsel",
+      "type": 1,
+      "bundleID": "com.frameoneapps.Crsel",
+      "bundleIdentifier": "com.frameoneapps.Crsel",
+      "version": "1.4.3",
+      "versionDate": "2026-07-12",
+      "fullDate": "20260712234554",
+      "size": 117544319,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-07-2026/Crsel_1.4.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-07-2026/Crsel_1.4.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frameoneapps.Crsel.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frameoneapps.Crsel.png"
+    },
+    {
       "name": "Picsart",
       "type": 1,
       "bundleID": "com.picsart.studio",
