@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Tripsy",
+      "type": 1,
+      "bundleID": "app.tripsy.ios",
+      "bundleIdentifier": "app.tripsy.ios",
+      "version": "3.8.14",
+      "versionDate": "2026-07-13",
+      "fullDate": "20260713004129",
+      "size": 78270953,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-07-2026/Tripsy_3.8.14_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-07-2026/Tripsy_3.8.14_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png"
+    },
+    {
+      "name": "PeakVisor",
+      "type": 1,
+      "bundleID": "ru.routes.peakvisor",
+      "bundleIdentifier": "ru.routes.peakvisor",
+      "version": "5.102",
+      "versionDate": "2026-07-13",
+      "fullDate": "20260713004117",
+      "size": 151219665,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-07-2026/PeakVisor_5.102_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-07-2026/PeakVisor_5.102_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png"
+    },
+    {
       "name": "Crsel",
       "type": 1,
       "bundleID": "com.frameoneapps.Crsel",
