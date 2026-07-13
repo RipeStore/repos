@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Dazz",
+      "type": 1,
+      "bundleID": "dazz.camera.vintagecamera",
+      "bundleIdentifier": "dazz.camera.vintagecamera",
+      "version": "2.17.4",
+      "versionDate": "2026-07-13",
+      "fullDate": "20260713235456",
+      "size": 116713448,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-07-2026/Dazz_2.17.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-07-2026/Dazz_2.17.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/dazz.camera.vintagecamera.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/dazz.camera.vintagecamera.png"
+    },
+    {
+      "name": "Duolingo",
+      "type": 1,
+      "bundleID": "com.duolingo.DuolingoMobile",
+      "bundleIdentifier": "com.duolingo.DuolingoMobile",
+      "version": "7.131.0",
+      "versionDate": "2026-07-13",
+      "fullDate": "20260713232437",
+      "size": 206957865,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-07-2026/Duolingo_7.131.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-07-2026/Duolingo_7.131.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png"
+    },
+    {
       "name": "Elevate",
       "type": 2,
       "bundleID": "com.elevateapp.elevate",
