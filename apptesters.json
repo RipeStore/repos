@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "ThePiano",
+      "type": 2,
+      "bundleID": "com.impalastudios.pianofree",
+      "bundleIdentifier": "com.impalastudios.pianofree",
+      "version": "2.20.5",
+      "versionDate": "2026-07-15",
+      "fullDate": "20260715031944",
+      "size": 93607548,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-07-2026/ThePiano_2.20.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-07-2026/ThePiano_2.20.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.impalastudios.pianofree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.impalastudios.pianofree.png"
+    },
+    {
+      "name": "Pigment",
+      "type": 1,
+      "bundleID": "com.pixite.pigment",
+      "bundleIdentifier": "com.pixite.pigment",
+      "version": "3.13.2",
+      "versionDate": "2026-07-15",
+      "fullDate": "20260715021421",
+      "size": 149785902,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-07-2026/Pigment_3.13.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-07-2026/Pigment_3.13.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.pixite.pigment.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.pixite.pigment.png"
+    },
+    {
       "name": "MyFitnessPal",
       "type": 1,
       "bundleID": "com.myfitnesspal.mfp",
