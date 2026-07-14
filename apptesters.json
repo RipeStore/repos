@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "SnapEdit",
+      "type": 1,
+      "bundleID": "com.sfun.snapedit",
+      "bundleIdentifier": "com.sfun.snapedit",
+      "version": "6.20",
+      "versionDate": "2026-07-14",
+      "fullDate": "20260714081712",
+      "size": 106379235,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-07-2026/SnapEdit_6.20_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-07-2026/SnapEdit_6.20_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png"
+    },
+    {
+      "name": "NeoServer",
+      "type": 1,
+      "bundleID": "com.neo.NeoMan",
+      "bundleIdentifier": "com.neo.NeoMan",
+      "version": "8.3.3",
+      "versionDate": "2026-07-14",
+      "fullDate": "20260714062645",
+      "size": 32913866,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-07-2026/NeoServer_8.3.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-07-2026/NeoServer_8.3.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neo.NeoMan.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neo.NeoMan.png"
+    },
+    {
       "name": "ProCCD",
       "type": 1,
       "bundleID": "com.yengshine.proccd",
