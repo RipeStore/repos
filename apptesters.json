@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "KineMaster",
+      "type": 1,
+      "bundleID": "com.kinemaster.kios",
+      "bundleIdentifier": "com.kinemaster.kios",
+      "version": "8.1.17",
+      "versionDate": "2026-07-14",
+      "fullDate": "20260714184116",
+      "size": 116794766,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-07-2026/KineMaster_8.1.17_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-07-2026/KineMaster_8.1.17_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kinemaster.kios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kinemaster.kios.png"
+    },
+    {
       "name": "Splice",
       "type": 1,
       "bundleID": "com.path36.SpliceFree",
