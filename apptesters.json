@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Origami",
+      "type": 1,
+      "bundleID": "com.oribot.origami",
+      "bundleIdentifier": "com.oribot.origami",
+      "version": "4.79",
+      "versionDate": "2026-07-15",
+      "fullDate": "20260715040007",
+      "size": 200337859,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-07-2026/Origami_4.79_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-07-2026/Origami_4.79_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.oribot.origami.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.oribot.origami.png"
+    },
+    {
+      "name": "InCollage",
+      "type": 1,
+      "bundleID": "PhotoEditor.PhotoCollage.inCollage",
+      "bundleIdentifier": "PhotoEditor.PhotoCollage.inCollage",
+      "version": "2.2.50",
+      "versionDate": "2026-07-15",
+      "fullDate": "20260715035456",
+      "size": 99286705,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-07-2026/InCollage_2.2.50_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-07-2026/InCollage_2.2.50_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/PhotoEditor.PhotoCollage.inCollage.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/PhotoEditor.PhotoCollage.inCollage.png"
+    },
+    {
       "name": "ThePiano",
       "type": 2,
       "bundleID": "com.impalastudios.pianofree",
