@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Calendars",
+      "type": 1,
+      "bundleID": "com.readdle.CalendarsLite",
+      "bundleIdentifier": "com.readdle.CalendarsLite",
+      "version": "5.37.32",
+      "versionDate": "2026-07-14",
+      "fullDate": "20260714225208",
+      "size": 307886861,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-07-2026/Calendars_5.37.32_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-07-2026/Calendars_5.37.32_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.CalendarsLite.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.CalendarsLite.png"
+    },
+    {
+      "name": "Rest",
+      "type": 1,
+      "bundleID": "com.evolve.helm",
+      "bundleIdentifier": "com.evolve.helm",
+      "version": "3.195.0",
+      "versionDate": "2026-07-14",
+      "fullDate": "20260714224653",
+      "size": 132258403,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-07-2026/Rest_3.195.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-07-2026/Rest_3.195.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.evolve.helm.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.evolve.helm.png"
+    },
+    {
       "name": "KineMaster",
       "type": 1,
       "bundleID": "com.kinemaster.kios",
