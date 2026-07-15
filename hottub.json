@@ -29,6 +29,38 @@
       "tintColor": "#A700FF",
       "versions": [
         {
+          "version": "2.3.4",
+          "buildVersion": "56",
+          "date": "2026-07-15T14:17:50.000Z",
+          "size": 106363708,
+          "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.3.4(56).ipa",
+          "localizedDescription": "- Added Portuguese localization and improved in-app language switching.\n- Added a new Ideas Hub with separate Features and Channels areas, channel search, and easier voting/request flows.\n- Added activation-code deep links and a cleaner redeem flow across Settings and paywalls.\n- Improved Vault organization with notes, tags, search, and people management.\n- Improved Discover and Tapes playback reliability, especially after scrubbing, tab changes, and inline-to-fullscreen transitions.\n- Improved video playback diagnostics so support reports include more useful troubleshooting details.\n- Added richer interactive in-app HTML content support for embedded cards and fundraising messages.\n- Fixed multiple playback edge cases around looping, Picture in Picture, previews, cache routing, and resume behavior.\n- Fixed localization and string display issues across Settings, Vault, video errors, reports, and common time labels.\n",
+          "minOSVersion": "15.0",
+          "hash": {
+            "md5": "35e45cd5de63337948bfb6e03a7db9fb",
+            "sha256": "0de17ae01644cc61b7250aaf26b5b795a8b250a8e3a8da8548b880e9b1111646"
+          },
+          "metadata": {
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "This app needs access to your camera to capture photos and videos for your vault.",
+                "NSFaceIDUsageDescription": "FaceID is used to prevent unauthorized access to the app.",
+                "NSMotionUsageDescription": "This app uses motion sensors to enhance visual effects and detect shake gestures for the debug menu.",
+                "NSMicrophoneUsageDescription": "This app needs access to your microphone to record audio with videos for your vault.",
+                "NSPhotoLibraryUsageDescription": "Hot Tub needs access to your photo library to scan for sensitive content. Scanning is done only on your device; nothing is uploaded."
+              },
+              "entitlements": [
+                "com.apple.developer.applesignin",
+                "com.apple.developer.associated-domains",
+                "com.apple.developer.kernel.extended-virtual-addressing",
+                "com.apple.developer.kernel.increased-memory-limit",
+                "com.apple.security.application-groups",
+                "get-task-allow"
+              ]
+            }
+          }
+        },
+        {
           "version": "2.3.3",
           "buildVersion": "53",
           "date": "2026-06-13T15:54:14.000Z",
