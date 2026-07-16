@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Vibes",
+      "type": 1,
+      "bundleID": "com.andyworks.vibes",
+      "bundleIdentifier": "com.andyworks.vibes",
+      "version": "1.24",
+      "versionDate": "2026-07-17",
+      "fullDate": "20260717015619",
+      "size": 260427695,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-07-2026/Vibes_1.24_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-07-2026/Vibes_1.24_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andyworks.vibes.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andyworks.vibes.png"
+    },
+    {
+      "name": "ReelsApp",
+      "type": 1,
+      "bundleID": "com.nextgen.reelsapp",
+      "bundleIdentifier": "com.nextgen.reelsapp",
+      "version": "7.9",
+      "versionDate": "2026-07-17",
+      "fullDate": "20260717011603",
+      "size": 105636330,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-07-2026/ReelsApp_7.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-07-2026/ReelsApp_7.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.nextgen.reelsapp.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.nextgen.reelsapp.png"
+    },
+    {
       "name": "Osmosis",
       "type": 1,
       "bundleID": "com.osmose-it.osmosis",
