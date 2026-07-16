@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "EasyAnatomy3D",
+      "type": 1,
+      "bundleID": "AB.iOsteology",
+      "bundleIdentifier": "AB.iOsteology",
+      "version": "5.40.0",
+      "versionDate": "2026-07-16",
+      "fullDate": "20260716204219",
+      "size": 1411225367,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-07-2026/EasyAnatomy3D_5.40.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-07-2026/EasyAnatomy3D_5.40.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/AB.iOsteology.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/AB.iOsteology.png"
+    },
+    {
+      "name": "Captions",
+      "type": 1,
+      "bundleID": "boomer.Smart-Video",
+      "bundleIdentifier": "boomer.Smart-Video",
+      "version": "13.26.0",
+      "versionDate": "2026-07-16",
+      "fullDate": "20260716203709",
+      "size": 120322025,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-07-2026/Captions_13.26.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-07-2026/Captions_13.26.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png"
+    },
+    {
       "name": "simpleweather",
       "type": 1,
       "bundleID": "com.andyworks.weather",
