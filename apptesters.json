@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "simpleweather",
+      "type": 1,
+      "bundleID": "com.andyworks.weather",
+      "bundleIdentifier": "com.andyworks.weather",
+      "version": "3.50",
+      "versionDate": "2026-07-16",
+      "fullDate": "20260716200152",
+      "size": 227270198,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-07-2026/simpleweather_3.50_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-07-2026/simpleweather_3.50_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andyworks.weather.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andyworks.weather.png"
+    },
+    {
+      "name": "Shapeyard",
+      "type": 1,
+      "bundleID": "app.chudo",
+      "bundleIdentifier": "app.chudo",
+      "version": "5.19",
+      "versionDate": "2026-07-16",
+      "fullDate": "20260716192140",
+      "size": 75009290,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-07-2026/Shapeyard_5.19_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-07-2026/Shapeyard_5.19_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.chudo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.chudo.png"
+    },
+    {
       "name": "Mojo",
       "type": 1,
       "bundleID": "archery.storify",
