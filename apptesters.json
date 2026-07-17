@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "FitnessAI",
+      "type": 1,
+      "bundleID": "com.jakemor.firness-ai",
+      "bundleIdentifier": "com.jakemor.firness-ai",
+      "version": "21.2",
+      "versionDate": "2026-07-17",
+      "fullDate": "20260717213946",
+      "size": 71963836,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-07-2026/FitnessAI_21.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-07-2026/FitnessAI_21.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jakemor.firness-ai.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jakemor.firness-ai.png"
+    },
+    {
       "name": "Luminar",
       "type": 1,
       "bundleID": "com.skylum.luminaripad",
