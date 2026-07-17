@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Polish",
+      "type": 1,
+      "bundleID": "com.photoeditor.polish",
+      "bundleIdentifier": "com.photoeditor.polish",
+      "version": "2.6.0",
+      "versionDate": "2026-07-18",
+      "fullDate": "20260718013053",
+      "size": 146626452,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-07-2026/Polish_2.6.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-07-2026/Polish_2.6.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.photoeditor.polish.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.photoeditor.polish.png"
+    },
+    {
+      "name": "Pigment",
+      "type": 1,
+      "bundleID": "com.pixite.pigment",
+      "bundleIdentifier": "com.pixite.pigment",
+      "version": "3.13.3",
+      "versionDate": "2026-07-18",
+      "fullDate": "20260718011534",
+      "size": 149681100,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-07-2026/Pigment_3.13.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-07-2026/Pigment_3.13.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.pixite.pigment.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.pixite.pigment.png"
+    },
+    {
       "name": "FreeYourMusic",
       "type": 1,
       "bundleID": "io.stampapp.Stamp",
