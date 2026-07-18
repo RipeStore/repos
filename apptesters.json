@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Phocus",
+      "type": 1,
+      "bundleID": "com.ahmetserdarkaradeniz.Phocus",
+      "bundleIdentifier": "com.ahmetserdarkaradeniz.Phocus",
+      "version": "3.4.6",
+      "versionDate": "2026-07-18",
+      "fullDate": "20260718122442",
+      "size": 287153928,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-07-2026/Phocus_3.4.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-07-2026/Phocus_3.4.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahmetserdarkaradeniz.Phocus.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahmetserdarkaradeniz.Phocus.png"
+    },
+    {
       "name": "Lyfta",
       "type": 1,
       "bundleID": "com.lyftaios",
