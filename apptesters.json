@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "superagent",
+      "type": 1,
+      "bundleID": "com.agent.super.extension.safari",
+      "bundleIdentifier": "com.agent.super.extension.safari",
+      "version": "4.5.0",
+      "versionDate": "2026-07-18",
+      "fullDate": "20260718141517",
+      "size": 27669367,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-07-2026/superagent_4.5.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-07-2026/superagent_4.5.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.agent.super.extension.safari.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.agent.super.extension.safari.png"
+    },
+    {
       "name": "Phocus",
       "type": 1,
       "bundleID": "com.ahmetserdarkaradeniz.Phocus",
