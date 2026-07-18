@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Lyfta",
+      "type": 1,
+      "bundleID": "com.lyftaios",
+      "bundleIdentifier": "com.lyftaios",
+      "version": "1.151",
+      "versionDate": "2026-07-18",
+      "fullDate": "20260718094914",
+      "size": 66702778,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-07-2026/Lyfta_1.151_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-07-2026/Lyfta_1.151_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lyftaios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lyftaios.png"
+    },
+    {
+      "name": "Tachimanga",
+      "type": 1,
+      "bundleID": "com.mangacrush.ios",
+      "bundleIdentifier": "com.mangacrush.ios",
+      "version": "4.19",
+      "versionDate": "2026-07-18",
+      "fullDate": "20260718092857",
+      "size": 127930211,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-07-2026/Tachimanga_4.19_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-07-2026/Tachimanga_4.19_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mangacrush.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mangacrush.ios.png"
+    },
+    {
       "name": "VSCO",
       "type": 1,
       "bundleID": "co.visualsupply.cam",
