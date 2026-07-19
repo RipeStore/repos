@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "FitnessOnline",
+      "type": 1,
+      "bundleID": "com.aiti.FitnessOnline",
+      "bundleIdentifier": "com.aiti.FitnessOnline",
+      "version": "1.25.0",
+      "versionDate": "2026-07-19",
+      "fullDate": "20260719113822",
+      "size": 129552507,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-07-2026/FitnessOnline_1.25.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-07-2026/FitnessOnline_1.25.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aiti.FitnessOnline.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aiti.FitnessOnline.png"
+    },
+    {
+      "name": "Busuu",
+      "type": 1,
+      "bundleID": "com.busuu.english.app",
+      "bundleIdentifier": "com.busuu.english.app",
+      "version": "30.21.0",
+      "versionDate": "2026-07-19",
+      "fullDate": "20260719111808",
+      "size": 157324378,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-07-2026/Busuu_30.21.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/19-07-2026/Busuu_30.21.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png"
+    },
+    {
       "name": "8BallPool",
       "type": 2,
       "bundleID": "com.miniclip.8ballpoolmult",
