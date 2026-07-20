@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Captions",
+      "type": 1,
+      "bundleID": "boomer.Smart-Video",
+      "bundleIdentifier": "boomer.Smart-Video",
+      "version": "13.26.1",
+      "versionDate": "2026-07-21",
+      "fullDate": "20260721024345",
+      "size": 120325124,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-07-2026/Captions_13.26.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-07-2026/Captions_13.26.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png"
+    },
+    {
+      "name": "MyCalendar",
+      "type": 1,
+      "bundleID": "com.podfactor.pod",
+      "bundleIdentifier": "com.podfactor.pod",
+      "version": "2.106.6",
+      "versionDate": "2026-07-21",
+      "fullDate": "20260721024343",
+      "size": 27603691,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-07-2026/MyCalendar_2.106.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-07-2026/MyCalendar_2.106.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.podfactor.pod.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.podfactor.pod.png"
+    },
+    {
       "name": "Lightroom",
       "type": 1,
       "bundleID": "com.adobe.lrmobilephone",
