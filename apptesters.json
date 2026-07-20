@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "InCollage",
+      "type": 1,
+      "bundleID": "PhotoEditor.PhotoCollage.inCollage",
+      "bundleIdentifier": "PhotoEditor.PhotoCollage.inCollage",
+      "version": "2.2.51",
+      "versionDate": "2026-07-20",
+      "fullDate": "20260720223229",
+      "size": 99289386,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-07-2026/InCollage_2.2.51_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-07-2026/InCollage_2.2.51_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/PhotoEditor.PhotoCollage.inCollage.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/PhotoEditor.PhotoCollage.inCollage.png"
+    },
+    {
+      "name": "Habits",
+      "type": 1,
+      "bundleID": "com.dreamer.Habits",
+      "bundleIdentifier": "com.dreamer.Habits",
+      "version": "3.35",
+      "versionDate": "2026-07-20",
+      "fullDate": "20260720221708",
+      "size": 237895246,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-07-2026/Habits_3.35_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-07-2026/Habits_3.35_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dreamer.Habits.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dreamer.Habits.png"
+    },
+    {
       "name": "Caliber",
       "type": 1,
       "bundleID": "com.caliberfitness.app",
