@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Dictionary",
+      "type": 1,
+      "bundleID": "com.mobisystems.OxfordDictionaryOfEnglishFree",
+      "bundleIdentifier": "com.mobisystems.OxfordDictionaryOfEnglishFree",
+      "version": "16.3",
+      "versionDate": "2026-07-22",
+      "fullDate": "20260722134426",
+      "size": 45492140,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-07-2026/Dictionary_16.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-07-2026/Dictionary_16.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mobisystems.OxfordDictionaryOfEnglishFree.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mobisystems.OxfordDictionaryOfEnglishFree.png"
+    },
+    {
       "name": "NoFusion",
       "type": 1,
       "bundleID": "com.grey.swiftcamera",
