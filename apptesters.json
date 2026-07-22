@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Flacbox",
+      "type": 1,
+      "bundleID": "com.leshko.flap",
+      "bundleIdentifier": "com.leshko.flap",
+      "version": "7.6",
+      "versionDate": "2026-07-23",
+      "fullDate": "20260723040928",
+      "size": 83188846,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-07-2026/Flacbox_7.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-07-2026/Flacbox_7.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leshko.flap.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leshko.flap.png"
+    },
+    {
       "name": "ThePiano",
       "type": 2,
       "bundleID": "com.impalastudios.pianofree",
