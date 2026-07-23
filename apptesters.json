@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Aloha",
+      "type": 1,
+      "bundleID": "com.alohabrowser.alohabrowser",
+      "bundleIdentifier": "com.alohabrowser.alohabrowser",
+      "version": "8.8.1",
+      "versionDate": "2026-07-23",
+      "fullDate": "20260723200024",
+      "size": 124775086,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-07-2026/Aloha_8.8.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-07-2026/Aloha_8.8.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alohabrowser.alohabrowser.png"
+    },
+    {
+      "name": "Shapeyard",
+      "type": 1,
+      "bundleID": "app.chudo",
+      "bundleIdentifier": "app.chudo",
+      "version": "5.20",
+      "versionDate": "2026-07-23",
+      "fullDate": "20260723190510",
+      "size": 75282895,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-07-2026/Shapeyard_5.20_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-07-2026/Shapeyard_5.20_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.chudo.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.chudo.png"
+    },
+    {
       "name": "CLIME",
       "type": 1,
       "bundleID": "com.apalonapps.radarfree",
