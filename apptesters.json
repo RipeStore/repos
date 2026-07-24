@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "PeakVisor",
+      "type": 1,
+      "bundleID": "ru.routes.peakvisor",
+      "bundleIdentifier": "ru.routes.peakvisor",
+      "version": "5.103",
+      "versionDate": "2026-07-24",
+      "fullDate": "20260724205645",
+      "size": 151757245,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-07-2026/PeakVisor_5.103_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-07-2026/PeakVisor_5.103_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png"
+    },
+    {
+      "name": "Hevy",
+      "type": 1,
+      "bundleID": "com.hevyapp.hevy",
+      "bundleIdentifier": "com.hevyapp.hevy",
+      "version": "3.1.6",
+      "versionDate": "2026-07-24",
+      "fullDate": "20260724200129",
+      "size": 119907452,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-07-2026/Hevy_3.1.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-07-2026/Hevy_3.1.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png"
+    },
+    {
       "name": "ReelsApp",
       "type": 1,
       "bundleID": "com.nextgen.reelsapp",
