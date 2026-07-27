@@ -3,7 +3,7 @@
   "identifier": "dev.crystall1ne.alt",
   "subtitle": "The source for everything crystall1nedev.",
   "description": "Apps from the crystall1nedev and AngelAuraMC universes, now on Alt and SideStore.",
-  "iconURL": "https://crystall1ne.dev/media/the_icon.png",
+  "iconURL": "https://alt.crystall1ne.dev/media/the_icon.png",
   "website": "https://crystall1ne.dev",
   "patreonURL": "https://patreon.com/crystall1nedev",
   "fediUsername": "crystll1ne",
@@ -11,7 +11,7 @@
   "featuredApps": [
     "org.angelauramc.amethyst"
   ],
-  "headerURL": "https://crystall1ne.dev/media/the_point.png",
+  "headerURL": "https://alt.crystall1ne.dev/media/the_point.png",
   "apps": [
     {
       "name": "Angel Aura Amethyst",
@@ -69,6 +69,24 @@
         ]
       },
       "versions": [
+        {
+          "version": "1.0.64c5c9c",
+          "date": "2026-07-27T22:13:05.708376+00:00",
+          "localizedDescription": "Thanks for helping test Amethyst! To see what's new, check commit \"64c5c9c\" on the GitHub repo.",
+          "downloadURL": "https://alt.crystall1ne.dev/resources/amethyst/64c5c9c/org.angelauramc.amethyst-1.0-ios.ipa",
+          "size": 191478154,
+          "beta": true,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.0.325144b",
+          "date": "2026-07-27T21:56:33.566039+00:00",
+          "localizedDescription": "Thanks for helping test Amethyst! To see what's new, check commit \"325144b\" on the GitHub repo.",
+          "downloadURL": "https://alt.crystall1ne.dev/resources/amethyst/325144b/org.angelauramc.amethyst-1.0-ios.ipa",
+          "size": 150353804,
+          "beta": true,
+          "minOSVersion": "14.0"
+        },
         {
           "version": "1.0.00678b0",
           "date": "2026-04-12T14:23:01.984108+00:00",
