@@ -29,6 +29,38 @@
       "tintColor": "#A700FF",
       "versions": [
         {
+          "version": "2.3.6",
+          "buildVersion": "58",
+          "date": "2026-08-08T01:33:26.000Z",
+          "size": 108482272,
+          "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.3.6(58).ipa",
+          "localizedDescription": "Progress bar enhancements & bug fixes",
+          "minOSVersion": "15.0",
+          "hash": {
+            "md5": "fb9c9034af713d6a12e762bde8d11a6e",
+            "sha256": "d51b92b90871ef5a5cbd4f7e769a62c1d7dfb96430bd77c7242d4b246a219654"
+          },
+          "metadata": {
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "This app needs access to your camera to capture photos and videos for your vault.",
+                "NSFaceIDUsageDescription": "FaceID is used to prevent unauthorized access to the app.",
+                "NSMotionUsageDescription": "This app uses motion sensors to enhance visual effects and detect shake gestures for the debug menu.",
+                "NSMicrophoneUsageDescription": "This app needs access to your microphone to record audio with videos for your vault.",
+                "NSPhotoLibraryUsageDescription": "Hot Tub needs access to your photo library to scan for sensitive content. Scanning is done only on your device; nothing is uploaded."
+              },
+              "entitlements": [
+                "com.apple.developer.applesignin",
+                "com.apple.developer.associated-domains",
+                "com.apple.developer.kernel.extended-virtual-addressing",
+                "com.apple.developer.kernel.increased-memory-limit",
+                "com.apple.security.application-groups",
+                "get-task-allow"
+              ]
+            }
+          }
+        },
+        {
           "version": "2.3.5",
           "buildVersion": "57",
           "date": "2026-08-04T23:34:38.000Z",
