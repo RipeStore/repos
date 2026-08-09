@@ -90,5 +90,13 @@
   {
     "name": "mangayomi",
     "url": "https://raw.githubusercontent.com/kodjodevf/mangayomi/refs/heads/main/repo/source.json"
+  },
+  {
+    "name": "armsx2",
+    "url": "https://armsx2.net/api/ios-source"
+  },
+  {
+    "name": "reynard",
+    "url": "https://github.com/minh-ton/reynard-browser/releases/download/0.0.1-a1/source.json"
   }
 ]
