@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Wordscapes",
+      "type": 2,
+      "bundleID": "com.peoplefun.wordcross",
+      "bundleIdentifier": "com.peoplefun.wordcross",
+      "version": "3.13.00",
+      "versionDate": "2026-08-14",
+      "fullDate": "20260814202831",
+      "size": 174722299,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-08-2026/Wordscapes_3.13.00_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-08-2026/Wordscapes_3.13.00_IGG_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with IGG",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.peoplefun.wordcross.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.peoplefun.wordcross.png"
+    },
+    {
+      "name": "Duolingo",
+      "type": 1,
+      "bundleID": "com.duolingo.DuolingoMobile",
+      "bundleIdentifier": "com.duolingo.DuolingoMobile",
+      "version": "7.135.2",
+      "versionDate": "2026-08-14",
+      "fullDate": "20260814200314",
+      "size": 211536961,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-08-2026/Duolingo_7.135.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-08-2026/Duolingo_7.135.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png"
+    },
+    {
       "name": "Hevy",
       "type": 1,
       "bundleID": "com.hevyapp.hevy",
