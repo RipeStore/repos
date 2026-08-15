@@ -1,0 +1,31 @@
+name: Revert Accidental Commit
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_sha:
+        description: 'Commit SHA to revert'
+        required: true
+        default: 'ff1711861fd854f094d1491dd217be4a4b4b88ed'
+
+permissions:
+  contents: write
+
+jobs:
+  revert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git Identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Revert & Push
+        run: |
+          git revert --no-edit ${{ github.event.inputs.commit_sha }}
+          git push origin main
