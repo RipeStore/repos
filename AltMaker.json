@@ -1,0 +1,457 @@
+{
+  "name": "Altmaker by RipeStore",
+  "subtitle": "Freshly sliced sideloadable iOS apps directly from upstream sources.",
+  "identifier": "com.ripestore.altmaker",
+  "sourceURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json",
+  "description": "Automated repository indexing latest sideloadable iOS applications, emulators, and utilities.",
+  "website": "https://ripestore.github.io/",
+  "patreonURL": "https://ripestore.github.io/",
+  "tintColor": "#6156e2",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "MeloNX",
+      "bundleIdentifier": "com.stossy11.MeloNX",
+      "developerName": "Projects",
+      "subtitle": "A Nintendo Switch Emulator based on Ryujinx for iOS",
+      "localizedDescription": "MeloNX MeloNX enables Nintendo Switch game emulation on iOS using Ryujinx as a base. MeloNX is an iOS Nintendo Switch emulator based on Ryujinx, written primarily in C# and Swift. Designed to bring accurate performance and a user-friendly interface to iOS, MeloNX makes Switch games accessible on Apple devices. Developed from the ground up, MeloNX is open-source and available on Github under the GPLv3 license. We do not support piracy, It is forbidden to request copyrighted content (Firmware/Games/Keys/Shaders) on our repositories or on the MeloNX Discord. MeloNX emulator is capable of running many homebrew applications, and can be a crucial tool in the development and debugging of homebrew applications and games.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.stossy11.MeloNX.png",
+      "tintColor": "#6040c0",
+      "category": "Games",
+      "versions": [
+        {
+          "version": "2.5",
+          "date": "2026-07-19T10:17:35Z",
+          "localizedDescription": "# What's New\r\n## Core & Controllers\r\n- Laggy/Glitching Audio Fixes \r\n- Fix Race Conditions in TickSource\r\n- Add VSync FPS Target\r\n- Update Unbound Presenting\r\n- Revert Descriptor Set Updates\r\n- Add GPU PresentCopyCompute Path\r\n- Add Timeout for WaitingForValue in BufferedQuery\r\n- Add Back Exit Button (works the same as 2.3.1)\r\n- Fix Cheats\r\n- Fix Super XCI Support\r\n- Fix Saves\r\n\r\n## UI/UX \r\n- Update Setup Screen \r\n- Add continuing without title.keys\r\n- Fix Importing Mods\r\n- Fix crashing when importing firmware.\r\n- Add Firmware & Keys Importing Error Handling\r\n- Fix Updates/DLCs\r\n- Fix URL Schemes and Auto JIT\r\n- Update No JIT View\r\n- Add Extended Virtual Addressing entitlement Checker\r\n- Add Emulation Crashed Alert\r\n- Fix AirPlay",
+          "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/2.5/MeloNX.ipa",
+          "size": 48655413,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "2.4",
+          "date": "2026-07-10T02:18:07Z",
+          "localizedDescription": "# What's New\r\n## Architecture & Controllers\r\n- Complete App & Core Rewrite based on [Ryubing](https://git.ryujinx.app/projects/Ryubing) \r\n- JIT Cache Improvements\r\n- Experimental HD Rumble support\r\n- Keyboard Mapping\r\n- iOS 26.6/27 Support\r\n- Improved Per-Game Settings\r\n- Update to SDL3 from SDL2\r\n- Remove Herobrine & Implemented Pluey\r\n\r\n## UI/UX\r\n- Themes\r\n- Fixed In-Game Keyboard Support\r\n- Brand New In-Game Config Button\r\n- Updated Mod, Update & DLC Manager\r\n- Brand New Settings Page\r\n- Brand New Setup View with Changelog\r\n- Brand New Customizable Performance Overlay\r\n- Updated No JIT View\r\n- Updated App Icon Switcher\r\n\r\n## Performance & Game Fixes\r\n- Updated MacroHLE/Jit/Interpreter Implementation\r\n- Experimental Asynchronous Shader Generation\r\n- Fixed Games which launch others on 26+ TXM\r\n- Update Descriptor Set Handling",
+          "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/2.4/MeloNX.ipa",
+          "size": 48573887,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "2.3.1",
+          "date": "2026-03-01T09:58:14Z",
+          "localizedDescription": "# What's New\n- Fix Freezing Issues\n- Fix Joystick being in the incorrect spot\n- Brand New Logging System\n- Fix Setup not finishing correctly",
+          "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/2.3.1/MeloNX.ipa",
+          "size": 94207474,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "2.3",
+          "date": "2026-02-28T10:52:40Z",
+          "localizedDescription": "# What's New\n\n## Performance & Stability\n\n- Fixed issues causing games to drop to low FPS\n- Fixed game freezing and general stability issues\n- Fixed crashes related to touch input\n- Added Main Thread Hang Watchdog\n- Added option to disable Main Thread Hang Watchdog\n- Optimized JIT compiler\n- Increased JIT cache region size\n- Fixed multiple JIT cache region issues on iOS 18\n- Updated JIT cache management (including improvements for newer iOS versions)\n- General JIT cache updates and optimizations\n- Lowered Max Push Descriptor Sets to 8\n- Clamped mipmap levels to improve rendering stability with lower resolutions\n\n## Controller & Input\n\n- Rewrote joystick system (UIKit-based)\n- Updated Virtual Controller\n- Added D-Pad joystick emulation (D-Pad now acts like a joystick)\n- Optimized controller handling to reduce heavy calls on every button press\n- Updated on-screen and physical controller handling (reduces delay and freezing)\n- Fully fixed motion support with supported physical controllers\n- Enabled rumble support for all controllers (including Virtual Controller)\n- Updated six-axis motion support\n- Fixed stick buttons always showing in portrait\n- Fixed `-` button not working on controllers\n- Fixed input in Settings allowing unintended horizontal scrolling\n\n## Audio\n\n- Completely reworked audio backend\n- Added built-in music for Setup and Main Menu\n- Added shuffle option for background music\n\n## File Management\n\n- Added alert when failing to import ROMs\n- Fixed importing game updates\n- Fixed File Importer not working with game updates\n- Fixed Mod Manager\n- Restored support for opening the MeloNX folder from setup\n\n## UI & UX\n\n- Migrated to the UIKit lifecycle\n- Moved Performance HUD below the screen in portrait mode\n- Fixed Performance HUD not appearing during AirPlay\n- Fixed Pause/Play option not updating correctly after exiting the app\n- Fixed issue preventing selection of app icons\n- Added new app icon",
+          "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/2.3/MeloNX.ipa",
+          "size": 94210994,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "2.2",
+          "date": "2025-12-27T07:13:59Z",
+          "localizedDescription": "# What's New\n\n## Important\n- Complete UI and Controller Handling Rewrite.\n--- \n\n## Updates\n- Updated iOS 26 JIT to be faster and map on-launch. \n- Menu Button enabled by default.\n- C# Trimming from Partial > Full. (Fixes Super Mario 3D All-Stars and other game launchers for A14 / M1 (Non-TXM) and below on iOS 26 and all devices on iOS 18)\n- All settings options now have information.\n- DLC and Update Manager can now import more then 1 at a time.\n- Waiting for JIT View.\n- JIT Indicator turns orange instead of green when `Increased Memory Limit` is not enabled.\n- Pausing now pauses the entire game and audio instead of only the renderer.\n- Rename \"Games\" tab to \"Library\".\n\n---\n\n## Fixes\n- AutoJIT (Automatic JIT Enabling) on iOS 26 or when using Certificates.\n- Detection for iOS 26 TXM (A15 / M2+) JIT. (Fix JIT showing that its enabled when its not)\n- File Picker with Certificates when picking folders. \n- Cheats (Thank you to @bxymartin for bringing this to my attention). \n- Crashing issues with notifications, changing volume, leaving app, etc.\n- Skip Setup.\n- Borders when using AirPlay.\n- Fix Touch not working when using Virtual Controller.\n- Splatoon 2/3.\n- Fix Super Mario Wonder (and other games that use profile images).\n- Random Crashes in Super Mario 3D World.\n- Fix crash when launching Metroid Prime 4.\n- URL Schemes enabling JIT.\n\n---\n\n## Additions\n- Controller Configuration in-game.\n- Multiple Library View Options (List, Grid, Compact Grid, etc).\n- Brand New App Icons.\n- Controller Support in List Library View.\n- Mod Manager.\n- Alternate Frontend Support with URL Schemes (SUMEE and Manic support).\n- Touch Rework with Multi-Touch Support.\n- Liquid Glass UI and App Icons.\n\n- Background Music.\n- New Crash Alert (ft. Sad Mac).\n- UI Shader Cache Loading Bar.\n- Remove \"New\" UI.\n- Link to Install Guide when `Increased Memory Limit` Entitlement is not enabled.\n- Global Virtual Controller Layout Editor.",
+          "downloadURL": "https://git.ryujinx.app/projects/MeloNX/releases/download/2.2/MeloNX.ipa",
+          "size": 64919190,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "MeloNX needs local network access for LAN / Local Multiplaer"
+        }
+      }
+    },
+    {
+      "name": "Applesauce",
+      "bundleIdentifier": "io.github.johnny901901901.applesauce",
+      "developerName": "johnny901901901",
+      "subtitle": "A playful emulator for iOS. Plays supported 32-bit iPhone games on iOS 15+ — no jailbreak needed, though JIT is. An unaffiliated fork of touchHLE and HyperHLE; neither project endorses it.",
+      "localizedDescription": "A playful emulator for iOS. It plays supported 32-bit iPhone games on modern iPhones — no jailbreak required, though JIT is. It installs and runs on iPadOS too, but every game runs as an iPhone guest for now: the core's iPad device families are not yet reachable from the app. Applesauce is an unaffiliated fork. The emulation is entirely the work of touchHLE and its fork HyperHLE; this project is the iOS app built around them — the interface, the build system and the packaging. Neither project is connected to Applesauce or endorses it, so please report problems here rather than to them. No games or Apple software are included. One app, two emulator cores.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/io.github.johnny901901901.applesauce.png",
+      "tintColor": "#f01010",
+      "category": "Games",
+      "versions": [
+        {
+          "version": "0.4.0",
+          "date": "2026-08-05T21:47:07Z",
+          "localizedDescription": "# Applesauce 0.4.0\n\n**This release renames the app.** What was *touchHLE for iOS* is now\n**Applesauce — a playful emulator for iOS**. The name, icon and identifier are\nnew; the emulation is the same as 0.3.0, plus the fixes below.\n\nApplesauce is an unaffiliated fork. The emulation is entirely the work of\n[touchHLE](https://github.com/touchHLE/touchHLE) and its fork\n[HyperHLE](https://github.com/HyperHLE/HyperHLE), and neither project is\nconnected to this one or endorses it. Please report problems here rather than to\nthem.\n\n## Read this first: your games do not move automatically\n\nThe bundle identifier changed, so Applesauce installs **alongside** the old app\nwith an empty library rather than replacing it.\n\n1. Open Files and go to **On My iPhone**.\n2. Find the old app's folder — *HyperHLE* if you had 0.2.0 or 0.3.0, *touchHLE*\n   if you had 0.1.0.\n3. Move `touchHLE_apps` from it into the **Applesauce** folder. Move\n   `touchHLE_sandbox` too if you want your saves.\n4. Delete the old app.\n\nApp-wide settings do not come across; set them again under Settings.\n\n## New: iOS 15 and 16 support, via TrollStore\n\nThe deployment target drops from 17.4 to 15.0, and there are now three IPAs:\n\n| Your iOS | Download | How JIT gets enabled |\n| --- | --- | --- |\n| 17.4 or newer | `Applesauce-iOS-unsigned.ipa` | Sideload, then StikDebug's bolt button |\n| 15.0–17.0, TrollStore | `Applesauce-iOS-trollstore.ipa` | TrollStore's **Enable JIT**, each session |\n| 15.0–17.0, TrollStore, **A11 or older** | `Applesauce-iOS-trollstore-permanent-jit.ipa` | Already on, and stays on |\n\nThe TrollStore builds carry the memory entitlements that let older hardware map\nthe emulator's 4GiB guest address space. A free Apple account cannot sign those,\nwhich is why this is a TrollStore route rather than a sideloading one.\n\n**The permanent-JIT build crashes on launch on A12 and newer** (iPhone XS/XR\nonwards) — iOS 15 bans the entitlement it carries. Use the ordinary TrollStore\nbuild there.\n\n**iOS 15 and 16 are untested by this project.** The support is back-ported from\n[nerivalaitis](https://github.com/nerivalaitis)' work, tested by them on iOS 15.\nReports from those versions are the most useful thing you can send.\n\n## Fixes\n\n- **A game no longer dies when a rotation is refused.** A guest asking to rotate\n  while the host UI still has the old orientation pinned used to panic and take\n  the whole game down mid-play; it now logs a warning and carries on.\n- **Black screen after rotating, on games without a fullscreen layer.** SDL\n  recreates its framebuffer object when the window leaves and re-enters\n  fullscreen, and compositing kept using the one cached at startup.\n- **A crash inside the emulator no longer wedges the app.** Panics were unwinding\n  across the FFI boundary, leaving a black screen and a dead exit button with\n  nothing in the log; they are now caught and reported.\n- **Guest memory allocation falls back** instead of failing outright when iOS\n  refuses the full read-write mapping, which is what blocked older devices.\n- **JIT detection understands permanent JIT.** A TrollStore install with\n  `dynamic-codesigning` was previously told it had no JIT, and had to use \"Start\n  Anyway\" every time.\n- **Portrait is selectable** under Settings → Starting Orientation, for games\n  that declare landscape but draw portrait anyway.\n- **The previous run's log is kept** as `touchhle-host-previous.log`, so\n  force-quitting a hung game no longer destroys the log that recorded the hang.\n\nBoth emulator cores carry these fixes.\n\n## Credits\n\n- [touchHLE](https://github.com/touchHLE/touchHLE) — the original emulator.\n- [HyperHLE](https://github.com/HyperHLE/HyperHLE) — the compatibility fork used\n  as the default core.\n- [nerivalaitis](https://github.com/nerivalaitis) — the iOS 15 back-port,\n  TrollStore packaging and the memory-allocation fallback.",
+          "downloadURL": "https://github.com/johnny901901901/Applesauce/releases/download/ios-v0.4.0/Applesauce-iOS-unsigned.ipa",
+          "size": 45937768,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "0.3.0",
+          "date": "2026-08-02T20:45:39Z",
+          "localizedDescription": "# touchHLE for iOS 0.3.0\n\nOne app, two emulator cores. HyperHLE and touchHLE now ship together, and you\nchoose which one runs each game. Neither is strictly better — HyperHLE runs more\ngames, including The Sims Medieval, while some titles only work on touchHLE 0.2.3.\n\n## What's New\n\n- **Both cores in one app** — HyperHLE v1.0.6 and touchHLE 0.2.3.\n- **A core per game** — touch and hold a game in your library to choose its core.\n  Settings sets the default for everything else.\n- **JIT is checked before a game starts.** With JIT off the app used to close the\n  instant a game launched, which looked like the game crashing. Now it says so.\n\n## Upgrading\n\nReplaces the HyperHLE 0.2.0 app in place. The separate touchHLE 0.1.0 app is no\nlonger needed and can be deleted once this is installed.\n\n## Install\n\nSideload `touchHLE-HyperHLE-iOS-unsigned.ipa` with AltStore Classic or similar,\nthen enable JIT with [StikDebug](https://github.com/StephenDev0/StikDebug) +\nLocalDevVPN. JIT must be enabled again every time the app starts as a new process.\n\nGames are not included — bring your own decrypted 32-bit IPA.\n\nTested on an iPhone 16 Pro running iOS 27 beta 4 (24A5390f). Not an official\nrelease of touchHLE or of HyperHLE, and neither project endorses it.",
+          "downloadURL": "https://github.com/johnny901901901/Applesauce/releases/download/ios-v0.3.0/touchHLE-HyperHLE-iOS-unsigned.ipa",
+          "size": 41388201,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "0.2.0",
+          "date": "2026-08-02T01:44:29Z",
+          "localizedDescription": "# touchHLE iOS Port 0.2.0 — HyperHLE core\n\nAn experimental, unofficial iOS port of touchHLE, now running the [HyperHLE](https://github.com/HyperHLE/HyperHLE) **v1.0.6** core instead of the touchHLE 0.2.3 core used by the previous iOS prerelease.\n\n**This installs alongside 0.1.0 rather than replacing it.** It appears as **HyperHLE** on the home screen; the 0.1.0 build stays as **touchHLE**. The two cores support different sets of games and neither is strictly better — HyperHLE runs The Sims Medieval and fixes landscape input, but some games that work under touchHLE 0.2.3 do not work under it (Call of Duty: Zombies has been reported as one). Keep both installed and use whichever runs your game. HyperHLE is a fork of touchHLE with broader game compatibility; it has no iOS support of its own, so the host app, build scripts and packaging in this port are specific to it.\n\nThis is not an official release of touchHLE or of HyperHLE.\n\n## Changes Since 0.1.0\n\n- Now runs the HyperHLE v1.0.6 emulator core.\n- **Landscape games accept touch input again.** The host handed the main thread to the emulator as soon as the scene reported it had rotated, but before UIKit had finished committing the rotation. The scene stayed mid-transition and UIKit stopped delivering touches to every window in it — games still rendered, and timers still ran, so nothing looked wrong.\n- **Landscape games are the right way up.** The iOS OpenGL ES 2.0 direct presenter was rotating frames that were already in display orientation.\n- **Resolution scaling no longer magnifies some games.** The scale hack enlarges renderbuffers but never textures, so games that render through an offscreen texture were drawn several times too large. Games affected by this previously showed only a magnified corner of the picture at any setting above 1x.\n\n## Tested\n\nTested on an iPhone 16 Pro running iOS 27 beta 4 (build 24A5390f) with:\n\n- Flappy Bird 1.1.0 — playable, including at 2x/3x/4x resolution scale.\n- Touch & Go 1.1 — playable at all resolution settings.\n- Tony Hawk's Pro Skater 2 1.2.1 — playable.\n- Wolfenstein RPG 1.1.1 — playable, landscape and touch correct.\n- Mirror's Edge 1.4.72 — playable.\n- The Sims Medieval 1.0.1 — reaches gameplay, landscape and touch correct. **Known issue:** no keyboard appears for naming your Sim or your kingdom (see below).\n\nThe deployment target is iOS 17.4, but testing so far has only been on one device and only on an iOS **beta** — no shipping iOS release has been verified. Reports from stable iOS 17.4+ are especially useful. The [touchHLE compatibility database](https://appdb.touchhle.org/) is the best starting point for choosing an exact app version; its ratings do not guarantee a title has been tested through this iOS port, and HyperHLE's compatibility differs from touchHLE's.\n\n## Known Issues\n\n- The Sims Medieval: the on-screen keyboard does not appear when naming your Sim or your kingdom, so those names cannot be entered. The game is still playable past those screens: the confirm control sits near the top-right corner of the screen rather than where it is drawn, and tapping there advances you. The text field the game uses is not where it appears on screen, which is being looked into.\n- Games rendering through an offscreen texture gain no extra detail from resolution scaling; the setting is applied only where it is safe to do so.\n- Some games run under the touchHLE core but not HyperHLE. Call of Duty: Zombies has been reported working in 0.1.0 and not in 0.2.0. If a game fails here, try the 0.1.0 build before reporting it — and please include the exact app version.\n\n## Requirements\n\n- A modern iPhone running iOS 17.4 or newer.\n- Installation through AltStore Classic, Xcode, or another compatible sideloading tool.\n- JIT enabled for each new touchHLE process through StikDebug and LocalDevVPN, or AltJIT.\n- A legally obtained, decrypted 32-bit IPA. Games are not included.\n\n## Install With AltStore Classic\n\n1. Install [AltStore Classic](https://altstore.io/) and complete its normal AltServer setup.\n2. Download `touchHLE-HyperHLE-iOS-unsigned.ipa` from the **Assets** section below.\n3. In AltStore, open **My Apps**, tap **+**, and select the downloaded IPA.\n4. Let AltStore sign and install it using your own Apple account.\n5. Enable JIT before starting a game.\n\nFree Apple accounts normally require the app to be refreshed every seven days. A paid Apple Developer account provides longer-lived development signing, but it does not remove the JIT requirement.\n\n## Install With Xcode\n\nYou can instead build and install the port from source with a free Personal Team or paid Apple Developer account. Choose your own signing team and bundle identifier; never publish your signed app, provisioning profile, certificate, team ID, or `xcuserdata`.\n\nFollow the [complete Xcode build and installation instructions](https://github.com/johnny901901901/touchHLE-for-iOS/blob/ios-host/platform/ios/README.md#option-b-build-and-install-with-xcode).\n\n## Enable JIT\n\nInstalling the app is not enough by itself. The Dynarmic CPU backend requires JIT, which must be enabled again whenever touchHLE starts as a new app process.\n\n- Use the in-app bolt shortcut with [StikDebug](https://github.com/StephenDev0/StikDebug), LocalDevVPN, and your private device pairing file; or\n- Use [AltJIT](https://faq.altstore.io/altstore-classic/altjit) through AltStore Classic.\n\nNever share your pairing file. See the [complete JIT setup and troubleshooting guide](https://github.com/johnny901901901/touchHLE-for-iOS/blob/ios-host/platform/ios/README.md#enable-jit).\n\n## Import A Game\n\n1. Open touchHLE and tap **Import Game**.\n2. Select a legally obtained decrypted 32-bit `.ipa` from Files.\n3. Check the [touchHLE compatibility database](https://appdb.touchhle.org/) for the exact app version.\n4. Enable JIT, then tap the imported game card.\n\nGames are not included.\n\n## Download Safety\n\nThe release IPA is unsigned and credential-free. Each user signs it locally with their own Apple account.\n\n- File: `touchHLE-HyperHLE-iOS-unsigned.ipa`\n- Size: `36192832` bytes\n- SHA-256: `f68ac992f1f9627a0d98621316b9db4e3ee5d30e46a52fa0039daa38fd8685a2`\n\nDo not install a copy that has been reuploaded with a different hash unless you trust and can verify the person who rebuilt it.\n\n## Important\n\nThis build uses its own bundle identifier (`org.touchhle.ios.hyperhle`) and appears as **HyperHLE**, so it installs alongside the 0.1.0 **touchHLE** build instead of replacing it. Games and saves are not shared between the two — each keeps its own library.\n\nIf you already installed an earlier 0.2.0 that replaced your touchHLE app, reinstall 0.1.0 from its release to get the touchHLE build back.\n\n## Credits\n\n- [touchHLE](https://github.com/touchHLE/touchHLE) — the original emulator.\n- [HyperHLE](https://github.com/HyperHLE/HyperHLE) — the compatibility fork used as this build's core.\n\nThe source remains subject to MPL-2.0 and the existing third-party licence requirements. Neither upstream project endorses this build.",
+          "downloadURL": "https://github.com/johnny901901901/Applesauce/releases/download/ios-hyperhle-v0.2.0/touchHLE-HyperHLE-iOS-unsigned.ipa",
+          "size": 36192832,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Violetta",
+      "bundleIdentifier": "com.project-violet.violetta",
+      "developerName": "Cat-Ling",
+      "subtitle": "Violetta is an iOS client for the next-gen Violet manga server. https://github.com/project-violet/violet/",
+      "localizedDescription": "An iOS client for the next-gen Violet manga server.\n\nVioletta is a modern, native iOS client designed to connect seamlessly to your self-hosted Violet server. It provides a fast and clean reading experience for your personal manga collection.\n\n- iOS 18.0+\n- A running instance of the Violet server\n\nThis project is licensed under the MIT License.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.project-violet.violetta.png",
+      "tintColor": "#200030",
+      "category": "Entertainment",
+      "versions": [
+        {
+          "version": "1.1.4",
+          "date": "2026-07-27T04:53:18Z",
+          "localizedDescription": "**Full Changelog**: https://github.com/Cat-Ling/violet-ios/compare/v1.1.1...v1.1.4\r\n\r\nv1.1.2: Improved thumbnail fallbacks even more\r\nv1.1.3: Normalize HTML entities in titles and format .NET ticks into readable dates\r\nv1.1.4: Fix missing zero in .NET ticks offset causing the wrong year to be shown",
+          "downloadURL": "https://github.com/Cat-Ling/violet-ios/releases/download/v1.1.4/Violetta.ipa",
+          "size": 19268196,
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "1.1.1",
+          "date": "2026-07-27T04:29:28Z",
+          "localizedDescription": "**Full Changelog**: https://github.com/Cat-Ling/violet-ios/compare/v1.1.0...v1.1.1\r\n\r\nRewrite exhentai.org poster URLs to ehgt.org to bypass auth/IP blocks",
+          "downloadURL": "https://github.com/Cat-Ling/violet-ios/releases/download/v1.1.1/Violetta.ipa",
+          "size": 19252428,
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-07-27T03:49:26Z",
+          "localizedDescription": "**Full Changelog**: https://github.com/Cat-Ling/violet-ios/compare/v1.0.1...v1.1.0\r\n\r\nFix analytics UI, history deletion, add download retry & on-device gallery resolver.",
+          "downloadURL": "https://github.com/Cat-Ling/violet-ios/releases/download/v1.1.0/Violetta.ipa",
+          "size": 19252428,
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-07-18T05:44:20Z",
+          "localizedDescription": "**Full Changelog**: https://github.com/Cat-Ling/violet-ios/compare/v1.0.0...v1.0.1\r\n\r\n## Violetta v1.0.1\r\n- Implemented hybrid thumbnail logic\r\n- Elegant handling of thumbnail loading-state/failure\r\n- Fixed pagination logic in Search and Home grids.\r\n- Restored proper native edge-swipe-to-go-back gesture for reader\r\n- minor improvements",
+          "downloadURL": "https://github.com/Cat-Ling/violet-ios/releases/download/v1.0.1/Violetta.ipa",
+          "size": 15386972,
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-07-18T04:33:52Z",
+          "localizedDescription": "**Full Changelog**: https://github.com/Cat-Ling/violet-ios/commits/v1.0.0\r\n\r\nFirst public release of violetta.",
+          "downloadURL": "https://github.com/Cat-Ling/violet-ios/releases/download/v1.0.0/Violetta.ipa",
+          "size": 15161684,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Seanime",
+      "bundleIdentifier": "app.seanime.tenji",
+      "developerName": "5rahim",
+      "subtitle": "Open-source Seanime client for iOS, Android, tvOS and Android TV.",
+      "localizedDescription": "Seanime Tenji Documentation | Latest release | Copyright Consider becoming a sponsor if you like the project! ⭐️ Seanime Tenji is a mobile and TV client app for your Seanime media server with a built-in player and offline support for streaming anime and reading manga. > [!IMPORTANT] > Seanime Tenji does not provide, host, or distribute any media content. Users are responsible for obtaining media through legal means and complying with their local laws.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/app.seanime.tenji.png",
+      "tintColor": "#101050",
+      "category": "Entertainment",
+      "versions": [
+        {
+          "version": "0.3.0",
+          "date": "2026-07-25T14:33:11Z",
+          "localizedDescription": "## Seanime Tenji\r\n\r\nThis is a release build. Features may still be incomplete or unstable.\r\n\r\n- 🎉 New Releases: AndroidTV and tvOS\r\n- ⚡️ Player: Buffered progress in seek bar\r\n- ⚡️ Player (Android): SubRip subtitles now get a usable fallback font\r\n- ⚡️ Player: Playback stats\r\n- ⬆️ Upgraded to React Native 0.85 / Expo SDK 56\r\n\r\n### Android\r\n\r\n- **Version code:** `23`\r\n- **SHA-256:** `d10939cb2ea23cec00753037448345800b1a1c74679f55dbbce7d1a43cc9fd30`\r\n\r\n### Android TV\r\n\r\n- **Version code:** `23`\r\n- **SHA-256:** `e3326e20795a979800ba54e8d0384f347fdc38fb506fbeec8a20914b0c998f21`\r\n\r\n### iOS\r\n\r\n- **Build number:** `23`\r\n- **SHA-256:** `647b70c0a90b96b67927337f7bf672262abc44ab4691978098612b3752600061`\r\n\r\n### tvOS\r\n\r\n- **Build number:** `23`\r\n- **SHA-256:** `bc9ce4e5a9936030bbbd73e698c6b85c6f1f86ca28528fd7ed6659e2f0b49e92`\r\n\r\n### Build\r\n\r\n- **Commit:** `c8f8db6`",
+          "downloadURL": "https://github.com/5rahim/seanime-tenji/releases/download/v0.3.0-23.23-20260725-c8f8db6/seanime-tenji-v0.3.0-23-20260725-c8f8db6.ipa",
+          "size": 35117815,
+          "minOSVersion": "16.4"
+        },
+        {
+          "version": "0.2.0",
+          "date": "2026-07-17T10:57:31Z",
+          "localizedDescription": "## Seanime Tenji\r\n\r\nThis is a release build. Keep in mind that features may be incomplete or unstable.\r\n\r\n- ⚡️ UI: Handling of larger screen sizes\r\n- ⚡️ Player(Android): Use gpu-next for hardware decoding by default\r\n- ⚡️ Player(Android): Support for mpvEX\r\n- ⚡️ Playback: Support watching downloaded episodes in external player\r\n- ⚡️ Player(iOS): Pause playback when phone locks\r\n- ⚡️ Torrent streaming: Preload next episode when enabled\r\n- ⚡️ Debrid streaming: Show cached torrent indicator\r\n- ⚡️ Discover: Aired Recently section\r\n- ⚡️ Schedule: Missing and upcoming episodes\r\n- ⚡️ Search: Tag and minimum score filters\r\n- ⚡️ My List: Tag filters\r\n- 🦺 Download: Handling of episodes with multiple files\r\n- 🦺 Playback: Fixed continuity updates using stale progress\r\n- 🦺 Settings: Refresh app data when server settings change\r\n- 🦺 Discover: Fixed sections loading the wrong data\r\n- 🦺 UI: Restrict anime entry bottom bar width on larger screens\r\n- 🦺 Core: Added cancellation and timeout handling\r\n- 🦺 Core: Refactored websocket handling\r\n\r\n### Android Installation\r\n1. Download the `.apk` artifact below to your Android device.\r\n2. Open the file to install it (you may need to grant your browser or file manager permission to \"Install unknown apps\").\r\n3. Launch **Seanime** and enter your server URL to connect.\r\n\r\n- **Version Code:** `22`\r\n- **SHA-256 Checksum:** `10a2a31acd566dadedc4cf3353d09ec51d87856df95c7f8819315ea1712cc6d8`\r\n\r\n### iOS Installation\r\nThis build is distributed as an unsigned `.ipa` package for sideloading.\r\n1. Download the `.ipa` artifact below.\r\n2. Sideload the app using your preferred signing tool.\r\n3. Launch **Seanime** and enter your server URL to connect.\r\n\r\n- **Build Number:** `22`\r\n- **SHA-256 Checksum:** `759520b66b46bf2af0ff5bb5fcca51f05ce6ad649ff32e40b08f11bf0d1a1fe2`\r\n\r\n### Build Details\r\n- **Commit:** `dfb4f7b`",
+          "downloadURL": "https://github.com/5rahim/seanime-tenji/releases/download/v0.2.0-22.22-20260717-dfb4f7b/seanime-tenji-v0.2.0-22-20260717-01febc7.ipa",
+          "size": 31464329,
+          "minOSVersion": "16.4"
+        },
+        {
+          "version": "0.1.21",
+          "date": "2026-06-15T17:18:15Z",
+          "localizedDescription": "## Seanime Tenji\r\n\r\nThis is a release build. Keep in mind that features may be incomplete or unstable.\r\n\r\n- ⚡️ Refactored support for mobile server downloads\r\n- ⚡️ Android: Trust local certs\r\n- 🦺 iOS: Potential fix for orientation restoration issues\r\n\r\n### Android Installation\r\n1. Download the `.apk` artifact below to your Android device.\r\n2. Open the file to install it (you may need to grant your browser or file manager permission to \"Install unknown apps\").\r\n3. Launch **Seanime** and enter your server URL to connect.\r\n\r\n- **Version Code:** `21`\r\n- **SHA-256 Checksum:** `4e620d3adf8cc9dceef9d143e043d3673ce6e970d8d83d33417a95441ee7339f`\r\n\r\n### iOS Installation\r\nThis build is distributed as an unsigned `.ipa` package for sideloading.\r\n1. Download the `.ipa` artifact below.\r\n2. Sideload the app using your preferred signing tool.\r\n3. Launch **Seanime** and enter your server URL to connect.\r\n\r\n- **Build Number:** `21`\r\n- **SHA-256 Checksum:** `b3ce3abb642a1263b77f370d6761631ba47d60ebb8be6e56d31673ee08e195e5`\r\n\r\n### Build Details\r\n- **Commit:** `84ccb15`",
+          "downloadURL": "https://github.com/5rahim/seanime-tenji/releases/download/v0.1.21-21.21-20260615-84ccb15/seanime-tenji-v0.1.21-21-20260615-84ccb15.ipa",
+          "size": 31412584,
+          "minOSVersion": "16.4"
+        },
+        {
+          "version": "0.1.20",
+          "date": "2026-06-04T09:03:35Z",
+          "localizedDescription": "## Seanime Tenji\r\n\r\nThis is a release build. Keep in mind that features may be incomplete or unstable.\r\n\r\n- 🎉 Alpha release\r\n\r\n### Android Installation\r\n1. Download the `.apk` artifact below to your Android device.\r\n2. Open the file to install it (you may need to grant your browser or file manager permission to \"Install unknown apps\").\r\n3. Launch **Seanime** and enter your server URL to connect.\r\n\r\n- **Version Code:** `20`\r\n- **SHA-256 Checksum:** `758588ccf4c5f0a2f575987463dfacb264825f2d86c55305d11f9e5b1d2dd6ef`\r\n\r\n### iOS Installation\r\nThis build is distributed as an unsigned `.ipa` package for sideloading.\r\n1. Download the `.ipa` artifact below.\r\n2. Sideload the app using your preferred signing tool.\r\n3. Launch **Seanime** and enter your server URL to connect.\r\n\r\n- **Build Number:** `20`\r\n- **SHA-256 Checksum:** `c181c4d5011f724c21b17a03b3f3db62e9975297a13bcab85a89094aef27bc96`\r\n\r\n### Build Details\r\n- **Commit:** `701d1cb`",
+          "downloadURL": "https://github.com/5rahim/seanime-tenji/releases/download/v0.1.20-20.20-20260604-701d1cb/seanime-tenji-v0.1.20-20-20260604-701d1cb.ipa",
+          "size": 31369034,
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Seanime needs local network access to connect to your server on your home network.",
+          "NSMotionUsageDescription": "Allow Seanime to access your device motion"
+        }
+      }
+    },
+    {
+      "name": "VortX",
+      "bundleIdentifier": "com.stremiox.app.native",
+      "developerName": "VortXTV",
+      "subtitle": "VortX, the native streaming app. Fully native Apple TV, iPhone, iPad, and Mac apps with a real player engine, no web wrapper. Android, Windows, and Linux next.",
+      "localizedDescription": "Everything. VortXed. Video, Audio, Live TV. Native on every screen. > [!WARNING] > The Android APK is an early technical preview, not the finished app. VortX is Apple first: the Apple TV, iPhone, iPad, and Mac apps are the complete experience today. Android is just getting started, sharing the same native engine, and the preview exists so Android users can watch the port take shape and help steer it. Expect missing features, rough edges, and fast-moving builds. If you want the full VortX experience right now, use the Apple apps; if you try the Android preview, please report what you hit, because every report shapes the port.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.stremiox.app.native.png",
+      "tintColor": "#f09000",
+      "category": "Entertainment",
+      "versions": [
+        {
+          "version": "0.3.14",
+          "date": "2026-07-27T19:10:51Z",
+          "localizedDescription": "# 0.3.14 Beta 9\r\n\r\n> **Note on the downloads.** The CI build for this release is being repaired, so the Apple TV,\r\n> iPhone/iPad and Mac builds attached here all carry a `-local` suffix: they were built on a\r\n> development machine from the same tagged commit, and they are the exact builds that were tested on\r\n> device. Their SHA-256 checksums are in `SHA256SUMS-local.txt`. Reproducible CI assets will be added\r\n> alongside them shortly, at which point the local ones and this note will go.\r\n\r\nThe biggest release since 0.3.14 opened. A Mac can now do the heavy work for an Apple TV, the built-in player finally reads the second picture layer of a 4K Blu-ray rip, Dolby Vision plays through to the end instead of falling to HDR10, Atmos reaches your receiver, and Blu-ray subtitles work for the first time.\r\n\r\n## Let a Mac be the engine\r\n\r\n**Turn on the engine on a Mac, pair an Apple TV to it with a six digit code, and the Mac does the container and file work while the Apple TV spends its whole chip decoding and showing the picture.** Video is copied across untouched, never re-encoded, so Dolby Vision stays true Dolby Vision and the picture is identical. Because the Mac has room to hold the whole film instead of a small moving window, you can seek anywhere, backwards as well as forwards, which the Apple TV cannot do alone. VortX finds the Mac on your network by itself, or you can type its address for setups like Tailscale, and nothing is shared until you pair. If the Mac sleeps, quits, or leaves the network mid-film, playback carries on where it was. The Mac can run the engine with no window open. Off by default, and nothing changes for anyone without a Mac.\r\n\r\nThe protocol underneath is plain HTTP and JSON with a bearer token and no Apple-specific types in it, so the Android and desktop clients can implement the same thing later.\r\n\r\n## Dolby Vision\r\n\r\n**Dolby Vision plays, and keeps playing.** Alongside the Dolby Vision picture the app publishes a plain HDR one as a safety net. That safety net had its Dolby Vision configuration stripped out but kept the Dolby Vision brand in its header, so it announced a format it was not carrying, and the player threw it out within milliseconds every time it loaded it. It was also advertised as the cheaper of the two, so the player actively preferred the broken one over the working one. Nine times out of nine that safety net was loaded, playback died before a single frame was requested. The header is corrected, the two are no longer offered side by side inside one stream, and once a real Dolby Vision picture is on screen the player is held to it.\r\n\r\n**Profile 7 files keep their second picture layer on the built-in player.** Most 4K Blu-ray Dolby Vision rips carry the picture as a base track plus an enhancement layer holding the detail in the brightest highlights and deepest shadows. On the built-in player that second track was thrown away unread and the picture was flattened to ordinary HDR with no Dolby Vision information at all. We now build our own player engine from pinned upstream sources, and it pairs the two tracks and combines them the way the format intends.\r\n\r\n**A title that needs a moment is no longer killed at ten seconds.** The startup check asked whether the file was ready once, before it could have been, then fell into a blind ten second countdown with no further checking. Two of every eight titles were ended that way, one a tenth of a second after its first piece of video was already prepared and waiting.\r\n\r\n**Dolby Vision no longer flickers before it settles, and starts at the beginning.** Repeated identical display-mode requests are ignored, so the HDMI link renegotiates once instead of several times. Titles also start where you asked instead of about fourteen seconds in.\r\n\r\n## Audio\r\n\r\n**Dolby Atmos reaches your receiver.** On a file whose audio is Dolby Digital Plus with Atmos, the Atmos data is carried through untouched. On a file whose only audio is TrueHD, Apple TV cannot pass that through at any quality, so it is converted and the badge honestly says surround rather than Atmos.\r\n\r\n**Dolby Digital Plus is actually produced now.** A Dolby Vision file with TrueHD or DTS-HD MA audio has to be converted before that lane can play it. The converter always asked for Dolby Digital Plus and settled for AAC when it could not have it, and that encoder had never been built into the app, so it settled every single time. It is in the build now.\r\n\r\n**Every audio track in the file is offered.** The rule for alternate audio demanded a different language from the main track, so a file with seven English tracks qualified none of them and the audio menu had nothing to pick.\r\n\r\n## Subtitles\r\n\r\n**Blu-ray subtitles work for the first time.** Blu-ray discs store subtitles as pictures rather than text, and nothing in the subtitle path could read a picture, so a Blu-ray remux offered no subtitles of its own at all. Those pictures are now read on the device and turned into ordinary subtitles, appearing in the normal list with the normal styling. This is a first pass and it shows: recognition is bounded so it can never slow playback, which brings real limits worth reading in Known issues below. It is not flawless on stylised or non-Latin type, and a file carrying its own text subtitles still uses those first.\r\n\r\n**Every subtitle track in the file is offered.** A file carrying thirty-nine subtitle languages used to show one.\r\n\r\n## We build our own player engine now\r\n\r\nThis is the piece of the release we are proudest of, and it is what made everything above possible.\r\n\r\nVortX used to take the player engine as a prebuilt package, which meant taking whatever version that package happened to ship and waiting for someone else when it lagged. It no longer does. We build the whole stack ourselves from pinned upstream sources: mpv, libplacebo and FFmpeg, nine slices across Apple TV, iPhone, iPad and Mac, with two patches of our own on top.\r\n\r\n**Our mpv is 895 commits ahead of the last upstream release.** Not a fork that drifted, a deliberate pin to master because the Dolby Vision enhancement-layer work we needed lives there and has not been released yet. Waiting for it would have meant waiting months.\r\n\r\n**libplacebo is built from source at API 371 rather than the 360 the prebuilt package carried.** That one matters more than it looks: mpv's enhancement-layer support is compiled out entirely below API 367, silently, with a perfectly green build. Bumping mpv alone would have produced a build that looked correct and did nothing. Both had to move together, and finding that out cost real time.\r\n\r\n**FFmpeg stays where it was, deliberately.** We audited every one of the 67 FFmpeg functions VortX calls against the newer line and found none of them removed or changed, so the move is safe on our side. What we have not done yet is rebase the player package's own FFmpeg patches onto it, and until that is measured we are not moving. The bounded cost of standing still is one file type: a Profile 7 Dolby Vision file that packs both picture layers into a single interleaved track needs a splitter the current version does not carry, so those files play from the base layer alone. Files that carry the two layers as separate tracks, which is most of them, work.\r\n\r\n**Two patches are ours.** One carries the Dolby Vision enhancement-layer work through the packaging our Apple builds need. The other makes the render surface notice when it has been resized, which is why rotating a phone no longer tears down and rebuilds the entire video pipeline.\r\n\r\nWe also turned on the Dolby Digital Plus encoder, which had never been compiled in, so the converter that always asked for it stopped silently settling for AAC.\r\n\r\nThe cost of owning this is real and worth being honest about: nine slices to rebuild, upstream to track, and the two patches to carry forward every time either moves.\r\n\r\n## Moving the app into the backend\r\n\r\nA sideloaded app is a pain to update. Unsigned IPAs expire, re-signing is a chore, and every fix we make is worthless until you go through that again. So we are steadily moving VortX's behaviour out of the app and onto our own servers.\r\n\r\nThe goal is blunt: **as close to 99 percent of what VortX does should be changeable without you installing anything.** When something breaks, we fix it once on our side and every device picks it up, usually within a few minutes of opening the app.\r\n\r\nA lot of it already works this way. Ratings, posters and artwork, the skip-intro database, source pooling, the add-on and catalog behaviour, and a growing set of feature switches all come from our own services rather than being baked into the build. This release wired up several more of those switches and made the app pick up changes when you bring it back to the front rather than only after a full quit. It also made a bad setting unable to keep the app shut: after three failed launches it discards what we sent and starts on the settings built into the app.\r\n\r\nWhat cannot move is the part that has to run on your device: the player, the decoder, Dolby Vision, and the engine. Those still need a build. Everything else is heading server-side, and each release moves more of it.\r\n\r\n## Everywhere else\r\n\r\n**Apple TV tells the system what you are watching, and the same card is fixed on iPhone, iPad and Mac.** Playback registered nothing with tvOS, so the Now Playing card sat empty and no system transport reached VortX. The card now carries the title, show and episode, poster and position, and play, pause, skip and scrubbing all work. On iPhone, iPad and Mac the card gains the poster, the series details and a working position bar, and an explicit Play sent from Control Center no longer pauses a playing title, which it used to because play, pause and toggle all ran the same toggle. The position it reports at the first frame is the real one rather than zero.\r\n\r\n**Turning subtitles off no longer loses your subtitle for the rest of the session.** Switching an add-on or external subtitle off used to discard it outright, so turning subtitles back on left you with nothing to turn back on. It is kept now, and external subtitles sit in the list as proper rows alongside the file's own.\r\n\r\n**The Mirror Continue Watching from Stremio setting does what it says.** The toggle existed but was not wired to anything, so turning it on changed nothing. It now genuinely mirrors, and the settings text on every platform was rewritten to describe what actually happens rather than what was intended.\r\n\r\n**Rewinding goes back.** The player was only offered a few seconds of film behind wherever it had downloaded to, and it downloads a long way ahead of what you are watching, so the earliest point it would return to was often already ahead of you. It now holds two and a half minutes of playing time behind you.\r\n\r\n**Coming back from an episode returns you to that episode.** The page trusted whatever Continue Watching had got round to saving rather than what actually played.\r\n\r\n**Signing in with the QR code works.** The code pointed at a link that opens the home page, so scanning appeared to do nothing. It now opens the approve page, and that page no longer loses your request when you sign in.\r\n\r\n**Settings we send reach you, and a bad one cannot keep the app shut.** Several of the switches we use to turn a feature off without shipping a build were never read by the app. They are read now, they refresh when you bring the app back to the front, and a setting that stops the app opening is discarded after three attempts.\r\n\r\n**Ratings sit on the artwork like they belong there.** On landscape cards the badge is one piece of the app's own frosted glass, with the score leading and the other services following a hairline rule.\r\n\r\n**Rotating your phone no longer restarts the picture.** Our own build of the player engine notices the new shape and redraws instead of tearing the whole pipeline down. Resizing the Mac player window gets the same fix.\r\n\r\nIn-place update over Beta 8, nothing resets.\r\n\r\n## Please test\r\n\r\n- **Dolby Vision, the main ask.** Play a title deep into the film, not just the first minute. It should engage Dolby Vision and stay there.\r\n- **A Mac as the engine.** Turn it on in the Mac app, pair the Apple TV with the code, and play a Dolby Vision MKV. Seeking backwards should work, which it cannot without a Mac.\r\n- **Blu-ray subtitles.** On a Blu-ray remux the subtitle menu should now offer the disc's own subtitles.\r\n- **Audio and subtitle menus.** On a file with many tracks you should see all of them.\r\n- **Atmos.** On a Dolby Digital Plus Atmos file your receiver should show Atmos; on a TrueHD-only file it should honestly show surround.\r\n\r\n## Known issues\r\n\r\n- **Play from start, from inside the player, does not work.** The button on the detail page is fine; the one in the player controls is not.\r\n- **Recognised Blu-ray subtitles render larger than they should.** They read correctly; a sizing pass is next.\r\n- **Recognised Blu-ray subtitles stop partway through a film.** Reading the pictures costs real time, so it is given a fixed budget to guarantee it can never stall playback. A feature-length disc carries well over a thousand lines per language and exhausts that budget long before the credits, and once it is spent no further lines are produced for the rest of the session. Lines already recognised keep showing; new ones stop appearing. This is the limitation we most want to remove.\r\n- **On the Dolby Vision lane, only the first four Blu-ray subtitle languages actually produce text, but every language is still listed.** Picking any of the others gives you an entry that stays permanently blank rather than an honest \"not available\". The cap exists so recognition can never slow playback; listing the ones it will never fill is our bug, not a design decision, and the menu should show only what it can deliver. The built-in player reads the disc's pictures directly and is not affected.\r\n- **Recognised Blu-ray subtitles cannot be time-shifted.** The subtitle delay control does not apply to them, because they travel a different path from the subtitles it was built for. A file's own text subtitles and add-on subtitles still adjust normally.\r\n\r\n## Android\r\n\r\n**A fully functional Android app matching the Apple app feature for feature is landing this August.**\r\n\r\nAndroid is a separate, from-scratch app on the same Rust engine, not a port. Today it is roughly a third of the way there: about 42,000 lines against the Apple app's 153,000, with 5 of 15 build sessions finished.\r\n\r\n**Done:** the foundation, and it is real. The engine runs natively with the same catalogs, library, search, discover and account sync the Apple app uses. Add-ons install and manage. Titles, series, seasons, episodes, watched state and Continue Watching all work. The design system is in place across phones, tablets and foldables, and appearance, tab-bar, debrid-key and remote-config layers landed this cycle.\r\n\r\n**Next, and it is the one that matters:** the player. Source ranking, then ExoPlayer, then mpv as the primary engine, then torrents. Until that lands Android browses everything and plays very little, which is why it is not promoted alongside the Apple builds yet.\r\n\r\n**Then:** settings and profiles, Live TV, backup and import, and Android TV shipping as the same APK rather than a separate one.\r\n\r\nThe published Android build remains Beta 6 and is unchanged by this release. The August target is the whole thing at parity, not a staged trickle.\r\n\r\n## Install\r\n\r\n**Mac (.dmg, easiest, never expires).** Download `VortX-macOS-v0.3.14-beta.9-local.dmg`, drag VortX into Applications, then clear Apple's one-time quarantine: open it once, click Done, then **System Settings > Privacy & Security > Open Anyway** (or run `xattr -dr com.apple.quarantine /Applications/VortX.app`). Full guide: **[Install on Mac](https://github.com/VortXTV/VortX/wiki/Install-on-Mac)**.\r\n\r\n**iPhone, iPad, Apple TV (sideload the IPA).** The IPAs are unsigned, because VortX is open-source and distributed outside the App Store with no Apple Developer ID yet, so you re-sign them yourself with Sideloadly, AltStore / SideStore, or Signulous. No jailbreak. Full guide: **[Installing on iPhone, iPad, and Apple TV](https://github.com/VortXTV/VortX/wiki/Installing)**.\r\n\r\n**Android.** On Android TV or Fire TV, the **Downloader** app with **`dl.vortx.tv`** fetches the newest APK.\r\n\r\nEach Apple asset lists a SHA-256 checksum (`SHA256SUMS-local.txt` for the current `-local` builds) so you can confirm your download matches what was published. Once the reproducible CI assets land they carry `SHA256SUMS-ci.txt`, which lets you check them against what the public [GitHub Actions workflow](https://github.com/VortXTV/VortX/tree/main/.github/workflows) built from this code.",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.3.14-beta.14/VortX-iOS-v0.3.14-beta.14-ci.ipa",
+          "size": 62970820,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "VortX connects to the streaming server you point it at, such as one you run at home on your local network or reach over Tailscale."
+        }
+      }
+    },
+    {
+      "name": "Manic EMU",
+      "bundleIdentifier": "com.aoshuang.manicemu",
+      "developerName": "Manic-EMU",
+      "subtitle": "Manic EMU is an all-in-one retro game emulator for iOS. It packs powerful features while keeping a clean, sleek UI and delivering buttery-smooth gameplay.",
+      "localizedDescription": "All-in-one retro game emulation for iOS, with a clean interface and broad platform support. Manic EMU is an all-in-one retro game emulator for iOS. It brings console, arcade, computer, and mobile Java systems into one app while keeping a clean, sleek UI and smooth gameplay-focused controls. The sections below keep the app details up front, then connect availability, features, development notes, related documentation, repository layout, and licensing in one place. > Manic EMU does not include ROMs, ISOs, BIOS files, or copyrighted game data. > Use legally owned backups, homebrew, and public-domain software only. See > the upstream anti-piracy policy > for the full project position. - App distribution: App Store, StikStore, and SideStore.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.aoshuang.manicemu.png",
+      "tintColor": "#f02040",
+      "category": "Entertainment",
+      "versions": [
+        {
+          "version": "1.9.2",
+          "date": "2026-04-16T16:29:26Z",
+          "localizedDescription": "Urgent fix for J2ME (J2meJS) save file loading error\r\nFixed the issue where Artic Base couldn't select the Australia region\r\n3DS (Azahar) adds HLE and LLE emulation accuracy options.\r\nFixed NDS crash when using Flex Skin",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.9.2/ManicEMU.v1.9.2.SideloadJIT.ipa",
+          "size": 227390683,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "1.9.1",
+          "date": "2026-04-15T14:02:19Z",
+          "localizedDescription": "Heads up: v1.9.1 will corrupt save files in J2ME (J2meJS core), and we’re really sorry about that. As a temporary workaround, we suggest backing up the save file \"XXX.j2mejs.srm\" in the \"Manic EMU - Datas\" folder. We'll look into whether we can recover the save data.\r\n\r\n### JIT (iOS 26 & Earlier)\r\n\r\n- Implemented broad JIT support compatible with iOS 26 and earlier versions\r\n- Integrated support for StikDebug’s universal.js launcher (Special thanks to @Stossy11)\r\n- Added JIT support for:\r\n    - 3DS (Citra)\r\n    - Dreamcast (Flycast)\r\n    - Nintendo DS (melonDS)\r\n    - Nintendo 64 (GLideN64 RDP / mupen64plus.next  Special thanks to  @Fareblyat)\r\n    - DOS (dosbox-pure)\r\n    - PlayStation 1 (beetle-psx)\r\n    - Added setting to enable/re-enable JIT directly from the app\r\n    - Improved JIT handling flow for iOS 26 (automatic redirect to reinitialize when required)\r\n\r\n### Core & Emulator Updates\r\n\r\n- Updated 3DS (Azahar) to latest upstream\r\n- Updated PSP (PPSSPP) to latest upstream\r\n- Added SNES core (snes9x; sideloaded availability)\r\n- Added PS1 core (PCSX-ReARMed)\r\n\r\n### 3DS Improvements\r\n\r\n- Fixed Vulkan-related crashes (Azahar)\r\n- Fixed Home Menu compilation and freezing issues\r\n- Added Artic Base Home Menu support\r\n- Added support for transferring data from real hardware via Artic Base\r\n- Added Pretendo network configuration support\r\n- Improved Home Menu integration (direct install logic)\r\n- Added fast-forward support (Citra)\r\n- Added full-screen AirPlay mirroring (Citra)\r\n\r\n### PSP\r\n\r\n- Added support for installing homebrew via ZIP import\r\n\r\n### DOS\r\n\r\n- Added thumbstick to default DOS skin\r\n- Fixed legacy JIT crash issues\r\n\r\n### J2ME\r\n\r\n- Performance optimizations (J2meJS)\r\n\r\n### Controls & Input\r\n\r\n- Fixed numeric keypad mapping issues\r\n- Added support for direct native keyboard event mapping\r\n- Improved controller mapping compatibility\r\n- TriggerPro now supports native keyboard event mapping\r\n\r\n### UI & Customization\r\n\r\n- Added new app icons\r\n- Added default emulator core selection setting\r\n- Added “Hide Platform” feature\r\n- Added manufacturer-based sorting\r\n- Fixed general UI issues\r\n- Improved theme customization options\r\n\r\n### Library / Platform Organization\r\n\r\n- Game Boy can now be categorized as Chromatic (CHM)\r\n- DOS can now be categorized under Windows 95 / Windows 98\r\n\r\n### General Fixes & Stability\r\n\r\n- Fixed multiple UI and transition issues\r\n- Improved overall system stability across cores and features",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.9.1/ManicEMU.v1.9.1.SideloadJIT.ipa",
+          "size": 227362235,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "1.9.0",
+          "date": "2026-03-25T00:16:49Z",
+          "localizedDescription": "• Added JAVA (J2ME) support\r\n> Includes two cores: J2meJS (based on Mozilla’s PluotSorbet) and freej2me (based on CheerpJ)\r\n> J2meJS supports fast-forward\r\n> J2meJS runs natively, offering improved performance and compatibility\r\n> J2meJS provides limited network access\r\n> J2meJS includes partial M3G support\r\n> freej2me relies on CheerpJ (requires an internet connection)\r\n> Automatically detects JAR resolution, with manual override available in J2ME settings\r\n> Support touchscreen version JAR apps\r\n> Screen scaling options available (stretch or fit)\r\n        \r\n• Added MS-DOS support (powered by DOSBox-Pure)\r\n> Built-in gamepad and keyboard skins\r\n> Game screen can be used as a touchpad for mouse input\r\n> Added “Insert Disc” option for multi-disc workflows\r\n> Full DOSBox-Pure configuration available in both settings and in-game\r\n\r\n• Added DOOM support (powered by prboom)\r\n• Added XeniOS Link, allowing you to launch and manage your XeniOS library directly within Manic EMU\r\n• Added skin button sound effects support (by including CAF audio files in custom skins; can be toggled in Settings - Skin Sound Effects)\r\n• Fixed multiple issues caused by incorrect file paths on macOS\r\n• Fixed an issue where multi-file ROMs were not uploaded during iCloud sync\r\n• Fixed an issue where multi-line cheat codes did not work\r\n• Fixed incorrect C button mapping for MCD and 32X\r\n• Fixed an issue where UI could not be controlled via external controllers on iOS 26.3.1\r\n• Various other fixes and improvements\r\n\r\nJ2ME support in Manic EMU is made possible thanks to the outstanding work of @zixing131 (紫星) and @Rosabis. Their development of J2meJS laid the foundation for this feature. With their improvements, Manic achieves better MIDP compatibility and even supports M3G, which is essential for bringing J2ME into the Manic ecosystem.\r\n\r\nSpecial thanks to @StephenDev0 (developer of StikDebug) for contributions to DOOM core integration.\r\n\r\nSpecial thanks to @cocorograph-kaz for multiple fixes and contributions.",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.9.0/ManicEMU.v1.9.0.SideloadJIT.ipa",
+          "size": 219481479,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "1.8.3",
+          "date": "2026-02-14T15:06:28Z",
+          "localizedDescription": "• Added PSP online functionality (configure in Settings → Online Game Settings → PSP Networking).\r\n• In full-screen mode, all buttons will be hidden. Tap the screen to display the menu button.\r\n• Fixed crashes on macOS.\r\n• Fixed crashes in some games when camera or microphone permissions were not granted.\r\n• Added Safe Mode for launching games. Long-press the Start button on the game setup page to activate.\r\n• Fixed an issue where MCD (JGenesis core) failed to load large .chd files.\r\n• Fixed excessive error messages in DSi Home Menu.\r\n• Added a ClownMDEmu core switching option for MCD (experimental).\r\n• Fixed touchscreen offset issues in NDS (DeSmuME).\r\n• Removed system registration for potentially confusing ROM file formats (.md, .zip, etc.) to avoid disrupting users’ normal workflows.\r\n• Implemented save compatibility between NDS (melonDS and DeSmuME). When switching cores or importing saves, .srm and .dsv formats will be automatically converted.\r\n\t• Upon first launch of v1.8.3, existing .dsv files will be automatically renamed to .srm unless a file with the same name already exists.\r\n\t• From v1.8.3 onward, the DeSmuME core reads only .srm save files. Users may manually manage DeSmuME old .dsv saves in Documents → 3DS → sdmc → saves → nds.\r\n• Other bug fixes.",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.8.3/ManicEMU.v1.8.3.SideloadJIT.ipa",
+          "size": 199035201,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "1.8.2",
+          "date": "2026-01-30T05:49:25Z",
+          "localizedDescription": "• Added support for Atari 2600, 5200, 7800, Jaguar, and Lynx platforms.\r\n• Re-added CD and 32X platform support in the App Store version using the JGenesis core. The SideStore version supports core switching.\r\n• Added the DeSmuME core for NDS games, with support for custom resolution settings.\r\n• Added real microphone support for NDS (DeSmuME).\r\n• Redrew the default NDS skin with a more modern design and improved control feel.\r\n• Optimized microphone drivers for Nintendo 3DS (Citra).\r\n• Added cheat code support to the Nintendo 3DS (Azahar) core.\r\n• Fixed and optimized shader issues for Nintendo 3DS (Azahar) and NDS.\r\n• Added microphone support to the Nintendo 3DS (Azahar) core.\r\n• Added Action Replay (cheat) support to the Nintendo 3DS (Azahar) core.\r\n• Nintendo 3DS now supports importing cheat codes in .txt format.\r\n• PSP now supports importing cheat codes in .db and .ini formats.\r\n• Added sorting functionality to the cheat code list.\r\n• Added a one-tap clear option to the cheat code list.\r\n• Added promo code redemption logic to the purchase page.\r\n• RomPatcher now supports local persistence without requiring network loading, and its UI has been redesigned to match the Manic style.\r\n• Improved the UI and interaction experience of the multi-disc assistant.\r\n• The FLEX skin now supports setting personalized backgrounds freely.\r\n• Added search functionality to the shader list.\r\n• Shaders can now be configured globally or per core (long-press the shader title to configure).\r\n• Added a “Merchandise” entry to the Settings page.\r\n• Improved the game manual feature, which now supports removing and re-uploading manuals, and remembers the last viewed page and zoom level.\r\n• Fixed a bunch of UI issues on iOS 15, including problems with context menus not popping up and layout glitches.\r\n• Other bug fixes.",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.8.2/ManicEMU.v1.8.2.SideloadJIT.ipa",
+          "size": 198849250,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "beta-reports-active",
+          "com.apple.developer.icloud-container-development-container-identifiers",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.sustained-execution",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Manic EMU requires the use of Bluetooth functionality to enable communication features for certain games.",
+          "NSCameraUsageDescription": "Camera access required to capture photos for custom game covers in Manic EMU",
+          "NSLocalNetworkUsageDescription": "Manic EMU needs access to your local network to find and connect with other devices for online gaming.",
+          "NSMicrophoneUsageDescription": "Microphone access required for full Nintendo DS game functionality in Manic EMU",
+          "NSPhotoLibraryAddUsageDescription": "Manic EMU requires photo library access to save game screenshots and create custom game covers",
+          "NSPhotoLibraryUsageDescription": "Manic EMU requires photo library access to save screenshots and select images for game covers"
+        }
+      }
+    },
+    {
+      "name": "VLC",
+      "bundleIdentifier": "org.videolan.vlc-ios",
+      "developerName": "videolan",
+      "subtitle": "Official release build",
+      "localizedDescription": "Official release package from https://download.videolan.org/pub/videolan/vlc-iOS/",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/org.videolan.vlc-ios.png",
+      "tintColor": "#f08000",
+      "category": "Entertainment",
+      "versions": [
+        {
+          "version": "3.6.4",
+          "date": "2024-08-23T17:18:00Z",
+          "localizedDescription": "Version 3.6.4 official build.",
+          "downloadURL": "https://download.videolan.org/pub/videolan/vlc-iOS/3.6.4/VLC-iOS.ipa",
+          "size": 91516398,
+          "minOSVersion": "9.0"
+        },
+        {
+          "version": "3.6.3",
+          "date": "2024-08-23T17:18:00Z",
+          "localizedDescription": "Version 3.6.3 official build.",
+          "downloadURL": "https://download.videolan.org/pub/videolan/vlc-iOS/3.6.3/VLC-iOS.ipa",
+          "size": 91517328,
+          "minOSVersion": "9.0"
+        },
+        {
+          "version": "3.6.2",
+          "date": "2024-08-23T17:18:00Z",
+          "localizedDescription": "Version 3.6.2 official build.",
+          "downloadURL": "https://download.videolan.org/pub/videolan/vlc-iOS/3.6.2/VLC-iOS.ipa",
+          "size": 91492697,
+          "minOSVersion": "9.0"
+        },
+        {
+          "version": "3.6.1",
+          "date": "2024-08-23T17:17:00Z",
+          "localizedDescription": "Version 3.6.1 official build.",
+          "downloadURL": "https://download.videolan.org/pub/videolan/vlc-iOS/3.6.1/VLC-iOS.ipa",
+          "size": 91490595,
+          "minOSVersion": "9.0"
+        },
+        {
+          "version": "3.6.0",
+          "date": "2024-08-23T17:16:00Z",
+          "localizedDescription": "Version 3.6.0 official build.",
+          "downloadURL": "https://download.videolan.org/pub/videolan/vlc-iOS/3.6.0/VLC-iOS.ipa",
+          "size": 91490422,
+          "minOSVersion": "9.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.icloud-container-development-container-identifiers",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.in-app-payments",
+          "com.apple.developer.media-device-discovery-extension",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.siri",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Enable access to Face ID to unlock VLC",
+          "NSLocalNetworkUsageDescription": "In order to discover media servers we will need access to your local network. This is also needed to find Chromecast devices.",
+          "NSPhotoLibraryAddUsageDescription": "In order to save the video we will need access to your camera roll",
+          "NSPhotoLibraryUsageDescription": "In order to save the video we will need access to your camera roll"
+        }
+      }
+    },
+    {
+      "name": "XeniOS",
+      "bundleIdentifier": "com.xenios.jp",
+      "developerName": "xenios-jp",
+      "subtitle": "The iOS and MacOS port of Xenia, the Xbox 360 Emulator Research project.",
+      "localizedDescription": "XeniOS - Xbox 360 Emulator XeniOS is an experimental Apple-focused fork of Xenia, currently based on Xenia Edge. It exists as a fast-moving place to develop, test, and ship iOS and macOS work while also carrying platform changes that benefit ARM64 Windows, Linux, and Android. Relevant improvements are intended to flow back upstream over time. Website ◦ Releases ◦ Docs ◦ FAQ ◦ Compatibility ◦ Discord ◦ Issues - iOS - macOS (Apple Silicon) - macOS (Intel) Current published releases focus on iOS and macOS. For Windows or Linux builds, use Xenia Edge or Xenia Canary.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.xenios.jp.png",
+      "tintColor": "#302000",
+      "category": "Entertainment",
+      "versions": [
+        {
+          "version": "2.0.1",
+          "date": "2026-06-07T19:24:29Z",
+          "localizedDescription": "# 2.0.1-9729\n\n- Channel: release\n- Stage: stable\n- Version: 2.0.1\n- Build number: 9729\n- Commit: d1afdc63d\n- Published at: 2026-06-07T18:27:08Z\n- Source ref: refs/heads/xenios",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0.1-build-9730/xenios_ios_iphone_ipad.ipa",
+          "size": 46246197,
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "2.0",
+          "date": "2026-06-06T19:00:12Z",
+          "localizedDescription": "# 2.0-9712\n\n- Channel: release\n- Stage: stable\n- Version: 2.0\n- Build number: 9712\n- Commit: 358deaee5\n- Published at: 2026-06-06T19:11:40Z\n- Source ref: refs/heads/xenios",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v2.0-build-9712/xenios_ios_iphone_ipad.ipa",
+          "size": 41493705,
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-03-13T16:25:09Z",
+          "localizedDescription": "# 1.0.1-9288\n\n- Channel: release\n- Stage: stable\n- Version: 1.0.1\n- Build number: 9288\n- Commit: 056d2f64d\n- Published at: 2026-03-13T15:43:21Z\n- Source ref: refs/heads/xenios",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v1.0.1-build-9288/xenios_ios_iphone_ipad.ipa",
+          "size": 11703406,
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-03-12T11:19:10Z",
+          "localizedDescription": "# 1.0.0-9299\n\n- Channel: release\n- Stage: stable\n- Version: 1.0.0\n- Build number: 9299\n- Commit: d8c101905\n- Published at: 2026-03-12T10:42:28Z\n- Source ref: refs/heads/xenios",
+          "downloadURL": "https://github.com/xenios-jp/XeniOS/releases/download/release-v1.0.0-build-9299/xenios_ios_iphone_ipad.ipa",
+          "size": 11702981,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ]
+}
