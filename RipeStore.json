@@ -7,7 +7,6 @@
   "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
   "website": "https://ripestore.github.io/",
   "patreonURL": "https://ripestore.github.io/",
-  "headerURL": "https://i.imgur.com/nhHq9ly.png",
   "tintColor": "#6156e2",
   "featuredApps": [
     "com.chairentertainment.IB3",
@@ -32,6 +31,14 @@
         "https://cdn.jsdelivr.net/gh/RipeStore/icons/BYETUNES/IMG_8822.webp"
       ],
       "versions": [
+        {
+          "version": "2.4",
+          "date": "2026-07-05T13:28:00Z",
+          "localizedDescription": "* Background downloads with optional Live Activity progress\n* Improved background metadata fetching for downloaded songs\n* Opus download support\n* Persistent download queue with better recovery and error messages\n* Spotify search helper for failed Apple Music downloads\n* Unified Download tab search for Apple Music, Spotify, and Deezer links\n* Reworked **Backup \u0026 Restore** with database and full backups\n* Playlist backup/restore via `.3mu` files, including sharing\n* Improved on-device library browser for songs, artists, albums, and playlists\n* Playlist management: add, remove, rename, delete, and export\n* New **Library Repair** tools for ghost songs, ordering, artwork, and refresh issues\n* Various fixes and cleanup across metadata, backups, library browsing, downloads, queue handling, and settings\n\n### Notes\n\n* Background downloads may be suspended or terminated by iOS. Downloads can often continue in the background and recover when ByeTunes is reopened.\n* Force-closing ByeTunes from the app switcher may stop background activity until the app is opened again.\n",
+          "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.4/ByeTunes.ipa",
+          "size": 16500000,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "1.0.1",
           "date": "2026-01-28T16:02:00Z",
@@ -82,7 +89,7 @@
       "subtitle": "A Chan Reader written in Flutter",
       "localizedDescription": "🍀 4chan image board viewer for iOS and Android, written in Flutter\n\nFeatures :\n• Boards and threads that can be favorised\n• Boards in grid- or listview\n• Sortable boards\n• Fast video and image gallery (Support for WebM on iOS)\n• Downloadable images and Videos (WebMs will be converted to MP4)\n• Download all images from one board\n• Supporting Dark Mode",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/NEKOSURF/logo.png",
-      "tintColor": "#6cd4ec",
+      "tintColor": "#6dd4ed",
       "category": "social",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/RipeStore/icons/NEKOSURF/1.webp",
@@ -91,6 +98,14 @@
         "https://cdn.jsdelivr.net/gh/RipeStore/icons/NEKOSURF/4.webp"
       ],
       "versions": [
+        {
+          "version": "0.11.5",
+          "date": "2026-07-29T23:32:00Z",
+          "localizedDescription": "- Update App icon\n- Add sticky threads functionality by @wrngwrld in #74 (#73)\n\n Full Changelog: v0.11.5-3...v0.11.5-4",
+          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.11.5-4/Runner.ipa",
+          "size": 33100000,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "0.10.4",
           "date": "2026-01-15T10:41:00Z",
@@ -113,6 +128,7 @@
         "privacy": {
           "NSAppleMusicUsageDescription": "Runner requires to play music.",
           "NSCameraUsageDescription": "Runner requires access to your phone’s camera.",
+          "NSPhotoLibraryAddUsageDescription": "Runner needs permission to save media to your photo library.",
           "NSPhotoLibraryUsageDescription": "Runnerphotos description"
         }
       }
@@ -153,7 +169,7 @@
       "bundleIdentifier": "com.telltalegames.BAT100",
       "developerName": "LCG Entertainment, Inc",
       "subtitle": "Enter the fractured psyche of Bruce Wayne where your choices have consequences",
-      "localizedDescription": "The main app will provide you access to the free content. Get episode data from, this is to be extracted and copied into the app's documents folder in your files (On My iPhone/Batman...)  : https://pixeldrain.com/api/file/TsTFeA1N (3.07 GB)\n\nReport broken links at : https://github.com/RipeStore/repos/issues\n\nJoin the \"Telltale Archival Project\" Discord for guidance : https://discord.gg/Ztt3GcvexG\n\n----\n\n**All Episodes now available to download via in-app!**\n\nEnter the fractured psyche of Bruce Wayne and discover the powerful and far-reaching consequences of your choices as the Dark Knight.\n\nIn this gritty and violent new story from the award-winning creators of The Walking Dead – A Telltale Games Series, you'll make discoveries that will shatter Bruce Wayne's world, and the already fragile stability of a corrupt Gotham City.\n\nYour actions and your choices will determine the fate of the Batman.\n\nIncludes Episode 1 (FREE) in this all-new series from the award-winning studio, Telltale Games.",
+      "localizedDescription": "The main app will provide you access to the free content. Get episode data from, this is to be extracted and copied into the app's documents folder in your files (On My iPhone/Batman...)  : https://archive.org/download/telltale-games-ios-archive/Telltale%20Games/Batman%20-%20The%20Telltale%20Series/Episode%20Data/ (3.07 GB)\n\nReport broken links at : https://github.com/RipeStore/repos/issues\n\nJoin the \"Telltale Archival Project\" Discord for guidance : https://discord.gg/Ztt3GcvexG\n\n----\n\n**All Episodes now available to download via in-app!**\n\nEnter the fractured psyche of Bruce Wayne and discover the powerful and far-reaching consequences of your choices as the Dark Knight.\n\nIn this gritty and violent new story from the award-winning creators of The Walking Dead – A Telltale Games Series, you'll make discoveries that will shatter Bruce Wayne's world, and the already fragile stability of a corrupt Gotham City.\n\nYour actions and your choices will determine the fate of the Batman.\n\nIncludes Episode 1 (FREE) in this all-new series from the award-winning studio, Telltale Games.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/telltale/BATMAN_TTS/icon_BATMAN.webp",
       "tintColor": "#7f7f7f",
       "category": "games",
@@ -189,7 +205,7 @@
       "subtitle": "Choice Text Adventures",
       "localizedDescription": "YOU HAVE FOUND A MASSIVE TROVE OF CHOICE-BASED GAMEBOOKS!\n\n• 80+ choice-based interactive volumes with genres ranging from fantasy, horror, mystery, adventure, even some romance. Immerse yourself in new worlds!\n• New gamebooks are added regularly.\n• No-wifi, no problem. \n• Small download and easy on your battery.\n• Fully accessible to blind users (e.g. Voiceover compatible).\n\n*** ACTUALLY FREE AND NO PAYING FOR A CHOICE ***\nPlay well and you will be rewarded with the currency you need to finish everything without spending a penny. Hunt down those achievements, get the high ranks, and choose to watch the rewarded videos as they become available. Not that I don’t appreciate your monetary support and I’m confident that you will find it well worth it, but know that you do not have to.\n\nAlso unlike many choice-based games, you do NOT spend currency to make choices. No choice is walled off from you for need of gems, etc. nor is there any such hint to spoil which is the “better choice”. You choose!\n\n*** PREMIUM OPTION ***\nFor a one-time up front purchase, you get ALL current and future content unlocked without worry about getting gouged later. Plus there’s no ads and some exclusive bonus content made available to you as well. There's nothing else like it on the App Store!\n\n*** ABOUT DELIGHT GAMES ***\nIf you're new to Delight Games you might say \"Interactive novels? But I don't like to read.\" You might even say this in a whiny voice (although we hope not). \n\nWell, even for you book haters, now reading is addictive because with Delight Games interactive novels you make the choices for the main character, alter the story, alter your stats, and try to stay alive. Can you make it to the end? If so, what kind of score and rank can you get? \n\nIf you like interactive fiction or just want to try something different from the typical soul-sucking mobile games, this is the ULTIMATE download for you!",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/DELIGHTGAMES/icon_DELIGHTGAMES.png",
-      "tintColor": "#e4391a",
+      "tintColor": "#e73617",
       "category": "games",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/RipeStore/icons/DELIGHTGAMES/01.webp",
@@ -200,6 +216,14 @@
         "https://cdn.jsdelivr.net/gh/RipeStore/icons/DELIGHTGAMES/06.webp"
       ],
       "versions": [
+        {
+          "version": "4.6",
+          "date": "2026-05-14T18:29:00Z",
+          "localizedDescription": "- Fixed a bug where premium users could still be prompted to purchase premium\n- Bug fixes and improvements",
+          "downloadURL": "https://cdn.yemoja.xyz/delightgames/4.6/com.your-company.DelightGames_4.6.ipa",
+          "size": 212900000,
+          "minOSVersion": "15.6"
+        },
         {
           "version": "4.4",
           "date": "2026-02-22T12:03:00Z",
@@ -255,7 +279,7 @@
       }
     },
     {
-      "name": "(Beta) Stossycord",
+      "name": "Stossycord",
       "bundleIdentifier": "com.stossy11.Stossycord",
       "developerName": "stossy11",
       "subtitle": "An open-source Discord client",
@@ -269,6 +293,14 @@
         "https://cdn.jsdelivr.net/gh/RipeStore/icons/STOSSYCORD/03.PNG"
       ],
       "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-07-03T05:44:00Z",
+          "localizedDescription": "- Brand New Login UI with Captcha and 2fa\n- Overhauled Channel UI with Custom Emojis, Reactions, Favourited GIFs, Loading More Messages, etc\n- Message Date, Divider between days.\n- FakeNitro Emojis\n- Updated Settings Page with Profile Editor, Discord Settings, Status \u0026 Status Text, Hiding Profile Pictures, etc\n- Updated Apple Music RPC\n- Mentions (Pings) \u0026 Notifications (with Push Notification workaround using Location to keep app alive in background)\n- Mentions View (Button to view where you've been pinged)\n- Server List\n- iOS 15 Support\n- Updated WebSocket Handling\n- Loading Screen when Connecting to WebSocket",
+          "downloadURL": "https://github.com/Stossycord/Stossycord/releases/download/1.0/Stossycord.ipa",
+          "size": 4200000,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "0.8",
           "date": "2025-12-30T08:41:00Z",
@@ -289,22 +321,26 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {
+          "NSAppleMusicUsageDescription": "This will show your currently playing Music as your presence.",
           "NSDocumentsFolderUsageDescription": "We need access to your documents folder to import files.",
-          "NSFaceIDUsageDescription": "Stossycord needs Face ID to keep your Token Safe",
+          "NSFaceIDUsageDescription": "Stossycord needs Face ID to keep your Token safe",
           "NSFileProviderPresenceUsageDescription": "We need access to your file provider to import files.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Stossycord can use background location to keep notification delivery active while the app is in the background.",
+          "NSLocationAlwaysUsageDescription": "Stossycord can use background location to keep notification delivery active while the app is in the background.",
+          "NSLocationWhenInUseUsageDescription": "Stossycord can use location while the app is open before enabling background location support.",
           "NSPhotoLibraryAddUsageDescription": "Stossycord needs access to your Photo library to upload photos and videos to Discord",
           "NSPhotoLibraryUsageDescription": "Stossycord needs access to your Photo library to upload photos and videos to Discord"
         }
       }
     },
     {
-      "name": "(Beta) Nyxian",
-      "bundleIdentifier": "com.cr4zy.nyxian",
+      "name": "Nyxian",
+      "bundleIdentifier": "org.emexlabs.nyxian",
       "developerName": "ProjectNyxian",
       "subtitle": "IDE to develop native code iOS apps on unjailbroken iOS devices",
       "localizedDescription": "Nyxian is an iOS app that enables users to code, compile, link, sign, and even execute or rapidly test iOS applications directly on their device.\n\nNyxian is the successor to the former FridaCodeManager project, which was deprecated in favor of Nyxian since FridaCodeManager required a jailbreak to function, whereas Nyxian does not.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons/NYXIAN/icon_NYXIAN.png",
-      "tintColor": "#a474dc",
+      "tintColor": "#643c8c",
       "category": "developer",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/RipeStore/icons/NYXIAN/01.PNG",
@@ -314,6 +350,14 @@
         "https://cdn.jsdelivr.net/gh/RipeStore/icons/NYXIAN/05.PNG"
       ],
       "versions": [
+        {
+          "version": "0.11.1",
+          "date": "2026-08-14T17:57:00Z",
+          "localizedDescription": "- Feat: Browsing/deleting files directly in the guest file system (through `MoltenFileManager`, note this feature is still in early development) ([`dc5ecdb`](https://github.com/emexlab/Nyxian/commit/dc5ecdbc25980a2c07212a95a02865c1d61a5c12), [`41bba65`](https://github.com/emexlab/Nyxian/commit/41bba653dd39b8f05dacbd99bafed1062ed35630), [`f940a0b`](https://github.com/emexlab/Nyxian/commit/f940a0b0343aa238eea85a785f0a51f44acbaa39))\n- Feat: added more Virtual Environment settings features such as restore, reload daemons, browsing files, clearing application caches, etc ([`056b062`](https://github.com/emexlab/Nyxian/commit/056b062d8d2c27b8055bf6d6dacb0840a2aa74a9), [`6047bb9`](https://github.com/emexlab/Nyxian/commit/6047bb9be26be3433186dd9658b380927c899fd4), [`d0a3b4f`](https://github.com/emexlab/Nyxian/commit/d0a3b4f417b7d0ba3401cf84186ee83bc2dc4ac6), [`7983d7d`](https://github.com/emexlab/Nyxian/commit/7983d7d0dfc4a8d870c5d1dd904eb932b2958aa8), [`0a7789e`](https://github.com/emexlab/Nyxian/commit/0a7789e444aa5879087446802e5a53b6f3be0f76), [`92bbb4b`](https://github.com/emexlab/Nyxian/commit/92bbb4b64adb0eec143bdbe76864f0a4cf629d4a), [`62a8381`](https://github.com/emexlab/Nyxian/commit/62a8381728086bd251073f9c878f6bc9b5a28d21), [`ec45b9a`](https://github.com/emexlab/Nyxian/commit/ec45b9af540d193cf417206c9d6146c55a4026ac), [`61aa4a4`](https://github.com/emexlab/Nyxian/commit/61aa4a4768e087a05b667ab30ca5da0db70e759a), [`9aab755`](https://github.com/emexlab/Nyxian/commit/9aab755eb5d838a219fdbfd4ed4cd68aa285386e))\n- Fix: Nyxian opens again on iOS 18 (idk which commit, one commit fixed it tho xD)\n\n### LiveProcess\n\n- Fix: Properly restore exception ports in ktfp after handoff of task port ([`537075b`](https://github.com/emexlab/Nyxian/commit/537075b32c80cbea9f2caa97e2d4076c4ab24124))\n- Hardening: enhanced launch service validation ([`baefff1`](https://github.com/emexlab/Nyxian/commit/baefff1031c40a18c65c915550d61d1dd3a9863a))\n\n### Micro Kernel (ksurface)\n\n- Vulnerability Patch: patched Mach IPC type Confusion (found by [@semvis123](https://github.com/semvis123)) ([`5f35113`](https://github.com/emexlab/Nyxian/commit/5f3511397a9a03ea13f50874d4d2d7dddf61ef06))\n- Vulnerability Patch: patched attacker controlled OOB write in `LCPatchExecutableSlice` (found by [@semvis123](https://github.com/semvis123)) ([`662a9c1`](https://github.com/emexlab/Nyxian/commit/662a9c12b4d3261026e641290e2affa2fa2df9cb))\n- Vulnerability Patch: patched 1 byte NULL overflow in `KERN_HOSTNAME` setting mechanism in `SYS_sysctl` (found by [@semvis123](https://github.com/semvis123)) ([`8ae7ec7`](https://github.com/emexlab/Nyxian/commit/8ae7ec7ed687c8efc57c7a61d7e640d46df1936b))\n- Vulnerability Patch: patched `SYS_wait4` async event handler leaks mach port send rights (found by [@semvis123](https://github.com/semvis123)) ([`9af771c`](https://github.com/emexlab/Nyxian/commit/9af771c95d7ed32eb057a41fe57dcec01eb16926), [`d99bb10`](https://github.com/emexlab/Nyxian/commit/d99bb10c985d365807f81228f35de121e84ed301))\n- Vulnerability Patch: patched another OOB write in `LCPatchExecutableSlice` ([`2952a33`](https://github.com/emexlab/Nyxian/commit/2952a33e2d69506c0c325846074b48552af69194))\n- Vulnerability Patch: patched attacker controlled stack buffer overflow in `SYS_sysctl` (found by [@semvis123](https://github.com/semvis123)) ([`1e75dcb`](https://github.com/emexlab/Nyxian/commit/1e75dcbe37c1791b4661bc0b746650d5333c4771), [`dee9694`](https://github.com/emexlab/Nyxian/commit/dee96942f73bb70717affc7a73863673649ce5b1))\n- Vulnerability Patch: patched attacker controlled stack buffer overflow in `macho_read_token` (found by [@semvis123](https://github.com/semvis123)) ([`f89090c`](https://github.com/emexlab/Nyxian/commit/f89090c26be65008cb3ddce9993e489e6c8c4a6f))\n- Vulnerability Patch: patched deadlock in `SYS_setreuid` and `SYS_setregid` (found by [@semvis123](https://github.com/semvis123)) ([`cd2d67a`](https://github.com/emexlab/Nyxian/commit/cd2d67ad2959f9d1aaefa16672583712d0e47ee7))\n- Vulnerability Patch: patched data corruption vulnerability in `key.m` (found by [@semvis123](https://github.com/semvis123)) ([`068cf74`](https://github.com/emexlab/Nyxian/commit/068cf744cfa10099176acbf783b4f4a7144fb0ff))\n- Vulnerability Patch: patched null ptr deref in `proc_list` (found by [@semvis123](https://github.com/semvis123)) ([`068cf74`](https://github.com/emexlab/Nyxian/commit/068cf744cfa10099176acbf783b4f4a7144fb0ff))\n- Vulnerability Patch: patched task port confusion (found by [@semvis123](https://github.com/semvis123)) ([`e4d70d7`](https://github.com/emexlab/Nyxian/commit/e4d70d7606059616235afccd4373eb4235a4600e))\n- Vulnerability Entry Patch: patched a reference/lock leak in `kvobject_snapshot` (found by [@semvis123](https://github.com/semvis123)) ([`4905e2a`](https://github.com/emexlab/Nyxian/commit/4905e2ae0ba65c5ae8a81c2bba23061dc4945381))\n- Hardening: swapped binaries will now cause `PECTL_CS_FALLBACK_ENT` (shall fix some appstore apps failing to open properly) ([`f26cfdb`](https://github.com/emexlab/Nyxian/commit/f26cfdb46473aaa6b909c36c403733c582afa464))\n- Hardening: added `os_unfair_lock` to DYLD cdhash verifier in LiveProcess ([`1b6b161`](https://github.com/emexlab/Nyxian/commit/1b6b161ffc0abf22339eaa563c698257ece1f9c6))\n- Hardening: applying LC hooks before constructors run ([`0d88cc3`](https://github.com/emexlab/Nyxian/commit/0d88cc3d4f451a8d6c94548951f80ffbd1879a73), [`ae31522`](https://github.com/emexlab/Nyxian/commit/ae31522b895886501cb3136c2bdc14468225e6b2))\n- Hardening: entitlement sanitization (strips all entitlements that make no sense in a certain collection of entitlements) ([`6754f51`](https://github.com/emexlab/Nyxian/commit/6754f51a88cafd2c937b34e357cffbee3236f6fd), [`b370fba`](https://github.com/emexlab/Nyxian/commit/b370fba5aef6ca3245a8784419994ab84e35833d))\n- Feat: more `PEUserspaceManager` features ([`056b062`](https://github.com/emexlab/Nyxian/commit/056b062d8d2c27b8055bf6d6dacb0840a2aa74a9), [`6047bb9`](https://github.com/emexlab/Nyxian/commit/6047bb9be26be3433186dd9658b380927c899fd4), [`d0a3b4f`](https://github.com/emexlab/Nyxian/commit/d0a3b4f417b7d0ba3401cf84186ee83bc2dc4ac6), [`7983d7d`](https://github.com/emexlab/Nyxian/commit/7983d7d0dfc4a8d870c5d1dd904eb932b2958aa8), [`0a7789e`](https://github.com/emexlab/Nyxian/commit/0a7789e444aa5879087446802e5a53b6f3be0f76), [`92bbb4b`](https://github.com/emexlab/Nyxian/commit/92bbb4b64adb0eec143bdbe76864f0a4cf629d4a), [`62a8381`](https://github.com/emexlab/Nyxian/commit/62a8381728086bd251073f9c878f6bc9b5a28d21), [`ec45b9a`](https://github.com/emexlab/Nyxian/commit/ec45b9af540d193cf417206c9d6146c55a4026ac), [`61aa4a4`](https://github.com/emexlab/Nyxian/commit/61aa4a4768e087a05b667ab30ca5da0db70e759a))\n\n**Contributors:** [@semvis123](https://github.com/semvis123), [@ruri1208](https://github.com/ruri1208)\n\n\u003e [!NOTE]\n\u003e Standard SDK used in this version of Nyxian is iPhoneOS26.5.\n\n\u003e [!NOTE]\n\u003e This update is very recommended to install, it features a ton of patched to a ton of vulnerabilities [@semvis123](https://github.com/semvis123) collected over the last 3 months.",
+          "downloadURL": "https://github.com/emexlab/Nyxian/releases/download/0.11.1/Nyxian.ipa",
+          "size": 105800000,
+          "minOSVersion": "18.0"
+        },
         {
           "version": "0.8.6",
           "date": "2026-02-06T10:10:00Z",
@@ -342,15 +386,22 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {
+          "NSAppleEventsUsageDescription": "The guest app is requesting for this permission.",
           "NSAppleMusicUsageDescription": "The guest app is requesting for this permission.",
           "NSBluetoothAlwaysUsageDescription": "The guest app is requesting for this permission.",
           "NSBluetoothPeripheralUsageDescription": "The guest app is requesting for this permission.",
-          "NSCalendarsFullAccessUsageDescription": "The guest app is requesting for this permission.",
-          "NSCalendarsWriteOnlyAccessUsageDescription": "The guest app is requesting for this permission.",
+          "NSBluetoothWhileInUseUsageDescription": "The guest app is requesting for this permission.",
+          "NSCalendarsUsageDescription": "The guest app is requesting for this permission.",
           "NSCameraUsageDescription": "The guest app is requesting for this permission.",
           "NSContactsUsageDescription": "The guest app is requesting for this permission.",
+          "NSDesktopFolderUsageDescription": "The guest app is requesting for this permission.",
+          "NSDocumentsFolderUsageDescription": "The guest app is requesting for this permission.",
+          "NSDownloadsFolderUsageDescription": "The guest app is requesting for this permission.",
           "NSFaceIDUsageDescription": "The guest app is requesting for this permission.",
           "NSFallDetectionUsageDescription": "The guest app is requesting for this permission.",
+          "NSFileProviderDomainUsageDescription": "The guest app is requesting for this permission.",
+          "NSFileProviderPresenceUsageDescription": "The guest app is requesting for this permission.",
+          "NSFocusStatusUsageDescription": "The guest app is requesting for this permission.",
           "NSGKFriendListUsageDescription": "The guest app is requesting for this permission.",
           "NSHealthClinicalHealthRecordsShareUsageDescription": "The guest app is requesting for this permission.",
           "NSHealthShareUsageDescription": "The guest app is requesting for this permission.",
@@ -359,19 +410,27 @@
           "NSIdentityUsageDescription": "The guest app is requesting for this permission.",
           "NSLocalNetworkUsageDescription": "The guest app is requesting for this permission.",
           "NSLocationAlwaysAndWhenInUseUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationAlwaysUsageDescription": "The guest app is requesting for this permission.",
           "NSLocationUsageDescription": "The guest app is requesting for this permission.",
           "NSLocationWhenInUseUsageDescription": "The guest app is requesting for this permission.",
           "NSMicrophoneUsageDescription": "The guest app is requesting for this permission.",
           "NSMotionUsageDescription": "The guest app is requesting for this permission.",
           "NSNearbyInteractionAllowOnceUsageDescription": "The guest app is requesting for this permission.",
           "NSNearbyInteractionUsageDescription": "The guest app is requesting for this permission.",
+          "NSNetworkVolumesUsageDescription": "The guest app is requesting for this permission.",
           "NSPhotoLibraryAddUsageDescription": "The guest app is requesting for this permission.",
           "NSPhotoLibraryUsageDescription": "The guest app is requesting for this permission.",
-          "NSRemindersFullAccessUsageDescription": "The guest app is requesting for this permission.",
+          "NSRemindersUsageDescription": "The guest app is requesting for this permission.",
+          "NSRemovableVolumesUsageDescription": "The guest app is requesting for this permission.",
+          "NSSensorKitPrivacyPolicyURL": "The guest app is requesting for this permission.",
           "NSSensorKitUsageDescription": "The guest app is requesting for this permission.",
           "NSSiriUsageDescription": "The guest app is requesting for this permission.",
           "NSSpeechRecognitionUsageDescription": "The guest app is requesting for this permission.",
-          "NSUserTrackingUsageDescription": "The guest app is requesting for this permission."
+          "NSSystemAdministrationUsageDescription": "The guest app is requesting for this permission.",
+          "NSSystemExtensionUsageDescription": "The guest app is requesting for this permission.",
+          "NSUserTrackingUsageDescription": "The guest app is requesting for this permission.",
+          "NSVideoSubscriberAccountUsageDescription": "The guest app is requesting for this permission.",
+          "NSVoIPUsageDescription": "The guest app is requesting for this permission."
         }
       }
     },
@@ -626,6 +685,14 @@
       ],
       "versions": [
         {
+          "version": "1.6.6",
+          "date": "2026-07-01T02:06:00Z",
+          "localizedDescription": "• Fixed ZIP split in volume with huge source files (Thanks to Tino)",
+          "downloadURL": "https://cdn.yemoja.xyz/Keka/v1.6.6/com.aone.Keka-iOS_1.6.6.ipa",
+          "size": 32100000,
+          "minOSVersion": "15.5"
+        },
+        {
           "version": "1.6.4",
           "date": "2026-03-20T17:10:00Z",
           "localizedDescription": "• Please report with a screenshot and some feedback if possible.\n• Include an email so further feedback can be provided.\n• You can also report to info@keka.io or at https://issues.keka.io.",
@@ -673,6 +740,14 @@
       ],
       "versions": [
         {
+          "version": "7.1.0",
+          "date": "2026-08-14T12:48:00Z",
+          "localizedDescription": "## New Readers\n\n- Added full PDF and EPUB support for local files, iCloud items, and compatible source downloads.\n- Added a dedicated novel reader for text chapters from supported sources.\n- New reading controls include paged or continuous presentation, reading direction, single or double-page layouts, page fitting, themes, typography, dimming, navigation, and scoped settings.\n- Reading position, history, completion state, and resume support now work across comics, PDFs, EPUBs, and novels.\n\n## Media Servers\n\n- Added Komga, Kavita, OPDS 1, and OPDS 2 connections with provider-branded setup.\n- Browse libraries, collections, reading lists, search results, and supported server home sections.\n- Read online or download supported books for offline access.\n- Server titles now participate in Home, global search, Library, reading history, insights, queues, and progress syncing.\n- Added secure support for local-network HTTP servers while blocking insecure remote connections.\n\n## Reader Improvements\n\n- Added pinch and double-tap zoom to the vertical reader.\n- Improved automatic long-strip detection.\n- Improved double-page layouts, wide-page handling, first-page placement, and reading direction.\n- Added inline loading failures and retry controls instead of leaving blank pages.\n- Improved image preloading and expanded the reader image cache for large pages.\n- Added notes to panel bookmarks.\n- Simplified reader settings by hiding unavailable suboptions and exposing page-layout controls more clearly.\n- Added a global preference for collapsing duplicate chapters to the preferred provider.\n\n## Library and Downloads\n\n- Added duplicate-title review and merging, with improved linked-title syncing and progress refresh.\n- Added customizable Library sections and improved iPad sidebar updates.\n- Added live badges showing whether titles are in your Library or Saved for Later.\n- Added separate reading and download-progress indicators on chapter rows.\n- Unified source and server downloads, with storage summaries and background completion notifications.\n- Clearing reading progress now includes server titles.\n\n## Sources and Backups\n\n- Sources can now be updated, reinstalled, reordered, tested, or uninstalled from Manage Sources.\n- Improved authenticated source compatibility by sharing cookies and strengthening client-backed image requests.\n- Added automatic backup frequency and retention controls.\n- Improved onboarding import actions and server setup.\n\n## Notifications and Polish\n\n- The app badge now reflects titles added since the Updates feed was last viewed.\n- Fixed missing cover artwork in Live Activities.\n- Improved persistence reliability, source navigation, linked-title deletion safety, background-task cleanup, and overall reader performance.",
+          "downloadURL": "https://cdn.yemoja.xyz/Suwatte/v7.1.0/Suwatte_7.1.0.ipa",
+          "size": 42600000,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "6.0.1",
           "date": "2025-09-07T00:15:00Z",
           "localizedDescription": "• Auto Delete Downloads Fix",
@@ -684,9 +759,8 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {
-          "NSAccentColorName": "AccentColor",
-          "NSFaceIDUsageDescription": "Verify Biometrics to Protect Library",
-          "NSPhotoLibraryUsageDescription": "This is required to save images to your device."
+          "NSLocalNetworkUsageDescription": "Suwatte connects to media servers and catalogs on your local network.",
+          "NSPhotoLibraryAddUsageDescription": "To Save Images to your Photos Album"
         }
       }
     }
