@@ -98,5 +98,9 @@
   {
     "name": "reynard",
     "url": "https://github.com/minh-ton/reynard-browser/releases/download/0.0.1-a1/source.json"
+  },
+    {
+    "name": "AltMaker",
+    "url": "https://github.com/RipeStore/altmaker/raw/refs/heads/main/AltMaker.json"
   }
 ]
