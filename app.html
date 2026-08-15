@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <title>App Details</title>
+  <meta name="description" content="RipeStore - An alternative iOS app store for discovering and sideloading apps.">
+  <meta name="keywords" content="iOS, App Store, RipeStore, alternative apps, sideloading">
+  <meta name="author" content="RipeStore">
+  <meta property="og:title" content="App Details | RipeStore">
+  <meta property="og:description" content="An alternative iOS app store for discovering and sideloading apps.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ripestore.github.io/">
+  <meta property="og:image" content="https://ripestore.github.io/icon-192.png">
+  <meta property="og:site_name" content="RipeStore">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="App Details | RipeStore">
+  <meta name="twitter:description" content="An alternative iOS app store for discovering and sideloading apps.">
+  <meta name="twitter:image" content="https://ripestore.github.io/icon-192.png">
+  <link rel="stylesheet" href="assets/css/style.css?v=8">
+
+  <link rel="preload" href="assets/data/actions.json" as="fetch" crossorigin="anonymous">
+  <link rel="preload" href="assets/data/entitlements.json" as="fetch" crossorigin="anonymous">
+  <link rel="preload" href="assets/data/privacy.json" as="fetch" crossorigin="anonymous">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/icon-96x96.png">
+  <link rel="icon" type="image/png" sizes="144x144" href="/icon-144x144.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/icon-192x192.png">
+</head>
+<body class="details-page">
+
+  <div id="splash">
+    <div class="splash-content">
+      <div class="splash-logo">RipeStore</div>
+      <div class="splash-loader"></div>
+      <div id="splash-status">Loading app details...</div>
+    </div>
+  </div>
+
+  <nav class="navbar glass">
+    <div class="nav-content">
+      <a href="./" class="back-link">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        Back
+      </a>
+    </div>
+  </nav>
+
+  <main class="details-main">
+    
+    <!-- Hero Header -->
+    <header class="app-header">
+      <img id="hero-icon" class="app-icon-large" src="" alt="">
+      <div class="app-header-info">
+        <h1 id="hero-title"></h1>
+        <p id="hero-subtitle"></p>
+        <div class="actions">
+          <a id="hero-get" class="btn-get" href="#">GET</a>
+          <button id="btn-share" class="btn-icon" aria-label="Share">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+          </button>
+          <button id="btn-more-actions" class="btn-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="separator"></div>
+
+    <!-- What's New -->
+    <section id="whats-new" class="section hidden">
+      <div class="section-header">
+        <h2>What's New</h2>
+        <div class="version-picker">
+          <select id="version-select"></select>
+        </div>
+      </div>
+      <p id="whats-new-text" class="text-body desc-clamped"></p>
+      <button id="whats-new-more-btn" class="more-btn hidden">more</button>
+    </section>
+
+    <!-- Screenshots -->
+    <section id="screenshots-section" class="section hidden">
+      <h2>Preview</h2>
+      <div class="carousel-container">
+        <button class="scroll-btn left hidden" aria-label="Scroll left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <div id="screenshots-scroll" class="scroll-row screenshots-row"></div>
+        <button class="scroll-btn right" aria-label="Scroll right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- Description -->
+    <section class="section">
+      <h2 id="desc-heading" class="hidden" style="margin-bottom: 12px;">Description</h2>
+      <p id="app-desc" class="text-body desc-clamped"></p>
+      <button id="desc-more-btn" class="more-btn hidden">more</button>
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- Information -->
+    <section class="section">
+      <h2>Information</h2>
+      <div class="info-list">
+        <div class="info-row">
+          <span class="label">Provider</span>
+          <span id="meta-provider" class="val"></span>
+        </div>
+        <div class="info-row">
+          <span class="label">Size</span>
+          <span id="meta-size" class="val"></span>
+        </div>
+        <div class="info-row">
+          <span class="label">Compatibility</span>
+          <span id="meta-min-os" class="val"></span>
+        </div>
+        <div class="info-row">
+          <span class="label">Category</span>
+          <span id="meta-cat" class="val"></span>
+        </div>
+        <div class="info-row">
+          <span class="label">Source</span>
+          <span id="meta-source-name" class="val"></span>
+        </div>
+        <div id="perm-section" class="info-row hidden clickable">
+          <span class="label">Permissions</span>
+          <span id="perm-btn" class="val accent">View Details</span>
+        </div>
+        <div id="ent-section" class="info-row hidden clickable">
+          <span class="label">Entitlements</span>
+          <span id="ent-btn" class="val accent">View Details</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Actions Modal -->
+  <div id="actions-modal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="actions-modal-title">Alternatives</h3>
+        <button id="close-actions" class="close-btn" aria-label="Close">&times;</button>
+      </div>
+      <div id="actions-list" class="modal-body p-0"></div>
+    </div>
+  </div>
+
+  <!-- Permissions Modal -->
+  <div id="perm-modal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>App Permissions</h3>
+        <button id="close-perm" class="close-btn" aria-label="Close">&times;</button>
+      </div>
+      <div id="perm-list" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Entitlements Modal -->
+  <div id="ent-modal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>App Entitlements</h3>
+        <button id="close-ent" class="close-btn" aria-label="Close">&times;</button>
+      </div>
+      <div id="ent-list" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script type="module" data-cfasync="false" src="assets/js/ui/details.js?v=8"></script>
+</body>
+</html>

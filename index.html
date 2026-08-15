@@ -1,381 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="RipeStore Repository Configuration">
-    
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#050505" media="(prefers-color-scheme: dark)">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <title>RipeStore</title>
+  <meta name="description" content="RipeStore - An alternative iOS app store for discovering and sideloading apps.">
+  <meta name="keywords" content="iOS, App Store, RipeStore, alternative apps, sideloading">
+  <meta name="author" content="RipeStore">
+  <meta property="og:title" content="RipeStore">
+  <meta property="og:description" content="An alternative iOS app store for discovering and sideloading apps.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ripestore.github.io/">
+  <meta property="og:image" content="https://ripestore.github.io/icon-192.png">
+  <meta property="og:site_name" content="RipeStore">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="RipeStore">
+  <meta name="twitter:description" content="An alternative iOS app store for discovering and sideloading apps.">
+  <meta name="twitter:image" content="https://ripestore.github.io/icon-192.png">
+  <link rel="stylesheet" href="assets/css/style.css?v=8">
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js" data-cfasync="false"></script>
 
-    <title>RipeStore</title>
-    <style>
-        :root {
-            /* Light Theme */
-            --bg-page: #ffffff;
-            --text-main: #0f0f0f;
-            --text-mute: #7a7a7a;
-            
-            --btn-bg: #ffffff;
-            --btn-border: #e5e5e5;
-            --btn-border-hover: #000000;
-            --btn-text-title: #000000;
-            --btn-text-sub: #666666;
-            --icon-inner-border: rgba(0,0,0,0.06);
-
-            --container-w: 720px;
-            --radius-btn: 24px;
-            --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", Roboto, Arial, sans-serif;
-            --font-mono: "SF Mono", "Roboto Mono", monospace;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                /* Dark Theme */
-                --bg-page: #050505;
-                --text-main: #ededed;
-                --text-mute: #888888;
-                
-                --btn-bg: #000000;
-                --btn-border: #333333;
-                --btn-border-hover: #666666;
-                --btn-text-title: #ffffff;
-                --btn-text-sub: #8e8e93;
-                --icon-inner-border: rgba(255,255,255,0.1);
-            }
-        }
-
-        *, *::before, *::after { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-        
-        body {
-            margin: 0;
-            padding: 0;
-            background: var(--bg-page);
-            color: var(--text-main);
-            font-family: var(--font-sans);
-            font-size: 15px;
-            line-height: 1.5;
-            transition: background 0.3s ease, color 0.3s ease;
-        }
-
-        .wrapper {
-            max-width: var(--container-w);
-            margin: 0 auto;
-            padding: 60px 24px;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* Header */
-        header { margin-bottom: 40px; }
-        
-        h1 {
-            font-size: 2.5rem;
-            font-weight: 800;
-            letter-spacing: -0.04em;
-            margin: 0;
-            color: var(--text-main);
-        }
-
-        .section-label {
-            font-size: 0.75rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--text-mute);
-            margin: 0 0 20px 4px;
-            opacity: 0.8;
-        }
-
-        /* App Install Buttons */
-        .grid-stadium {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 16px;
-            margin-bottom: 60px;
-        }
-
-        .app-btn {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            background: var(--btn-bg);
-            border: 2px solid var(--btn-border);
-            border-radius: var(--radius-btn);
-            padding: 12px;
-            transition: transform 0.2s cubic-bezier(0.25, 0.8, 0.25, 1), border-color 0.2s, background-color 0.2s;
-        }
-
-        .app-btn:hover {
-            transform: translateY(-2px);
-            border-color: var(--btn-border-hover);
-        }
-        
-        .app-btn:active { transform: scale(0.98); }
-
-        .btn-icon {
-            width: 56px;
-            height: 56px;
-            border-radius: 13px;
-            margin-right: 14px;
-            flex-shrink: 0;
-            box-shadow: inset 0 0 0 1px var(--icon-inner-border); 
-            display: block;
-        }
-
-        .btn-text {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            min-width: 0;
-        }
-
-        .btn-title {
-            color: var(--btn-text-title);
-            font-size: 1.1rem;
-            font-weight: 700;
-            line-height: 1.2;
-            white-space: nowrap;
-        }
-
-        .btn-subtitle {
-            color: var(--btn-text-sub);
-            font-size: 0.9rem;
-            font-weight: 500;
-            line-height: 1.2;
-        }
-
-        /* Manual Config List */
-        .list-group {
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
-            padding: 0 4px; 
-        }
-
-        .list-item { position: relative; }
-
-        .item-label {
-            display: block;
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-bottom: 4px;
-        }
-
-        .click-area {
-            cursor: pointer;
-            padding: 4px 0;
-            user-select: none;
-        }
-
-        .url-row {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            color: var(--text-mute);
-            font-family: var(--font-mono);
-            font-size: 0.85rem;
-            transition: opacity 0.2s;
-        }
-
-        .url-row:hover { color: var(--text-main); }
-        .url-row span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-
-        .icon-copy {
-            width: 14px;
-            height: 14px;
-            opacity: 0;
-            transform: translateX(-8px);
-            transition: all 0.2s ease;
-        }
-        .url-row:hover .icon-copy { opacity: 1; transform: translateX(0); }
-
-        .success-msg {
-            position: absolute;
-            left: 0;
-            bottom: 4px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            color: var(--text-main);
-            opacity: 0;
-            pointer-events: none;
-            transform: translateY(10px);
-            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-        }
-
-        .list-item.is-copied .url-row {
-            opacity: 0;
-            transform: translateY(-10px);
-        }
-        .list-item.is-copied .success-msg {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Footer */
-        footer { margin-top: auto; padding-top: 60px; }
-        .footer-link {
-            color: var(--text-mute);
-            text-decoration: none;
-            font-size: 0.85rem;
-            border-bottom: 1px dotted transparent;
-            transition: 0.2s;
-        }
-        .footer-link:hover {
-            color: var(--text-main);
-            border-bottom-color: var(--text-main);
-        }
-
-        /* Responsive */
-        @media (max-width: 600px) {
-            .wrapper { padding: 40px 20px; }
-            .grid-stadium { 
-                grid-template-columns: 1fr;
-                gap: 12px; 
-            }
-        }
-    </style>
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/icon-96x96.png">
+  <link rel="icon" type="image/png" sizes="144x144" href="/icon-144x144.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/icon-192x192.png">
 </head>
 <body>
 
-    <div class="wrapper">
-        <header>
-            <h1>RipeStore</h1>
-        </header>
-
-        <section>
-            <div class="section-label">One-Tap Install</div>
-            
-            <div class="grid-stadium">
-                <a href="altstore://source?url=https://raw.githubusercontent.com/RipeStore/repos/refs/heads/main/RipeStore.json" class="app-btn" aria-label="Add to AltStore">
-                    <img src="https://cdn.jsdelivr.net/gh/RipeStore/icons@main/GENERAL/altstore_button.png" alt="AltStore Icon" class="btn-icon">
-                    <div class="btn-text">
-                        <span class="btn-title">Add to AltStore</span>
-                        <span class="btn-subtitle">Open in App</span>
-                    </div>
-                </a>
-                
-                <a href="feather://source/https://raw.githubusercontent.com/RipeStore/repos/refs/heads/main/RipeStore.json" class="app-btn" aria-label="Add to Feather">
-                    <img src="https://cdn.jsdelivr.net/gh/RipeStore/icons@main/GENERAL/feather_button.png" alt="Feather Icon" class="btn-icon">
-                    <div class="btn-text">
-                        <span class="btn-title">Add to Feather</span>
-                        <span class="btn-subtitle">Open in App</span>
-                    </div>
-                </a>
-                
-                <a href="sidestore://source?url=https://raw.githubusercontent.com/RipeStore/repos/refs/heads/main/RipeStore.json" class="app-btn" aria-label="Add to SideStore">
-                    <img src="https://cdn.jsdelivr.net/gh/RipeStore/icons@main/GENERAL/sidestore_button.png" alt="SideStore Icon" class="btn-icon">
-                    <div class="btn-text">
-                        <span class="btn-title">Add to SideStore</span>
-                        <span class="btn-subtitle">Open in App</span>
-                    </div>
-                </a>
-                
-                <a href="livecontainer://source?url=https://raw.githubusercontent.com/RipeStore/repos/refs/heads/main/RipeStore.json" class="app-btn" aria-label="Add to LiveContainer">
-                    <img src="https://cdn.jsdelivr.net/gh/RipeStore/icons@main/GENERAL/livecontainer_button.png" alt="LiveContainer Icon" class="btn-icon">
-                    <div class="btn-text">
-                        <span class="btn-title">Add to LiveContainer</span>
-                        <span class="btn-subtitle">Open in App</span>
-                    </div>
-                </a>
-            </div>
-        </section>
-
-        <section>
-            <div class="section-label">Manual Config</div>
-            <div class="list-group">
-                
-                <div class="list-item js-copy-root">
-                    <span class="item-label">Source</span>
-                    <div class="click-area" data-text="https://github.com/RipeStore/repos/raw/refs/heads/main/RipeStore.json">
-                        <div class="url-row">
-                            <span>https://github.com/RipeStore/repos/raw/refs/heads/main/RipeStore.json</span>
-                            <svg class="icon-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-                        </div>
-                        <div class="success-msg">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            <span>Copied</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="list-item js-copy-root">
-                    <span class="item-label">Short Link</span>
-                    <div class="click-area" data-text="https://bit.ly/RipeStore">
-                        <div class="url-row">
-                            <span>https://bit.ly/RipeStore</span>
-                            <svg class="icon-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-                        </div>
-                        <div class="success-msg">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            <span>Copied</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="list-item js-copy-root">
-                    <span class="item-label">Web Mirror</span>
-                    <div class="click-area" data-text="https://store.yemoja.xyz/repos/RipeStore.json">
-                        <div class="url-row">
-                            <span>https://store.yemoja.xyz/repos/RipeStore.json</span>
-                            <svg class="icon-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-                        </div>
-                        <div class="success-msg">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            <span>Copied</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <footer>
-            <a href="https://store.yemoja.xyz" class="footer-link">Browse Catalogue &rarr;</a>
-        </footer>
+  <div id="splash">
+    <div class="splash-content">
+      <div class="splash-logo">RipeStore</div>
+      <div class="splash-loader"></div>
+      <div id="splash-status">Initializing...</div>
     </div>
+  </div>
 
-    <script>
-        document.querySelectorAll('.js-copy-root').forEach(root => {
-            const clickArea = root.querySelector('.click-area');
-            const textToCopy = clickArea.getAttribute('data-text');
-            
-            clickArea.addEventListener('click', async () => {
-                if (root.classList.contains('is-copied')) return;
+  <nav class="navbar">
+    <div class="nav-content">
+      <div class="nav-brand">RipeStore</div>
+      <div class="nav-search">
+        <input type="text" id="search-input" placeholder="Search">
+        <button id="search-clear" class="search-clear hidden" aria-label="Clear search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="sources">Sources</a>
+      </div>
+    </div>
+  </nav>
 
-                const runAnimation = () => {
-                    root.classList.add('is-copied');
-                    setTimeout(() => root.classList.remove('is-copied'), 2000);
-                };
+  <main>
+    
+    <!-- Featured Carousel -->
+    <section id="featured-section" class="section hidden">
+      <div class="section-header">
+        <h2 class="section-title">Featured</h2>
+        <a href="list?type=featured" class="view-all-link">View All</a>
+      </div>
+      <div class="carousel-container">
+        <button class="scroll-btn left hidden" aria-label="Scroll left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <div id="featured-grid" class="scroll-row"></div>
+        <button class="scroll-btn right" aria-label="Scroll right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
+    </section>
 
-                if (navigator.clipboard && navigator.clipboard.writeText) {
-                    try {
-                        await navigator.clipboard.writeText(textToCopy);
-                        runAnimation();
-                        return;
-                    } catch (e) {}
-                }
+    <!-- News -->
+    <section id="news-section" class="section hidden">
+      <div class="section-header">
+        <h2 class="section-title">Latest News</h2>
+        <a href="list?type=news" class="view-all-link">View All</a>
+      </div>
+      <div class="carousel-container">
+        <button class="scroll-btn left hidden" aria-label="Scroll left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <div id="news-grid" class="scroll-row news-row"></div>
+        <button class="scroll-btn right" aria-label="Scroll right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
+    </section>
 
-                try {
-                    const ta = document.createElement('textarea');
-                    ta.value = textToCopy;
-                    ta.style.position = 'fixed';
-                    ta.style.opacity = '0';
-                    document.body.appendChild(ta);
-                    ta.focus();
-                    ta.select();
-                    document.execCommand('copy');
-                    document.body.removeChild(ta);
-                    runAnimation();
-                } catch (e) { console.error('Copy failed', e); }
-            });
-        });
-    </script>
+    <!-- App Grid -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">Apps</h2>
+        <div class="sort-picker">
+          <select id="sort-select">
+            <option value="relevance">Relevance</option>
+            <option value="date-desc" selected>Newest</option>
+            <option value="name-asc">Name (A-Z)</option>
+            <option value="name-desc">Name (Z-A)</option>
+            <option value="date-asc">Oldest</option>
+          </select>
+        </div>
+      </div>
+      <div id="app-grid" class="grid"></div>
+    </section>
+  </main>
+
+  <script type="module" data-cfasync="false" src="assets/js/ui/home.js?v=8"></script>
 </body>
 </html>

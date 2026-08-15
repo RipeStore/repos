@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <title>App List | RipeStore</title>
+  <meta name="description" content="RipeStore - An alternative iOS app store for discovering and sideloading apps.">
+  <meta name="keywords" content="iOS, App Store, RipeStore, alternative apps, sideloading">
+  <meta name="author" content="RipeStore">
+  <meta property="og:title" content="App List | RipeStore">
+  <meta property="og:description" content="An alternative iOS app store for discovering and sideloading apps.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ripestore.github.io/">
+  <meta property="og:image" content="https://ripestore.github.io/icon-192.png">
+  <meta property="og:site_name" content="RipeStore">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="App List | RipeStore">
+  <meta name="twitter:description" content="An alternative iOS app store for discovering and sideloading apps.">
+  <meta name="twitter:image" content="https://ripestore.github.io/icon-192.png">
+  <link rel="stylesheet" href="assets/css/style.css?v=8">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/icon-96x96.png">
+  <link rel="icon" type="image/png" sizes="144x144" href="/icon-144x144.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/icon-192x192.png">
+</head>
+<body>
+
+  <div id="splash">
+    <div class="splash-content">
+      <div class="splash-logo">RipeStore</div>
+      <div class="splash-loader"></div>
+      <div id="splash-status">Loading list...</div>
+    </div>
+  </div>
+
+  <nav class="navbar glass">
+    <div class="nav-content">
+      <a href="./" class="back-link">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        Home
+      </a>
+      <div class="nav-brand" id="list-title">List</div>
+      <div class="w-60"></div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section">
+      <div id="list-grid" class="grid"></div>
+    </section>
+  </main>
+
+  <script type="module" data-cfasync="false" src="assets/js/ui/list.js?v=8"></script>
+</body>
+</html>

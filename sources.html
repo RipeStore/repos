@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <title>Manage Sources | RipeStore</title>
+  <meta name="description" content="Manage, configure, and add custom AltStore and Scarlet iOS app repositories on RipeStore.">
+  <meta name="keywords" content="iOS, App Store, RipeStore, manage sources, repositories, sideloading, AltStore repo, Scarlet repo">
+  <meta name="author" content="RipeStore">
+  <meta property="og:title" content="Manage Sources | RipeStore">
+  <meta property="og:description" content="Manage, configure, and add custom AltStore and Scarlet iOS app repositories on RipeStore.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ripestore.github.io/sources">
+  <meta property="og:image" content="https://ripestore.github.io/icon-192.png">
+  <meta property="og:site_name" content="RipeStore">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Manage Sources | RipeStore">
+  <meta name="twitter:description" content="Manage, configure, and add custom AltStore and Scarlet iOS app repositories on RipeStore.">
+  <meta name="twitter:image" content="https://ripestore.github.io/icon-192.png">
+  <link rel="stylesheet" href="assets/css/style.css?v=8">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/icon-96x96.png">
+  <link rel="icon" type="image/png" sizes="144x144" href="/icon-144x144.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/icon-192x192.png">
+</head>
+<body class="no-select">
+
+  <div id="splash">
+    <div class="splash-content">
+      <div class="splash-logo">RipeStore</div>
+      <div class="splash-loader"></div>
+      <div id="splash-status">Loading sources...</div>
+    </div>
+  </div>
+
+  <nav class="navbar glass">
+    <div class="nav-content">
+      <a href="./" class="back-link">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        Home
+      </a>
+      <div class="nav-brand">Sources</div>
+      <div class="w-60"></div> <!-- spacer -->
+    </div>
+  </nav>
+
+  <main class="page-grouped">
+    
+    <div class="list-group-header">Add Source</div>
+    <div class="list-group mb-24">
+      <div class="info-row">
+        <input id="newSource" type="text" placeholder="https://example.com/repo.json" class="input-minimal flex-1">
+        <button id="addBtn" class="btn-text bold accent">Add</button>
+      </div>
+    </div>
+
+    <div id="suggestedSection" class="hidden">
+      <div class="list-group-header">Suggested Repos</div>
+      <div id="suggestedList" class="flex flex-wrap gap-10 px-16 mb-24"></div>
+    </div>
+
+    <div class="flex justify-between items-center px-16">
+      <div class="list-group-header m-0">My Sources</div>
+      <button id="updateBtn" class="btn-text accent mb-6">Update</button>
+    </div>
+    <div class="list-group mb-24" id="sourceList"></div>
+
+    <div class="list-group-header">Backup & Restore</div>
+    <div class="list-group mb-24">
+      <button id="exportMenuBtn" class="info-row w-full clickable text-left">
+        <span class="flex-1">Export Sources</span>
+        <svg class="text-secondary" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+      </button>
+      <button id="importMenuBtn" class="info-row w-full clickable text-left">
+        <span class="flex-1">Import Sources</span>
+        <svg class="text-secondary" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      </button>
+    </div>
+    <input type="file" id="importFileInput" class="hidden" accept=".txt,.json,.list">
+
+    <!-- IO Modal -->
+    <div id="io-modal" class="modal-overlay">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="io-title">Options</h3>
+          <button id="close-io" class="close-btn">&times;</button>
+        </div>
+        <div id="io-list" class="modal-body list-menu">
+           <!-- Dynamic Content -->
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script type="module" data-cfasync="false" src="assets/js/ui/sources.js?v=8"></script>
+</body>
+</html>
