@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "app.mangatan.mangatan",
     "com.noopapp.noop",
-    "eu.vcmi.vcmiclient",
-    "app.mangatan.mangatan"
+    "eu.vcmi.vcmiclient"
   ],
   "apps": [
     {
@@ -63,10 +63,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-08-14T23:56:43Z",
-          "localizedDescription": "Release v6.0.84:\n\n• Fix Windows local sentence audio capture (20c8890).\n• Use profile language fonts in dictionary views (f457964).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Checksums: Checksums. sha256.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.84/Manatan-v6.0.84-iOS.ipa",
-          "size": 349954221,
+          "date": "2026-08-15T14:59:38Z",
+          "localizedDescription": "Release v6.0.85:\n\n• Resume? (697c755).\n• Persist cleared video playback preferences (43efeb5).\n• Support current anime extension APIs (44fd876).\n• Keep video dictionary popups above subtitles (aa48166).\n\n• Prevent passive hover dictionary lookups (f667b2e).\n• Support Kavita image libraries (311ee69).\n• Preserve pronunciation tag selectors in custom CSS (a3bb7bc).\n• Make Android update changelog scrollable (6d2e556).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Checksums: Checksums. sha256.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.85/Manatan-v6.0.85-iOS.ipa",
+          "size": 350038099,
           "minOSVersion": "15.5"
         }
       ],
@@ -133,10 +133,10 @@
       "bundleIdentifier": "com.kryptos.app",
       "developerName": "swisslite",
       "subtitle": "Encrypt right inside any messenger: the keyboard encrypts, the screen decrypts, no jumping between apps. iOS and Android, Signal Protocol, fully offline",
-      "localizedDescription": "Kryptos 🔐:\n\nEnglish · Русский.\n\nEncrypt anywhere. Talk over any channel.\n\nNo accounts. No phone number. No servers. No telemetry. The app has no networking code at all (the Android build ships without the INTERNET permission), and keys are generated on-device and never leave it.\n\nDownload:\n\n• F-Droid — f-droid. org/packages/com. kryptos. android. F-Droid builds Kryptos from source, and the build is signed with the same key as the files here, so it installs over a copy you already have without removing anything, and updates are offered automatically. The simplest route on Android.\n\n• iOS — Kryptos. ipa, unsigned, minimum iOS 17. Which route you need depends on whether you already have a signing certificate:.",
+      "localizedDescription": "Kryptos:\n\nKryptos is an iPhone and Android app that encrypts conversations inside any messenger.\n\nYou type the message straight into WhatsApp, Telegram or an SMS, tap the padlock on the Kryptos keyboard, and the field holds ciphertext instead of your text. On the other end it works the other way round: on Android Kryptos decrypts the text on screen without leaving the messenger, on iPhone it shows the text above the keyboard once the ciphertext is copied. The messenger, the carrier and anyone who intercepts the message on the way see a run of characters they cannot read.\n\nThe app is the same on both systems and uses one format, so it does not matter which phone your contact carries.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.kryptos.app.png",
       "tintColor": "#5060e0",
-      "category": "games",
+      "category": "social",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/swisslite/Kryptos/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
         "https://raw.githubusercontent.com/swisslite/Kryptos/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
