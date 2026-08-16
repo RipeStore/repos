@@ -1345,6 +1345,13 @@
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/org.xbmc.kodi-ios.png",
       "tintColor": "#30a0d0",
       "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/RipeStore/kodi/main/screenshots/screenshot_01.webp",
+        "https://raw.githubusercontent.com/RipeStore/kodi/main/screenshots/screenshot_02.webp",
+        "https://raw.githubusercontent.com/RipeStore/kodi/main/screenshots/screenshot_03.webp",
+        "https://raw.githubusercontent.com/RipeStore/kodi/main/screenshots/screenshot_04.webp",
+        "https://raw.githubusercontent.com/RipeStore/kodi/main/screenshots/screenshot_05.webp"
+      ],
       "versions": [
         {
           "version": "21.3",
