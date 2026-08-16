@@ -94,14 +94,6 @@
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.2.2/ARMSX2-iOS-2.2.2.ipa",
           "size": 19085753,
           "minOSVersion": "17.0"
-        },
-        {
-          "version": "2.2.1-rl4",
-          "date": "2026-06-14",
-          "localizedDescription": "Fix RetroAcheivements login, fix acheivements not popping up in game, improved UI for RetroAcheivements (now available in quick settings to view the list for the current game being played), (still no Hardcore yet, waiting to be approved)\n\nThis release fixes an important bug in memory management that could lead to a crash mid game. Carried over from Mac work done by @isztldav. (Sync ARM64 microVU reserve fix from macOS.)",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.2.1rl4/ARMSX2-iOS-2.2.1-rl4.ipa",
-          "size": 19004346,
-          "minOSVersion": "17.0"
         }
       ],
       "permissions": [
