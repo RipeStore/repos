@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "org.xbmc.kodi-ios",
     "app.mangatan.mangatan",
-    "com.noopapp.noop",
-    "eu.vcmi.vcmiclient"
+    "com.noopapp.noop"
   ],
   "apps": [
     {
@@ -1333,6 +1333,33 @@
           "NSFaceIDUsageDescription": "Manatan uses Face ID to unlock the app when you enable Require unlock.",
           "NSPhotoLibraryAddUsageDescription": "Manatan needs permission to save images to your photo library.",
           "NSPhotoLibraryUsageDescription": "Manatan uses your photo library to select images for text recognition and to save images you choose."
+        }
+      }
+    },
+    {
+      "name": "Kodi",
+      "bundleIdentifier": "org.xbmc.kodi-ios",
+      "developerName": "RipeStore",
+      "subtitle": "Media center for all your digital entertainment",
+      "localizedDescription": "Kodi can be used to play almost all popular audio and video formats around. It was designed for network playback, so you can stream your multimedia from anywhere in the house or directly from the internet using practically any protocol available.\n\nPoint Kodi to your media and watch it scan and automagically create a personalized library complete with box covers, descriptions, and fanart. There are playlist and slideshow functions, a weather forecast feature and many audio visualizations. Once installed, your computer or HTPC will become a fully functional multimedia jukebox.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/org.xbmc.kodi-ios.png",
+      "tintColor": "#30a0d0",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "21.3",
+          "date": "2026-08-16T05:10:11Z",
+          "localizedDescription": "Major user-facing changes include:\n\nVideo.\n\n• Added HDR support on Xbox One.\n• Fixed Blu-ray playback on Linux.\n• Fixed handling of HDR10 light metadata changes.\n• Fixed subtitle selection for ISO 639-1 (two-letter) language codes.\n\nLibrary/Sources and Management.\n\n• Improved speed of video library rescans.\n• Fixed multi-episode files overwriting the first episode.\n• Fixed info dialog for certain Movie Versions.\n• Fixed some false positives detecting Movie Versions.\n\nMusic.\n\n• Fixed CDDB lookups using Gnudb.org's CDDB API.\n• Fixed album search failing for artist names.\n\nAudio.\n\n• Fixed rare Pipewire crash when connecting/removing audio devices.\n\nPVR.\n\n• Fixed crash when a PVR stream is stopped via remote app.\n\nPeripherals.\n\n• Added support for Turkish keyboards on Linux.\n• Fixed enabling and disabling Pulse-Eight CEC adapters.\n• Fixed the Delete and Alternative Insert keys on macOS.\n• Fixed minor visual glitches when managing peripherals.\n\nAddons.\n\n• Fixed updating add-ons after 25 days of inactivity (extended to ~68 years).\n\nSkin/GUI.\n\n• Fixed busy dialog crash when multiple dialogs are opened.\n• Fixed suspend dialog remaining open after the system wakes up.\n• Improved touch support for slider dialog arrows.\n\nNetwork.\n\n• Added support for HTTP Basic Authentication.\n• Fixed some network streams failing due to interrupted HTTP/2 transfers.\n• Updated libnfs to v6 for embedded platforms.\n• Updated CA certificates to 2025-07-15 from the Mozilla CA certificate store.",
+          "downloadURL": "https://github.com/RipeStore/kodi/releases/download/v21.3/org.xbmc.kodi-ios_21.3_iphoneos-arm64.ipa",
+          "size": 267889530,
+          "minOSVersion": "11.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "Used for speech recognition",
+          "NSSpeechRecognitionUsageDescription": "Translate speech to text in virtual keyboard dialog"
         }
       }
     }
