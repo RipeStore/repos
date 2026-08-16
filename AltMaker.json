@@ -377,7 +377,7 @@
         "https://raw.githubusercontent.com/VortXTV/VortX/main/docs/screenshots/detail.png",
         "https://raw.githubusercontent.com/VortXTV/VortX/main/docs/screenshots/streams.png",
         "https://raw.githubusercontent.com/VortXTV/VortX/main/docs/screenshots/player.png",
-        "https://raw.githubusercontent.com/VortXTV/VortX/main/docs/screenshots/discover.png"
+        "https://raw.githubusercontent.com/VortXTV/VortX/main/docs/screenshots/library.png"
       ],
       "versions": [
         {
@@ -693,11 +693,11 @@
       "tintColor": "#f04020",
       "category": "lifestyle",
       "screenshotURLs": [
-        "https://github.com/user-attachments/assets/66653a25-ac97-4f8c-8be1-6c9fceeaf08b",
         "https://raw.githubusercontent.com/OpenStrap/edge/main/screenshots/today.png",
         "https://raw.githubusercontent.com/OpenStrap/edge/main/screenshots/sleep.png",
         "https://raw.githubusercontent.com/OpenStrap/edge/main/screenshots/heart.png",
-        "https://raw.githubusercontent.com/OpenStrap/edge/main/screenshots/stress.png"
+        "https://raw.githubusercontent.com/OpenStrap/edge/main/screenshots/stress.png",
+        "https://raw.githubusercontent.com/OpenStrap/edge/main/screenshots/breathing.png"
       ],
       "versions": [
         {
@@ -920,7 +920,6 @@
       "tintColor": "#00e090",
       "category": "lifestyle",
       "screenshotURLs": [
-        "https://raw.githubusercontent.com/ryanbr/noop/main/docs/assets/hero-v8.jpg",
         "https://raw.githubusercontent.com/ryanbr/noop/main/docs/assets/shot-ios-today.png",
         "https://raw.githubusercontent.com/ryanbr/noop/main/docs/assets/shot-android-today.png",
         "https://raw.githubusercontent.com/ryanbr/noop/main/docs/assets/shot-android-trend.png"
@@ -1304,8 +1303,7 @@
       "category": "entertainment",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/KolbyML/Manatan/master/docs/assets/screenshots/manga-library.png",
-        "https://raw.githubusercontent.com/KolbyML/Manatan/master/docs/assets/screenshots/manga-reader-dictionary.png",
-        "https://raw.githubusercontent.com/KolbyML/Manatan/master/docs/assets/screenshots/video-dictionary-overlay.png"
+        "https://raw.githubusercontent.com/KolbyML/Manatan/master/docs/assets/screenshots/manga-reader-dictionary.png"
       ],
       "versions": [
         {
