@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "sh.mateo.empo",
     "com.noopapp.noop",
-    "app.mangatan.mangatan",
-    "com.stremiox.app.native"
+    "com.randomityguy.mbuhaxe"
   ],
   "apps": [
     {
@@ -926,11 +926,11 @@
       ],
       "versions": [
         {
-          "version": "10.1.0",
-          "date": "2026-08-16T13:24:31Z",
-          "localizedDescription": "NOOP v10.1.0:\n\nA release about giving you your own numbers — heart-rate zones you set, two straps you can compare and switch between — and about the numbers you already have being more honest: HRV that admits when a night is unreliable, sleep debt measured against your own need, and cleaner Oura nights. It builds on 10.0.0. Everything still runs on your own device, offline, with no account.\n\nScores that change:\n\nRead this first — a few changes alter values you have already seen.\n\n• HRV on an over-counted WHOOP 4.0 night is now flagged (#1118). When a night's R-R stream is over-counted, the HRV number is captioned unverified rather than shown as fact. The value is not changed yet — the fix for the count itself is still landing — but you will now see which nights to distrust.\n• Sleep debt is measured against your personalized need (#1348), not a fixed target, so your debt figure reflects how much sleep you actually need.\n• Rest and readiness gain a previously-disconnected methodology (#456, #1335). Scoring logic that had been built but never wired in is now part of Rest and readiness, which moves those scores.\n• Duplicate and phantom Oura sleep nights are collapsed (#1284, #1338). A pre-onset fragment or a re-banked copy that used to show as a second, wrong night is now folded into the real one — so an affected Oura night reads once, at the right window.\n• Nightly SDNN is now stored alongside RMSSD (#1334). A broader autonomic-variability figure (the 5-minute SDNN index) is kept beside the usual HRV; a mislabelled HealthKit SDNN export is corrected.\n\nNew:\n\n• Personalized heart-rate zones (#531). Set custom BPM thresholds in a Settings editor; the whole app — every zone read-out, and your .noopbak backup — routes through your effective zone set.\n• Compare two straps, and switch the active one (#1300). A two-strap comparison engine and a Compare-Straps card correlate two devices you own; a strap switcher flips which one is active. The data is correlated, never combined.\n\n• Polish localization (#1250).\n• A truthful empty state for the experimental Rhythm view (#1360) — an honest \"no data\" when a device can't support the reading, rather than a blank or a guess.\n• Unlock VO₂max, with tappable fixes (#1333). The Fitness card surfaces what's missing and how to provide it.\n• Five more WHOOP-catalogue sports (#1327), and per-sport workout icons on Android (#1329) to match iOS.\n• Hide cycle awareness entirely (#1380) — a private, user-controlled choice, never based on age.\n• Save custom journal behaviours to your backup (#1361), and a clinician-share export builder for Rhythm (#1298).\n• See background syncing in the Today battery indicator (#837).\n\nFixed:\n\n• Sleep no longer truncates today's read at 18:00 (#1370), and sleep edit/delete now resolves the owner across every namespace it can appear under (#1325).\n• Multi-strap correctness (#1304, #512). WHOOP badge day/workout/HR counts now sum across every strap you own, and the live paths read the active strap instead of a hardcoded id.\n• A paired device's name is no longer hardcoded to \"WHOOP 4.0\" (#1355, thanks @pipiche38).\n• Respiratory rate is labelled as the on-device estimate it is on both WHOOP generations (#1367) — it was never read off the strap.\n• Today's carried-over vitals stop reading as a fresh measurement (#1312, #1331), honouring °C/°F on skin temperature and bounding the carry.\n• A declined file picker no longer wedges the Backup screen (#1324); the Deep-Timeline chart no longer hijacks a touch scrub with a pan (#1343); the manual-workout sheet scrolls instead of shifting (#1336).\n• German strap-gender wording in Android onboarding (#1358, thanks @ben-tsk).\n• A Stress Index reading is refused from a mostly-rejected spot capture (#1340), and the phone HR-broadcast warning on the Data Sources card is corrected and clarified (#159).\n• A batch of i18n fixes, including catching translations that were still the English source (#1369).\n\nUnder the hood:\n\nDiagnostics and instrumentation that don't change what you see, but make the next fixes possible: an Oura cross-connection duplicate-generation diagnostic and its follow-ups (#1339, #1353, #1354, thanks @pipiche38), a shadow-logged deduped R-R stream to validate the HRV over-count fix (#1352), a WHOOP-4.0 serial-locating dump (#1303), and a set of offline WHOOP reverse-engineering tools (#1306). Plus assorted performance work on the analyze pass and the Explore screen (#1346, #1368).\n\nThanks:\n\n• @ben-tsk — the German strap-gender fix in Android onboarding (#1358).\n\n• analytics: two-strap comparison engine (#1300 tier 2 — correlate, not combine).\n• devices: strap switcher to flip the active strap (#1300 — switch, don't combine).\n• devices: compare-straps card, wiring the #1302 engine (#1300 tier 2).\n• whoop-re: offline decode-coverage, capture-diff, inventory & ground-truth RE tools.\n• whoop-re: gravity2 characterizer (instrument-only, #1308).\n\n• Separate the two enumeration terminators: don't stop a key walk on validKey=0 (#761, #103).\n• feature-flag probe: log raw frame on a SEND_NEXT decode failure too (follow-up to #917).\n• Sleep stages: label the night carousel by calendar nights, not recorded-night index (#1311).\n• vitals: bound the carry so a stale value stops reading as today's measurement.\n• rhythm: non-diagnostic clinician-share export builder (#1298, data layer).\n• Oura #1284: persisted-session log prints the stored (post-trim) window.\n• feat(i18n): add Polish localization.\n\n• Personalized HR zones — analytics core (recreates #531, 1/3).\n• Personalized HR zones — backup contract (recreates #531, 2/3).\n• Personalized HR zones — Profile model (recreates #531, 3a).\n• Personalized HR zones — route consumers through effective set (recreates #531, 3b).\n• Personalized HR zones — Settings editor (recreates #531, 3c · final).\n• fix(backup): stop a silently-declined picker from wedging the Backup screen.\n• fix(sleep): resolve edit/delete owner across every visible namespace.\n• fix(workouts): show \"–\" not \"0.0 km\" when no workout has distance.\n• feat(workouts): add 5 WHOOP-catalogue sports NOOP was missing.\n• feat(workouts): per-sport Android icons, parity with iOS.\n• fix(sleep): honour the Day-cycle background toggle on the iOS Sleep tab (#1319).\n• fix(today): carry last-known respiratory + diagnostic logging (#1331).\n• feat(fitness): surface how to unlock VO₂max + tappable fixes.\n• Show background syncing through the Today battery indicator.\n\n• Persist SDNN alongside RMSSD (5-min index); fix HealthKit SDNN export mislabel (rebase of #475).\n• Wave 0 scoring: wire computed-but-disconnected methodology into Rest + readiness.\n• Readiness RD2 window-fold + Kotlin twin (rebase of #469).\n• fix(workouts): scroll the manual-workout sheet instead of rigidly shifting it (rebase of #521).\n• fix(sleep): collapse a near-adjacent pre-onset fragment in the dedup heal (#1284).\n• feat(oura): cross-connection duplicate-generation diagnostic (#1284, log-only).\n• fix(stress): refuse a Stress Index reading from a mostly-rejected spot capture.\n• perf(offload): skip the hex dump of all-zero rejected frames (#1007).\n• fix(chart): stop the pan hijacking a touch scrub on the Deep Timeline (#1342, Bug 1).\n• diag(battery): log each analyzeRecent run's night count + duration (#1005).\n\n• perf(android): skip the redundant per-day store re-read in analyzeRecent (#997 twin).\n• cleanup: remove orphaned HapticClockEncoder (superseded by HapticClock).\n• fix(sleep): measure sleep debt against the engine's personalized need (#242).\n• feat(hrv): persist a per-night R-R over-count flag for the HRV caveat (#1118).\n• feat(hrv): caption an over-counted night's HRV reading \"unverified\" (#1118, part 2).\n• settings: move HRV tuning into Advanced (declutter, recreates #518 core).\n• diag(hrv): shadow-log a deduped R-R stream to validate the over-count fix (#1331/#1008/#1118).\n• fix(today): bound the classic dashboard's vital carry, one skin-temp format (#1331 display facet, both platforms).\n• Fix German Strap gender in Android onboarding.\n• fix(diagnostics): a clipped log generation must say it lost its head.\n• fix(oura): #1339 follow-ups — contain the dup-gen diagnostic, and log what adjudicates.\n• fix(ble): stop hardcoding device.name to \"WHOOP 4.0\" for every paired device.\n\n• fix(ui): respiratory rate is an on-device estimate on BOTH gens, not read off the strap (supersedes #1365).\n• perf(explore): stop reading sixty histories before drawing one metric.\n• fix(i18n): catch translations that are still the English source (both platforms).\n• fix(sleep): stop truncating today's sleep read at 18:00 (both platforms, supersedes #1363).\n• fix(health): guard the HealthKit share set against read-only types (a launch-crash footgun).\n• feat(backup): save custom journal behaviours to the .noopbak (#1361).\n• feat(rhythm): a truthful empty state when a device can't support the reading (#1360).\n• fix(multi-whoop): read the active strap, not a hardcoded \"my-whoop\", on the Kotlin #512-class paths (#1304).\n• fix(data-sources): count WHOOP badge days/workouts/HR across the strap union (#1304).\n• Charge: parasympathetic-saturation guard on the low-HRV penalty.\n• fix(data-sources): correct + fold the phone HR-broadcast enabled warning, clarify the card (#159).\n• diag(ble): dump the GET_HELLO_HARVARD (cmd 35) response to locate the WHOOP-4.0 serial (#1303).\n• feat(polar): PMD control-point command layer + model capability catalog (both platforms).\n• feat(ble): order the discovered HR-strap list by proximity (strongest RSSI first).\n• Let users hide cycle awareness entirely (a private choice, never age-based).\n• Polar strap-identity diagnostic behind a paired-only debug toggle.\n• fix(sleep): collapse a grazing pre-onset fragment; stop merging adjacent naps (#1284).\n• fix(test): WhoopStore SleepSessionDedupTests must @testable-import (CI red on main).\n• feat(oura): decode 0x6A sleep_period_info and instrument the ring's breath rate.\n\nNew Contributors:\n\n• @AveMonti made their first contribution.\n• @dnesdan made their first contribution.\n\nDownloads — NOOP Staging identity, installs beside the official app (separate data):\n\n• Android — NOOP-android-v10.1.0.apk (com.noop.whoop.staging).\n• macOS — NOOP-macos-v10.1.0.zip (unzip, then right-click → Open).\n• iOS — NOOP-ios-unsigned-v10.1.0.ipa (AltStore / Sideloadly).",
-          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v10.1.0/NOOP-ios-unsigned-v10.1.0.ipa",
-          "size": 18590533,
+          "version": "10.1.1",
+          "date": "2026-08-17T04:35:38Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.1.1).\n\n• Android (debug) — NOOP-android-debug-v10.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.1.1 · built 2026-08-17 · 5894735.",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v10.1.1.ipa",
+          "size": 18748578,
           "minOSVersion": "17.0"
         }
       ],
@@ -1389,6 +1389,1151 @@
       ],
       "appPermissions": {
         "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "MaskPad",
+      "bundleIdentifier": "com.chrissotraidis.maskpad",
+      "developerName": "chrissotraidis",
+      "subtitle": "The Legend of Zelda: Majora's Mask via 2 Ship 2 Harkinian, rebuilt for iPhone and iPad",
+      "localizedDescription": "MaskPad:\n\nMaskPad packages the full 2 Ship 2 Harkinian source port as a native landscape iOS/iPadOS app. It renders through Metal, imports a user-provided supported Majora's Mask ROM through Files, and adds a phone/tablet touch controller with movable, resizable, and hideable controls.\n\nThis repository contains the mobile integration and reproducible build scripts. It does not contain Majora's Mask, a ROM, or a playable ROM-derived archive. See the scoped rights and licensing boundary; it does not relicense third-party projects or game material.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.chrissotraidis.maskpad.png",
+      "tintColor": "#301000",
+      "category": "games",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/chrissotraidis/maskpad/main/docs/readme/maskpad-swamp-ipad.jpg",
+        "https://raw.githubusercontent.com/chrissotraidis/maskpad/main/docs/readme/maskpad-clock-town-story-ipad.jpg",
+        "https://raw.githubusercontent.com/chrissotraidis/maskpad/main/docs/readme/maskpad-clock-town-ipad.jpg",
+        "https://raw.githubusercontent.com/chrissotraidis/maskpad/main/docs/readme/maskpad-stock-pot-inn-ipad.jpg"
+      ],
+      "versions": [
+        {
+          "version": "0.1.1",
+          "date": "2026-08-12T20:19:48Z",
+          "localizedDescription": "MaskPad v0.1.1:\n\nThis release updates the public ROM-free unsigned IPA to current MaskPad main, including the clarified Documents/LiveContainer ROM guidance, working in-app Rescan retry, and controller gyro setup guidance.\n\nDownload:\n\n• MaskPad-0.1.1-unsigned.ipa.\n• MaskPad-0.1.1-unsigned.ipa.sha256.\n\nVerify both files from the same directory with:\n\nExpected SHA-256: 5d3bf7d74b25b98cbc19c54824b2c47527b9702c866552efa1b722fe69deff4e.\n\nPackage boundary:\n\n• arm64 iPhone and iPad app, version 0.1.1 (build 2), minimum iOS/iPadOS 14.0.\n• unsigned: re-sign with your own Apple account before standard-device installation.\n• no Majora’s Mask ROM, generated mm.o2r, saves, signing material, or other user-owned data.\n\nActual wired DualShock 4 motion input on a physical iPad remains a hardware acceptance gate. LiveContainer’s expected Documents location is documented, but complete LiveContainer compatibility is not claimed.",
+          "downloadURL": "https://github.com/chrissotraidis/maskpad/releases/download/v0.1.1/MaskPad-0.1.1-unsigned.ipa",
+          "size": 17503955,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "VNDS",
+      "bundleIdentifier": "me.octonezd.vnds",
+      "developerName": "OctoNezd",
+      "subtitle": "A visual novel player for iOS",
+      "localizedDescription": "VNDS-LOVE-TOUCH:\n\nVNDS-LOVE-TOUCH is a fork of VNDS-LOVE designed to work with touchscreens, particularly iPadOS devices.\n\nVNDS-LOVE is a cross platform program that plays Visual Novel Dual Screen formatted novels. Many famous visual novels have been ported to this format, which was designed for the Nintendo DS.\n\nWhat is VNDS?:\n\nVNDS novels only have a few commands. As such, they don't have any support for animations, videos, or other fancier graphical capabilites of newer visual novels. They support basic audio and image based storytelling.\n\nProject Status:\n\nMostly functional. There are no known VNDS related bugs. Note that some features from other visual novel engines might be missing. If they are, file an issue along with a general description of the feature.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/me.octonezd.vnds.png",
+      "tintColor": "#f09000",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.2.1",
+          "date": "2026-07-18T21:02:28Z",
+          "localizedDescription": "• Fix #1 (cleartext + newlines).\n\n• Update CI.",
+          "downloadURL": "https://github.com/OctoNezd/VNDS-LOVE-TOUCH/releases/download/0.2.1/VNDS.ipa",
+          "size": 6869294,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Stable Action",
+      "bundleIdentifier": "com.rudrashah.Stable-Action",
+      "developerName": "scienceLabwork",
+      "subtitle": "Samsung Super Steady Horizon Lock - rebuilt for iPhone",
+      "localizedDescription": "Overview:\n\nSamsung's Galaxy S26 Ultra ships a feature called Super Steady with Horizon Lock that keeps your footage perfectly level no matter how much you tilt or shake the phone. It's one of the most impressive stabilisation tricks in mobile cameras right now - and it was exclusive to Android.\n\nStable Action brings that exact same experience to iOS. Point it at anything, tilt your wrist, run, jump, ride - the horizon stays locked flat, just like on the S26 Ultra. Built entirely in native Swift, runs 100% on-device, no subscriptions, no cloud.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.rudrashah.Stable-Action.png",
+      "tintColor": "#f00000",
+      "category": "other",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-03-01T10:10:05Z",
+          "localizedDescription": "What's new.\n\n• Normal Recording Bug Fixed.\n• New Gallery View.\n• Added Stability overall.",
+          "downloadURL": "https://github.com/scienceLabwork/Stable-Action/releases/download/V1.0.1/StableActionV1.0.1.ipa",
+          "size": 2669757,
+          "minOSVersion": "26.2"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "To test algorithms",
+          "NSMicrophoneUsageDescription": "To test microphone",
+          "NSPhotoLibraryAddUsageDescription": "To store photo",
+          "NSPhotoLibraryUsageDescription": "To browse your recordings in the gallery"
+        }
+      }
+    },
+    {
+      "name": "Synkplay",
+      "bundleIdentifier": "com.yuroyami.syncplay.iosApp",
+      "developerName": "yuroyami",
+      "subtitle": "📱 Syncplay Mobile (now Synkplay) is a Syncplay client app for Android and iOS. Watch stuff in sync with your friends. Compatible with Syncplay PC. Fully written in Kotlin and Compose multiplatform",
+      "localizedDescription": "📱 Syncplay Mobile (now Synkplay) is a Syncplay client app for Android and iOS. Watch stuff in sync with your friends. Compatible with Syncplay PC. Fully written in Kotlin and Compose multiplatform.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.yuroyami.syncplay.iosApp.png",
+      "tintColor": "#6156e2",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.23.0",
+          "date": "2026-06-13T03:04:40Z",
+          "localizedDescription": "Synkplay is available on Apple store and Google Play store.\n\nChanges:\n\n• Fixed file privacy modes breaking sync checks with PC users: hashed filenames now match the desktop client's logic.\n• Fixed false \"file mismatch\" warnings: comparison is now case-insensitive, cross-checks raw against hashed names, and tolerates duration differences under 2.5 seconds.\n\n• Fixed a disconnect loop in large rooms caused by a too-small inbound message buffer.\n• Fixed a crash when TLS negotiation fails; a bad server certificate now shows a connection failure and retries.\n• Fixed a native thread leak on every reconnect attempt (Android).\n• Fixed memory leaks on iOS when leaving a room: all three player engines now fully shut down their position trackers on exit.\n• Removed an artificial 100 ms per-message delay on the Ktor network engine that lagged room joins and skewed latency measurement.\n\n• Shared playlist size limits (250 items / 10,000 characters) are now enforced with an upfront warning, matching the official server; the built-in server enforces the same on incoming playlists.\n• Controllers can now set other users' readiness across clients: the setOthersReadiness capability is advertised both ways, and \"X was set as ready by Y\" is announced in the room.\n• Users switching rooms now appear and disappear from the user list immediately instead of lingering for up to 15 seconds.\n• Server error messages (such as \"Wrong password supplied\") are now shown in the room instead of failing silently into an endless reconnect loop.\n• Trusted domains now match the desktop client exactly: exact host, www variant, *.wildcards, and path prefixes; arbitrary subdomains are no longer trusted implicitly.\n\n• Fixed a possible crash when leaving a room while the player engine fails to shut down.\n• mpv on iOS no longer auto-plays right after loading media; it now waits for the room or the user to unpause, matching Android.\n\nTranslations:\n\nTranslations are now live on Weblate — you can contribute by visiting the hosted Weblate project to translate existing strings or add a new language entirely. Contributions are very welcome since I do add and edit strings fairly regularly and it's easy for some languages to fall behind.\n\n iOS — How to install:\n\nAn .ipa is attached to this release.\n\n🤖 Android — How to install:\n\nThe app is on Google Play, but releases there may be delayed by review times. Downloading the APK directly from here ensures you get the latest version.\n\nUse universal if you're unsure which APK to pick. Most modern phones should use arm64-v8a; if that doesn't work, try armeabi-v7a. x86_64 and x86 builds are available too.\n\nIf you don't need multi-engine support, syncplay-version-exo-only.apk is the smallest option. Otherwise, I recommend the full APK for mpv/VLC support (more potent video player engines).",
+          "downloadURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.23.0/synkplay-0.23.0-ios.ipa",
+          "size": 89785854,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Synkplay saves video screenshots to your photo library."
+        }
+      }
+    },
+    {
+      "name": "iTransmission",
+      "bundleIdentifier": "com.plusmediapps.itransmission",
+      "developerName": "alexsvitlov",
+      "subtitle": "Fast and Lightweight Torrent App for iOS",
+      "localizedDescription": "Info:\n\niTransmission is a new and revamped version of the original app. iTransmission is a fast, easy and Free Bittorrent Client for iOS. This app is powered by the latest Trasnmission library and it will be updated when the awesome Transmission team updates the Transmission lib.\n\nFeatures of the app:\n\n• Open external torrent files via the app.\n\n• Suppots File app and file sharing.\n\n• Dark Mode.\n\nSupports iOS 13 and up.\n\nBuild:\n\nSimply download or clone the project, open XCode and run the app.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.plusmediapps.itransmission.png",
+      "tintColor": "#d060a0",
+      "category": "other",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2024-01-12T20:05:56Z",
+          "localizedDescription": "The very first release of iTransmission app for iOS.",
+          "downloadURL": "https://github.com/alexsvitlov/iTransmission/releases/download/1.0.0/iTransmission.ipa",
+          "size": 3718662,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Session",
+      "bundleIdentifier": "com.loki-project.loki-messenger",
+      "developerName": "session-foundation",
+      "subtitle": "Session iOS - A Decentralized, Onion Routed, Private Messenger",
+      "localizedDescription": "Session iOS:\n\nDownload Session on the App Store.\n\nBuild instructions:\n\nBuild instructions can be found in BUILDING.md.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.loki-project.loki-messenger.png",
+      "tintColor": "#00f080",
+      "category": "social",
+      "screenshotURLs": [
+        "https://i.imgur.com/Ioub5bx.png"
+      ],
+      "versions": [
+        {
+          "version": "2.15.4",
+          "date": "2026-07-29T20:30:05Z",
+          "localizedDescription": "• [Automated] Update fallback static snode list.\n\n• Removed synchronous log flush from scene lifecycle callbacks.\n\n• Fix number 1 crash: off-main-thread Auto Layout background crash.",
+          "downloadURL": "https://github.com/session-foundation/session-ios/releases/download/2.15.4/session-2.15.4.ipa",
+          "size": 46295255,
+          "minOSVersion": "15.6"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Session needs to use Apple Music to play media attachments.",
+          "NSCameraUsageDescription": "Session needs camera access to take pictures and scan QR codes.",
+          "NSFaceIDUsageDescription": "Session's Screen Lock feature uses Face ID.",
+          "NSLocalNetworkUsageDescription": "Session needs access to local network to make voice and video calls.",
+          "NSMicrophoneUsageDescription": "Session needs access to your microphone for calls and to send to audio messages.",
+          "NSPhotoLibraryAddUsageDescription": "Session needs access to your library to save photos.",
+          "NSPhotoLibraryUsageDescription": "Session needs access to your library to update your avatar and send photos."
+        }
+      }
+    },
+    {
+      "name": "SakayoriMusic",
+      "bundleIdentifier": "com.sakayori.music",
+      "developerName": "Sakayorii",
+      "subtitle": "cross-plarform music app using Youtube Music API",
+      "localizedDescription": "SakayoriMusic:\n\nA modern, cross-platform YouTube Music client built with Kotlin Multiplatform & Compose.\n\n⚠️ Important (Windows): Windows Defender may delete the app after reboot because it is unsigned. Open PowerShell as Administrator and run:\n\nThis only needs to be done once.\n\nAbout:\n\nSakayoriMusic is a free and open-source music streaming client that brings the YouTube Music experience to multiple platforms. Originally rebuilt from SimpMusic 1.1.0, it has evolved into a modernized, performant, and feature-rich music player with native support for both mobile and desktop.\n\nFeatures:\n\n• Stream music from YouTube Music with full library access.\n• Cross-platform support for Android, iOS, Windows, Linux, and macOS.\n• Liquid Glass UI with native macOS-style design on desktop.\n• Built-in lyrics with synced rich-sync support.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.sakayori.music.png",
+      "tintColor": "#10d0f0",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Sakayorii/sakayori-music/main/docs/images/screenshot_home.png",
+        "https://raw.githubusercontent.com/Sakayorii/sakayori-music/main/docs/images/screenshot_player.png",
+        "https://raw.githubusercontent.com/Sakayorii/sakayori-music/main/docs/images/screenshot_library.png",
+        "https://raw.githubusercontent.com/Sakayorii/sakayori-music/main/docs/images/screenshot_lyrics_system.png",
+        "https://raw.githubusercontent.com/Sakayorii/sakayori-music/main/docs/images/screenshot_settings.png"
+      ],
+      "versions": [
+        {
+          "version": "2.1.6",
+          "date": "2026-05-20T07:22:11Z",
+          "localizedDescription": "Redesigned setup flow with theme, language, permission and profile steps Smoother play/pause/skip button animations New navy blue and black color palette, with OLED dark mode Faster app startup, fixed welcome screen flash on relaunch Reduced lag and smoother blur on weak devices Fixed stream extraction failures with clearer error reasons More accurate hardware detection on desktop Crash reporting now auto-enabled Fixed update notification showing older versions Various bug fixes and stability improvements.",
+          "downloadURL": "https://github.com/Sakayorii/sakayori-music/releases/download/v2.1.6/SakayoriMusic-2.1.6.ipa",
+          "size": 96618256,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "SakayoriMusic needs access to your photo library to set custom playlist artwork and profile pictures."
+        }
+      }
+    },
+    {
+      "name": "CrisperWeaver",
+      "bundleIdentifier": "com.crispstrobe.crisperweaver",
+      "developerName": "CrispStrobe",
+      "subtitle": "On-device speech recognition + text-to-speech",
+      "localizedDescription": "CrisperWeaver:\n\n• On-device speech recognition + text-to-speech. No cloud required. 40+ model families, one app.\n• [crispasr]: https://github.com/CrispStrobe/CrispASR\n\nWhat you can do:\n\n• Transcribe any audio file — WAV / MP3 / FLAC decoded on-device, no ffmpeg required.\n• Batch-process multiple files — drop many onto the window or onto the Batch Queue card, \"Transcribe all\" drains serially; each run lands in History.\n• Record from the mic and transcribe live.\n\n• Drag and drop files onto the transcription screen (desktop) or directly on the batch queue.\n• Receive shared audio from the OS share sheet (Android / iOS / macOS).",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.crispstrobe.crisperweaver.png",
+      "tintColor": "#103050",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.9.9",
+          "date": "2026-08-05T04:06:04Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/CrispStrobe/CrisperWeaver/releases/download/v0.9.9/crisper_weaver-ios-unsigned.ipa",
+          "size": 21657799,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSDocumentsFolderUsageDescription": "This app needs access to documents to save and load audio files and transcriptions.",
+          "NSDownloadsFolderUsageDescription": "This app needs access to downloads to import audio files for transcription.",
+          "NSLocalNetworkUsageDescription": "CrisperWeaver needs this only if you turn on its built-in transcription server, so other apps can send it audio. The server is off by default and accepts connections from this device unless you change its address.",
+          "NSMicrophoneUsageDescription": "This app needs access to the microphone to record audio for transcription.",
+          "NSPhotoLibraryUsageDescription": "This app needs access to photo library to import media files for transcription."
+        }
+      }
+    },
+    {
+      "name": "Absorb",
+      "bundleIdentifier": "com.barnabas.absorb",
+      "developerName": "pounat",
+      "subtitle": "A cross platform Audiobookshelf client for Android and iOS",
+      "localizedDescription": "Absorb:\n\nA modern audiobookshelf client with a card-based player experience.\n\nA note on AI: Absorb is developed by a human with AI assistance (mostly Claude Code) helping write, refactor, and review code. It's not \"vibe coded\" or auto-generated, every change is reviewed, tested, and shipped intentionally. That said, I'm all in on AI as a development tool. It massively speeds up the work and lets a solo developer ship features and fixes at a pace that wouldn't be possible otherwise. I'm sharing this openly so you know what's behind the app.\n\nFeatures:\n\n• Card-based player — full-screen \"Absorbing\" cards replace the traditional player screen.\n• Audiobookshelf integration — connects to your self-hosted audiobookshelf server.\n\n• Podcast support — chaptered podcasts with rich HTML descriptions.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.barnabas.absorb.png",
+      "tintColor": "#60b0b0",
+      "category": "developer",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/pounat/absorb/main/screenshots/absorbing.png",
+        "https://raw.githubusercontent.com/pounat/absorb/main/screenshots/library.png",
+        "https://raw.githubusercontent.com/pounat/absorb/main/screenshots/details.png",
+        "https://raw.githubusercontent.com/pounat/absorb/main/screenshots/fullScreen.png",
+        "https://raw.githubusercontent.com/pounat/absorb/main/screenshots/stats.png"
+      ],
+      "versions": [
+        {
+          "version": "1.9.2",
+          "date": "2026-07-14T00:07:55Z",
+          "localizedDescription": "New:\n\n• The Android home screen widget resizes from a tile to a full player with live progress; iOS gets a new widget too.\n• Pick your own app color, or match the book cover, with flat light and dark themes.\n• A customizable stats page with Year in Review.\n• In-app admin area for libraries, server settings, stats, uploads, and cleaning up missing items.\n• Set cover shape and skip amounts per library, with optional long-skip buttons.\n• Collections and playlists get their own Lists tab, with bulk-add and inline playback.\n• Export a bookmark as an audio clip.\n• AirPlay button on iPhone and iPad.\n\n• Long-press shortcuts on the bottom bar.\n• See your listening sessions for any book or podcast.\n• Lock the screen in portrait from Settings.\n\nImproved:\n\n• Search is more forgiving of typos, word order, and punctuation.\n• Now playing shows the chapter as the title everywhere - lock screen, notification, Android Auto, CarPlay, and widgets.\n\n• Backups now include ebook highlights and notes.\n\nFix:\n\n• Heavy battery use while paused.\n• SSO login behind a proxy that needs custom headers.\n• Falls back to the remote server when the local address stops answering.\n• The equalizer no longer goes silent after switching books or updating the app.\n• The app no longer opens a second time in your recent apps when you tap the notification.\n\n• The library fills the whole screen on tablets now.\n• Lockscreen, notification, and headset controls no longer stop responding after background playback finishes.\n• The progress bar no longer overshoots your actual position while paused.\n• Installing an update while listening no longer freezes the app on launch or leaves the widget stuck on playing.",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.9.2/absorb-1.9.2-217.ipa",
+          "size": 41619340,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Absorb does not use the camera. This entry is required because a third-party library Absorb depends on references the camera API.",
+          "NSLocationWhenInUseUsageDescription": "Absorb does not use your location. This entry is required because a third-party library Absorb depends on references the location API.",
+          "NSMicrophoneUsageDescription": "Absorb may use the microphone for audio features.",
+          "NSMotionUsageDescription": "Absorb uses motion to detect shaking, which can reset or extend your sleep timer.",
+          "NSPhotoLibraryUsageDescription": "Absorb needs access to your photo library to save or select images."
+        }
+      }
+    },
+    {
+      "name": "Mori",
+      "bundleIdentifier": "com.mori.downloader",
+      "developerName": "coflyn",
+      "subtitle": "Client-side downloader app built with Capacitor",
+      "localizedDescription": "Mori is a fast and simple downloader for saving videos, photos, and music from 14 popular social media apps. Everything works directly on your device without any external servers or tracking — giving you total privacy and zero ads.\n\nWhat's New in v4.2.1:\n\n• Batch Photo Mode Setting: Added a new Batch Photo Mode dropdown in Settings (Network & Performance) with 3 customizable options for multi-photo / carousel posts (TikTok Photo Mode, Instagram carousels, RedNote albums):.\n\nSmart Media Type Differentiation: Batch mode intelligently distinguishes single video posts (such as TikTok videos with SD, HD, and MP3 quality mirrors) from genuine photo slideshow carousels, ensuring video posts download only 1 primary video file while carousel posts apply the user's selected Batch Photo Mode.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.mori.downloader.png",
+      "tintColor": "#6156e2",
+      "category": "other",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/coflyn/Mori/main/assets/1.png",
+        "https://raw.githubusercontent.com/coflyn/Mori/main/assets/2.png",
+        "https://raw.githubusercontent.com/coflyn/Mori/main/assets/3.png",
+        "https://raw.githubusercontent.com/coflyn/Mori/main/assets/4.png",
+        "https://raw.githubusercontent.com/coflyn/Mori/main/assets/5.png"
+      ],
+      "versions": [
+        {
+          "version": "4.2.0",
+          "date": "2026-08-15T22:23:40Z",
+          "localizedDescription": "What's New in v4.2.1.\n\n• 100% 14-Platform Subfolder Coverage: Extended per-platform auto-folder categorization to cover all 14 platforms and short link domains (TikTok, IG, YouTube, Twitter/X, Facebook, Pinterest, Spotify, Apple Music, Threads, RedNote, Bilibili, Pixiv, Bandcamp).\n• 4-Digit PIN Passcode Lock System: Added PIN Code as a brand-new Lock Type option alongside Biometric authentication across Mobile and Desktop.\n• Audio Background Playback Fix: Added centralized stopAllMedia helper to automatically pause audio/video previews when closing modals or switching tabs.\n\n• RedNote / Xiaohongshu Scraper Fix: Replaced third-party API with direct HTML state extraction (window.INITIAL_STATE) and added rednote.com domain support.\n• Bilibili.tv Scraper Fix: Fixed episode_id resolution and enabled season_id fallback for anime/play URLs.\n• YouTube Scraper (YTMP3.gg) Fix: Converted API requests to sequential calls with delay guards and YTMP3.mobi fallback.\n• Twitter/X Scraper (TVD) Resolution Label Fix: Filtered out upsell text and dynamically extracted dimensions directly from Twitter CDN URLs.\n• Instagram Scraper Fixes: Fixed DownReels JSON errors, InDown redirect loops, and added Mobile Safari direct embed fallback parsing.\n• Network & Settings Refinements: Fully integrated Anti-403 Header Guard, Cellular Data Warning Modal, Bypass SSL Errors, Force IPv4 Mode, static icon positioning, and isolated history cards.",
+          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.2.1/Mori.v4.2.1.ipa",
+          "size": 1469505,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Unlock Mori to access your download history",
+          "NSPhotoLibraryAddUsageDescription": "Save downloaded videos and photos to your library",
+          "NSPhotoLibraryUsageDescription": "Save downloaded videos and photos to your library"
+        }
+      }
+    },
+    {
+      "name": "SkyStream",
+      "bundleIdentifier": "dev.akash.skystream",
+      "developerName": "akashdh11",
+      "subtitle": "SkyStream is a modern, cross-platform media streaming client inspired by CloudStream. It uses a custom JavaScript runtime for plugins, allowing users to scrape and stream content from various sources on Android, iOS, Windows, macOS, and Linux from a single codebase",
+      "localizedDescription": "SkyStream:\n\n⚠️ Warning: By default, this app doesn't provide any video sources; you have to install extensions to add functionality to the app.\n\nA new, cross-platform media streaming application inspired by CloudStream.\n\nNote: This project is an independent application built with Flutter. While it supports similar extension formats, it is a simplified, modern re-imagining and is not a direct clone or fork of the official client.\n\nPlease don't create illegal extensions or use any that host any copyrighted media. This project does not condone copyright infringement.\n\nOverview:\n\nSkyStream is a modern, media streaming client. It draws inspiration from the versatile architecture of CloudStream but implements a custom, cross-platform JavaScript engine for extensions, enabling support for Android, iOS, and Desktop from a single codebase.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/dev.akash.skystream.png",
+      "tintColor": "#000020",
+      "category": "other",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/akashdh11/skystream/main/screenshots/mobile/home.png",
+        "https://raw.githubusercontent.com/akashdh11/skystream/main/screenshots/mobile/details.png",
+        "https://raw.githubusercontent.com/akashdh11/skystream/main/screenshots/mobile/settings.png"
+      ],
+      "versions": [
+        {
+          "version": "2.7.6",
+          "date": "2026-08-03T02:00:37Z",
+          "localizedDescription": "🎬 Media Player & Subtitle Enhancements (PR #75 & PR #81):\n\n• Player Control Toggles – Added customizable visibility toggles for player control buttons in player settings.\n• Cache Management – Added dedicated setting to clear image and video cache.\n• Hotstar-Style Subtitles – Replaced custom subtitle view with configurable Hotstar-style subtitle rendering and improved subtitle parsing robustness.\n\n📑 Episode Selection & Watch History (PR #84):\n\n• Multi-Episode Selection & Watched States – Easily select multiple episodes to batch-mark as watched or unwatched.\n\n• Improved Action Bar – Replaced episode selection SnackBar with a dedicated bottom action bar and compact buttons.\n• Quick Copy Title – Long press on any media title to quickly copy it to clipboard.\n\n⚙️ Poster Customization & Extension Settings (PR #74 & PR #84):\n\n• Poster Title Positioning – Added customizable title placement options (top, bottom, overlay) for multimedia poster cards.\n• Redesigned Extension Settings – New dedicated plugin settings screen supporting conditional and script-defined plugin parameters, dynamic loading, and improved runtime cache handling.\n\n🐞 Bug Fixes & System Stability:\n\n• 🛠️ Fixed extension settings runtime cache handling and plugin provider initialization.",
+          "downloadURL": "https://github.com/akashdh11/skystream/releases/download/v2.7.6/skystream-ios-unsigned-v2.7.6.ipa",
+          "size": 91107856,
+          "minOSVersion": "15.6"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Syncara",
+      "bundleIdentifier": "app.syncara",
+      "developerName": "khaled-0",
+      "subtitle": "Carry your playlists everywhere, even when offline",
+      "localizedDescription": "Syncara:\n\nSync YouTube playlists offline. Because YT Music \\<insert reason here\\>.\n\nFeatures:\n\n• Background playback.\n• Fluid gesture navigations.\n• Lyrics support.\n• Cross Platform (Android, IOS, MacOS, Linux and Windows).\n• Keyboard Shortcuts.\n\nLook & Feel:\n\n• Follows modern material-3 interface design guidelines.\n• Adaptive and responsive layout.\n• Dark and Night mode support.\n• Matches your system color scheme automatically.\n\nDownload:\n\nSyncara for all platform are primarily released on Github. Tap on your device icon to directly download.\n\nWindows:\n\nUnsigned msix / zipped executable is available. To install msix you need to run the following command in powershell as administrator.\n\niOS and MacOS:\n\nIOS: Unsigned (.ipa) builds are.\n\nNote: Use Sideloadly to install it. Here's a Video tutorial.\n\nMacOS: Available directly as app (.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/app.syncara.png",
+      "tintColor": "#e04040",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/khaled-0/Syncara/main/docs/screenshots/android_1.png",
+        "https://raw.githubusercontent.com/khaled-0/Syncara/main/docs/screenshots/android_2.png",
+        "https://raw.githubusercontent.com/khaled-0/Syncara/main/docs/screenshots/android_3.png",
+        "https://raw.githubusercontent.com/khaled-0/Syncara/main/docs/screenshots/android_4.png"
+      ],
+      "versions": [
+        {
+          "version": "0.1.9",
+          "date": "2025-12-31T06:15:21Z",
+          "localizedDescription": "NOTE: Please use Reset Library from preference screen if you have duplicate library entries.\n\nIt's been a long time since last release. Development has been slow, I've been busy as well.\n\nThis release introduces Local Library import feature. Now you can listen to your locally downloaded media as well in Syncara. I expect many bug reports as it's not polished as much.\n\nIn the meantime, I'm working on the following.\n\n• Revamping the Ui to more good looking one.\n• Adding LRCLib for lyrics.\n• Adding Localizations.\n\n• Rename playlist.\n\n• initial fastlane structures from IzzyOnDroid.\n\nNew Contributors:\n\n• @IzzySoft made their first contribution.",
+          "downloadURL": "https://github.com/khaled-0/Syncara/releases/download/0.1.9/syncara_ios_unsigned.ipa",
+          "size": 17724700,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "MeshCore SAR",
+      "bundleIdentifier": "com.meshcore.sar.meshcoreSarApp",
+      "developerName": "dz0ny",
+      "subtitle": "MeshCore SAR helps teams coordinate in low-connectivity or no-connectivity environments with messaging, voice, images, maps, and live location context in one app",
+      "localizedDescription": "MeshCore SAR helps teams coordinate in low-connectivity or no-connectivity environments with messaging, voice, images, maps, and live location context in one app. It uses the MeshCore protocol over LoRa for long-range, infrastructure-free communication. iOS TestFlight: https://testflight.apple.com/join/tngpPF12\n\nHighlights:\n\n• On-demand voice (Codec2) and image (AVIF) transfer tuned for low-bandwidth links.\n• Offline-first mapping with tactical overlays and SAR incident markers.\n• Live team location, movement trails, and shareable tactical drawings.\n\nVoice:\n\n• Built for short, urgent field communication.\n• On-demand playback fetch reduces unnecessary mesh traffic.\n• Ideal when typing is impractical during active operations.\n\nImages:\n\n• Pre-send optimization for constrained links.\n• Tap-to-load receiving keeps channels lightweight.\n• Full-screen view supports rapid field verification.\n\nMaps:\n\n• Works in both online and offline workflows.\n• SAR context with team markers, incident markers, and orientation tools.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.meshcore.sar.meshcoreSarApp.png",
+      "tintColor": "#003090",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dz0ny/meshcore-sar/main/screenshots/ios/IMG_2953.PNG",
+        "https://raw.githubusercontent.com/dz0ny/meshcore-sar/main/screenshots/ios/IMG_2954.PNG",
+        "https://raw.githubusercontent.com/dz0ny/meshcore-sar/main/screenshots/ios/IMG_2955.PNG",
+        "https://raw.githubusercontent.com/dz0ny/meshcore-sar/main/screenshots/ios/IMG_2956.PNG",
+        "https://raw.githubusercontent.com/dz0ny/meshcore-sar/main/screenshots/ios/IMG_2957.PNG"
+      ],
+      "versions": [
+        {
+          "version": "2026.0410.1",
+          "date": "2026-04-12T20:47:49Z",
+          "localizedDescription": "Release assets are published for all supported build targets:\n\n• Android (.apk).\n• Linux (.tar.gz).\n• macOS (.dmg).\n• Windows (.zip).\n• iOS unsigned (-ios-unsigned.ipa, -ios-runner-app.zip).\n\nWindows status: currently unusable. The BLE stack on Windows is broken, so BLE features do not work.\n\niOS manual signing and install:\n\n• Re-sign it with your Apple Development/Distribution certificate and provisioning profile.\n• If you used *-ios-runner-app.zip, create a signed .ipa from Runner.app during signing.\n• Install the signed .ipa on your iPhone using Apple Configurator 2 or Xcode (Devices and Simulators).",
+          "downloadURL": "https://github.com/dz0ny/meshcore-sar/releases/download/v2026.0412.1/meshcore-sar-v2026.0412.1-ios-unsigned.ipa",
+          "size": 22500184,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "MeshCore SAR needs Bluetooth to communicate with MeshCore devices for Search & Rescue operations",
+          "NSBluetoothPeripheralUsageDescription": "MeshCore SAR needs Bluetooth to communicate with MeshCore devices",
+          "NSCameraUsageDescription": "MeshCore SAR needs camera access to take photos and attach them to SAR messages",
+          "NSLocalNetworkUsageDescription": "MeshCore SAR needs local network access to discover and connect to shared MeshCore devices on your network for team coordination during SAR operations",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "MeshCore SAR needs location access for offline map functionality during field operations",
+          "NSLocationTemporaryPreciseUsageDescription": "MeshCore SAR needs precise location for accurate positioning in SAR operations",
+          "NSLocationWhenInUseUsageDescription": "MeshCore SAR needs location access to display team members and SAR markers on the map",
+          "NSMicrophoneUsageDescription": "MeshCore SAR needs microphone access to send voice messages over the mesh radio network during SAR operations",
+          "NSMotionUsageDescription": "MeshCore SAR needs access to the compass to show your heading direction on the map",
+          "NSPhotoLibraryAddUsageDescription": "MeshCore SAR needs permission to save exported screenshots and SAR documentation images to your photo library",
+          "NSPhotoLibraryUsageDescription": "MeshCore SAR may need access to your photo library to attach images to messages or save map screenshots for documentation during SAR operations"
+        }
+      }
+    },
+    {
+      "name": "OpenParsec",
+      "bundleIdentifier": "com.aigch.OpenParsec",
+      "developerName": "hugeBlack",
+      "subtitle": "icon_transparent.png OpenParsec:",
+      "localizedDescription": "OpenParsec is a simple, open-source Parsec client for iOS/iPadOS written in Swift using the SwiftUI framework and the Parsec SDK.\n\nThis project is still a major WIP, so apologies for the currently lackluster documentation. I'm also very new to both Swift and SwiftUI so I'm sure there are many places for improvement.\n\nBefore building, make sure you have the Parsec SDK framework symlinked or copied to the Frameworks folder. Builds were tested on Xcode Version 12.5.\n\nTouch Control:\n\nYou can set the touch mode you want to use in settings. Touchpad mode and direct touch mode are supported.\n\nWhen streaming, you can tap with 3 fingers to bring up the on-screen keyboard.\n\nYou can toggle if you want to use 2 fingers to scroll or zoom in the overlay menu.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.aigch.OpenParsec.png",
+      "tintColor": "#500080",
+      "category": "other",
+      "versions": [
+        {
+          "version": "1.3.0",
+          "date": "2026-08-08T07:13:51Z",
+          "localizedDescription": "This is a nightly release created automatically with GitHub Actions workflow.",
+          "downloadURL": "https://github.com/hugeBlack/OpenParsec/releases/download/nightly/OpenParsec.ipa",
+          "size": 4341739,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "HarkinianPad",
+      "bundleIdentifier": "com.chrissotraidis.harkinianpad",
+      "developerName": "chrissotraidis",
+      "subtitle": "Ocarina of Time native on iOS and iPadOS via Ship of Harkinian with Metal rendering, touch controls, controller support, and ROM-free reproducible builds",
+      "localizedDescription": "HarkinianPad:\n\nHarkinianPad packages the full Ship of Harkinian source port as a native iOS/iPadOS app. It renders through Metal, imports a user-provided supported Ocarina of Time ROM through Files, and includes a landscape touch controller that can be hidden whenever a physical controller is connected.\n\nThis repository contains the mobile integration and reproducible build scripts. It does not contain Ocarina of Time, a ROM, or a playable ROM-derived archive. See the scoped rights and licensing boundary; it does not relicense Shipwright, third-party projects, or game material.\n\nInstall status:\n\nThe current development build has been signed, installed, and played on a 12.9-inch iPad Pro (6th generation) running iPadOS 26.5.2. Files import, on-device archive loading, touch gameplay, save loading, the settings menu, and in-place app updates have all been exercised on that hardware.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.chrissotraidis.harkinianpad.png",
+      "tintColor": "#002030",
+      "category": "games",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/chrissotraidis/harkinianpad/main/docs/readme/harkinianpad-gameplay.jpg",
+        "https://raw.githubusercontent.com/chrissotraidis/harkinianpad/main/docs/readme/simulator-file-select.jpg",
+        "https://raw.githubusercontent.com/chrissotraidis/harkinianpad/main/docs/readme/simulator-settings.jpg"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-08-12T16:51:48Z",
+          "localizedDescription": "Developer Preview 4 refreshes the downloadable unsigned IPA with clearer first-run setup for LiveContainer users.\n\nChanges:\n\n• Keeps the standard On My iPhone/iPad setup path intact.\n\nArtifact:\n\n• HarkinianPad-0.1.0-preview.4-unsigned.ipa.\n• SHA-256: 59f4837bd514b7329bd6b36b4e11e1dfa41658c325275ce007aff6c718108026.\n• 30,847,409 bytes.\n• arm64 iPhoneOS, iOS/iPadOS 14.0 minimum.\n• unsigned and intended for user-side re-signing.\n\nThe IPA contains no Ocarina of Time ROM, generated oot.o2r, maintainer certificate, provisioning profile, or code signature. It includes the ROM-free soh.o2r archive, the project rights notice, and third-party licence notices.\n\nValidation:\n\n• repository safety and hosted clean-build checks passed.\n• packaging and unsigned-signing gate passed.\n• clean iPad Simulator first-run import, extraction, title-screen launch, and cold relaunch passed.\n\nInstallation remains through AltStore Classic plus AltServer or another compatible personal-signing tool. This is not an App Store, TestFlight, or AltStore PAL release. Back up the HarkinianPad Files folder and update in place rather than deleting the existing app first.",
+          "downloadURL": "https://github.com/chrissotraidis/harkinianpad/releases/download/v0.1.0-preview.4/HarkinianPad-0.1.0-preview.4-unsigned.ipa",
+          "size": 30847409,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "PikaTorrent",
+      "bundleIdentifier": "com.pikatorrent.PikaTorrent",
+      "developerName": "G-Ray",
+      "subtitle": "Pick a Torrent, stream and download on all your devices",
+      "localizedDescription": "PikaTorrent:\n\nJust pick a Torrent. Stream and download on all your devices.\n\nWhy a new torrent client ?:\n\nIn 2025, torrent clients should not be reserved for advanced users. PikaTorrent is a next-generation torrent client offering a beautiful, lightweight, and cross-platform app that you can install on all your devices. PikaTorrent also allows you to stream media, think of it like WebTorrent desktop, but also available on Android & iOS.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.pikatorrent.PikaTorrent.png",
+      "tintColor": "#60b0f0",
+      "category": "other",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/G-Ray/pikatorrent/main/screenshots/mobile-light.png",
+        "https://raw.githubusercontent.com/G-Ray/pikatorrent/main/screenshots/mobile-dark.png"
+      ],
+      "versions": [
+        {
+          "version": "0.15.0",
+          "date": "2026-01-11T16:57:19Z",
+          "localizedDescription": "• Improved streaming performance and reliability.\n• Added playable files filter.\n• Multi-selection support for bulk torrent deletion.\n• Initial translations and localization support.\n• Support for 16KB page sizes for Android.\n• Bug fixes.",
+          "downloadURL": "https://github.com/G-Ray/pikatorrent/releases/download/v0.15.0/PikaTorrent-v0.15.0-ios.ipa",
+          "size": 38053348,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Marble Blast Ultra",
+      "bundleIdentifier": "com.randomityguy.mbuhaxe",
+      "developerName": "RandomityGuy",
+      "subtitle": "An optimized port of Marble Blast Gold, Platinum, Ultra and PlatinumQuest with 99% identical physics and cross platform multiplayer, runs on Windows, Mac, Linux, Web, iOS and Android! Written in Haxe!",
+      "localizedDescription": "MBHaxe:\n\nA Haxe port of Marble Blast Gold, Ultra, Platinum and PlatinumQuest, name subject to change. The marble physics code was taken from OpenMBU along with my own collision detection code, game logic was partially from scratch and taken with permission from Marble Blast Web Port.\n\nWeb Browser:\n\nThe browser port supports touch controls, meaning it can be played on mobile devices.\n\nWindows, Mac and Linux:\n\nLinux port by boucymatt. Supports Steam Deck.\n\nMac Instructions - Important:\n\nPut the .app file in either /Applications or ~/Applications in order to run it properly. You will also have to bypass Gatekeeper since the .app is not signed.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.randomityguy.mbuhaxe.png",
+      "tintColor": "#d0b0f0",
+      "category": "other",
+      "screenshotURLs": [
+        "https://imgur.com/x6DYms7.png",
+        "https://imgur.com/Ncb4atl.png",
+        "https://imgur.com/KQKUk0Y.png",
+        "https://imgur.com/lfLBKqO.png",
+        "https://imgur.com/DN1A2Mf.png"
+      ],
+      "versions": [
+        {
+          "version": "1.3.0",
+          "date": "2026-08-16T20:32:00Z",
+          "localizedDescription": "This update fixes a ton of bugs and adds more gameplay to Multiplayer!\n\n• New multiplayer game modes: Competitive Gem Hunt and King.\n• Added Spectator Mode for Multiplayer.\n• Implemented support for Moving Platforms and Trapdoors in Multiplayer.\n• The collision system is now identical to that of the original game, making the physics significantly more accurate.\n• Added Console Cheats.\n• Properly implemented Marble Trail and Bounce particles to look as close as the original game as possible.\n• Optimized performance some more.\n• Added proper TURN server support so that you can join multiplayer servers even if your network doesn't allow you to.\n• Fixed camera sometimes going through shapes and interiors.\n• Fixed lag caused when completing a level.\n• Fixed various bugs with joining a multiplayer match while one is ongoing.\n• Fixed not being able to join multiplayer match in some cases.\n• Fixed certain powerup effects not showing in multiplayer.",
+          "downloadURL": "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.0-mbu/MBHaxe-Ultra-iOS.ipa",
+          "size": 59611102,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Marble Blast Ultra uses the local network to discover and connect to nearby players for multiplayer."
+        }
+      }
+    },
+    {
+      "name": "CTRPad",
+      "bundleIdentifier": "io.github.chrissotraidis.ctrpad",
+      "developerName": "chrissotraidis",
+      "subtitle": "Crash Team Racing for MacOS, iOS, and iPadOS",
+      "localizedDescription": "CTRPad:\n\nCTRPad is an unofficial native Apple-platform port built from CTR Native and the CTR-ModSDK decompilation project. It runs the decompiled game code directly; it is not an emulator and does not need a PlayStation BIOS.\n\nTo our knowledge, this is the first documented native iPhone and iPad port built from the CTR-ModSDK/CTR Native codebase. That is an Apple-platform claim, not a claim that CTRPad created the first native CTR port: CTR Native established the Windows and Linux port on which this work is based.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/io.github.chrissotraidis.ctrpad.png",
+      "tintColor": "#000020",
+      "category": "games",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/chrissotraidis/ctrpad/main/docs/readme/ctrpad-crash-cove-gameplay.png",
+        "https://raw.githubusercontent.com/chrissotraidis/ctrpad/main/docs/readme/ctrpad-title-screen.png",
+        "https://raw.githubusercontent.com/chrissotraidis/ctrpad/main/docs/readme/ctrpad-character-select.png",
+        "https://raw.githubusercontent.com/chrissotraidis/ctrpad/main/docs/readme/ctrpad-polar-pass-grid.png",
+        "https://raw.githubusercontent.com/chrissotraidis/ctrpad/main/docs/readme/ctrpad-polar-pass-gameplay.png"
+      ],
+      "versions": [
+        {
+          "version": "0.1.1",
+          "date": "2026-08-16T07:19:21Z",
+          "localizedDescription": "• Improve touch steering, drift boost, and gas lock.",
+          "downloadURL": "https://github.com/chrissotraidis/ctrpad/releases/download/v0.1.1/CTRPad-0.1.1-2-d095cadfb62d-unsigned.ipa",
+          "size": 3372401,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "LFssh",
+      "bundleIdentifier": "com.llloooggg.letsflutssh",
+      "developerName": "Llloooggg",
+      "subtitle": "SSH terminal & SFTP file manager for Windows, Linux, macOS, Android, iOS",
+      "localizedDescription": "LetsFLUTssh:\n\nDisclaimer: This is a functional neuroslop pet project — built with AI assistance under the supervision and direction of a real developer, for personal use, self-education, and fun. Use at your own risk.\n\nCross-platform SSH/SFTP client with GUI — Flutter UI on a Rust core (security, transport, terminal emulation via alacritty_terminal, and SQLCipher all inside lfs_core + lfs_os_security, bridged via flutter_rust_bridge; Flutter only renders, secrets never cross to Dart). Open-source alternative to Xshell and Termius — runs on Windows, Linux, macOS, Android, and iOS.\n\nFeatures:\n\n• SSH — xterm/VT100 terminal (256-color, RGB, mouse), tiling with recursive splits, search, multi-tab, keep-alive & reconnect.\n• SFTP — dual-pane file browser, drag & drop, transfer queue with parallel workers.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.llloooggg.letsflutssh.png",
+      "tintColor": "#204060",
+      "category": "games",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Llloooggg/LetsFLUTssh/main/docs/screenshots/LetsFLUTssh_terminal.png",
+        "https://raw.githubusercontent.com/Llloooggg/LetsFLUTssh/main/docs/screenshots/LetsFLUTssh_files.png"
+      ],
+      "versions": [
+        {
+          "version": "8.5.1",
+          "date": "2026-07-25T04:43:42Z",
+          "localizedDescription": "Fixes:\n\n• (deps) bump russh 0.61 → 0.62.4 to fix three pre/post-auth panic CVEs.",
+          "downloadURL": "https://github.com/Llloooggg/LetsFLUTssh/releases/download/v8.5.1/letsflutssh-8.5.1-ios-unsigned.ipa",
+          "size": 26552015,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "LetsFLUTssh uses the camera only to scan QR codes when you tap \"Scan QR\" to import sessions.",
+          "NSFaceIDUsageDescription": "LetsFLUTssh uses Face ID to unlock your encrypted session store without typing the master password every time.",
+          "NSLocalNetworkUsageDescription": "LetsFLUTssh needs local network access to connect to SSH servers on your network."
+        }
+      }
+    },
+    {
+      "name": "SunPad",
+      "bundleIdentifier": "com.sunpad.SunPad",
+      "developerName": "chrissotraidis",
+      "subtitle": "Super Mario Sunshine on iPhone, iPad, and Apple Silicon Mac through static recompilation and Metal",
+      "localizedDescription": "SunPad:\n\nSunPad packages a native Apple ARM64 app around a DolRecomp-generated Super Mario.\n\nCovered PowerPC game-code regions run as ahead-of-time recompiled host code. iPhone and iPad use interpreter fallback with no runtime PowerPC JIT; Apple Silicon Mac uses JitArm64 only for code outside the recompiled module. Dolphin's Metal backend renders into the Apple apps.\n\nThe mobile app imports a user-provided supported GameCube image through Files, extracts it on-device, and provides a landscape touch controller alongside iOS GameController support. The local macOS app provides a Metal launcher, internal-resolution and fullscreen options, keyboard controls, and controller selection. This repository contains the Apple integration, patches, and reproducible tooling. It does not contain Super Mario Sunshine, a GameCube image, extracted Nintendo assets, saves, or a generated game module.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.sunpad.SunPad.png",
+      "tintColor": "#10e0e0",
+      "category": "games",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/chrissotraidis/sunpad/main/docs/readme/sunpad-delfino-plaza.jpg",
+        "https://raw.githubusercontent.com/chrissotraidis/sunpad/main/docs/readme/sunpad-plaza-conversation.jpg",
+        "https://raw.githubusercontent.com/chrissotraidis/sunpad/main/docs/readme/sunpad-isle-delfino-map.jpg"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-08-16T09:22:41Z",
+          "localizedDescription": "Preview 4 improves the first-launch experience and controller lifecycle handling.\n\nChanges:\n\n• replaces the low-level missing game-root error with a clear Game data required explanation and direct Choose ISO or GCM action.\n• reconciles current Apple GameController instances while active and after foreground resume.\n\nInstall:\n\n• Re-sign the app and nested gGMSE01_recomp.dylib with your Apple identity.\n• Install in place. On first launch, choose your own legally obtained Super Mario Sunshine USA GMSE01 revision 0 ISO/GCM image.\n\nThe IPA contains no game image, extracted assets, saves, settings, logs, certificates, provisioning profile, or signing material.\n\nSHA-256: f88f419cc4800bc052fce2205e4177af2d3f6e37be707c4851546beeab3aa512.\n\nAutomated and Simulator reconnect coverage passes. Physical Bluetooth, wired, two-controller, and natural-sleep reconnect acceptance remains open.",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.4/SunPad-0.1.0-preview.4-unsigned.ipa",
+          "size": 25630540,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "StarshipPad",
+      "bundleIdentifier": "com.chrissotraidis.starshippad",
+      "developerName": "chrissotraidis",
+      "subtitle": "Star Fox 64 (Starship) adapted for iPhone and iPad, with native Metal rendering, touch flight controls, Files-based setup, and controller support",
+      "localizedDescription": "StarshipPad:\n\nStarshipPad turns the complete Starship source port into a native iOS/iPadOS application. Build it on a Mac, import your own supported Star Fox 64 ROM through Files, and fly by touch or connect a compatible controller—no keyboard required.\n\nThis repository contains the mobile integration, maintained source patches, tests, and reproducible build scripts. It does not contain Star Fox 64, a ROM, extracted Nintendo assets, or a playable ROM-derived archive.\n\nDownload Preview 3:\n\nor review the.\n\nA separate.\n\nis published beside the IPA.\n\nThis preview is ROM-free and unsigned. It is not directly installable on a standard iPhone or iPad as downloaded; you must sign it with your own Apple development identity and provisioning profile. Star Fox 64 game data is never included and must be imported separately from your own legally acquired supported ROM.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.chrissotraidis.starshippad.png",
+      "tintColor": "#001030",
+      "category": "games",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/chrissotraidis/starshippad/main/docs/readme/starshippad-action-sunset.jpg",
+        "https://raw.githubusercontent.com/chrissotraidis/starshippad/main/docs/readme/starshippad-controller.jpg",
+        "https://raw.githubusercontent.com/chrissotraidis/starshippad/main/docs/readme/starshippad-action-landmaster.jpg",
+        "https://raw.githubusercontent.com/chrissotraidis/starshippad/main/docs/readme/starshippad-action-battle.jpg"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-08-15T09:37:13Z",
+          "localizedDescription": "StarshipPad Preview 3 is a ROM-free, unsigned reproducibility build of Starship for iPhone and iPad.\n\nThis IPA is not directly installable on a standard device as published. Sign it with your own Apple development identity and provisioning profile, then import your own legally acquired supported game data through Files. No ROM, ROM-derived game archive, extracted game asset, signing identity, or provisioning profile is included.\n\nPreview 3 changes:\n\n• immediate flushing of compact iOS diagnostic breadcrumbs to the existing rolling log.\n• session, game/mission/player/cutscene state transitions, lifecycle context, and periodic heartbeats for post-crash diagnosis.\n• null-safe diagnostics during early startup before player state exists.\n• three-dot menu placed consistently inside the top-right safe area.\n• deliberate StarshipPad 0.1.0 build 3 metadata and updated README guidance.\n\nVerification:\n\n• signed in-place install, launch, sustained process, and heartbeat logging on the physical iPad.\n• ROM, extracted archive, save, touch configuration, and preferences preserved byte-for-byte across the update.\n• clean unsigned arm64 iPhoneOS build with Xcode 26.6 and the iPhoneOS 26.5 SDK.\n• iOS 16.0 minimum deployment.\n• repository, app, IPA, ZIP, signature-state, and prohibited-data audits passed.\n• signed-only packaging gate correctly rejected this unsigned artifact.\n\nSHA-256: 5b40c450fcf9ecdde765c643574e4f6c6235bf4fa205ada7a11f05f6294e7074.\n\nApple .ips reports remain the native crash-stack source; the rolling Starship log now retains compact game context leading up to a future crash.",
+          "downloadURL": "https://github.com/chrissotraidis/starshippad/releases/download/v0.1.0-preview.3/StarshipPad-v0.1.0-preview.3-unsigned.ipa",
+          "size": 6861115,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Solstice",
+      "bundleIdentifier": "net.flist.solstice",
+      "developerName": "Fchat-Horizon",
+      "subtitle": "Mobile variant of Horizon",
+      "localizedDescription": "Mobile variant of Horizon.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/net.flist.solstice.png",
+      "tintColor": "#f09050",
+      "category": "other",
+      "versions": [
+        {
+          "version": "2026.6.4.55",
+          "date": "2026-07-23T14:55:05Z",
+          "localizedDescription": "Built on Horizon 2.3.3.\n\nThis release rounds out the new mobile notifications on both Android and iOS and fixes the cramped log viewer.\n\nChanges since v2026.6.3:\n\n• Richer message notifications. Incoming messages now vibrate correctly, show an unread count, and collapse into one notification per conversation instead of stacking up.\n• Message notifications are tagged as messages on Android (#14). They now use the system's message category, so they behave correctly with Do Not Disturb allow-lists, notification history, and paired watches.\n• Notifications respect the ring switch on Android (#13). With your phone set to vibrate or silent, an incoming message vibrates instead of pinging out loud. (iOS already honored the silent switch.).\n• Steadier background connection on iOS. The audio keep-alive now recovers after the system resets its media server, so the app is less likely to go quiet while backgrounded.\n• The log viewer fills the screen (#12). The conversation log list now uses the full height of the window instead of being squeezed into a sliver beneath the filters, and it shrinks correctly when the keyboard opens.",
+          "downloadURL": "https://github.com/Fchat-Horizon/Solstice/releases/download/v2026.6.4/Solstice-2026.6.4.ipa",
+          "size": 17963443,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Solstice uses the camera to scan the Device Sync QR code shown by Horizon.",
+          "NSLocalNetworkUsageDescription": "Solstice connects to Horizon on your local network to sync chat logs between your devices."
+        }
+      }
+    },
+    {
+      "name": "LBox",
+      "bundleIdentifier": "Lolendor.LBox",
+      "developerName": "Lolendor",
+      "subtitle": "A native iOS repository manager and downloader offering seamless integration with LiveContainer",
+      "localizedDescription": "⚡ Quick Start: To enable automatic app installation to LiveContainer, select its directory (\"On My iPhone\" > \"LiveContainer\") on your device (see Fix File Picker if unable). Then, enable \"Auto .ipa to .app\" in LBox Settings.\n\n🚀 Overview:\n\nLBox bridges the gap between finding apps and running them on iOS. Instead of manually searching for IPA files and moving them around the file system, LBox allows you to add repositories (similar to AltStore or ESign), download apps in the background, and automatically extract them into your LiveContainer storage.\n\n✨ Key Features:\n\n• Repository Management:.\n\n• Add and manage unlimited public repositories (JSON format).\n• Remote Folders (Repo Lists): Subscribe to a single URL (text file) to automatically fetch and maintain a list of multiple repositories.\n• Organize sources into folders.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/Lolendor.LBox.png",
+      "tintColor": "#20a0e0",
+      "category": "other",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Lolendor/LBox/main/screenshots/store.png",
+        "https://raw.githubusercontent.com/Lolendor/LBox/main/screenshots/app_details.png",
+        "https://raw.githubusercontent.com/Lolendor/LBox/main/screenshots/downloads.png",
+        "https://raw.githubusercontent.com/Lolendor/LBox/main/screenshots/apps.png"
+      ],
+      "versions": [
+        {
+          "version": "1.2",
+          "date": "2025-12-08T02:13:43Z",
+          "localizedDescription": "📥 Installation:\n\nRecommendation: Please install this IPA using LiveContainer.\n\nAutomated build #5.\n\n🚀 What's New in This Update:\n\nThis update focuses on stability, data persistence, and refining the user experience within the app.\n\n🔔 In-App Notifications:\n\nExperience a smoother interface.\n\n• Custom UI Alerts: added a new notification system. When you are active inside the app, you will now see custom interface notifications instead of standard system banners.\n\n💾 Comprehensive Data Saving:\n\nYour configuration is safe.\n\n• Full Parameter Persistence: Previously, only some settings were saved. Fixed this behavior so that ALL application parameters and preferences are now fully saved and restored between sessions.\n\n🛠 Core Improvements:\n\n• Update Process Fixes: The logic for checking and applying updates has been patched. Fixed the verification steps to ensure the update process is robust and error-free.",
+          "downloadURL": "https://github.com/Lolendor/LBox/releases/download/v1.2/LBox.ipa",
+          "size": 614768,
+          "minOSVersion": "17.6"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "LensLink",
+      "bundleIdentifier": "com.exaltedpixels.LensLinkCamera",
+      "developerName": "MyNamesEMurray",
+      "subtitle": "iOS camera for OBS Studio over Wi-Fi or USB — 4K60, screen mirroring, remote start, auto lip sync",
+      "localizedDescription": "Use your iPhone or iPad as a high-quality camera directly inside OBS Studio — over Wi-Fi or a USB cable. No virtual-camera drivers, no RTMP server, no monthly subscription.\n\nIt comes in two parts: an OBS plugin (adds \"LensLink Camera\" and \"LensLink Screen\" sources) and the LensLink iPhone/iPad app. You install both, then OBS connects to your phone.\n\nWhat you need:\n\n• OBS Studio 32 or newer, on Windows, macOS, or Linux.\n• An iPhone or iPad on iOS/iPadOS 15 or later.\n• For USB: iTunes installed on Windows (it provides Apple's device driver); nothing extra on macOS.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.exaltedpixels.LensLinkCamera.png",
+      "tintColor": "#3070f0",
+      "category": "games",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/MyNamesEMurray/LensLink/main/assets/screen-fit-transform.png"
+      ],
+      "versions": [
+        {
+          "version": "1.9.1",
+          "date": "2026-08-05T06:11:39Z",
+          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nFixes:\n\n• Plugin: static FFmpeg on Windows/macOS so OBS updates can't break loading.\n\nOther changes:\n\n• Virtual green screen: segmentation, depth assist, and subject-distance cutoff.",
+          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.9.1/LensLink-unsigned.ipa",
+          "size": 941058,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "LensLink streams your camera to OBS on your computer.",
+          "NSLocalNetworkUsageDescription": "LensLink connects to OBS Studio on your local network to send the camera feed.",
+          "NSMicrophoneUsageDescription": "LensLink can send your microphone to OBS — as the camera's audio if you enable it, or purely as a timing reference to automatically sync your real microphone to the video."
+        }
+      }
+    },
+    {
+      "name": "DukeX",
+      "bundleIdentifier": "com.mafty.dukex",
+      "developerName": "MaftyManicEMU",
+      "subtitle": "Xbox Emulation on iOS",
+      "localizedDescription": "DukeX is an experimental iOS and macOS frontend for xemu. The iOS build embeds the xemu core in a native Swift shell and presents the Vulkan renderer through MoltenVK and native Metal presentation. The macOS build packages a nested desktop Xemu fork inside a Mac Catalyst DukeX experience.\n\nDukeX does not include Xbox system files, game images, or signing certificates. Users and testers are required to provide their own legally obtained files. DukeX is intended solely for legitimate emulation and preservation purposes, and is not designed for use with pirated materials.\n\nAt a Glance:\n\n• Runtime: TCG with version-aware JIT setup; iOS 26 or later uses the StikDebug Universal.js flow.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.mafty.dukex.png",
+      "tintColor": "#70b010",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.0.2",
+          "date": "2026-06-30T12:21:27Z",
+          "localizedDescription": "DukeX v1.0.2 - Expanding the Xbox Experience:\n\nDukeX v1.0.2 is our biggest step yet toward preserving the full original Xbox experience, not just the games. This release introduces the first native macOS build, expands XB.Live integration, and brings richer community features to both iOS and macOS.\n\nWhat's New:\n\n• XB.Live Rich Presence and playtime tracking: friends can see what you are playing while DukeX tracks supported playtime sessions.\n• XB.Live messaging: threaded conversations, friend messaging, unread indicators, supported game invites, and existing Xbox inbox support now live inside DukeX.\n• XB.Live social expansion: friend requests, friend management, online presence, and deeper community integration are available from the Profile experience.\n• Activity Feed: XB.Live news, friend online status, friend achievement unlocks, and community updates now appear in a continuously refreshed timeline.\n• Controller Landscape Mode: on iOS, compatible controllers can switch DukeX into a controller-first browsing and launch experience.\n• Expanded AirPlay and external display support: big-screen play is more reliable across supported display configurations.\n\nImprovements:\n\n• Improved achievements with Games, Apps, and Cores grouping plus updated artwork handling for XB.Live Core, DukeX Core, and special test titles.\n• Improved game tile spacing and cover handling across iOS and macOS.\n• Improved XB.Live cloud-save sync metadata with console identity v2, content-hash dedupe, and server-assisted cross-console restore handling.\n• Fixed achievement progress rounding so time-based achievements do not show 100% before they are actually complete.\n\nAvailability:\n\n• iOS: install DukeX.v1.0.2.ipa through StikStore, SideStore, or another supported sideloading workflow.\n• macOS: install DukeX.macOS.v1.0.2.dmg by dragging DukeX to Applications.\n• Hardware requirements on iOS remain Apple A14 Bionic or Apple M1 hardware or newer.\n• iOS 16.0 or later is supported, with iOS 16 support remaining experimental.\n\nImportant:\n\nDukeX does not include Xbox system files, game images, BIOS files, copyrighted content, signing certificates, or user games. Users must provide their own legally obtained files. DukeX is intended for legitimate emulation, preservation, testing, and personal library use.",
+          "downloadURL": "https://github.com/MaftyManicEMU/DukeX/releases/download/v1.0.2/DukeX.v1.0.2.ipa",
+          "size": 20345841,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "DukeX uses Bluetooth to read connected game controller battery information.",
+          "NSBluetoothPeripheralUsageDescription": "DukeX uses Bluetooth to read connected game controller battery information.",
+          "NSCameraUsageDescription": "DukeX can use the front camera to test Xbox Video Chat camera peripheral emulation.",
+          "NSMicrophoneUsageDescription": "DukeX can use the microphone to test Xbox Live Communicator support.",
+          "NSMotionUsageDescription": "DukeX can use device tilt to subtly move animated theme backgrounds."
+        }
+      }
+    },
+    {
+      "name": "Fladder",
+      "bundleIdentifier": "nl.jknaapen.fladder",
+      "developerName": "DonutWare",
+      "subtitle": "Fladder - A cross-platform Jellyfin Frontend built on top of Flutter",
+      "localizedDescription": "Key Features:\n\n• Play media – Stream or sync content locally to your device.\n• Manage your library – Refresh content and edit metadata.\n• Multiple profiles – add multiple users or different servers easily switching between.\n• Direct, Transcode and Offline playback.\n• Media segments skipping (Intro/Credits etc.).\n• Trickplay support (timeline scrubbing).\n• Dark/Light mode and multiple color styles to pick.\n• Simple comic book format reading support (.cbz, .cbr).\n• Sync items for all platforms.\n\n• Keyboard shortcuts.\n• Adaptive layout for all platforms.\n• Next-up overview when watching a queue.\n• Server management.\n• Seerr/Jellyseerr integration.\n• Platforms.\n\n• Android + TV.\n\n• macOS.\n• Windows.\n• iOS.\n• Linux.\n\nScreenshots:\n\nWeb/Desktop try out the web build!",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/nl.jknaapen.fladder.png",
+      "tintColor": "#6156e2",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://github.com/DonutWare/Fladder/blob/develop/assets/marketing/screenshots/Mobile/Dashboard.png?raw=true",
+        "https://github.com/DonutWare/Fladder/blob/develop/assets/marketing/screenshots/Mobile/Details.png?raw=true",
+        "https://github.com/DonutWare/Fladder/blob/develop/assets/marketing/screenshots/Mobile/Details_2.png?raw=true",
+        "https://github.com/DonutWare/Fladder/blob/develop/assets/marketing/screenshots/Mobile/Favourites.png?raw=true",
+        "https://github.com/DonutWare/Fladder/blob/develop/assets/marketing/screenshots/Mobile/Library.png?raw=true"
+      ],
+      "versions": [
+        {
+          "version": "0.10.3",
+          "date": "2026-04-13T18:16:28Z",
+          "localizedDescription": "This release adds a lot of small nice to have features, but also quite a few bug-fixes.\n\nMore gestures:\n\nYou can now slide up and down to change either volume or brightness for touch devices. Go to Settings -> Player -> Gestures for more options.\n\nDesktop window titles:\n\nAutomagically adjust the window title to show the currently playing video or opened details view.\n\nExciting New Features 🏕:\n\n• feat: copy QuickConnect code to clipboard on tap.\n• feat: auto-add URL scheme for Jellyfin and Seerr URLs.\n• feat: Enable media controls linux, enable skip/previous for all platforms.\n\n• feat: Improve \"airs date\" for episode posters.\n• feat: Improve macOS shortcuts definitions.\n• feat(Seerr): Add trailer button.\n• feat: Implement edge gesture controls for brightness and volume.\n• feat: Show \"discover\" movies and series on person details.\n• feat: Web path support.\n• feat: Dynamically update desktop window title.\n\nBugfixes 🐞:\n\n• fix: Seerr login button disabled when SEERR_BASE_URL (and/or SEERR_HEADER)* is set.\n• fix: Seerr login browser cookie handling on container deployment.\n• fix: remove eac3 from web direct play profile.\n• fix: Exception when ensure visible is called with no scrollable.\n• fix(MDK): Exception when switching videos.\n• fix: Android native player trickplay incorrect offsetting.\n• fix: Android native player's chapter markers turn into huge circles when seeking.\n• fix: Synced/Offline queue not showing next/previous items.\n• fix: Improve connection re-try mechanism.\n• fix: Slideshow banner thumb incorrect position.\n• fix: Do not send nullables to seerr.\n• fix: Improve startPosition support in players.\n• fix: Series title not opening series correctly.\n• fix: Subtitle off and subtitle stream selection logic.\n• fix: Playback reporting to jellyfin.\n• fix: Audio and subtitle button hidden in TV layout.\n• fix: Right to left languages UI bugs.\n• fix: \"Any language\" selection in Settings -> Profile.\n• fix: macOS shortcut handling.\n• fix: Episodes not showing on mobile.\n\nOther Changes:\n\n• chore: Remove seerrHeader from config.json.\n• chore: Enable libass by default and clean-up player settings.\n• chore: Updated translations from Hosted Weblate.\n\nNew Contributors:\n\n• @v3DJG6GL made their first contribution.\n• @haakonmydland made their first contribution.",
+          "downloadURL": "https://github.com/DonutWare/Fladder/releases/download/v0.10.3/Fladder-iOS-0.10.3.ipa",
+          "size": 40205180,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Surge XT",
+      "bundleIdentifier": "org.vicwomg.surge-xt",
+      "developerName": "vicwomg",
+      "subtitle": "iOS and Android port of Surge Synthesizer plug-in (previously released as Vember Audio Surge)",
+      "localizedDescription": "Surge iOS & Android Ports:\n\nThis is an unofficial iOS & Android Port of Surge XT. Since Surge is built on JUCE, it has very good compatibility with mobile platforms and required a few tweaks to get it working properly on touch screens.\n\nPlease note I am not affililated with the Surge Synth Team in any way. Surge XT's GPLv3 licensing prohibits distribution in any kind of App Store or Google Play Store.\n\nThe main work done to make this functional:\n\n• Add iOS/Android handling to the cmake system and incompatible libraries (luajit).\n• Handle factory presets bundling and APK zip extraction for Android.\n• Handle persistent storage of user settings and patches to mobile app data paths.\n• Expose JUCE audio \"Options\" button to mobile UI layer.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/org.vicwomg.surge-xt.png",
+      "tintColor": "#f09000",
+      "category": "other",
+      "versions": [
+        {
+          "version": "1.4.0",
+          "date": "2026-07-11T01:53:32Z",
+          "localizedDescription": "Please note I am not affililated with the Surge Synth Team in any way. Surge XT's GPLv3 licensing prohibits distribution in any kind of App Store, so sideloading methods like Sidestore and Alt Store (and all their inconveniences) are the only way to install it to your device. I am not a legal expert but I am not interested in distribution.\n\nThe main work done to make this functional:\n\n• Add platform handling to the cmake system and incompatible libraries (luajit).\n• Handle factory presets bundling with the app.\n• Handle persistent storage of user settings and patches to \"On My iPhone > Surge XT\".\n• Expose JUCE audio \"Options\" button to iOS/Android UI layer.\n\nBeyond that, there were some quality of life enhancements:\n\n• Allow right-click via two-finger click (tap + hold on the control, then tap with a second finger).\n• Allow sub menu access: Surge > Menu > sub-menus can be opened by tap + hold + drag.\n• Force landscape mode, handle proper zooming to fit screen.\n• Implement touch scrolling, zoom -/+, and \"fit to screen\" to cram the extensive UI in smaller screens (iPad is usable best-fit, iPhone needs scrolling).\n\n• Keep screen on while app is running.\n\nI find that Surge runs excellently on even my 2018 iPad 6th generation. The basic functionality is there to do what I need to do with Surge: play the synth, control it with a physical MPE MIDI controller, adjust parameters, add effects, and load/import patches (just airdrop them into \"On My iPhone > Surge XT > Surge Synth Team > Surge XT > Patches\"). However, Surge's feature set is huge and there are probably a lot of corner cases and potential bugs I'm not considering.",
+          "downloadURL": "https://github.com/vicwomg/surge-ios-android/releases/download/v0.1.0-alpha/Surge.XT.ipa",
+          "size": 352177235,
+          "minOSVersion": "10.15"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Surge XT would like to use Bluetooth",
+          "NSBluetoothPeripheralUsageDescription": "Surge XT would like to use Bluetooth",
+          "NSMicrophoneUsageDescription": "Surge XT would like to use your microphone for audio input"
+        }
+      }
+    },
+    {
+      "name": "PaperPad",
+      "bundleIdentifier": "com.chrissotraidis.paperpad",
+      "developerName": "chrissotraidis",
+      "subtitle": "Paper Mario 64, native for Mac, iOS, and iPadOS",
+      "localizedDescription": "PaperPad:\n\nPaperPad combines the pmret Paper Mario decompilation with the statically recompiled runtime and renderer maintained by Paper-Mario-ReCut. It adds a native Apple application shell, Metal presentation, keyboard and controller input, customizable touch controls, native settings, and private first-run ROM import.\n\nPaperPad is a game-specific static recompile, not a general Nintendo 64 emulator. It currently supports only an unmodified Paper Mario (US) 1.0 ROM supplied by the user.\n\nThis repository contains integration source, patches, scripts, and documentation. It does not contain Paper Mario, a ROM, extracted Nintendo assets, generated playable game code, saves, or a playable ROM-derived archive. Read the rights and licensing boundary before redistributing source or a build.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.chrissotraidis.paperpad.png",
+      "tintColor": "#00c0f0",
+      "category": "games",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/chrissotraidis/paperpad/main/docs/release-audit/28-paperpad-flying-goomba-battle-2026-08-14.png",
+        "https://raw.githubusercontent.com/chrissotraidis/paperpad/main/docs/release-audit/29-paperpad-goomba-battle-2026-08-14.png",
+        "https://raw.githubusercontent.com/chrissotraidis/paperpad/main/docs/release-audit/30-paperpad-title-screen-2026-08-14.png"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-08-16T08:10:41Z",
+          "localizedDescription": "PaperPad v0.1.0-preview.2:\n\nPreview 2 is a targeted controller sleep, disconnect, and reconnect reliability update.\n\nDownload:\n\n• PaperPad-v0.1.0-preview.2-unsigned.ipa.\n• PaperPad-v0.1.0-preview.2-unsigned.ipa.sha256.\n\nSHA-256: ea908c33fce6ba883acadff3ccc3025a1a7ef0284947c09cf98f3602af84d029.\n\nThe IPA is ROM-free and unsigned. Sign it with your own Apple credentials before installation, then import your own legally obtained, unmodified Paper Mario (US) 1.0 ROM through PaperPad's file picker. See IPA installation. Updating an existing signed copy should use the same bundle ID and an in-place install; uninstalling can remove its private ROM, saves, and settings.\n\nController reliability:\n\n• PaperPad's existing SDL2 controller backend now reconciles current devices, attached handles, instance IDs, and player slots instead of relying on removal events alone.\n\n• Reconciliation runs after controller events, during active use, and on foreground resume without restarting the controller subsystem.\n\nVerification boundary:\n\n• Complete macOS and iOS builds, repository audits, package audits, and two deterministic IPA package runs passed.\n\n• Physical Bluetooth reconnect, wired reconnect, natural controller sleep/wake, full mapping, and two-physical-controller behavior were not exercised and remain acceptance work.\n\nThis is an unsigned public preview, not an App Store or TestFlight release. No game data or saves are included. The release tag is the corresponding source snapshot. PaperPad is unofficial and is not affiliated with or endorsed by Nintendo or any upstream project.",
+          "downloadURL": "https://github.com/chrissotraidis/paperpad/releases/download/v0.1.0-preview.2/PaperPad-v0.1.0-preview.2-unsigned.ipa",
+          "size": 11605609,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "F0X",
+      "bundleIdentifier": "com.chrissotraidis.f0x",
+      "developerName": "chrissotraidis",
+      "subtitle": "Native F-Zero X source port via G-Diffuser for Apple Silicon macOS, iPhone, and iPad, with Metal and touch controls",
+      "localizedDescription": "F0X:\n\nEvidence.\n\nF0X packages the native decompiled F-Zero X game logic from G-Diffuser with libultraship/Fast3D and its Metal backend. It is a source-port integration, not a general Nintendo 64 emulator.\n\nThis repository contains the Apple integration, maintained patches, documentation, and original F0X artwork. It does not contain F-Zero X, a ROM, extracted Nintendo assets, saves, or a playable ROM-derived archive. You must supply your own legally acquired supported cartridge dump; setup and extraction happen locally, and nothing is uploaded.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.chrissotraidis.f0x.png",
+      "tintColor": "#f03010",
+      "category": "games",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/chrissotraidis/f0x/main/docs/readme/f0x-ipad-gameplay.png"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-08-15T16:27:45Z",
+          "localizedDescription": "F0X 0.1.0 Developer Preview 1:\n\nThe first downloadable F0X developer preview for iPhone and iPad.\n\nBefore installing:\n\n• This IPA is unsigned. Re-sign it with your own Apple identity using Xcode or a compatible personal-signing method.\n• It requires an arm64 iPhone or iPad running iOS/iPadOS 16 or newer.\n• F-Zero X is not included. On first launch, choose your own legally acquired supported US revision 0 ROM from Files; extraction stays local.\n• To preserve saves, settings, and touch layouts during an update, install over the existing com.chrissotraidis.f0x app. Do not uninstall first.\n\nHighlights:\n\n• Native Apple Silicon game logic with Metal rendering.\n• Independent, customizable iPhone and iPad touch layouts.\n• One-second racing-only A acceleration latch.\n• Corrected cartridge audio synthesis and menu timing.\n• Corrected course-preview scaling.\n• Repaired repeated back/forward GP menu navigation.\n• Local ROM validation and on-device extraction.\n• Keyboard and compatible physical-controller support.\n\nValidation:\n\n• Physical iPad: owner-accepted normal game start, touch racing, audio, and course presentation.\n• Physical iPhone 14: latest build installed and running with ROM, archive, save, configuration, and accepted touch profile preserved byte-for-byte.\n• Deterministic repeated menu-navigation regression reaches GP Race.\n• Touch merge/profile suite: 87/87.\n• IPA ZIP integrity: 85 entries, no errors.\n• ROM/save/signing audit: clean.\n\nHands-on iPhone gameplay, alternate audio routes, interruptions, controllers, stress multi-touch, thermals, and long sessions remain broader preview testing areas.\n\nChecksum:\n\nF0X-0.1.0-preview.1-unsigned.ipa.\n\nSHA-256: e4e0f2f62b23a757cf0958d389ddfe433ceb0094ef36999d93bcc8bcbe136efd.",
+          "downloadURL": "https://github.com/chrissotraidis/f0x/releases/download/v0.1.0-preview.1/F0X-0.1.0-preview.1-unsigned.ipa",
+          "size": 8790251,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Jellify",
+      "bundleIdentifier": "com.cosmonautical.jellify",
+      "developerName": "Jellify-Music",
+      "subtitle": "A cross-platform, free and open source music player for Jellyfin, powered by React Native",
+      "localizedDescription": "Contents:\n\n• Info.\n\n• Screenshots.\n\n• Built with.\n• Support.\n• Special Thanks.\n\nInfo:\n\njellify (verb) - to make gelatinous see also.\n\nJellify is a free and open source music player for the Jellyfin Media Server. Built with React Native, it is available for both iOS and Android.\n\nShowcasing the artwork of your library, it has a user interface congruent to what the big guys do. Jellify also provides algorithmic curation of your music, driven by Jellyfin's Instant Mix and Suggestions APIs.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.cosmonautical.jellify.png",
+      "tintColor": "#6090e0",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Jellify-Music/App/main/screenshots/home.png",
+        "https://raw.githubusercontent.com/Jellify-Music/App/main/screenshots/library_artists.png",
+        "https://raw.githubusercontent.com/Jellify-Music/App/main/screenshots/library_albums.PNG",
+        "https://raw.githubusercontent.com/Jellify-Music/App/main/screenshots/library_downloaded_tracks.PNG",
+        "https://raw.githubusercontent.com/Jellify-Music/App/main/screenshots/artist.png"
+      ],
+      "versions": [
+        {
+          "version": "1.2.7",
+          "date": "2026-08-07T14:59:25Z",
+          "localizedDescription": "Welcome to Jellify 1.2.7.\n\nHey there! I’ve been polishing up Jellify with some major stability tweaks and performance improvements in this update. Get ready to enjoy your sound library without worrying about glitches or draining your battery!\n\n• Cleaner Home Screen: Say goodbye to duplicate items in your \"Recently Added\" feed! Your home page now displays structured content so you always know where to find your favorite tunes.\n• Better Battery Life: Under the hood, we optimized how Jellify tracks and saves your playback position. This means better performance for you without draining your phone's battery faster than it should!",
+          "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.2.7/Jellify-1.2.7.ipa",
+          "size": 39802764,
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.group-session",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Jellify uses the local network to connect to Jellyfin and stream music"
+        }
+      }
+    },
+    {
+      "name": "Nyora",
+      "bundleIdentifier": "com.nyora.ios",
+      "developerName": "Nyora-Manga",
+      "subtitle": "Nyora for iOS & iPadOS — free, open-source manga reader; Aidoku-based UI with Nyora cloud sources and sync",
+      "localizedDescription": "Read like the world can wait.:\n\nA fast, free, ad-free, open-source manga / manhwa / manhua reader for iPhone & iPad — part of the cross-platform Nyora series. Hundreds of sources, an in-reader AI translation overlay, and your library synced across every device you read on.\n\nNo App Store, no ads, no sign-up wall. Sideload the .ipa and start reading.\n\nAbout:\n\nRunning the engine locally also means iOS can clear a Cloudflare challenge itself, so it gets the same source coverage as the Android and desktop apps rather than the reduced set a shared cloud helper can serve.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/placeholder.png",
+      "tintColor": "#6156e2",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.7.3",
+          "date": "2026-08-05T14:11:21Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/Nyora-Manga/nyora-ios/releases/download/v2.7.3/Nyora-2.7.3.ipa",
+          "size": 47097388,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Nyora needs FaceID permissions for user-defined settings",
+          "NSLocalNetworkUsageDescription": "Nyora needs permission to connect to local Komga and Kavita servers",
+          "NSPhotoLibraryUsageDescription": "Nyora needs permission to save pages in your photo library"
+        }
+      }
+    },
+    {
+      "name": "Geode",
+      "bundleIdentifier": "com.geode.launcher",
+      "developerName": "geode-sdk",
+      "subtitle": "Manages installing and launching Geometry Dash for iOS",
+      "localizedDescription": "Geode iOS Launcher:\n\nManages installing and launching Geometry Dash with Geode for iOS.\n\nRequirements:\n\n• iOS/iPadOS 14.0 or later.\n• Full version of Geometry Dash installed.\n• An internet connection.\n\nQuick Start:\n\n• Install the launcher by following the Installation Guide. You can also access this guide by going in to the INSTALL.md file in this repository.\n• Enjoy using Geode!",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.geode.launcher.png",
+      "tintColor": "#9080c0",
+      "category": "games",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/geode-sdk/ios-launcher/main/screenshots/thumbnail.png"
+      ],
+      "versions": [
+        {
+          "version": "1.5.4",
+          "date": "2026-04-01T07:09:04Z",
+          "localizedDescription": "Sapphire SDK!\n\n• Replaced default logo with Sapphire SDK.\n• Fixed PDF rendering for iOS 18+ (hopefully).\n\nView the INSTALL.md guide on installing.",
+          "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.5.4/com.geode.launcher_1.5.4.ipa",
+          "size": 13242128
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.team-identifier",
+          "com.apple.private.MobileContainerManager.allowed",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "A mod you are using is requesting this permission.",
+          "NSLocalNetworkUsageDescription": "This permission is needed for accessing the JIT server.",
+          "NSMicrophoneUsageDescription": "A mod you are using is requesting this permission."
+        }
+      }
+    },
+    {
+      "name": "Empo",
+      "bundleIdentifier": "sh.mateo.empo",
+      "developerName": "mateo-m",
+      "subtitle": "Run RPG Maker games on iPhone and iPad",
+      "localizedDescription": "Empo is a game launcher using an iOS-specific fork of the mkxp-z RPG Maker engine called mkxp-z-apple-mobile under the hood to run RPG Maker XP/VX/VX Ace and Pokemon Essentials games.\n\nThe name's from emporos, ancient Greek for a traveler riding on someone else's ship.\n\nImport a game and play it:\n\nhttps://github.com/user-attachments/assets/d19e44ff-c2ef-435f-b2fe-60f1c97890c8\n\nLibrary view:\n\nhttps://github.com/user-attachments/assets/1a6de8a7-b47c-4ad4-8df9-f028347dfb9c",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/sh.mateo.empo.png",
+      "tintColor": "#f09030",
+      "category": "games",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/mateo-m/empo-app/main/docs/media/demo-cinematic.png",
+        "https://raw.githubusercontent.com/mateo-m/empo-app/main/docs/media/demo-battle.png",
+        "https://raw.githubusercontent.com/mateo-m/empo-app/main/docs/media/demo-overworld.png"
+      ],
+      "versions": [
+        {
+          "version": "0.6.2",
+          "date": "2026-08-17T05:03:08Z",
+          "localizedDescription": "Bug Fixes:\n\n• Pick up the whole-file CRLF read fix (#130) (c576390).\n\nCI:\n\n• Gate pull request titles on the commit convention (#124) (44740fc).\n\nDocumentation:\n\n• Pick up the socket stub comment correction (#129) (2cf00dd).\n\nFeatures:\n\n• Pick up the ws2_32 socket bridge (#128) (8e4501c).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.6.2/Empo-0.6.2-unsigned.ipa",
+          "size": 19311643,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Game controllers may connect over Bluetooth.",
+          "NSCameraUsageDescription": "Take a photo to use as custom game artwork or banner.",
+          "NSLocalNetworkUsageDescription": "Some games offer local multiplayer, which needs permission to find other players on your network."
+        }
+      }
+    },
+    {
+      "name": "Sora",
+      "bundleIdentifier": "me.cranci.sulfur",
+      "developerName": "cranci1",
+      "subtitle": "A modular media player for iOS and macOS",
+      "localizedDescription": "Sora:\n\nAlso known as Sulfur due to copyright considerations.\n\nA modular media player for iOS and macOS, under the GPLv3.0 License.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/me.cranci.sulfur.png",
+      "tintColor": "#f0b050",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/assets/Sulfur.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-03-03T18:30:39Z",
+          "localizedDescription": "Sora 1.2.0:\n\nThis version comes with bug fixes and stability improvements.\n\nSora is no longer available via TestFlight, only via iPA file.\n\n• Removed bunch of logs.\n• added player gestures.\n• replace custom swipe logic with swiftUIs native .swipeactions.\n\n• slide to seek and search bar fix.\n\n• add IntroDB.\n\nNew Contributors:\n\n• @686udjie made their first contribution.",
+          "downloadURL": "https://github.com/cranci1/Sora/releases/download/1.2.0/Sora.ipa",
+          "size": 2996468,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Ready",
+      "bundleIdentifier": "at.spiderlab.c64",
+      "developerName": "T-Pau",
+      "subtitle": "A Home Computer Emulator for iPad",
+      "localizedDescription": "With preliminary support for these computers:\n\n• Commander X16.\n\nIt is based on atari800, fuse, Vice, and x16-emulator, which provide accurate emulation of many hardware variants and peripherals.\n\nIt requires at least iPadOS 13.5.\n\nIt aims to approximate the feeling of using actual hardware:\n\n• Rather than configuring abstract settings, you select hardware components.\n• The software keyboard is a facsimile of the original, reflecting the different existing styles.\n• Even the noise of the disk drive is emulated.\n\nThe Library section offers a way to organize a large collection of games, demos and programs. The emulated hardware can be customized for each entry.\n\nThe Inbox provides a place to quickly try new programs. You can easily move the ones you want to keep to the library.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/at.spiderlab.c64.png",
+      "tintColor": "#7060e0",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/T-Pau/Ready/main/screenshot.png"
+      ],
+      "versions": [
+        {
+          "version": "1.6.1",
+          "date": "2024-05-09T23:33:36Z",
+          "localizedDescription": "• Add Commodore 128.\n• Add Atari 8-Bit Computers.\n• Add Commander X16.\n• Add Polyplay Trap Them Controller.\n• Add VIC-20 32K RAM expansion.\n• Update Vice to 3.5.",
+          "downloadURL": "https://github.com/T-Pau/Ready/releases/download/release-1.6.1/Ready-1.6.1.ipa",
+          "size": 73079686,
+          "minOSVersion": "13.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Seekarr",
+      "bundleIdentifier": "com.matthw.1.seekarr",
+      "developerName": "matthw-labs",
+      "subtitle": "A Flutter app for managing your self-hosted media stack from anywhere",
+      "localizedDescription": "Seekarr:\n\nA Flutter app for managing your self-hosted media stack from anywhere. One client for Seerr, Radarr, Sonarr, Lidarr, and qBittorrent on macOS, iOS, and Android.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.matthw.1.seekarr.png",
+      "tintColor": "#001030",
+      "category": "other",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/matthw-labs/seekarr/main/screenshots/services.png",
+        "https://raw.githubusercontent.com/matthw-labs/seekarr/main/screenshots/services_dark.png",
+        "https://raw.githubusercontent.com/matthw-labs/seekarr/main/screenshots/services_list.png",
+        "https://raw.githubusercontent.com/matthw-labs/seekarr/main/screenshots/seerr.png",
+        "https://raw.githubusercontent.com/matthw-labs/seekarr/main/screenshots/sonarr.png"
+      ],
+      "versions": [
+        {
+          "version": "0.8.0",
+          "date": "2026-06-20T12:39:55Z",
+          "localizedDescription": "v0.8.0:\n\n📅 Released June 20, 2026.\n\nqBittorrent:\n\nFull qBittorrent support lands in Seekarr — the headline feature of this release.\n\n• 🧲 Torrent management: list, detail view, and full lifecycle control (start/pause/delete/edit).\n• 🧱 New domain models: Torrent, TorrentFile, TorrentTracker, TorrentProperties, TransferInfo with dedicated parsers.\n• ⚡ Torrent actions: start/pause, delete with confirmation dialog, edit dialogs, action & selection bars.\n• ➕ Add torrent button with manual import support.\n• 🔖 Filters: new three-pill popup for Categories, Tags, and Trackers.\n• ↕️ Sorting: new sort options for the torrent list.\n• 🔎 In-list search: filter and sort rows polished with design tokens.\n• 🌐 WebUI v2 client: form-based login, cookies, Referer/Origin headers.\n\nManual Import:\n\n• 🛠️ Lenient ManualImport endpoint for unparseable files, with a fix sheet to correct failed imports.\n\n✨ UX & UI Improvements:\n\n• 🖥️ Phone-like macOS window: compact new window style on macOS.\n• ♻️ In-app reset: reset settings directly from the Settings screen.\n• 🚀 Onboarding: flow fixes and screen improvements.\n• 📸 Screenshot refresh: entirely renewed README gallery (light/dark shots for activity, search, services, settings, qbit, radarr, sonarr, seerr, manual_import).\n\n🐛 Fixes:\n\n• 🔍 Global search results now open correctly.\n• 🧹 qBittorrent UI and filter fixes.\n• 🤖 Android: fixed build error caused by file_picker dependency.\n• 🍎 iOS: fixed Podfile for iOS builds.\n• 📝 Minor onboarding flow fixes.\n\n♻️ Refactor:\n\n• 🧩 New runTorrentAction utility centralizes torrent action handling — torrent_detail_screen.dart significantly slimmed down.\n• 🎨 Filter/sort rows migrated to design tokens (AppSpacing).\n\n🧪 Tests:\n\n• 📈 +2600 lines of qBittorrent tests: client, service, models, provider.\n• 📦 Manual import: service, models, and provider tests.\n• ⚙️ Settings & onboarding: settings_service, settings_home_screen, onboarding_screen tests.\n• 🔎 Extended global search tests.\n• 🧰 New FakeSecureSettingsStore test helper for persistence tests.",
+          "downloadURL": "https://github.com/matthw-labs/seekarr/releases/download/v0.8.0/seekarr-0.8.0.ipa",
+          "size": 17118681,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
         "privacy": {}
       }
     }
