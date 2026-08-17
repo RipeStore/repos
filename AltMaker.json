@@ -2,16 +2,16 @@
   "name": "Altmaker by RipeStore",
   "subtitle": "Freshly sliced sideloadable iOS apps directly from upstream sources.",
   "identifier": "com.ripestore.altmaker",
-  "sourceURL": "",
+  "sourceURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/AltMaker.json",
   "description": "Automated repository indexing latest sideloadable iOS applications, emulators, and utilities.",
   "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
   "website": "https://ripestore.github.io/",
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "sh.mateo.empo",
+    "app.mangatan.mangatan",
     "com.noopapp.noop",
-    "com.randomityguy.mbuhaxe"
+    "sh.mateo.empo"
   ],
   "apps": [
     {
@@ -482,11 +482,11 @@
       "tintColor": "#5060e0",
       "category": "utilities",
       "screenshotURLs": [
-        "https://raw.githubusercontent.com/swisslite/Kryptos/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
-        "https://raw.githubusercontent.com/swisslite/Kryptos/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg",
-        "https://raw.githubusercontent.com/swisslite/Kryptos/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
-        "https://raw.githubusercontent.com/swisslite/Kryptos/main/fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg",
-        "https://raw.githubusercontent.com/swisslite/Kryptos/main/fastlane/metadata/android/en-US/images/phoneScreenshots/5.jpg"
+        "https://raw.githubusercontent.com/swisslite/Kryptos/main/assets/readme/1.jpg",
+        "https://raw.githubusercontent.com/swisslite/Kryptos/main/assets/readme/2.jpg",
+        "https://raw.githubusercontent.com/swisslite/Kryptos/main/assets/readme/3.jpg",
+        "https://raw.githubusercontent.com/swisslite/Kryptos/main/assets/readme/4.jpg",
+        "https://raw.githubusercontent.com/swisslite/Kryptos/main/assets/readme/5.jpg"
       ],
       "versions": [
         {
@@ -574,10 +574,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-08-16T12:35:22Z",
-          "localizedDescription": "Release v6.0.86:\n\n• ci: retry macOS desktop bundle builds (e1eaa40).\n\n• Keep incompatible anime packages installed (5954a4b).\n• Keep large novel readers active during layout (7a91bfe).\n• Preserve manga progress after unread resets (13eb8b5).\n• Keep installed anime extensions aligned with repositories (e6ef71d).\n• Make manga extension updates transactional (f6648cd).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.86/Manatan-v6.0.86-iOS.ipa",
-          "size": 349145273,
+          "date": "2026-08-17T08:37:29Z",
+          "localizedDescription": "Release v6.0.87:\n\n• Prevent profile settings resets during switches (7546a8a).\n• Keep manga reader settings live without losing position (4076c0d).\n• Preserve manga page during display changes (66ceb32).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.87/Manatan-v6.0.87-iOS.ipa",
+          "size": 350054369,
           "minOSVersion": "15.5"
         }
       ],
@@ -1360,10 +1360,10 @@
       "versions": [
         {
           "version": "10.1.1",
-          "date": "2026-08-17T04:35:38Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.1.1).\n\n• Android (debug) — NOOP-android-debug-v10.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.1.1 · built 2026-08-17 · 5894735.",
+          "date": "2026-08-17T08:36:01Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.1.1).\n\n• Android (debug) — NOOP-android-debug-v10.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.1.1 · built 2026-08-17 · 4e85a35.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v10.1.1.ipa",
-          "size": 18748578,
+          "size": 18762874,
           "minOSVersion": "17.0"
         }
       ],
@@ -2493,6 +2493,39 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
+      }
+    },
+    {
+      "name": "Tesstats",
+      "bundleIdentifier": "com.tesstats.app",
+      "developerName": "Drakonis96",
+      "subtitle": "iOS app that displays TeslaMate stats on your iphone",
+      "localizedDescription": "Tesstats:\n\nA beautiful, read‑only stats app for your Tesla — powered by your own TeslaMate server. For iPhone, iPad and Mac.\n\nTesstats shows your car's live status, trips, charging sessions, battery health and rich analytics — at a glance, in a clean dark interface. It never sends any command to your car: it only reads the data TeslaMate already collects.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.tesstats.app.png",
+      "tintColor": "#701010",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/02-dashboard.png",
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/05-charging.png",
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/04-trips.png",
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/03-battery.png",
+        "https://raw.githubusercontent.com/Drakonis96/tesstats/main/docs/screenshots/06-settings.png"
+      ],
+      "versions": [
+        {
+          "version": "0.2.0",
+          "date": "2026-07-30T15:33:57Z",
+          "localizedDescription": "Rearrangeable screens, tappable units, tariff plans — and the app is finally translated end to end.\n\nEvery screen is yours to arrange:\n\nSummary, Trips, Charging, Battery and Stats are built from blocks you can reorder or hide, from the ▦ button on the screen itself or from Settings. Defaults now lead with what most people open the app for — how the car is, and what it cost — with the enthusiast blocks further down.\n\nTap to change units:\n\nConsumption switches between Wh/km and kWh/100 km, and tyre pressure between bar and psi, by tapping any value. Every value switches together and the choice is remembered.\n\nTariff plans:\n\nName a plan, give it price bands, and charging sessions TeslaMate did not cost are priced by when they happened. You set only when each band starts — the day closes itself, so the bands always add up to 24 h. Existing time-of-use setups are migrated automatically. Per-location prices can now be set from a charging session itself, which also explains where its cost came from.\n\nThe app follows the language you pick:\n\n179 strings had never been added to the catalogue and always showed in English. Beyond that, dates, weekday names and chart axis labels are formatted from a locale rather than the string table, so a Battery chart could read sáb / lun / mié inside an otherwise English screen. Both are fixed, in both directions.\n\nIt stops stalling:\n\nEvery scrollable screen re-derived all of its analytics on each redraw. On a three-year history, one pass through Stats measured just over a second of blocked main thread — and the live feed triggers several a second. Screens now recompute only when something actually changed, and Stats does it off the main thread. The worst offender, the phantom-drain estimate, went from 948 ms to 4 ms. The launch splash no longer sits for a second and a half before showing anything.\n\nMaps follow the car:\n\nDrive somewhere new and the map stayed framed on the previous place with the marker off-screen. All four maps now re-aim: the live location, the history map after a filter change, and a trip's route once its real GPS trace arrives.\n\nSmaller fixes:\n\n• The trip row no longer breaks prices across two lines or truncates the efficiency label.\n• A tariff plan could never be opened — the selection circle was swallowing the row's tap.\n• The settings tabs and the gear button had no VoiceOver name.\n\nSideload the attached Tesstats.ipa with AltStore. The watch app is stripped from the IPA because AltStore cannot provision it.",
+          "downloadURL": "https://github.com/Drakonis96/tesstats/releases/download/v0.2.0/Tesstats.ipa",
+          "size": 2718716,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Tesstats connects to your self-hosted TeslaMate server on your local network."
+        }
       }
     }
   ]

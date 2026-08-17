@@ -38,6 +38,14 @@
       },
       "versions": [
         {
+          "version": "0.10.1",
+          "buildVersion": "a7e06a6",
+          "date": "2026-08-17T09:20:36Z",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.10.0...0.10.1\r\n\r\nThis is a minor release that addresses several issues found in 0.10.0. For the complete notes, see the [0.10.0 release note](https://github.com/minh-ton/reynard-browser/releases/tag/0.10.0).\r\n\r\n### Bug Fixes\r\n- Fixed a regression where the menu for selecting files or photos would not appear when uploading files.\r\n- Fixed an issue where keyboard shortcuts using the Shift key would not work on webpages.",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.10.1/Reynard.ipa",
+          "size": 107051885
+        },
+        {
           "version": "0.10.0",
           "buildVersion": "cedbaa5",
           "date": "2026-08-17T00:06:38Z",
