@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.ppgjx.ffmpeg",
-    "sh.mateo.empo",
-    "app.linkwarden"
+    "com.noopapp.noop",
+    "app.mangatan.mangatan",
+    "com.ppgjx.ffmpeg"
   ],
   "apps": [
     {
@@ -574,10 +574,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-08-17T08:37:29Z",
-          "localizedDescription": "Release v6.0.87:\n\n• Prevent profile settings resets during switches (7546a8a).\n• Keep manga reader settings live without losing position (4076c0d).\n• Preserve manga page during display changes (66ceb32).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.87/Manatan-v6.0.87-iOS.ipa",
-          "size": 350054369,
+          "date": "2026-08-18T08:29:49Z",
+          "localizedDescription": "Release v6.0.88:\n\n• Support safe deletion of local media (2a72b37).\n• Make video extension repository updates resilient (55b7834).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.88/Manatan-v6.0.88-iOS.ipa",
+          "size": 350274779,
           "minOSVersion": "15.5"
         }
       ],
@@ -1360,10 +1360,10 @@
       "versions": [
         {
           "version": "10.1.1",
-          "date": "2026-08-17T13:01:03Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.1.1).\n\n• Android (debug) — NOOP-android-debug-v10.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.1.1 · built 2026-08-17 · f2271cd.",
+          "date": "2026-08-18T12:09:40Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.1.1).\n\n• Android (debug) — NOOP-android-debug-v10.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.1.1 · built 2026-08-18 · d347cbf.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v10.1.1.ipa",
-          "size": 18764502,
+          "size": 18843981,
           "minOSVersion": "17.0"
         }
       ],
