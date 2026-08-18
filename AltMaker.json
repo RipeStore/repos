@@ -2682,10 +2682,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-08-18T05:23:53Z",
+          "date": "2026-08-18T07:16:20Z",
           "localizedDescription": "first commit.\n\nBranch: main.\n\nBuilt from upstream commit ab6ef64 on the main branch.",
           "downloadURL": "https://github.com/RipeStore/ffmpeg-ios-builder/releases/download/v1.1-ab6ef64/FFmpegShellIOS-v1.1-ab6ef64-unsigned.ipa",
-          "size": 13424137,
+          "size": 13423932,
           "minOSVersion": "17.0"
         }
       ],
@@ -2826,6 +2826,40 @@
           "NSCameraUsageDescription": "Runner requires access to your phone’s camera.",
           "NSPhotoLibraryAddUsageDescription": "Runner needs permission to save media to your photo library.",
           "NSPhotoLibraryUsageDescription": "Runnerphotos description"
+        }
+      }
+    },
+    {
+      "name": "RPCS3",
+      "bundleIdentifier": "com.xitrix.RPCS3",
+      "developerName": "XITRIX",
+      "subtitle": "Experimental PS3 emulator, port of RPCS3",
+      "localizedDescription": "RPCS3 iOS port:\n\nExperimental PS3 emulator, port of RPCS3.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.xitrix.RPCS3.png",
+      "tintColor": "#5030c0",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.2",
+          "date": "2026-08-17T23:04:26Z",
+          "localizedDescription": "What's new:\n\n• RPCN multiplayer.\n• Allow to hide top buttons in game session.\n• Entitlements check blocker screen.\n• Update of RPCS3 core with latest changes (on 16.08.26).",
+          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.2/RPCS3.ipa",
+          "size": 23142943,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-debugging-memory-limit",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "RPCS3 uses the local network for RPCN multiplayer and custom RPCN servers."
         }
       }
     }
