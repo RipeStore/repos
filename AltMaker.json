@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.ceres.suwatte",
     "org.jellyfin.swiftfin",
-    "com.noopapp.noop",
-    "com.kryptos.app"
+    "com.noopapp.noop"
   ],
   "apps": [
     {
@@ -2563,6 +2563,39 @@
           "NSLocalNetworkUsageDescription": "Swiftfin iOS uses the local network to connect to your Jellyfin server and discover Cast-enabled devices on your Wi-Fi network.",
           "NSLocationWhenInUseUsageDescription": "Swiftfin iOS uses your location to identify the current Wi-Fi network.",
           "NSMicrophoneUsageDescription": "Swiftfin iOS uses the microphone to listen for ultrasonic tokens when pairing with nearby Cast devices."
+        }
+      }
+    },
+    {
+      "name": "Suwatte",
+      "bundleIdentifier": "com.ceres.suwatte",
+      "developerName": "RipeStore",
+      "subtitle": "An All-In-One Comic Reader for iOS",
+      "localizedDescription": "Suwatte:\n\nSuwatte is an ad-free, open source & feature-rich comic/manga reader for iOS.\n\nThis build is distributed by a third-party not related to Suwatte.\n\nFeatures:\n\n• External Comics (CBR, CBZ, RAR, ZIP).\n• OPDS V1.\n• External Sources.\n• Progress Tracking.\n• Automatic Library Management.\n\n• Partial iCloud Sync.\n• Update Notifications.\n• Panel Bookmarks.\n\n• External Sources.\n• Deep Linking.\n• Point Accurate Reading Resumption.\n• Library Management with Categories & Reading Flags.\n• Automatic Library Management.\n• Zero Ads, a few bugs n crashes here n there tho:].\n\nPlanned Features:\n\n• Full Library iCloud Sync Support.\n\n• Due to crashes this feature was disabled.\n\n• EPUB / Novel Reading Support.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.ceres.suwatte.png",
+      "tintColor": "#6050c0",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/50926838/161845631-86bcbc13-7f70-481c-b9d4-50aad1fb5081.jpeg",
+        "https://user-images.githubusercontent.com/50926838/161845638-13e25bda-0c0f-42b7-aa8c-1cecb6cde1cc.jpeg",
+        "https://user-images.githubusercontent.com/50926838/161845648-421fa1da-d44e-414e-9bed-9584d6972649.jpeg",
+        "https://user-images.githubusercontent.com/50926838/161845652-f4f6dda4-cd7f-4c18-90cf-5110e01ac965.jpeg"
+      ],
+      "versions": [
+        {
+          "version": "6.0.1",
+          "date": "2026-08-18T03:34:08Z",
+          "localizedDescription": "Toolbar Changs + Deps Bumps (#198).\n\n• fix: toolbar ios26.\n• bump.\n\nBranch: next.\n\nBuilt from upstream commit c3333ed on the next branch.",
+          "downloadURL": "https://github.com/RipeStore/suwattebuilder/releases/download/v6.0.1-c3333ed/Suwatte-v6.0.1-c3333ed-unsigned.ipa",
+          "size": 16394180,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Verify Biometrics to Protect Library",
+          "NSPhotoLibraryUsageDescription": "This is required to save images to your device."
         }
       }
     }
