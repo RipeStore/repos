@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "app.linkwarden",
-    "com.ceres.suwatte",
-    "org.jellyfin.swiftfin"
+    "com.ppgjx.ffmpeg",
+    "sh.mateo.empo",
+    "app.linkwarden"
   ],
   "apps": [
     {
@@ -1494,11 +1494,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.2",
-          "date": "2026-08-17T05:03:08Z",
-          "localizedDescription": "Bug Fixes:\n\n• Pick up the whole-file CRLF read fix (#130) (c576390).\n\nCI:\n\n• Gate pull request titles on the commit convention (#124) (44740fc).\n\nDocumentation:\n\n• Pick up the socket stub comment correction (#129) (2cf00dd).\n\nFeatures:\n\n• Pick up the ws2_32 socket bridge (#128) (8e4501c).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.6.2/Empo-0.6.2-unsigned.ipa",
-          "size": 19311643,
+          "version": "0.6.3",
+          "date": "2026-08-18T05:07:24Z",
+          "localizedDescription": "Bug Fixes:\n\n• Rebuild the keyboard toolbar so every key registers (#132) (3d71486).\n• Pick up probe case folding for games without a path cache (#134) (d5bfda0).\n\nChores:\n\n• Cleanup (#131) (19bd1a1).\n• Pin engine-2026-08-18 and native-2026-08-18 (#133) (060d352).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.6.3/Empo-0.6.3-unsigned.ipa",
+          "size": 19352083,
           "minOSVersion": "26.0"
         }
       ],
@@ -2661,6 +2661,39 @@
         "privacy": {
           "NSCameraUsageDescription": "Palladium does not use the camera directly. This message is included because bundled system APIs may reference camera access.",
           "NSPhotoLibraryAddUsageDescription": "Save downloaded videos to your photo library."
+        }
+      }
+    },
+    {
+      "name": "ffmpeg",
+      "bundleIdentifier": "com.ppgjx.ffmpeg",
+      "developerName": "RipeStore",
+      "subtitle": "A commandline based ffmpeg wrapper",
+      "localizedDescription": "FFmpeg-ios is a local audio and video processing tool that runs on iPhone and iPad, suitable for users who need to perform video to audio conversion, audio format conversion, video compression, clip cropping, volume adjustment, and media information viewing.\n\nThis build is distributed by a third-party not related to xujimu/ffmpeg-ios/ffmpeg-workbench/ffmpeg.\n\nThe App has a built-in FFmpeg command-line workbench. You can import videos, audios or folders in the app sandbox workspace and process files using FFmpeg commands similar to those on the desktop. For instance, extract MP4 videos to MP3 audio, convert audio to WAV, compress video size, crop specified segments, or use ffprobe to view file encoding, duration, resolution, bit rate and other information.\n\nUpstream FFmpeg-iOS Source Code Repository: https://github.com/xujimu/ffmpeg-ios",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.ppgjx.ffmpeg.png",
+      "tintColor": "#002030",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/RipeStore/ffmpeg-ios-builder/main/screenshots/screenshot_01.webp",
+        "https://raw.githubusercontent.com/RipeStore/ffmpeg-ios-builder/main/screenshots/screenshot_02.webp",
+        "https://raw.githubusercontent.com/RipeStore/ffmpeg-ios-builder/main/screenshots/screenshot_03.webp",
+        "https://raw.githubusercontent.com/RipeStore/ffmpeg-ios-builder/main/screenshots/screenshot_04.webp"
+      ],
+      "versions": [
+        {
+          "version": "1.1",
+          "date": "2026-08-18T05:23:53Z",
+          "localizedDescription": "first commit.\n\nBranch: main.\n\nBuilt from upstream commit ab6ef64 on the main branch.",
+          "downloadURL": "https://github.com/RipeStore/ffmpeg-ios-builder/releases/download/v1.1-ab6ef64/FFmpegShellIOS-v1.1-ab6ef64-unsigned.ipa",
+          "size": 13424137,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "用于把处理后的音频或视频保存到相册。",
+          "NSPhotoLibraryUsageDescription": "用于从相册导入媒体文件到 App 工作区。"
         }
       }
     }
