@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "org.jellyfin.swiftfin",
     "com.noopapp.noop",
-    "com.kryptos.app",
-    "app.mangatan.mangatan"
+    "com.kryptos.app"
   ],
   "apps": [
     {
@@ -2525,6 +2525,44 @@
         "entitlements": [],
         "privacy": {
           "NSLocalNetworkUsageDescription": "Tesstats connects to your self-hosted TeslaMate server on your local network."
+        }
+      }
+    },
+    {
+      "name": "Swiftfin iOS",
+      "bundleIdentifier": "org.jellyfin.swiftfin",
+      "developerName": "RipeStore",
+      "subtitle": "Native Jellyfin Client for iOS and tvOS",
+      "localizedDescription": "Swiftfin is a fast, native video player that works with Jellyfin, the open source free software media server.\n\nThis build is distributed by a third-party not related to Jellyfin/Swiftfin.\n\nTo use the app, you must have a Jellyfin server set up and running. Find out more at https://jellyfin.org\n\nWith a Jellyfin server, you can:\n\n• Watch Live TV and recorded shows from your Jellyfin server (additional hardware/services required).\n• Stream your video to your iOS/iPadOS device.\n• View your collection in an easy to use interface.\n\nUpstream Swiftfin Source Code Repository: https://github.com/jellyfin/Swiftfin",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/org.jellyfin.swiftfin.png",
+      "tintColor": "#1050a0",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/RipeStore/Swiftfin/main/screenshots/screenshot-1.webp",
+        "https://raw.githubusercontent.com/RipeStore/Swiftfin/main/screenshots/screenshot-2.webp",
+        "https://raw.githubusercontent.com/RipeStore/Swiftfin/main/screenshots/screenshot-3.webp",
+        "https://raw.githubusercontent.com/RipeStore/Swiftfin/main/screenshots/screenshot-4.webp",
+        "https://raw.githubusercontent.com/RipeStore/Swiftfin/main/screenshots/screenshot-5.webp"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-08-18T02:38:16Z",
+          "localizedDescription": "New Features 🎉:\n\n• Render markdown in the login disclaimer.\n• Season ItemView.\n• More glass support, tvOS glass.\n• tvOS sidebarAdaptable.\n• Finish iOS Letter Picker.\n• Live TV Cleanup.\n• Live TV Poster & Recordings.\n• Display Live TV MediaInfoSupplement.\n• Final liquid glass support.\n• Live TV Image Sources & ItemView.\n• Force Subtitle Burn-In.\n• Allow hyphens in deep link URL segment regex.\n• Register Socket for Commands.\n• Recently Played.\n• Update jellyfin-sdk-swift to 3.0.0 (12.0).\n• tvOS Poster Preview.\n• Sharable MediaSource / MediaStream.\n• Filter by Language & officialRatings.\n• Use Accent Color for Landscape Posters Progress.\n• Maximum Resolution Setting.\n• Server Backups & Restore.\n\nBug Fixes 🛠:\n\n• Update packages, runners, tvOS home fix.\n• Collection view's filter bar difficult to access with voice over.\n• Use images tags.\n• Fix library style sourcing.\n• Fix poster preview progress.\n• Fix menu symbol styling.\n• Create separate VC1 Transcoding Profile for Swiftfin Player.\n• Remove restriction on Swiftfin player AVC/H264 interlaced video.\n• Allow DOVIWithEL video to DirectPlay.\n• Non-Romantic Subtitle Fix.\n• Fix user image tag.\n• Various 1.5 Cleanup.\n• fix: restore AppDelegate to fix orientation lock regression on app foreground.\n• Fix Text Subtitle Conversion.\n• Focus Play Button on Episode Details on tvOS.\n• Fix Settings Icon Not Reappearing After Item Dismiss.\n• Hide Empty Runtimes.\n• Revert #2148.\n• Player Focus Fixes.\n• Long Press to Always Gesture Unlock.\n• Cap tvOS Home Logo Width.\n\nOther ⚙️:\n\n• Drawer filters to safeAreaBar, liquid glass supported tabs.\n• 1.5 README Cleanup.\n• Engine PlatformViewRepresentable.\n• Some tvOS cleanup.\n• Consolidate ItemView.\n• VoiceOver grouped navigation.\n• Cleanup poster environment.\n• navigationBarTitleDisplayMode to toolbarTitleDisplayMode.\n\nNew Contributors:\n\n• @mvanhorn made their first contribution.\n• @AYDJI made their first contribution.\n• @potelux made their first contribution.\n• @jj-stuff made their first contribution.",
+          "downloadURL": "https://github.com/RipeStore/Swiftfin/releases/download/1.6/Swiftfin-ios-1.6-unsigned.ipa",
+          "size": 195736950,
+          "minOSVersion": "16.6"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Swiftfin iOS uses Bluetooth to discover nearby Cast devices.",
+          "NSBluetoothPeripheralUsageDescription": "Swiftfin iOS uses Bluetooth to discover nearby Cast devices.",
+          "NSFaceIDUsageDescription": "Swiftfin iOS uses Face ID to lock and access local users.",
+          "NSLocalNetworkUsageDescription": "Swiftfin iOS uses the local network to connect to your Jellyfin server and discover Cast-enabled devices on your Wi-Fi network.",
+          "NSLocationWhenInUseUsageDescription": "Swiftfin iOS uses your location to identify the current Wi-Fi network.",
+          "NSMicrophoneUsageDescription": "Swiftfin iOS uses the microphone to listen for ultrasonic tokens when pairing with nearby Cast devices."
         }
       }
     }
