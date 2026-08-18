@@ -2631,6 +2631,38 @@
           "NSPhotoLibraryUsageDescription": "Allow Linkwarden to access your photos to upload custom link banners."
         }
       }
+    },
+    {
+      "name": "Palladium",
+      "bundleIdentifier": "com.tfourj.Palladium",
+      "developerName": "tfourj",
+      "subtitle": "iOS Media downloader app based on YT-DLP",
+      "localizedDescription": "Palladium:\n\nOn-device iOS media downloader powered by yt-dlp, gallery-dl, ffmpeg, and PythonKit.\n\nApp Screenshoots:\n\nThis URL is not allowed by the configured download allowlists.\n\nTo allow downloads from any URL, visit getpalladium.app/allowlist and click Add to Palladium.\n\n(Allowlists not required after v1.3.2+).\n\nWhat It Does:\n\n• Uses yt-dlp for media extraction, gallery-dl for images, and ffmpeg for processing.\n• Runs Python tooling inside the app.\n\nWhile it is actively tested and continuously improved, you may still encounter bugs. Feedback is greatly appreciated. If you find a bug, please open an issue and we’ll work to fix it.\n\nDownload:\n\n• .ipa from GitHub.\n\n• Nightly: GitHub Actions.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.tfourj.Palladium.png",
+      "tintColor": "#6156e2",
+      "category": "other",
+      "screenshotURLs": [
+        "https://getpalladium.app/assets/palladium_save_download-3klk9xNj.png",
+        "https://getpalladium.app/assets/palladium_home-D3fXGuDM.png",
+        "https://getpalladium.app/assets/palladium_package_manager-CDmMQXL5.png"
+      ],
+      "versions": [
+        {
+          "version": "1.4.0",
+          "date": "2026-08-10T18:17:26Z",
+          "localizedDescription": "Changes/Fixes::\n\n• Refactor swift tests.\n\nNew Contributors:\n\n• @francescofugazzi made their first contribution.",
+          "downloadURL": "https://github.com/tfourj/Palladium/releases/download/v1.4.0/Palladium-v1.4.0.ipa",
+          "size": 35334802,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Palladium does not use the camera directly. This message is included because bundled system APIs may reference camera access.",
+          "NSPhotoLibraryAddUsageDescription": "Save downloaded videos to your photo library."
+        }
+      }
     }
   ]
 }
