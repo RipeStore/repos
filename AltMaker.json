@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "app.linkwarden",
     "com.ceres.suwatte",
-    "org.jellyfin.swiftfin",
-    "com.noopapp.noop"
+    "org.jellyfin.swiftfin"
   ],
   "apps": [
     {
@@ -2596,6 +2596,39 @@
         "privacy": {
           "NSFaceIDUsageDescription": "Verify Biometrics to Protect Library",
           "NSPhotoLibraryUsageDescription": "This is required to save images to your device."
+        }
+      }
+    },
+    {
+      "name": "Linkwarden",
+      "bundleIdentifier": "app.linkwarden",
+      "developerName": "RipeStore",
+      "subtitle": "Client for the self-hosted bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place",
+      "localizedDescription": "Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.\n\nThis build is distributed by a third-party not related to Linkwarden.\n\nSave web pages, articles, and bookmarks with automatic preservation. Organize your links into collections, tag them, collaborate with team members, and access your curated library seamlessly across your devices.\n\nUpstream Linkwarden Source Code Repository: https://github.com/linkwarden/linkwarden",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/app.linkwarden.png",
+      "tintColor": "#002030",
+      "category": "other",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/RipeStore/linkwarden/main/screenshots/screenshot_01.webp",
+        "https://raw.githubusercontent.com/RipeStore/linkwarden/main/screenshots/screenshot_02.webp",
+        "https://raw.githubusercontent.com/RipeStore/linkwarden/main/screenshots/screenshot_03.webp",
+        "https://raw.githubusercontent.com/RipeStore/linkwarden/main/screenshots/screenshot_04.webp"
+      ],
+      "versions": [
+        {
+          "version": "1.4.2",
+          "date": "2026-08-18T04:39:34Z",
+          "localizedDescription": "Web:\n\n• Announcement dismissals are now saved to your account, so they stay dismissed across devices.\n• Updated Japanese translations.\n• Fixed manual installation on Windows.\n\n• Bug fixes.\n\nMobile:\n\n• Offline support was rebuilt on SQLite for faster and more reliable syncing.\n• The app now sends your device name when signing in, so sessions are easier to identify on the web.\n• Bug fixes.\n\nNew Contributors:\n\n• @woernsn made their first contribution.\n• @Chronophylos made their first contribution.",
+          "downloadURL": "https://github.com/RipeStore/linkwarden/releases/download/v2.16.1/Linkwarden-ios-v2.16.1-mobile1.4.2-unsigned.ipa",
+          "size": 18977815,
+          "minOSVersion": "15.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Allow Linkwarden to access your Face ID biometric data.",
+          "NSPhotoLibraryUsageDescription": "Allow Linkwarden to access your photos to upload custom link banners."
         }
       }
     }
