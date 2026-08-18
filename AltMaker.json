@@ -2696,6 +2696,138 @@
           "NSPhotoLibraryUsageDescription": "用于从相册导入媒体文件到 App 工作区。"
         }
       }
+    },
+    {
+      "name": "ByeTunes",
+      "bundleIdentifier": "com.EduAlexxis.MusicManager",
+      "developerName": "EduAlexxis",
+      "subtitle": "The first app of its kind: seamless, on-device music and ringtone injection for iOS. Bypass iTunes and manage your native library directly. Auto-fetch metadata, organize playlists, and keep your files clean. The true local music experience is here",
+      "localizedDescription": "ByeTunes 🎵:\n\nSay goodbye to iTunes sync!\n\nByeTunes is a native iOS app that lets you inject music (MP3, M4A, FLAC, WAV) and ringtones directly into your device's media library—without needing a computer connection for every sync. It communicates directly with the iOS media database, giving you the power to manage your music on your terms.\n\nFeatures:\n\n• Direct Music Injection: Add songs to your Apple Music library without a PC.\n• (DISABLED FOR NOW) Ringtone Manager: Inject custom ringtones (.m4r and .mp3 auto-conversion).\n• Playlist Support: Create and manage playlists on the fly.\n• No Computer Needed (after setup): Once paired, you're free!\n• Metadata Editing: Auto-fetched from iTunes or Deezer.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.EduAlexxis.MusicManager.png",
+      "tintColor": "#c00030",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.4",
+          "date": "2026-07-05T19:30:07Z",
+          "localizedDescription": "Hi guys, here is the 2.4 update for ByeTunes. This one is focused a lot on making downloads, backups, playlists and repair tools way more reliable and easier to use.\n\nDownloads can now keep going in the background. If you turn on background downloads in Settings, ByeTunes can continue an active download after you leave the app or lock your phone instead of making you babysit the download screen.\n\nThere is also Live Activity support now. When background downloads are enabled you can turn on Live Activity Progress and see the current download progress on the Lock Screen and Dynamic Island.\n\nMetadata fetching for downloaded songs was improved too. ByeTunes can now keep track of downloaded files that still need metadata and finish that work in the background, so songs downloaded from the Download tab should still get cleaned up and enriched even if you do not manually open the Music tab right away.\n\nSmall disclaimer for background downloads:\n\nIf you manually force close the app from the app switcher, iOS may stop background activity until you open ByeTunes again.\n\nOpus support was added too. ByeTunes can now detect and handle Opus downloads properly instead of treating them like an unknown audio file type, so downloads that come back as Opus should be saved and processed with the right extension.\n\nThe download queue is more persistent now. If the app closes or gets interrupted, ByeTunes saves the active queue, failed items, progress state and pending metadata work so it can recover better next time. Failed Apple Music downloads also give a clearer message now, and there is a helper to find the song on Spotify when Apple Music cannot be used for that track.\n\nI also cleaned up the Download tab search bar. You can now use the same bar to search or paste an Apple Music, Spotify or Deezer link instead of having to think so much about where the link came from.\n\nBackup and Restore got a big rework. There is now a dedicated Backup & Restore section with a cleaner Manage Backups screen. You can still do light database backups or full backups with song files.\n\nPlaylist backup and restore was added too. You can back up playlists using a 3mu file on your device, then restore them later, or even share them with your friends. ByeTunes tries to match the songs already on the device when restoring, so playlists can be recreated without needing to re-inject every song again.\n\nThe On-Device Library browser got a lot better. You can now browse songs, artists, albums and playlists, manage playlists from inside ByeTunes, add songs to playlists, remove songs from playlists, rename/delete playlists and export songs with a saved export folder.\n\nThe repair tools were moved into a proper Library Repair area. Clean & Repair Library is now separated from Backup & Restore, and there are clearer tools for fixing ghost songs, broken alphabetical ordering, artwork issues and album artwork refreshes.\n\nThere were also a bunch of smaller fixes and cleanups around metadata, backups, device library browsing, download recovery, queue handling and settings organization.\n\nThanks as always to everyone testing ByeTunes, sending logs and reporting what breaks. Hope you guys enjoy this update.",
+          "downloadURL": "https://github.com/EduAlexxis/ByeTunes/releases/download/v2.4/ByeTunes.ipa",
+          "size": 16461342,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Nyxian",
+      "bundleIdentifier": "org.emexlabs.nyxian",
+      "developerName": "emexlab",
+      "subtitle": "IDE to develop native code iOS apps and utilities on stock iOS it self just via a certificate and a custom micro kernel for those apps",
+      "localizedDescription": "What is it?:\n\nNyxian is an iOS app that empowers developers with a full toolchain they can use while even being offline for iOS development on iPhone. It supports Swift, C, Objective-C, C++ and Objective-C++. It’s a powerful IDE that made the impossible possible, a fully on-device iOS IDE that doesn’t even need a cloud and can even be used with airplane mode enabled after it downloaded the SDK and resources from our server. It supports officially iOS 18.4 all the way up to the latest iOS version (iOS/iPadOS 27 Beta 4 tested). You can compile and run iOS apps on the go with ease, using the entire iOS 26.5 SDK.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/org.emexlabs.nyxian.png",
+      "tintColor": "#d0a0f0",
+      "category": "developer",
+      "versions": [
+        {
+          "version": "0.11.2",
+          "date": "2026-08-17T20:21:19Z",
+          "localizedDescription": "Nyxian:\n\n• Fix: patched apps randomly crashing when project is closed. (a39aef940d180c06862587bf3dee33bfe8e3f6a0).\n• Fix: patched delete button was missing from file management. (6ebf56f7bab17c6c30fc7e3a6d4d83bae5c69e31, dfaeab71189d86cf878f7083ef338c68019055b0).\n• Fix: now the toolbar doesn't disappear on the phone sometimes in code editor. (22192ef8016a653129dce50b39076ca4d2a2bced).\n• Fix: properly reload application management after userspace restore. (430aefc08b3a43d5e618e837a215d073696c9bbf).\n• Fix: use bottom insets on iOS on guest apps. (b2477cb90c5837dc52d07d5d4db3cd6e579b0a3d).\n• Feat: basic file transfer in browsing guest file system. (697737c1df99796fcbc812b0fd6870d2137e4641).\n• Feat: better certificate management (c088ca6cda0f23cb219153a0264f405c4f8fce57, ad816b94e1d27ed75c442d221ba0200a64bd7fa5, d0d2cb2c15fd37ab46c1a36c68fe789900463914, 95864ed9197907b04d79fcf1e3d2add847e488c9, 6c535ee5fbddd373a7843ca47ed6c5015bd5c03e, 68303d4086de2455bf63ec35b05e2eeb3b1b2b58, 0d9ceb4a04ca371b433067dfeea3bfe3e9c11b3c).\n• Feat: better window design. (a6b2761db740df2313708ca0d8b1a14120e42e71, 802e5807421dbf4e441f81cf94a0b6df68765b00, 7b63cc61c6542a29dce1665a109824cf6dfd8112, 72d023e3aa14345b474924892941431c24b110fc, 9e7d717e63b16c602997553d2317a64663fc3302, 132514a081b2de8edff7b1a5a8a927ad035c7470).\n• Feat: better onboarding UI. (ec0d306f46bf572f24f34e59e098388e808fdf7a).\n• Feat: properly prompt the user to \"Set Up Signing\". (f267645543fb9d5f05156c1413388221f9c3e0c7, fc6818ee27a550a26ba68b14c02649fa8e96f31d, 3953f2059f7803a9867764002cdd0574e0f1de21, dd114cc22de85fc9b4d619251e72f12f5774d706, d0abd31a800968f62217caa6722137b7a4e08466).\n\nCoreCompiler:\n\n• Fix: patched a stack buffer overflow in MDKThreadPool. (5f493bb08167f002886bc365e67a27928a8b4f49).\n\nLiveProcess:\n\n• Feat: introduced LiveShim.\n\nMicro Kernel (ksurface):\n\n• Vulnerability Patch: patched a stack buffer overflow in task port transmission. (a7cb2b81339c3464e25f433a97d5592592f4c8b4).\n• Vulnerability Patch: patched a privilege escalation in process startup. (132742dcf8584d7e25685d4183ba7e9e631a4527).\n• Vulnerability Patch: patched a deadlock + stack buffer overflow vector in daemon launch logic. (21f2406af51d7029dd20dd7bf79dfe9fb24300a6).\n• Hardening: Safer init for subsystems. (6fe18980c91982f4950d8da78d190d4074b875e2, 1b23355af68ecf81606b245db8fe6c1d71e11c1d).\n• Performance: More efficient copy string in in syscalling. (8c75a46f7eca3c3d98ba99668d8e4334e360c46f).\n\nStandard SDK used in this version of Nyxian is iPhoneOS26.5.",
+          "downloadURL": "https://github.com/emexlab/Nyxian/releases/download/0.11.2/Nyxian.ipa",
+          "size": 105785852,
+          "minOSVersion": "18.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleEventsUsageDescription": "The guest app is requesting for this permission.",
+          "NSAppleMusicUsageDescription": "The guest app is requesting for this permission.",
+          "NSBluetoothAlwaysUsageDescription": "The guest app is requesting for this permission.",
+          "NSBluetoothPeripheralUsageDescription": "The guest app is requesting for this permission.",
+          "NSBluetoothWhileInUseUsageDescription": "The guest app is requesting for this permission.",
+          "NSCalendarsUsageDescription": "The guest app is requesting for this permission.",
+          "NSCameraUsageDescription": "The guest app is requesting for this permission.",
+          "NSContactsUsageDescription": "The guest app is requesting for this permission.",
+          "NSDesktopFolderUsageDescription": "The guest app is requesting for this permission.",
+          "NSDocumentsFolderUsageDescription": "The guest app is requesting for this permission.",
+          "NSDownloadsFolderUsageDescription": "The guest app is requesting for this permission.",
+          "NSFaceIDUsageDescription": "The guest app is requesting for this permission.",
+          "NSFallDetectionUsageDescription": "The guest app is requesting for this permission.",
+          "NSFileProviderDomainUsageDescription": "The guest app is requesting for this permission.",
+          "NSFileProviderPresenceUsageDescription": "The guest app is requesting for this permission.",
+          "NSFocusStatusUsageDescription": "The guest app is requesting for this permission.",
+          "NSGKFriendListUsageDescription": "The guest app is requesting for this permission.",
+          "NSHealthClinicalHealthRecordsShareUsageDescription": "The guest app is requesting for this permission.",
+          "NSHealthShareUsageDescription": "The guest app is requesting for this permission.",
+          "NSHealthUpdateUsageDescription": "The guest app is requesting for this permission.",
+          "NSHomeKitUsageDescription": "The guest app is requesting for this permission.",
+          "NSIdentityUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocalNetworkUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationAlwaysUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationWhenInUseUsageDescription": "The guest app is requesting for this permission.",
+          "NSMicrophoneUsageDescription": "The guest app is requesting for this permission.",
+          "NSMotionUsageDescription": "The guest app is requesting for this permission.",
+          "NSNearbyInteractionAllowOnceUsageDescription": "The guest app is requesting for this permission.",
+          "NSNearbyInteractionUsageDescription": "The guest app is requesting for this permission.",
+          "NSNetworkVolumesUsageDescription": "The guest app is requesting for this permission.",
+          "NSPhotoLibraryAddUsageDescription": "The guest app is requesting for this permission.",
+          "NSPhotoLibraryUsageDescription": "The guest app is requesting for this permission.",
+          "NSRemindersUsageDescription": "The guest app is requesting for this permission.",
+          "NSRemovableVolumesUsageDescription": "The guest app is requesting for this permission.",
+          "NSSensorKitUsageDescription": "The guest app is requesting for this permission.",
+          "NSSiriUsageDescription": "The guest app is requesting for this permission.",
+          "NSSpeechRecognitionUsageDescription": "The guest app is requesting for this permission.",
+          "NSSystemAdministrationUsageDescription": "The guest app is requesting for this permission.",
+          "NSSystemExtensionUsageDescription": "The guest app is requesting for this permission.",
+          "NSUserTrackingUsageDescription": "The guest app is requesting for this permission.",
+          "NSVideoSubscriberAccountUsageDescription": "The guest app is requesting for this permission.",
+          "NSVoIPUsageDescription": "The guest app is requesting for this permission."
+        }
+      }
+    },
+    {
+      "name": "NekoSurf",
+      "bundleIdentifier": "com.wrngwrld.Chanyan",
+      "developerName": "NekoSurf",
+      "subtitle": "🍀 4chan image board viewer for iOS and Android, written in Flutter",
+      "localizedDescription": "NekoSurf:\n\nNekoSurf is a fast, privacy-friendly 4chan viewer built with Flutter for iOS and Android.\n\nIt is designed for smooth browsing with modern card-based layouts, media-first navigation, and practical quality-of-life tools for everyday use.\n\nBrowsing:\n\n• Browse all boards with fast search.\n• Open threads directly from pasted 4chan links.\n• Switch board threads between grid and list view.\n• Sort threads by bump order, newest, oldest, reply count, or image count.\n• Choose default board view, sort mode, and sort direction in settings.\n\nBookmarks and Favorites:\n\n• Favorite boards for quick access on the home screen.\n• Bookmark threads for later with status tracking.\n• See archived/deleted state on bookmarked threads.\n\nMedia Experience:\n\n• Optimized image and video browsing.\n• WebM/MP4 playback support.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.wrngwrld.Chanyan.png",
+      "tintColor": "#60d0e0",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/NekoSurf/NekoSurf/main/screenshots/ios_screenshot_1.jpg",
+        "https://raw.githubusercontent.com/NekoSurf/NekoSurf/main/screenshots/ios_screenshot_2.jpg"
+      ],
+      "versions": [
+        {
+          "version": "0.11.5",
+          "date": "2026-07-30T07:46:25Z",
+          "localizedDescription": "• Update App icon.\n• Add sticky threads functionality (#73).",
+          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.11.5-4/Runner.ipa",
+          "size": 33102138,
+          "minOSVersion": "17.6"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Runner requires to play music.",
+          "NSCameraUsageDescription": "Runner requires access to your phone’s camera.",
+          "NSPhotoLibraryAddUsageDescription": "Runner needs permission to save media to your photo library.",
+          "NSPhotoLibraryUsageDescription": "Runnerphotos description"
+        }
+      }
     }
   ]
 }
