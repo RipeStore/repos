@@ -276,55 +276,6 @@
       }
     },
     {
-      "name": "Spark",
-      "bundleIdentifier": "ai.devl.RenPySpark",
-      "developerName": "Devon Lewis",
-      "subtitle": "Play Your Ren'Py Visual Novels",
-      "localizedDescription": "Spark: Your Premier Tool for Ren'Py Visual Novels Management\n\nSpark is an independent utility for managing and launching Ren'Py novels and is not affiliated with or supported by the official Ren'Py project. Users should refrain from contacting the Ren'Py team for support related to this app.\n\nKey Features:\n\nSelf-Sufficient Novel Import and Launch: As an independent utility, Spark facilitates the importing and launching of your preferred Ren'Py novels.\n\nTailored Compatibility Options:\nChoose from Multiple Engine Versions: Opt for either Ren'Py engine version 8.3.0, 8.2.3, 8.1.3, 8.0.3, 7.8.0, 7.7.3, 7.6.3, or 7.5.3.\nCustomizable Novel Settings: Adjust the Ren'Py version for each novel for the best performance.\nNote: User experience may vary with each novel. Smaller devices may face rendering issues, and older titles might contain bugs. Some titles may not work at all. We do our best to provide support.\n\nAdvanced Save Management:\nComprehensive Save Overview: Easily view and manage all your game saves.\nBackup and Restore Functions: Securely backup your progress and restore at your convenience.\nSimplified Save Importation and Deletion: Full control over your game saves.\n\nRobust Novel Management:\nEffortless Organization: Manage all your novels with ease.\nEnhanced Novel Control: Delete, rename, and manage novel versions.\nEasy Novel Import: Add new novels through zip, apk, 7z, or rar files.\n\nSpark, while not affiliated with Ren'Py, stands as your essential tool for diving into the vast universe of Ren'Py visual novels. It's a gateway to your chosen stories, with full user control over novel management.\n\nAdditional Licensing Information:\nRen'Py contains free software licensed under various licenses, including the GNU Lesser General Public License. For a complete list of the software and licenses, please visit Ren'Py's official page.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/icon_400x400bb.webp",
-      "tintColor": "#787886",
-      "category": "utilities",
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s1_230x499bb.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s2_230x499bb.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s3_230x499bb.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s4_230x499bb.webp",
-        "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/SPARK/s5_230x499bb.webp"
-      ],
-      "versions": [
-        {
-          "version": "1.3.4",
-          "date": "2025-11-28T00:22:00Z",
-          "localizedDescription": "• Engine 7.8.8 (7.8.7 Memory Leak Fix)\n• New Safe Mode Logic:\n- Safe mode now utilizes vanilla engines\n- Selected Device Variants apply on Safe Mode\n- Spark Overlay will be available on Safe Mode\n- Speak Integration can be disabled with a separate option\n\n• Separated console \u0026 developer mode settings\n• Orphan File Error fix\n• Marshal load Error fix\n• Fixed certain ZIP files not importing\n• Fixed transparent text boxes not applying if running with game specific Ren'Py settings\n• Archive System Rework :\n- Added the ability to extract password protected archives.\n\n• Added Ren'py Options - Use Less Memory \u0026 Less Screen Updates\n\n*** New strings have not yet been translated ***",
-          "downloadURL": "https://cdn.yemoja.xyz/spark/v1.3.4/Spark_1.3.4.ipa",
-          "size": 238800000
-        },
-        {
-          "version": "1.3.3",
-          "date": "2025-11-15T13:11:00Z",
-          "localizedDescription": "• Fixed Translations\n• Fixes for Quick Menu\n• Engine 8.5.0\n",
-          "downloadURL": "https://cdn.yemoja.xyz/spark/v1.3.3/Spark_1.3.3.ipa",
-          "size": 167100000,
-          "minOSVersion": "15.6"
-        },
-        {
-          "version": "1.3.2",
-          "date": "2025-11-02T11:11:00Z",
-          "localizedDescription": "• MultiPersistent Saves (Used for importing saves in multi episode games)\n• Ren’Py 8.4.1, 8.3.7, 7.8.7\n• Engine performance enhancements across all engines\n• Overlay buttons no longer fall out of view during rotation\n• Turbo Rewind (hold rewind button to quickly rewind scenes)\n• Library Screen performance enhancements",
-          "downloadURL": "https://cdn.yemoja.xyz/spark/v1.3.2/Spark_1.3.2.ipa",
-          "size": 153500000,
-          "minOSVersion": "15.6"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSAccentColorName": "BlueTint",
-          "NSFaceIDUsageDescription": "To authenticate and provide access to the app."
-        }
-      }
-    },
-    {
       "name": "Infinity Blade III",
       "bundleIdentifier": "com.chairentertainment.IB3",
       "developerName": "ChAIR Entertainment",
@@ -473,7 +424,7 @@
       "title": "The Infinity Blade series!",
       "identifier": "news_m9nh92pzl7",
       "caption": "The Infinity Blade saga begins once again!",
-      "date": "2025-11-09T03:55:00Z",
+      "date": "2025-11-09T09:25:00Z",
       "tintColor": "#cd0b0b",
       "imageURL": "https://cdn.jsdelivr.net/gh/RipeStore/icons@main/UN/1400x800-96570af251fc03ab352769bb819aaf1b62a3863e.png",
       "notify": true,
