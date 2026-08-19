@@ -1360,10 +1360,10 @@
       "versions": [
         {
           "version": "10.1.1",
-          "date": "2026-08-19T07:47:02Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.1.1).\n\n• Android (debug) — NOOP-android-debug-v10.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.1.1 · built 2026-08-19 · c6864f7.",
+          "date": "2026-08-19T09:53:52Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.1.1).\n\n• Android (debug) — NOOP-android-debug-v10.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.1.1 · built 2026-08-19 · 140c8b3.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v10.1.1.ipa",
-          "size": 18858074,
+          "size": 18861312,
           "minOSVersion": "17.0"
         }
       ],
