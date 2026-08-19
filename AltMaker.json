@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "sh.mateo.empo",
-    "com.xitrix.RPCS3",
-    "com.chrissotraidis.maskpad"
+    "ai.devl.aurora",
+    "ai.devl.RenPySpark",
+    "sh.mateo.empo"
   ],
   "apps": [
     {
@@ -2860,6 +2860,93 @@
         ],
         "privacy": {
           "NSLocalNetworkUsageDescription": "RPCS3 uses the local network for RPCN multiplayer and custom RPCN servers."
+        }
+      }
+    },
+    {
+      "name": "Spark",
+      "bundleIdentifier": "ai.devl.RenPySpark",
+      "developerName": "RipeStore",
+      "subtitle": "Play Your Ren'Py Visual Novels",
+      "localizedDescription": "Spark: The Essential Tool for Managing Ren'Py Visual Novels.\n\nSpark is an independent utility for organizing and launching Ren'Py visual novels. It is not affiliated with or supported by the official Ren'Py project. For any issues with this app, please contact Spark support, not the Ren'Py team.\n\nLaunch and Play Your Novels with Ease Import and start your favorite Ren'Py visual novels directly in Spark. Once added, your titles are ready to launch with a tap, so you can focus on reading and playing instead of manual setup.\n\nTailored Compatibility for Each Novel Choose from multiple Ren'Py engine versions to match your novel and improve stability: 8.x: 8.5.2, 8.5.0, 8.4.1, 8.3.7, 8.3.4, 8.2.3, 8.1.3, 8.0.3 7.x: 7.8.8, 7.8.4, 7.7.3, 7.6.3, 7.5.3, 7.4.11.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/ai.devl.RenPySpark.png",
+      "tintColor": "#b0a080",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.4",
+          "date": "2026-08-19T03:07:25Z",
+          "localizedDescription": "• School Game Fix.\n• Eden (Choice Feature) Fix.\n• Sofia Partner Fix.",
+          "downloadURL": "https://github.com/RipeStore/spark/releases/download/v1.4.0/ai.devl.RenPySpark_1.4.ipa",
+          "size": 608803649,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.sustained-execution",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSFaceIDUsageDescription": "To authenticate and provide access to the app."
+        }
+      }
+    },
+    {
+      "name": "Aurora",
+      "bundleIdentifier": "ai.devl.aurora",
+      "developerName": "RipeStore",
+      "subtitle": "Play RPG Maker games on your iPhone and iPad — XP, VX, VX Ace, MV, and MZ, with multiplayer, overlays, upscaling, and full save management",
+      "localizedDescription": "Aurora:\n\nPlay RPG Maker games on your iPhone and iPad — XP, VX, VX Ace, MV, and MZ, with multiplayer, overlays, upscaling, and full save management.\n\nAurora brings the full RPG Maker experience to your iPhone and iPad with powerful tools built for mobile.\n\n⚙️ Multi-Engine Support:\n\nRPG Maker XP, VX, and VX Ace run natively on the Aurora Engine. MV and MZ run through Aurora's built-in web engine.\n\n🌐 Aurora Link Multiplayer:\n\nSee other players in the overworld, chat, trade, and battle in PE games — nearby, online, or in always-on Realms.\n\n🎛️ Overlays & Upscaling:\n\nQuick menu, fast-forward, screenshots, and button mapping in-game. Sharpen and upscale with FSR, xBRZ, and shader presets.\n\n🎮 Controller Support:\n\nPlay with MFi game controllers, PS4/PS5, Xbox, and other Bluetooth controllers — or the customizable touch layout editor.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/ai.devl.aurora.png",
+      "tintColor": "#7080a0",
+      "category": "games",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/RipeStore/aurora/main/screenshots/screenshot_01.webp",
+        "https://raw.githubusercontent.com/RipeStore/aurora/main/screenshots/screenshot_02.webp",
+        "https://raw.githubusercontent.com/RipeStore/aurora/main/screenshots/screenshot_03.webp",
+        "https://raw.githubusercontent.com/RipeStore/aurora/main/screenshots/screenshot_04.webp"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-08-19T03:25:09Z",
+          "localizedDescription": "• Fixed regression with increased memory usage causing MZ/MV to restart.",
+          "downloadURL": "https://github.com/RipeStore/aurora/releases/download/1.0.0/ai.devl.aurora_1.0.ipa",
+          "size": 168896065,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.game-center",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.sustained-execution",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Aurora uses Bluetooth to connect to nearby players for Link Play and to pair with game controllers.",
+          "NSLocalNetworkUsageDescription": "Aurora uses the local network to find and connect to nearby players for Link Play."
         }
       }
     }
