@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.noopapp.noop",
-    "app.mangatan.mangatan",
-    "ai.devl.aurora"
+    "com.axiel7.AniHyou",
+    "com.stremiox.app.native",
+    "com.example.openstrapEdge"
   ],
   "apps": [
     {
@@ -140,7 +140,7 @@
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
       "subtitle": "Client-side downloader app built with Capacitor",
-      "localizedDescription": "Mori is a fast and simple downloader for saving videos, photos, and music from 14 popular social media apps. Everything works directly on your device without any external servers or tracking — giving you total privacy and zero ads.\n\nWhat's New in v4.2.1:\n\n• Batch Photo Mode Setting: Added a new Batch Photo Mode dropdown in Settings (Network & Performance) with 3 customizable options for multi-photo / carousel posts (TikTok Photo Mode, Instagram carousels, RedNote albums):.\n\nSmart Media Type Differentiation: Batch mode intelligently distinguishes single video posts (such as TikTok videos with SD, HD, and MP3 quality mirrors) from genuine photo slideshow carousels, ensuring video posts download only 1 primary video file while carousel posts apply the user's selected Batch Photo Mode.",
+      "localizedDescription": "Mori is a fast and simple downloader for saving videos, photos, and music from 14 popular social media apps. Everything works directly on your device without any external servers or tracking — giving you total privacy and zero ads.\n\nPrevious Updates (v4.2.1):\n\n• Batch Photo Mode Setting: Added a new Batch Photo Mode dropdown in Settings (Network & Performance) with 3 customizable options for multi-photo / carousel posts (TikTok Photo Mode, Instagram carousels, RedNote albums):.\n\nSmart Media Type Differentiation: Batch mode intelligently distinguishes single video posts (such as TikTok videos with SD, HD, and MP3 quality mirrors) from genuine photo slideshow carousels, ensuring video posts download only 1 primary video file while carousel posts apply the user's selected Batch Photo Mode.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.mori.downloader.png",
       "tintColor": "#6156e2",
       "category": "utilities",
@@ -706,7 +706,7 @@
       "subtitle": "An app that makes a WHOOP 4.0 useful without a WHOOP subscription — pairs over Bluetooth, computes everything on your phone, no cloud required",
       "localizedDescription": "Openstrap Edge:\n\nAn app that makes a WHOOP 4.0 useful without a WHOOP subscription. Connects to the band over Bluetooth, computes everything on your phone locally iOS and Android.\n\nNot affiliated with WHOOP. Not a clone of their app or their scores — see below.\n\nAs featured in:\n\n\"The goal of the so-called OpenStrap project is not to re-create the WHOOP app. Rather, the algorithms and processing methods are developed from scratch, based on public research… The health data collected from the watch never leaves the phone.\".\n\n— Hackaday, 15 July 2026.\n\n\"When a membership lapses, the hardware is basically useless. You own it, you still can't use it — it just goes dark, because the app stops talking to it. So you've got a perfectly good sensor turning into a paperweight.\".",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.example.openstrapEdge.png",
-      "tintColor": "#f04020",
+      "tintColor": "#000030",
       "category": "lifestyle",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/OpenStrap/edge/main/screenshots/today.png",
@@ -717,11 +717,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.26",
-          "date": "2026-08-09T17:04:14Z",
-          "localizedDescription": "• fix the crashes coming in from crashlytics.\n• import a .noopbak, and stop losing the AI key on a locked relaunch.\n• steps reset at midnight, and a dot for whether anything is syncing.\n• Pin the link-priority decision point so #200 cannot come back.\n• more workout types, a filter on the list, and calories that stop guessing.\n• journal entries that carry a number, not just a tag.\n• blood work, and an export a spreadsheet can open.\n• correlations that read numbers, blood work in your profile, backups, naps you can correct, and breathing you can do with your eyes shut.\n• a 13-week activity heatmap on the workouts screen.",
-          "downloadURL": "https://github.com/OpenStrap/edge/releases/download/v0.9.26/openstrap-edge-v0.9.26-unsigned.ipa",
-          "size": 21602845,
+          "version": "0.9.27",
+          "date": "2026-08-19T16:24:38Z",
+          "localizedDescription": "rebuilt the whole app. every screen. same data, less clutter.\n\nthe ai coach actually does things now — ask it about your sleep or last tuesday, or just tell it to log your food, workout, water, mood, meds.\n\nscan a barcode, the food goes in. works in any country.\n\nimport from apple health or health connect. your details, and old workouts with their routes.\n\nrings on the home screen — recovery, strain, sleep.\n\nbreakdown of your day: one screen, the whole day on a timeline.\n\nevery screen opens on any past day now, not just today.\n\nlive heart rate, on the heart rate screen and your band's page.\n\nwater finally has a − as well as a +.\n\nalso: naps, an observations log, a rough night card, steps on activities and share cards,. cycle tracking is opt-in, switch it on in profile.\n\nNew icon.\n\nsome of your numbers will move. resting hr is measured only while you're asleep now, day coverage is worked out against the whole day instead of the hours you happened to be wearing it, and hours the band was off your wrist show up as gaps instead of quietly counting as zero. if today has no reading you'll see that, instead of last night's number pretending to be today's.\n\nwhoop 4, 5 and MG are all one testflight group now. no more separate whoop 5 beta.\n\nwhoop 5 and MG are still experimental. they work. expect rough edges.\n\nwidgets might be weird after a rebuild this size, and the live activity is still the old design. both next release.\n\nand some fresh bugs, so there's something to fix next week.",
+          "downloadURL": "https://github.com/OpenStrap/edge/releases/download/v0.9.27/openstrap-edge-v0.9.27-unsigned.ipa",
+          "size": 17199746,
           "minOSVersion": "15.0"
         }
       ],
@@ -730,10 +730,12 @@
         "privacy": {
           "NSBluetoothAlwaysUsageDescription": "OpenStrap connects to your WHOOP band over Bluetooth to sync your health data.",
           "NSBluetoothPeripheralUsageDescription": "OpenStrap connects to your WHOOP band over Bluetooth to sync your health data.",
-          "NSHealthShareUsageDescription": "OpenStrap reads your step count from Apple Health to show your daily steps, and reads back its own recent samples so it never writes duplicates.",
+          "NSCameraUsageDescription": "OpenStrap uses the camera to read the barcode on a food packet, so logging a meal does not mean typing its nutrition panel out by hand. It reads the barcode digits and nothing else — no photo is taken, kept, or sent anywhere.",
+          "NSHealthShareUsageDescription": "OpenStrap reads your height, weight, date of birth and sex to set up your profile; your resting heart rate so it has a starting baseline; any blood pressure, blood glucose or body temperature readings, so a device that is cleared to measure those can sit beside your own data with that device's name on it — never blended into an OpenStrap number; and your workouts and their routes, so a run recorded by another app can be listed and drawn on a map here, named with the app that recorded it and never counted as one OpenStrap measured. It also reads back its own recent samples so it never writes duplicates.",
           "NSHealthUpdateUsageDescription": "OpenStrap writes your sleep, resting heart rate, HRV, respiratory rate, energy and workouts into Apple Health.",
           "NSLocationAlwaysAndWhenInUseUsageDescription": "OpenStrap never needs always-on location and does not ask for it. It records your route only while a run, ride or walk is actively running — including when your screen is locked — and stops as soon as you finish. Your route stays on this device and is never uploaded.",
           "NSLocationWhenInUseUsageDescription": "OpenStrap records your route during a run, ride or walk so you can see it, colored by heart-rate zone, when the workout ends. Recording continues while your screen is locked or you switch apps, but only while a workout is running — it stops the moment you finish. Your route stays on this device and is never uploaded.",
+          "NSMotionUsageDescription": "OpenStrap counts your daily steps from this iPhone's own motion chip, because a band on your wrist cannot tell walking from stirring a pot, and the phone in your pocket can. It reads step counts only — never your location or anything else the motion chip records — and only the last few days of them. Your steps stay on this device and are never uploaded.",
           "NSPhotoLibraryUsageDescription": "OpenStrap does not access your photo library. This permission is linked by a dependency but unused — importing your own exported WHOOP data uses the Files app, not Photos."
         }
       }
@@ -941,10 +943,10 @@
       "versions": [
         {
           "version": "0.3.14",
-          "date": "2026-08-16T05:57:51Z",
-          "localizedDescription": "0.3.14 Beta 15 - playback reliability wave (never-recovers stall, dead-source hop, watch history, Dolby Vision colour):\n\nA focused reliability release. Install this over any earlier build. This build comes out of a full audit of a real diagnostic log and fixes the most severe playback failures behind it: streams that spun forever and never recovered, sources that took half a minute to give up, watch-history marks that did not show, and an unsafe Dolby Vision colour fallback. It builds clean on every Apple target; several of these are behavioural fixes best confirmed on your own hardware, so please test and share logs.\n\nWhat's fixed:\n\nPlayback no longer spins forever and never recovers. A stream that froze mid-play while the picture still read as buffering could sit on a spinner indefinitely: the Apple TV recovery watchdog treated that buffering state as normal and never stepped in, even though the same freeze on iPhone and Mac already recovered. The watchdog now observes through a buffering freeze (the shared mid-play stall policy the touch players already use): a genuine wait keeps its full patience, but a stuck stream is recovered on its own instead of stranding you. Apple TV.\n\nMarking something watched shows up right away. Marking a movie or episode watched from its detail page could leave the checkmark on its old value even though the mark was recorded, because the page only refreshed when a few specific fields changed and the watched flag was not one of them. It now refreshes on the watched change itself. Apple TV, iPhone, iPad, and Mac.\n\nA dead source is dropped in a couple of seconds, not half a minute. A source that opens but delivers no actual video (an empty, truncated, or expired link) was handed to the backup player, which also got nothing, wasting about thirty seconds. Such a source is now recognised as genuinely dead from its very first failed read and the app jumps straight to your next source. Apple TV, iPhone, iPad, and Mac.\n\nRewinding keeps working on long streams. The stream can build minutes of video ahead of where you are watching, and that lead used to eat into the window kept behind you, so a rewind a little way back could be refused as out of range. The producer now paces itself, pausing when it runs far ahead, so it never collapses your rewind history. Apple TV, iPhone, iPad, and Mac.\n\nDolby Vision fallback no longer risks the wrong colours. When a Dolby Vision title has to fall back to the plain player, the app used to force a Dolby Vision colour space purely because the title was labelled Dolby Vision, which is not safe for every Dolby Vision variant and could tint the picture. It now applies that only when the format's own signalling proves it is HDR10 compatible, protects the incompatible variant, and otherwise waits for real decoded colour information before deciding. Apple TV, iPhone, iPad, and Mac.\n\nSeeking no longer visibly jumps backward before it starts. A seek lands on the nearest earlier keyframe for decoder correctness, and that earlier point (up to about two seconds before where you asked) used to be shown before catching up. The player now decodes from the keyframe silently and only reveals the picture at the point you actually requested. Apple TV, iPhone, iPad, and Mac.\n\nFewer dropped frames, and a provider that is down is not hammered. Frame-drop measurement no longer counts the transient drops around a display-mode switch, a fresh render start, or a seek, and thumbnail capture is kept off the picture's critical path; and a source provider that is failing (for example a debrid service having a bad moment) now gets a single probe after a cooldown instead of being retried on every screen refresh. Apple TV, iPhone, iPad, and Mac.\n\nKnown issues, please read:\n\n• Watch history beyond the marker still wants a real-device check. The detail-page marker fix is in and confirmed; a full round trip of a live watch tick updating your resume point and the title appearing in Continue Watching was traced as intact but could not be verified end to end without hardware. If a real play does not show up in Continue Watching, please share a diagnostic.\n• Dropped frames on 4K Dolby Vision are measured more honestly and the worst bursts are avoided, but the underlying presentation-path cause is not fully cured.\n• Trakt sign-in now works again (the OAuth broker went live between betas), no app update needed.\n\nPlease test:\n\n• A long play on Apple TV: watch 20+ minutes of a heavy 4K stream; if it ever freezes on a spinner it should now recover on its own. Share the diagnostics log (Settings > Diagnostics) after any failure.\n• Mark a movie or episode watched from its detail page and confirm the checkmark moves immediately; then play something, exit, and confirm it appears in Continue Watching.\n• A source that will not play: confirm it moves on within a couple of seconds instead of a long reconnect.\n• Rewind a good way back during a long stream; it should not be refused.\n• Dolby Vision on capable hardware: confirm true DV, and no colour tint if a title falls back to the plain player.\n\nAndroid:\n\nAndroid is not attached to this build. It is roughly 45% of the way to the Apple apps, with about 55% remaining: the spine (accounts, sync, debrid, phone and TV shells, playback engines, downloads, IPTV, torrent serving, source ranking, Picture-in-Picture, MediaSession) is in, and what remains is feature breadth against the parity plan, real on-device playback proof, a stable signing identity, and signed-install verification. Full parity stays the target; a preview APK returns in a later build.\n\nInstall:\n\nEach Apple asset lists a SHA-256 checksum (SHA256SUMS-ci.txt) so you can confirm your download matches what the public GitHub Actions workflow built from this code.",
-          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.3.14-beta.15/VortX-iOS-v0.3.14-beta.15-ci.ipa",
-          "size": 64172346,
+          "date": "2026-08-19T16:27:40Z",
+          "localizedDescription": "0.3.14 Beta 16 - resume no longer blanks the screen, Still watching pauses and is yours to tune, smoother big-file buffering:\n\nInstall this over any earlier build. The headline fix: resuming a show, jumping to a previous episode, or switching source mid-title no longer strands you on a blank screen with a frozen timer. Plus the Still watching prompt now pauses the video and is fully in your hands, and large 4K files buffer ahead more gently so they stay smooth. It builds clean on every Apple target; several of these are behavioural fixes best confirmed on your own hardware, so please test and share logs.\n\nWhat's fixed:\n\nResuming a show no longer leaves a blank screen. Continue Watching, jumping to a previous episode, or switching source mid-title resumes at your saved position, and on some streams that jump used to leave a black screen with a frozen timer and only sound, if anything, until you backed out and started over. A mid-file resume was being applied as a jump issued before the picture had begun; on a cold pipeline that emptied the buffer the app had just filled and stalled on a re-read that never resynced, and nothing recovered it. The player now reaches its first frame before making that jump, exactly the way an ordinary scrub already does, so a resume plays and lands at your spot. If a stream still cannot start there within a few seconds it falls back to playing from the beginning with your progress kept, rather than stranding you. Apple TV, iPhone, iPad, and Mac.\n\nThe Still watching prompt pauses the video, and you choose when it asks. When the app checks whether you are still watching it now pauses playback while it waits, instead of letting the episode keep playing behind the question. You can turn the prompt off entirely in Settings, and choose how many back-to-back auto-played episodes go by before it asks (2 to 10). Apple TV, iPhone, iPad, and Mac.\n\nBig files stay smoother while they buffer ahead. On a fast source the player used to pull up to fifteen minutes of a large 4K file ahead of you all at once, and that heavy read could drop a frame or two a second while it filled. It now keeps a still-generous five-minute lead, so the buffering burst is shorter and the picture stays steady, with the same protection against a network dip. This depth is tunable from our side with no app update, so it can be adjusted further from what real devices report. Apple TV, iPhone, iPad, and Mac.\n\nKnown issues, being worked on next:\n\n• Seamless next episode. The next-episode prewarm still does not always make the jump instant on a series; a deeper fix to the prepare-then-mount handoff is in progress.\n• Scrub previews. The thumbnail that pops up while you drag can still read \"preview unavailable\" some of the time; the capture side is healthy, the display side is being fixed.\n• Scrubbing back and forth can still stall on some sources while the buffer refills; the same cold-pipeline work behind the resume fix continues here.\n• Source picking. After you pick a source by hand for a show, it can stick to that choice over a better debrid or usenet source on later episodes; a smarter policy is coming.\n• Frame drops on very large files are improved by the shorter read-ahead but not fully cured; device-reported tuning continues.\n\nAndroid:\n\nAndroid is not attached to this build. It is roughly 45% of the way to the Apple apps, with about 55% remaining: the spine (accounts, sync, debrid, phone and TV shells, playback engines, downloads, IPTV, torrent serving, source ranking, Picture-in-Picture, MediaSession) is in, and what remains is feature breadth against the parity plan, real on-device playback proof, a stable signing identity, and signed-install verification. Full parity stays the target; a preview APK returns in a later build.\n\nPlease test:\n\n• Resume anything on Apple TV: open a title from Continue Watching, jump to a previous episode, or switch source mid-play, and confirm it plays and lands at your position instead of a blank screen. Share the diagnostics log (Settings > Diagnostics) after any failure.\n• Still watching: in Settings, confirm the prompt pauses the video when it appears, that turning it off stops it asking, and that the \"ask after this many episodes\" setting takes effect.\n• A long 4K play: watch a large file and confirm it stays smooth as it buffers ahead.\n\nInstall:\n\nEach Apple asset lists a SHA-256 checksum (SHA256SUMS-ci.txt) so you can confirm your download matches what the public GitHub Actions workflow built from this code.",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.3.14-beta.16/VortX-iOS-v0.3.14-beta.16-ci.ipa",
+          "size": 64182016,
           "minOSVersion": "16.0"
         }
       ],
@@ -1360,10 +1362,10 @@
       "versions": [
         {
           "version": "10.1.1",
-          "date": "2026-08-19T09:53:52Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.1.1).\n\n• Android (debug) — NOOP-android-debug-v10.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.1.1 · built 2026-08-19 · 140c8b3.",
+          "date": "2026-08-19T12:42:04Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.1.1).\n\n• Android (debug) — NOOP-android-debug-v10.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.1.1 · built 2026-08-19 · 7a75136.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v10.1.1.ipa",
-          "size": 18861312,
+          "size": 18863133,
           "minOSVersion": "17.0"
         }
       ],
@@ -2840,11 +2842,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.3",
-          "date": "2026-08-18T19:35:49Z",
-          "localizedDescription": "What's new:\n\n• Game details screen.\n• Automatic game update manager.\n• Game deletion button.\n\nImprovements:\n\n• Updated RPCS3 core with fixed RPCN.\n• UI Enhancements.",
-          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.3/RPCS3.ipa",
-          "size": 23309872,
+          "version": "0.4",
+          "date": "2026-08-19T15:26:08Z",
+          "localizedDescription": "What's new:\n\n• Per game trophies screen in game details.\n\nImprovements:\n\n• Updated RPCS3 core with latest improvements from kd-11.\n\nFixes:\n\n• Save states should be more reliable.\n• In-game save slot picker is now working as expected.",
+          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.4/RPCS3.ipa",
+          "size": 23770626,
           "minOSVersion": "26.0"
         }
       ],
@@ -2948,6 +2950,88 @@
           "NSBluetoothAlwaysUsageDescription": "Aurora uses Bluetooth to connect to nearby players for Link Play and to pair with game controllers.",
           "NSLocalNetworkUsageDescription": "Aurora uses the local network to find and connect to nearby players for Link Play."
         }
+      }
+    },
+    {
+      "name": "SwiftyBox",
+      "bundleIdentifier": "me.cranci.SwiftyBox",
+      "developerName": "cranci1",
+      "subtitle": "A fast and lightweight client for catbox.moe",
+      "localizedDescription": "SwiftyBox:\n\nAn unofficial catbox.moe iOS client.\n\nSwiftyBox is a fast and lightweight client for catbox.moe and litterbox.catbox.moe, built in SwiftUI.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/me.cranci.SwiftyBox.png",
+      "tintColor": "#e0a060",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://www.cranci.me/screenshots/screen1.png",
+        "https://www.cranci.me/screenshots/screen2.png",
+        "https://www.cranci.me/screenshots/screen3.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-03-09T14:33:35Z",
+          "localizedDescription": "What changed:\n\n• Added hold to copy uploaded URL.\n• Added size limiter for files over site limit.\n• Decreased app size from 1.60 MB to 1.06 MB.",
+          "downloadURL": "https://github.com/cranci1/SwiftyBox/releases/download/v1.0.1/SwiftyBox.ipa",
+          "size": 1123839,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Otraku",
+      "bundleIdentifier": "com.otraku.app",
+      "developerName": "lotusprey",
+      "subtitle": "An unofficial AniList client for Android and iOS",
+      "localizedDescription": "Otraku:\n\nAn unofficial AniList app.\n\n• Run flutter build apk --split-per-abi.\n\n• Run flutter build ios --no-codesign.\n• Copy ./build/ios/iphoneos/Runner.app into a Payload directory.\n• Compress Payload and change extension to .ipa.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.otraku.app.png",
+      "tintColor": "#40a0f0",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.12.1",
+          "date": "2026-03-20T18:17:24Z",
+          "localizedDescription": "• Added support for the new AniList notification types, which fixes the recent app errors.\n• Media activity filter has a \"Self\" option now (thanks @0-BlackSpectrum-0).\n• Bar charts in user/media statistics are not horizontal, more compact and more informative (thanks @0-BlackSpectrum-0).\n• Buttons on the user page are now a grid (thanks @0-BlackSpectrum-0).\n• Android app icon changes depending on light/dark mode (thanks @0-BlackSpectrum-0).\n• Fixed the status bar tint on older android versions (thanks @0-BlackSpectrum-0).",
+          "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.12.1/Otraku-v.1.12.1-ios15%2B.ipa",
+          "size": 9414861,
+          "minOSVersion": "15.6"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "AniHyou",
+      "bundleIdentifier": "com.axiel7.AniHyou",
+      "developerName": "RipeStore",
+      "subtitle": "Another unofficial iOS AniList client",
+      "localizedDescription": "AniHyou is an open-source, modern AniList client for iOS.\n\nThis build is distributed by a third party not related to axiel7/anihyou.\n\nAniHyou is a native, feature-rich AniList client built with Swift and SwiftUI.\n\nFeatures:\n\n• ⌚️ watchOS Support — Native companion app for Apple Watch.\n• 📅 Air Schedule & Calendar — Airing soon, seasonal animes, and weekly calendar.\n• 🔥 Trending & Discover — Explore trending anime/manga, charts (top & popular).\n• 📖 Comprehensive Details — Anime/Manga info, tags, characters, staff, recommendations, relations, reviews, stats.\n• 📝 List Management — Manage Anime/Manga lists (status, progress, score, dates, repeat).\n• 🔍 Global Search — Search animes, mangas, characters, staff, studios, and users.\n• 👤 User Profiles — User activity feeds, bios, and favorites.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.axiel7.AniHyou.png",
+      "tintColor": "#5060f0",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/RipeStore/AniHyou-iOS/main/screenshots/screenshot_01.webp",
+        "https://raw.githubusercontent.com/RipeStore/AniHyou-iOS/main/screenshots/screenshot_02.webp",
+        "https://raw.githubusercontent.com/RipeStore/AniHyou-iOS/main/screenshots/screenshot_03.webp"
+      ],
+      "versions": [
+        {
+          "version": "1.8.7",
+          "date": "2026-08-19T16:33:49Z",
+          "localizedDescription": "• Blur adult media setting.\n• Translate button on threads and reviews.\n• Launch app widget and complication.\n• Lot of fixes and improvements.\n\nbuild: 1.8.7.\n\nVersion: 1.8.7 Upstream Commit: c830fed.",
+          "downloadURL": "https://github.com/RipeStore/AniHyou-iOS/releases/download/v1.8.7-c830fed/AniHyou-v1.8.7-c830fed-unsigned.ipa",
+          "size": 17676366,
+          "minOSVersion": "18.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
       }
     }
   ]
