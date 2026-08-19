@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.noopapp.noop",
-    "app.mangatan.mangatan",
-    "com.ppgjx.ffmpeg"
+    "sh.mateo.empo",
+    "com.xitrix.RPCS3",
+    "com.chrissotraidis.maskpad"
   ],
   "apps": [
     {
@@ -743,7 +743,7 @@
       "bundleIdentifier": "com.chrissotraidis.starshippad",
       "developerName": "chrissotraidis",
       "subtitle": "Star Fox 64 (Starship) adapted for iPhone and iPad, with native Metal rendering, touch flight controls, Files-based setup, and controller support",
-      "localizedDescription": "StarshipPad:\n\nStarshipPad turns the complete Starship source port into a native iOS/iPadOS application. Build it on a Mac, import your own supported Star Fox 64 ROM through Files, and fly by touch or connect a compatible controller—no keyboard required.\n\nThis repository contains the mobile integration, maintained source patches, tests, and reproducible build scripts. It does not contain Star Fox 64, a ROM, extracted Nintendo assets, or a playable ROM-derived archive.\n\nDownload Preview 3:\n\nor review the.\n\nA separate.\n\nis published beside the IPA.\n\nThis preview is ROM-free and unsigned. It is not directly installable on a standard iPhone or iPad as downloaded; you must sign it with your own Apple development identity and provisioning profile. Star Fox 64 game data is never included and must be imported separately from your own legally acquired supported ROM.",
+      "localizedDescription": "StarshipPad:\n\nStarshipPad turns the complete Starship source port into a native iOS/iPadOS application. Build it on a Mac, import your own supported Star Fox 64 ROM through Files, and fly by touch or connect a compatible controller—no keyboard required.\n\nThis repository contains the mobile integration, maintained source patches, tests, and reproducible build scripts. It does not contain Star Fox 64, a ROM, extracted Nintendo assets, or a playable ROM-derived archive.\n\nDownload Preview 5:\n\nor review the.\n\nA separate.\n\nis published beside the IPA.\n\nSHA-256: a57ed4bd149e8cfaf791b620681c69aeb32371d79d7242c18845832c65b57892.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.chrissotraidis.starshippad.png",
       "tintColor": "#001030",
       "category": "games",
@@ -756,10 +756,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-08-15T09:37:13Z",
-          "localizedDescription": "StarshipPad Preview 3 is a ROM-free, unsigned reproducibility build of Starship for iPhone and iPad.\n\nThis IPA is not directly installable on a standard device as published. Sign it with your own Apple development identity and provisioning profile, then import your own legally acquired supported game data through Files. No ROM, ROM-derived game archive, extracted game asset, signing identity, or provisioning profile is included.\n\nPreview 3 changes:\n\n• immediate flushing of compact iOS diagnostic breadcrumbs to the existing rolling log.\n• session, game/mission/player/cutscene state transitions, lifecycle context, and periodic heartbeats for post-crash diagnosis.\n• null-safe diagnostics during early startup before player state exists.\n• three-dot menu placed consistently inside the top-right safe area.\n• deliberate StarshipPad 0.1.0 build 3 metadata and updated README guidance.\n\nVerification:\n\n• signed in-place install, launch, sustained process, and heartbeat logging on the physical iPad.\n• ROM, extracted archive, save, touch configuration, and preferences preserved byte-for-byte across the update.\n• clean unsigned arm64 iPhoneOS build with Xcode 26.6 and the iPhoneOS 26.5 SDK.\n• iOS 16.0 minimum deployment.\n• repository, app, IPA, ZIP, signature-state, and prohibited-data audits passed.\n• signed-only packaging gate correctly rejected this unsigned artifact.\n\nSHA-256: 5b40c450fcf9ecdde765c643574e4f6c6235bf4fa205ada7a11f05f6294e7074.\n\nApple .ips reports remain the native crash-stack source; the rolling Starship log now retains compact game context leading up to a future crash.",
-          "downloadURL": "https://github.com/chrissotraidis/starshippad/releases/download/v0.1.0-preview.3/StarshipPad-v0.1.0-preview.3-unsigned.ipa",
-          "size": 6861115,
+          "date": "2026-08-18T16:40:29Z",
+          "localizedDescription": "Preview 5 refreshes the public ROM-free IPA from the merged controller-reconnect code and advances the iOS build number to 5. There are no additional controller-code changes.\n\nValidation passed locally and on GitHub: controller reconnect regression, all 11 supported ROM route cases, repository safety, clean unsigned arm64 iPhoneOS Release build, app audit, package audit, ZIP integrity, and signing gate.\n\nStarshipPad-v0.1.0-preview.5-unsigned.ipa is unsigned and intended for self-signing. It contains no ROM or user game data and is not an App Store or TestFlight build.\n\nSHA-256: a57ed4bd149e8cfaf791b620681c69aeb32371d79d7242c18845832c65b57892.",
+          "downloadURL": "https://github.com/chrissotraidis/starshippad/releases/download/v0.1.0-preview.5/StarshipPad-v0.1.0-preview.5-unsigned.ipa",
+          "size": 6869652,
           "minOSVersion": "16.0"
         }
       ],
@@ -910,10 +910,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-08-15T16:27:45Z",
-          "localizedDescription": "F0X 0.1.0 Developer Preview 1:\n\nThe first downloadable F0X developer preview for iPhone and iPad.\n\nBefore installing:\n\n• This IPA is unsigned. Re-sign it with your own Apple identity using Xcode or a compatible personal-signing method.\n• It requires an arm64 iPhone or iPad running iOS/iPadOS 16 or newer.\n• F-Zero X is not included. On first launch, choose your own legally acquired supported US revision 0 ROM from Files; extraction stays local.\n• To preserve saves, settings, and touch layouts during an update, install over the existing com.chrissotraidis.f0x app. Do not uninstall first.\n\nHighlights:\n\n• Native Apple Silicon game logic with Metal rendering.\n• Independent, customizable iPhone and iPad touch layouts.\n• One-second racing-only A acceleration latch.\n• Corrected cartridge audio synthesis and menu timing.\n• Corrected course-preview scaling.\n• Repaired repeated back/forward GP menu navigation.\n• Local ROM validation and on-device extraction.\n• Keyboard and compatible physical-controller support.\n\nValidation:\n\n• Physical iPad: owner-accepted normal game start, touch racing, audio, and course presentation.\n• Physical iPhone 14: latest build installed and running with ROM, archive, save, configuration, and accepted touch profile preserved byte-for-byte.\n• Deterministic repeated menu-navigation regression reaches GP Race.\n• Touch merge/profile suite: 87/87.\n• IPA ZIP integrity: 85 entries, no errors.\n• ROM/save/signing audit: clean.\n\nHands-on iPhone gameplay, alternate audio routes, interruptions, controllers, stress multi-touch, thermals, and long sessions remain broader preview testing areas.\n\nChecksum:\n\nF0X-0.1.0-preview.1-unsigned.ipa.\n\nSHA-256: e4e0f2f62b23a757cf0958d389ddfe433ceb0094ef36999d93bcc8bcbe136efd.",
-          "downloadURL": "https://github.com/chrissotraidis/f0x/releases/download/v0.1.0-preview.1/F0X-0.1.0-preview.1-unsigned.ipa",
-          "size": 8790251,
+          "date": "2026-08-18T13:54:09Z",
+          "localizedDescription": "Developer Preview 2 repairs controller sleep, disconnect, and reconnect handling in the libultraship ControlDeck SDL2 backend. Stale handles are reconciled against current devices at events, foreground resume, and a bounded active check; surviving player slots remain stable and held input is neutralized on disconnect.\n\nThe attached IPA is ROM-free, unsigned, arm64, and targets iOS/iPadOS 16 or newer. It must be re-signed with your own Apple identity. Install it over the existing com.chrissotraidis.f0x app to preserve local data; do not uninstall first.\n\nAutomated virtual-controller coverage passed 42/42. Physical iPad in-place install, gameplay boot, foreground resume, and data preservation passed. Hands-on Bluetooth, wired, natural-sleep, full-mapping, and multi-controller acceptance remain open.",
+          "downloadURL": "https://github.com/chrissotraidis/f0x/releases/download/v0.1.0-preview.2/F0X-0.1.0-preview.2-unsigned.ipa",
+          "size": 4891647,
           "minOSVersion": "16.0"
         }
       ],
@@ -1494,11 +1494,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.3",
-          "date": "2026-08-18T05:07:24Z",
-          "localizedDescription": "Bug Fixes:\n\n• Rebuild the keyboard toolbar so every key registers (#132) (3d71486).\n• Pick up probe case folding for games without a path cache (#134) (d5bfda0).\n\nChores:\n\n• Cleanup (#131) (19bd1a1).\n• Pin engine-2026-08-18 and native-2026-08-18 (#133) (060d352).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.6.3/Empo-0.6.3-unsigned.ipa",
-          "size": 19352083,
+          "version": "0.6.4",
+          "date": "2026-08-18T22:05:39Z",
+          "localizedDescription": "Bug Fixes:\n\n• Run 1.8-era scripts shipped with a Ruby 3 DLL (Realidea) (#135) (efcb308).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.6.4/Empo-0.6.4-unsigned.ipa",
+          "size": 19349248,
           "minOSVersion": "26.0"
         }
       ],
@@ -1851,11 +1851,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.1",
-          "date": "2026-08-12T20:19:48Z",
-          "localizedDescription": "MaskPad v0.1.1:\n\nThis release updates the public ROM-free unsigned IPA to current MaskPad main, including the clarified Documents/LiveContainer ROM guidance, working in-app Rescan retry, and controller gyro setup guidance.\n\nDownload:\n\n• MaskPad-0.1.1-unsigned.ipa.\n• MaskPad-0.1.1-unsigned.ipa.sha256.\n\nVerify both files from the same directory with:\n\nExpected SHA-256: 5d3bf7d74b25b98cbc19c54824b2c47527b9702c866552efa1b722fe69deff4e.\n\nPackage boundary:\n\n• arm64 iPhone and iPad app, version 0.1.1 (build 2), minimum iOS/iPadOS 14.0.\n• unsigned: re-sign with your own Apple account before standard-device installation.\n• no Majora’s Mask ROM, generated mm.o2r, saves, signing material, or other user-owned data.\n\nActual wired DualShock 4 motion input on a physical iPad remains a hardware acceptance gate. LiveContainer’s expected Documents location is documented, but complete LiveContainer compatibility is not claimed.",
-          "downloadURL": "https://github.com/chrissotraidis/maskpad/releases/download/v0.1.1/MaskPad-0.1.1-unsigned.ipa",
-          "size": 17503955,
+          "version": "0.1.2",
+          "date": "2026-08-18T17:08:21Z",
+          "localizedDescription": "MaskPad v0.1.2:\n\nThis release repairs SDL2 controller sleep, disconnect, and reconnect handling in libultraship's existing controller manager.\n\n• closes stale or disconnected controller handles instead of leaving them in a player slot.\n• preserves valid player ownership and returns a sole reconnecting controller to player 1.\n• assigns genuinely additional controllers to the next free slot.\n\n• reconciles at startup, controller events, foreground resume, and a bounded active check.\n• adds deterministic missed-removal, held-input, player-slot, remap, and foreground regression coverage.\n\nThe attached IPA is ROM-free and unsigned. It contains no provisioning profile or maintainer signing identity and must be signed with your own Apple account before installation. Supply your own legally acquired supported game data after installation.\n\nVersion: 0.1.2 Build: 3.\n\nPhysical Bluetooth, wired, natural-sleep, full-mapping, rumble/motion, and two-controller acceptance remain device-specific hands-on gates; automated controller reconciliation and hosted build/UI checks passed.",
+          "downloadURL": "https://github.com/chrissotraidis/maskpad/releases/download/v0.1.2/MaskPad-0.1.2-unsigned.ipa",
+          "size": 17511550,
           "minOSVersion": "14.0"
         }
       ],
@@ -2035,10 +2035,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-08-16T09:22:41Z",
-          "localizedDescription": "Preview 4 improves the first-launch experience and controller lifecycle handling.\n\nChanges:\n\n• replaces the low-level missing game-root error with a clear Game data required explanation and direct Choose ISO or GCM action.\n• reconciles current Apple GameController instances while active and after foreground resume.\n\nInstall:\n\n• Re-sign the app and nested gGMSE01_recomp.dylib with your Apple identity.\n• Install in place. On first launch, choose your own legally obtained Super Mario Sunshine USA GMSE01 revision 0 ISO/GCM image.\n\nThe IPA contains no game image, extracted assets, saves, settings, logs, certificates, provisioning profile, or signing material.\n\nSHA-256: f88f419cc4800bc052fce2205e4177af2d3f6e37be707c4851546beeab3aa512.\n\nAutomated and Simulator reconnect coverage passes. Physical Bluetooth, wired, two-controller, and natural-sleep reconnect acceptance remains open.",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.4/SunPad-0.1.0-preview.4-unsigned.ipa",
-          "size": 25630540,
+          "date": "2026-08-18T12:34:20Z",
+          "localizedDescription": "SunPad 0.1.0 Preview 5 rolls the accepted controller and diagnostic improvements into the public iPhone/iPad preview.\n\nWhat changed:\n\n• Left shoulder now maps to GameCube Z by default.\n• Right shoulder provides a medium-pressure FLUDD stream so Mario can run while spraying.\n• Right trigger retains the strong/full-pressure stream.\n\n• Diagnostic reports now include the active performance profile, FPS/VPS, CPU and memory state, bounded graphics counters, projection/resource state, and deduplicated runtime/Metal warnings and errors.\n• Experimental Performance Mode remains opt-in and now exposes explicit comparison profiles for controlled diagnosis.\n• Pinned ModernGekko patch snapshots were verified through clean hosted Simulator-runtime rebuilds.\n\nPhysical acceptance:\n\nOn the 12.9-inch iPad Pro test device, the merged development build ran Sunshine at original 30 FPS and 4:3 with Experimental Performance Mode enabled. Left-shoulder Z, medium-pressure run-and-spray, strong right-trigger spray, diagnostic report entry/export, and the GitHub handoff were accepted in hands-on testing.\n\nIPA:\n\n• Asset: SunPad-0.1.0-preview.5-unsigned.ipa.\n• Size: 25,642,266 bytes.\n• SHA-256: 9649512b852efd03b69b12d123e9c8038af76f0a74b4907f0b635fd04a5e15a2.\n\nThe IPA is unsigned and must be re-signed with your Apple identity, including the nested gGMSE01_recomp.dylib, before installation. It contains no game image, extracted game assets, save, settings, diagnostic log, certificate, or provisioning profile. Supply your own legally obtained GMSE01 USA revision 0 ISO/GCM image on first launch.",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.5/SunPad-0.1.0-preview.5-unsigned.ipa",
+          "size": 25642266,
           "minOSVersion": "16.0"
         }
       ],
@@ -2293,10 +2293,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-08-12T16:51:48Z",
-          "localizedDescription": "Developer Preview 4 refreshes the downloadable unsigned IPA with clearer first-run setup for LiveContainer users.\n\nChanges:\n\n• Keeps the standard On My iPhone/iPad setup path intact.\n\nArtifact:\n\n• HarkinianPad-0.1.0-preview.4-unsigned.ipa.\n• SHA-256: 59f4837bd514b7329bd6b36b4e11e1dfa41658c325275ce007aff6c718108026.\n• 30,847,409 bytes.\n• arm64 iPhoneOS, iOS/iPadOS 14.0 minimum.\n• unsigned and intended for user-side re-signing.\n\nThe IPA contains no Ocarina of Time ROM, generated oot.o2r, maintainer certificate, provisioning profile, or code signature. It includes the ROM-free soh.o2r archive, the project rights notice, and third-party licence notices.\n\nValidation:\n\n• repository safety and hosted clean-build checks passed.\n• packaging and unsigned-signing gate passed.\n• clean iPad Simulator first-run import, extraction, title-screen launch, and cold relaunch passed.\n\nInstallation remains through AltStore Classic plus AltServer or another compatible personal-signing tool. This is not an App Store, TestFlight, or AltStore PAL release. Back up the HarkinianPad Files folder and update in place rather than deleting the existing app first.",
-          "downloadURL": "https://github.com/chrissotraidis/harkinianpad/releases/download/v0.1.0-preview.4/HarkinianPad-0.1.0-preview.4-unsigned.ipa",
-          "size": 30847409,
+          "date": "2026-08-18T15:52:22Z",
+          "localizedDescription": "Developer Preview 5 fixes controller sleep, disconnect, and reconnect ownership in libultraship SDL2.\n\nChanges:\n\n• Reconciles current attached controllers at startup, add/remove/remap events, foreground resume, and a bounded active check.\n\n• Preserves existing mappings and deliberate controller assignments.\n\nArtifact:\n\n• HarkinianPad-0.1.0-preview.5-unsigned.ipa.\n• SHA-256: f505c0837a984f881d158ef3524f53d476a778e6351afabff49b611bbf47cef2.\n• 30,823,149 bytes.\n• arm64 iPhoneOS, iOS/iPadOS 14.0 minimum.\n• unsigned and intended for user-side re-signing.\n\nValidation:\n\n• focused controller regression passed.\n• complete libultraship Debug suite passed 428/428.\n\n• signed in-place physical-iPad update, launch, save/data readback, startup reconciliation, and foreground reconciliation passed.\n\nThe IPA contains no Ocarina of Time ROM, generated oot.o2r, saves, logs, maintainer certificate, provisioning profile, code signature, or personal build paths. It includes the ROM-free soh.o2r, project rights notice, and 42 discovered license files.",
+          "downloadURL": "https://github.com/chrissotraidis/harkinianpad/releases/download/v0.1.0-preview.5/HarkinianPad-0.1.0-preview.5-unsigned.ipa",
+          "size": 30823149,
           "minOSVersion": "14.0"
         }
       ],
@@ -2840,11 +2840,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.2",
-          "date": "2026-08-17T23:04:26Z",
-          "localizedDescription": "What's new:\n\n• RPCN multiplayer.\n• Allow to hide top buttons in game session.\n• Entitlements check blocker screen.\n• Update of RPCS3 core with latest changes (on 16.08.26).",
-          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.2/RPCS3.ipa",
-          "size": 23142943,
+          "version": "0.3",
+          "date": "2026-08-18T19:35:49Z",
+          "localizedDescription": "What's new:\n\n• Game details screen.\n• Automatic game update manager.\n• Game deletion button.\n\nImprovements:\n\n• Updated RPCS3 core with fixed RPCN.\n• UI Enhancements.",
+          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.3/RPCS3.ipa",
+          "size": 23309872,
           "minOSVersion": "26.0"
         }
       ],
