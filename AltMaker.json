@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "app.mangatan.mangatan",
     "com.axiel7.AniHyou",
-    "com.stremiox.app.native",
-    "com.example.openstrapEdge"
+    "com.stremiox.app.native"
   ],
   "apps": [
     {
@@ -574,10 +574,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-08-19T05:13:55Z",
-          "localizedDescription": "Release v6.0.89:\n\n• Merge premium OCR lines in the app backend (cdd2c06).\n• Improve Cloudflare challenge recovery (79344d3).\n• Preserve signed Java extension artifacts (7b72365).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.89/Manatan-v6.0.89-iOS.ipa",
-          "size": 350345528,
+          "date": "2026-08-19T17:36:34Z",
+          "localizedDescription": "Release v6.0.90:\n\n• Keep profile settings isolated in the novel reader (12bf61b).\n• Speed up iPhone development builds (4ecfbee).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.90/Manatan-v6.0.90-iOS.ipa",
+          "size": 350358228,
           "minOSVersion": "15.5"
         }
       ],
