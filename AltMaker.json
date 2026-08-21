@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "app.mangatan.mangatan",
     "com.mori.downloader",
-    "com.stremiox.app.native",
-    "me.cranci.sulfur"
+    "com.stremiox.app.native"
   ],
   "apps": [
     {
@@ -139,7 +139,7 @@
       "name": "Mori",
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
-      "subtitle": "Client-side downloader app built with Capacitor",
+      "subtitle": "Client-side downloader app built with Capacitor and Tauri",
       "localizedDescription": "Mori is a fast and simple downloader for saving videos, photos, and music from 14 popular social media apps. Everything works directly on your device without any external servers or tracking — giving you total privacy and zero ads.\n\nWhat's New in (v4.2.2):\n\n• Batch Mode Playlist & Album Skipping: Configured Batch Mode to automatically detect and skip full playlist and album URLs (Spotify, Apple Music, YouTube playlists). Skipped items display a distinct SKIPPED (PLAYLIST) badge in the batch queue modal.\n\n• History Limit Setting Fix: The history list is now properly capped according to the user-configured History Limit setting instead of being hard-locked to 100 items regardless of user preference.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.mori.downloader.png",
       "tintColor": "#6156e2",
@@ -574,10 +574,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-08-20T08:26:12Z",
-          "localizedDescription": "Release v6.0.91:\n\n• Provision Buildx for container publishing (68a58c9).\n• Restore hosted SRS image publishing (dcadb08).\n• Show novel reading progress on library cards (057ebf4).\n• Automate hosted SRS sync deployments (5d7fdd5).\n• Let video dictionary popups span subtitle sidebars (404ade7).\n• Fix store (425bf2a).\n• Render imported dictionary styles consistently (a6f4998).\n• Sync account vocabulary across Manatan devices (ff58ef4).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.91/Manatan-v6.0.91-iOS.ipa",
-          "size": 350342429,
+          "date": "2026-08-21T07:48:33Z",
+          "localizedDescription": "Release v6.0.92:\n\n• Support F11 desktop fullscreen (51fb546).\n• Keep dictionary open on subresource failures (cf11c8b).\n• Preserve manga source state across runtime calls (985240e).\n• Restore Windows lookup after app switching (b52feb8).\n• Refine novel library progress layout (c121194).\n• Fix manga artwork and chapter labels (b3df018).\n• Keep sentence audio aligned with active subtitles (be47d8b).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.92/Manatan-v6.0.92-iOS.ipa",
+          "size": 349503074,
           "minOSVersion": "15.5"
         }
       ],
@@ -1278,7 +1278,7 @@
       "bundleIdentifier": "com.sakayori.music",
       "developerName": "Sakayorii",
       "subtitle": "cross-plarform music app using Youtube Music API",
-      "localizedDescription": "SakayoriMusic:\n\nA modern, cross-platform YouTube Music client built with Kotlin Multiplatform & Compose.\n\n⚠️ Important (Windows): Windows Defender may delete the app after reboot because it is unsigned. Open PowerShell as Administrator and run:\n\nThis only needs to be done once.\n\nAbout:\n\nSakayoriMusic is a free and open-source music streaming client that brings the YouTube Music experience to multiple platforms. Originally rebuilt from SimpMusic 1.1.0, it has evolved into a modernized, performant, and feature-rich music player with native support for both mobile and desktop.\n\nFeatures:\n\n• Stream music from YouTube Music with full library access.\n• Cross-platform support for Android, iOS, Windows, Linux, and macOS.\n• Liquid Glass UI with native macOS-style design on desktop.\n• Built-in lyrics with synced rich-sync support.",
+      "localizedDescription": "MAINTENANCE MODE:\n\nSakayori Music is currently in maintenance mode. This means we will only be fixing bugs and making minor improvements. Please do not submit PRs for new features or major changes, as they will not be accepted. The app is NOT dead, please stay tuned for updates on our discord (found above).\n\nRegional Restriction - If YouTube Music is unavailable in your region, this app will not work without a VPN or proxy connecting to a supported region.\n\nPlayback:\n\n• Stream any song or video from YouTube Music.\n• Background playback.\n\n• Skip silence.\n• Sleep timer.\n\nAudio:\n\n• Audio normalization.\n• Tempo & pitch control.\n• Equalizer.\n\nLyrics & Discovery:\n\n• Live synced lyrics.\n• AI-powered lyrics translation.\n• Personalized quick picks.\n• Search songs, albums, artists, videos, and playlists.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.sakayori.music.png",
       "tintColor": "#10d0f0",
       "category": "entertainment",
