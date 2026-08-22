@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.stremiox.app.native",
-    "com.xitrix.RPCS3",
-    "com.noopapp.noop"
+    "com.cosmonautical.jellify",
+    "com.example.openstrapEdge",
+    "com.naine.doer"
   ],
   "apps": [
     {
@@ -353,11 +353,11 @@
       ],
       "versions": [
         {
-          "version": "1.2.7",
-          "date": "2026-08-07T14:59:25Z",
-          "localizedDescription": "Welcome to Jellify 1.2.7.\n\nHey there! I’ve been polishing up Jellify with some major stability tweaks and performance improvements in this update. Get ready to enjoy your sound library without worrying about glitches or draining your battery!\n\n• Cleaner Home Screen: Say goodbye to duplicate items in your \"Recently Added\" feed! Your home page now displays structured content so you always know where to find your favorite tunes.\n• Better Battery Life: Under the hood, we optimized how Jellify tracks and saves your playback position. This means better performance for you without draining your phone's battery faster than it should!",
-          "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.2.7/Jellify-1.2.7.ipa",
-          "size": 39802764,
+          "version": "1.2.8",
+          "date": "2026-08-22T16:57:40Z",
+          "localizedDescription": "Welcome to Jellify 1.2.8.\n\nThis update brings important stability improvements for Android users while quietly rolling out some background enhancements under the hood!\n\n• Android users will now see a dedicated player icon in their notification shade, making it easier than ever to control your music playback quickly.\n• We've optimized and updated several background actions and dependencies to ensure Jellify runs smoothly and reliably across all devices.\n• The app saw some deep technical upgrades this cycle to maintain peak performance, giving you a faster and more stable listening experience overall.",
+          "downloadURL": "https://github.com/Jellify-Music/App/releases/download/1.2.8/Jellify-1.2.8.ipa",
+          "size": 40510660,
           "minOSVersion": "16.4"
         }
       ],
@@ -717,11 +717,11 @@
       ],
       "versions": [
         {
-          "version": "0.9.27",
-          "date": "2026-08-19T16:24:38Z",
-          "localizedDescription": "rebuilt the whole app. every screen. same data, less clutter.\n\nthe ai coach actually does things now — ask it about your sleep or last tuesday, or just tell it to log your food, workout, water, mood, meds.\n\nscan a barcode, the food goes in. works in any country.\n\nimport from apple health or health connect. your details, and old workouts with their routes.\n\nrings on the home screen — recovery, strain, sleep.\n\nbreakdown of your day: one screen, the whole day on a timeline.\n\nevery screen opens on any past day now, not just today.\n\nlive heart rate, on the heart rate screen and your band's page.\n\nwater finally has a − as well as a +.\n\nalso: naps, an observations log, a rough night card, steps on activities and share cards,. cycle tracking is opt-in, switch it on in profile.\n\nNew icon.\n\nsome of your numbers will move. resting hr is measured only while you're asleep now, day coverage is worked out against the whole day instead of the hours you happened to be wearing it, and hours the band was off your wrist show up as gaps instead of quietly counting as zero. if today has no reading you'll see that, instead of last night's number pretending to be today's.\n\nwhoop 4, 5 and MG are all one testflight group now. no more separate whoop 5 beta.\n\nwhoop 5 and MG are still experimental. they work. expect rough edges.\n\nwidgets might be weird after a rebuild this size, and the live activity is still the old design. both next release.\n\nand some fresh bugs, so there's something to fix next week.",
-          "downloadURL": "https://github.com/OpenStrap/edge/releases/download/v0.9.27/openstrap-edge-v0.9.27-unsigned.ipa",
-          "size": 17199746,
+          "version": "0.9.28",
+          "date": "2026-08-22T15:29:04Z",
+          "localizedDescription": "What's new:\n\nBattery.\n\n• Background battery drain on Android significantly reduced — the app now polls your band instead of listening constantly when nothing needs live data.\n• Live workout streaming pauses automatically in the background and resumes instantly when you return.\n• Widgets and home-screen cards refresh only when something actually changed.\n\nWorkouts & Health sync.\n\n• Workouts from Apple Health / Health Connect now import automatically (on by default — tap the refresh icon to grant access the first time).\n• You can delete any workout from your history, recorded or imported; deleted imports won't come back.\n• The import control moved to the top of the workout list.\n\nSleep & Health export.\n\n• Apple Health now receives your full sleep session, including light-sleep stages that were previously missing.\n• Fixed: editing or re-syncing a night could leave stale fragments behind in Apple Health.\n• Fixed: \"time not worn\" is no longer exported as awake time.\n\nJournal.\n\n• Custom trackers are back — add your own items (supplements, habits, anything with a number) to the daily journal.\n• Your custom items are included in correlations and weekly findings like built-in ones.\n• Duplicate or failed entries are now handled cleanly instead of overwriting existing data.\n\nReminders & notifications.\n\n• Medication reminders with an optional buzz on the band.\n• Get-up-and-move nudge, wind-down reminder before your learned bedtime, daily check-in prompt, step-goal alert.\n• Weekly summary notification when the week actually found something.\n• Low-battery alert threshold is now adjustable in settings.\n• \"Did you work out?\" prompt works again, and every notification type has its own switch.\n\nScores & accuracy.\n\n• Readiness bands recalibrated — 50 is now the middle of the scale, not a warning.\n• Imported historical data no longer skews your personal baselines (your data re-scores once after updating).\n• Skin temperature can now contribute to readiness when the reading is reliable.\n• Sleep never re-stages to a shorter night than already saved.\n\nDevices & connectivity.\n\n• Improved connection reliability for WHOOP 5 / MG.\n• Faster, more robust syncing with per-command confirmation.\n• Fixed: double-tap gestures lost their settings picker; it's rebuilt with more actions including log water.\n\nFixes & polish.\n\n• ~40 fixes across widgets, imports, exports, and UI — including stale widget data, workout maps missing on some phones, a wellness screen crash from one bad value, and general performance smoothing.\n\nNote: the battery improvements are based on a code-level audit; if your screen-on time or standby drain looks off, tell us.\n\n• the device dead end, imported baselines, stale screens, widgets, prompts, double-tap.\n• delete the things that were only ever measuring themselves.\n• repin analytics for the stager pass.\n• gen5 link conformance: official bootstrap, a real burst count gate, command correlation.\n• Wire the dormant notification surface (sedentary, meds buzz, battery threshold, recovery, step goal, wind-down, weekly lookback).\n• fix(health): rewrite Apple Health sleep as one in-bed night (Core + stale samples).\n• Cut idle battery drain on Android + replace hand-rolled logic with platform/stdlib equivalents.\n• journal: bring back 'Track something else' (#273).\n• Opt-in auto-import of Health workouts.\n\nNew Contributors:\n\n• @DropTabl made their first contribution.\n• @ignaciojuarez made their first contribution.\n• @cbarrado made their first contribution.",
+          "downloadURL": "https://github.com/OpenStrap/edge/releases/download/v0.9.28/openstrap-edge-v0.9.28-unsigned.ipa",
+          "size": 17342736,
           "minOSVersion": "15.0"
         }
       ],
@@ -3032,6 +3032,378 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
+      }
+    },
+    {
+      "name": "Flashcards",
+      "bundleIdentifier": "com.raton.flashcards",
+      "developerName": "raaaton",
+      "subtitle": "Beautiful native flashcards app. Native. Offline. Focused",
+      "localizedDescription": "Flashcards:\n\nFlashcards is a native, local-first iOS study app built for fast card creation, focused revision, and full ownership of your data.\n\nIt is written entirely with SwiftUI, SwiftData, and Apple system APIs. There is no account, backend, analytics SDK, advertising layer, or runtime network dependency.\n\nVersion 2 introduces a redesigned visual system, a new mint identity, a rebuilt Home experience, compact deck rows, improved duplicate detection, configurable Home sections, expanded localization, and a more consistent Apple-native interaction model throughout the app.\n\nDevelopment Build:\n\nBuilt automatically from the latest commit on main. Development builds may contain unfinished or unstable changes.\n\nVersion 2:\n\nThe v2 generation is a major visual and interaction refresh rather than a simple coat of paint.\n\n• New app-wide mint identity based around #46D7A7.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.raton.flashcards.png",
+      "tintColor": "#30c090",
+      "category": "other",
+      "screenshotURLs": [
+        "https://github.com/user-attachments/assets/50673124-6e5a-4d25-88d1-8178e9321f48",
+        "https://github.com/user-attachments/assets/3faaf9ef-5889-48b9-b589-7a5df680a362",
+        "https://github.com/user-attachments/assets/8001a25d-6276-427c-9ffd-edb6967bfb4b",
+        "https://github.com/user-attachments/assets/5ca1e592-4faf-4bf0-9f8b-7b1e617ee182",
+        "https://github.com/user-attachments/assets/52f1f070-a2b3-4cc2-be08-9177993df44a"
+      ],
+      "versions": [
+        {
+          "version": "2.0.0",
+          "date": "2026-08-22T10:12:41Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/raaaton/Flashcards/releases/download/v2.0.0/Flashcards-v2.0.0.ipa",
+          "size": 6876804,
+          "minOSVersion": "27.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Ito",
+      "bundleIdentifier": "moe.itoapp.ito",
+      "developerName": "itoapp",
+      "subtitle": "Open source manga, Anime and Novel viewer for iOS",
+      "localizedDescription": "Ito is a free, open-source client for iPhone and iPad. It combines dedicated readers, native video playback, AniList integration, and an extensible WebAssembly plugin system in a single app.\n\nFeatures:\n\n• Anime, manga, and novels — Keep different media types together in one library.\n• Native reading — Dedicated manga and novel readers designed for iOS.\n• Native video playback — Select available video quality, audio tracks, and subtitles.\n• AniList discovery — Browse, search, and filter titles using AniList.\n• Progress tracking — Connect AniList to track what you read and watch.\n\n• Backup and migration — Export native .itobackup files or import libraries from Aidoku and Paperback.\n• On-device storage — Library data and history are stored locally, with tracker credentials protected by Keychain.\n• No advertisements — Ito is free and ad-free.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/moe.itoapp.ito.png",
+      "tintColor": "#90e0c0",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/itoapp/Ito/main/assets/screenshots/details.png",
+        "https://raw.githubusercontent.com/itoapp/Ito/main/assets/screenshots/reader.png",
+        "https://raw.githubusercontent.com/itoapp/Ito/main/assets/screenshots/library.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-22T09:57:57Z",
+          "localizedDescription": "Automated unsigned nightly from main at commit 50b78fa. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260822-36/Ito-1.0.0-nightly.20260822.36-unsigned.ipa",
+          "size": 9841180,
+          "minOSVersion": "15.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "FaFa Runner",
+      "bundleIdentifier": "com.chenyifaer.fafarunner",
+      "developerName": "fafarunner",
+      "subtitle": "Enjoy smooth gameplay, stunning graphics, and endless fun",
+      "localizedDescription": "FaFa Runner:\n\nNOTE: This project is developed based on Darkness Dungeon.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.chenyifaer.fafarunner.png",
+      "tintColor": "#905040",
+      "category": "games",
+      "versions": [
+        {
+          "version": "3.2.2",
+          "date": "2026-08-08T09:35:10Z",
+          "localizedDescription": "Release created by FaFa Runner workflow run #157Please refer to CHANGELOG.md for details.",
+          "downloadURL": "https://github.com/fafarunner/fafarunner/releases/download/v3.2.2.397/FaFaRunner-3.2.2.397.ipa",
+          "size": 29610581,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Pocket8",
+      "bundleIdentifier": "com.jevon.pocket8",
+      "developerName": "jevonlipsey",
+      "subtitle": "An iOS Native Emulator for the PICO-8 fantasy console. Free and Open Source. Experimental Alpha available for Android!",
+      "localizedDescription": "https://github.com/user-attachments/assets/ec24f92e-d29a-4319-8293-439487d60b35\n\nFeatures:\n\n• Native Engine: Runs flawlessly on iOS, due to the official PICO-8 engine being implemented as a WASM module.\n• Quick Save & Load: The only PICO-8 experience with instant save states. Freeze time and resume anywhere, across devices.\n\n• Adaptive Controls: Custom Gameboy-esque controls with tactile haptics. Works in portrait and landscape. Swap to virtual joystick.\n\n• Smart Library: Automatically extracts cartridge labels and metadata, presenting your collection in a polished grid.\n\nTechnical Look:\n\nThe core engineering challenge was reconciling the asynchronous nature of mobile file I/O with the synchronous requirements of the Emscripten/WASM virtual file system.\n\nPICO-8 demands a synchronous file system. Bridging this to mobile required completely reverse-engineering the Emscripten boot sequence.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.jevon.pocket8.png",
+      "tintColor": "#302050",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.6.2",
+          "date": "2026-01-22T23:33:34Z",
+          "localizedDescription": "• fixed BBS button not opening on iOS.\n• fixed scopedstorage for BBS games on Android.",
+          "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.6.2/pocket8.ipa",
+          "size": 19479747,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "OldOS",
+      "bundleIdentifier": "com.zrc.BudgetingBuddy",
+      "developerName": "zzanehip",
+      "subtitle": "Recreating a fully functional version of iOS 4 in SwiftUI",
+      "localizedDescription": "!",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.zrc.BudgetingBuddy.png",
+      "tintColor": "#6156e2",
+      "category": "other",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/zzanehip/The-OldOS-Project/master/Images/Files.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2025-12-07T21:25:09Z",
+          "localizedDescription": "2.0 (7):\n\n• New Weather backend and added performance improvements.\n• Updated home button.\n• Everything else in 2.0 (1) - 2.0 (6).",
+          "downloadURL": "https://github.com/zzanehip/The-OldOS-Project/releases/download/2.0_7/OldOS.ipa",
+          "size": 83206660,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.game-center",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "To view, play, and experience your music in OldOS, please enable access to your music library. ",
+          "NSCameraUsageDescription": "To take photos in OldOS, please enable access to your camera.",
+          "NSContactsUsageDescription": "To view and manage your contacts in OldOS, please enable access to your contacts list.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app.",
+          "NSLocationAlwaysUsageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app.",
+          "NSLocationWhenInUseUsageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app.",
+          "NSMicrophoneUsageDescription": "To record your audio while filming a video in OldOS, please in enable microphone access.",
+          "NSPhotoLibraryAddUsageDescription": "To view, manage, and add photos to your photo library in OldOS, please enable access. Then close and re-open the Photos app.",
+          "NSPhotoLibraryUsageDescription": "To view, manage, and add photos to your photo library in OldOS, please enable access. Then close and re-open the Photos app."
+        }
+      }
+    },
+    {
+      "name": "PicGuard",
+      "bundleIdentifier": "com.kjxbyz.picguard",
+      "developerName": "picguard",
+      "subtitle": "Your pictures, your signature",
+      "localizedDescription": "PicGuard:\n\nThis project is used to learn how to package Flutter applications and distribute them through app stores, package managers or binary packages.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.kjxbyz.picguard.png",
+      "tintColor": "#1070b0",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "5.7.2",
+          "date": "2026-08-08T02:19:12Z",
+          "localizedDescription": "Release created by PicGuard workflow run #276Please refer to CHANGELOG.md for details.",
+          "downloadURL": "https://github.com/picguard/picguard/releases/download/v5.7.2.481/PicGuard-5.7.2.481.ipa",
+          "size": 31070251,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "In order to add watermarks to your images, PicGuard needs access to your photos."
+        }
+      }
+    },
+    {
+      "name": "Doer",
+      "bundleIdentifier": "com.naine.doer",
+      "developerName": "moliango",
+      "subtitle": "A native iOS client for Linux.do — UIKit + Swift, no SwiftUI in the main app",
+      "localizedDescription": "Features:\n\n• [x] Linux.do browsing — Latest, top, categories, tags, and search, all rendered with native UIKit.\n• [x] Topic detail — Cooked HTML rendered as native text, images, quotes, code, polls, spoilers, oneboxes, tables, videos, and a timeline jumper.\n• [x] Replies & reactions — Reply to topics or floors, like posts, and use Linux.do emoji / Boost.\n• [x] Image viewer — Multi-image swipe, count, share, save, and close.\n• [x] Account & Me — Profile, badges, bookmarks, drafts, browsing history, notifications, and private messages.\n• [x] Auth — Web login, cookie reuse for native requests, and global Cloudflare challenge handling, plus silent session recovery for third-party platforms.\n\n• [x] Share & widget — Share a topic URL into Doer, plus a home-screen quick-launch widget.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.naine.doer.png",
+      "tintColor": "#4080e0",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/moliango/doer/main/assets/default.png",
+        "https://raw.githubusercontent.com/moliango/doer/main/assets/xiaochegnxu2.png",
+        "https://raw.githubusercontent.com/moliango/doer/main/assets/me.png",
+        "https://raw.githubusercontent.com/moliango/doer/main/assets/login.png",
+        "https://raw.githubusercontent.com/moliango/doer/main/assets/huyan.png"
+      ],
+      "versions": [
+        {
+          "version": "1.8",
+          "date": "2026-08-22T14:35:34Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8-build.17/doer-unsigned.ipa",
+          "size": 14004015,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "用于保存话题分享图片到相册"
+        }
+      }
+    },
+    {
+      "name": "OpenStarbound",
+      "bundleIdentifier": "com.devoflife.osbm.ios",
+      "developerName": "RohanBhattacharyya",
+      "subtitle": "An OpenStarbound port to mobile devices",
+      "localizedDescription": "You must own a copy of Starbound. Base game assets are not provided for very obvious reasons.\n\nThe code is worked on whenever I have the spare time. Contributions and issues are welcome!",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.devoflife.osbm.ios.png",
+      "tintColor": "#e0d060",
+      "category": "other",
+      "versions": [
+        {
+          "version": "1.1",
+          "date": "2026-07-24T02:06:27Z",
+          "localizedDescription": "You'll notice there are a lot of build options this time! If you have been using oSBM in the past on Android, chances are you'll use the v8a build. Some Android devices are not supported by this, so you can then try v7a, and finally x86_64. If you are unsure and want to download once, try universal (notice the larger file size). An iOS build is provided this time around.\n\nWhat's Changed since 1.0:\n\n• Controller Support.\n• Controller Wheels (Inventory and Action Wheels).\n• Gamepad highlighting of UI elements.\n• New Macro editing menu (easier to use [and actually functional lol]).\n• Touchpad direct screen input mode (alternative to default touchscreen) to address #23/#26/#38.\n• Significant performance enhancements.\n• New platforms (Nintendo Switch, more Android devices #40, and PC platforms so that PC gets controller support too).\n• Bug fixes, including addressing #39.\n• Localization Support and Language Exposure.\n• QoL and more!\n\nWarning: Most testing has occurred on Android, then iOS, then the Switch. Minimal testing has been done for PC, and no testing has been done for macos (purely theoretical, if you have a mac please feel free to try it out). Support is mainly focused on mobile issues first.",
+          "downloadURL": "https://github.com/RohanBhattacharyya/oSBM/releases/download/v1.1/oSBM-1.1-ios.ipa",
+          "size": 22772894,
+          "minOSVersion": "17.5"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "TumoCompanion",
+      "bundleIdentifier": "com.tumoflip.unleashedcompanion",
+      "developerName": "squazaryu",
+      "subtitle": "A native iOS companion for Flipper Zero — BLE/USB SD file access, screen mirror, Sub-GHz/NFC, a Sber smart-relay failsafe, Marauder log analysis, ESP32 firmware flashing, and live Claude Code status on your Flipper",
+      "localizedDescription": "TumoCompanion:\n\nA native iOS companion for Flipper Zero — BLE/USB SD file access, screen mirror, Sub-GHz/NFC, a Sber smart-relay failsafe, Marauder log analysis, ESP32 firmware flashing, and live Claude Code status on your Flipper.\n\nContents:\n\n• Install.\n• Screenshots.\n\n• Field Services.\n• App Bridge (FAB1 / FAB2).\n• Firmware packages (atomic updater).\n• How the relay state works.\n• Privacy.\n• Build from source.\n• Requirements.\n\nAdd the source, then install — Feather signs it with your own certificate and auto-updates on each release:\n\nUnsigned IPA, sideloaded. Built for the independent Tumoflip firmware — its App Bridge BLE service is what most integrations use. Works as a plain BLE file/screen client on stock firmware too.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.tumoflip.unleashedcompanion.png",
+      "tintColor": "#f07000",
+      "category": "other",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/squazaryu/TumoCompanion/main/screenshots/onboarding.png",
+        "https://raw.githubusercontent.com/squazaryu/TumoCompanion/main/screenshots/home.png",
+        "https://raw.githubusercontent.com/squazaryu/TumoCompanion/main/screenshots/relay.png",
+        "https://raw.githubusercontent.com/squazaryu/TumoCompanion/main/screenshots/settings.png"
+      ],
+      "versions": [
+        {
+          "version": "1.10.35",
+          "date": "2026-08-22T11:01:13Z",
+          "localizedDescription": "FW Packages: separate catalog synchronization:\n\n• Adds Sync catalog to Flipper to FW Packages. It stays available even when the package catalog is already Up to date.\n• Sync revalidates the live catalog and the connected Flipper firmware before writing the catalog snapshot used by Tumoflip Packages.\n• It writes and MD5-verifies only /ext/.tumoflip/catalog-state.txt.\n\nSafety and behavior:\n\n• This is separate from Verify on device and package installation.\n\n• A BLE connection is required to validate the current firmware identity; failures remain fail-closed.\n\nValidation:\n\n• Full simulator unit suite: 542 tests passed (UI tests excluded).\n\nAfter updating, connect the Flipper, open Updates → FW Packages, and tap Sync catalog to Flipper. Tumoflip Packages will then use the refreshed catalog state without a package reinstall.",
+          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.10.35/TumoCompanion-unsigned.ipa",
+          "size": 29994763,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "TumoCompanion connects to your Flipper Zero over Bluetooth Low Energy to manage files, mirror the screen, run apps and send Sub-GHz signals.",
+          "NSBluetoothPeripheralUsageDescription": "TumoCompanion uses Bluetooth to communicate with your Flipper Zero.",
+          "NSLocalNetworkUsageDescription": "TumoCompanion finds the Mac AI Radar bridge on your local network and sends relay actions to Home Assistant when your Flipper triggers them.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "TumoCompanion shares one position only when your connected Tumoflip requests it over Bluetooth while the app is in the background. It stops location updates immediately after replying. If you explicitly enable Last Known Location, one visible and clearable location is stored on this iPhone.",
+          "NSLocationWhenInUseUsageDescription": "TumoCompanion uses your location for WiFi mapping and for one-shot position requests that you explicitly enable for a connected Tumoflip device."
+        }
+      }
+    },
+    {
+      "name": "Iridum",
+      "bundleIdentifier": "me.cranci.Iridum",
+      "developerName": "cranci1",
+      "subtitle": "An iOS wrapper for the \"StreamingUnity\" website",
+      "localizedDescription": "Iridum:\n\nAn iOS app made to scrape the \"StreamingUnity\" site.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/me.cranci.Iridum.png",
+      "tintColor": "#6156e2",
+      "category": "other",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-03-03T14:00:30Z",
+          "localizedDescription": "First and probably last build of Iridum.",
+          "downloadURL": "https://github.com/cranci1/Iridum/releases/download/v1.0.0/Iridum.ipa",
+          "size": 1290518,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Paper Comic",
+      "bundleIdentifier": "de.wiredframe.comicreader",
+      "developerName": "Wiredframe",
+      "subtitle": "Paper Comic Reader — a focused iOS comic reader",
+      "localizedDescription": "Paper Comic Reader:\n\nA lean, native comic reader for iPhone and iPad that makes pages read like ink on paper instead of a backlit screen. Download on the App Store · Landing page.\n\nPaper Comic Reader opens CBZ archives, keeps a library with reading progress and bookmarks, and can render every page with a realistic paper effect (ported from the Simple Comic fork) — a warm tonal remap plus a fine paper grain, so pages read like they were printed.\n\nBuilt with SwiftUI and a UIKit reader core, Core Image and Metal for the paper effect. Everything runs on-device: no accounts, no network requests, no tracking or analytics.\n\nInstall:\n\nOn the App Store (easiest): Paper Comic Reader on the App Store — signed, free, auto-updating, no sideload tooling. This is the recommended way to install.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/de.wiredframe.comicreader.png",
+      "tintColor": "#f0d000",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Wiredframe/paper-comic-reader/main/docs/screenshot.jpg",
+        "https://raw.githubusercontent.com/Wiredframe/paper-comic-reader/main/docs/screenshot-paper.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.3.16",
+          "date": "2026-08-21T14:07:40Z",
+          "localizedDescription": "Unsigned .ipa for sideloading (AltStore / Sideloadly / TrollStore).\n\nRequires iOS 26 or later. On anything older the install fails with an unhelpful error rather than saying why.\n\niOS can't install this directly — see the README for how to sideload it and re-sign it with your own Apple ID.\n\nWhat changed:\n\n• Replace the reader's free pinch zoom with a fit ladder.\n• Turn the reader sideways from its own toolbar.\n• Retune the settings a fresh install starts with.",
+          "downloadURL": "https://github.com/Wiredframe/paper-comic-reader/releases/download/v1.3.16/PaperComicReader-1.3.16.ipa",
+          "size": 6028637,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "DreamPlayer",
+      "bundleIdentifier": "com.dreamplayer.app",
+      "developerName": "mangeshghodke",
+      "subtitle": "A cross-platform video player for Android, iOS/iPad, and Android TV — built for true Dolby Vision, HDR10/HDR10+, and lossless audio playback",
+      "localizedDescription": "DreamPlayer:\n\nA cross-platform video player for Android, iOS/iPad, and Android TV — built for true Dolby Vision, HDR10/HDR10+, and lossless audio playback.\n\nThis project is 100% vibe coded — designed, directed, and tested by a human; written end-to-end in collaboration with AI coding agents, one feature at a time. Every feature ships only after real on-device verification.\n\nDolby Vision & HDR:\n\n• Plays Dolby Vision Profile 8 at 4K 60fps with zero dropped frames.\n• Full HDR10 / HDR10+ / HLG passthrough to the display panel.\n• Live on-screen chips showing the active HDR format, video codec, audio codec, and resolution.\n• Graceful fallback on non-DV devices (plays as HDR10 or shows a clean error).\n\nLossless Audio:\n\n• All major codecs: DTS, DTS-HD, TrueHD, E-AC3, AC3, AAC, FLAC and more.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.dreamplayer.app.png",
+      "tintColor": "#000050",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/mangeshghodke/DreamPlayer/main/screenshots/home.jpg",
+        "https://raw.githubusercontent.com/mangeshghodke/DreamPlayer/main/screenshots/movie_detail.jpg",
+        "https://raw.githubusercontent.com/mangeshghodke/DreamPlayer/main/screenshots/menu.jpg",
+        "https://raw.githubusercontent.com/mangeshghodke/DreamPlayer/main/screenshots/settings.jpg"
+      ],
+      "versions": [
+        {
+          "version": "0.2.3",
+          "date": "2026-08-22T13:46:42Z",
+          "localizedDescription": "Fixed:\n\n• Removed Apple TV / tvOS support (no hardware to test — builds kept failing and the alpha was never verified).\n• Removed Google Cast / DLNA casting (removed entirely — broken resume-on-device and audio-track-on-TV bugs, no test device).\n• Cleaned stale tvOS references from shared Dart files, README, AGENTS.md, and CI workflows.\n• Updated repo description to reflect current platform support.\n\nPick the APK for your device and allow \"Install unknown apps\" when prompted:\n\nNot sure which to pick? Grab the Universal APK.\n\nThe DreamPlayer-<version>.ipa in this release is unsigned — Apple only allows app installation through the App Store / TestFlight, so the IPA must be signed with your own (free) Apple ID. It's quick:\n\n• Install SideStore or AltStore on your iPhone/iPad (sidestore.io / altstore.io).\n\n• Open SideStore/AltStore → + → select DreamPlayer-<version>.ipa. It signs it with your Apple ID and installs.\n• The signature lasts 7 days; SideStore/AltStore auto-refresh it in the background over WiFi — a weekly open is all that's needed.\n\nNotes:\n\n• A free Apple ID can keep ~3 sideloaded apps active per device.\n• First-time setup of SideStore/AltStore needs a computer (or a second Apple device).\n\nVersioning:\n\nApp version follows semver, bumped per release (current release: 0.2.3).\n\nPlaying videos from your NAS / SMB share:\n\nDreamPlayer plays NAS files through the Files app's built-in SMB support and \"Open with\".\n\n• iPhone/iPad: Files → ⋯ → Connect to Server → enter smb://<address> → browse to a video → long-press → Share → Open in \"DreamPlayer\". Prefer a folder? Bookmark it once: home + → Add folder to library → your NAS folder.\n• Android: CX Explorer → Open with → DreamPlayer (streams over CX's local HTTP proxy).",
+          "downloadURL": "https://github.com/mangeshghodke/DreamPlayer/releases/download/v0.2.3/DreamPlayer-0.2.3.ipa",
+          "size": 15280198,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "DreamPlayer connects to your local network to play videos from WebDAV, Jellyfin, and Files-app bookmarked folders (including SMB shares you connect in the Files app)."
+        }
       }
     }
   ]
