@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "app.mangatan.mangatan",
     "com.raton.flashcards",
-    "com.zurac.BudgetBuddy"
+    "com.noopapp.noop",
+    "moe.itoapp.ito"
   ],
   "apps": [
     {
@@ -1362,10 +1362,10 @@
       "versions": [
         {
           "version": "10.5.1",
-          "date": "2026-08-21T12:15:36Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.5.1).\n\n• Android (debug) — NOOP-android-debug-v10.5.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.5.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.5.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.5.1 · built 2026-08-21 · ec20063.",
+          "date": "2026-08-23T10:41:13Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.5.1).\n\n• Android (debug) — NOOP-android-debug-v10.5.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.5.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.5.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.5.1 · built 2026-08-23 · c6c2234.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v10.5.1.ipa",
-          "size": 18869106,
+          "size": 18977613,
           "minOSVersion": "17.0"
         }
       ],
@@ -3035,11 +3035,11 @@
       }
     },
     {
-      "name": "Flashcards",
+      "name": "Kavi",
       "bundleIdentifier": "com.raton.flashcards",
       "developerName": "raaaton",
       "subtitle": "Beautiful native flashcards app. Native. Offline. Focused",
-      "localizedDescription": "Flashcards:\n\nFlashcards is a native, local-first iOS study app built for fast card creation, focused revision, and full ownership of your data.\n\nIt is written entirely with SwiftUI, SwiftData, and Apple system APIs. There is no account, backend, analytics SDK, advertising layer, or in-app runtime network dependency.\n\nVersion 2 introduces a redesigned monochrome-first visual system with a selective mint signature, a rebuilt Home experience, compact deck rows, improved duplicate detection, external-AI-assisted deck creation, configurable Home sections, expanded localization, and a more consistent Apple-native interaction model throughout the app.\n\nDevelopment Build:\n\nBuilt automatically from the latest commit on main. Development builds may contain unfinished or unstable changes.\n\nVersion 2:\n\nThe v2 generation is a major visual and interaction refresh rather than a simple coat of paint.",
+      "localizedDescription": "Kavi:\n\nKavi is a native, local-first iOS study app built for fast card creation, focused revision, and full ownership of your data.\n\nIt is written entirely with SwiftUI, SwiftData, and Apple system APIs. There is no account, backend, analytics SDK, advertising layer, or in-app runtime network dependency.\n\nKavi 3.0.0 is the current major generation, combining the monochrome-first visual system, rebuilt Home experience, compact deck rows, improved duplicate detection, external-AI-assisted deck creation, configurable Home sections, expanded localization, and a consistent Apple-native interaction model throughout the app.\n\nDevelopment Build:\n\nBuilt automatically from the latest commit on main. Development builds may contain unfinished or unstable changes.\n\nVersion 3:\n\nThe current major generation is a major visual and interaction refresh rather than a simple coat of paint.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.raton.flashcards.png",
       "tintColor": "#30c090",
       "category": "other",
@@ -3052,11 +3052,11 @@
       ],
       "versions": [
         {
-          "version": "2.2.0",
-          "date": "2026-08-22T23:51:23Z",
-          "localizedDescription": "• feat: add external AI deck creation flow.\n• fix: open AI providers natively.\n• fix: polish deck creation navigation.\n• fix: animate new deck flow.\n• fix: final UX polish.\n• fix: polish deletion alerts.\n• fix: keep deletion alerts neutral.\n• fix: finish delete and AI polish.\n\nNew Contributors:\n\n• @raaaton made their first contribution.",
-          "downloadURL": "https://github.com/raaaton/Flashcards/releases/download/v2.2.0/Flashcards-v2.2.0.ipa",
-          "size": 7020162,
+          "version": "3.0.0",
+          "date": "2026-08-23T12:02:20Z",
+          "localizedDescription": "• fix: stabilize New Deck AI flow.\n• fix: keep confirmation actions white or red.\n• fix: polish AI provider cards.\n• fix: suppress folder reorder haptics outside drag.\n• fix: use valid drop-session lifecycle for reorder haptics.\n• chore: rename app to Kavi.\n• fix: use valid drag session lifecycle for reorder haptics.",
+          "downloadURL": "https://github.com/raaaton/Flashcards/releases/download/v3.0.0/Kavi-v3.0.0.ipa",
+          "size": 7026606,
           "minOSVersion": "27.0"
         }
       ],
@@ -3082,10 +3082,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-08-22T09:57:57Z",
-          "localizedDescription": "Automated unsigned nightly from main at commit 50b78fa. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260822-36/Ito-1.0.0-nightly.20260822.36-unsigned.ipa",
-          "size": 9841180,
+          "date": "2026-08-23T09:56:04Z",
+          "localizedDescription": "Automated unsigned nightly from main at commit bab7cc7. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260823-37/Ito-1.0.0-nightly.20260823.37-unsigned.ipa",
+          "size": 9915093,
           "minOSVersion": "15.4"
         }
       ],
@@ -3391,11 +3391,11 @@
       ],
       "versions": [
         {
-          "version": "0.2.3",
-          "date": "2026-08-22T13:46:42Z",
-          "localizedDescription": "Fixed:\n\n• Removed Apple TV / tvOS support (no hardware to test — builds kept failing and the alpha was never verified).\n• Removed Google Cast / DLNA casting (removed entirely — broken resume-on-device and audio-track-on-TV bugs, no test device).\n• Cleaned stale tvOS references from shared Dart files, README, AGENTS.md, and CI workflows.\n• Updated repo description to reflect current platform support.\n\nPick the APK for your device and allow \"Install unknown apps\" when prompted:\n\nNot sure which to pick? Grab the Universal APK.\n\nThe DreamPlayer-<version>.ipa in this release is unsigned — Apple only allows app installation through the App Store / TestFlight, so the IPA must be signed with your own (free) Apple ID. It's quick:\n\n• Install SideStore or AltStore on your iPhone/iPad (sidestore.io / altstore.io).\n\n• Open SideStore/AltStore → + → select DreamPlayer-<version>.ipa. It signs it with your Apple ID and installs.\n• The signature lasts 7 days; SideStore/AltStore auto-refresh it in the background over WiFi — a weekly open is all that's needed.\n\nNotes:\n\n• A free Apple ID can keep ~3 sideloaded apps active per device.\n• First-time setup of SideStore/AltStore needs a computer (or a second Apple device).\n\nVersioning:\n\nApp version follows semver, bumped per release (current release: 0.2.3).\n\nPlaying videos from your NAS / SMB share:\n\nDreamPlayer plays NAS files through the Files app's built-in SMB support and \"Open with\".\n\n• iPhone/iPad: Files → ⋯ → Connect to Server → enter smb://<address> → browse to a video → long-press → Share → Open in \"DreamPlayer\". Prefer a folder? Bookmark it once: home + → Add folder to library → your NAS folder.\n• Android: CX Explorer → Open with → DreamPlayer (streams over CX's local HTTP proxy).",
-          "downloadURL": "https://github.com/mangeshghodke/DreamPlayer/releases/download/v0.2.3/DreamPlayer-0.2.3.ipa",
-          "size": 15280198,
+          "version": "0.2.4",
+          "date": "2026-08-23T06:51:02Z",
+          "localizedDescription": "Fixed:\n\n• Jellyfin external subtitles — parses MediaStreams (IsExternal), builds DeliveryUrl + api_key and exposes all .srt/.ass/.vtt in the CC picker (was only embedded).\n• In-app SMB subtitles — subtitlePaths now returns all matches (video.srt, video.eng.ass…) instead of just the first; CC shows each separately.\n• Manual load — CC sheet always offers \"Load subtitle file…\" (system picker for any manager) plus direct NAS sibling selection.\n\nPick the APK for your device and allow \"Install unknown apps\" when prompted:\n\nNot sure which to pick? Grab the Universal APK.\n\nThe DreamPlayer-<version>.ipa in this release is unsigned — Apple only allows app installation through the App Store / TestFlight, so the IPA must be signed with your own (free) Apple ID. It's quick:\n\n• Install SideStore or AltStore on your iPhone/iPad (sidestore.io / altstore.io).\n\n• Open SideStore/AltStore → + → select DreamPlayer-<version>.ipa. It signs it with your Apple ID and installs.\n• The signature lasts 7 days; SideStore/AltStore auto-refresh it in the background over WiFi — a weekly open is all that's needed.\n\nNotes:\n\n• A free Apple ID can keep ~3 sideloaded apps active per device.\n• First-time setup of SideStore/AltStore needs a computer (or a second Apple device).\n\nVersioning:\n\nApp version follows semver, bumped per release (current release: 0.2.4).\n\nPlaying videos from your NAS / SMB share:\n\nDreamPlayer plays NAS files through the Files app's built-in SMB support and \"Open with\".\n\n• iPhone/iPad: Files → ⋯ → Connect to Server → enter smb://<address> → browse to a video → long-press → Share → Open in \"DreamPlayer\". Prefer a folder? Bookmark it once: home + → Add folder to library → your NAS folder.\n• Android: CX Explorer → Open with → DreamPlayer (streams over CX's local HTTP proxy).",
+          "downloadURL": "https://github.com/mangeshghodke/DreamPlayer/releases/download/v0.2.4/DreamPlayer-0.2.4.ipa",
+          "size": 15293564,
           "minOSVersion": "16.0"
         }
       ],
