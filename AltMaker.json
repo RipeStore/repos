@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.cosmonautical.jellify",
-    "com.example.openstrapEdge",
-    "com.naine.doer"
+    "com.raton.flashcards",
+    "com.zurac.BudgetBuddy",
+    "com.cosmonautical.jellify"
   ],
   "apps": [
     {
@@ -3039,7 +3039,7 @@
       "bundleIdentifier": "com.raton.flashcards",
       "developerName": "raaaton",
       "subtitle": "Beautiful native flashcards app. Native. Offline. Focused",
-      "localizedDescription": "Flashcards:\n\nFlashcards is a native, local-first iOS study app built for fast card creation, focused revision, and full ownership of your data.\n\nIt is written entirely with SwiftUI, SwiftData, and Apple system APIs. There is no account, backend, analytics SDK, advertising layer, or runtime network dependency.\n\nVersion 2 introduces a redesigned visual system, a new mint identity, a rebuilt Home experience, compact deck rows, improved duplicate detection, configurable Home sections, expanded localization, and a more consistent Apple-native interaction model throughout the app.\n\nDevelopment Build:\n\nBuilt automatically from the latest commit on main. Development builds may contain unfinished or unstable changes.\n\nVersion 2:\n\nThe v2 generation is a major visual and interaction refresh rather than a simple coat of paint.\n\n• New app-wide mint identity based around #46D7A7.",
+      "localizedDescription": "Flashcards:\n\nFlashcards is a native, local-first iOS study app built for fast card creation, focused revision, and full ownership of your data.\n\nIt is written entirely with SwiftUI, SwiftData, and Apple system APIs. There is no account, backend, analytics SDK, advertising layer, or in-app runtime network dependency.\n\nVersion 2 introduces a redesigned monochrome-first visual system with a selective mint signature, a rebuilt Home experience, compact deck rows, improved duplicate detection, external-AI-assisted deck creation, configurable Home sections, expanded localization, and a more consistent Apple-native interaction model throughout the app.\n\nDevelopment Build:\n\nBuilt automatically from the latest commit on main. Development builds may contain unfinished or unstable changes.\n\nVersion 2:\n\nThe v2 generation is a major visual and interaction refresh rather than a simple coat of paint.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.raton.flashcards.png",
       "tintColor": "#30c090",
       "category": "other",
@@ -3052,11 +3052,11 @@
       ],
       "versions": [
         {
-          "version": "2.0.0",
-          "date": "2026-08-22T10:12:41Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/raaaton/Flashcards/releases/download/v2.0.0/Flashcards-v2.0.0.ipa",
-          "size": 6876804,
+          "version": "2.2.0",
+          "date": "2026-08-22T23:51:23Z",
+          "localizedDescription": "• feat: add external AI deck creation flow.\n• fix: open AI providers natively.\n• fix: polish deck creation navigation.\n• fix: animate new deck flow.\n• fix: final UX polish.\n• fix: polish deletion alerts.\n• fix: keep deletion alerts neutral.\n• fix: finish delete and AI polish.\n\nNew Contributors:\n\n• @raaaton made their first contribution.",
+          "downloadURL": "https://github.com/raaaton/Flashcards/releases/download/v2.2.0/Flashcards-v2.2.0.ipa",
+          "size": 7020162,
           "minOSVersion": "27.0"
         }
       ],
@@ -3403,6 +3403,50 @@
         "entitlements": [],
         "privacy": {
           "NSLocalNetworkUsageDescription": "DreamPlayer connects to your local network to play videos from WebDAV, Jellyfin, and Files-app bookmarked folders (including SMB shares you connect in the Files app)."
+        }
+      }
+    },
+    {
+      "name": "OldOS",
+      "bundleIdentifier": "com.zurac.BudgetBuddy",
+      "developerName": "zzanehip",
+      "subtitle": "Recreating a fully functional version of iOS 4 in SwiftUI",
+      "localizedDescription": "!",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.zurac.BudgetBuddy.png",
+      "tintColor": "#6156e2",
+      "category": "other",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/zzanehip/The-OldOS-Project/master/Images/Files.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-08-22T19:49:31Z",
+          "localizedDescription": "2.0 (8):\n\n• iOS 4 Keyboard.\n• Autocorrect.\n• Predictive Touch.\n• Text Suggestions.\n• Magnifiers.\n• Text Selection.\n• Cut, Copy & Paste.\n• Keyboard Variants.",
+          "downloadURL": "https://github.com/zzanehip/The-OldOS-Project/releases/download/2.0_8/OldOS.ipa",
+          "size": 85139997,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.game-center",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "To view, play, and experience your music in OldOS, please enable access to your music library. ",
+          "NSCameraUsageDescription": "To take photos in OldOS, please enable access to your camera.",
+          "NSContactsUsageDescription": "To view and manage your contacts in OldOS, please enable access to your contacts list.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app.",
+          "NSLocationAlwaysUsageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app.",
+          "NSLocationWhenInUseUsageDescription": "To enable maps to work properly, and see your current wifi network in Settings, please enable access to your location. Then close and re-open the Maps app.",
+          "NSMicrophoneUsageDescription": "To record your audio while filming a video in OldOS, please in enable microphone access.",
+          "NSPhotoLibraryAddUsageDescription": "To view, manage, and add photos to your photo library in OldOS, please enable access. Then close and re-open the Photos app.",
+          "NSPhotoLibraryUsageDescription": "To view, manage, and add photos to your photo library in OldOS, please enable access. Then close and re-open the Photos app."
         }
       }
     }
