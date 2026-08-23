@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "app.mangatan.mangatan",
     "com.raton.flashcards",
-    "com.zurac.BudgetBuddy",
-    "com.cosmonautical.jellify"
+    "com.zurac.BudgetBuddy"
   ],
   "apps": [
     {
@@ -574,10 +574,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-08-21T07:48:33Z",
-          "localizedDescription": "Release v6.0.92:\n\n• Support F11 desktop fullscreen (51fb546).\n• Keep dictionary open on subresource failures (cf11c8b).\n• Preserve manga source state across runtime calls (985240e).\n• Restore Windows lookup after app switching (b52feb8).\n• Refine novel library progress layout (c121194).\n• Fix manga artwork and chapter labels (b3df018).\n• Keep sentence audio aligned with active subtitles (be47d8b).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.92/Manatan-v6.0.92-iOS.ipa",
-          "size": 349503074,
+          "date": "2026-08-23T03:01:12Z",
+          "localizedDescription": "Release v6.0.93:\n\n• Preserve novel pages across image boundaries (2b16c65).\n• Correct extension novel progress percentages (02866ce).\n• Keep novel reader input responsive during startup (65082e0).\n• Preserve manga metadata across desktop runtime calls (abaab57).\n• Make novel reader interaction and highlights immediately available (d14d1c7).\n• Keep novel learning marks aligned with words (c6c2687).\n• Make novel reader restoration fast and deterministic (7dec2de).\n• Load local EPUB pages directly from extracted spines (2e43d76).\n• Make mouse navigation reordering immediate (b9f7cf6).\n• Make novel pagination deterministic across layouts (748538b).\n• Make iPhone test installs launch independently (32090b5).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.93/Manatan-v6.0.93-iOS.ipa",
+          "size": 350410560,
           "minOSVersion": "15.5"
         }
       ],
@@ -868,7 +868,7 @@
       "bundleIdentifier": "org.xbmc.kodi-ios",
       "developerName": "RipeStore",
       "subtitle": "Media center for all your digital entertainment",
-      "localizedDescription": "Kodi can be used to play almost all popular audio and video formats around. It was designed for network playback, so you can stream your multimedia from anywhere in the house or directly from the internet using practically any protocol available.\n\nPoint Kodi to your media and watch it scan and automagically create a personalized library complete with box covers, descriptions, and fanart. There are playlist and slideshow functions, a weather forecast feature and many audio visualizations. Once installed, your computer or HTPC will become a fully functional multimedia jukebox.",
+      "localizedDescription": "Kodi can be used to play almost all popular audio and video formats around. It was designed for network playback, so you can stream your multimedia from anywhere in the house or directly from the internet using practically any protocol available.\n\nTHis build is distributed by a third-party not related to Kodi/XMBC.\n\nPoint Kodi to your media and watch it scan and automagically create a personalized library complete with box covers, descriptions, and fanart. There are playlist and slideshow functions, a weather forecast feature and many audio visualizations. Once installed, your computer or HTPC will become a fully functional multimedia jukebox.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/org.xbmc.kodi-ios.png",
       "tintColor": "#30a0d0",
       "category": "entertainment",
