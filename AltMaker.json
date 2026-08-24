@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.mori.downloader",
-    "com.stremiox.app.native",
-    "com.dreamplayer.app"
+    "com.noopapp.noop",
+    "moe.itoapp.ito",
+    "com.naine.doer"
   ],
   "apps": [
     {
@@ -574,10 +574,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-08-23T03:01:12Z",
-          "localizedDescription": "Release v6.0.93:\n\n• Preserve novel pages across image boundaries (2b16c65).\n• Correct extension novel progress percentages (02866ce).\n• Keep novel reader input responsive during startup (65082e0).\n• Preserve manga metadata across desktop runtime calls (abaab57).\n• Make novel reader interaction and highlights immediately available (d14d1c7).\n• Keep novel learning marks aligned with words (c6c2687).\n• Make novel reader restoration fast and deterministic (7dec2de).\n• Load local EPUB pages directly from extracted spines (2e43d76).\n• Make mouse navigation reordering immediate (b9f7cf6).\n• Make novel pagination deterministic across layouts (748538b).\n• Make iPhone test installs launch independently (32090b5).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.93/Manatan-v6.0.93-iOS.ipa",
-          "size": 350410560,
+          "date": "2026-08-24T07:47:45Z",
+          "localizedDescription": "Release v6.0.94:\n\n• Preserve previous pages across novel chapters (20f3820).\n• Improve self-hosted server URL handling (7208654).\n• Speed up Komga catalog loading (b8bd9f6).\n• Capture complete primary subtitle sentence audio (2c6bc87).\n• Use authenticated AniList catalog search (9a90348).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.94/Manatan-v6.0.94-iOS.ipa",
+          "size": 350485381,
           "minOSVersion": "15.5"
         }
       ],
@@ -1362,10 +1362,10 @@
       "versions": [
         {
           "version": "10.5.1",
-          "date": "2026-08-23T13:33:12Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.5.1).\n\n• Android (debug) — NOOP-android-debug-v10.5.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.5.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.5.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.5.1 · built 2026-08-23 · b051c03.",
+          "date": "2026-08-24T11:18:52Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.5.1).\n\n• Android (debug) — NOOP-android-debug-v10.5.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.5.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.5.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.5.1 · built 2026-08-24 · 9ce5cdc.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v10.5.1.ipa",
-          "size": 18977955,
+          "size": 19007434,
           "minOSVersion": "17.0"
         }
       ],
@@ -3082,10 +3082,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-08-23T09:56:04Z",
-          "localizedDescription": "Automated unsigned nightly from main at commit bab7cc7. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260823-37/Ito-1.0.0-nightly.20260823.37-unsigned.ipa",
-          "size": 9915093,
+          "date": "2026-08-24T10:22:39Z",
+          "localizedDescription": "Automated unsigned nightly from main at commit fb8e8e0. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260824-38/Ito-1.0.0-nightly.20260824.38-unsigned.ipa",
+          "size": 10058918,
           "minOSVersion": "15.4"
         }
       ],
@@ -3248,16 +3248,17 @@
       "versions": [
         {
           "version": "1.8",
-          "date": "2026-08-22T14:35:34Z",
+          "date": "2026-08-24T08:53:11Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8-build.17/doer-unsigned.ipa",
-          "size": 14004015,
+          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8/doer-unsigned.ipa",
+          "size": 23365807,
           "minOSVersion": "15.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
+          "NSCameraUsageDescription": "用于在站内聊天中拍照并发送图片",
           "NSPhotoLibraryAddUsageDescription": "用于保存话题分享图片到相册"
         }
       }
