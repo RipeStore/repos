@@ -78,14 +78,6 @@
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.3.0/ARMSX2-iOS-2.3.0.ipa",
           "size": 19421078,
           "minOSVersion": "17.0"
-        },
-        {
-          "version": "2.2.2-rl2",
-          "date": "2026-06-16",
-          "localizedDescription": "Updated latest iOS-refresh, including merged PRs #189 from @EricDraven2503 and #190 from @j1coding\n\nPR#189: \n\nGeometrics out of buttons visible when pressed drastically improved, they now take the shape of buttons according to the current layout selected, I didn't verify whether it works with custom layouts as well but it should;\n\nItalian and German now available on Settings > Language > App Language (only the same strings as every other language have been introduced);\n\nGesture Bar appearing during emulation for iOS 17/iOS 18 has been resolved for non-touch gameplay. \n\nPR#190: \n\nThis PR adds emulator volume controls to the iOS app, making it easier to lower game audio while using Discord, calls, music, or other system audio.\n\nIt adds a new Emulator Volume slider in the global emulator settings. The slider controls emulator/game audio only, while leaving iOS system volume and other apps unchanged. The selected volume is saved between launches and applies to both normal gameplay and fast-forward audio so volume stays predictable.\n\nThis PR also adds per-game volume overrides. Users can choose a custom volume for individual games, or leave a game set to use the global emulator volume. Per-game overrides can be reset back to global at any time without affecting other per-game settings.\n\nWhat changed\n\n- Added a global Emulator Volume slider under Emulator settings.\n- Added support for volume values from 0% to 100%.\n- Saved emulator volume between app launches.\n- Applied the same volume value to normal and fast-forward audio.\n- Added per-game custom volume support.\n- Added a Use Custom Volume toggle in per-game settings.\n- Added a Using Global: XX% state when no custom volume is set.\n- Added Reset to Global behavior for per-game volume.\n- Preserved unrelated per-game settings when disabling custom volume.\n- Added a small native bridge path for applying emulator volume settings.\n- Added accessibility-friendly labels and visible percentage values for the new controls.",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.2.2rl2/ARMSX2-iOS-2.2.2-rl2.ipa",
-          "size": 19129903,
-          "minOSVersion": "17.0"
         }
       ],
       "permissions": [
