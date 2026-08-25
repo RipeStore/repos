@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.noopapp.noop",
-    "moe.itoapp.ito",
-    "com.naine.doer"
+    "com.xitrix.RPCS3",
+    "com.tumoflip.unleashedcompanion",
+    "com.noopapp.noop"
   ],
   "apps": [
     {
@@ -1362,10 +1362,10 @@
       "versions": [
         {
           "version": "10.5.1",
-          "date": "2026-08-24T11:18:52Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.5.1).\n\n• Android (debug) — NOOP-android-debug-v10.5.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.5.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.5.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.5.1 · built 2026-08-24 · 9ce5cdc.",
+          "date": "2026-08-24T15:08:53Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.5.1).\n\n• Android (debug) — NOOP-android-debug-v10.5.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.5.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.5.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.5.1 · built 2026-08-24 · 65cf0f7.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v10.5.1.ipa",
-          "size": 19007434,
+          "size": 19012121,
           "minOSVersion": "17.0"
         }
       ],
@@ -2842,12 +2842,12 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.5",
-          "date": "2026-08-21T20:26:30Z",
-          "localizedDescription": "What's new:\n\n• RPCS3 recommended settings synchronization.\n• Per-game settings presets.\n\nImprovements:\n\n• Updated RPCS3 core.\n\nFixes:\n\n• Games with bundled pkg files now install them correctly.",
-          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.5/RPCS3.ipa",
-          "size": 23871875,
-          "minOSVersion": "26.0"
+          "version": "0.6",
+          "date": "2026-08-24T21:34:05Z",
+          "localizedDescription": "What's new:\n\n• iOS 17.4 backport (not tested \\*I have no non iOS 26 device, sorry\\*, requires StikDebug same as iOS 26).\n• Cache persists and could be cleaned manually.\n• MetalFX upscaler.\n• Home gamepad button as PS button.\n\nImprovements:\n\n• Automatic StikDebug script selection.\n• Updated RPCS3 core.\n• Some SPU and VBF settings exposed.\n\nWARNING!\n\n• This version moves cache into another persistent folder and has migration built-in, if you'd like to preserve your cache from previous versions of the app DO NOT skip this version, as migration code will be removed from next versions!",
+          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.6/RPCS3.ipa",
+          "size": 23900758,
+          "minOSVersion": "17.4"
         }
       ],
       "appPermissions": {
@@ -3304,11 +3304,11 @@
       ],
       "versions": [
         {
-          "version": "1.10.35",
-          "date": "2026-08-22T11:01:13Z",
-          "localizedDescription": "FW Packages: separate catalog synchronization:\n\n• Adds Sync catalog to Flipper to FW Packages. It stays available even when the package catalog is already Up to date.\n• Sync revalidates the live catalog and the connected Flipper firmware before writing the catalog snapshot used by Tumoflip Packages.\n• It writes and MD5-verifies only /ext/.tumoflip/catalog-state.txt.\n\nSafety and behavior:\n\n• This is separate from Verify on device and package installation.\n\n• A BLE connection is required to validate the current firmware identity; failures remain fail-closed.\n\nValidation:\n\n• Full simulator unit suite: 542 tests passed (UI tests excluded).\n\nAfter updating, connect the Flipper, open Updates → FW Packages, and tap Sync catalog to Flipper. Tumoflip Packages will then use the refreshed catalog state without a package reinstall.",
-          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.10.35/TumoCompanion-unsigned.ipa",
-          "size": 29994763,
+          "version": "1.10.38",
+          "date": "2026-08-24T20:35:01Z",
+          "localizedDescription": "Independent FW Packages catalog lifecycle.\n\n• Choose the newest compatible revision or explicitly roll back to a retained stable/dev revision.\n• Validate catalog, manifest, and archive SHA-256 digests before installation.\n• Fail closed on malformed or stale catalog metadata.\n• Firmware-owned FAPs remain reference-only and are never reinstalled as overlays.\n\nNo firmware or existing FAP release assets were changed.",
+          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.10.38/TumoCompanion-unsigned.ipa",
+          "size": 30085561,
           "minOSVersion": "17.0"
         }
       ],
@@ -3392,18 +3392,18 @@
       ],
       "versions": [
         {
-          "version": "0.2.5",
-          "date": "2026-08-23T16:51:17Z",
-          "localizedDescription": "Added:\n\n• Double-tap to seek — double-tap the left half of the video to jump back 10 s, right half to jump forward 10 s, with a brief on-screen ripple indicator (phones/tablets; TV keeps its D-pad buttons).\n\nChanged:\n\n• Center transport — the ±10 s skip buttons beside play/pause are now TV-only; phones rely on the double-tap gesture. The dark pill background behind the center controls was removed — only the circular play/pause button floats on the video.\n\nPick the APK for your device and allow \"Install unknown apps\" when prompted:\n\nNot sure which to pick? Grab the Universal APK.\n\nThe DreamPlayer-<version>.ipa in this release is unsigned — Apple only allows app installation through the App Store / TestFlight, so the IPA must be signed with your own (free) Apple ID. It's quick:\n\n• Install SideStore or AltStore on your iPhone/iPad (sidestore.io / altstore.io).\n\n• Open SideStore/AltStore → + → select DreamPlayer-<version>.ipa. It signs it with your Apple ID and installs.\n• The signature lasts 7 days; SideStore/AltStore auto-refresh it in the background over WiFi — a weekly open is all that's needed.\n\nNotes:\n\n• A free Apple ID can keep ~3 sideloaded apps active per device.\n• First-time setup of SideStore/AltStore needs a computer (or a second Apple device).\n\nVersioning:\n\nApp version follows semver, bumped per release (current release: 0.2.5).\n\nPlaying videos from your NAS / SMB share:\n\nDreamPlayer plays NAS files through the Files app's built-in SMB support and \"Open with\".\n\n• iPhone/iPad: Files → ⋯ → Connect to Server → enter smb://<address> → browse to a video → long-press → Share → Open in \"DreamPlayer\". Prefer a folder? Bookmark it once: home + → Add folder to library → your NAS folder.\n• Android: CX Explorer → Open with → DreamPlayer (streams over CX's local HTTP proxy).",
-          "downloadURL": "https://github.com/mangeshghodke/DreamPlayer/releases/download/v0.2.5/DreamPlayer-0.2.5.ipa",
-          "size": 15301348,
+          "version": "0.2.6",
+          "date": "2026-08-24T15:08:41Z",
+          "localizedDescription": "Added:\n\n• Playback speed 0.25×–2× + refresh-rate matching (Phase 1) — bottom-bar overflow holds the current rate (1×), dropdown offers 0.25×–2×; persisted as dreamplayer.playbackSpeed and re-applied after every open/reopen. Android: player.setPlaybackSpeed; iOS: AVPlayer.defaultRate/rate via layer walk. Android also matches the display mode to the video FPS (preferredDisplayModeId on STATE_READY / size change, ±0.5 Hz hysteresis, restores on dispose). iOS FFmpeg custom-source (WebDAV) has no AVPlayer → speed is no-op there until AetherEngine exposes a rate API.\n• Chapters + watched marks + overflow dropdown (Phase 2) — MKV Chapters parsed directly (EBML walk: SeekHead → EditionEntry → ChapterAtom, SeekID 0x1043A770, ns→ms, first ChapString fallback \"Chapter N\") for local (RandomAccessFile), SMB (SmbRandomAccessFile + saved share creds), and HTTP/WebDAV (Range: 0–8M via OkHttp standard+permissive clients); Jellyfin Item.Chapters (Fields=Chapters, ticks/10000 ms) seeded from VideoItem.chapters. Chapters appear in the bottom-bar overflow ⋮ (Aspect/Speed/Chapters collapsible sections), highlight the current chapter and tap-to-seek. Watched marks auto-set on STATE_ENDED and manual via check icon per row, green check = watched, resume labels now h:mm:ss for ≥1h. Bottom bar decluttered 6→4 buttons (audio · CC · ⋮ · fullscreen).\n• HW / SW decoder toggle + live badge — Settings + overflow let you pick Auto / Hardware / Software; PlayerCodecs.mediaCodecSelector filters isSoftwareVideoDecoder live per query (HW filters SW decoders, SW prefers c2.android./google/ffmpeg). Player top bar shows Auto, H/W / Auto, S/W etc. via onVideoDecoderInitialized (videoDecoderName/isHwDecoder), chips wrap in portrait. Verified: software fallback no longer kills HDR — video stays on MediaCodecVideoRenderer.\n• DLNA / UPnP browse (Android + iOS, DONE) — Home + → DLNA: SSDP discovery (Android XmlPullParser, iOS BSD-socket poll+resend with IP_MULTICAST_TTL=2 + IP_MULTICAST_IF=en*, entitlement com.apple.developer.networking.multicast), SOAP ContentDirectory#Browse, DIDL parsing with VLC/upnpx semantics (shouldProcessNamespaces=false + suffix matching dc:title/upnp:class, tolerant <Result> regex, single-pass entity unescape). On-screen Diagnostics box + getDiagnostics channel. iOS fallbacks when SSDP gated: saved-Jellyfin-host probe → UDP-7359 broadcast → direct http://192.168.1.16:8096 probe.\n• Series grouping + live subtitle delay (Android) + auto-play next — Season grouping for Jellyfin/file folders, Android subtitle delay now live via DelayingParser (SubtitleTiming.delayUs + reopen on change; PGS/DVB bitmap cues still not shifted), auto-play next episode within the same folder (local/SMB, Jellyfin parent walk still TODO).\n• OOM fix — android:largeHeap=\"true\" + BufferTuning 96→64 MiB on large-RAM devices (Fire TV 192 MB heap stays 24 MiB), fixes MediaCodec.BufferInfo heap abort on 256 MB devices.\n\nFixed:\n\n• iOS DLNA browse empty — Foundation XMLParser with namespaces on silently yields zero entries (prefix D:response), fixed by shouldProcessNamespaces=false + qualified-name suffix checks; ResultUnescaper replaced with single-pass parser.\n• iOS Files-app MKV chapters — MkvChapters.swift EBML probe for mkv/mka/mks/webm/mk3d.\n• Decoder badge flicker — badge no longer vanishes on mode switch; label is mode-aware.\n• Chips overflow in portrait — chips now Wrap to next line when many badges present.\n• iOS discovery gated on managed Wi-Fi — now falls back through saved Jellyfin hosts and 7359 broadcast before failing.\n\nChanged:\n\n• AetherEngine 6.21.0 → 6.38.0 (latest, drop-in SPM).\n\nPick the APK for your device and allow \"Install unknown apps\" when prompted:\n\nNot sure which to pick? Grab the Universal APK.\n\nThe DreamPlayer-<version>.ipa in this release is unsigned — Apple only allows app installation through the App Store / TestFlight, so the IPA must be signed with your own (free) Apple ID. It's quick:\n\n• Install SideStore or AltStore on your iPhone/iPad (sidestore.io / altstore.io).\n\n• Open SideStore/AltStore → + → select DreamPlayer-<version>.ipa. It signs it with your Apple ID and installs.\n• The signature lasts 7 days; SideStore/AltStore auto-refresh it in the background over WiFi — a weekly open is all that's needed.\n\nNotes:\n\n• A free Apple ID can keep ~3 sideloaded apps active per device.\n• First-time setup of SideStore/AltStore needs a computer (or a second Apple device).\n\nVersioning:\n\nApp version follows semver, bumped per release (current release: 0.2.6).\n\nPlaying videos from your NAS / SMB share:\n\nDreamPlayer plays NAS files through the Files app's built-in SMB support and \"Open with\".\n\n• iPhone/iPad: Files → ⋯ → Connect to Server → enter smb://<address> → browse to a video → long-press → Share → Open in \"DreamPlayer\". Prefer a folder? Bookmark it once: home + → Add folder to library → your NAS folder.\n• Android: CX Explorer → Open with → DreamPlayer (streams over CX's local HTTP proxy).",
+          "downloadURL": "https://github.com/mangeshghodke/DreamPlayer/releases/download/v0.2.6/DreamPlayer-0.2.6.ipa",
+          "size": 15406076,
           "minOSVersion": "16.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
-          "NSLocalNetworkUsageDescription": "DreamPlayer connects to your local network to play videos from WebDAV, Jellyfin, and Files-app bookmarked folders (including SMB shares you connect in the Files app)."
+          "NSLocalNetworkUsageDescription": "DreamPlayer connects to your local network to discover DLNA/UPnP servers and play videos from WebDAV, Jellyfin, and Files-app bookmarked folders (including SMB shares you connect in the Files app)."
         }
       }
     },
