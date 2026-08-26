@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.emp0ry.mirushin",
-    "com.tumoflip.unleashedcompanion",
-    "com.xitrix.RPCS3"
+    "com.noopapp.noop",
+    "moe.itoapp.ito",
+    "com.naine.doer"
   ],
   "apps": [
     {
@@ -140,7 +140,7 @@
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
       "subtitle": "Client-side downloader app built with Capacitor and Tauri",
-      "localizedDescription": "Mori is a fast and simple downloader for saving videos, photos, and music from 14 popular social media apps. Everything works directly on your device without any external servers or tracking — giving you total privacy and zero ads.\n\nWhat's New in v4.2.3:\n\n• Default Font Preset & Label Refresh: Set Display Bold (Outfit) as Mori's default font preset across app launch, Share Overlay, and native Android ShareActivity. Updated the legacy \"Default\" label in font options to explicitly display its real typeface name (\"Inter\") across all 5 supported languages.\n\n• Dependency Security Hardening (node-tar): Upgraded tar dependency to v7.5.21 with explicit package.json overrides enforcement to fix CVE-2026-59873 (PAX path numeric type confusion, decompression DoS, and file smuggling).",
+      "localizedDescription": "Mori is a fast and simple downloader for saving videos, photos, and music from 14 popular social media apps. Everything works directly on your device without any external servers or tracking — giving you total privacy and zero ads.\n\nWork in Progress:\n\n• PIN Security Hashing & Startup Freeze Fix: Upgraded PIN lock storage from plaintext to SHA-256 hashing (crypto.subtle) with automatic legacy PIN migration. Fixed an async syntax error in authManager.js that caused app navigation and gestures to freeze on launch.\n• Centralized User-Agent Architecture & Presets: Refactored hardcoded User-Agent strings across scrapers into central exported constants (CHROME_DESKTOP_UA & CHROME_MOBILE_UA) in utils/index.js for clean reusability and maintainability.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.mori.downloader.png",
       "tintColor": "#6156e2",
       "category": "utilities",
@@ -1208,10 +1208,10 @@
       "versions": [
         {
           "version": "1.2.9",
-          "date": "2026-05-28T05:34:58Z",
-          "localizedDescription": "Fixed regressions from v1.2.9+120:\n\n• False IP rangeban / wrong captcha error on Android.\n• Navigation bars did not auto hide (triggered by background tabs).\n• Cross-board quotelinks on 4chan did not link properly.\n• Cross-thread quotelinks on lainchan did not link properly.\n• Reply field did not limit its height when keyboard was opened.\n• Replies button overlapped with thumbnails on right.\n\nTweaks:\n\n• Don't allow deleting last site.\n\nBugfixes:\n\n• New sticky threads on the /chance/ board caused a broken additional notification count.\n• magnet: links were not fully recognized.\n• Restoring thread position could get stuck with really large OPs.\n• Restoring thread position was off by a small amount compared to saved scroll offset.\n• Deleting a site could get stuck.\n• Captcha form scroll-to-dismiss transparency behaviour was unreliable.",
-          "downloadURL": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B121-forked-engine/Chance.ipa",
-          "size": 32284530,
+          "date": "2026-08-26T03:00:00Z",
+          "localizedDescription": "New Features:\n\n• Multi-file posting.\n\n• Selecting multiple files.\n• Splitting files across multiple queued posts.\n• Flexible resizing of files to fit into post limits.\n• Should be treated more kindly by Cloudflare.\n• Also match HTTP2 headers and behaviour to native webview.\n\n• Swipe down on edge to lock 2x speed in video player.\n• Tab switcher is now paginated instead of continuously scrolling.\n\n• Highlight active tab.\n• Removed slashes from board names to save space.\n\n• Option for vertical scrolling gallery button.\n\nGeneral Improvements:\n\n• Infinite sticky threads only show last chunk of posts.\n\n• Should avoid lagging.\n\n• Implement tail.json requests for 4chan.\n\n• Reduced network usage on large threads.\n\n• Faster app startup with lots of tabs.\n• Open incoming media URLs in the media viewer.\n• Support spoiler uploads on jschan-based sites.\n• Support emojis via \\unicode{} in [math] blocks.\n\n• Recognize pbs.twimg.com image urls in the reply form.\n\nTweaks:\n\n• Increase hitbox on replies button.\n• Don't show error icon when thumbnail is expected to be missing.\n\n• Always show navigation bars when changing board.\n\n• Added a button to see/report the site login error.\n• \"Delete all\" caches button now clears MediaScan caches too.\n• Give up on HTTP 429 wait more quickly on user requests.\n• Offer to manually reset HTTP 429 wait as an error remedy.\n• Do not randomize soundpost filenames.\n\nBugfixes:\n\n• Replies button overlapped with post text.\n• Directory not found errors.\n• Quoted numbers on /g/ were turned into quotelinks.\n\n• App could break when double-tapping board in board switcher.\n• Could not cancel a request which was waiting in the HTTP 429 queue.\n• Unreliable \"Accept\" HTTP header handling for urls without obvious image extension.\n\n• Network log missing request information when handled by cloudflare or other fallbacks.\n• Unread post count didn't included unloaded forum pages.\n• Potential fix for \"not responding\" errors on Android.\n\n• Catalog thread counters caused layout shifts when changing (mainly visible in two-pane mode).\n• Unreliable quotelink context collapse on Xenforo forums.\n• Filenames like \"file.mp3\" were turned into partial URLs.\n• \"Migrating.\" always seen when launching app.\n\n• Auto-hiding tab bar could flap up and down rapidly in certain scenarios.\n• Do not re-encode soundpost filename on reupload.\n\n• Add new ML-DSA post-quantum encryption algorithms.\n• Add support for TLS1.0 and TLS1.1.\n\n• Crash with certain ellipsized text.\n• Keyboard stuck in selection mode on Android.\n• Opening link in external app didn't always use a new Android activity.",
+          "downloadURL": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B122-forked-engine/Chance.ipa",
+          "size": 32665460,
           "minOSVersion": "13.0"
         }
       ],
@@ -1361,11 +1361,11 @@
       ],
       "versions": [
         {
-          "version": "10.6.0",
-          "date": "2026-08-25T06:54:59Z",
-          "localizedDescription": "NOOP v10.6.0:\n\nA release about choosing how your training is scored, giving hardware back the time it needs to do its own job, and stopping the phone from doing work it was never going to finish.\n\nEffort, on a scale you pick:\n\nBanister TRIMP, wired end to end and selectable (#1562, #1563). Effort has always been a thresholded Edwards score. Banister TRIMP is now a first-class alternative, complete with its own log-map denominator (#1561) rather than borrowed constants, and the docs no longer claim NOOP uses a method it did not. The toggle sits where someone looking for it would look (#1580).\n\nA workout is scored against the day's HRmax (#1565). A session used to be able to score against a different maximum than the day containing it, which made a hard workout and a hard day disagree. The strap log now also records what each workout's Effort was scored against, and whether the strap saw the session at all (#1566) — and when a day detects no workout, it says which gate ate it (#1574).\n\nThe phone stops re-scoring all night:\n\nA background re-score that can finish (#1557). A re-score that ran out of background time restarted from the beginning on the next attempt, so on some phones it never completed at all and days simply refused to compute. It now runs where it can finish, and a pass that is owed is recorded durably so a process killed mid-way leaves evidence the next one can read.\n\nDiagnostics that name the pass (#1556, #1559). Every re-score now says what triggered it and whether anything actually changed, and the cache ratio is counted honestly. An active trace no longer disables the reuse cache it was meant to observe (#1575).\n\nHardware gets its time back:\n\nThe Oura ring is handed out of daytime mode (#1526, #1550, thanks @pipiche38). The 15-second keep-alive held the ring in live-HR daytime mode whenever the app was not on screen — which blocks the ring's own overnight sleep suite. NOOP now suspends the re-engage and actively disables the mode, on teardown as well as on suspend. Measured against the ring's own output across eleven nights.\n\nThe bond loop can escape while backgrounded (#1544, thanks @justinjor-bit). A pause with no background escape cost a full night of banked data; it now has one.\n\nSteps calibration asks the right straps (#1579, #1581, #1582, thanks @kavemang). A WHOOP 5 no longer sees a prompt that cannot apply to it, and a blank Steps tile routes to calibration instead of nothing.\n\nSleep and Health Connect:\n\nThe night's heart-rate line, in Classic (#1552, thanks @bartmuskala). The card that was missing its chart has it. The stage breakdown is ramp-aware and the redundant, mis-ordered legend is gone (#1551).\n\nVO₂max flows to Health Connect (#1553, #1554). NOOP already computed it; it now exports it, and existing installs are asked once for the permission rather than silently lacking it.\n\nSmaller things that were wrong:\n\n• Pause and discard a live workout (#1533, thanks @bhelm), and the SDNN index ported to Android (#1535).\n• Back from More returns to More (#1571, thanks @SpurgtBror), not to Today.\n• No horizontal bounce on iOS (#1532, thanks @evoveotech), including the four ScrollViews the first sweep missed (#1549).\n• Home is localized on both platforms (#1490, thanks @bhelm).\n• PPG burst boundaries survive decoding (#1583, thanks @kvnloo).\n• A WHOOP 5/MG no longer logs a clock warning it cannot act on (#1609), and no longer derives a clock offset from how long it went unworn.\n• The phone smart alarm can skip chosen days (#1612) — a weekend off without turning the alarm off and having to remember to turn it back on.\n\nThanks:\n\nThanks to @anwrgo6000-oss, @bartmuskala, @bhelm, @Dessalines39394, @evoveotech, @justinjor-bit, @kavemang, @kvnloo, @mailingjash, @pipiche38, @SpurgtBror and @vishk23 — for the pull requests above and for the reports behind them. A good bug report with a strap log attached is often the harder half, and several of the fixes in this release exist because someone took the time to capture one.\n\n• Compare the whole workout key when an edit replaces a row (#1488).\n• Stop \"Duplicate as manual\" deleting the session it copied (both platforms).\n• Carry the waist into the post-offload pass, so VO₂max stops flipping estimator (#1493).\n• Edit a bridged night across all its fragments, not just the winning one (#1492).\n• Measure how a duplicated second's two copies compare (#1505).\n• Show the steps-calibration prompt to the users it was written for (#1491).\n• Give the Android Steps tile the caption it has been computing all along (#1513).\n• Stop telling a calibrated user they need 0 more days, on both platforms (#1515).\n• Fix broken Star History chart.\n• Fix lifting note title delimiter parity.\n• Count rejected Liftosaur history records on Swift.\n• Fix Swift SpO2 capability token normalization.\n• Fix activity route distance rounding parity.\n• Fix trailing-dot activity format detection.\n• Fix activity import distance half-tie rounding.\n• Fix untimed single-point activity distance.\n• Trim capability and key-metric tokens on read (#1518).\n• Hand off to the standing connect on the first drop, not the third (#1413).\n• Give the three hero columns one width, and the label back the space it lost (#1502).\n• perf: drop two redundant hot-path reads added in 10.5.1, plus two staleness/parity fixes found reviewing them.\n• fix: stamp a device as seen when it connects, not when it was added (#1527).\n• Localize the Home experience on Android and iOS.\n• Port the SDNN index to Android.\n• fix: round the imported Apple step total on Apple, matching Android.\n• Keep Android intelligence analysis JaCoCo-instrumentable.\n• fix: give the bond-loop pause an escape that works while backgrounded.\n• 5/MG haptics: carry the repeat count into overallLoop, on both platforms (#926).\n• Fix: stop horizontal bounce/swipe on Liquid Today (iOS).\n• Finish the #1532 sweep: the four production ScrollViews it missed (iOS).\n• fix(oura): stop the ring's live-HR daytime-HR mode from running while nobody is looking.\n• Oura: hand the ring out of daytime mode on teardown, not only on suspend.\n• Sleep: drop the stage legend from the breakdown card, both platforms.\n• Sleep: give Android's Classic view the night's heart-rate line.\n• Health Connect: export VO₂ max, which NOOP already computes.\n• Health Connect: ask existing installs for the VO₂ max permission, once.\n• CI: prune branches that no longer have a reason to exist.\n• Re-score diagnostics: attribute every pass, and count the cache ratio honestly.\n• iOS: run a backgrounded re-score where it can finish, instead of restarting it.\n• Correct what the day-cache signature comment claims, on both platforms.\n• CLAUDE.md: the CI table said Android was disabled; it has not been.\n• Measure where a re-score pass actually goes, before optimising the reads.\n• Give Banister TRIMP its own log-map denominator.\n• Wire the Effort TRIMP method end to end on both platforms.\n\n• Correct stale cross-platform twin comments.\n• The report-completeness \"parity test\" could not detect the drift it guarded.\n• Score a workout against the same HRmax as the day containing it.\n• Log what each workout's Effort was scored against, and whether the strap saw it.\n• Give every scoring pass a device registry, and say so on both platforms when there isn't one.\n• Say which gate ate the workout when a day detects none.\n• Stop an active trace from disabling the re-score reuse cache.\n• Stop rendering a one-way permission as a two-way switch.\n• Coalesce HealthKit observer wakes, and measure the path while we're here.\n• Put the exponential Effort toggle where someone looking for it would look.\n• Fix WHOOP 5 steps calibration prompt (#1523).\n• A 5/MG never sees the steps-calibration prompt, coefficient or not.\n• Route blank Android Steps tile to calibration (#1515).\n• Oura SpO2 candidate tile + Deep Timeline single-channel fix (rebase of #1568).\n• Detect Oura the same way on both platforms.\n• fix(android): preserve More in back navigation.\n• Record VO₂max estimator provenance.\n• Preserve PPG burst boundaries.\n• Assert the migration chain has no holes.\n• Add pause and discard controls for live workouts.\n• Android: keep \"Keep NOOP alive overnight\" a switch, with a working off.\n• Android: make \"Keep NOOP alive overnight\" a one-way prompt.\n• fix(oura): SpO2 candidate fallback missing from the \"Your Cards\".\n• Android: make the SpO₂-candidate display toggle take effect.\n• Explorer: share the cross-catalog scan instead of redoing it per open.\n• Diagnostics: hunt the 5/MG strap serial in the GET_HELLO block (#1303).\n• Effort funnel: report the longest and mean bridged run.\n• Android: match the Workouts action-row buttons (#1602).\n• Android: fill imported workout HR under the active strap (#1601).\n• Android: name the day on a chart's scrub read-out (#1600).\n• Android: give the Blood Oxygen tile a trend to draw (#1599).\n• Don't derive or report a clock correlation on a WHOOP 5/MG.\n• fix(oura): SpO2 candidate mean floors instead of rounds (Swift+Kotlin).\n• Keep the WHOOP 4.0 device key out of the strap log.\n• Android: let the phone smart alarm skip chosen days.\n• Trace the baseline fold, so a log can say why a spread never lifted.\n• i18n audit: count plural entries as translated in the coverage summary.\n\nNew Contributors:\n\n• @Dessalines39394 made their first contribution.\n• @kvnloo made their first contribution.\n\nDownloads — NOOP Staging identity, installs beside the official app (separate data):\n\n• Android — NOOP-android-v10.6.0.apk (com.noop.whoop.staging).\n• macOS — NOOP-macos-v10.6.0.zip (unzip, then right-click → Open).\n• iOS — NOOP-ios-unsigned-v10.6.0.ipa (AltStore / Sideloadly).",
-          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v10.6.0/NOOP-ios-unsigned-v10.6.0.ipa",
-          "size": 19019520,
+          "version": "10.6.1",
+          "date": "2026-08-26T11:45:03Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.6.1).\n\n• Android (debug) — NOOP-android-debug-v10.6.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.6.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.6.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.6.1 · built 2026-08-26 · 9c0cb56.",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v10.6.1.ipa",
+          "size": 19043947,
           "minOSVersion": "17.0"
         }
       ],
@@ -1524,11 +1524,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.9.9",
-          "date": "2026-08-05T04:06:04Z",
+          "version": "0.10.1",
+          "date": "2026-08-26T10:00:03Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/CrispStrobe/CrisperWeaver/releases/download/v0.9.9/crisper_weaver-ios-unsigned.ipa",
-          "size": 21657799,
+          "downloadURL": "https://github.com/CrispStrobe/CrisperWeaver/releases/download/v0.10.1/crisper_weaver-ios-unsigned.ipa",
+          "size": 22151995,
           "minOSVersion": "15.0"
         }
       ],
@@ -3082,10 +3082,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-08-25T10:07:11Z",
+          "date": "2026-08-26T10:14:22Z",
           "localizedDescription": "Automated unsigned nightly from main at commit fb8e8e0. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260825-39/Ito-1.0.0-nightly.20260825.39-unsigned.ipa",
-          "size": 10059269,
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260826-40/Ito-1.0.0-nightly.20260826.40-unsigned.ipa",
+          "size": 10058955,
           "minOSVersion": "15.4"
         }
       ],
@@ -3247,11 +3247,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.1",
-          "date": "2026-08-25T11:07:42Z",
+          "version": "1.8.2",
+          "date": "2026-08-26T10:07:05Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.1/doer-unsigned.ipa",
-          "size": 23448021,
+          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.2/doer-unsigned.ipa",
+          "size": 23495890,
           "minOSVersion": "15.0"
         }
       ],
@@ -3304,11 +3304,11 @@
       ],
       "versions": [
         {
-          "version": "1.10.45",
-          "date": "2026-08-25T20:24:44Z",
-          "localizedDescription": "TumoCompanion 1.10.45 introduces the Tumo Live Deck home experience.\n\nHighlights:\n\n• Replaced the launcher grid with a vertical dashboard of independent live surfaces.\n• Added live device and BLE state, battery and bridge status, nearby Flippers, remote-screen preview, current activity, source health, quick launch actions, and an expandable Tools surface.\n• Added state-aware loading and activity animations with Reduce Motion support.\n• Preserved existing navigation routes, pull-to-refresh, package workflows, and device-service behavior.\n• Added a dedicated UI smoke test for the Live Deck and verified the complete simulator test suite.\n\nValidation:\n\n• iOS Simulator unit and UI tests: 16 passed, 0 failed.\n• No firmware or FW Packages behavior changes.",
-          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.10.45/TumoCompanion-unsigned.ipa",
-          "size": 25368144,
+          "version": "1.11.0",
+          "date": "2026-08-26T08:17:49Z",
+          "localizedDescription": "TumoCompanion 1.11.0 — Home dashboard routing replacement.\n\nThis release replaces the earlier v1.11.0 asset with the final Home dashboard interaction fixes. The version and app update identity stay unchanged.\n\nWhat changed:\n\n• The Ready, battery, BLE and Bridge status rail is informational only and no longer opens the Remote screen by mistake.\n• Info, Files, Apps and Backup remain compact console actions with clear icon-based cards.\n• Tapping Firmware opens the Firmware section directly.\n• Tapping FW Packages opens Firmware packages directly.\n• Tapping Community Apps opens Community apps directly.\n• Open center opens the shared Updates center.\n• Source-only routes are kept out of Home Layout and Quick Access configuration.\n• Decorative card layers and the Tools drawer no longer intercept taps intended for dashboard controls.\n\nValidation:\n\n• 561 unit tests passed.\n• 19 UI tests passed on the iPhone 17 Simulator (iOS 26.5), including all four new Home routing checks.\n• IPA version, payload structure and strict code-signature validation passed.\n\nCompatibility:\n\n• No firmware or FW Packages payload changes.\n• No breaking migration; existing Home and Tool Quick Access selections are preserved.\n• IPA remains unsigned for Feather or another personal sideloading workflow.",
+          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.0/TumoCompanion-unsigned.ipa",
+          "size": 25434083,
           "minOSVersion": "17.0"
         }
       ],
