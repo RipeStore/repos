@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.stik.stikdebug",
-    "app.mangatan.mangatan",
-    "com.mori.downloader"
+    "moe.itoapp.ito",
+    "com.dreamplayer.app",
+    "com.tumoflip.unleashedcompanion"
   ],
   "apps": [
     {
@@ -140,10 +140,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-08-26T10:14:22Z",
+          "date": "2026-08-27T20:06:14Z",
           "localizedDescription": "Automated unsigned nightly from main at commit fb8e8e0. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260826-40/Ito-1.0.0-nightly.20260826.40-unsigned.ipa",
-          "size": 10058955,
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260827-41/Ito-1.0.0-nightly.20260827.41-unsigned.ipa",
+          "size": 10059086,
           "minOSVersion": "15.4"
         }
       ],
@@ -170,11 +170,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.2",
-          "date": "2026-08-26T10:07:05Z",
+          "version": "1.8.3",
+          "date": "2026-08-27T10:31:42Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.2/doer-unsigned.ipa",
-          "size": 23495890,
+          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.3/doer-unsigned.ipa",
+          "size": 23511134,
           "minOSVersion": "15.0"
         }
       ],
@@ -594,11 +594,11 @@
       ],
       "versions": [
         {
-          "version": "1.11.1",
-          "date": "2026-08-26T21:23:20Z",
-          "localizedDescription": "TumoCompanion 1.11.1:\n\nThis release makes the Flipper screen mirror reliable during everyday navigation and removes a small amount of duplicate UI from Settings.\n\nFixed:\n\n• Live Flipper screen: Home and the full Remote screen now share one stream lease, so opening or leaving Remote no longer stops the preview unexpectedly.\n• Live frame delivery: screen frames are decoded with strict size validation and coalesced to the newest frame, preventing a backlog that could make the mirror look frozen while buttons are pressed.\n• RPC stream routing: asynchronous screen frames are kept out of normal command-response correlation, including older firmware frames with a stale command ID.\n• Console status rail: Ready, battery, BLE and Bridge v2 now use one consistent readable type scale.\n• Settings: removed the duplicate build-version footer and the repeated Version row from About; the build identity remains available on Home and Device Info.\n\nCompatibility:\n\n• No Flipper firmware update is required.\n\n• Requires iOS 17 or later.\n\nValidation:\n\n• Unit tests passed.\n• UI tests passed on the iPhone 17 iOS 26.5 simulator.",
-          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.1/TumoCompanion-unsigned.ipa",
-          "size": 25434266,
+          "version": "1.11.4",
+          "date": "2026-08-27T18:37:12Z",
+          "localizedDescription": "TumoCompanion 1.11.4 — безопасная установка словарей через FW Packages.\n\n• Добавлена поддержка data-only dictionary overlays с preserve_existing.\n• Отсутствующие файлы добавляются, одинаковые пропускаются.\n• Отличающиеся существующие файлы не заменяются: установка завершается с понятной ошибкой.\n• Добавлены regression-тесты и сохранена обратная совместимость старых манифестов.\n\nNo firmware or existing user data is changed.",
+          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.4/TumoCompanion-unsigned.ipa",
+          "size": 25459053,
           "minOSVersion": "17.0"
         }
       ],
@@ -956,11 +956,11 @@
       ],
       "versions": [
         {
-          "version": "0.3.1",
-          "date": "2026-08-26T18:47:43Z",
-          "localizedDescription": "Fixed:\n\n• SMB HDR10 files played as SDR — HDR10 rips whose MKV lacks the Colour element (metadata only in the HEVC SEI, e.g. the Spider-Verse REMUX) fell back to SDR on NAS playback: the bitstream probe fed the smb:// URI to MediaExtractor, which cannot open SMB. New SmbMediaDataSource (ExoPlayerView.kt) wraps jcifs SmbRandomAccessFile (saved share creds, like MkvChapters.parseSmb) in a MediaDataSource so MediaExtractor demuxes the remote MKV — wired into both the HDR10 (SEI 137/144) and HDR10+ (ST 2094-40) probes.\n• CC sheet overflowed in landscape — the subtitle picker was a fixed Column; its whole body is now a single scrollable ListView so nothing overflows at any height.\n• Subtitle settings changes didn't apply — the ⋮ → Subtitle settings screen saved prefs but never pushed the new style to the live player. On return the player now reloads the style, applies it natively, and (Android) reopens at the current position so a delay change re-parses cues.\n\nPick the APK for your device and allow \"Install unknown apps\" when prompted:\n\nNot sure which to pick? Grab the Universal APK.\n\nThe DreamPlayer-<version>.ipa in this release is unsigned — Apple only allows app installation through the App Store / TestFlight, so the IPA must be signed with your own (free) Apple ID. It's quick:\n\n• Install SideStore or AltStore on your iPhone/iPad (sidestore.io / altstore.io).\n\n• Open SideStore/AltStore → + → select DreamPlayer-<version>.ipa. It signs it with your Apple ID and installs.\n• The signature lasts 7 days; SideStore/AltStore auto-refresh it in the background over WiFi — a weekly open is all that's needed.\n\nNotes:\n\n• A free Apple ID can keep ~3 sideloaded apps active per device.\n• First-time setup of SideStore/AltStore needs a computer (or a second Apple device).\n\nVersioning:\n\nApp version follows semver, bumped per release (current release: 0.2.6).\n\nPlaying videos from your NAS / SMB share:\n\nDreamPlayer plays NAS files through the Files app's built-in SMB support and \"Open with\".\n\n• iPhone/iPad: Files → ⋯ → Connect to Server → enter smb://<address> → browse to a video → long-press → Share → Open in \"DreamPlayer\". Prefer a folder? Bookmark it once: home + → Add folder to library → your NAS folder.\n• Android: CX Explorer → Open with → DreamPlayer (streams over CX's local HTTP proxy).",
-          "downloadURL": "https://github.com/mangeshghodke/DreamPlayer/releases/download/v0.3.1/DreamPlayer-0.3.1.ipa",
-          "size": 19591754,
+          "version": "0.3.4",
+          "date": "2026-08-27T18:41:57Z",
+          "localizedDescription": "Fixed:\n\n• iOS subtitle background opacity was ignored — UILabel auto-sets isOpaque = true when a backgroundColor is assigned, forcing the background to render fully opaque and silently dropping the alpha byte. Explicitly setting label.isOpaque = false lets the ARGB alpha through, so \"Semi\" and custom-alpha backgrounds now blend with the video on iOS. Also reset label.backgroundColor to .clear (instead of nil) and reset cornerRadius/clipsToBounds when the \"None\" background option is chosen.\n\nPick the APK for your device and allow \"Install unknown apps\" when prompted:\n\nNot sure which to pick? Grab the Universal APK.\n\nThe DreamPlayer-<version>.ipa in this release is unsigned — Apple only allows app installation through the App Store / TestFlight, so the IPA must be signed with your own (free) Apple ID. It's quick:\n\n• Install SideStore or AltStore on your iPhone/iPad (sidestore.io / altstore.io).\n\n• Open SideStore/AltStore → + → select DreamPlayer-<version>.ipa. It signs it with your Apple ID and installs.\n• The signature lasts 7 days; SideStore/AltStore auto-refresh it in the background over WiFi — a weekly open is all that's needed.\n\nNotes:\n\n• A free Apple ID can keep ~3 sideloaded apps active per device.\n• First-time setup of SideStore/AltStore needs a computer (or a second Apple device).\n\nVersioning:\n\nApp version follows semver, bumped per release (current release: 0.2.6).\n\nPlaying videos from your NAS / SMB share:\n\nDreamPlayer plays NAS files through the Files app's built-in SMB support and \"Open with\".\n\n• iPhone/iPad: Files → ⋯ → Connect to Server → enter smb://<address> → browse to a video → long-press → Share → Open in \"DreamPlayer\". Prefer a folder? Bookmark it once: home + → Add folder to library → your NAS folder.\n• Android: CX Explorer → Open with → DreamPlayer (streams over CX's local HTTP proxy).",
+          "downloadURL": "https://github.com/mangeshghodke/DreamPlayer/releases/download/v0.3.4/DreamPlayer-0.3.4.ipa",
+          "size": 19681489,
           "minOSVersion": "17.0"
         }
       ],
@@ -1239,10 +1239,10 @@
       "versions": [
         {
           "version": "10.6.1",
-          "date": "2026-08-26T12:44:03Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.6.1).\n\n• Android (debug) — NOOP-android-debug-v10.6.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.6.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.6.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.6.1 · built 2026-08-26 · 0a9b1e4.",
+          "date": "2026-08-27T12:32:14Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.6.1).\n\n• Android (debug) — NOOP-android-debug-v10.6.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.6.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.6.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.6.1 · built 2026-08-27 · 35182be.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v10.6.1.ipa",
-          "size": 19045089,
+          "size": 19079690,
           "minOSVersion": "17.0"
         }
       ],
