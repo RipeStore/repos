@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.stremiox.app.native",
-    "com.tumoflip.unleashedcompanion",
-    "com.emp0ry.mirushin"
+    "com.noopapp.noop",
+    "app.mangatan.mangatan",
+    "com.exaltedpixels.LensLinkCamera"
   ],
   "apps": [
     {
@@ -1239,10 +1239,10 @@
       "versions": [
         {
           "version": "10.6.1",
-          "date": "2026-08-29T14:51:12Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.6.1).\n\n• Android (debug) — NOOP-android-debug-v10.6.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.6.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.6.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.6.1 · built 2026-08-29 · c3031ae.",
+          "date": "2026-08-30T08:43:01Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v10.6.1).\n\n• Android (debug) — NOOP-android-debug-v10.6.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v10.6.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v10.6.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 10.6.1 · built 2026-08-30 · b343f75.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v10.6.1.ipa",
-          "size": 19287690,
+          "size": 19306682,
           "minOSVersion": "17.0"
         }
       ],
@@ -2016,10 +2016,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-08-29T05:55:04Z",
-          "localizedDescription": "Release v6.0.99:\n\n• Speed up remote EPUB novel reader loading (b643984).\n• Make Android screen lookup responsive (6772308).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.99/Manatan-v6.0.99-iOS.ipa",
-          "size": 351642829,
+          "date": "2026-08-30T08:13:04Z",
+          "localizedDescription": "Release v6.0.100:\n\n• Keep iOS build numbers monotonic (6cd0d34).\n• Fix loading absolute manga extension classes (906c497).\n• Fix Wayland screen lookup startup (20594c7).\n• Complete Android screen lookup controller navigation (767cd77).\n• Fix novel reader image-boundary restoration (33306d2).\n• Prevent novel chapter boundary page flashes (bfc4abb).\n• Restore Japanese learning annotations for legacy profiles (8846932).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.0.100/Manatan-v6.0.100-iOS.ipa",
+          "size": 351695982,
           "minOSVersion": "15.5"
         }
       ],
@@ -2046,8 +2046,8 @@
       "name": "Edge",
       "bundleIdentifier": "com.example.openstrapEdge",
       "developerName": "OpenStrap",
-      "subtitle": "An app that makes a WHOOP 4.0 useful without a WHOOP subscription — pairs over Bluetooth, computes everything on your phone, no cloud required",
-      "localizedDescription": "Openstrap Edge:\n\nAn app that makes a WHOOP 4.0 useful without a WHOOP subscription. Connects to the band over Bluetooth, computes everything on your phone locally iOS and Android.\n\nNot affiliated with WHOOP. Not a clone of their app or their scores — see below.\n\nAs featured in:\n\n\"The goal of the so-called OpenStrap project is not to re-create the WHOOP app. Rather, the algorithms and processing methods are developed from scratch, based on public research… The health data collected from the watch never leaves the phone.\".\n\n— Hackaday, 15 July 2026.\n\n\"When a membership lapses, the hardware is basically useless. You own it, you still can't use it — it just goes dark, because the app stops talking to it. So you've got a perfectly good sensor turning into a paperweight.\".",
+      "subtitle": "An app that makes a WHOOP band (4.0, 5, MG) useful without a subscription, and pairs with standard BLE heart-rate straps too — computes everything on your phone, no cloud required",
+      "localizedDescription": "Openstrap Edge:\n\nAn app that makes your wearable useful without its subscription. Pairs over Bluetooth, computes everything on your phone, iOS and Android. WHOOP 4/5/MG get full support today; see Supports for what else it talks to.\n\nNot affiliated with WHOOP. Not a clone of their app or their scores — see below.\n\nAs featured in:\n\n\"The goal of the so-called OpenStrap project is not to re-create the WHOOP app. Rather, the algorithms and processing methods are developed from scratch, based on public research… The health data collected from the watch never leaves the phone.\".\n\n— Hackaday, 15 July 2026.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.example.openstrapEdge.png",
       "tintColor": "#000030",
       "category": "lifestyle",
@@ -3186,11 +3186,11 @@
       ],
       "versions": [
         {
-          "version": "1.9.1",
-          "date": "2026-08-05T06:11:39Z",
-          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nFixes:\n\n• Plugin: static FFmpeg on Windows/macOS so OBS updates can't break loading.\n\nOther changes:\n\n• Virtual green screen: segmentation, depth assist, and subject-distance cutoff.",
-          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.9.1/LensLink-unsigned.ipa",
-          "size": 941058,
+          "version": "1.10.0",
+          "date": "2026-08-30T05:37:45Z",
+          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.",
+          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.10.0/LensLink-unsigned.ipa",
+          "size": 1042532,
           "minOSVersion": "15.0"
         }
       ],
