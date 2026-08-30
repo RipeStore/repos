@@ -38,6 +38,14 @@
       },
       "versions": [
         {
+          "version": "0.11.1",
+          "buildVersion": "d5f40af",
+          "date": "2026-08-30T13:08:56Z",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.11.0...0.11.1\r\n\r\nThis is a minor release that addresses issues found in 0.11.0. For the full changelog, see the [0.11.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.11.0).\r\n\r\n### Bug Fixes\r\n- Fixed a regression on some iOS versions where the iPad keyboard shortcuts bar appeared while the keyboard was inactive, obscuring web content at the bottom of the screen.",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.11.1/Reynard.ipa",
+          "size": 110003529
+        },
+        {
           "version": "0.11.0",
           "buildVersion": "0bfe06f",
           "date": "2026-08-30T05:22:57Z",
