@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.emp0ry.mirushin",
-    "com.cosmonautical.jellify",
-    "com.sunpad.SunPad"
+    "com.project-violet.violetta",
+    "com.aigch.OpenParsec",
+    "com.emp0ry.mirushin"
   ],
   "apps": [
     {
@@ -567,10 +567,10 @@
       "versions": [
         {
           "version": "1.3.0",
-          "date": "2026-08-08T07:13:51Z",
+          "date": "2026-09-02T06:16:29Z",
           "localizedDescription": "This is a nightly release created automatically with GitHub Actions workflow.",
           "downloadURL": "https://github.com/hugeBlack/OpenParsec/releases/download/nightly/OpenParsec.ipa",
-          "size": 4341739,
+          "size": 4341582,
           "minOSVersion": "14.0"
         }
       ],
@@ -1213,11 +1213,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.1.4",
-          "date": "2026-07-27T04:53:18Z",
-          "localizedDescription": "• v1.1.2: Improved thumbnail fallbacks even more.\n• v1.1.3: Normalize HTML entities in titles and format .NET ticks into readable dates.\n• v1.1.4: Fix missing zero in .NET ticks offset causing the wrong year to be shown.",
-          "downloadURL": "https://github.com/Cat-Ling/violet-ios/releases/download/v1.1.4/Violetta.ipa",
-          "size": 19268196,
+          "version": "1.1.5",
+          "date": "2026-09-02T07:25:54Z",
+          "localizedDescription": "Release v1.1.5.\n\n• Added Database Sync options in Settings > Server with automated sync status polling and delayed confirmations on potentially destructive actions.\n\n• Updated Analytics view to dynamically bucket data by days, months, or years depending on the time scale.\n• Replaced line charts with bar charts for long-term analytics data to improve readability.\n• Added a toggle under Network settings to automatically hide suspected broken manga listings from UI grids.\n• Updated UI iconography for improved theme support.\n\nKnown possible bugs -.\n\n• Cache limits not being adhered to always.\n• Analytics (depending on the usage timeframe).",
+          "downloadURL": "https://github.com/Cat-Ling/violet-ios/releases/download/v1.1.5/Violetta.ipa",
+          "size": 19866452,
           "minOSVersion": "18.0"
         }
       ],
