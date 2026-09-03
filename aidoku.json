@@ -53,13 +53,13 @@
       },
       "versions": [
         {
-          "version": "0.8.4",
-          "date": "2026-07-03",
-          "localizedDescription": "• Fixes for iOS 27: fixed settings pages freezing the app, along with other minor visual issues.\n• Improved backup restore time: restores should now take seconds instead of minutes. (@Amqx)\n• Failed download page retrying: less chance of missing pages in downloaded chapters from sources with aggressive rate limits. (@pxseu)\n• New chapter notifications (experimental): when Aidoku refreshes in the background, notification(s) of new chapters should be sent if enabled. (@Zareix)\n• Various other bug fixes and small features: see [the website]() for a more complete list.",
-          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.8.4/Aidoku.ipa",
-          "size": 10136987,
+          "version": "0.9",
+          "date": "2026-09-03",
+          "localizedDescription": "• OCR dictionary support (iOS 18+): import Yomitan•compatible dictionaries in the app and look up words while reading.\n• Suwayomi built•in source: read and track from a Suwayomi instance, just like Komga and Kavita.\n• Auto scroll for webtoon reader: enable and press the play button to scroll without touching your device.\n• Fixed CloudFlare handling: CloudFlare issues that caused external sources to break should be resolved.\n• Overall performance improvements: the library loads much faster (@Amqx), and the webtoon reader was improved.\n• Source stability fixes and disable option: the issue where sources were causing the app to crash should not happen again, and now you can even disable a source that is broken until it receives an update.\n• Many more things: see [the website](https://aidoku.app/release•notes/) for a more complete list.",
+          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
+          "size": 11864382,
           "minOSVersion": "15.0",
-          "buildVersion": "1"
+          "buildVersion": "2"
         }
       ]
     }

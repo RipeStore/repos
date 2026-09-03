@@ -29,6 +29,38 @@
       "tintColor": "#A700FF",
       "versions": [
         {
+          "version": "2.3.7",
+          "buildVersion": "59",
+          "date": "2026-08-18T23:38:40.000Z",
+          "size": 109734739,
+          "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.3.7(59).ipa",
+          "localizedDescription": "Enhancements:\nImproved Lock Screen volume control\nSmoother Home and library grids on launch\nPlayer controls fade more cleanly into fullscreen\nImproved in-app browser tab previews and closing the last tab\nImproved VoiceOver/accessibility labels for scrubbing and transport controls\n\nBug fixes:\nResume playback after swipe-back, and make the loading spinner tappable\nFix expired stream links failing as if the video were removed\nFix database race conditions resulting in crashes",
+          "minOSVersion": "15.0",
+          "hash": {
+            "md5": "5ba59e15078ee8e1a40f79186c00e0dd",
+            "sha256": "e1a4d2fa69b39205b477ac383a483edbc04a83b8c8809b9fb114556241e783ec"
+          },
+          "metadata": {
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "This app needs access to your camera to capture photos and videos for your vault.",
+                "NSFaceIDUsageDescription": "FaceID is used to prevent unauthorized access to the app.",
+                "NSMotionUsageDescription": "This app uses motion sensors to enhance visual effects and detect shake gestures for the debug menu.",
+                "NSMicrophoneUsageDescription": "This app needs access to your microphone to record audio with videos for your vault.",
+                "NSPhotoLibraryUsageDescription": "Hot Tub needs access to your photo library to scan for sensitive content. Scanning is done only on your device; nothing is uploaded."
+              },
+              "entitlements": [
+                "com.apple.developer.applesignin",
+                "com.apple.developer.associated-domains",
+                "com.apple.developer.kernel.extended-virtual-addressing",
+                "com.apple.developer.kernel.increased-memory-limit",
+                "com.apple.security.application-groups",
+                "get-task-allow"
+              ]
+            }
+          }
+        },
+        {
           "version": "2.3.6",
           "buildVersion": "58",
           "date": "2026-08-08T01:33:26.000Z",
