@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.sunpad.SunPad",
+    "moe.itoapp.ito",
     "com.noopapp.noop",
-    "com.kryptos.app"
+    "com.aoshuang.manicemu"
   ],
   "apps": [
     {
@@ -140,10 +140,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-02T14:01:23Z",
+          "date": "2026-09-03T13:52:21Z",
           "localizedDescription": "Automated unsigned nightly from main at commit fb8e8e0. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260902-47/Ito-1.0.0-nightly.20260902.47-unsigned.ipa",
-          "size": 10059178,
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260903-48/Ito-1.0.0-nightly.20260903.48-unsigned.ipa",
+          "size": 10058821,
           "minOSVersion": "15.4"
         }
       ],
@@ -1022,11 +1022,11 @@
       ],
       "versions": [
         {
-          "version": "1.9.2",
-          "date": "2026-04-16T16:29:26Z",
-          "localizedDescription": "Urgent fix for J2ME (J2meJS) save file loading error Fixed the issue where Artic Base couldn't select the Australia region 3DS (Azahar) adds HLE and LLE emulation accuracy options. Fixed NDS crash when using Flex Skin.",
-          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.9.2/ManicEMU.v1.9.2.SideloadJIT.ipa",
-          "size": 227390683,
+          "version": "2.0.0",
+          "date": "2026-09-03T10:06:18Z",
+          "localizedDescription": "Starting from version 2.0.0, we no longer provide builds of TrollStore JIT. You can package it yourself by following the guide.\n\nThis is a major release focused on a redesigned interface, expanded platform support, and advanced features. Landscape browsing, library management, and external controller navigation have been rebuilt. It also adds several new systems and brings Netplay to eligible Libretro cores.\n\nBefore You Update:\n\n• Dreamcast (Flycast): Existing save states will no longer work as of 2.0.0. Convert important save states to in-game saves before updating, or back up the Flycast/dc folder yourself.\n• Wii: A BootMii-format keys.bin is required.\n• Symbian: Install firmware in Settings first (.ROM; S60v2 and later also need .RPKG).\n• GameCube / Wii: The core is still being optimized, so heat and frame drops should still be expected.\n• MAME: A number of lesser-used arcade systems have been trimmed. Some obscure titles may no longer run.\n\nInterface:\n\nLandscape.\n\n• A new landscape library, with most landscape pages redesigned.\n• Built-in dynamic backgrounds. You can use or upload ShaderToy (GLSL) scripts to customize them. Only single-Image scripts are supported; complex scripts may increase battery use or heat.\n• Multiple customizable card carousel styles.\n• Focused background: when a game is selected, its banner can be used as the landscape focus backdrop.\n• background music feature in landscape mode—besides built-in tracks, you can upload your own music files to use as background music.\n• built in 12 sets of navigation and focus sound effects.\n\nGame Options and Shortcuts.\n\n• A unified options list and interaction model throughout the app.\n• Available actions are automatically arranged and regrouped for the current context.\n• Advanced reordering: customize the order and grouping of options.\n• A redesigned in-game shortcut menu. Shortcuts can appear on supported skins and in the in-game menu.\n\nNavigation and Input.\n\n• A global focus and navigation system for iPhone and iPad. You can browse and interact entirely with a controller or keyboard.\n• Hold Command or the controller’s Select button to view the shortcut cheatsheet.\n• A unified navigation bar for more consistent browsing and editing.\n• Many long-press and hidden actions have been replaced with more conventional, iOS-style interactions.\n• Batch management and actions.\n• Adaptive rotation throughout the app.\n• Controllers can be assigned to a player slot. On cores that expect a keyboard, controller inputs can be mapped to keyboard events.\n\nFeatures:\n\nLibrary and Artwork.\n\n• Covers now support separate icon and banner artwork. Box art is used in regular lists, icons in square layouts, and banners as the landscape focus backdrop.\n• Online artwork from Libretro Thumbnails and SteamGridDB (Grids / Heroes / Logos / Icons; SteamGridDB requires your own API key).\n• Switching platform or category rematches cover art.\n\nGame Data.\n\n• ESRB ratings and matching icons. Rating icons can be hidden in Settings.\n• A redesigned save-state manager with import and export.\n• Scoped settings: the same option can be stored at game, platform, or global level, and each can be cleared or reset independently.\n• batch scraping for covers, icons, and banners.\n\nShaders and Skins.\n\n• Real-time shader preview, without loading the shader first.\n• Redesigned default GBA skin.\n• Flex skins now support customizing button size and position.\n\nAchievements, Cheats, and Netplay.\n\n• RetroAchievements pages are easier to read and load faster.\n• MultiSet support: earn subset achievements without a patched ROM. Switching the achievement list only changes what is shown; it does not affect which sets you can unlock while playing.\n• Online cheat database: search, multi-select add, and bookmarks.\n• Netplay for many Libretro cores: host or join a room, public lobby, LAN scan, relay, spectator mode, and room password. Your Adventurer Card nickname is used as the Netplay display name. You can now trade treasured Pokémon with friends over the network, or go head-to-head on arcade systems.\n• Rewind: add it to the shortcut menu, a controller mapping, or TriggerPro, then touch and hold to use it.\n\nAdvanced Features and Import.\n\n• Core Settings: intended for advanced users. Incorrect values may prevent games from launching. Settings can be reset per game or per platform.\n• Settings now include an Adventurer Card, with a customizable nickname and avatar.\n• Import games from DukeX.\n• Import games from Armsx2.\n• PS1 now supports importing .bin files directly.\n\nNew Systems and Cores:\n\nSymbian (EKA2L1).\n\n• Supports S60v1, N-Gage 1.0, S60v2, S60v3, N-Gage 2.0, S60v5, and Symbian^3.\n• Touch input, firmware management, and system apps.\n• Legacy / PPL / TXM JIT.\n\nPC Engine (Beetle PCE).\n\n• Supports TurboGrafx-16, TurboGrafx-CD, and SuperGrafx, with subcategory switching.\n\nNeo Geo Pocket / Color (Beetle NeoPop).\n\n• Supports Neo Geo Pocket and Neo Geo Pocket Color, with subcategory switching.\n\nCommodore 64 (VICE x64sc).\n\n• Full keyboard support, with switching between gamepad and keyboard skins.\n\nAmiga (PUAE).\n\n• Full keyboard support, with switching between gamepad and keyboard skins.\n\nGameCube / Wii (Dolphin).\n\n• Legacy / PPL / TXM JIT.\n• Wii: Wiimote sideways mode.\n• Dolphin cheats, including Action Replay Max decryption.\n• Wiimote skins for Wii.\n\nOther Cores.\n\n• Mesen-S added for SNES / GB / GBC.\n• gpSP added for GBA, and can be switched with mGBA and VBA-M.\n\nJIT Fixes and Improvements:\n\n• Fixed JIT failing on TXM devices running iOS 26.6 and later.\n• Revised TXM device detection.\n• N64 GLideN64 and ParaLLEl RDP now both support JIT.\n\nCore Updates:\n\nThe following cores have been updated to the latest upstream stable releases.\n\n• 3DS (Azahar, Citra).\n• PS1 (Beetle PSX HW).\n• DOS (DOSBox Pure).\n• Dreamcast (Flycast) — see the save-state migration note above.\n• NDS (melonDS).\n• PSP (PPSSPP).\n• N64 (Mupen64Plus).\n\nFixes:\n\n• Numerous bug fixes and performance optimizations.",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.0/ManicEMU.v2.0.0.SideloadJIT.ipa",
+          "size": 273393210,
           "minOSVersion": "15.0"
         }
       ],
@@ -1243,10 +1243,10 @@
       "versions": [
         {
           "version": "11.1.1",
-          "date": "2026-09-03T00:59:35Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.1.1).\n\n• Android (debug) — NOOP-android-debug-v11.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.1.1 · built 2026-09-03 · 21fb712.",
+          "date": "2026-09-03T11:38:02Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.1.1).\n\n• Android (debug) — NOOP-android-debug-v11.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.1.1 · built 2026-09-03 · 15060dd.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.1.1.ipa",
-          "size": 19390465,
+          "size": 19410001,
           "minOSVersion": "17.0"
         }
       ],
