@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.mori.downloader",
+    "moe.itoapp.ito",
     "com.noopapp.noop",
-    "com.stremiox.app.native"
+    "com.tumoflip.unleashedcompanion"
   ],
   "apps": [
     {
@@ -140,10 +140,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-04T13:49:06Z",
+          "date": "2026-09-05T12:56:43Z",
           "localizedDescription": "Automated unsigned nightly from main at commit fb8e8e0. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260904-49/Ito-1.0.0-nightly.20260904.49-unsigned.ipa",
-          "size": 10059177,
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260905-50/Ito-1.0.0-nightly.20260905.50-unsigned.ipa",
+          "size": 10058805,
           "minOSVersion": "15.4"
         }
       ],
@@ -596,11 +596,11 @@
       ],
       "versions": [
         {
-          "version": "1.11.13",
-          "date": "2026-09-01T18:13:37Z",
-          "localizedDescription": "Add ESP32 Marauder firmware to the unified Updates source list, refresh it with the other sources, and show its current update status.",
-          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.13/TumoCompanion-unsigned.ipa",
-          "size": 25647143,
+          "version": "1.11.15",
+          "date": "2026-09-05T10:21:38Z",
+          "localizedDescription": "TumoCompanion 1.11.15 aligns Community Apps installation and Verify on device with the same size-aware MD5 timeout. Large files such as Hotspot Arcade are no longer checked through the ordinary 20-second RPC window, preventing a correct installation from later appearing missing. No firmware, FW Packages, Community Pack payload, or user-data changes.",
+          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.15/TumoCompanion-unsigned.ipa",
+          "size": 25654433,
           "minOSVersion": "17.0"
         }
       ],
@@ -783,11 +783,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.8",
-          "date": "2026-09-03T20:55:46Z",
-          "localizedDescription": "What's new:\n\n• Load game directly from save state.\n• Per-game save states manager.\n\nImprovements:\n\n• Updated core with graphical improvements by kd-11.\n• Latest ARM64 improvements from ARMSX3 team.\n• Performance improvements.\n\nFixes:\n\n• Fixed some random dead locks in some games (i.e. Metal Gear Solid now perfectly playable and Minecraft now starting the world on latest update).",
-          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.8/RPCS3.ipa",
-          "size": 24030510,
+          "version": "0.8.1",
+          "date": "2026-09-05T08:19:52Z",
+          "localizedDescription": "What's new:\n\n• JIT region extension setting for some cases when games could not fit it regular size of memory.",
+          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.8.1/RPCS3.ipa",
+          "size": 24053717,
           "minOSVersion": "17.4"
         }
       ],
@@ -1243,10 +1243,10 @@
       "versions": [
         {
           "version": "11.1.1",
-          "date": "2026-09-05T00:51:39Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.1.1).\n\n• Android (debug) — NOOP-android-debug-v11.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.1.1 · built 2026-09-05 · e6450e8.",
+          "date": "2026-09-05T12:39:45Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.1.1).\n\n• Android (debug) — NOOP-android-debug-v11.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.1.1 · built 2026-09-05 · 64ddc81.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.1.1.ipa",
-          "size": 19444388,
+          "size": 19625392,
           "minOSVersion": "17.0"
         }
       ],
