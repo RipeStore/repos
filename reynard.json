@@ -38,6 +38,14 @@
       },
       "versions": [
         {
+          "version": "0.12.0",
+          "buildVersion": "9f99073",
+          "date": "2026-09-06T11:24:49Z",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.11.1...0.12.0\r\n\r\n### New Features\r\n- Added DNS over HTTPS support.\r\n- Added session state restoration, which restores per-page details such as your scroll position, form data, and zoom level on startup or when a tab becomes active again.\r\n\r\n### Bug Fixes & Improvements\r\n- Webpage media now correctly pauses when media from another app starts playing.\r\n- Fixed an issue where the arrow keys would continue to be pressed after releasing the Command key on a physical keyboard.\r\n- Fixed several UI issues.\r\n\r\n### Translations\r\n\r\nAdded Chinese (Traditional) and German translations.\r\n\r\nIf you want to translate the project into your language or improve existing translations, feel free to contribute to the [Crowdin](https://crowdin.com/project/reynard-browser) project!\r\n\r\n### Engine\r\nUpdated Gecko to [155.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_155_0_1_RELEASE) (released Sep 4, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.12.0/Reynard.ipa",
+          "size": 110390729
+        },
+        {
           "version": "0.11.1",
           "buildVersion": "d5f40af",
           "date": "2026-08-30T13:08:56Z",

@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.noopapp.noop",
-    "com.tfourj.Palladium",
-    "com.stremiox.app.native"
+    "com.yuroyami.syncplay.iosApp",
+    "moe.itoapp.ito",
+    "com.noopapp.noop"
   ],
   "apps": [
     {
@@ -65,16 +65,16 @@
       "subtitle": "📱 Syncplay Mobile (now Synkplay) is a Syncplay client app for Android and iOS. Watch stuff in sync with your friends. Compatible with the official Syncplay for PC. Fully written in Kotlin and Compose multiplatform",
       "localizedDescription": "📱 Syncplay Mobile (now Synkplay) is a Syncplay client app for Android and iOS. Watch stuff in sync with your friends. Compatible with the official Syncplay for PC. Fully written in Kotlin and Compose multiplatform.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.yuroyami.syncplay.iosApp.png",
-      "tintColor": "#6156e2",
+      "tintColor": "#d06070",
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.23.0",
-          "date": "2026-06-13T03:04:40Z",
-          "localizedDescription": "Protocol and stability release. Fixes false file mismatch warnings, disconnect loops, crashes, and memory leaks.\n\nSynkplay is on the Apple App Store and Google Play.\n\nFile matching:\n\n• Fixed file privacy modes breaking sync checks with PC users. Hashed file names now follow the same logic as the PC client.\n• Fixed false \"file mismatch\" warnings. Comparison now ignores letter case, checks raw names against hashed ones, and allows a difference in length of up to 2.5 seconds.\n\nConnection and protocol:\n\n• Fixed server messages being handled out of order. They are now strictly in order, matching the PC client, which removes subtle sync glitches under load.\n\n• Fixed a disconnect loop in large rooms, caused by an inbound message buffer that was too small.\n• Fixed a crash when the encrypted connection fails to negotiate. A bad server certificate now shows a connection failure and retries.\n\n• Fixed messages that carry several commands at once. All of them are handled now, not just the first.\n\n• Fixed server error messages such as \"Wrong password supplied\" failing silently into an endless reconnect loop. They now appear in the room.\n• Removed a pointless 100 ms delay per message on the Ktor network engine. It slowed room joins and skewed latency readings.\n\nRooms and playlists:\n\n• Fixed users who switch rooms lingering in the user list for up to 15 seconds. They now appear and disappear right away.\n\n• Added shared playlist limits of 250 items and 10,000 characters, with a warning up front, matching the official server. The built-in server applies the same limits to incoming playlists.\n• Added the ability for controllers to set other users' readiness across clients. The setOthersReadiness capability is advertised both ways, and the room sees \"X was set as ready by Y\".\n• Fixed trusted domains being too loose. They now match the PC client exactly: exact host, the www version, *. wildcards, and path prefixes. Random subdomains are no longer trusted.\n\nCrashes and leaks:\n\n• Android: fixed a native thread leak on every reconnect attempt.\n• iOS: fixed memory leaks when leaving a room. All three player engines now shut their position trackers down properly.\n• Fixed a possible crash when leaving a room while the player engine fails to shut down.\n• iOS: fixed mpv playing by itself right after loading media. It now waits for the room or for you to unpause, matching Android.\n\nTranslations:\n\nHelp translate at Weblate. You can translate existing text or add a whole new language. Strings change often, so some languages fall behind.\n\nAndroid: how to install:\n\nThe app is on Google Play, but releases there can be held up by review times. Downloading the APK here always gets you the newest version.\n\nNot sure which APK? Use universal. Most modern phones should use arm64-v8a. If that does not work, try armeabi-v7a. There are x86_64 and x86 builds too.\n\nWant a smaller app? syncplay-version-exo-only.apk is the smallest option. Otherwise the full APK adds mpv and VLC, which are the stronger video engines.",
-          "downloadURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.23.0/synkplay-0.23.0-ios.ipa",
-          "size": 89785854,
-          "minOSVersion": "14.0"
+          "version": "0.24.0",
+          "date": "2026-09-06T13:58:47Z",
+          "localizedDescription": "The new look:\n\n• The whole app was redrawn: one set of controls, five text sizes, a palette that comes from the theme, and frosted panels over the video where the device can draw them.\n• Home is one form: who you are, which server, which player, join. It lays itself out for a phone, a phone on its side, a tablet or a desktop window.\n• The room has a rail for its actions, a status line, and controls that hide themselves while the video plays and come back on a tap.\n• Settings are a console: search, grouped rows, values in the unit people read, colours edited in place, and each player's settings inside the player category.\n• Themes preview as a miniature of the app, and the theme creator shows what a seed colour will do before you save.\n• Motion can be reduced from settings. A screen reader hears who is ready, connection changes and new messages.\n• Watching alone is a plain choice on the home screen, not something hidden inside About.\n\nPlayers:\n\n• KitePlayer, a new engine built for this app on top of FFmpeg, is on Android, iOS and desktop as an experimental choice: chapters, external and styled subtitles, pitch-preserved speed from 0.25x to 4x, and links over https.\n• Three engines per platform: ExoPlayer, mpv and KitePlayer on Android; the system player, VLCKit and KitePlayer on iOS. VLC on Android and mpv on iOS are gone. VLCKit is the iOS default.\n• Volume is one ladder: the device's own level up to 100, then the engine's gain past it where the engine has any.\n• Every seek takes one path. Double taps add up to one jump, and a long press shows where it will land before it commits.\n• Watching alone, the app remembers where a file was left and offers to pick it up.\n• Seeking with KitePlayer lands on the exact frame in one step, instead of showing two pictures a blink apart, and is about twice as fast as before. Files carrying tens of thousands of subtitle lines no longer make it re-read the whole list every time a line changes.\n\nSync and playback:\n\n• Fixed the phantom pause: an engine stopping on its own no longer pauses the whole room.\n• The room shows when it is waiting for the video instead of looking frozen, and says who it is waiting for before playback starts.\n• Audio and subtitle picks survive a reload on every engine, and follow your preferred languages.\n• Tracks marked as accessibility captions, audio description or forced now say so in the picker.\n• The end of a file moves the playlist on by one, not once per person watching.\n• A file that is still opening no longer drags the whole room back to the start.\n• Loading your file after the room has already started now syncs you to the room, instead of leaving you paused at the start.\n• A per-user time offset lets two different rips of the same film be watched together.\n• The three drift thresholds (rewind, slowdown, fast-forward) are settings now.\n• A phone coming back from the background follows the room instead of dragging it back.\n\nRoom and chat:\n\n• Volume and brightness are reachable without a swipe.\n• You can mute someone, and peer image links stay hidden until you tap them.\n• The user list has two views, compact and detailed, with each person's file, its length, its size and whether it matches yours.\n• A playlist change can be taken back.\n• Picture in picture morphs out of the video instead of appearing from nowhere.\n• The room can follow the device's rotation, or stay landscape. Your choice, in settings.\n• Android: lock screen and headset controls work in the room and follow the same readiness rules as the play button.\n• A television keeps the room's controls inside the visible area.\n• The locked screen tells you how to unlock it, instead of leaving you guessing.\n• The room shows whether your connection is encrypted.\n• Panels look right on a light theme, not bruised at the bottom and edgeless at the top.\n• Buffering no longer shoves the play button around. The button rounds into a circle and its colours move until the player catches up.\n• The custom skip button sits between the two jump buttons.\n\n• A bug report sent from the app says which engine, which build and which device.\n\nConnection:\n\n• Encrypted connections now check the server's certificate against the name you dialled.\n• You can require encryption. A server that offers none is refused before anything is sent.\n• A dropped connection reconnects with a growing wait instead of hammering the server.\n• A handshake that never finishes gives up instead of hanging.\n• Leaving the server address empty joins the official server, as it always looked like it would.\n• The app's own services can no longer be pushed onto plain HTTP by the network you are on.\n• A pasted link is checked against the host it really names, not the text in front of it.\n\nHosting:\n\n• Hosting lives on the home screen now, under the server choice, with the address first.\n• The hosting screen and its notification speak the app's language.\n• A silent client is dropped after the timeout the server already advertised.\n• An operator password works only for the room it belongs to.\n• Creating a managed room really does put the password on your clipboard, which it has claimed to do for a long time.\n\nLanguage:\n\n• Change the app's language from settings, on every platform, with no restart.\n• All seven translations are complete: Arabic, German, Spanish, French, Polish, Russian and Chinese.\n• Audio and subtitle language names are shown in your own language.\n\nElsewhere:\n\n• Invite links: share a room with a link, and open one to join.\n\n• Settings can be exported to a file and imported back.\n• A damaged settings file no longer crashes the app at launch; it starts on defaults and tells you.\n• Service keys are never written to the log, so a log you share carries none.\n• The GIF service can be told to stop recognising you between sessions.\n• Startup no longer reads preferences on the drawing thread, and neither does logging.",
+          "downloadURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.24.0/synkplay-0.24.0-ios.ipa",
+          "size": 89476842,
+          "minOSVersion": "14.1"
         }
       ],
       "appPermissions": {
@@ -86,6 +86,7 @@
           "keychain-access-groups"
         ],
         "privacy": {
+          "NSLocalNetworkUsageDescription": "Synkplay hosts a watch-party server on your local network so nearby devices can join it.",
           "NSPhotoLibraryAddUsageDescription": "Synkplay saves video screenshots to your photo library."
         }
       }
@@ -140,10 +141,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-05T12:56:43Z",
+          "date": "2026-09-06T13:07:01Z",
           "localizedDescription": "Automated unsigned nightly from main at commit fb8e8e0. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260905-50/Ito-1.0.0-nightly.20260905.50-unsigned.ipa",
-          "size": 10058805,
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260906-51/Ito-1.0.0-nightly.20260906.51-unsigned.ipa",
+          "size": 10058978,
           "minOSVersion": "15.4"
         }
       ],
@@ -170,11 +171,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.4",
-          "date": "2026-08-31T09:45:33Z",
+          "version": "1.8.5",
+          "date": "2026-09-06T10:38:43Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.4/doer-unsigned.ipa",
-          "size": 23691051,
+          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.5/doer-unsigned.ipa",
+          "size": 24280195,
           "minOSVersion": "15.0"
         }
       ],
@@ -1243,10 +1244,10 @@
       "versions": [
         {
           "version": "11.1.1",
-          "date": "2026-09-06T06:00:51Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.1.1).\n\n• Android (debug) — NOOP-android-debug-v11.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.1.1 · built 2026-09-06 · e4cf076.",
+          "date": "2026-09-06T12:26:02Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.1.1).\n\n• Android (debug) — NOOP-android-debug-v11.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.1.1 · built 2026-09-06 · 8c3ddac.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.1.1.ipa",
-          "size": 19814596,
+          "size": 19854209,
           "minOSVersion": "17.0"
         }
       ],
