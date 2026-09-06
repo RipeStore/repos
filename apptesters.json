@@ -12,6 +12,22 @@
   },
   "apps": [
     {
+      "name": "Tachimanga",
+      "type": 1,
+      "bundleID": "com.mangacrush.ios",
+      "bundleIdentifier": "com.mangacrush.ios",
+      "version": "5.0",
+      "versionDate": "2026-09-06",
+      "fullDate": "20260906100036",
+      "size": 128494339,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2026/Tachimanga_5.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/06-09-2026/Tachimanga_5.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Premium",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mangacrush.ios.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mangacrush.ios.png"
+    },
+    {
       "name": "PUSH",
       "type": 1,
       "bundleID": "com.ADPTVLTD.push",
