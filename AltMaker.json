@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "moe.itoapp.ito",
     "com.noopapp.noop",
-    "com.stremiox.app.native",
-    "com.yuroyami.syncplay.iosApp"
+    "com.suwayomi.tachideskSorayomi.tsumiru"
   ],
   "apps": [
     {
@@ -141,10 +141,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-06T13:07:01Z",
+          "date": "2026-09-07T15:19:43Z",
           "localizedDescription": "Automated unsigned nightly from main at commit fb8e8e0. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260906-51/Ito-1.0.0-nightly.20260906.51-unsigned.ipa",
-          "size": 10058978,
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260907-52/Ito-1.0.0-nightly.20260907.52-unsigned.ipa",
+          "size": 10059142,
           "minOSVersion": "15.4"
         }
       ],
@@ -316,12 +316,12 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.1.5",
-          "date": "2026-08-10T04:16:37Z",
-          "localizedDescription": "A manga and webtoon reader for your Suwayomi server.\n\n🚀 Improvements:\n\n• The app now switches to offline mode straight away when your server is unreachable (@aaronbamblett).\n• Library covers now appear faster and use less data (@aaronbamblett).\n\n• The offline banner and its Refresh button now appear on series pages (@aaronbamblett).\n• Reduced the work your server does while you use the app (@aaronbamblett).\n\n⚙️ Changes:\n\n• Removed the reader magnifier, since pinch and double-tap zoom cover it (@aaronbamblett).\n• Long press in the reader can now be switched off entirely with Show actions on long tap (@aaronbamblett).\n\n🧩 Fixes:\n\n• Fixed Suggestions leaving an empty gap when it could not load (@aaronbamblett).",
-          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.1.5/tsumiru-v1.1.5-ios.ipa",
-          "size": 19958509,
-          "minOSVersion": "14.0"
+          "version": "1.2.0",
+          "date": "2026-09-07T09:00:30Z",
+          "localizedDescription": "A manga and webtoon reader for your Suwayomi server.\n\n✨ New Features:\n\n• Added Custom HTTP headers for servers behind an authentication gateway, Zero Trust guard, or reverse proxy (@Yukaii).\n• Added an optional Internal / LAN URL alongside your Server URL, with an Active connection row showing whether you are Using LAN or Using remote (@SuperMario22922).\n\n• Added Chapter grouping to the Updates filters, with Collapsed and Expanded modes (@yohanim).\n\n• Extensions can now be repaired with Reinstall (@aaronbamblett).\n\n⚙️ Changes:\n\n• The server queue now reorders by long press or the drag handle, and each row has Retry, Cancel, Move to top and Move to bottom (@aaronbamblett).\n• Continuous horizontal reading modes now scroll continuously instead of a page at a time (@yohanim).\n\n🚀 Improvements:\n\n• Chapters your server cannot produce are now given up on after a few attempts instead of asked for forever (@yohanim).\n\n• Background warnings and errors now reach the in-app debug log (@yohanim).\n• Applying a Keep offline rule to several series now shows one continuous progress count (@yohanim).\n\n• Library search stays responsive on large libraries (@yohanim).\n• Long strips with page cropping on now scroll more smoothly and use less memory (@yohanim).\n\n• Extension errors now show a readable message instead of a wall of code (@aaronbamblett).\n• The login and Basic Auth dialogs now submit when you press Enter (@aaronbamblett).\n\n🧩 Fixes:\n\n• Fixed logins on macOS not surviving a restart (@aaronbamblett).\n• Fixed Simple Login rejecting valid credentials on Android, iOS and desktop (@aaronbamblett).\n• Fixed Browse source filters resetting each time you reopened them (@aaronbamblett).\n• Fixed Reset in the source filters leaving the old results on screen (@aaronbamblett).\n• Fixed pinch zoom drifting away from the point between your fingers (@yohanim).\n• Fixed zooming near the top or bottom of a page pushing it out of view (@yohanim).\n• Fixed the webtoon reader jumping to the previous chapter on a small scroll near the top (@yohanim).\n• Fixed the webtoon reader loading the next chapter too early on long chapters (@yohanim).\n• Fixed returning to the previous chapter landing at the top of a tall page (@yohanim).\n• Fixed date headers on Updates repeating as you scrolled (@yohanim).\n• Fixed chapters read on another device ignoring your delete-while-reading settings (@yohanim).\n\n• Fixed the tracker using the wrong setting for chapters you marked read while offline (@yohanim).\n• Fixed switching servers leaving the app retrying a sign-in against the old one (@yohanim).\n• Fixed a crash when marking several chapters read at once (@yohanim).\n• Fixed crashes when deleting a chapter from the server after leaving the screen (@yohanim).\n• Fixed a crash loop in the library category tabs (@yohanim).\n• Fixed installing an extension from an empty file appearing to succeed on web (@yohanim).\n• Fixed the app asking your server for the same chapters twice while catching up on new ones (@aaronbamblett).\n\nMobile:\n\nAndroid: download the universal APK below and open it to install. Smaller APKs for specific chip types are also attached.\n\n• SideStore signs and refreshes the app on the device itself, with no computer needed after setup. Best for most people.\n• AltStore expires every 7 days and only refreshes while a computer running AltServer is switched on and on the same Wi-Fi as your phone.\n• TrollStore installs permanently with no expiry, but only works on older iPhones and iOS versions with the required vulnerability.\n\nWith SideStore or AltStore the app is re-signed periodically, which those tools automate. There is no App Store build.\n\nDesktop:\n\nWindows: download …-windows-x64.zip, extract it anywhere, and run tsumiru.exe.\n\nmacOS: download …-macos-x64.zip, extract it, and move the app to Applications. If macOS blocks the first launch, approve it under System Settings → Privacy & Security.\n\nLinux: the Flatpak is recommended and auto-updates.\n\nFor a portable option, download …-linux-x86_64.AppImage, mark it executable with chmod +x, and run it.\n\nWeb:\n\nDownload …-web.zip and serve its contents with any static web server.\n\nFull documentation.",
+          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.2.0/tsumiru-v1.2.0-ios.ipa",
+          "size": 19252710,
+          "minOSVersion": "15.0"
         }
       ],
       "appPermissions": {
@@ -442,11 +442,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.6",
-          "date": "2026-09-01T21:50:51Z",
-          "localizedDescription": "Chores:\n\n• Point the submodule at the legacy-method fix (6a361f9).\n• Revert the submodule bump until the deps rebuild (a8afca4).\n• Pin native-2026-09-01 native prebuilts (#142) (8af4d14).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.6.6/Empo-0.6.6-unsigned.ipa",
-          "size": 19363130,
+          "version": "0.6.7",
+          "date": "2026-09-07T04:17:29Z",
+          "localizedDescription": "Bug Fixes:\n\n• Pick up the System.mouse_in_window stand-in (b86ce86).\n• Run the pre-push guard from a linked worktree (9bda6ed).\n\nFeatures:\n\n• Rebuild only the engine halves when the dependency inputs match the pin (c0126de).\n\n• Serve the site from empo.mateo.sh (59f48ee).\n• Add the share card and the open graph tags to the landing page (e1c3c40).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.6.7/Empo-0.6.7-unsigned.ipa",
+          "size": 19363207,
           "minOSVersion": "26.0"
         }
       ],
@@ -1244,10 +1244,10 @@
       "versions": [
         {
           "version": "11.1.1",
-          "date": "2026-09-06T23:34:43Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.1.1).\n\n• Android (debug) — NOOP-android-debug-v11.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.1.1 · built 2026-09-06 · 1356da0.",
+          "date": "2026-09-07T12:55:03Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.1.1).\n\n• Android (debug) — NOOP-android-debug-v11.1.1.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.1.1.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.1.1.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.1.1 · built 2026-09-07 · e59a641.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.1.1.ipa",
-          "size": 19877935,
+          "size": 19946058,
           "minOSVersion": "17.0"
         }
       ],
@@ -3125,7 +3125,7 @@
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
       "subtitle": "Client-side downloader app built with Capacitor and Tauri",
-      "localizedDescription": "Mori is a fast and simple downloader for saving videos, photos, and music from 14 popular social media apps. Everything runs directly on your device, with no external servers, tracking, or ads. Your downloads stay private and in your control.\n\nFeatures:\n\n• Interactive Live Backgrounds & Glassmorphism: Dynamic animated canvas backgrounds (Constellations, Waves, Particles, Fireflies) paired with modern, customizable frosted glassmorphism effects.\n• Built-in Media Player & Preview: Play videos, stream tracks, and view multi-photo galleries right inside the app, with optional Auto-Play and gesture controls.\n• Instant Photo-to-PDF Export: Combine multi-photo posts or image galleries into a single, clean PDF file ready for offline reading or sharing.",
+      "localizedDescription": "Mori is a fast and simple downloader for saving videos, photos, and music from 14 popular social media apps. Everything runs directly on your device, with no external servers, tracking, or ads. Your downloads stay private and in your control.\n\n📜 Features:\n\n• Interactive Live Backgrounds & Glassmorphism: Dynamic animated canvas backgrounds (Constellations, Waves, Particles, Fireflies) paired with modern, customizable frosted glassmorphism effects.\n• Built-in Media Player & Preview: Play videos, stream tracks, and view multi-photo galleries right inside the app, with optional Auto-Play and gesture controls.\n• Instant Photo-to-PDF Export: Combine multi-photo posts or image galleries into a single, clean PDF file ready for offline reading or sharing.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.mori.downloader.png",
       "tintColor": "#6156e2",
       "category": "entertainment",
