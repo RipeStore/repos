@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "app.mangatan.mangatan",
     "moe.itoapp.ito",
-    "com.noopapp.noop",
-    "com.suwayomi.tachideskSorayomi.tsumiru"
+    "com.noopapp.noop"
   ],
   "apps": [
     {
@@ -2032,10 +2032,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-09-05T18:24:03Z",
-          "localizedDescription": "Release v6.1.6:\n\n• Enable profile switching on the dictionary page (abd57ec).\n• Fix profile switching in Screen Lookup (3493432).\n• Revert \"Stabilize novel pagination with learning highlights\" (f685510).\n• Identify the user action behind translation requests (cd14cc5).\n• Add word highlights and pitch colors to YouTube subtitles (0263612).\n• Fix YouTube subtitle navigation with overlapping captions (3ea89bd).\n\n• Stabilize novel pagination with learning highlights (6dccf27).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.6/Manatan-v6.1.6-iOS.ipa",
-          "size": 364186479,
+          "date": "2026-09-08T00:34:17Z",
+          "localizedDescription": "Release v6.1.7:\n\n• Align Screen Lookup selection with OCR text (7db5d08).\n• Prevent macOS launcher crashes and recover native reports (47e1ca1).\n• Finish Screen Lookup mining after closing (50ce0df).\n• Keep AnkiDroid mining in the background (e21ec0b).\n• Add subtitle sidebar player toggle (173e857).\n• Keep missing video prompt below app bar (98ec475).\n• Show unique pitch accents inline (3714b01).\n• Show unwatched episode counts in video library (71fc4b3).\n• Capture Screen Lookup audio at mine time (d171746).\n• Fix extension cover persistence and saving (9bb782c).\n• Reference imported local videos without copying (755dcc9).\n• Allow Screen Lookup cards without sentence audio (0a36195).\n• Show dictionary forms in popup learning footer (a495654).\n• Show Manatan catalogs in extension repositories (d4a09a9).\n\n• Add destination-aware local video imports (df9c08f).\n\n• Add local manga imports to the library (783e86f).\n• Improve desktop screen lookup (371cef8).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.7/Manatan-v6.1.7-iOS.ipa",
+          "size": 364574244,
           "minOSVersion": "16.1"
         }
       ],
@@ -3125,10 +3125,10 @@
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
       "subtitle": "Client-side downloader app built with Capacitor and Tauri",
-      "localizedDescription": "Mori is a fast and simple downloader for saving videos, photos, and music from 14 popular social media apps. Everything runs directly on your device, with no external servers, tracking, or ads. Your downloads stay private and in your control.\n\n📜 Features:\n\n• Interactive Live Backgrounds & Glassmorphism: Dynamic animated canvas backgrounds (Constellations, Waves, Particles, Fireflies) paired with modern, customizable frosted glassmorphism effects.\n• Built-in Media Player & Preview: Play videos, stream tracks, and view multi-photo galleries right inside the app, with optional Auto-Play and gesture controls.\n• Instant Photo-to-PDF Export: Combine multi-photo posts or image galleries into a single, clean PDF file ready for offline reading or sharing.",
+      "localizedDescription": "Mori is a free, fast, and private downloader for saving videos, photos, and music from 14 popular social media platforms. No ads, no tracking, and no external servers, everything runs directly on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Supported Platforms & Scraper Engines.\n• For Developers & Building from Source.\n• Why the Scraper Core is Pre-Compiled.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download & Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading & User Guide (GUIDE.md).",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.mori.downloader.png",
       "tintColor": "#6156e2",
-      "category": "entertainment",
+      "category": "utilities",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/coflyn/Mori/main/assets/1.png",
         "https://raw.githubusercontent.com/coflyn/Mori/main/assets/2.png",
@@ -3194,7 +3194,7 @@
       "bundleIdentifier": "com.exaltedpixels.LensLinkCamera",
       "developerName": "MyNamesEMurray",
       "subtitle": "iOS camera for OBS Studio over Wi-Fi or USB — 4K60, screen mirroring, remote start, auto lip sync",
-      "localizedDescription": "Use your iPhone or iPad as a high-quality camera directly inside OBS Studio — over Wi-Fi or a USB cable. No virtual-camera drivers, no RTMP server, no monthly subscription.\n\nIt comes in two parts: an OBS plugin (adds \"LensLink Camera\" and \"LensLink Screen\" sources) and the LensLink iPhone/iPad app. You install both, then OBS connects to your phone.\n\nWhat you need:\n\n• OBS Studio 32 or newer, on Windows, macOS, or Linux.\n• An iPhone or iPad on iOS/iPadOS 15 or later.\n• For USB: iTunes installed on Windows (it provides Apple's device driver); nothing extra on macOS.",
+      "localizedDescription": "documentation.\n\nUse your iPhone or iPad as a high-quality camera directly inside OBS Studio — over Wi-Fi or a USB cable. No virtual-camera drivers, no RTMP server, no monthly subscription.\n\nIt comes in two parts: an OBS plugin (adds \"LensLink Camera\" and \"LensLink Screen\" sources) and the LensLink iPhone/iPad app. You install both, then OBS connects to your phone.\n\nWhat you need:\n\n• OBS Studio 32 or newer, on Windows, macOS, or Linux.\n• An iPhone or iPad on iOS/iPadOS 15 or later.\n• For USB: iTunes installed on Windows (it provides Apple's device driver); nothing extra on macOS.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.exaltedpixels.LensLinkCamera.png",
       "tintColor": "#3070f0",
       "category": "photo-video",
