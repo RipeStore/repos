@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.g8row.photosbackup",
     "moe.itoapp.ito",
-    "com.noopapp.noop",
-    "org.emexlabs.nyxian"
+    "com.noopapp.noop"
   ],
   "apps": [
     {
@@ -1359,7 +1359,7 @@
       "bundleIdentifier": "org.emexlabs.nyxian",
       "developerName": "emexlab",
       "subtitle": "IDE to develop native code iOS apps and utilities on stock iOS it self just via a certificate and a custom micro kernel for those apps",
-      "localizedDescription": "<diƒv align=\"center\">.\n\nWhat is it?:\n\nNyxian is an iOS app that empowers developers with a full toolchain they can use while even being offline for iOS development on iPhone. It supports Swift, C, Objective-C, C++ and Objective-C++. It’s a powerful IDE that made the impossible possible, a fully on-device iOS IDE that doesn’t even need a cloud and can even be used with airplane mode enabled after it downloaded the SDK and resources from our server. It supports officially iOS 18.0 all the way up to the latest iOS version (iOS/iPadOS 27.0 tested). You can compile and run iOS apps on the go with ease, using the entire iOS 26.5 SDK.",
+      "localizedDescription": "What is it?:\n\nNyxian is an iOS app that empowers developers with a full toolchain they can use while even being offline for iOS development on iPhone. It supports Swift, C, Objective-C, C++ and Objective-C++. It’s a powerful IDE that made the impossible possible, a fully on-device iOS IDE that doesn’t even need a cloud and can even be used with airplane mode enabled after it downloaded the SDK and resources from our server. It supports officially iOS 18.0 all the way up to the latest iOS version (iOS/iPadOS 27.0 tested). You can compile and run iOS apps on the go with ease, using the entire iOS 26.5 SDK.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/org.emexlabs.nyxian.png",
       "tintColor": "#d0a0f0",
       "category": "developer",
@@ -3453,6 +3453,211 @@
           "NSLocationWhenInUseUsageDescription": "Allow Blinker Fluid access to location",
           "NSMicrophoneUsageDescription": "Allow Blinker Fluid access to microphone",
           "NSPhotoLibraryUsageDescription": "Allow Blinker Fluid to choose photos and videos for uploads"
+        }
+      }
+    },
+    {
+      "name": "Skate 3",
+      "bundleIdentifier": "com.nakas.skate3",
+      "developerName": "andrewnakas",
+      "subtitle": "Build the Skate 3 recompilation for iOS from your own disc image. Or ipa Ships no game code",
+      "localizedDescription": "skate3-ios-setup:\n\nBuild the Skate 3 recompilation for iOS from your own disc image, on your own Mac, signed with your own Apple ID, installed on your own iPhone.\n\nRuns at a locked 60fps on an iPhone 13 mini (A15): median frame 16.7ms against a 16.67ms budget, 95th percentile 16.8-17.8ms. Anything newer has more headroom than that.\n\nStep 3 is the whole thing: it checks your tools, extracts your disc image, recompiles it, builds the app, signs it with your Apple ID, and installs it on your phone.\n\n--recurse-submodules matters - the runtime lives in a submodule and the build will not configure without it. If you already cloned without it, run git submodule update --init --recursive inside skate3recomp-dev.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.nakas.skate3.png",
+      "tintColor": "#f08020",
+      "category": "other",
+      "versions": [
+        {
+          "version": "2.6.0",
+          "date": "2026-09-03T21:55:12Z",
+          "localizedDescription": "Skate 3 on iOS, v2.6.0.\n\nYou must supply the game. This app contains no game content. See the setup instructions.\n\nThe completion-screen slowdown:\n\nMission completion and replay screens crawled, and a long session decayed toward single digits and then died with no crash report.\n\nFinished graphics work is destroyed a little at a time so no single frame stalls. Past a threshold that limit is supposed to come off entirely and let the backlog clear. The clock came off; a cap of 256 objects per frame did not. Once a screen produced them faster than that, the backlog could only grow, every frame paid to work against a longer one, and the heap grew until iOS killed the app.\n\nMeasured on an iPhone 13 mini: a backlog of 18,000 falling by exactly 255 a frame for seventy frames at 5-36ms each, and one of those cleanups finishing its 255 objects in 508 microseconds before stopping anyway. It is now one limit instead of two - a 50ms ceiling with no object cap - so the backlog actually clears.\n\nQuitting to the home screen after switching away:\n\nSwitching to another app and back could end the game with \"Graphics device lost\".\n\niOS refuses GPU work to an app in the background, and those refusals keep arriving for a few milliseconds after it returns. They were charged to a budget meant to absorb one occasional error every few seconds: eight arrived inside 20 milliseconds, and the ninth was treated as a real hardware failure. Failures caused by backgrounding are now recognised as such, within a bounded window so a genuinely lost device is still reported rather than hidden behind a frozen screen.\n\nInstalling the game without the file picker:\n\nUnder TrollStore or on a jailbreak, the system file picker cannot hand the app a file, and the picker was the only way to select a disc image. LiveContainer worked only because it ships its own replacement.\n\nDrop your disc image into the Skate 3 folder in Files and it is found automatically, with no picker involved. Every candidate is verified as a real Xbox 360 disc before it is used. The picker remains available for iCloud Drive and USB storage.\n\nAn extracted disc copied across as a folder is also accepted now. Previously default.xex one level down read as \"game files not found\".\n\nAlso:\n\n• Texture and mesh budgets are back to the values 2.5.0 shipped.\n• The frame-time log names what the cleanup freed and which limit stopped it.\n\nRequires iOS 16 and a 6-core device. Every iPhone that runs iOS 16 qualifies; older iPads (A9/A9X/A10/A10X) do not.",
+          "downloadURL": "https://github.com/andrewnakas/skate3-ios-setup/releases/download/v2.6.0/skate3.ipa",
+          "size": 31844228,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Musly",
+      "bundleIdentifier": "com.dddevid.musly",
+      "developerName": "dddevid",
+      "subtitle": "A beautiful Flutter music streaming client for Subsonic-compatible servers with a modern Apple Music-inspired UI",
+      "localizedDescription": "Musly - Universal Music Streaming Player & Client:\n\nMusly is a free, modern, and elegant music player and streaming client. Stream your self-hosted music library from Navidrome, Subsonic, Jellyfin, Emby, or Airsonic, listen to live Web Streams & Internet Radio, or play Local Music Files directly from your device on Android, iOS, Windows, Linux, and macOS.\n\nGitAds Sponsored:\n\n🌐 Website: musly.devid.lol.\n\nMusly is a versatile, high-performance music client offering:\n\n• 🎵 Multi-Source Streaming - Stream seamlessly from Navidrome, Subsonic, Jellyfin, Emby, or Airsonic servers.\n• 📁 Local Audio Files - Play local music stored directly on your device storage.\n• 📻 Live Web Streams & Internet Radio - Search, browse, and listen to thousands of web radio stations worldwide.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.dddevid.musly.png",
+      "tintColor": "#6156e2",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dddevid/musly/master/screenshots/Screenshot_20260101_024726.png",
+        "https://raw.githubusercontent.com/dddevid/musly/master/screenshots/Screenshot_20260101_024746.png",
+        "https://raw.githubusercontent.com/dddevid/musly/master/screenshots/Screenshot_20260101_024751.png",
+        "https://raw.githubusercontent.com/dddevid/musly/master/screenshots/Screenshot_20260101_024803.png"
+      ],
+      "versions": [
+        {
+          "version": "2.0.2",
+          "date": "2026-08-26T20:40:22Z",
+          "localizedDescription": "iOS:\n\n• musly-ios.ipa (sideload with AltStore, Sideloadly, or similar — not signed).\n\nWindows:\n\n• musly-setup.exe (setup installer, run to install Musly).\n• musly-windows.zip (portable version, extract and run).\n\nmacOS:\n\n• musly-macos.dmg (drag Musly.app to Applications — not notarized).\n\nLinux:\n\n• musly-linux-x64.tar.gz (extract and run musly).\n\n📝 Changelog:\n\nSee CHANGELOG.md.\n\n🌍 Translations:\n\nContribute translations at Crowdin.",
+          "downloadURL": "https://github.com/dddevid/Musly/releases/download/v2.0.2/musly-ios.ipa",
+          "size": 13928367,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Musly needs access to your music library to browse and play your songs.",
+          "NSBluetoothAlwaysUsageDescription": "Musly uses Bluetooth to send song information and album artwork to your connected audio devices (car stereo, headphones, speakers).",
+          "NSBluetoothPeripheralUsageDescription": "Musly uses Bluetooth to connect to audio devices and display current playing music information.",
+          "NSDocumentsFolderUsageDescription": "Musly needs access to your files to import local music tracks.",
+          "NSLocalNetworkUsageDescription": "Musly uses the local network to discover and connect to Google Cast devices.",
+          "NSMicrophoneUsageDescription": "Musly requires microphone access for certain audio features.",
+          "NSPhotoLibraryAddUsageDescription": "Musly needs permission to save album artwork to your photo library.",
+          "NSPhotoLibraryUsageDescription": "Musly needs access to your photo library to set custom album artwork."
+        }
+      }
+    },
+    {
+      "name": "Photos Backup",
+      "bundleIdentifier": "com.g8row.photosbackup",
+      "developerName": "g8row",
+      "subtitle": "PhotosBackup iOS app",
+      "localizedDescription": "Photos Backup for iOS:\n\nAn experimental, fully on-device iPhone app for backing up selected photos, videos, and albums to Google Photos. It is a single SwiftUI app that completes Google account setup in an in-app web view, so everything happens on the phone without a desktop companion or hosted service.\n\nThis project uses Google's private, undocumented Photos endpoints and an Android-style authentication flow. It is not affiliated with or endorsed by Google, and the integration may stop working without notice. Treat it as experimental software and use it at your own risk.\n\nWhat it can do:\n\n• Connect a Google account through Google's EmbeddedSetup flow, in an in-app web view.\n• Capture the single-use oauth_token in-process from the web view's cookie store.\n• Exchange the token for a Google Photos credential entirely on the device.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.g8row.photosbackup.png",
+      "tintColor": "#2080f0",
+      "category": "other",
+      "versions": [
+        {
+          "version": "0.3.6",
+          "date": "2026-09-10T14:52:06Z",
+          "localizedDescription": "New:\n\niOS gives each run about 30 seconds, so the action spends them finding and preparing photos, then leaves the uploads to iOS. With the app open it just adds to the queue — the uploads you are watching are not interrupted. Photos stored only in iCloud still wait until you open the app.\n\n• See when iOS actually runs the backup. Settings → Support → Diagnostics → Recent Runs lists every run — opening the app, Back Up Now, Shortcuts, and the background windows iOS grants — with the time it started, how long it took, what it did, and the conditions it ran under (network, battery and charging, Low Power Mode, locked or not). Background windows also record how long after the request iOS started them.\n• Event Timeline. Every decision the app makes now leaves an entry saying why: why a background run was or wasn't requested, why uploads paused, which step an upload failed at and what Google said, when an item waited for iCloud, what iOS delivered while the app was closed. It keeps two weeks of history; repeats fold into one line, and warnings and errors are kept longer than routine entries, so a big backup does not push out the one failure that matters.\n• Storage. Settings → Support → Storage shows what the app keeps on your phone — pending upload copies, backup history, transfer receipts, caches — and Clean Up Unused Data removes leftovers without touching pending uploads or your account.\n\nFixed:\n\nSuspending the app normally never counts against an item, so iOS closing the app in the background does not skip anything.\n\n• The app knows when it last closed unexpectedly. If it disappears while open, while starting, or during a background run, the next launch records it and the report says so — even when iOS did not share a crash report.\n• Leftover transfer receipts are cleaned up. Receipts that no upload owns any more are removed a day after they were written, and Google's responses are no longer kept in a disk cache.\n\nNotes:\n\n• 161 tests, 158 passing (2 opt-in live tests, and 1 Keychain test that needs a signed build, skipped).\n• Checked on an iPhone 12 running iOS 17.0.3: launch, account and queue restore, background scheduling, and the event log. A background window granted by iOS overnight and a Shortcuts automation on a locked phone still need to be seen on more devices — reports from either are very welcome.\n• Crash details from iOS are only included when Share With App Developers is on (Settings → Privacy & Security → Analytics & Improvements), and they arrive a day or so after the crash.\n• The Simulator cannot run background uploads or schedule background tasks. Use a device to exercise real backup behaviour.",
+          "downloadURL": "https://github.com/g8row/PhotosBackup/releases/download/0.3.6/PhotosBackup.ipa",
+          "size": 2684374,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "Photos Backup needs access to the albums and photos you choose so it can safely back them up to Google Photos."
+        }
+      }
+    },
+    {
+      "name": "EhPanda",
+      "bundleIdentifier": "app.ehpanda",
+      "developerName": "EhPanda-Team",
+      "subtitle": "An unofficial E-Hentai App for iOS built with SwiftUI & TCA",
+      "localizedDescription": "📢 Translations Wanted 📢:\n\nPlease submit a pull request if you want to help with translation.\n\nApp Strings: {lang}.lproj.\n\nGitHub Readme: README.{lang}.md.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/app.ehpanda.png",
+      "tintColor": "#509080",
+      "category": "other",
+      "versions": [
+        {
+          "version": "2.8.1",
+          "date": "2026-07-20T12:12:04Z",
+          "localizedDescription": "• feat: Adapt to the new Liquid Glass design.",
+          "downloadURL": "https://github.com/EhPanda-Team/EhPanda/releases/download/v2.8.1/EhPanda.ipa",
+          "size": 7352364,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSFaceIDUsageDescription": "We need this permission to provide Face ID option while unlocking the App.",
+          "NSPhotoLibraryAddUsageDescription": "We need this permission to save images to your photo library."
+        }
+      }
+    },
+    {
+      "name": "Nuvio Enhanced",
+      "bundleIdentifier": "com.nuvio.media",
+      "developerName": "luqmanfadlli",
+      "subtitle": "Unofficial Nuvio Mobile repository to build Nuvio with experimental features, improvements, and bug fixes not yet availabe in the official repository",
+      "localizedDescription": "Unofficial. This fork is not affiliated with or supported by the Nuvio team. Please report bugs you find here to this repository, not upstream — unless you can reproduce them on an official build too.\n\nAndroid:\n\nThe app installs as Nuvio Enhanced. It shares the com.nuvio.app application ID with the official Android build, so the two cannot be installed side by side — uninstall one first.\n\nWhat Enhanced adds:\n\nEverythings below are added on top of upstream Nuvio Mobile.\n\nLive TV:\n\nUpstream Nuvio has no Live TV. This fork adds the whole feature.\n\nAndroid:\n\nRequires Android Studio and the Android SDK.\n\niOS:\n\nRequires macOS and Xcode.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.nuvio.media.png",
+      "tintColor": "#b040f0",
+      "category": "other",
+      "versions": [
+        {
+          "version": "0.4.15",
+          "date": "2026-09-09T13:20:51Z",
+          "localizedDescription": "Upstream changelog::\n\n• fix(auth): synchronize shared client initialization @tapframe.\n• fix(home): restore hero position when switching profiles @tapframe.\n• fix(playback): disable play when no source is available @tapframe.\n• fix(home): reduce hero height without continue watching @tapframe.\n\n• feat: custom static colours @tapframe.\n• feat(members): custom gradient @tapframe.\n• Added Russian translation (#1886) @zamalatb.\n\n• fix(player): preserve each foreground service start notification @tapframe.\n• fix(player): synchronize native subtitle rendering @tapframe.\n• fix(player): resolve subtitle formats off the main thread @tapframe.\n• feat(ui): unify skeleton loading states @tapframe.\n• perf(home): improve lazy list item reuse @tapframe.\n• perf(startup): avoid redundant collection and catalog processing @tapframe.\n\n• perf(loading): cache bundled animation resource reads @tapframe.\n• perf(ui): defer loading and parallax state reads @tapframe.\n• fix(streams): refresh resume position Fixes #1866 @tapframe.\n\nEnhanced changelog::\n\n• All changes from the upstream.\n• fix(discover): keep discover filters visible while scrolling @luqmanfadlli.\n• fix(navigation): hide native navigation bar on stream route @albertovinaroz.\n• fix(calendar): open series detail at selected episode from library calendar @luqmanfadlli.\n\n• feat(calendar): add swipe calendar month navigation @luqmanfadlli.\n• feat(player): auto-show subtitles on rewind and mute @albertovinaroz.\n• fix(details): stop hero trailer when leaving details to play something @albertovinaroz.\n• fix(merge): reconcile upstream changes @luqmanfadlli.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.15/Nuvio-v0.4.15-Enhanced.ipa",
+          "size": 67833285,
+          "minOSVersion": "16.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Mangayomi",
+      "bundleIdentifier": "com.kodjodevf.mangayomi",
+      "developerName": "kodjodevf",
+      "subtitle": "Free and open source application for reading manga, novels, and watching animes available on Android, iOS, macOS, Linux and Windows",
+      "localizedDescription": "Mangayomi is an open-source Flutter app for reading manga, novels, and watching animes across multiple platforms.\n\nFeatures include:\n\n• Reading manga, webtoons, comics, novels, animes, movies, and more.\n• Local reading of content.\n• A configurable reader with multiple viewers, reading directions and other settings.\n• Tracker support for anime and manga: MyAnimeList, AniList, SIMKL, trakt and Kitsu support.\n• Categories to organize your library.\n• Light and dark themes.\n• Create backups locally to read offline or to your desired cloud service.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.kodjodevf.mangayomi.png",
+      "tintColor": "#b01020",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "0.9.2",
+          "date": "2026-09-03T13:58:24Z",
+          "localizedDescription": "• Add assets to constant file.\n• fix: triage error reports and resolve reported crashes.\n• feat(experimental): add support for Aidoku extensions.\n• Optimize local image-folder pages and image handling.",
+          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.2/Mangayomi-v0.9.2-ios.ipa",
+          "size": 114010180,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSDocumentUsageDescription": "Mangayomi needs access to your files to create and restore backups.",
+          "NSFaceIDUsageDescription": "Mangayomi needs to authenticate using Face ID.",
+          "NSPhotoLibraryUsageDescription": "Mangayomi needs access to your photo library to save and restore backups."
+        }
+      }
+    },
+    {
+      "name": "SceneBox",
+      "bundleIdentifier": "app.scenebox.SceneBox",
+      "developerName": "donbytyqi",
+      "subtitle": "Torrent streaming client for iOS, iPadOS, tvOS and Mac (Catalyst), written in SwiftUI",
+      "localizedDescription": "SceneBox:\n\nTorrent streaming client for iOS, iPadOS, tvOS and Mac (Catalyst), written in SwiftUI.\n\nImportant:\n\nSceneBox is a media player and BitTorrent/HTTP client. It does not provide, host, index, upload, store, or distribute any media content, and it has no affiliation with any content source.\n\n• All catalog metadata, stream listings, and media files come from third-party services and peers that users configure or connect to. These services are independent of SceneBox, are not operated, controlled, endorsed, or reviewed by its author, and may be changed or removed at any time.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/app.scenebox.SceneBox.png",
+      "tintColor": "#e0e000",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/donbytyqi/scenebox/main/website/images/mac-detail.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0.2",
+          "date": "2026-08-22T09:45:48Z",
+          "localizedDescription": "Mostly stuff you asked for.\n\n• You don't need an account anymore. There's a \"Continue as guest\" button on the login screen. Everything you watch is saved on the device, and if you make an account later it all gets moved over.\n• The iPhone app rotates now. Before it was stuck in portrait unless you were in the player.\n• Cleaned up the Profile tab. Email is readable now, there's one Edit Profile button, and switching/adding profiles and signing out moved into the menu at the top right.\n• Also has the fixes from 1.0.1 (play button missing on iOS 18, \"don't have permission to save the file\" on Apple TV).\n\nInstall.\n\nMac: open the dmg, drag to Applications. It's notarized so it just opens.\n\niPhone/iPad: the ipa isn't signed, use Sideloadly, AltStore, SideStore, Feather or ESign with your own Apple ID. Free Apple ID = resign every 7 days (AltStore/SideStore do it for you), paid dev account = one year.\n\nApple TV: Sideloadly works over Wi-Fi. On the TV go to Settings > Remotes and Devices > Remote App and Devices so it shows up, then pick it in Sideloadly.",
+          "downloadURL": "https://github.com/donbytyqi/scenebox/releases/download/v1.0.2/SceneBox-1.0.2.ipa",
+          "size": 30349738,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "SceneBox connects directly to peers over your local network and the internet to stream and download."
         }
       }
     }
