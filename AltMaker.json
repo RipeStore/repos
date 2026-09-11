@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.dmilin.hydra",
     "com.noopapp.noop",
-    "moe.itoapp.ito",
-    "com.project-violet.violetta"
+    "moe.itoapp.ito"
   ],
   "apps": [
     {
@@ -3658,6 +3658,43 @@
         "entitlements": [],
         "privacy": {
           "NSLocalNetworkUsageDescription": "SceneBox connects directly to peers over your local network and the internet to stream and download."
+        }
+      }
+    },
+    {
+      "name": "Hydra",
+      "bundleIdentifier": "com.dmilin.hydra",
+      "developerName": "RipeStore",
+      "subtitle": "A Reddit reader app based on Apollo that doesn't need an API key to function",
+      "localizedDescription": "Hydra is a native client for browsing Reddit and the ultimate experience on iOS. It is fast, fluid, and designed to make browsing Reddit natural and intuitive.\n\nThis build is distributed by an independent third party not related to the upstream Hydra project.\n\nCrafted with a native iOS design, Hydra feels right at home on your iPhone and iPad. It loads fast, responds instantly, and makes reading and participating in discussions effortless.\n\nFeatures:\n\n• Fast loading for browsing feeds and media.\n\n• Native iOS design and gesture-driven navigation.\n• Integrated image and video viewer with inline playback.\n• Split view and multi-column support on iPad.\n• Quick swipe gestures to upvote, downvote, reply, and collapse comments.\n• Markdown formatting for posts and comments.\n• System share integration to export links, media, and comments as images.",
+      "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.dmilin.hydra.png",
+      "tintColor": "#6156e2",
+      "category": "social",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/RipeStore/hydrabuilder/main/screenshots/screenshot_01.webp",
+        "https://raw.githubusercontent.com/RipeStore/hydrabuilder/main/screenshots/screenshot_02.webp",
+        "https://raw.githubusercontent.com/RipeStore/hydrabuilder/main/screenshots/screenshot_03.webp",
+        "https://raw.githubusercontent.com/RipeStore/hydrabuilder/main/screenshots/screenshot_04.webp"
+      ],
+      "versions": [
+        {
+          "version": "4.2.2",
+          "date": "2026-09-11T15:26:03Z",
+          "localizedDescription": "What's Changed in Upstream Hydra:\n\nBuilt from upstream commit d336b19 on master.\n\n🔄 Commits Since App Store Release (v4.2.2)::\n\n• d8bad7a Add toggle to mute videos by default (#61).\n• a649c34 mute videos by default cleanup.\n• d336b19 simplify the way the player is passed to the video overlay.\n\nBugfixes:\n\n• In certain conditions, the login page could end up frozen.\n• When changing device orientation while watching a video, the audio track could end up cutting out.",
+          "downloadURL": "https://github.com/RipeStore/hydrabuilder/releases/download/v4.2.2-d336b19/Hydra-v4.2.2-d336b19-unsigned.ipa",
+          "size": 33710330,
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Allow Hydra to access your camera",
+          "NSFaceIDUsageDescription": "Allow Hydra to access your Face ID biometric data.",
+          "NSLocalNetworkUsageDescription": "Expo Dev Launcher uses the local network to discover and connect to development servers running on your computer.",
+          "NSMicrophoneUsageDescription": "Allow Hydra to access your microphone",
+          "NSPhotoLibraryAddUsageDescription": "Allow Hydra to save photos and videos to your library.",
+          "NSPhotoLibraryUsageDescription": "Hydra accesses your photos to upload images."
         }
       }
     }
