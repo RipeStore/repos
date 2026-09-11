@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.g8row.photosbackup",
-    "moe.itoapp.ito",
-    "com.noopapp.noop"
+    "com.naine.doer",
+    "com.noopapp.noop",
+    "com.mori.downloader"
   ],
   "apps": [
     {
@@ -172,10 +172,10 @@
       "versions": [
         {
           "version": "1.8.5.1",
-          "date": "2026-09-10T11:45:50Z",
+          "date": "2026-09-11T03:31:11Z",
           "localizedDescription": "",
           "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.5.1/doer-unsigned.ipa",
-          "size": 28075875,
+          "size": 28070169,
           "minOSVersion": "15.0"
         }
       ],
@@ -1244,10 +1244,10 @@
       "versions": [
         {
           "version": "11.5.0",
-          "date": "2026-09-10T13:02:59Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.5.0).\n\n• Android (debug) — NOOP-android-debug-v11.5.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.5.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.5.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.5.0 · built 2026-09-10 · 6914146.",
+          "date": "2026-09-11T03:10:21Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.5.0).\n\n• Android (debug) — NOOP-android-debug-v11.5.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.5.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.5.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.5.0 · built 2026-09-11 · ec4ebab.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.5.0.ipa",
-          "size": 20162955,
+          "size": 20173847,
           "minOSVersion": "17.0"
         }
       ],
@@ -3138,11 +3138,11 @@
       ],
       "versions": [
         {
-          "version": "4.3.1",
-          "date": "2026-09-05T01:09:47Z",
-          "localizedDescription": "What's New in v4.3.1.\n\n• Direct Bilibili & b23.tv scraper engine with full 720p MP4 extraction and auto-redirect support.\n• Zero-dependency YouTube playlist & music parser with dual-engine fallback resolver.\n• Scraper standardization (MP4, PHOTO, MP3) and clean title extraction for Threads, Pinterest, Twitter, and Apple Music.\n• Twitter Full HD (1080p) TVD scraper promoted to Server 1 with paywall filtering.\n• TikTok scraper fixes: clear 1080p/720p labels on TikTokIO and removal of broken HD button on SnapTik.\n• Spotify & Apple Music optimization: cached sessions, faster track resolving, and simplified status labels.\n\n• Interactive Ambient Backgrounds (Sakura, Rain & Ripples, Snowfall, Fireflies) with customizable speed slider.\n• Frosted Glassmorphism intensity (Off / Subtle / Deep) and UI Corner Styles (Sharp / Modern / Round).\n• Procedural Web Audio completion sound synthesis engine with 4 distinct packs.\n\n• Native Android MediaScanner integration for instant Gallery & Google Photos indexing.\n• Unicode / CJK path fix and automatic decodeURI to eliminate \"(File missing)\" errors.\n• Strict lowercase file extensions (.mp4, .jpg, .mp3) across Android, iOS, and Desktop Tauri.\n• In-app media player audio cleanup to prevent background playback leaks.\n• Tauri desktop cross-platform scraperFetch bridge fix.",
-          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.3.1/Mori-v4.3.1-iOS-Unsigned.ipa",
-          "size": 1617871,
+          "version": "4.3.2",
+          "date": "2026-09-10T23:57:25Z",
+          "localizedDescription": "What's New in v4.3.2.\n\n• History Favorites: Interactive favorite button with auto-pinning to top of history list and auto-clear protection.\n\n• Expanded Localization: Added 30 new translation keys with 100% key parity across all 9 supported languages.\n\n• Blank Video Thumbnails: Switched to dynamic 50% mid-frame extraction to prevent white or blank thumbnails caused by intro fades.\n• Thumbnail Orientation: Fixed 9:16 vertical video thumbnails incorrectly rotating into landscape orientation.\n\n• Active Slide Sync: Fixed directory path not updating when switching between video and audio slides in history modal.\n• Video Preview Glitch: Fixed split or distorted preview frames on high-framerate videos.\n• Share Overlay: Fixed binary scraper payload loading and security handshake in Android ShareActivity.\n• UI Text Selection: Disabled unwanted native text selection and long-press context menus on cards and dialogs.",
+          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.3.2/Mori-v4.3.2-iOS-Unsigned.ipa",
+          "size": 1697564,
           "minOSVersion": "14.0"
         }
       ],
