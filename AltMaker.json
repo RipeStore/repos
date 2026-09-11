@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.naine.doer",
     "com.noopapp.noop",
-    "com.mori.downloader"
+    "app.mangatan.mangatan",
+    "com.example.Mirarr"
   ],
   "apps": [
     {
@@ -1244,10 +1244,10 @@
       "versions": [
         {
           "version": "11.5.0",
-          "date": "2026-09-11T03:10:21Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.5.0).\n\n• Android (debug) — NOOP-android-debug-v11.5.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.5.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.5.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.5.0 · built 2026-09-11 · ec4ebab.",
+          "date": "2026-09-11T08:56:52Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.5.0).\n\n• Android (debug) — NOOP-android-debug-v11.5.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.5.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.5.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.5.0 · built 2026-09-11 · 8aebf2d.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.5.0.ipa",
-          "size": 20173847,
+          "size": 20183446,
           "minOSVersion": "17.0"
         }
       ],
@@ -2032,10 +2032,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-09-10T06:36:06Z",
-          "localizedDescription": "Release v6.1.10:\n\n• Explain Japanese pitch accent colors (18e6422).\n• Preserve actionable crash diagnostics across runtimes (8e267a2).\n• Add volume controls for Screen Lookup (647de02).\n• Track legacy decimal chapters by chapter number (fa3b004).\n• Preserve crash reporting during diagnostic storms (e0eaf43).\n• Revert \"Fix decimal chapter tracking\" (c2d20f6).\n• Close Screen Lookup dictionary when navigating (00a42e5).\n• Fix decimal chapter tracking (0e858ee).\n• Add Android Screen Lookup accessibility shortcut (37612ee).\n• Fix native library updates and exclusions (98551f9).\n• Open Screen Lookup settings from overlay menu (947e85e).\n• Keep OCR selection aligned (0cdc0d4).\n• Keep media actions clear of start buttons (16a9c48).\n• Resolve relative video URLs before opening (3b64b2e).\n• Fix profile switching in Screen Lookup (e27da0e).\n• Stabilize desktop popup startup (28498ed).\n• Keep player dialogs readable across themes (c7fabda).\n• Keep sort arrows visible across themes (3329978).\n• Sync tracker progress when opening media details (c8ec3df).\n• Support video sources (8fe3299).\n• Retire enhanced Japanese subtitles (41bea66).\n• Retry macOS bootstrap verification (cadf386).\n• Protect macOS build signing (0044287).\n\n• Serialize macOS code signing (c0f6cf0).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.10/Manatan-v6.1.10-iOS.ipa",
-          "size": 364856489,
+          "date": "2026-09-11T08:46:12Z",
+          "localizedDescription": "Release v6.1.12:\n\n• Stabilize Screen Lookup navigation popups (5b753d2).\n• Deduplicate Apple signing keychains (9327a33).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.12/Manatan-v6.1.12-iOS.ipa",
+          "size": 365696409,
           "minOSVersion": "16.1"
         }
       ],
@@ -2793,11 +2793,11 @@
       ],
       "versions": [
         {
-          "version": "3.3.2",
-          "date": "2026-07-27T16:03:41Z",
-          "localizedDescription": "Performance Improvements:\n\n• Offloaded watch history SQLite operations to a dedicated isolate to prevent UI thread blocking.\n• Deferred non-essential startup tasks until after the first frame paint.\n• Routed HTTP calls through a shared ApiClient singleton with connection reuse and timeouts.\n• Reduced detail page network requests by combining TMDB endpoints via append_to_response.\n• Scoped state rebuilds on detail pages, search tab switching, main shell, and theme settings.\n• Replaced live BackdropFilter blurs on bars, badges, and backgrounds with solid overlays.\n• Batched watch history updates for series and seasons into single database transactions.\n• Optimized shelf rendering using static skeletons, memCacheWidth poster sizing, and fixed item extents.\n• Added in-memory caching for web Hive watch history and region-sensitive Futures.\n• Streamlined watchlist loading by fetching pagination pages concurrently.\n\nBug Fixes & Refactoring:\n\n• Fixed missing dart:ui imports required for PointerDeviceKind scroll behavior.\n• Hardened search against stale API responses and query encoding errors.\n• Fixed mobile movie detail layout constraints and removed intrusive network error dialogs.\n• Resolved assertion errors in series season dropdowns within the F2M section.\n\n• Skeletonized genre headers on home shelves while names are loading.\n• Aligned series detail app bar colors, shelf contrast, and desktop action buttons with movie pages.\n\nAsset Cleanup:\n\n• Removed custom fonts and google_fonts dependency.",
-          "downloadURL": "https://github.com/mirarr-app/mirarr/releases/download/3.3.2/mirarr.ipa",
-          "size": 11717881,
+          "version": "3.3.3",
+          "date": "2026-09-11T08:30:12Z",
+          "localizedDescription": "• Fix text in profile page and discover page being not readable.\n• Fix omarchy theme path to align with Omarchy Quattro.",
+          "downloadURL": "https://github.com/mirarr-app/mirarr/releases/download/3.3.3/mirarr.ipa",
+          "size": 11800313,
           "minOSVersion": "13.0"
         }
       ],
