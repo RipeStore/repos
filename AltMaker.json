@@ -9,8 +9,8 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.aigch.getMoreRam",
-    "com.nuvio.media",
+    "com.tfourj.Palladium",
+    "app.mangatan.mangatan",
     "com.noopapp.noop"
   ],
   "apps": [
@@ -442,11 +442,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.8",
-          "date": "2026-09-08T17:38:33Z",
-          "localizedDescription": "Bug Fixes:\n\n• Declare the OpenSSL encryption in Info.plist (a34a694).\n• Link the settings to the site privacy policy and terms (561bcd6).\n• Run RGSS2 games on Ruby 1.8 and skip the def stat in the endless-def sniff (d846d5d).\n\nChores:\n\n• Pin engine-2026-09-08 with the font substitution fix (58a316f).\n\nDocumentation:\n\n• Build the privacy, terms, and support pages from root markdown files (9eb43ce).\n\nFeatures:\n\n• Add the App Store listing and the review notes (2b45040).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.6.8/Empo-0.6.8-unsigned.ipa",
-          "size": 19361306,
+          "version": "0.6.9",
+          "date": "2026-09-12T06:12:38Z",
+          "localizedDescription": "Bug Fixes:\n\n• Compare unpacked bytes with fixtures instead of CryptoKit hashes (d03fcce).\n\nChores:\n\n• Pick up the pointer injection bridge and the async mouse fix (#147) (ea7385b).\n\nFeatures:\n\n• Unpack games packed with Enigma Virtual Box (7332eff).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.6.9/Empo-0.6.9-unsigned.ipa",
+          "size": 19380389,
           "minOSVersion": "26.0"
         }
       ],
@@ -1244,10 +1244,10 @@
       "versions": [
         {
           "version": "11.6.0",
-          "date": "2026-09-12T01:31:49Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.6.0).\n\n• Android (debug) — NOOP-android-debug-v11.6.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.6.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.6.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.6.0 · built 2026-09-12 · 2d4e2e3.",
+          "date": "2026-09-12T07:21:55Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.6.0).\n\n• Android (debug) — NOOP-android-debug-v11.6.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.6.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.6.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.6.0 · built 2026-09-12 · c2f773a.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.6.0.ipa",
-          "size": 20248773,
+          "size": 20258668,
           "minOSVersion": "17.0"
         }
       ],
@@ -2032,10 +2032,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-09-11T08:46:12Z",
-          "localizedDescription": "Release v6.1.12:\n\n• Stabilize Screen Lookup navigation popups (5b753d2).\n• Deduplicate Apple signing keychains (9327a33).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.12/Manatan-v6.1.12-iOS.ipa",
-          "size": 365696409,
+          "date": "2026-09-12T07:53:16Z",
+          "localizedDescription": "Release v6.1.13:\n\n• Show item totals across media libraries (16c3d59).\n• Keep Screen Lookup popups clear of OCR text (8d6e2ae).\n• Reset Screen Lookup cursor for new captures (856ae2f).\n• Keep Screen Lookup volume gestures reserved (611db3d).\n• Close Screen Lookup with volume-up hold (ebf9e47).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.13/Manatan-v6.1.13-iOS.ipa",
+          "size": 365685686,
           "minOSVersion": "16.1"
         }
       ],
@@ -2441,11 +2441,11 @@
       ],
       "versions": [
         {
-          "version": "1.4.1",
-          "date": "2026-09-06T00:10:31Z",
-          "localizedDescription": "• Fix gallery-dl previews in picker.\n• Fix incorrect quality/format labels in format-list picker.\n• Fix gallery-dl video thumbnails.",
-          "downloadURL": "https://github.com/tfourj/Palladium/releases/download/v1.4.1/Palladium-v1.4.1.ipa",
-          "size": 36465126,
+          "version": "1.4.2",
+          "date": "2026-09-12T08:09:58Z",
+          "localizedDescription": "• Add language switcher.\n\nLocalization:\n\n• Added Japanese translation (#60).",
+          "downloadURL": "https://github.com/tfourj/Palladium/releases/download/v1.4.2/Palladium-v1.4.2.ipa",
+          "size": 36509307,
           "minOSVersion": "17.0"
         }
       ],
