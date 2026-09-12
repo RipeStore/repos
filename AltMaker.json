@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.aigch.getMoreRam",
     "com.noopapp.noop",
-    "com.dreamplayer.app",
-    "moe.itoapp.ito"
+    "com.dreamplayer.app"
   ],
   "apps": [
     {
@@ -1276,10 +1276,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-09-12T03:26:21Z",
+          "date": "2026-09-12T14:39:53Z",
           "localizedDescription": "This is a nightly release created automatically with GitHub Actions workflow.",
           "downloadURL": "https://github.com/hugeBlack/GetMoreRam/releases/download/nightly/GetMoreRam.ipa",
-          "size": 633815,
+          "size": 2305445,
           "minOSVersion": "16.0"
         }
       ],
