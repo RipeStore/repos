@@ -38,6 +38,14 @@
       },
       "versions": [
         {
+          "version": "0.13.0",
+          "buildVersion": "182a287",
+          "date": "2026-09-13T10:17:30Z",
+          "localizedDescription": "## Changes\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.12.0...0.13.0\r\n\r\n### New Features\r\n- Added remote debugging support.\r\n- The toolbar now minimizes into a compact strip and expands dynamically as you scroll. You can also enable this minimized mode manually by tapping **Hide Toolbar** in the address bar menu.\r\n\r\n### Bug Fixes & Improvements\r\n- Improved the responsiveness of form control elements.\r\n- Improved the positioning of the webpage text selection menu across different devices.\r\n- Improved how text input fields reposition above the software keyboard when editing.\r\n- Fixed a crash on startup that occurred on some versions of iOS 13 and 14.\r\n- Fixed numerous UI issues.",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.13.0/Reynard.ipa",
+          "size": 108082295
+        },
+        {
           "version": "0.12.0",
           "buildVersion": "9f99073",
           "date": "2026-09-06T11:24:49Z",
