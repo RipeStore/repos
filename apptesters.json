@@ -12,6 +12,38 @@
   },
   "apps": [
     {
+      "name": "Widgy",
+      "type": 1,
+      "bundleID": "boomer.Smart-Video",
+      "bundleIdentifier": "boomer.Smart-Video",
+      "version": "27",
+      "versionDate": "2026-09-13",
+      "fullDate": "20260913145255",
+      "size": 70274892,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2026/Widgy_27_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2026/Widgy_27_Pro_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Pro",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png"
+    },
+    {
+      "name": "Thenx",
+      "type": 1,
+      "bundleID": "com.calisthenics.thenx",
+      "bundleIdentifier": "com.calisthenics.thenx",
+      "version": "6.7.7",
+      "versionDate": "2026-09-13",
+      "fullDate": "20260913131735",
+      "size": 150252843,
+      "down": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2026/Thenx_6.7.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "downloadURL": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-09-2026/Thenx_6.7.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+      "developerName": "",
+      "localizedDescription": "Injected with Subscription Unlocked",
+      "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calisthenics.thenx.png",
+      "iconURL": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calisthenics.thenx.png"
+    },
+    {
       "name": "",
       "type": 1,
       "bundleID": "tech.miidii.MDBlank",

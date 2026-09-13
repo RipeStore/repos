@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "app.mangatan.mangatan",
-    "com.emp0ry.mirushin",
-    "com.aigch.getMoreRam"
+    "com.tumoflip.unleashedcompanion",
+    "com.noopapp.noop",
+    "io.github.johnny901901901.applesauce"
   ],
   "apps": [
     {
@@ -597,11 +597,11 @@
       ],
       "versions": [
         {
-          "version": "1.11.20",
-          "date": "2026-09-09T11:56:11Z",
-          "localizedDescription": "Included:\n\n• Background transfer recovery for firmware, FW Packages, Community Apps, and ESP32 staging. Transfers keep a scoped checkpoint and resume from the last verified boundary after the app is relaunched; iOS background execution remains bounded by the system.\n• nearby_files is now owned by Tumoflip FW Packages. Community Apps no longer offers a duplicate that could overwrite the package-owned route.\n• The package-owned route has a regression test and the app build is 273.\n\nValidation:\n\n• UnleashedTests: 606/606 passed on iPhone 17 Pro Simulator, iOS 26.4.\n• UnleashedUITests: 45/45 passed on iPhone 17 Pro Simulator, iOS 26.4.\n• Unsigned IPA build, nested ad-hoc signature verification, and version metadata checks passed.\n\nBreaking changes: none. Requires iOS 17 or later.",
-          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.20/TumoCompanion-unsigned.ipa",
-          "size": 25717915,
+          "version": "1.11.21",
+          "date": "2026-09-13T09:30:50Z",
+          "localizedDescription": "Исправлена выдача Dev-релизов после публикации Stable: если Stable выпускается позже последнего Dev в той же линии, приложение больше не показывает ложное No releases. Старые несовместимые Dev-линии по-прежнему скрываются. Добавлен регрессионный UI-сценарий и визуальная проверка на iPhone Simulator.",
+          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.21/TumoCompanion-unsigned.ipa",
+          "size": 25719843,
           "minOSVersion": "17.0"
         }
       ],
@@ -992,11 +992,11 @@
       ],
       "versions": [
         {
-          "version": "0.4.0",
-          "date": "2026-08-05T21:47:07Z",
-          "localizedDescription": "Applesauce 0.4.0:\n\nThis release renames the app. What was touchHLE for iOS is now Applesauce — a playful emulator for iOS. The name, icon and identifier are new; the emulation is the same as 0.3.0, plus the fixes below.\n\nApplesauce is an unaffiliated fork. The emulation is entirely the work of touchHLE and its fork HyperHLE, and neither project is connected to this one or endorses it. Please report problems here rather than to them.\n\nRead this first: your games do not move automatically:\n\nThe bundle identifier changed, so Applesauce installs alongside the old app with an empty library rather than replacing it.\n\n• Open Files and go to On My iPhone.\n• Find the old app's folder — HyperHLE if you had 0.2.0 or 0.3.0, touchHLE if you had 0.1.0.\n• Move touchHLE_apps from it into the Applesauce folder. Move touchHLE_sandbox too if you want your saves.\n• Delete the old app.\n\nApp-wide settings do not come across; set them again under Settings.\n\nThe deployment target drops from 17.4 to 15.0, and there are now three IPAs:\n\nThe TrollStore builds carry the memory entitlements that let older hardware map the emulator's 4GiB guest address space. A free Apple account cannot sign those, which is why this is a TrollStore route rather than a sideloading one.\n\nThe permanent-JIT build crashes on launch on A12 and newer (iPhone XS/XR onwards) — iOS 15 bans the entitlement it carries. Use the ordinary TrollStore build there.\n\niOS 15 and 16 are untested by this project. The support is back-ported from nerivalaitis' work, tested by them on iOS 15. Reports from those versions are the most useful thing you can send.\n\nFixes:\n\n• A game no longer dies when a rotation is refused. A guest asking to rotate while the host UI still has the old orientation pinned used to panic and take the whole game down mid-play; it now logs a warning and carries on.\n• Black screen after rotating, on games without a fullscreen layer. SDL recreates its framebuffer object when the window leaves and re-enters fullscreen, and compositing kept using the one cached at startup.\n• A crash inside the emulator no longer wedges the app. Panics were unwinding across the FFI boundary, leaving a black screen and a dead exit button with nothing in the log; they are now caught and reported.\n• Guest memory allocation falls back instead of failing outright when iOS refuses the full read-write mapping, which is what blocked older devices.\n• JIT detection understands permanent JIT. A TrollStore install with dynamic-codesigning was previously told it had no JIT, and had to use \"Start Anyway\" every time.\n• Portrait is selectable under Settings → Starting Orientation, for games that declare landscape but draw portrait anyway.\n• The previous run's log is kept as touchhle-host-previous.log, so force-quitting a hung game no longer destroys the log that recorded the hang.\n\nBoth emulator cores carry these fixes.\n\nCredits:\n\n• touchHLE — the original emulator.as the default core.\n• nerivalaitis — the iOS 15 back-port, TrollStore packaging and the memory-allocation fallback.",
-          "downloadURL": "https://github.com/johnny901901901/Applesauce/releases/download/ios-v0.4.0/Applesauce-iOS-unsigned.ipa",
-          "size": 45937768,
+          "version": "0.4.1",
+          "date": "2026-09-13T08:18:46Z",
+          "localizedDescription": "Applesauce 0.4.1:\n\nThis update improves the library, game-session cleanup and AltStore Classic distribution. It keeps the same bundle identifier as 0.4.0, so it updates an existing Applesauce installation and retains its library and saves.\n\nIn AltStore Classic, open Sources → + and add:\n\nChoose Applesauce from the source. Future releases appear in AltStore; you do not have to download a new IPA manually each time. Signing, refresh and JIT requirements still apply. The source does not enable JIT automatically.\n\nFull installation and JIT guide.\n\nFixes:\n\n• Importing copies files away from the main UI thread and coordinates access with Files providers such as iCloud Drive. A failed copy is cleaned up before it can appear as a partially imported game.\n• Repeated taps cannot queue overlapping game launches. Library reloads are also suppressed while a game or import is active.\n• Malformed game metadata that causes the HyperHLE parser to panic is caught at the native bridge. The library uses this parser regardless of the chosen gameplay core and falls back to a filename when metadata is unreadable.\n• The FPS timer no longer retains the game-controls screen after exiting.\n• The exit button respects the screen's safe area, and returning to the library uses the iOS 15 orientation fallback too.\n\n• Building a second core copies only that core, avoiding accidental overwrite of a newer core with a stale file from another checkout.\n\n• Migration instructions include saves and correctly explain which settings need to be reselected.\n\nThe AltStore source is checked against the unsigned IPA's version, build, minimum iOS, size, checksum and permissions. A release workflow updates the source for future published releases; prereleases and TrollStore packages are excluded from that automatic update.\n\nDownloads:\n\n• Applesauce-iOS-unsigned.ipa: AltStore Classic and other ordinary sideloaders.\n• Applesauce-iOS-trollstore.ipa: the existing TrollStore route for supported older iOS devices, with JIT enabled through TrollStore.\n• Applesauce-iOS-trollstore-permanent-jit.ipa: A11 and older only. Do not install this variant on A12 or newer devices.\n\nThe emulator versions remain HyperHLE v1.0.6 and touchHLE 0.2.3. This release does not claim additional game compatibility or fix the known Sims Medieval.\n\nfresh device regression testing of 0.4.1 is still needed.\n\nNo games are included. Full credit for emulation belongs to touchHLE and HyperHLE. Applesauce is an independent, unofficial port.",
+          "downloadURL": "https://github.com/johnny901901901/Applesauce/releases/download/ios-v0.4.1/Applesauce-iOS-unsigned.ipa",
+          "size": 46123889,
           "minOSVersion": "15.0"
         }
       ],
@@ -1244,10 +1244,10 @@
       "versions": [
         {
           "version": "11.6.0",
-          "date": "2026-09-12T13:18:01Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.6.0).\n\n• Android (debug) — NOOP-android-debug-v11.6.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.6.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.6.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.6.0 · built 2026-09-12 · a9e3d39.",
+          "date": "2026-09-13T09:30:22Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.6.0).\n\n• Android (debug) — NOOP-android-debug-v11.6.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.6.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.6.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.6.0 · built 2026-09-13 · 69ece60.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.6.0.ipa",
-          "size": 20264535,
+          "size": 20271505,
           "minOSVersion": "17.0"
         }
       ],
@@ -2032,10 +2032,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-09-12T21:42:00Z",
-          "localizedDescription": "Release v6.1.14:\n\n• Keep Screen Lookup navigation responsive (c526b07).\n• Restore Screen Lookup cursor to the previous text box (8b2108b).\n• Unify library sync status (c7e27d8).\n• Persist SRS admin metrics snapshots (5cbcb94).\n• Include novel results in global update summaries (caf8e83).\n• Merge matching SRS note types during sync (5f3a901).\n• Prevent Windows update restart directory locks (e13fa3d).\n• Show video results in update summaries (9bac635).\n• Make Manatan SRS the default flashcard provider (8989997).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.14/Manatan-v6.1.14-iOS.ipa",
-          "size": 365871160,
+          "date": "2026-09-13T08:11:35Z",
+          "localizedDescription": "Release v6.1.16:\n\n• Fix novel position restore after inline images (01d1473).\n\n• Fix manatan extension ordering (fdef05e).\n• Add configurable Screen Lookup copy shortcut (508594f).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.16/Manatan-v6.1.16-iOS.ipa",
+          "size": 365890026,
           "minOSVersion": "16.1"
         }
       ],
