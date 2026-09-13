@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.exaltedpixels.LensLinkCamera",
     "com.emp0ry.mirushin",
-    "moe.itoapp.ito",
-    "com.noopapp.noop"
+    "moe.itoapp.ito"
   ],
   "apps": [
     {
@@ -3203,11 +3203,11 @@
       ],
       "versions": [
         {
-          "version": "1.10.2",
-          "date": "2026-09-08T06:27:15Z",
-          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nOther changes:\n\n• Site: cut the setup guide roughly in half.\n• Plugin: diagnostics report, decode counters, and say when the green screen is on.",
-          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.10.2/LensLink-unsigned.ipa",
-          "size": 1042510,
+          "version": "1.11.0",
+          "date": "2026-09-13T21:42:03Z",
+          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nOther changes:\n\n• App: readable dim-screen battery readout, and background streaming via Picture in Picture.",
+          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.11.0/LensLink-unsigned.ipa",
+          "size": 1057008,
           "minOSVersion": "15.0"
         }
       ],
