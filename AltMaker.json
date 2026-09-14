@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.emp0ry.mirushin",
     "com.nuvio.media",
-    "com.raton.flashcards",
-    "com.dreamplayer.app"
+    "com.raton.flashcards"
   ],
   "apps": [
     {
@@ -1365,11 +1365,11 @@
       ],
       "versions": [
         {
-          "version": "2.8.6",
-          "date": "2026-09-13T17:17:28Z",
-          "localizedDescription": "MiruShin continues to evolve as a modern and comfortable way to watch and discover media, with each update focused on making the experience smoother, cleaner, and more enjoyable across the app.\n\nWhat's New:\n\n• Fixed player sessions not terminating correctly and restored proper playback speed handling.\n• Fixed expired airing schedules still appearing in the Library.\n• Improved seeking controls by separating arrow tap and hold behavior.\n\nv2.8.5:\n\n• Fixed streams freezing during startup and playback unexpectedly resuming after being paused.\n• Fixed playback-speed changes causing stalls or showing a speed that was not actually applied.\n\n• Added accumulated seek-distance feedback when repeatedly using the left and right arrow keys.\n• Improved the Library AniList outage notice with scrolling, MyAnimeList fallback status, dismissal, and correct spacing.\n\nv2.8.2:\n\n• Improved add-on import, export, and backup reliability across devices.\n• Fixed add-on restoration so exported configurations retain required module data and settings.\n\nv2.8.1:\n\n• Fixed MAL and Shikimori fallback responses overriding AniList library status and progress after an AniList outage.\n• AniList now remains canonical when selected as the primary tracker, while fallback snapshots stay available without reopening completed titles.\n• Local changes made during an outage remain queued and sync to AniList first, then independently to connected MyAnimeList and Shikimori accounts.\n• Prevented automatic playback progress from reopening completed titles or dropping rewatching status.\n• Entry edits now sync only fields that actually changed, so score or notes edits cannot overwrite status or progress.\n\nv2.8.0:\n\n• Added MyAnimeList fallback for AniList outages across Board, Discovery, media details, Library, and Watch Order, with automatic return to AniList after recovery.\n• Added local-first tracking: progress, favorites, status, score, notes, repeat count, and dates are saved locally and safely synchronized later.\n• AniList, MAL, and Shikimori now synchronize independently using stable media identity, offline mutation queues, provider health tracking, and conflict resolution.\n• Library filters, sorting, Watch, Edit, Play, and continue-watching now work with locally cached and MAL fallback data during AniList outages.\n• Fixed AniList outage banner spacing in Library to match Board and Discovery.\n\n• Video quality can differ between participants while the episode, module, server, and voiceover remain synchronized.\n\n• Added a dedicated Buy Me a Coffee support card after Accounts in AniList Settings and below MiruShin updates in TMDB Settings.\n\nv2.7.12:\n\n• Fixed Security Check verification loops on macOS and iOS.\n• Fixed content not loading after completing verification.\n• Prevented duplicate Security Check windows from opening.\n• Improved cookie persistence and browser session handling during verification.\n• Fixed offline HLS playback on macOS.\n\nv2.7.11:\n\n• Improved AniList reliability with a 30-second timeout and one automatic retry before falling back to cached data.\n\nv2.7.10:\n\n• Added automatic anime Watch Order with full franchise discovery and a Main story only filter.\n• Added AniList progress and bold, theme-colored status labels to Watch Order.\n• Replaced Related Titles with a cleaner, transparent Watch Order list.\n• Cached Anime Themes for the current session to prevent repeated loading.\n\nv2.7.9:\n\n• Added clean share links for AniList anime and manga and TMDB movies and TV shows.\n• Improved link safety while keeping existing MiruShin links fully compatible.\n\nv2.7.8:\n\n• Added clearly labeled IMDb ratings to TMDB movie/series and matched AniList anime detail pages, displayed directly after the original score.\n• Profile action cards now fit up to five per row on larger screens, with additional cards wrapping cleanly.\n\nv2.7.7:\n\n• Fixed Compact Cards appearing outside the row edges while scrolling, while preserving hover effects.\n• Compact Cards are now disabled by default; existing saved preferences remain unchanged.\n\nv2.7.6:\n\n• Expanded the AniList Board with Favorites, Airing, Upcoming, Finished, Newest, and Recently Updated sections.\n• Added adaptive pagination to Board and Discovery: compact rows load automatically, while wide grids offer Load More and fetch results based on screen size.\n• Made compact cards the default and improved responsive layouts with up to eight columns.\n• Polished poster clipping, gradients, hover animations, and button press effects.\n• Reduced the media-details hero height and improved Board loading feedback.\n\nv2.7.5:\n\n• Added a Fanart.tv-powered Gallery to Media Details with 4K-first backgrounds, cached results, and an optional securely stored API key in Settings.\n• Added a fullscreen Gallery viewer with original-resolution artwork, swipe and arrow navigation, zooming, and an image counter.\n\n• Improved Discovery on large screens with responsive filter controls and up to eight poster columns while preserving compact mobile layouts.\n\nv2.7.4:\n\n• Added cross-platform MiruShin deep links for opening AniList and TMDB titles directly in the app.\n\n• Opening an AniList or TMDB MiruShin link now automatically switches to the matching catalog.\n• Watch with Friends default invites now use normal clickable HTTPS links, while existing mirushin:// invite links remain supported.\n• Improved Self-hosted Relay invites with cleaner direct HTTPS links and browser landing pages for opening rooms in MiruShin.\n• Added a Setup Guide button for Self-hosted Relay configuration, with English, Russian, and Japanese localization.\n• Improved macOS fullscreen transitions so the player waits for the native fullscreen transition to actually finish before closing or opening the next episode.\n• Improved timeline hover and drag handling, preventing seek previews and player controls from getting stuck after fullscreen or window-state changes.\n• Improved progressive seek previews to prefer the later thumbnail when two cached frames are equally close to the selected position.\n• Fixed backup exports not correctly including some saved list-based settings and filters on desktop platforms.\n\nv2.7.3:\n\n• Added cross-platform MiruShin deep links for opening AniList and TMDB titles directly in the app on Windows, Linux, macOS, Android, and iOS.\n• Added shareable MiruShin links to media details, alongside the original AniList or TMDB page links.\n\n• Opening an AniList or TMDB MiruShin link now automatically switches to the matching catalog.\n• Watch with Friends default invites now use a normal clickable HTTPS link that opens the room in MiruShin, while existing mirushin:// invites remain supported.\n• Improved Self-hosted Relay invites with clean HTTPS links using the relay address directly, without redundant relay or transport parameters.\n• Added browser landing pages for Self-hosted Relay invites with an Open in MiruShin action.\n\nv2.7.2:\n\n• Added full MiruShin configuration backup and restore in Settings → Data & backup.\n• Backups include app and player settings, saved page and library filters, viewing progress, per-title stream choices, Watch with Friends relay and trust settings, installed Sora add-ons, source cookies, and local source state.\n• AniList, MyAnimeList, and Shikimori sessions, profiles, saved AniList accounts, user settings, access tokens, and avatar URLs are included, along with configured TMDB and TVDB credentials.\n\n• Improved Watch with Friends so guests retain their local and tracker progress while episode navigation and auto-next remain controlled by the host.\n• Prevented locked guests from triggering next-episode actions through automatic playback, player controls, keyboard shortcuts, or Picture-in-Picture.\n• Improved Watch with Friends synchronization by ignoring implausible cross-device timestamp differences that could incorrectly advance playback.\n• Reworked compact media detail pages with responsive poster and text scaling, improved forced-compact behavior, and better narrow-screen layouts.\n• Improved the fullscreen poster and background viewer: single tap closes it, double tap resets zoom, and existing zoom, drag, Escape, and system-back controls remain supported.\n• Added complete English, Russian, and Japanese localization for backup and restore controls, warnings, confirmations, results, and errors.\n\nv2.7.1:\n\n• Added an option to enable or disable seek previews in Player Settings.\n• Improved Watch with Friends with copyable invite links and additional localized room, connection, and relay controls.\n• Posters can now be opened and viewed fullscreen from media details.\n• Background images can now be opened and viewed fullscreen from media details.\n\nv2.7.0:\n\n• Added Self-hosted Relay support for Watch with Friends as an alternative when the default peer-to-peer connection does not work.\n• Self-hosted rooms support one host and multiple guests at the same time.\n• Added relay configuration and connection testing directly in Watch with Friends settings.\n• Guests can join self-hosted rooms through invite links without manually configuring the relay.\n\n• Added a complete open-source Cloudflare relay implementation that users can deploy and host themselves.\n• The relay only handles Watch with Friends synchronization and never proxies video or audio streams.\n\nv2.6.9:\n\n• MiruShin now remembers your selected server and quality for each title and restores them automatically.\n• Next episodes are prepared in the background for faster, smoother auto-next transitions.\n• Added cache retention settings for metadata and artwork, with options from 1 week to never expire.\n• Improved cache management so artwork and metadata share the configured cache size more efficiently.\n• Watch with Friends hosts can now allow guests to change streams during a watch party.\n• Guests can see which playback controls they have permission to use.\n\nv2.6.8:\n\n• Added progressive seek previews for online videos.\n• Previews generate across the entire timeline in multiple refinement passes.\n• The closest available preview appears immediately and improves as more frames generate.\n• Generation continues in the background while the player is open.\n• Choose between Progressive timeline (default) and On demand in Player Settings.\n• Offline seek previews remain unchanged.\n\nv2.6.7:\n\n• Fixed Cloudflare security verification getting stuck in a refresh loop.\n• Fixed source parsing starting before verification was complete.\n• Removed duplicate WebView navigation events on Windows.\n• Improved Cloudflare reliability across Windows, Android, iOS, and macOS.\n\nv2.6.6:\n\n• Added seek thumbnail previews for faster and more accurate timeline navigation.\n• Improved timeline hover and seek behavior without moving the real playback position.\n\n• Auto-next now always starts the next episode from 00:00 while manual episode selection still resumes saved progress.\n• Fixed auto-next failing after returning to and rewatching a previous episode.\n• Fixed episodes occasionally getting stuck at the end instead of advancing.\n• Added stricter end-of-episode detection to prevent premature auto-next.\n• Fixed manual seeking occasionally jumping back to the previous playback position.\n• Improved FVP/MDK handling of stale end-of-stream events during and after seeking.\n• Improved playback recovery for premature or inconsistent stream EOF states.\n• Fixed fullscreen state being incorrectly carried to the next episode on desktop.\n• Fullscreen transitions now follow the player's actual current fullscreen state.\n• Improved next-episode stream resolution and retry handling.\n• Episode selection now remains visible while the next stream is being resolved.\n• Improved offline episode continuation and auto-delete reliability.\n• Added safer playback generation tracking to prevent stale callbacks and duplicate episode transitions.\n• Added 2.25x and 2.75x playback speed options.\n• Improved native PiP completion and progress handling.\n• iOS Home Indicator now stays auto-hidden across player navigation and auto-next transitions.\n• Various playback stability improvements, race-condition fixes, and regression tests.\n\nv2.6.5:\n\n• Fixed Sora/Cloudflare security checks not completing on Android, iOS, and macOS.\n• Fixed protected requests failing after verification by keeping them in the verified browser session.\n• Fixed redirected requests losing their original endpoint path and query.\n\nv2.6.4:\n\n• Fixed Sora/Cloudflare security checks not completing on Android, iOS, and macOS.\n• Fixed Windows crashes when starting Sora/Cloudflare security checks.\n• Fixed protected-source parsing across supported platforms.\n\nv2.6.3:\n\n• Fixed protected-source parsing across Android, iOS, macOS, and Windows.\n\nv2.6.2:\n\n• Fixed Sora/Cloudflare security checks crashing after completion on Windows.\n• Fixed browser session and cookie handling across supported platforms.\n\nv2.6.1:\n\n• Fixed Sora/Cloudflare security checks crashing after completion on Windows.\n• Fixed browser session and cookie handling across supported platforms.\n\nv2.6.0:\n\n• Fixed Sora and Cloudflare challenge handling on Windows.\n• Improved playback reliability with smarter stream fallbacks and DASH-to-HLS support.\n\n• Added faster, more resilient catalog loading with metadata caching.\n• Hidden AniList account and tracker connections while using the TMDB catalog.\n\nv2.5.0:\n\n• Fixed offline playback occasionally freezing around 7 seconds with automatic stall recovery.\n• Randomized the Board hero from the top 20 anime.\n• Improved AniList profile action buttons with a compact mobile layout.\n• Added the Z keyboard shortcut for player zoom.\n• Added a persistent option to enable or disable horizontal swipe seeking.\n• Improved mobile volume behavior and disabled vertical swipe volume gestures on all devices.\n• Redesigned and repositioned Watch, Trailer, and Edit buttons for responsive layouts.\n• Fixed an AniList details overflow affecting popularity and favorites on narrow screens.\n\nv2.4.4:\n\n• Fixed the blank-window startup crash.\n\nv2.4.3:\n\n• Improved airing notification reliability when platform services are unavailable.\n• Improved playback and external-link diagnostic logging.\n• Reorganized internal code for clearer feature boundaries and easier maintenance.\n• Improved automated testing across catalog, widget, Sora, and Worker components.\n\n• General stability and maintenance improvements.\n\nv2.4.2:\n\n• Improved play/pause responsiveness and playback resume stability.\n\n• Choose whether airing notifications include all eligible titles or only Watching/Rewatching.\n• Removed the AniList Profile Feed and Reviews sections.\n\nv2.4.1:\n\n• Added anime opening and ending themes to anime detail pages.\n• Fixed playback time jumping backward after seeking or skipping an opening or ending.\n• Fixed Skip and Undo buttons appearing at the same time while buffering.\n\nv2.4.0:\n\n• Expanded Russian and Japanese translations across filters, settings, profiles, libraries, and media details.\n• Localized player and trailer controls, along with AniList entry labels.\n• When Russian (Shikimori) is selected, Shikimori YouTube trailers now prioritize Озвучка, followed by Субтитры.\n\nv2.3.0:\n\n• Added much better filters in Discovery, Library, and Source Modules.\n• Filters now support include and exclude actions.\n• Added much better filters in Discovery, Library, and Source Modules.\n\n• Added AniList source/origin filters, adult content filter, licensing filter, and improved tag browsing/search.\n• Improved Library filters with sorting/grouped tags and extra metadata filters.\n\n• Added ASS/SSA subtitle parsing support.\n• Improved player stability when streams fail to load or internet is weak.\n• Made seeking more reliable so the player position and progress UI stay in sync.\n• Fixed player controls sometimes not hiding properly on mobile/iOS.\n• Improved keyboard shortcut handling in the player.\n• Improved Skip OP/ED button visibility so it follows the player UI correctly.\n\nv2.2.0:\n\n• Watch with Friend: watch any episode in sync with a friend over a peer-to-peer connection.\n• Create a room, share the 6-character code or QR, and playback stays locked together automatically.\n• Host playback actions like play, pause, seek, and speed changes are instantly mirrored to the guest with drift correction.\n• The host can optionally allow the guest to control playback, seek, or change speed.\n• The guest resolves the stream source locally, so video is not routed through a server and quality is unaffected.\n• Auto-reconnect after brief network drops, so the party can resume without rejoining.\n\nv2.0.2:\n\n• Added left-edge swipe-back gesture support on mobile.\n\nv2.0.0:\n\n• Added Cloudflare verification support: when required, a webview opens for captcha verification, then continues automatically after verification is complete.\n\n• Improved subtitle parsing, including more accurate language detection and display.\n• Improved the quality picker for better handling of streams with multiple quality options.\n\nv1.9.0:\n\n• Added MyAnimeList and Shikimori account connections alongside AniList.\n• Sync your status, episode progress, and score across AniList, MyAnimeList, and Shikimori.\n• Sign in securely from Settings -> Connections using OAuth.\n• Choose your Library source from AniList, MyAnimeList, or Shikimori.\n• Offline updates are now queued and synced automatically when you are back online.\n• Added optional custom API credentials for MyAnimeList and Shikimori.\n• Your tokens are stored securely on your device.\n\nv1.8.1:\n\n• Fixed auto next episode and watched progress triggering too early on unstable or reloaded streams.\n• Next episode button now counts down 5 to 1, then closes the player if you don't continue.\n• Next episode button shows shortly after the episode ends instead of instantly.\n• Added a keyboard shortcuts and touch gestures panel in player settings.\n• New keys: C toggles subtitles, P enters Picture in Picture, V skips intro/outro or goes to next episode.\n\nv1.8.0:\n\n• Added an Episodes button in the player so you can jump to any episode directly.\n• Improved player controls so labels switch to icons earlier and never feel cramped.\n\n• Now Playing now shows the real AniList/TMDB title in your selected language, with smart fallback support.\n• Fixed TMDB library progress showing 0% instead of the correct watch percentage.\n• Settings now adapt to your selected catalog mode.\n• TMDB mode now hides AniList options and accounts.\n• AniList mode now hides TMDB-specific options.\n• Removed the redundant TMDB enable toggle.\n• Added a new Compact cards toggle for Board cards.\n\n• Removed unused settings: Poster card style, Subtitle preferred language, and Region/country.\n• Removed the redundant Discovery status bar for a cleaner browsing experience.\n\nv1.7.3:\n\n• Added an MSI installer for Windows (.msi), alongside the existing setup .exe and portable .zip. The MSI lets you choose a per-user or all-users install.\n• Fixed Android TV D-pad navigation on the Home and Discovery screens: focus no longer skips the movie posters and jumps straight to the \"see more\" / \"Load more\" button, so you can now reach and select every poster.\n\nv1.7.2:\n\n• Fixed playback speed not being restored after the player restarts.\n• Added a short delay before auto-playing the next episode after the current stream finishes.\n\nv1.7.1:\n\n• Added Clear All and Apply buttons to the source filter.\n• Updated several localization strings.\n\nv1.7.0:\n\n• Added a new Sources page. You can open it from the Sources button on the Addons page.\n• You can now add your own catalog by pasting a catalog URL, for example example.com/modules.json.\n• You can open a source, browse its addons, and install them into your library with one tap.\n• Addons that are already installed are now clearly marked.\n• Added search by addon name, author, language, and type.\n• Added filters for multiple languages and types at the same time, for example Russian + English or anime + movies.\n\n• You can now refresh, rename, copy the URL, or remove a source.\n• Removing a source will not remove your installed addons.\n\nv1.6.4:\n\n• Added support for adding addons by addon ID.\n\nv1.6.3:\n\n• TMDB season picker now shows the real number of seasons from the addon.\n• Fixed watch progress not tracking for TMDB episodes in the local library, including across auto-next season changes.\n\nv1.6.2:\n\n• Fixed auto-next episode and watch progress for auto-played episodes.\n\n• Previously, when an episode started automatically, watch progress was not saved and the next episode did not play correctly.\n• Now every episode saves progress, marks itself as watched at 85%, and reliably continues to the next episode.\n\nv1.6.0:\n\n• Android TV support with Leanback launcher/banner, TV-aware navigation, focus rings, and d-pad-friendly cards.\n• Player remote fixes: OK play/pause, paused UI focus navigation, Settings/Quality/Episodes/Subtitles reachable by d-pad, sliders no longer trap focus, Back hides chrome first.\n• Android TV WebView cursor improvements: smaller/smoother cursor, native tap fallback, better keyboard/textbox handling, and cursor support for YouTube trailers.\n• AniList editor improvements from TV: hold OK on media cards opens entry edit actions where supported.\n• Library/search/addon/settings text fields improved for d-pad escape.\n• Playback fixes including seek/d-pad fixes, PiP handling fixes, iOS PiP fix, and player back-button fixes.\n• AniList and Shikimori metadata/library fixes.\n\nv1.5.0:\n\n• Improved auto-next episode, mark as watched, and AniList sync.\n• Fixed progress on finished streams, even when the stream jumps back to 0:00.\n• Fixed player controls and mouse cursor not hiding after auto-next.\n• Fixed buffering spinner sometimes staying visible after playback resumes.\n• AniList now marks anime as Completed when you finish the last known episode.\n• Fixed Trailer button, now it appears correctly on all devices.\n• Moved Auto AniList progress setting, now it only shows in the AniList catalog.\n• Fixed settings not saving after app restart.\n• Poster card style and compact mode are now remembered.\n\nv1.4.4:\n\n• Added a built-in TMDB key, so MiruShin works out of the box.\n• TMDB metadata now loads on first launch without setup.\n• Added a Use custom API key option in Settings -> API Connections.\n• You can still use your own TMDB Read Access Token if needed.\n• TMDB metadata is now enabled by default.\n\nv1.4.3:\n\n• Improved video playback reliability.\n• Fixed some streams not playing when proxy playback failed.\n• The player now automatically tries another playback method when needed.\n\nv1.4.2:\n\n• Episodes in the TMDB Catalog are now sorted by season.\n\nv1.4.1:\n\n• Fixed WebView support on Windows. YouTube trailers now play correctly on Windows.\n\nv1.4.0:\n\n• Added trailer support for AniList and TMDB catalogs. The trailer button is shown only when a trailer is available.\n\nv1.3.8:\n\n• Improved the anime and manga detail pages with a cleaner and more polished layout.\n• Improved the Edit button design and placement.\n• AniList cards now always open the Edit page in AniList mode.\n• Fixed Auto-Next so it now keeps the server selected inside the player. The next episode will resolve using the chosen server instead of falling back to the old or default one.\n\nv1.3.7:\n\n• Added pinch-out gesture support in the player to switch to Zoom mode.\n• Added pinch-in gesture support to switch back to Normal mode.\n• Improved the left sidebar behavior, so it now switches states earlier and feels more responsive.\n• Reduced the height of the top and bottom black fog effects in the player UI for a cleaner viewing experience.\n• Fixed player initialization: the video now repaints immediately instead of waiting for mouse movement to trigger a rebuild.\n\nv1.3.6:\n\n• Added a custom accent color picker.\n• Removed unused options from Settings for a cleaner experience.\n\nv1.3.5:\n\n• Added a floating popup notification for new app updates.\n• Improved mobile auto-next playback. The next episode now opens immediately in fullscreen player mode for a smoother watching experience.\n\n• Fixed slow Choose Episode loading for custom/addon sources.\n• Episodes from the addon now appear first, using the addon’s own episode name and poster when available.\n• AniList/AniZip episode titles and thumbnails now load lazily only after the episode list is already shown.\n• Improved support for custom Sora episode formats, including grouped episode lists and chapter-style APIs.\n• Reduced stale search work when switching from Find Sources to Choose Episode.\n• Auto-next now fetches the latest addon episode list instead of relying on old cached episode data.\n\nv1.3.4:\n\n• Added animated hover backgrounds for Windows PiP buttons, making the controls feel smoother and more responsive.\n\nv1.3.3:\n\n• Smarter Escape key in the player.\n• Infinite scroll on AniList Favourites.\n\nv1.3.2:\n\n• Improved Picture-in-Picture support on Windows for a smoother and more native-like experience.\n• Fixed the missing app icon in the Linux .deb package.\n\nv1.3.1:\n\n• Fixed the Linux crash when opening an episode, video playback works again.\n• Added a .deb package for Debian/Ubuntu (AppImage and tar.gz still available).\n\nv1.3.0:\n\n• Added a second player engine for improved playback stability.\n• Added PiP-style mini player support for Windows and Linux.\n• Added ARB localization support for English, Russian, and Japanese.\n• Added a local HLS proxy for the MPV player engine.\n\nv1.2.2:\n\n• Added startup page selection in Settings.\n• Added skip-marker source selection in Player Settings.\n• Improved iOS PiP exit handling so the player restores correctly.\n• Fixed AniList sync for the Favorite heart button.\n• Changed the default catalog mode to AniList.\n\nv1.2.0:\n\n• Added support for custom headers for subtitle tracks and network requests.\n• Fixed the AniList favorites list and added a Load More button.\n• Added a Windows installer for easier installation.\n\nv1.1.1:\n\n• Updated the player loading indicator to use a cleaner white circular spinner.\n• Added timeline preview on the player progress slider.\n• Fixed the Android splash screen logo display.\n\nv1.1.0:\n\n• Added airing anime notifications for supported platforms.\n• Added favorites support for anime, manga, and edit pages.\n• Added AniList status badges on Board and Discovery posters.\n• Improved mobile double-tap seeking speed and feedback.\n• Changed swipe seeking to use 2-second steps.\n• Improved temporary speed badge position and styling.\n• Fixed iOS PiP close cleanup so the player overlay clears correctly.\n• Polished AniList edit dialog progress controls.\n• Improved anime and manga tags.\n• Added Edit action for Board and Discovery pages.\n\nv1.0.2:\n\n• Added Linux support.\n• Added a shortcut in Settings to open AniList settings.\n\nv1.0.1:\n\n• Hold Space or press and hold the screen to speed up video playback.\n\n• Fixed auto-next episodes so the correct episode name appears in the player.\n\nHelpful Notes:\n\n• MiruShin supports both TMDB and AniList catalog modes.\n• Sora-compatible modules appear as addons inside the app.\n\nWindows: the unsigned setup .exe may trigger a false-positive warning from Microsoft Defender or other antivirus. If that happens, use the .msi installer or the portable .zip instead.\n\nImportant Notice:\n\nMiruShin is a media player and interface layer. It does not host, provide, or distribute content.\n\n• Users are responsible for providing their own content.\n• Users must ensure they have legal rights to any content they access or use.\n• Users are responsible for complying with all applicable laws and respecting copyright and intellectual property rights.\n• MiruShin does not include Sora modules.\n• Third-party modules are the responsibility of their creators, not MiruShin or emp0ry.\n\nLinks:\n\n• 📦 Repository: https://github.com/emp0ry/MiruShin\n• 🔒 Privacy Policy: https://github.com/emp0ry/MiruShin/blob/main/PRIVACY_POLICY.md\n• ⚖️ Legal Notice: https://github.com/emp0ry/MiruShin/blob/main/LEGAL.md",
-          "downloadURL": "https://github.com/emp0ry/MiruShin/releases/download/v2.8.6/MiruShin-ios-v2.8.6.ipa",
-          "size": 29677867,
+          "version": "2.8.7",
+          "date": "2026-09-14T11:10:45Z",
+          "localizedDescription": "MiruShin continues to evolve as a modern and comfortable way to watch and discover media, with each update focused on making the experience smoother, cleaner, and more enjoyable across the app.\n\nWhat's New:\n\n• Improved Watch Order with theme-colored current-title highlighting, personal score, and favorite status.\n\nv2.8.6:\n\n• Fixed player sessions not terminating correctly and restored proper playback speed handling.\n• Fixed expired airing schedules still appearing in the Library.\n• Improved seeking controls by separating arrow tap and hold behavior.\n\nv2.8.5:\n\n• Fixed streams freezing during startup and playback unexpectedly resuming after being paused.\n• Fixed playback-speed changes causing stalls or showing a speed that was not actually applied.\n\n• Added accumulated seek-distance feedback when repeatedly using the left and right arrow keys.\n• Improved the Library AniList outage notice with scrolling, MyAnimeList fallback status, dismissal, and correct spacing.\n\nv2.8.2:\n\n• Improved add-on import, export, and backup reliability across devices.\n• Fixed add-on restoration so exported configurations retain required module data and settings.\n\nv2.8.1:\n\n• Fixed MAL and Shikimori fallback responses overriding AniList library status and progress after an AniList outage.\n• AniList now remains canonical when selected as the primary tracker, while fallback snapshots stay available without reopening completed titles.\n• Local changes made during an outage remain queued and sync to AniList first, then independently to connected MyAnimeList and Shikimori accounts.\n• Prevented automatic playback progress from reopening completed titles or dropping rewatching status.\n• Entry edits now sync only fields that actually changed, so score or notes edits cannot overwrite status or progress.\n\nv2.8.0:\n\n• Added MyAnimeList fallback for AniList outages across Board, Discovery, media details, Library, and Watch Order, with automatic return to AniList after recovery.\n• Added local-first tracking: progress, favorites, status, score, notes, repeat count, and dates are saved locally and safely synchronized later.\n• AniList, MAL, and Shikimori now synchronize independently using stable media identity, offline mutation queues, provider health tracking, and conflict resolution.\n• Library filters, sorting, Watch, Edit, Play, and continue-watching now work with locally cached and MAL fallback data during AniList outages.\n• Fixed AniList outage banner spacing in Library to match Board and Discovery.\n\n• Video quality can differ between participants while the episode, module, server, and voiceover remain synchronized.\n\n• Added a dedicated Buy Me a Coffee support card after Accounts in AniList Settings and below MiruShin updates in TMDB Settings.\n\nv2.7.12:\n\n• Fixed Security Check verification loops on macOS and iOS.\n• Fixed content not loading after completing verification.\n• Prevented duplicate Security Check windows from opening.\n• Improved cookie persistence and browser session handling during verification.\n• Fixed offline HLS playback on macOS.\n\nv2.7.11:\n\n• Improved AniList reliability with a 30-second timeout and one automatic retry before falling back to cached data.\n\nv2.7.10:\n\n• Added automatic anime Watch Order with full franchise discovery and a Main story only filter.\n• Added AniList progress and bold, theme-colored status labels to Watch Order.\n• Replaced Related Titles with a cleaner, transparent Watch Order list.\n• Cached Anime Themes for the current session to prevent repeated loading.\n\nv2.7.9:\n\n• Added clean share links for AniList anime and manga and TMDB movies and TV shows.\n• Improved link safety while keeping existing MiruShin links fully compatible.\n\nv2.7.8:\n\n• Added clearly labeled IMDb ratings to TMDB movie/series and matched AniList anime detail pages, displayed directly after the original score.\n• Profile action cards now fit up to five per row on larger screens, with additional cards wrapping cleanly.\n\nv2.7.7:\n\n• Fixed Compact Cards appearing outside the row edges while scrolling, while preserving hover effects.\n• Compact Cards are now disabled by default; existing saved preferences remain unchanged.\n\nv2.7.6:\n\n• Expanded the AniList Board with Favorites, Airing, Upcoming, Finished, Newest, and Recently Updated sections.\n• Added adaptive pagination to Board and Discovery: compact rows load automatically, while wide grids offer Load More and fetch results based on screen size.\n• Made compact cards the default and improved responsive layouts with up to eight columns.\n• Polished poster clipping, gradients, hover animations, and button press effects.\n• Reduced the media-details hero height and improved Board loading feedback.\n\nv2.7.5:\n\n• Added a Fanart.tv-powered Gallery to Media Details with 4K-first backgrounds, cached results, and an optional securely stored API key in Settings.\n• Added a fullscreen Gallery viewer with original-resolution artwork, swipe and arrow navigation, zooming, and an image counter.\n\n• Improved Discovery on large screens with responsive filter controls and up to eight poster columns while preserving compact mobile layouts.\n\nv2.7.4:\n\n• Added cross-platform MiruShin deep links for opening AniList and TMDB titles directly in the app.\n\n• Opening an AniList or TMDB MiruShin link now automatically switches to the matching catalog.\n• Watch with Friends default invites now use normal clickable HTTPS links, while existing mirushin:// invite links remain supported.\n• Improved Self-hosted Relay invites with cleaner direct HTTPS links and browser landing pages for opening rooms in MiruShin.\n• Added a Setup Guide button for Self-hosted Relay configuration, with English, Russian, and Japanese localization.\n• Improved macOS fullscreen transitions so the player waits for the native fullscreen transition to actually finish before closing or opening the next episode.\n• Improved timeline hover and drag handling, preventing seek previews and player controls from getting stuck after fullscreen or window-state changes.\n• Improved progressive seek previews to prefer the later thumbnail when two cached frames are equally close to the selected position.\n• Fixed backup exports not correctly including some saved list-based settings and filters on desktop platforms.\n\nv2.7.3:\n\n• Added cross-platform MiruShin deep links for opening AniList and TMDB titles directly in the app on Windows, Linux, macOS, Android, and iOS.\n• Added shareable MiruShin links to media details, alongside the original AniList or TMDB page links.\n\n• Opening an AniList or TMDB MiruShin link now automatically switches to the matching catalog.\n• Watch with Friends default invites now use a normal clickable HTTPS link that opens the room in MiruShin, while existing mirushin:// invites remain supported.\n• Improved Self-hosted Relay invites with clean HTTPS links using the relay address directly, without redundant relay or transport parameters.\n• Added browser landing pages for Self-hosted Relay invites with an Open in MiruShin action.\n\nv2.7.2:\n\n• Added full MiruShin configuration backup and restore in Settings → Data & backup.\n• Backups include app and player settings, saved page and library filters, viewing progress, per-title stream choices, Watch with Friends relay and trust settings, installed Sora add-ons, source cookies, and local source state.\n• AniList, MyAnimeList, and Shikimori sessions, profiles, saved AniList accounts, user settings, access tokens, and avatar URLs are included, along with configured TMDB and TVDB credentials.\n\n• Improved Watch with Friends so guests retain their local and tracker progress while episode navigation and auto-next remain controlled by the host.\n• Prevented locked guests from triggering next-episode actions through automatic playback, player controls, keyboard shortcuts, or Picture-in-Picture.\n• Improved Watch with Friends synchronization by ignoring implausible cross-device timestamp differences that could incorrectly advance playback.\n• Reworked compact media detail pages with responsive poster and text scaling, improved forced-compact behavior, and better narrow-screen layouts.\n• Improved the fullscreen poster and background viewer: single tap closes it, double tap resets zoom, and existing zoom, drag, Escape, and system-back controls remain supported.\n• Added complete English, Russian, and Japanese localization for backup and restore controls, warnings, confirmations, results, and errors.\n\nv2.7.1:\n\n• Added an option to enable or disable seek previews in Player Settings.\n• Improved Watch with Friends with copyable invite links and additional localized room, connection, and relay controls.\n• Posters can now be opened and viewed fullscreen from media details.\n• Background images can now be opened and viewed fullscreen from media details.\n\nv2.7.0:\n\n• Added Self-hosted Relay support for Watch with Friends as an alternative when the default peer-to-peer connection does not work.\n• Self-hosted rooms support one host and multiple guests at the same time.\n• Added relay configuration and connection testing directly in Watch with Friends settings.\n• Guests can join self-hosted rooms through invite links without manually configuring the relay.\n\n• Added a complete open-source Cloudflare relay implementation that users can deploy and host themselves.\n• The relay only handles Watch with Friends synchronization and never proxies video or audio streams.\n\nv2.6.9:\n\n• MiruShin now remembers your selected server and quality for each title and restores them automatically.\n• Next episodes are prepared in the background for faster, smoother auto-next transitions.\n• Added cache retention settings for metadata and artwork, with options from 1 week to never expire.\n• Improved cache management so artwork and metadata share the configured cache size more efficiently.\n• Watch with Friends hosts can now allow guests to change streams during a watch party.\n• Guests can see which playback controls they have permission to use.\n\nv2.6.8:\n\n• Added progressive seek previews for online videos.\n• Previews generate across the entire timeline in multiple refinement passes.\n• The closest available preview appears immediately and improves as more frames generate.\n• Generation continues in the background while the player is open.\n• Choose between Progressive timeline (default) and On demand in Player Settings.\n• Offline seek previews remain unchanged.\n\nv2.6.7:\n\n• Fixed Cloudflare security verification getting stuck in a refresh loop.\n• Fixed source parsing starting before verification was complete.\n• Removed duplicate WebView navigation events on Windows.\n• Improved Cloudflare reliability across Windows, Android, iOS, and macOS.\n\nv2.6.6:\n\n• Added seek thumbnail previews for faster and more accurate timeline navigation.\n• Improved timeline hover and seek behavior without moving the real playback position.\n\n• Auto-next now always starts the next episode from 00:00 while manual episode selection still resumes saved progress.\n• Fixed auto-next failing after returning to and rewatching a previous episode.\n• Fixed episodes occasionally getting stuck at the end instead of advancing.\n• Added stricter end-of-episode detection to prevent premature auto-next.\n• Fixed manual seeking occasionally jumping back to the previous playback position.\n• Improved FVP/MDK handling of stale end-of-stream events during and after seeking.\n• Improved playback recovery for premature or inconsistent stream EOF states.\n• Fixed fullscreen state being incorrectly carried to the next episode on desktop.\n• Fullscreen transitions now follow the player's actual current fullscreen state.\n• Improved next-episode stream resolution and retry handling.\n• Episode selection now remains visible while the next stream is being resolved.\n• Improved offline episode continuation and auto-delete reliability.\n• Added safer playback generation tracking to prevent stale callbacks and duplicate episode transitions.\n• Added 2.25x and 2.75x playback speed options.\n• Improved native PiP completion and progress handling.\n• iOS Home Indicator now stays auto-hidden across player navigation and auto-next transitions.\n• Various playback stability improvements, race-condition fixes, and regression tests.\n\nv2.6.5:\n\n• Fixed Sora/Cloudflare security checks not completing on Android, iOS, and macOS.\n• Fixed protected requests failing after verification by keeping them in the verified browser session.\n• Fixed redirected requests losing their original endpoint path and query.\n\nv2.6.4:\n\n• Fixed Sora/Cloudflare security checks not completing on Android, iOS, and macOS.\n• Fixed Windows crashes when starting Sora/Cloudflare security checks.\n• Fixed protected-source parsing across supported platforms.\n\nv2.6.3:\n\n• Fixed protected-source parsing across Android, iOS, macOS, and Windows.\n\nv2.6.2:\n\n• Fixed Sora/Cloudflare security checks crashing after completion on Windows.\n• Fixed browser session and cookie handling across supported platforms.\n\nv2.6.1:\n\n• Fixed Sora/Cloudflare security checks crashing after completion on Windows.\n• Fixed browser session and cookie handling across supported platforms.\n\nv2.6.0:\n\n• Fixed Sora and Cloudflare challenge handling on Windows.\n• Improved playback reliability with smarter stream fallbacks and DASH-to-HLS support.\n\n• Added faster, more resilient catalog loading with metadata caching.\n• Hidden AniList account and tracker connections while using the TMDB catalog.\n\nv2.5.0:\n\n• Fixed offline playback occasionally freezing around 7 seconds with automatic stall recovery.\n• Randomized the Board hero from the top 20 anime.\n• Improved AniList profile action buttons with a compact mobile layout.\n• Added the Z keyboard shortcut for player zoom.\n• Added a persistent option to enable or disable horizontal swipe seeking.\n• Improved mobile volume behavior and disabled vertical swipe volume gestures on all devices.\n• Redesigned and repositioned Watch, Trailer, and Edit buttons for responsive layouts.\n• Fixed an AniList details overflow affecting popularity and favorites on narrow screens.\n\nv2.4.4:\n\n• Fixed the blank-window startup crash.\n\nv2.4.3:\n\n• Improved airing notification reliability when platform services are unavailable.\n• Improved playback and external-link diagnostic logging.\n• Reorganized internal code for clearer feature boundaries and easier maintenance.\n• Improved automated testing across catalog, widget, Sora, and Worker components.\n\n• General stability and maintenance improvements.\n\nv2.4.2:\n\n• Improved play/pause responsiveness and playback resume stability.\n\n• Choose whether airing notifications include all eligible titles or only Watching/Rewatching.\n• Removed the AniList Profile Feed and Reviews sections.\n\nv2.4.1:\n\n• Added anime opening and ending themes to anime detail pages.\n• Fixed playback time jumping backward after seeking or skipping an opening or ending.\n• Fixed Skip and Undo buttons appearing at the same time while buffering.\n\nv2.4.0:\n\n• Expanded Russian and Japanese translations across filters, settings, profiles, libraries, and media details.\n• Localized player and trailer controls, along with AniList entry labels.\n• When Russian (Shikimori) is selected, Shikimori YouTube trailers now prioritize Озвучка, followed by Субтитры.\n\nv2.3.0:\n\n• Added much better filters in Discovery, Library, and Source Modules.\n• Filters now support include and exclude actions.\n• Added much better filters in Discovery, Library, and Source Modules.\n\n• Added AniList source/origin filters, adult content filter, licensing filter, and improved tag browsing/search.\n• Improved Library filters with sorting/grouped tags and extra metadata filters.\n\n• Added ASS/SSA subtitle parsing support.\n• Improved player stability when streams fail to load or internet is weak.\n• Made seeking more reliable so the player position and progress UI stay in sync.\n• Fixed player controls sometimes not hiding properly on mobile/iOS.\n• Improved keyboard shortcut handling in the player.\n• Improved Skip OP/ED button visibility so it follows the player UI correctly.\n\nv2.2.0:\n\n• Watch with Friend: watch any episode in sync with a friend over a peer-to-peer connection.\n• Create a room, share the 6-character code or QR, and playback stays locked together automatically.\n• Host playback actions like play, pause, seek, and speed changes are instantly mirrored to the guest with drift correction.\n• The host can optionally allow the guest to control playback, seek, or change speed.\n• The guest resolves the stream source locally, so video is not routed through a server and quality is unaffected.\n• Auto-reconnect after brief network drops, so the party can resume without rejoining.\n\nv2.0.2:\n\n• Added left-edge swipe-back gesture support on mobile.\n\nv2.0.0:\n\n• Added Cloudflare verification support: when required, a webview opens for captcha verification, then continues automatically after verification is complete.\n\n• Improved subtitle parsing, including more accurate language detection and display.\n• Improved the quality picker for better handling of streams with multiple quality options.\n\nv1.9.0:\n\n• Added MyAnimeList and Shikimori account connections alongside AniList.\n• Sync your status, episode progress, and score across AniList, MyAnimeList, and Shikimori.\n• Sign in securely from Settings -> Connections using OAuth.\n• Choose your Library source from AniList, MyAnimeList, or Shikimori.\n• Offline updates are now queued and synced automatically when you are back online.\n• Added optional custom API credentials for MyAnimeList and Shikimori.\n• Your tokens are stored securely on your device.\n\nv1.8.1:\n\n• Fixed auto next episode and watched progress triggering too early on unstable or reloaded streams.\n• Next episode button now counts down 5 to 1, then closes the player if you don't continue.\n• Next episode button shows shortly after the episode ends instead of instantly.\n• Added a keyboard shortcuts and touch gestures panel in player settings.\n• New keys: C toggles subtitles, P enters Picture in Picture, V skips intro/outro or goes to next episode.\n\nv1.8.0:\n\n• Added an Episodes button in the player so you can jump to any episode directly.\n• Improved player controls so labels switch to icons earlier and never feel cramped.\n\n• Now Playing now shows the real AniList/TMDB title in your selected language, with smart fallback support.\n• Fixed TMDB library progress showing 0% instead of the correct watch percentage.\n• Settings now adapt to your selected catalog mode.\n• TMDB mode now hides AniList options and accounts.\n• AniList mode now hides TMDB-specific options.\n• Removed the redundant TMDB enable toggle.\n• Added a new Compact cards toggle for Board cards.\n\n• Removed unused settings: Poster card style, Subtitle preferred language, and Region/country.\n• Removed the redundant Discovery status bar for a cleaner browsing experience.\n\nv1.7.3:\n\n• Added an MSI installer for Windows (.msi), alongside the existing setup .exe and portable .zip. The MSI lets you choose a per-user or all-users install.\n• Fixed Android TV D-pad navigation on the Home and Discovery screens: focus no longer skips the movie posters and jumps straight to the \"see more\" / \"Load more\" button, so you can now reach and select every poster.\n\nv1.7.2:\n\n• Fixed playback speed not being restored after the player restarts.\n• Added a short delay before auto-playing the next episode after the current stream finishes.\n\nv1.7.1:\n\n• Added Clear All and Apply buttons to the source filter.\n• Updated several localization strings.\n\nv1.7.0:\n\n• Added a new Sources page. You can open it from the Sources button on the Addons page.\n• You can now add your own catalog by pasting a catalog URL, for example example.com/modules.json.\n• You can open a source, browse its addons, and install them into your library with one tap.\n• Addons that are already installed are now clearly marked.\n• Added search by addon name, author, language, and type.\n• Added filters for multiple languages and types at the same time, for example Russian + English or anime + movies.\n\n• You can now refresh, rename, copy the URL, or remove a source.\n• Removing a source will not remove your installed addons.\n\nv1.6.4:\n\n• Added support for adding addons by addon ID.\n\nv1.6.3:\n\n• TMDB season picker now shows the real number of seasons from the addon.\n• Fixed watch progress not tracking for TMDB episodes in the local library, including across auto-next season changes.\n\nv1.6.2:\n\n• Fixed auto-next episode and watch progress for auto-played episodes.\n\n• Previously, when an episode started automatically, watch progress was not saved and the next episode did not play correctly.\n• Now every episode saves progress, marks itself as watched at 85%, and reliably continues to the next episode.\n\nv1.6.0:\n\n• Android TV support with Leanback launcher/banner, TV-aware navigation, focus rings, and d-pad-friendly cards.\n• Player remote fixes: OK play/pause, paused UI focus navigation, Settings/Quality/Episodes/Subtitles reachable by d-pad, sliders no longer trap focus, Back hides chrome first.\n• Android TV WebView cursor improvements: smaller/smoother cursor, native tap fallback, better keyboard/textbox handling, and cursor support for YouTube trailers.\n• AniList editor improvements from TV: hold OK on media cards opens entry edit actions where supported.\n• Library/search/addon/settings text fields improved for d-pad escape.\n• Playback fixes including seek/d-pad fixes, PiP handling fixes, iOS PiP fix, and player back-button fixes.\n• AniList and Shikimori metadata/library fixes.\n\nv1.5.0:\n\n• Improved auto-next episode, mark as watched, and AniList sync.\n• Fixed progress on finished streams, even when the stream jumps back to 0:00.\n• Fixed player controls and mouse cursor not hiding after auto-next.\n• Fixed buffering spinner sometimes staying visible after playback resumes.\n• AniList now marks anime as Completed when you finish the last known episode.\n• Fixed Trailer button, now it appears correctly on all devices.\n• Moved Auto AniList progress setting, now it only shows in the AniList catalog.\n• Fixed settings not saving after app restart.\n• Poster card style and compact mode are now remembered.\n\nv1.4.4:\n\n• Added a built-in TMDB key, so MiruShin works out of the box.\n• TMDB metadata now loads on first launch without setup.\n• Added a Use custom API key option in Settings -> API Connections.\n• You can still use your own TMDB Read Access Token if needed.\n• TMDB metadata is now enabled by default.\n\nv1.4.3:\n\n• Improved video playback reliability.\n• Fixed some streams not playing when proxy playback failed.\n• The player now automatically tries another playback method when needed.\n\nv1.4.2:\n\n• Episodes in the TMDB Catalog are now sorted by season.\n\nv1.4.1:\n\n• Fixed WebView support on Windows. YouTube trailers now play correctly on Windows.\n\nv1.4.0:\n\n• Added trailer support for AniList and TMDB catalogs. The trailer button is shown only when a trailer is available.\n\nv1.3.8:\n\n• Improved the anime and manga detail pages with a cleaner and more polished layout.\n• Improved the Edit button design and placement.\n• AniList cards now always open the Edit page in AniList mode.\n• Fixed Auto-Next so it now keeps the server selected inside the player. The next episode will resolve using the chosen server instead of falling back to the old or default one.\n\nv1.3.7:\n\n• Added pinch-out gesture support in the player to switch to Zoom mode.\n• Added pinch-in gesture support to switch back to Normal mode.\n• Improved the left sidebar behavior, so it now switches states earlier and feels more responsive.\n• Reduced the height of the top and bottom black fog effects in the player UI for a cleaner viewing experience.\n• Fixed player initialization: the video now repaints immediately instead of waiting for mouse movement to trigger a rebuild.\n\nv1.3.6:\n\n• Added a custom accent color picker.\n• Removed unused options from Settings for a cleaner experience.\n\nv1.3.5:\n\n• Added a floating popup notification for new app updates.\n• Improved mobile auto-next playback. The next episode now opens immediately in fullscreen player mode for a smoother watching experience.\n\n• Fixed slow Choose Episode loading for custom/addon sources.\n• Episodes from the addon now appear first, using the addon’s own episode name and poster when available.\n• AniList/AniZip episode titles and thumbnails now load lazily only after the episode list is already shown.\n• Improved support for custom Sora episode formats, including grouped episode lists and chapter-style APIs.\n• Reduced stale search work when switching from Find Sources to Choose Episode.\n• Auto-next now fetches the latest addon episode list instead of relying on old cached episode data.\n\nv1.3.4:\n\n• Added animated hover backgrounds for Windows PiP buttons, making the controls feel smoother and more responsive.\n\nv1.3.3:\n\n• Smarter Escape key in the player.\n• Infinite scroll on AniList Favourites.\n\nv1.3.2:\n\n• Improved Picture-in-Picture support on Windows for a smoother and more native-like experience.\n• Fixed the missing app icon in the Linux .deb package.\n\nv1.3.1:\n\n• Fixed the Linux crash when opening an episode, video playback works again.\n• Added a .deb package for Debian/Ubuntu (AppImage and tar.gz still available).\n\nv1.3.0:\n\n• Added a second player engine for improved playback stability.\n• Added PiP-style mini player support for Windows and Linux.\n• Added ARB localization support for English, Russian, and Japanese.\n• Added a local HLS proxy for the MPV player engine.\n\nv1.2.2:\n\n• Added startup page selection in Settings.\n• Added skip-marker source selection in Player Settings.\n• Improved iOS PiP exit handling so the player restores correctly.\n• Fixed AniList sync for the Favorite heart button.\n• Changed the default catalog mode to AniList.\n\nv1.2.0:\n\n• Added support for custom headers for subtitle tracks and network requests.\n• Fixed the AniList favorites list and added a Load More button.\n• Added a Windows installer for easier installation.\n\nv1.1.1:\n\n• Updated the player loading indicator to use a cleaner white circular spinner.\n• Added timeline preview on the player progress slider.\n• Fixed the Android splash screen logo display.\n\nv1.1.0:\n\n• Added airing anime notifications for supported platforms.\n• Added favorites support for anime, manga, and edit pages.\n• Added AniList status badges on Board and Discovery posters.\n• Improved mobile double-tap seeking speed and feedback.\n• Changed swipe seeking to use 2-second steps.\n• Improved temporary speed badge position and styling.\n• Fixed iOS PiP close cleanup so the player overlay clears correctly.\n• Polished AniList edit dialog progress controls.\n• Improved anime and manga tags.\n• Added Edit action for Board and Discovery pages.\n\nv1.0.2:\n\n• Added Linux support.\n• Added a shortcut in Settings to open AniList settings.\n\nv1.0.1:\n\n• Hold Space or press and hold the screen to speed up video playback.\n\n• Fixed auto-next episodes so the correct episode name appears in the player.\n\nHelpful Notes:\n\n• MiruShin supports both TMDB and AniList catalog modes.\n• Sora-compatible modules appear as addons inside the app.\n\nWindows: the unsigned setup .exe may trigger a false-positive warning from Microsoft Defender or other antivirus. If that happens, use the .msi installer or the portable .zip instead.\n\nImportant Notice:\n\nMiruShin is a media player and interface layer. It does not host, provide, or distribute content.\n\n• Users are responsible for providing their own content.\n• Users must ensure they have legal rights to any content they access or use.\n• Users are responsible for complying with all applicable laws and respecting copyright and intellectual property rights.\n• MiruShin does not include Sora modules.\n• Third-party modules are the responsibility of their creators, not MiruShin or emp0ry.\n\nLinks:\n\n• 📦 Repository: https://github.com/emp0ry/MiruShin\n• 🔒 Privacy Policy: https://github.com/emp0ry/MiruShin/blob/main/PRIVACY_POLICY.md\n• ⚖️ Legal Notice: https://github.com/emp0ry/MiruShin/blob/main/LEGAL.md",
+          "downloadURL": "https://github.com/emp0ry/MiruShin/releases/download/v2.8.7/MiruShin-ios-v2.8.7.ipa",
+          "size": 29588925,
           "minOSVersion": "15.0"
         }
       ],
@@ -3589,6 +3589,500 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
+      }
+    },
+    {
+      "name": "AetherPS4",
+      "bundleIdentifier": "com.aether.ps4ios",
+      "developerName": "Leviidev",
+      "subtitle": "PS4 Emulator for iOS & iPadOS (core with standalone app)",
+      "localizedDescription": "AetherPS4:\n\nExperimental PlayStation 4 emulation for iOS, built on shadPS4 with an ARM64-ported FEXCore x86-64 → ARM64 JIT and a native SwiftUI front end.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.aether.ps4ios.png",
+      "tintColor": "#001040",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.2.0",
+          "date": "2026-09-12T02:48:11Z",
+          "localizedDescription": "• Prevent iOS crash on first launch in a fresh sandbox.\n• Add 'Continue Anyway' button to SetupCheckView.\n\n• Replace Minecraft with Rocket League in README.\n\nNew Contributors:\n\n• @hernan0078 made their first contribution.\n• @itsjaylmao made their first contribution.",
+          "downloadURL": "https://github.com/Leviidev/AetherPS4/releases/download/v1.2/AetherPS4-iOS.ipa",
+          "size": 34208394,
+          "minOSVersion": "17.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Husk",
+      "bundleIdentifier": "com.husk.app",
+      "developerName": "Leviidev",
+      "subtitle": "Android App Launcher for iOS",
+      "localizedDescription": "Husk:\n\nAndroid app launcher for iOS.\n\nDrop in an APK, tap it, and the Android app opens full-screen.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.husk.app.png",
+      "tintColor": "#6156e2",
+      "category": "other",
+      "versions": [
+        {
+          "version": "0.2.2",
+          "date": "2026-09-13T22:52:07Z",
+          "localizedDescription": "What's new?:\n\n• Added app logo.\n• Fixed snapshot.\n• Other bug fixes.",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.2.2/Husk.ipa",
+          "size": 31103860,
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Harbour",
+      "bundleIdentifier": "xyz.shameful.Harbour",
+      "developerName": "rrroyal",
+      "subtitle": "Docker/Portainer management app for iOS, iPadOS and macOS",
+      "localizedDescription": "Harbour:\n\nDocker/Portainer management app for iOS, iPadOS and macOS.\n\nPortainer is required to use Harbour.\n\nFeatures:\n\n• [x] Multiple Servers and Endpoints.\n• [x] Widgets.\n• [x] App Intents and Shortcuts.\n• [x] Handoff.\n• [x] Background Notifications.\n• [x] Spotlight Integration.\n• [x] Link-backs to Portainer.\n• [x] No Telemetry.\n\nContainers:\n\n• [x] Displaying Details (Health, Environment, Labels, Mounts, Networks).\n• [x] Inspecting Logs.\n• [x] Managing State.\n• Deploying New Containers.\n• Editing Existing Containers.\n• [x] Removing Containers.\n\nStacks:\n\n• [x] Displaying Details.\n• [x] Managing State.\n• [x] Deploying New Stacks.\n• [x] Editing Existing Stacks.\n• [x] Removing Stacks.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/xyz.shameful.Harbour.png",
+      "tintColor": "#3050e0",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "4.2.9",
+          "date": "2026-05-02T21:42:25Z",
+          "localizedDescription": "Containers:\n\n• Fixed subtitle in list cells (#82).",
+          "downloadURL": "https://github.com/rrroyal/Harbour/releases/download/v4.2.9/Harbour-v4.2.9-63.ipa",
+          "size": 8552473,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "StikPair",
+      "bundleIdentifier": "com.stik.StikPair",
+      "developerName": "StikDebug",
+      "subtitle": "A simple SwiftUI iOS app that creates a pairing file on-device",
+      "localizedDescription": "StikPair:\n\nA simple SwiftUI iOS app that creates a pairing file on-device, using iOS 27+ or tvOS 11+ wireless pairing. Powered by idevice.\n\nRequirements:\n\n• iOS 27+.\n• To build: Xcode 27, Rust (aarch64-apple-ios + aarch64-apple-ios-sim), xcodegen.\n\nBuild:\n\nSet your signing team and run on a device.\n\niPhone or iPad:\n\n• Tap Pair iPhone or iPad and grant the Local Network prompt.\n• On the device: Settings › Privacy & Security › Developer Mode, scroll down, tap Pair with StikPair, and enter the PIN shown in the Live Activity.\n• When the \"Pairing complete\" notification arrives, return to the app and tap Export Pairing File.\n\nApple TV:\n\n• On Apple TV, open Settings › Remotes and Devices › Remote App and Devices.\n• Tap Pair Apple TV in StikPair and select the Apple TV.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.stik.StikPair.png",
+      "tintColor": "#20c0f0",
+      "category": "developer",
+      "versions": [
+        {
+          "version": "1.2.0",
+          "date": "2026-08-25T22:16:01Z",
+          "localizedDescription": "• Fix build action.\n• Apple TV wireless pairing.\n\nNew Contributors:\n\n• @CelloSerenity made their first contribution.",
+          "downloadURL": "https://github.com/StikDebug/StikPair/releases/download/v1.2.0/StikPair.ipa",
+          "size": 7735750,
+          "minOSVersion": "27.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "StikPair uses your local network to discover devices and complete pairing.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "StikPair can use location to keep running in the background while you complete pairing in Settings.",
+          "NSLocationWhenInUseUsageDescription": "StikPair can use location to keep running in the background while you complete pairing in Settings."
+        }
+      }
+    },
+    {
+      "name": "Aidoku",
+      "bundleIdentifier": "app.aidoku.Aidoku",
+      "developerName": "Aidoku",
+      "subtitle": "Manga reading app for iOS, iPadOS, and macOS",
+      "localizedDescription": "Aidoku:\n\nA free and open source manga reading application for iOS, iPadOS, and macOS.\n\nFeatures:\n\n• No ads.\n• Local file reading (CBZ).\n• Built-in reading service providers (Komga, Kavita, Suwayomi).\n• WASM external source system.\n\n• Tracker integration (AniList, MyAnimeList, etc.).\n• OCR dictionary lookup.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.aidoku.Aidoku.png",
+      "tintColor": "#f02050",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/Aidoku/Website@main/static/images/library-noframe.png",
+        "https://cdn.jsdelivr.net/gh/Aidoku/Website@main/static/images/source-noframe.png",
+        "https://cdn.jsdelivr.net/gh/Aidoku/Website@main/static/images/reader-noframe.png"
+      ],
+      "versions": [
+        {
+          "version": "0.9",
+          "date": "2026-09-03T20:17:08Z",
+          "localizedDescription": "• OCR dictionary support (iOS 18+): import Yomitan-compatible dictionaries in the app and look up words while reading.\n• Suwayomi built-in source: read and track from a Suwayomi instance, just like Komga and Kavita.\n• Auto scroll for webtoon reader: enable and press the play button to scroll without touching your device.\n\n• Overall performance improvements: the library loads much faster (@Amqx), and the webtoon reader was improved.",
+          "downloadURL": "https://github.com/Aidoku/Aidoku/releases/download/v0.9/Aidoku.ipa",
+          "size": 14731108,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.icloud-container-development-container-identifiers",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.user-fonts",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSFaceIDUsageDescription": "Aidoku needs FaceID permissions for user-defined settings",
+          "NSLocalNetworkUsageDescription": "Aidoku needs permission to connect to local Komga and Kavita servers",
+          "NSPhotoLibraryUsageDescription": "Aidoku needs permission to save pages in your photo library"
+        }
+      }
+    },
+    {
+      "name": "Table Habit",
+      "bundleIdentifier": "io.github.friesi23.mhabit",
+      "developerName": "FriesI23",
+      "subtitle": "Open-source Flutter habit tracker with smart scoring, WebDAV sync, local-first storage, privacy-focused design, and support for Android, iOS, Windows, macOS, and Linux",
+      "localizedDescription": "Table Habit is a free and open-source habit tracker that helps you build micro habits with a unique scoring system, rich growth charts, and cross-device WebDAV sync. Available on Android, iOS, macOS, Windows, and Linux — no ads, no account required. See the translation badge above for supported languages. Licensed under Apache 2.0.\n\nWhy Table Habit?:\n\n• 📊 Smart Scoring — Not Just Streaks Quantifies your consistency beyond daily check-ins. Growth curves show your long-term progress with separate scoring models for \"do\" and \"don't\" habits.\n• 🔄 WebDAV Sync — Own Your Data Sync seamlessly across devices via Nextcloud, Koofr, or self-hosted servers. Zero vendor lock-in and complete data privacy — your habit data always stays yours.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.friesi23.mhabit.png",
+      "tintColor": "#1070d0",
+      "category": "lifestyle",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/FriesI23/mhabit@main/docs/README/images/feature-sync-settings.png",
+        "https://cdn.jsdelivr.net/gh/FriesI23/mhabit@main/docs/README/images/feature-customization-01.png",
+        "https://cdn.jsdelivr.net/gh/FriesI23/mhabit@main/docs/README/images/feature-customization-02.png",
+        "https://cdn.jsdelivr.net/gh/FriesI23/mhabit@main/docs/README/images/feature-offline-empty.png",
+        "https://cdn.jsdelivr.net/gh/FriesI23/mhabit@main/docs/README/images/feature-edit-habit.png"
+      ],
+      "versions": [
+        {
+          "version": "1.27.6",
+          "date": "2026-09-07T09:49:55Z",
+          "localizedDescription": "✨ Features:\n\n• Complete the adaptive interface migration across navigation, settings, page headers, search, selection, and habit actions.\n\n• Preserve branch state and improve back navigation across nested pages.\n• Keep actions and menus responsive across window sizes and input modes.\n\n• Add quick theme mode controls to app bars and wider navigation layouts (#659).\n• Add resizable side navigation for wider layouts (#653).\n\n• Keep navigation aligned with window controls, safe areas, and layout direction changes.\n• Improve text rendering and theme behavior across desktop layouts.\n\n• Improve app bars, habit actions, and batch status changes across window sizes (#655).\n\n• Keep localized action labels readable and move extra actions into overflow menus when space is limited.\n• Refine page backgrounds and scroll-under transitions.\n\n🐛 Fixes:\n\n• Keep dialogs above app navigation and refresh selection state consistently after reordering or regrouping habits (#656).",
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.6%2B195/mhabit-unsigned.ipa",
+          "size": 14790504,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Onion Browser",
+      "bundleIdentifier": "com.miketigas.OnionBrowser",
+      "developerName": "OnionBrowser",
+      "subtitle": "An open-source, privacy-enhancing web browser for iOS, utilizing the Tor anonymity network",
+      "localizedDescription": "Onion Browser:\n\n© 2012-2024, Tigas Ventures, LLC (Mike Tigas).\n\nThis is the Onion Browser 3.X branch. The older versions of Onion Browser can be found here and here.\n\nOnion Browser is a free web browser for iPhone and iPad that encrypts and tunnels web traffic through the Tor network with the help of Orbot iOS. See the official site for more details and App Store links.\n\nPlease see the LICENSE file for usage and redistribution terms.\n\nThe following features are new to Onion Browser, mostly by leveraging Orbot iOS:\n\n• Use of newer, more secure, faster rendering engine WKWebView.\n• Finally all traffic, including audio/video streams tunneled through Tor.\n\n• Search in page from iOS 16 and up.\n• Multiple windows support on iPad.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.miketigas.OnionBrowser.png",
+      "tintColor": "#501060",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "3.4.1",
+          "date": "2026-08-11T16:27:51Z",
+          "localizedDescription": "• Fixed IP leaks during DNS prefetch found by Mysk: https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/ (The other leaks are mitigated by Lockdown Mode in Onion Browser, included in Silver and Gold security levels.).\n• Updated libevent to 2.1.13.\n• Updated Japanese and Pashto translations.",
+          "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.1/OnionBrowser.ipa",
+          "size": 39611914,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.default-data-protection",
+          "com.apple.developer.siri",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.web-browser",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Needed to read bridge addresses from displayed QR codes.",
+          "NSFaceIDUsageDescription": "Needed, if you want to unlock the app with Face ID.",
+          "NSPhotoLibraryAddUsageDescription": "Needed to store the selected image to your photos."
+        }
+      }
+    },
+    {
+      "name": "VoxelTrail",
+      "bundleIdentifier": "app.voxeltrail.local",
+      "developerName": "hernan0078",
+      "subtitle": "Native iOS build of the Gen 1 recomp engine, with optional 3D voxel rendering. Bring your own ROM",
+      "localizedDescription": "VoxelTrail for iOS:\n\nEspañol · English.\n\nA native iOS build of the Gen 1 recomp engine — the Generation 1 Pokémon games, reimplemented in Lua on LÖVE — with the Dramatic Shape voxel mod built in, so the overworld can be played as a 3D diorama or in first person.\n\nYou need your own ROM. None is included here and none will be. The app reads a Game Boy ROM you already own and extracts its data on first launch.\n\nInstall:\n\nThe IPA is unsigned, which is what sideloading tools expect — they sign it with your own Apple ID, on your own device.\n\n• Install a sideloader. SideStore or AltStore. Follow their setup; both need a one-time pairing step with a computer.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.voxeltrail.local.png",
+      "tintColor": "#001030",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.5.0",
+          "date": "2026-08-08T16:52:19Z",
+          "localizedDescription": "Unsigned IPA — install with SideStore or AltStore. Requires iOS 16+, tested on iOS 26.6. Bring your own ROM.\n\n📖 Instrucciones en español · 🇪🇸 Notas en español abajo.\n\nPokémon Stadium battle models:\n\n3D BATTLES can fight with the Pokémon Stadium models instead of the flat Game Boy pictures — STADIUM A on the map, STADIUM B on two discs against the sky.\n\nYou supply the cartridge. Import Stadium ROM in the launcher's MODS panel, or STADIUM ROM in the options menu, opens the Files picker for your Pokémon Stadium (US) 1.0 file. The models are built on your device, once, and the ROM is read and forgotten rather than kept.\n\nThat picker is new work on my side: iOS had no way to hand the mod a cartridge at all, so it printed a sandbox path and asked you to put a file somewhere a phone cannot reach. Now upstream as.\n\nUS 1.0 specifically — every model offset is measured against that revision. Another one builds, and the screen tells you the models may be wrong.\n\nThe battle HUD reads the right way round:\n\n1.7.2 draws the battle HUD mirrored on iOS — PIKACHU, the HP numbers and L100 all backwards, while FIGHT/ITEM/RUN reads fine. It comes from a fix that assumes iOS presents the HUD canvas upside down and corrects for it; this build's renderer doesn't flip it, so the correction was the mirror. Fixed, and the frosted panels behind the HUD come back with it.\n\nMore of the mod:\n\n• RENDER DIST — FIT / WIDE / WIDER / WIDEST / OFF. The first thing to reach for if 3D runs slowly: FIT skips whole connected maps before they cost anything.\n• Fog and god rays in Viridian Forest, every battle location rebuilt, and a lot of new voxel work — diner stools, mansion desks, CUT trees.\n• ROUND WORLD gained two rungs, GLOBE and PLANET. PLANET is a true half-sphere: the town sitting on a little world.\n\nSpanish:\n\nThe Stadium screens and the whole STADIUM ROM flow are translated. Two older gaps closed: CANCEL was the one English word left on a fully Spanish options menu — structurally unreachable, now fixed and — and ten strings carried Ñ, ¿ or ¡ onto the 8×8 font, which has no glyph for any of them and drew holes instead.\n\nThe translation is.\n\nKept from before:\n\nThe live-tuning panel, the look stick, readable setting names, third person, the battle camera, and Spanish Red/Blue ROM support.\n\n🇪🇸 En español:\n\nIPA sin firmar — instalalo con SideStore o AltStore. Requiere iOS 16 o posterior; probado en iOS 26.6. Necesitas tu propia ROM.\n\n📖 Instrucciones completas en español.\n\nModelos de combate de Pokemon Stadium:\n\nCOMBATES 3D puede pelear con los modelos de Pokemon Stadium en vez de con las imagenes planas de Game Boy: STADIUM A sobre el mapa, STADIUM B sobre dos discos contra el cielo.\n\nEl cartucho lo pones tu. Importar ROM de Stadium, en el panel de MODS del menu inicial, o ROM STADIUM en las opciones, abre el selector de Archivos para tu Pokemon Stadium (US) 1.0. Los modelos se crean en tu dispositivo una sola vez, y la ROM se lee y se olvida en lugar de guardarse.\n\nEse selector es trabajo nuevo de mi parte: en iOS no habia forma de entregarle un cartucho al mod, asi que imprimia una ruta interna y te pedia dejar un archivo en un sitio al que un telefono no llega.\n\nUS 1.0 en concreto: cada medida de los modelos esta tomada de esa revision. Otra distinta se construye igual, pero la pantalla te avisa de que pueden salir mal.\n\nEl HUD de combate se lee del derecho:\n\nLa 1.7.2 dibuja el HUD de combate reflejado en iOS: PIKACHU, los numeros de PS y L100 al reves, mientras que LUCHA/OBJETO/HUIR se lee bien. Viene de un arreglo que da por hecho que iOS presenta ese lienzo del reves y lo corrige; el motor de esta version no lo voltea, asi que la correccion era el reflejo. Arreglado, y los paneles esmerilados de detras del HUD vuelven con ello.\n\nMas del mod:\n\n• DISTANCIA — AJUSTE / LEJOS / MAS LEJOS / MAXIMO / NO. Lo primero que tocar si el 3D va lento: AJUSTE descarta mapas enteros antes de que cuesten nada.\n• Niebla y rayos de sol en el Bosque Verde, todas las localizaciones de combate rehechas, y mucho trabajo nuevo de voxeles.\n• MUNDO CURVO gano dos niveles, GLOBO y PLANETA. PLANETA es media esfera de verdad: el pueblo sobre un planeta pequeño.\n\nEspañol:\n\nLas pantallas de Stadium y todo el proceso de ROM STADIUM estan traducidos. Se cierran dos huecos antiguos: CANCELAR era la unica palabra en ingles que quedaba en un menu de opciones completamente en español, y diez textos llevaban Ñ, ¿ o ¡ a la fuente de 8x8, que no tiene glifo para ninguno y dibujaba huecos.\n\nSe mantiene todo lo anterior:\n\nEl panel de ajuste en vivo, la palanca de vista, los nombres legibles de los ajustes, la tercera persona, la camara de combate y el soporte de ROMs de Rojo y Azul en español.",
+          "downloadURL": "https://github.com/hernan0078/voxeltrail-ios/releases/download/v0.5.0/VoxelTrail-0.5.0.ipa",
+          "size": 20272748,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Nectar",
+      "bundleIdentifier": "com.kyrielie.nectar",
+      "developerName": "kyrielie",
+      "subtitle": "netnewswire fork for fanfiction reading!",
+      "localizedDescription": "🍎 Nectar:\n\n**An iOS feed reader for Archive of Our Own and Ambrosia. An unofficial AO3 reading application. **.\n\nQuick Install:\n\n• [x] This app will always be free and open source. (If you don't trust me, you can look at the code and build the application yourself.).\n• [x] This app does not distribute fics.\n• [x] This app does it's best to respect AO3's TOS, servers, and policies.\n• [x] Nectar logs you in using the Safari browser. Your login details stay on your phone.\n• [x] Your reading history stays private on your phone.\n\nBackground:\n\nI have extended the functionality of Nectar to be able to update the metadata and text from AO3 for my local library. Now you can load any work search link and start reading.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.kyrielie.nectar.png",
+      "tintColor": "#e0d050",
+      "category": "other",
+      "versions": [
+        {
+          "version": "0.1.7",
+          "date": "2026-09-12T07:03:21Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/kyrielie/nectar/releases/download/v0.1.7/Nectar-unsigned.ipa",
+          "size": 4852286,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Grant permission to save images from the article."
+        }
+      }
+    },
+    {
+      "name": "C64 Commander",
+      "bundleIdentifier": "uk.gleissner.c64commander",
+      "developerName": "chrisgleissner",
+      "subtitle": "Control and manage a Commodore 64 Ultimate from Android, iOS, or a self-hosted web deployment on your local network",
+      "localizedDescription": "C64 Commander:\n\nControl and manage a Commodore 64 Ultimate from Android, iOS, or a self-hosted web deployment on your local network.\n\nFeatures:\n\n• Device support: Works with the C64 Ultimate, Ultimate 64 Elite I/II, and Ultimate-II+(L) cartridges.\n• Search: Find any page, setting, action, tune or disk by name. Three ways in — the field at the top of Home, the Quick menu, or the 7 key. A result you cannot use yet is still listed, with the reason.\n\n• Dashboard: Control the machine, drives, printer, SID mixer, lighting, and streams from one page.\n• Playlists and SID Radio: Play programs and SID music from local files, device storage, HVSC, or CommoServe.\n• Remote Input and Live View: Use an on-screen joystick or keyboard, and stream audio or video from the running machine.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/uk.gleissner.c64commander.png",
+      "tintColor": "#c0b060",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/c64commander@main/docs/img/app/home/00-overview-light.png",
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/c64commander@main/docs/img/app/home/sections/01-quick-actions-to-live-view.png",
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/c64commander@main/docs/img/app/home/01-overview-dark.png",
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/c64commander@main/docs/img/app/home/sections/04-video-to-audio.png",
+        "https://cdn.jsdelivr.net/gh/chrisgleissner/c64commander@main/docs/img/app/home/sections/09-lighting-to-keyboard-light.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0.3",
+          "date": "2026-09-08T14:39:39Z",
+          "localizedDescription": "• Make droidctl the unmistakable interface for all Android device work.\n• Make Demo Mode a simulated device: reachable, real content, a live screen, and sound.\n• deps: bump postcss-selector-parser from 6.1.2 to 6.1.4[bot].\n• deps: bump browserslist from 4.28.4 to 4.28.6[bot].\n• deps: bump @humanfs/node from 0.16.6 to 0.16.8[bot].\n• deps: bump qs from 6.15.2 to 6.16.0 in /c64scope[bot].\n• deps: bump fast-uri from 3.1.5 to 3.1.7 in /c64scope[bot].\n• deps: Bump the \"weekly-rollup\" group with 2 updates across multiple ecosystems[bot].\n• Hardening 27: fix all forty production-readiness review findings.\n• Demo Mode: serve the whole app from the device, and enable it for C64U Remote.\n• Fix opaque sheet backdrops and profile-unaware full-screen defaults.\n• Let the screen decide the display profile for C64U Remote.\n• Give six automation-targeted controls a DOM id.",
+          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.0.3/c64commander-1.0.3-ios.ipa",
+          "size": 7302100,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Swift Radio",
+      "bundleIdentifier": "com.matthewfecher.SwiftRadio",
+      "developerName": "analogcode",
+      "subtitle": "Professional Radio Station App for iOS!",
+      "localizedDescription": "Swift Radio:\n\nOpen-source radio station app built entirely in Swift. Used by 80+ apps on the App Store.\n\nLooking for Android? See Swift Radio Android. Same station format, native Kotlin and Jetpack Compose.\n\nFeatures:\n\n• Stream live radio with background audio playback.\n• Scrubber and progress bar for non-live streams.\n• Apple CarPlay support.\n• Album art and track metadata from streams and iTunes API.\n• Lock screen and Control Center integration.\n• Multiple stations from a local or remote JSON file.\n• Pull to refresh and optional search bar.\n• Localization-ready via Xcode String Catalog.\n• About screen with email, sharing, and external links.\n\nBuilt on FRadioPlayer for streaming, metadata parsing, and iTunes album art fetching.\n\nGetting Started:\n\n• Open SwiftRadio.xcodeproj in Xcode.\n• Update your stations in SwiftRadio/Data/stations.json or host the file remotely.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.matthewfecher.SwiftRadio.png",
+      "tintColor": "#6156e2",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/3511384/63377830-d8041880-c35e-11e9-91d1-5f7b7d4188d7.jpg"
+      ],
+      "versions": [
+        {
+          "version": "3.1.0",
+          "date": "2026-07-04T20:18:33Z",
+          "localizedDescription": "The attached .ipa is unsigned. Install it by sideloading with AltStore or Sideloadly, which re-sign it with your own Apple ID. Or clone the repo and run it from Xcode with your personal team.\n\n• Localize About screen.\n• Add link to Swift Radio Android in README.\n• Move Android link below screenshots.\n• Fix CI builds by using iPhone 17 Pro simulator.\n\n• Fix iOS app icon: use square full-bleed artwork.",
+          "downloadURL": "https://github.com/analogcode/Swift-Radio-Pro/releases/download/v3.1.0/swift-radio-v3.1.0-unsigned.ipa",
+          "size": 6178833,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "This app would like to save the image associated with the current track and station to your photo library."
+        }
+      }
+    },
+    {
+      "name": "Navic",
+      "bundleIdentifier": "paige.Navic",
+      "developerName": "ssalggnikool",
+      "subtitle": "A modern Navidrome client for Android and iOS",
+      "localizedDescription": "A modern Navidrome client for Android and iOS.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/paige.Navic.png",
+      "tintColor": "#6156e2",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-12T23:43:57Z",
+          "localizedDescription": "• fix(#503): always invalidate hasSentNowPlaying when media changes.\n• Translations update from Hosted Weblate.",
+          "downloadURL": "https://github.com/ssalggnikool/Navic/releases/download/v1.0.0-alpha55/Navic.ipa",
+          "size": 22584290,
+          "minOSVersion": "14.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "iTorrent",
+      "bundleIdentifier": "com.xitrix.iTorrent2",
+      "developerName": "XITRIX",
+      "subtitle": "Torrent client for iOS 16+",
+      "localizedDescription": "iTorrent - iOS Torrent client App:\n\n][AltStore Classic Link] ][SideStore Link] ][GitHub Link] ][Jailbreak Link]!",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.xitrix.iTorrent2.png",
+      "tintColor": "#f09060",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://github.com/user-attachments/assets/73256524-4861-4b8f-afba-5bd657badb2f",
+        "https://github.com/user-attachments/assets/9ac2c682-a3b4-4498-8daa-6c5c6f742946",
+        "https://github.com/user-attachments/assets/c2f06516-862a-47b5-b69b-aed4f6043aae",
+        "https://github.com/user-attachments/assets/c7dff083-4fe7-4440-9961-9eb472e22142",
+        "https://github.com/user-attachments/assets/be15d663-0d5b-40ed-aa6c-1f3eb9e00a1e"
+      ],
+      "versions": [
+        {
+          "version": "2.2.0",
+          "date": "2026-07-19T09:59:41Z",
+          "localizedDescription": "What's new::\n\n• Enjoy Picture in Picture, playback speeds from 0.5x to 2x, audio and subtitle track selection, precise seeking, and system media controls.\n• Take playback to a bigger screen with AirPlay or a compatible player discovered on your local network.\n\n• Select and share multiple completed files or entire folders in one go.\n\nImprovements::\n\n• Refreshed the interface for iOS 26, with Liquid Glass styling, cleaner dialogs, and more polished navigation.\n\n• Improved media previewing so iTorrent can offer the best available player for each file.\n\n• Expanded and refined translations across all supported languages.\n\nFixes::\n\n• Fixed cases where magnet links could be saved incorrectly.\n• Fixed a startup race condition that could interfere with launching the app or completing initial setup.\n• Fixed toolbars and navigation behaving incorrectly in iPad split-screen mode.\n\n• Fixed torrent details sometimes getting stuck in a continuous update loop.",
+          "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
+          "size": 24288935,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "iTorrent uses the local network to discover playback devices and cast video on your network."
+        }
+      }
+    },
+    {
+      "name": "Voyager",
+      "bundleIdentifier": "app.vger.voyager",
+      "developerName": "aeharding",
+      "subtitle": "Voyager — a beautiful app for Lemmy and Piefed",
+      "localizedDescription": "Voyager for Lemmy:\n\nVoyager is an Apollo-like open source web client for Lemmy. It's a mobile-first app, but works great on desktop devices, too. Please feel free to try it out!\n\nWhat does Voyager currently support?\n\n• Light/dark mode.\n• View and subscribe to communities.\n• Multi account support.\n• Single comment thread context view.\n• Upvote, downvote and reply to threads and comments.\n• Interact with user profiles.\n• Comment thread collapsing.\n• A bunch of swipe gestures.\n• Messaging, mentions and replies.\n• Creating new posts (url/photo/text).\n• Deleting/editing comments.\n• Deleting/editing posts.\n• Swipe to hide posts.\n• iOS and Android themes.\n\nWhat is on the roadmap?\n\n• More customization.\n• Native notifications and badging.\n\n• .and more!",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/app.vger.voyager.png",
+      "tintColor": "#102050",
+      "category": "social",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/aeharding/voyager@main/public/promo.webp"
+      ],
+      "versions": [
+        {
+          "version": "2.49.1",
+          "date": "2026-09-13T05:07:24Z",
+          "localizedDescription": "🐛 Fixes:\n\n• fix: preserve special characters in search.\n\n• PR: #2358.\n\n📝 Other Changes:\n\n• chore: rust react compiler pipeline.\n\n• PR: #2357.\n\n• chore: upgrade dependencies.\n\n• PR: #2359.",
+          "downloadURL": "https://github.com/aeharding/voyager/releases/download/2.49.1/Voyager-iOS-2.49.1.ipa",
+          "size": 8232319,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Attach photo to a new post",
+          "NSFaceIDUsageDescription": "Optional setting to check face ID when opening app",
+          "NSMicrophoneUsageDescription": "Attach video to a new post",
+          "NSPhotoLibraryAddUsageDescription": "Save photos to device"
+        }
+      }
+    },
+    {
+      "name": "Monolith",
+      "bundleIdentifier": "dev.naveed-gung.monolith",
+      "developerName": "naveed-gung",
+      "subtitle": "Monolith is an offline-first Flutter music player built for local listening, managed downloads, playlist control, and system-grade playback surfaces across Android and iOS",
+      "localizedDescription": "Monolith:\n\nA personal music player for iOS and Android. Bring your own music, keep a local collection, and listen with the screen locked.\n\nScreenshots:\n\nSix actual Pixel 10a emulator captures with the current coral accent, alternating light and dark: three of each. They show local test audio and a public test download. These are Android captures; iPhone verification remains separate.\n\nYour collection:\n\n• Import readable songs from the iOS Music picker, import the accessible local Music library in one batch, or choose audio files from Files. Failed items retain their individual reasons.\n• Browse songs, artists, albums, playlists, and recent additions.\n• Open the activity dropdown below the header to inspect concurrent transfers and stop individual jobs.\n\n• Read missing durations from native audio metadata without playing every song.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.naveed-gung.monolith.png",
+      "tintColor": "#e04050",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/naveed-gung/Monolith@main/docs/screenshots/library.png",
+        "https://cdn.jsdelivr.net/gh/naveed-gung/Monolith@main/docs/screenshots/songs.png",
+        "https://cdn.jsdelivr.net/gh/naveed-gung/Monolith@main/docs/screenshots/player.png",
+        "https://cdn.jsdelivr.net/gh/naveed-gung/Monolith@main/docs/screenshots/downloads.png",
+        "https://cdn.jsdelivr.net/gh/naveed-gung/Monolith@main/docs/screenshots/search.png"
+      ],
+      "versions": [
+        {
+          "version": "1.4.4",
+          "date": "2026-09-10T07:50:38Z",
+          "localizedDescription": "iOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.4.4.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.4.4.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: this build is signed with a debug key (fine for sideloading). Android may warn it's from an unknown developer — that's expected for a non–Play Store APK.",
+          "downloadURL": "https://github.com/naveed-gung/Monolith/releases/download/v1.4.4/monolith.ipa",
+          "size": 11104378,
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "Monolith needs access to your media library to import songs from your device.",
+          "NSLocalNetworkUsageDescription": "Monolith uses local network access for audio session management."
+        }
+      }
+    },
+    {
+      "name": "Flycast",
+      "bundleIdentifier": "com.chachirie.FlycastiOS",
+      "developerName": "chachillie",
+      "subtitle": "Flycast for iOS 26 with StikDebug support",
+      "localizedDescription": "Flycast:\n\nFlycast is a multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.chachirie.FlycastiOS.png",
+      "tintColor": "#c0d0f0",
+      "category": "games",
+      "versions": [
+        {
+          "version": "2.6",
+          "date": "2026-01-22T02:53:54Z",
+          "localizedDescription": "TXM and Non-TXM devices tested and working with iOS26.\n\n• Flycast-iOS automatically routes to the correct .js.",
+          "downloadURL": "https://github.com/chachillie/Flycast-iOS/releases/download/v1.0/Flycast-iOS.ipa",
+          "size": 8292812,
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Flycast uses the local network to find and communicate with AltServer.",
+          "NSMicrophoneUsageDescription": "Flycast requires microphone access to emulate the Dreamcast microphone",
+          "NSPhotoLibraryAddUsageDescription": "Flycast can save screenshots to your Photo library."
+        }
       }
     }
   ]
