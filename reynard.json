@@ -38,6 +38,14 @@
       },
       "versions": [
         {
+          "version": "0.13.1",
+          "buildVersion": "2dbc75e",
+          "date": "2026-09-14T11:34:26Z",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.13.0...0.13.1\r\n\r\nThis is a minor release that addresses issues found in 0.13.0. For the full changelog, see the [0.13.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.13.0).\r\n\r\n### Bug Fixes & Improvements\r\n- Improved the reliability of text input fields repositioning above the software keyboard when editing.\r\n- Fixed issues with the new toolbar minimizing behavior introduced in 0.13.0, including mistaken taps, misaligned page elements, and out-of-place sticky headers and menus, along with better behavior when resizing or zooming.",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.13.1/Reynard.ipa",
+          "size": 108070190
+        },
+        {
           "version": "0.13.0",
           "buildVersion": "182a287",
           "date": "2026-09-13T10:17:30Z",
