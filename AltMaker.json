@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.exaltedpixels.LensLinkCamera",
-    "com.emp0ry.mirushin",
-    "moe.itoapp.ito"
+    "com.noopapp.noop",
+    "app.mangatan.mangatan",
+    "com.exaltedpixels.LensLinkCamera"
   ],
   "apps": [
     {
@@ -1244,10 +1244,10 @@
       "versions": [
         {
           "version": "11.6.0",
-          "date": "2026-09-13T13:20:40Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.6.0).\n\n• Android (debug) — NOOP-android-debug-v11.6.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.6.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.6.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.6.0 · built 2026-09-13 · d9afc8d.",
+          "date": "2026-09-14T02:47:42Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.6.0).\n\n• Android (debug) — NOOP-android-debug-v11.6.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.6.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.6.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.6.0 · built 2026-09-14 · 3f65583.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.6.0.ipa",
-          "size": 20278875,
+          "size": 20278319,
           "minOSVersion": "17.0"
         }
       ],
@@ -2032,10 +2032,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-09-13T08:11:35Z",
-          "localizedDescription": "Release v6.1.16:\n\n• Fix novel position restore after inline images (01d1473).\n\n• Fix manatan extension ordering (fdef05e).\n• Add configurable Screen Lookup copy shortcut (508594f).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.16/Manatan-v6.1.16-iOS.ipa",
-          "size": 365890026,
+          "date": "2026-09-14T02:45:00Z",
+          "localizedDescription": "Release v6.1.17:\n\n• Update runtime TLS lockfile (17729e0).\n\n• Add multilingual local subtitles (770b60f).\n• Speed up local EPUB imports (981c30c).\n• Show dictionary import progress and results (dc75b16).\n• Filler (accacbf).\n• Add local subtitles to the WebUI (e2967f6).\n• Show character progress in media overlays (23ca370).\n• Start local novel imports after server startup (6c1992f).\n• Add free local subtitle generation (83839c8).\n• Support separate primary and secondary novel fonts (ab97bfa).\n• Add accelerated local subtitle transcription (c0f43e2).\n• Keep profile switching available for empty lookups (02b8a4f).\n• Preserve YouTube state across tab changes (9006b92).\n• Capture actionable iOS startup readiness failures (41c67a6).\n• Keep Screen Lookup popups usable beside vertical text (c9d1344).\n• Reconstruct OCR text across manga page seams (48f3275).\n• Stitch OCR text across tall-page boundaries (6b3a1d8).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.17/Manatan-v6.1.17-iOS.ipa",
+          "size": 366794518,
           "minOSVersion": "16.1"
         }
       ],
@@ -3203,11 +3203,11 @@
       ],
       "versions": [
         {
-          "version": "1.11.0",
-          "date": "2026-09-13T21:42:03Z",
-          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nOther changes:\n\n• App: readable dim-screen battery readout, and background streaming via Picture in Picture.",
-          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.11.0/LensLink-unsigned.ipa",
-          "size": 1057008,
+          "version": "1.12.0",
+          "date": "2026-09-14T00:31:24Z",
+          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nOther changes:\n\n• Draw the paused picture on the phone, not in the plugin.",
+          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.12.0/LensLink-unsigned.ipa",
+          "size": 1066735,
           "minOSVersion": "15.0"
         }
       ],
@@ -3390,7 +3390,7 @@
       "bundleIdentifier": "com.sunpad.SunPad.tv",
       "developerName": "chrissotraidis",
       "subtitle": "Super Mario Sunshine on iPhone, iPad, Apple Silicon Mac, and tVOS through static recompilation and Metal",
-      "localizedDescription": "SunPad:\n\nSunPad packages a native Apple ARM64 app around a DolRecomp-generated Super Mario.\n\nCovered PowerPC game-code regions run as ahead-of-time recompiled host code. iPhone and iPad use interpreter fallback with no runtime PowerPC JIT; Apple Silicon Mac uses JitArm64 only for code outside the recompiled module. Dolphin's Metal backend renders into the Apple apps.\n\nThe mobile app imports a user-provided supported GameCube image through Files, extracts it on-device, and provides a landscape touch controller alongside iOS GameController support. The local macOS app provides a Metal launcher, internal-resolution and fullscreen options, keyboard controls, and controller selection. This repository contains the Apple integration, patches, and reproducible tooling. It does not contain Super Mario Sunshine, a GameCube image, extracted Nintendo assets, saves, or a generated game module.",
+      "localizedDescription": "SunPad:\n\nSunPad packages a native Apple ARM64 app around a DolRecomp-generated Super Mario.\n\nCovered PowerPC game-code regions run as ahead-of-time recompiled host code. iPhone and iPad use interpreter fallback with no runtime PowerPC JIT; Apple Silicon Mac uses JitArm64 only for code outside the recompiled module. Dolphin's Metal backend renders into the Apple apps.\n\nThe mobile app imports a user-provided supported GameCube image through Files, extracts it on-device, and provides a landscape touch controller alongside iOS GameController support. The local macOS app provides a Metal launcher, internal-resolution and fullscreen options, keyboard controls, and controller selection. This repository contains the Apple integration, pinned fork references, and build tooling. It does not contain Super Mario Sunshine, a GameCube image, extracted Nintendo assets, saves, or a generated game module.",
       "iconURL": "https://raw.githubusercontent.com/RipeStore/altmaker/main/icons/com.sunpad.SunPad.tv.png",
       "tintColor": "#00b0f0",
       "category": "games",
