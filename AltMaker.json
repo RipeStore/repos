@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.husk.app",
     "com.dreamplayer.app",
-    "org.zhaohe.MiniWatts",
-    "uk.gleissner.c64commander"
+    "org.zhaohe.MiniWatts"
   ],
   "apps": [
     {
@@ -1190,11 +1190,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.3.0",
-          "date": "2026-09-15T06:49:56Z",
-          "localizedDescription": "What’s new?:\n\n• Uninstalling apps thru UI.\n• Reworked entire UI.\n• Loading screen.\n• Audio (semi functional).\n• More settings.\n• Fixed image loading for apps.\n• Improved performance.\n• Added app logo (thanks felix).",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.3.0/Husk.ipa",
-          "size": 40127153,
+          "version": "0.3.1",
+          "date": "2026-09-15T21:17:16Z",
+          "localizedDescription": "What's new?:\n\n• Added a way to customize resolution.",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.3.1/Husk.ipa",
+          "size": 40142603,
           "minOSVersion": "16.4"
         }
       ],
