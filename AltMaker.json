@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "app.mangatan.mangatan",
-    "moe.itoapp.ito",
-    "com.emp0ry.mirushin"
+    "com.kodjodevf.mangayomi",
+    "com.void.smarttube.app",
+    "com.geode.launcher"
   ],
   "apps": [
     {
@@ -239,11 +239,11 @@
       ],
       "versions": [
         {
-          "version": "1.5.4",
-          "date": "2026-04-01T07:09:04Z",
-          "localizedDescription": "Sapphire SDK!\n\n• Replaced default logo with Sapphire SDK.\n• Fixed PDF rendering for iOS 18+ (hopefully).\n\nView the INSTALL.md guide on installing.",
-          "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.5.4/com.geode.launcher_1.5.4.ipa",
-          "size": 13242128
+          "version": "1.5.5",
+          "date": "2026-09-15T07:26:49Z",
+          "localizedDescription": "Massive bug fix update! Including the fix for iOS 27 devices not being able to run Geode!\n\n• Fixed iPhone SE devices from not being able to tap the Import Certificate button on the setup.\n• Fixed restarting not working in LiveContainer JIT-Less.\n• Changed the \"You need to update the Helper\" message to explain whether the Helper was actually updated or not.\n• Attempt to fix the \"first time setup\" on Enterprise Mode from reappearing (due to IPA being removed from temporary directory).\n\n• Added safe mode restarting.\n• Added metadata information in the About section in settings.\n\n• Added custom JIT enabler.\n• Added skipping the intro setup.\n\nView the INSTALL.md guide on installing.",
+          "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.5.5/com.geode.launcher_1.5.5.ipa",
+          "size": 13256824
         }
       ],
       "appPermissions": {
@@ -467,11 +467,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.9.3",
-          "date": "2026-09-14T13:37:32Z",
-          "localizedDescription": "• feat: refresh the library on a schedule.\n• fix(player): persist completed episodes before navigation.\n\n• Fixes memory and bugs where it would lag over time.\n\n• fix: decode current VOE video payloads.\n• fix(restore): preserve Kotatsu category assignments.\n• fix(player): retire native video surfaces safely.\n\n• fix(reader): sort local pages naturally.\n• fix(library): keep read titles last in unread sort.\n• fix(reader): make bulk read actions uniform.\n• fix(player): preserve shortcuts when controls hide.\n\n• Rework API Sync Server.\n• feat: redesign anime player.\n• Add Korean translation.\n• feat(l10n): complete Korean translation.\n• fix(player): preserve local file URIs.\n• fix(player): fall back from unsupported audio tracks.\n• fix(repositories): await extension repository writes.\n\nNew Contributors:\n\n• @1Selxo made their first contribution.\n• @jang-geon made their first contribution.\n• @Abdellox made their first contribution.",
-          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.3/Mangayomi-v0.9.3-ios.ipa",
-          "size": 114239272,
+          "version": "0.9.4",
+          "date": "2026-09-15T09:17:03Z",
+          "localizedDescription": "• Fix double/int cast crash when syncing settings.",
+          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.4/Mangayomi-v0.9.4-ios.ipa",
+          "size": 114238780,
           "minOSVersion": "15.0"
         }
       ],
@@ -850,10 +850,10 @@
       "versions": [
         {
           "version": "11.7.0",
-          "date": "2026-09-14T08:14:16Z",
-          "localizedDescription": "NOOP v11.7.0:\n\nA release about the app keeping up with you, and about readings meaning what they say.\n\nA stress screen that keeps up:\n\nScoring a day of stress reads hundreds of thousands of samples. That work was happening on the same thread that draws the screen, so Today and Stress could sit unresponsive while they loaded. It now runs off that thread on both platforms, the baseline is reduced a day at a time rather than held a month at once, and the unprompted rescore yields to whatever you are doing instead of competing with it for the machine.\n\nThe home-screen widget fills on its own schedule without the app being opened. A rescore that produces nothing is retried rather than being allowed to spend the whole refresh interval, and the Today curve is kept as fresh as the screen it links to.\n\nThe readings themselves now agree with each other. The 0 to 3 level has one spelling across the widget and the card, and is no longer rounded a second time on its way to the widget. The screen draws its line from the same sliding read the number is taken from. Movement is drawn as the stretches it actually covers rather than as dots on the axis. An early morning says the day has not started rather than reporting Calibrating, which reads like something is wrong.\n\nWHOOP 5 readings in the units the strap sends:\n\nThanks to @Trillient, two decoding faults are corrected.\n\nR-R intervals arriving on the standard heart-rate profile were converted as though they were in the Bluetooth spec's units. A WHOOP 5 sends milliseconds directly, so every interval taken from that profile came out 2.3% low, and HRV computed from it inherited the error. What settled it was a paired capture: the same beats arriving on both the strap's own channel and the standard one carry byte-identical values, so only one of the two conversions could be right.\n\nThe console log's record header was read as a 16-bit counter spanning two bytes. Only the first is a counter, and it wraps at 255. Across 2,978 records from a single night the second byte never moved through nine of those wraps, which a real counter could not do. Both platforms now decode the two fields separately.\n\nAn Oura ring that stops repeating itself:\n\nThanks to @pipiche38 for a sustained run of corrections to the ring's history path.\n\nA replayed burst that the ring's own clock disproves as a reboot no longer resets the history resume cursor, and no longer announces a reboot that did not happen. A night that has just been offloaded is scored immediately rather than waiting for the next periodic tick. History is fetched every five minutes rather than every fifteen, the anchor check judges a ten second gap rather than only a thirty second one, and an onset rekey is refused when the assembler's own clip never bound.\n\nThere is also a feature-mode control and a consolidated set of Oura diagnostics in the Test Centre, the raw night sidecar stays in the export, and the SpO2 sample keeps only the channel that carries a reading.\n\nScores that survive a re-score:\n\nThanks to @bhelm. WHOOP 5 HRV and Recovery, and the vitals derived from R-R, were being dropped by a re-score pass that could not recompute them, so a value you already had could disappear on a pass that had nothing better to put in its place. Both are now preserved.\n\nReadings that say when they are at a limit:\n\nA Fitness Age resting at the end of its scale now says so, rather than presenting a bound as though it were a measurement, and points at the number that still moves when the age stops. On Sleep, a night already detected and staged no longer sits under a banner claiming it is still being calculated, and browsing back to a night with no stage data no longer shows the most recent night's date beneath it.\n\nDiagnostics that name the cause:\n\nA device reporting no R-R now says whether the beats were never banked or were refused by the unit policy, which are different problems with different answers. The nightly HRV summary says why it reported nothing. A retired probe tells whoever reads its output which switch to turn on, and stops under-reporting its own retirement. A re-arm clears a refusal latch that previously could not be reached once set. The sync chip surfaces the strap's backlog.\n\nThanks:\n\nThanks to @pipiche38 (Oura history, replay judgement, diagnostics and export), @Trillient (WHOOP 5 R-R units and console sequence decoding), @bhelm (preserving legacy HRV, Recovery and R-R vitals), @kavemang (tile values that shrink rather than truncate, per-signal illness baselines, Android guards), and @digitalerdude (parity tooling on macOS, sync chip backlog, and documentation that describes what the code returns).\n\n• fix(android): skip stress scoring without a widget.\n• fix(android): guard sleep session cache upserts.\n• feat(oura): add a SetFeatureMode enable control, consolidate Oura Test Centre diagnostics.\n• today(android): move Customize into the header cluster, where it stops covering the wordmark.\n• today(android): shape a hosted card clip from what it actually renders.\n• stress: reduce each baseline day as it is read, instead of holding thirty at once.\n• diag: say whether a device R-R beats were never banked or were refused by the unit policy.\n• Preserve legacy WHOOP 5 HRV and Recovery across re-score.\n• widget: retry a stress rescore that produced nothing, instead of spending the interval on it.\n• fix(oura): don't reset the history resume cursor to 0 on a stale replay the ring's own clock disproves as a reboot.\n• sleep: a night already in hand silences the calculating banner.\n• stress: draw the movement marks as the stretches they are, not as dots on the axis.\n• hrv: say why the nightly summary reported nothing.\n• illness: a handful of stored nights is not a baseline.\n• Describe what DayOwnerSource.candidatePriorities actually returns (#2026).\n• probe: let a re-arm clear the refusal latch it could never reach.\n• Preserve legacy RR-derived vitals and remove accidental scaffolding.\n• ci: let the parity gate see main, so drift stops ambushing other PRs.\n• Sync chip: surface the strap backlog, with both counts inflected (#833).\n• Say that the day-owner path uses archived candidates, not just inherits them (#2026).\n• ble: tell a retired probe reader to turn the switch ON, and stop under-reporting retirement.\n• parity tests: pass on macOS, and resolve expand_twin_map's root (#2143 follow-up).\n• parity_ledger: resolve the temp checkout root before deriving from it (#2143).\n• fix(diagnostics): keep the night's raw Oura sidecar in the export — session-scoped, ring-buffered, fairly capped, generations merged.\n\n• fix(oura): score the ring's freshly-offloaded night now, not at the next periodic tick.\n• fix(oura): refuse the #1284 onset rekey when the assembler's own clip never bound.\n• fix(oura): only persist the SpO2 raw channel, drop dc_raw from spo2Sample.\n• fix(oura): fetch ring history every 5 min, not 15 — the periodic fetch is the real data cadence.\n• fix(oura): let the #2097 anchor check judge a 10 s gap, not only 30 s.\n• health: trust Android baselines per signal.\n• stress: one spelling for the 0-3 level, on the widget and the card.\n• stress: stop the widget snapshot rounding the level a second time.\n• stress: give the marker tile's reading the width the chip was holding.\n\n• health: say when a Fitness Age is sitting on the end of its scale.\n• stress: keep the Today curve as fresh as the screen it links to.\n• today: put scan and connect on the Today header.\n• today: show the scan control only while the strap is away, and make it look like a scan.\n• stress: do not say Calibrating when the day has simply not started yet.\n• widget: refresh the stress curve without waiting for the app to be opened.\n• fix(oura): stop announcing a ring reboot the #2097 judge has just rejected.\n• health: point at the number that still moves when the age stops.\n• stress: draw the screen's line from the sliding read, not the bare hours.\n• stress: get the screen's work off the main thread and the chart out from behind it.\n• today: stop scoring a day of heart rate on the UI thread.\n• fix: decode WHOOP 5 console sequence as a wrapping u8.\n• fix: WHOOP 5 R-R words are milliseconds, not 1/1024-second ticks.\n• whoop5: decode the Kotlin console sequence as a wrapping u8.\n• whoop5: pin the Kotlin console sequence wrap, matching Swift.\n• test(ios): make the reject-archive protection skip visible on macOS.\n• test(import): assert the Inbox purge no-op off iOS instead of skipping it.\n• sleep: date the browsed night, not the newest one, in the nav header.\n• perf: let the unprompted analysis work actually yield to the UI.\n• ui: shrink ellipsized stat values.\n• ui: test the stat-value shrink rule, and guard the line index.\n\nDownloads — NOOP Staging identity, installs beside the official app (separate data):\n\n• Android — NOOP-android-v11.7.0.apk (com.noop.whoop.staging).\n• macOS — NOOP-macos-v11.7.0.zip (unzip, then right-click → Open).\n• iOS — NOOP-ios-unsigned-v11.7.0.ipa (AltStore / Sideloadly).",
-          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v11.7.0/NOOP-ios-unsigned-v11.7.0.ipa",
-          "size": 20280838,
+          "date": "2026-09-15T04:18:20Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.7.0).\n\n• Android (debug) — NOOP-android-debug-v11.7.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.7.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.7.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.7.0 · built 2026-09-15 · de85d2a.",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.7.0.ipa",
+          "size": 21113722,
           "minOSVersion": "17.0"
         }
       ],
@@ -1379,37 +1379,6 @@
           "NSCameraUsageDescription": "MiruShin uses the camera to scan a friend's watch-party QR code.",
           "NSUserNotificationUsageDescription": "MiruShin can notify you when new anime episodes air."
         }
-      }
-    },
-    {
-      "name": "Animeko",
-      "bundleIdentifier": "org.animeko.animeko",
-      "developerName": "open-ani",
-      "subtitle": "Animeko 支持云同步观看记录 (Bangumi)、多视频数据源、缓存、弹幕、以及更多功能，提供尽可能简单且舒适的追番体验。",
-      "localizedDescription": "• [Mikan]: https://mikanani.me/\n• [Ikaros]: https://ikaros.run/\n• [ExoPlayer]: https://developer.android.com/media/media3/exoplayer\n• [VLC]: https://www.videolan.org/vlc/\n• [libtorrent]: https://libtorrent.org/\n\nAnimeko 支持云同步观看记录 (Bangumi)、多视频数据源、缓存、弹幕、以及更多功能，提供尽可能简单且舒适的追番体验。.\n\nAnimeko 曾用名 Ani，现在也简称 Ani。.\n\n立即下载.\n\nhttps://github.com/user-attachments/assets/e63636c9-30b7-411c-aa6b-e5b78b900726\n\n丰富的检索方式：新番时间表、标签搜索:\n\n由 Bangumi 和 Animeko 服务端共同提供的精确新番时间表.\n\n云同步追番进度:\n\n• 打开 APP 立即继续观看，无需回想上次看到了哪.\n\n聚合数据源:\n\n还支持 BitTorrent、Jellyfin、Emby、以及自定义源.\n\n• 聚合全网弹幕源（弹弹play），以及 Animeko 自己的弹幕服务.\n\n下载:\n\nAnimeko 支持所有主流平台：Android、iOS、Windows、macOS、Linux。.\n\n• 稳定版本: 功能稳定.\n\n通常建议使用稳定版本. 如果你愿意参与测试并拥有一定的对 bug 的处理能力, 也欢迎使用测试版本更快体验新功能. 具体版本类型可查看下方.\n\n• 测试版本: 体验最新功能.\n\n技术总览:\n\n如果你是开发者，我们总是欢迎你提交 PR 参与开发！ 以下几点可以给你一个技术上的大概了解。.\n\n• Kotlin 多平台架构；.\n• 使用新一代响应式 UI 框架 Compose Multiplatform 构建 UI；.\n• 内置专为 Animeko 打造的“基于 libtorrent 的 BitTorrent 引擎，优化边下边播的体验；.\n• 高性能弹幕引擎，公益弹幕服务器 + 网络弹幕源；.\n• 适配多平台的视频播放器，Android 底层为 ExoPlayer，PC 底层为 VLC；.\n• 多类型数据源适配，内置 动漫花园、[Mikan]，拥有强大的自定义数据源编辑器和自动数据源选择器。.\n\n参与开发:\n\n欢迎你提交 PR 参与开发， 有关项目技术细节请参考 CONTRIBUTING。.\n\n资源来源是什么?:\n\n全部视频数据都来自网络, Animeko 本身不存储任何视频数据。 Animeko 支持两大数据源类型：BT 和在线。BT 源即为公共 BitTorrent P2P 网络， 每个在 BT 网络上的人都可分享自己拥有的资源供他人下载。在线源即为其他视频资源网站分享的内容，目前使用 creamycake ani-subs。Animeko 本身并不提供任何视频资源。.\n\n本着互助精神，使用 BT 源时 Animeko 会自动做种 (分享数据)。 BT 指纹为 -AL4123-，其中 4123 为版本号 4.12.3；UA 为类似 ani_libtorrent/4.12.3。.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.animeko.animeko.png",
-      "tintColor": "#70b0e0",
-      "category": "entertainment",
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/open-ani/animeko@main/.readme/images/features/subject-details.png",
-        "https://cdn.jsdelivr.net/gh/open-ani/animeko@main/.readme/images/features/subject-rating.png",
-        "https://cdn.jsdelivr.net/gh/open-ani/animeko@main/.readme/images/features/anime-schedule.png",
-        "https://cdn.jsdelivr.net/gh/open-ani/animeko@main/.readme/images/features/search-by-tag.png",
-        "https://cdn.jsdelivr.net/gh/open-ani/animeko@main/.readme/images/features/subject-collection.png"
-      ],
-      "versions": [
-        {
-          "version": "6.1.0",
-          "date": "2026-08-28T16:41:30Z",
-          "localizedDescription": "• 新增画质增强(超分)，支持 Android, Windows 和 macOS (#3291).\n• 优化评论功能和 UI.\n• 支持使用 PikPak 加速缓存 BT 源 (#3141).\n• 修复 Windows mpv 画面偏暗.\n• 支持 mpv 内核播放器设置自定义参数.\n• 优化 jellyfin (#3190, #3244, #3248).\n• 修复 Windows 原生触屏一系列问题 (#3223, #3234).\n• 修复 Windows 10 可能会窗口透明 (#3319).\n• 优化性能 (#3236).\n• 修复 macOS x86 无法打开或闪退.\n• 修复 macOS 可能因为音频而崩溃.\n• 修复 BT 源播放错误或无法开始播放 (#3337).\n• 支持为 BT 下载设置额外的 trackers.\n• 修复一系列 Linux 问题 (#3261).\n• 修复手动匹配的弹幕请求会随着换集失效 (#3254).\n• 修复条目详情页 Tab 换行问题 (#3229).\n• 修复 Windows 托盘状态下再次启动会卡死 (#3317).\n• 修复播放器倍速状态与 UI 不一致 (#3323).\n• 为 macOS 暂时禁用 Accessibility 以修复闪退 (#3325).\n• 支持配置 ExoPlayer 的画质增强预热，解决黑屏或系统增强功能失效.\n• 新增开源许可页面，可在设置 - 关于 - 鸣谢中查看.\n• 修复异常指纹过滤默认生效且关闭开关无效的问题 (#3338).\n• 修复 BT 缓存统计不准确 (#3339).\n• Android 修复 WebView 正常无法释放 (#3340).\n• 修复 Toast 配色没有跟随应用主题 (#3347).\n\n• [cf-win-x64]: https://d.myani.org/v6.1.0/ani-6.1.0-windows-x86_64.zip\n• [cf-win-aarch64]: https://d.myani.org/v6.1.0/ani-6.1.0-windows-aarch64.zip\n• [cf-linux-x64]: https://d.myani.org/v6.1.0/ani-6.1.0-linux-x86_64.appimage\n• [cf-mac-x64]: https://d.myani.org/v6.1.0/ani-6.1.0-macos-x86_64.zip\n• [cf-mac-aarch64]: https://d.myani.org/v6.1.0/ani-6.1.0-macos-aarch64.dmg\n• [cf-ios]: https://d.myani.org/v6.1.0/ani-6.1.0.ipa\n• [cf-android]: https://d.myani.org/v6.1.0/ani-6.1.0-universal.apk\n• [cf-android-arm64-v8a]: https://d.myani.org/v6.1.0/ani-6.1.0-arm64-v8a.apk\n• [cf-android-armeabi-v7a]: https://d.myani.org/v6.1.0/ani-6.1.0-armeabi-v7a.apk\n• [cf-android-x86_64]: https://d.myani.org/v6.1.0/ani-6.1.0-x86_64.apk\n• [cf-android-qr]: https://d.myani.org/v6.1.0/ani-6.1.0-universal.apk.cloudflare.qrcode.png\n• [cf-ios-qr]: https://d.myani.org/v6.1.0/ani-6.1.0.ipa.cloudflare.qrcode.png\n\n如果不知道自己是什么架构，建议下载 universal 版本。.",
-          "downloadURL": "https://github.com/open-ani/animeko/releases/download/v6.1.0/ani-6.1.0.ipa",
-          "size": 44425669,
-          "minOSVersion": "14.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
       }
     },
     {
@@ -2723,20 +2692,17 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.8.1",
-          "date": "2026-09-05T08:19:52Z",
-          "localizedDescription": "What's new:\n\n• JIT region extension setting for some cases when games could not fit it regular size of memory.",
-          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.8.1/RPCS3.ipa",
-          "size": 24053717,
+          "version": "0.9",
+          "date": "2026-09-15T06:21:32Z",
+          "localizedDescription": "What's new:\n\n• Live Activity and background game compilation.\n\nImprovements:\n\n• Updated core.\n• Experimental paths enabled by default.\n• Maximum JIT region limit increased to 1 GB.\n\nFixes:\n\n• Fixed some crashes on JIT allocation.",
+          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.9/RPCS3.ipa",
+          "size": 24450010,
           "minOSVersion": "17.4"
         }
       ],
       "appPermissions": {
         "entitlements": [
           "application-identifier",
-          "com.apple.developer.kernel.extended-virtual-addressing",
-          "com.apple.developer.kernel.increased-debugging-memory-limit",
-          "com.apple.developer.kernel.increased-memory-limit",
           "com.apple.developer.team-identifier",
           "get-task-allow",
           "keychain-access-groups"
@@ -3622,15 +3588,15 @@
       "subtitle": "Android App Launcher for iOS",
       "localizedDescription": "Husk:\n\nAndroid app launcher for iOS.\n\nDrop in an APK, tap it, and the Android app opens full-screen.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.husk.app.png",
-      "tintColor": "#6156e2",
+      "tintColor": "#a080e0",
       "category": "other",
       "versions": [
         {
-          "version": "0.2.2",
-          "date": "2026-09-13T22:52:07Z",
-          "localizedDescription": "What's new?:\n\n• Added app logo.\n• Fixed snapshot.\n• Other bug fixes.",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.2.2/Husk.ipa",
-          "size": 31103860,
+          "version": "0.3.0",
+          "date": "2026-09-15T06:49:56Z",
+          "localizedDescription": "What’s new?:\n\n• Uninstalling apps thru UI.\n• Reworked entire UI.\n• Loading screen.\n• Audio (semi functional).\n• More settings.\n• Fixed image loading for apps.\n• Improved performance.\n• Added app logo (thanks felix).",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.3.0/Husk.ipa",
+          "size": 40127153,
           "minOSVersion": "16.4"
         }
       ],
@@ -4114,6 +4080,201 @@
         ],
         "privacy": {
           "NSMicrophoneUsageDescription": "MeloCafe uses the microphone when Wii U software requests GamePad microphone input."
+        }
+      }
+    },
+    {
+      "name": "Opaline",
+      "bundleIdentifier": "com.verback.YTLite",
+      "developerName": "verback2308",
+      "subtitle": "A lightweight, privacy-focused YouTube client for iOS built entirely with UIKit. No ads, no tracking, no dependencies",
+      "localizedDescription": "Opaline:\n\nA lightweight, native YouTube client for iOS 12+. No ads, no tracking, no dependencies.\n\nOpaline was released as YTLite until August. It was renamed to avoid confusion with an unrelated tweak of the same name and is not related to it.\n\nScreenshots follow your GitHub theme — the app supports both light and dark mode.\n\nWhy:\n\nWhen Google dropped support for the official YouTube app on older devices, there was no way to watch videos properly. Browsers capped quality at 360p — and even that barely ran. Opaline was born to restore what was lost: high-quality playback on hardware that still works fine, just ignored by Google — a focused, lightweight client that does one thing well.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.verback.YTLite.png",
+      "tintColor": "#90c0e0",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/verback2308/Opaline@main/screenshots/app/iphone/light/recommendations.jpeg",
+        "https://cdn.jsdelivr.net/gh/verback2308/Opaline@main/screenshots/app/iphone/light/player.jpeg",
+        "https://cdn.jsdelivr.net/gh/verback2308/Opaline@main/screenshots/app/iphone/light/channel.jpeg",
+        "https://cdn.jsdelivr.net/gh/verback2308/Opaline@main/screenshots/app/iphone/light/subscriptions.jpeg",
+        "https://cdn.jsdelivr.net/gh/verback2308/Opaline@main/screenshots/app/iphone/light/settings.jpeg"
+      ],
+      "versions": [
+        {
+          "version": "1.12.0",
+          "date": "2026-09-10T02:02:27Z",
+          "localizedDescription": "New.\n\nFixes.\n\nAlso.",
+          "downloadURL": "https://github.com/verback2308/Opaline/releases/download/1.12.0/Opaline_1.12.0.ipa",
+          "size": 6685919,
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "This lets you save a downloaded video to your photo library."
+        }
+      }
+    },
+    {
+      "name": "Pansy",
+      "bundleIdentifier": "opensource.pansy",
+      "developerName": "niuhuan",
+      "subtitle": "A illustration client. (PIXIV) build with flutter and rust",
+      "localizedDescription": "PANSY.\n\nEnglish | 简体中文.\n\nA beautiful illustration clients, support mac, windows, linux, ios, Android.\n\nDiscovery and Ranks:\n\n!!\n\nIllustration info:\n\n!!\n\nSearch and categories:\n\n!!\n\nNetwork:\n\n• Settings > Network > Image host: switch image CDN host (default / proxy / custom).\n• Settings > Network > Bypass SNI (insecure): connects to Pixiv IP directly to avoid SNI-based blocking; disables TLS certificate verification.\n• Settings > Network > SNI bypass hosts: maintain the domain → IP mapping used by SNI bypass.\n\nTechnical structure:\n\n• Clone form github and run \" cargo install --path. \" on code gen.\n\n!\n\nIcons:\n\nRun bash resources/icon/update_icons.sh to regenerate platform icons from resources/icon/background.svg and resources/icon/foreground.svg.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/opensource.pansy.png",
+      "tintColor": "#0090f0",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/niuhuan/pansy@master/images/rank.png",
+        "https://cdn.jsdelivr.net/gh/niuhuan/pansy@master/images/info_screen.png",
+        "https://cdn.jsdelivr.net/gh/niuhuan/pansy@master/images/info_screen2.png",
+        "https://cdn.jsdelivr.net/gh/niuhuan/pansy@master/images/search.png",
+        "https://cdn.jsdelivr.net/gh/niuhuan/pansy@master/images/search_screen.png"
+      ],
+      "versions": [
+        {
+          "version": "0.0.11",
+          "date": "2026-06-15T05:59:15Z",
+          "localizedDescription": "v0.0.10.\n\n• [x] update icons.\n• [x] upgrade check.\n• [x] in app webview login.\n• [x] better ranking scroll.\n• [x] better search.\n\nv0.0.9.\n\n• [x] SNI bypass.\n\nv0.0.8.\n\n• [x] fix android login.",
+          "downloadURL": "https://github.com/niuhuan/pansy/releases/download/v0.0.11/pansy-v0.0.11-nosign.ipa",
+          "size": 21080885,
+          "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Save images",
+          "NSPhotoLibraryUsageDescription": "Usage images"
+        }
+      }
+    },
+    {
+      "name": "Boorusama",
+      "bundleIdentifier": "com.degenk.boorusama",
+      "developerName": "khoadng",
+      "subtitle": "A mobile client for booru sites built with Flutter",
+      "localizedDescription": "Overview:\n\nBoorusama is an unofficial, cross-platform client for major booru imageboards. It covers all core functionality and gives you total control over your experience with extra features like bulk downloads, favorite tags, advanced blacklisting, and more.\n\nSupported imageboards:\n\n• Gelbooru 0.2.5, Gelbooru 0.1, Gelbooru 0.2.\n• Hydrus Network.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.degenk.boorusama.png",
+      "tintColor": "#e0b050",
+      "category": "other",
+      "versions": [
+        {
+          "version": "4.5.0",
+          "date": "2026-06-14T17:17:28Z",
+          "localizedDescription": "• Add support for Nozomi.\n• [Sankaku] Add favorite support.\n• [Suzurubooru] Add pool and comments support.\n\n• Add last-page jumping for sites that support it.\n• Improve Dtext rendering.\n• Improve post details copy action with more media and link options.\n• Improve Cloudflare/DDOS challenge handling.\n• Improve data transfer reliability.",
+          "downloadURL": "https://github.com/khoadng/Boorusama/releases/download/v4.5.0/boorusama-4.5.0%2B185-ios.ipa",
+          "size": 38047337,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Boorusama needs local network access to transfer data between your devices.",
+          "NSPhotoLibraryAddUsageDescription": "Boorusama needs permission to access photos on your device",
+          "NSPhotoLibraryUsageDescription": "Boorusama needs permission to access photos on your device"
+        }
+      }
+    },
+    {
+      "name": "MiniWatts",
+      "bundleIdentifier": "org.zhaohe.MiniWatts",
+      "developerName": "ResistanceTo",
+      "subtitle": "An iPhone battery, charging and thermal instrument built on private iOS APIs — real charger watts, what actually reaches the cell, all 30 temperature sensors, and the USB-PD handshake",
+      "localizedDescription": "MiniWatts:\n\nEnglish · 简体中文.\n\nAn iPhone battery and charging monitor built on Apple's private APIs. It reads the phone's own power-management sensors — the ones iOS uses to run the charge — and shows what the charger is delivering, how much of it reaches the cell, where the rest goes as heat, and what every temperature sensor in the phone is doing while it happens.\n\nSideload only. Private APIs mean this can never be on the App Store — you sign and install it yourself. There is no network code of any kind: nothing it reads leaves your phone.\n\nInstall:\n\nDownload the latest MiniWatts-unsigned.ipa from.\n\nApple ID — Sideloadly, AltStore, SideStore and Xcode all do this. A free Apple ID works; the app then expires after seven days and you re-sign it.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.zhaohe.MiniWatts.png",
+      "tintColor": "#f0e030",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/ResistanceTo/MiniWatts@master/docs/screenshots/power.jpg",
+        "https://cdn.jsdelivr.net/gh/ResistanceTo/MiniWatts@master/docs/screenshots/thermal.jpg",
+        "https://cdn.jsdelivr.net/gh/ResistanceTo/MiniWatts@master/docs/screenshots/adapter.jpg",
+        "https://cdn.jsdelivr.net/gh/ResistanceTo/MiniWatts@master/docs/screenshots/history.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-14T08:16:25Z",
+          "localizedDescription": "Unsigned build — sign it with your own Apple ID before installing. https://github.com/ResistanceTo/MiniWatts#install\n\n新功能:\n\n• 主屏幕与锁屏小组件：显示充电功率和电量。刷新时间由 iOS 决定，通常 15–60 分钟一次，每个小组件都会标明数据的读取时间。.\n• 充电实时活动：在锁屏和灵动岛显示充电功率。只在 MiniWatts 运行时更新，App 被挂起后会显示为已暂停。可以在设置里关闭。.\n• 悬浮读数：在设置里手动打开的画中画小窗，浮在其他 App 上方，每秒更新一次；开着的时候锁屏也能继续记录充电。会更耗电，用完请关掉。不会播放任何声音。.\n\n修复:\n\n• 部分机型温度读数离谱（比如充电芯片 −9199.4 °C）：物理上不可能的温度现在会被隐藏，不再显示。.\n\n说明:\n\n• 关于页加入了开源说明和 GitHub 地址。.\n• 这个版本在 iPhone Air 上开发和验证。传感器的名称和换算因机型而异，其他机型可能有读数不准，欢迎带上机型标识反馈。.\n• 小组件会多占用一个 App ID（免费 Apple ID 每周 10 个）。签名工具如果提示移除扩展，移除后就没有小组件了。.\n\nNew:\n\n• Home Screen and Lock Screen widget showing charge power and level. iOS decides when it refreshes — usually every 15 to 60 minutes — and each widget shows when its numbers were taken.\n• Charging Live Activity on the Lock Screen and in the Dynamic Island. It updates only while MiniWatts is running and shows as paused once the app is suspended. Can be turned off in Settings.\n• Floating meter: a Picture in Picture window you open from Settings. It floats over other apps, updates once a second, and keeps recording the charge with the screen locked. Uses more battery, so close it when you're done. It plays no sound.\n\nFixed:\n\n• Impossible temperatures on some models (a charge IC at −9199.4 °C) are now hidden instead of shown.\n\nNotes:\n\n• About now says MiniWatts is free and open source, with a link to this repository.\n• Built and verified on an iPhone Air. Sensor names and scaling differ between models, so some readings may be wrong on yours — please report them with your model identifier.\n• The widget extension takes one more App ID when you sign (a free Apple ID gets ten a week). If your signing tool offers to remove extensions, the widget goes with them.",
+          "downloadURL": "https://github.com/ResistanceTo/MiniWatts/releases/download/v1.1.0/MiniWatts-unsigned.ipa",
+          "size": 3093949,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Yattee",
+      "bundleIdentifier": "stream.yattee.app",
+      "developerName": "yattee",
+      "subtitle": "Privacy oriented video player for iOS, tvOS and macOS",
+      "localizedDescription": "Yattee 2 is in the works! A new version of the app is being built with a refreshed experience. It pairs with the new Yattee Server — a self-hosted backend powered by yt-dlp that supports 1000+ sites.\n\nFeatures:\n\n• Native user interface built with SwiftUI with customization settings.\n• Player queue and history.\n• Player component with custom controls, gestures and support for 4K playback.\n• Fullscreen, Picture in Picture and background audio playback.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/stream.yattee.app.png",
+      "tintColor": "#0060d0",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "2.0.0",
+          "date": "2026-08-23T11:04:26Z",
+          "localizedDescription": "Bug Fixes:\n\n• Fix no streams reported from Piped (#974) - thanks @raycheung.\n• Fix description timestamp links seeking to wrong position for out-of-range values (#966) - thanks @YuriNachos.\n• Fix deep link timestamp parsing accepting infinity as seek position (#965) - thanks @YuriNachos.\n• Fix audio sample rate label dropping the kHz decimal (#964) - thanks @YuriNachos.\n• Fix playback rate display dropping meaningful digits (#963) - thanks @YuriNachos.\n• Fix www.duckduckgo.com misrouting to yt-dlp external video extraction (#962) - thanks @YuriNachos.\n\nOther:\n\n• Chunk stateless feed requests to support more than 500 subscriptions (#967) - thanks @pehbehbeh.",
+          "downloadURL": "https://github.com/yattee/yattee/releases/download/2.0.0-beta.270/Yattee-2.0.0-iOS.ipa",
+          "size": 34570188,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "beta-reports-active",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Yattee uses local network to discover and control playback on other Yattee devices."
+        }
+      }
+    },
+    {
+      "name": "SmartTube",
+      "bundleIdentifier": "com.void.smarttube.app",
+      "developerName": "RipeStore",
+      "subtitle": "YouTube client for iPhone — ad-free, SponsorBlock, DeArrow, Google sign-in, up to 8K",
+      "localizedDescription": "SmartTube is a free, open-source YouTube client for iPhone, iPad, and Apple TV that blocks ads, supports background playback, and integrates SponsorBlock to skip sponsor segments automatically.\n\nThis build is distributed by a third-party not related to milika/SmartTubeIOS.\n\nFeatures:\n\n• Background audio and picture-in-picture.\n• Subscription feed with channel filters.\n• Watch history tracking with \"Hide Watched\" option.\n• Share extension and smarttube:// URL scheme.\n• PIN lock for Settings.\n• Privacy toggle to disable Crashlytics/analytics.\n• Apple TV support.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.void.smarttube.app.png",
+      "tintColor": "#302060",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/smarttubebuilder@main/screenshots/screenshot_home.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/smarttubebuilder@main/screenshots/screenshot_subscriptions.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/smarttubebuilder@main/screenshots/screenshot_player.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/smarttubebuilder@main/screenshots/screenshot_settings.webp"
+      ],
+      "versions": [
+        {
+          "version": "5.1",
+          "date": "2026-09-15T09:07:10Z",
+          "localizedDescription": "chore: sync Localizable.xcstrings with recent UI string additions.\n\nAuto-generated by Xcode's string-catalog extraction, picking up new source strings from recent features (Parental Controls PIN entry, Disable Analytics toggle, Chapters, Loop, playlist move/copy, etc.) that hadn't been synced into the catalog yet.\n\nCo-Authored-By: Claude Sonnet 5.\n\nBranch: master.\n\nBuilt from upstream commit 002684b on the master branch.",
+          "downloadURL": "https://github.com/RipeStore/smarttubebuilder/releases/download/v5.1-002684b/SmartTube-ios-v5.1-002684b-unsigned.ipa",
+          "size": 8857317,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "SmartTube uses your local network to find AirPlay-compatible devices for casting videos to your TV.",
+          "NSPhotoLibraryAddUsageDescription": "SmartTube needs access to save downloaded videos to your Photos library."
         }
       }
     }
