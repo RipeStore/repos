@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "app.mangatan.mangatan",
     "moe.itoapp.ito",
-    "com.emp0ry.mirushin",
-    "com.kodjodevf.mangayomi"
+    "com.emp0ry.mirushin"
   ],
   "apps": [
     {
@@ -1091,10 +1091,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-09-14T02:45:00Z",
-          "localizedDescription": "Release v6.1.17:\n\n• Update runtime TLS lockfile (17729e0).\n\n• Add multilingual local subtitles (770b60f).\n• Speed up local EPUB imports (981c30c).\n• Show dictionary import progress and results (dc75b16).\n• Filler (accacbf).\n• Add local subtitles to the WebUI (e2967f6).\n• Show character progress in media overlays (23ca370).\n• Start local novel imports after server startup (6c1992f).\n• Add free local subtitle generation (83839c8).\n• Support separate primary and secondary novel fonts (ab97bfa).\n• Add accelerated local subtitle transcription (c0f43e2).\n• Keep profile switching available for empty lookups (02b8a4f).\n• Preserve YouTube state across tab changes (9006b92).\n• Capture actionable iOS startup readiness failures (41c67a6).\n• Keep Screen Lookup popups usable beside vertical text (c9d1344).\n• Reconstruct OCR text across manga page seams (48f3275).\n• Stitch OCR text across tall-page boundaries (6b3a1d8).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.17/Manatan-v6.1.17-iOS.ipa",
-          "size": 366794518,
+          "date": "2026-09-15T00:19:48Z",
+          "localizedDescription": "Release v6.1.18:\n\n• Highlight filler episodes in video lists (6b53962).\n• Classify local backend readiness failures (a10855e).\n• Add manual dictionary search to Screen Lookup (2407e5d).\n• Keep readers usable during transient backend probes (db161a8).\n• Proxy lazy hoster HLS playlists (ed82777).\n\n• Distinguish backend recovery failures (0beec41).\n• Match local subtitles to profile language (a62921f).\n• Preserve YouTube state without blanking tabs (4f5b9c1).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.18/Manatan-v6.1.18-iOS.ipa",
+          "size": 366801709,
           "minOSVersion": "16.1"
         }
       ],
@@ -4082,6 +4082,38 @@
           "NSLocalNetworkUsageDescription": "Flycast uses the local network to find and communicate with AltServer.",
           "NSMicrophoneUsageDescription": "Flycast requires microphone access to emulate the Dreamcast microphone",
           "NSPhotoLibraryAddUsageDescription": "Flycast can save screenshots to your Photo library."
+        }
+      }
+    },
+    {
+      "name": "MeloCafé",
+      "bundleIdentifier": "com.stossy11.MeloCafe",
+      "developerName": "stossy11",
+      "subtitle": "MeloCafe - iOS Cemu based Wii U emulator",
+      "localizedDescription": "Cemu - Wii U emulator:\n\nThis is the code repository of Cemu, a Wii U emulator that is able to run most Wii U games and homebrew in a playable state.\n\nCemu is currently only available for 64-bit Windows, Linux & macOS devices.\n\nLinks::\n\n• Official Matrix Server.\n• Setup Guide.\n\nOther relevant repositories::\n\n• Cemu's Community Graphic Packs.\n\nDownload:\n\nOn Windows, Cemu is available both as an installer and in a portable format, where no installation is required besides extracting it in a safe place.\n\nThe native macOS build is currently purely experimental and should not be considered stable or ready for issue-free gameplay. There are also known issues with degraded performance due to the use of MoltenVK and Rosetta for ARM Macs. We appreciate your patience while we improve Cemu for macOS.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.stossy11.MeloCafe.png",
+      "tintColor": "#f080f0",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-09-14T12:54:41Z",
+          "localizedDescription": "• Full iOS Support.\n• Metal Argument Buffers.\n• Cached Threaded Interpreter.\n\nThis is the first release of MeloCafe, there WILL be bugs, glitches, performance issues and unintended behavior which will get fixed in the future.\n\nMake sure to assign the Universal Script in StikDebug.",
+          "downloadURL": "https://github.com/stossy11/MeloCafe/releases/download/1.0/MeloCafe.ipa",
+          "size": 23433272,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "MeloCafe uses the microphone when Wii U software requests GamePad microphone input."
         }
       }
     }

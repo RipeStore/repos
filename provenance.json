@@ -106,12 +106,12 @@
       "versions": [
         {
           "version": "3.4.0",
-          "buildVersion": "10111",
-          "marketingVersion": "3.4.0-alpha.20260908.93f49b4",
-          "date": "2026-09-08",
-          "localizedDescription": "Alpha build 93f49b4 · 2026-09-08\n\nChanges in this build:\n• build(dolphin): bump iCube to a7d9b67c08 (debug server bind + paused screenshot fixes)\n• fix(uitesting): link VirtualJaguar dynamically to break the libchdr/zstd duplicate symbols\n• fastlane: update Snapshot device list to match installed simulators\n• [Auto] Update skin catalog seed data (#3679)\n\nInstalls alongside the stable app. Built automatically from develop — expect rough edges.",
+          "buildVersion": "10112",
+          "marketingVersion": "3.4.0-alpha.20260915.ca6ccfa",
+          "date": "2026-09-15",
+          "localizedDescription": "Alpha build ca6ccfa · 2026-09-15\n\nChanges in this build:\n• ci(testflight): distribute nightlies to external groups after upload\n\nInstalls alongside the stable app. Built automatically from develop — expect rough edges.",
           "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/alpha/Provenance-iOS-NoExtensions.ipa",
-          "size": 727792476,
+          "size": 728052318,
           "minOSVersion": "17.0"
         }
       ],
@@ -162,7 +162,7 @@
         {
           "version": "alpha-ios",
           "buildVersion": "alpha-ios",
-          "date": "2026-09-08T09:46:21.239Z",
+          "date": "2026-09-15T02:25:13.084Z",
           "localizedDescription": "Rolling CI alpha from GitHub Releases. Unsigned; replaced on every successful default-branch or develop build.",
           "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha/Non-Jailbroken.ipa",
           "size": 1,
@@ -173,10 +173,10 @@
         {
           "version": "1.0.0-ios",
           "buildVersion": "1.0.0-ios",
-          "date": "2026-09-08",
+          "date": "2026-09-15",
           "localizedDescription": "iCube 1.0.0 for iOS",
           "downloadURL": "https://icube-emu.com/builds-versioned/1.0.0/iOS/iCube.ipa",
-          "size": 90622555,
+          "size": 90622816,
           "minOSVersion": "15.0",
           "platform": "iOS",
           "isBeta": false
@@ -184,7 +184,7 @@
         {
           "version": "1.0.0-beta9-ios",
           "buildVersion": "1.0.0-beta9-ios",
-          "date": "2026-09-08",
+          "date": "2026-09-15",
           "localizedDescription": "iCube 1.0.0 Beta 9 for iOS",
           "downloadURL": "https://icube-emu.com/builds-versioned/1.0.0/iOS-Beta9/iCube.ipa",
           "size": 82799373,
@@ -196,7 +196,7 @@
         {
           "version": "1.0.0-beta8-ios",
           "buildVersion": "1.0.0-beta8-ios",
-          "date": "2026-09-08",
+          "date": "2026-09-15",
           "localizedDescription": "iCube 1.0.0 Beta 8 for iOS",
           "downloadURL": "https://icube-emu.com/builds-versioned/1.0.0/iOS-Beta8/iCube.ipa",
           "size": 82893911,
@@ -208,7 +208,7 @@
         {
           "version": "1.0.0-beta7-ios",
           "buildVersion": "1.0.0-beta7-ios",
-          "date": "2026-09-08",
+          "date": "2026-09-15",
           "localizedDescription": "iCube 1.0.0 Beta 7 for iOS",
           "downloadURL": "https://icube-emu.com/builds-versioned/1.0.0/iOS-Beta7/iCube.ipa",
           "size": 82893502,
