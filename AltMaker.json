@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "moe.itoapp.ito",
-    "com.noopapp.noop",
-    "app.mangatan.mangatan"
+    "com.llsc12.Paicord",
+    "sh.mateo.empo",
+    "moe.itoapp.ito"
   ],
   "apps": [
     {
@@ -1427,10 +1427,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-08-05T02:00:26Z",
-          "localizedDescription": "Automated build for commit 473c780.",
-          "downloadURL": "https://github.com/llsc12/Paicord/releases/download/paicord-nightly-30966802082/Paicord-iOS-473c780.ipa",
-          "size": 32950606,
+          "date": "2026-09-16T22:34:37Z",
+          "localizedDescription": "Automated build for commit e1f9503.",
+          "downloadURL": "https://github.com/llsc12/Paicord/releases/download/paicord-nightly-35156331495/Paicord-iOS-e1f9503.ipa",
+          "size": 32988569,
           "minOSVersion": "17.0"
         }
       ],
@@ -4222,20 +4222,20 @@
       ],
       "versions": [
         {
-          "version": "0.6.9",
-          "date": "2026-09-12T06:12:38Z",
-          "localizedDescription": "Bug Fixes:\n\n• Compare unpacked bytes with fixtures instead of CryptoKit hashes (d03fcce).\n\nChores:\n\n• Pick up the pointer injection bridge and the async mouse fix (#147) (ea7385b).\n\nFeatures:\n\n• Unpack games packed with Enigma Virtual Box (7332eff).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.6.9/Empo-0.6.9-unsigned.ipa",
-          "size": 19380389,
+          "version": "0.6.10",
+          "date": "2026-09-16T22:05:23Z",
+          "localizedDescription": "Bug Fixes:\n\n• Apply the UX writing audit to every user-visible string (#148) (225e9ec).\n• Read sticks as eight sectors and rebuild controller input on the physical profile (d426ed8).\n• Keep taps on a presented sheet out of the game view (cca37b6).\n• Count only session logs against the per-game log limit (9ddad9d).\n\nOther:\n\n• Add the EmpoTests target with controller input manager tests (002ba85).\n• Let UI tests drive a virtual pad and ignore the simulator gamepad (9e5a887).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.6.10/Empo-0.6.10-unsigned.ipa",
+          "size": 19394847,
           "minOSVersion": "26.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
-          "NSBluetoothAlwaysUsageDescription": "Game controllers may connect over Bluetooth.",
+          "NSBluetoothAlwaysUsageDescription": "Empo uses Bluetooth so you can play with a wireless game controller.",
           "NSCameraUsageDescription": "Take a photo to use as custom game artwork or banner.",
-          "NSLocalNetworkUsageDescription": "Some games offer local multiplayer, which needs permission to find other players on your network."
+          "NSLocalNetworkUsageDescription": "Empo finds nearby players on your network so you can play local multiplayer games."
         }
       }
     },
