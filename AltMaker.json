@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "app.mangatan.mangatan",
+    "moe.itoapp.ito",
     "com.noopapp.noop",
-    "com.naine.doer"
+    "app.mangatan.mangatan"
   ],
   "apps": [
     {
@@ -3182,10 +3182,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-15T14:39:43Z",
+          "date": "2026-09-16T14:29:24Z",
           "localizedDescription": "Automated unsigned nightly from main at commit 02a33df. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260915-60/Ito-1.0.0-nightly.20260915.60-unsigned.ipa",
-          "size": 10264275,
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260916-61/Ito-1.0.0-nightly.20260916.61-unsigned.ipa",
+          "size": 10264205,
           "minOSVersion": "15.4"
         }
       ],
@@ -3896,10 +3896,10 @@
       "versions": [
         {
           "version": "11.7.0",
-          "date": "2026-09-16T08:00:47Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.7.0).\n\n• Android (debug) — NOOP-android-debug-v11.7.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.7.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.7.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.7.0 · built 2026-09-16 · 45ee2fb.",
+          "date": "2026-09-16T12:32:32Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.7.0).\n\n• Android (debug) — NOOP-android-debug-v11.7.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.7.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.7.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.7.0 · built 2026-09-16 · 8576a2d.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.7.0.ipa",
-          "size": 21298493,
+          "size": 21306544,
           "minOSVersion": "17.0"
         }
       ],
