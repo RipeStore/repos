@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.llsc12.Paicord",
-    "sh.mateo.empo",
-    "moe.itoapp.ito"
+    "io.github.chrissotraidis.ctrpad",
+    "com.noopapp.noop",
+    "com.llsc12.Paicord"
   ],
   "apps": [
     {
@@ -2174,7 +2174,7 @@
       "subtitle": "Crash Team Racing for MacOS, iOS, and iPadOS",
       "localizedDescription": "CTRPad:\n\nCTRPad is an unofficial native Apple-platform port built from CTR Native and the CTR-ModSDK decompilation project. It runs the decompiled game code directly; it is not an emulator and does not need a PlayStation BIOS.\n\nTo our knowledge, this is the first documented native iPhone and iPad port built from the CTR-ModSDK/CTR Native codebase. That is an Apple-platform claim, not a claim that CTRPad created the first native CTR port: CTR Native established the Windows and Linux port on which this work is based.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.chrissotraidis.ctrpad.png",
-      "tintColor": "#000020",
+      "tintColor": "#0050f0",
       "category": "games",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/chrissotraidis/ctrpad@main/docs/readme/ctrpad-crash-cove-gameplay.png",
@@ -2185,11 +2185,11 @@
       ],
       "versions": [
         {
-          "version": "0.1.1",
-          "date": "2026-08-16T07:19:21Z",
-          "localizedDescription": "• Improve touch steering, drift boost, and gas lock.",
-          "downloadURL": "https://github.com/chrissotraidis/ctrpad/releases/download/v0.1.1/CTRPad-0.1.1-2-d095cadfb62d-unsigned.ipa",
-          "size": 3372401,
+          "version": "0.1.2",
+          "date": "2026-09-17T01:43:16Z",
+          "localizedDescription": "• iPhone/iPad Options now puts touch controls first, followed by diagnostic export and display settings. Done stays visible as you scroll.\n• Game stepping and audio pause while Options or the touch-layout editor is open, making the menu more responsive. Closing it resumes the game.\n• Export current/recent logs and build details with Options → Export diagnostic logs → Save to Files. Review the text before sharing; no automatic upload, game data or saves are included.\n• New iOS/iPadOS app icon: an empty blue racing kart, with no characters or mascots.\n• Updated iPad simplified left-steering default layout, Large controls and approximately 53% opacity. Existing custom layouts and phone defaults are preserved.\n\nDownloads:\n\nNo retail game image or playable game data is included. Supply your own compatible disc image. Keep the same signing/bundle identity when updating on iOS so your existing data remains available; do not uninstall as an update workaround.",
+          "downloadURL": "https://github.com/chrissotraidis/ctrpad/releases/download/v0.1.2/CTRPad-0.1.2-4-173fe2f3f9e2-unsigned.ipa",
+          "size": 4716115,
           "minOSVersion": "15.0"
         }
       ],
@@ -3896,10 +3896,10 @@
       "versions": [
         {
           "version": "11.7.0",
-          "date": "2026-09-16T12:32:32Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.7.0).\n\n• Android (debug) — NOOP-android-debug-v11.7.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.7.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.7.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.7.0 · built 2026-09-16 · 8576a2d.",
+          "date": "2026-09-17T00:52:35Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.7.0).\n\n• Android (debug) — NOOP-android-debug-v11.7.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.7.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.7.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.7.0 · built 2026-09-17 · f332b56.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.7.0.ipa",
-          "size": 21306544,
+          "size": 21320912,
           "minOSVersion": "17.0"
         }
       ],
