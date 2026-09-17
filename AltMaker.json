@@ -1312,7 +1312,7 @@
       "bundleIdentifier": "com.tfourj.Palladium",
       "developerName": "tfourj",
       "subtitle": "iOS Media downloader app based on YT-DLP",
-      "localizedDescription": "Palladium:\n\nOn-device iOS media downloader powered by yt-dlp, gallery-dl, ffmpeg, and PythonKit.\n\nApp Screenshoots:\n\nThis URL is not allowed by the configured download allowlists.\n\nTo allow downloads from any URL, visit getpalladium.app/allowlist and click Add to Palladium.\n\n(Allowlists not required after v1.3.2+).\n\nWhat It Does:\n\n• Uses yt-dlp for media extraction, gallery-dl for images, and ffmpeg for processing.\n• Runs Python tooling inside the app.\n\nWhile it is actively tested and continuously improved, you may still encounter bugs. Feedback is greatly appreciated. If you find a bug, please open an issue and we’ll work to fix it.\n\nDownload:\n\n• .ipa from GitHub.\n\n• Nightly: GitHub Actions.",
+      "localizedDescription": "Palladium:\n\nOn-device iOS media downloader powered by yt-dlp, gallery-dl, ffmpeg, and PythonKit.\n\nApp Screenshots:\n\nThis URL is not allowed by the configured download allowlists.\n\nTo allow downloads from any URL, visit getpalladium.app/allowlist and click Add to Palladium.\n\n(Allowlists not required after v1.3.2+).\n\nWhat It Does:\n\n• Uses yt-dlp for media extraction, gallery-dl for images, and ffmpeg for processing.\n• Runs Python tooling inside the app.\n\nWhile it is actively tested and continuously improved, you may still encounter bugs. Feedback is greatly appreciated. If you find a bug, please open an issue and we’ll work to fix it.\n\nDownload:\n\n• .ipa from GitHub.\n\n• Nightly: GitHub Actions.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.tfourj.Palladium.png",
       "tintColor": "#6156e2",
       "category": "other",
@@ -2536,7 +2536,7 @@
           "date": "2026-09-15T15:14:06Z",
           "localizedDescription": "• Carry playback on and reconnect across leaving and coming home, and fix defects found in hardware testing.\n• Keep the listener informed and in control after a tune moves to the phone.\n• Show the device offline, without the Demo Mode offer, to users away from it.\n• droidctl: drive Android containers on Linux phones over SSH.\n• Fix defects found in hardware testing, above all around network transitions.\n• deps: bump hono from 4.13.0 to 4.13.7 in /c64scope[bot].\n• Resolve all open Dependabot alerts.",
           "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.0.4/c64commander-1.0.4-ios.ipa",
-          "size": 7335524,
+          "size": 7335544,
           "minOSVersion": "15.0"
         }
       ],
