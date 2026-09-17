@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "io.github.chrissotraidis.ctrpad",
     "com.noopapp.noop",
-    "com.llsc12.Paicord"
+    "app.mangatan.mangatan",
+    "com.nuvio.media"
   ],
   "apps": [
     {
@@ -3066,9 +3066,9 @@
         {
           "version": "0.1.8",
           "date": "2026-09-16T05:26:46Z",
-          "localizedDescription": "• Fix bug with color of notch hide bar, hopefully.\n• Added text edit annotations (in line note/grammar fixes).\n• Replace text globally (Y/N → name).\n• Fix highlight clipping with low line height.\n• Added more options when importing AO3 links via text paste (folder choice).",
+          "localizedDescription": "• Fix bug with color of notch hide bar, hopefully.\n• Added text edit annotations (in line note/grammar fixes).\n• Replace text globally (Y/N → name).\n• Fix highlight clipping with low line height.\n• Added more options when importing AO3 links via text paste (folder choice).\n• Fixed find in article bug.\n• Added reading stats and screen time limits.\n• Improved all highlights menu.\n• Changed defaults for text replacement.",
           "downloadURL": "https://github.com/kyrielie/nectar/releases/download/v0.1.8/Nectar-unsigned.ipa",
-          "size": 4968499,
+          "size": 5084070,
           "minOSVersion": "17.0"
         }
       ],
@@ -3327,11 +3327,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.4.21",
-          "date": "2026-09-16T01:26:20Z",
-          "localizedDescription": "• fix(home): match continue watching badge colors to tv @tapframe.\n• perf(navigation): reduce root tab switch stalls @tapframe.\n• Add TVDB anime ID preference to avoid per-season IMDB splits (#1952) @skoruppa.\n• Revert \"perf(navigation): reduce tab switch animation stalls\" @tapframe.\n• fix(player): keep android landscape lock during exit @tapframe.\n• fix(profiles): add active profile toast and back button @tapframe.\n• fix(profiles): prevent selecting the active profile @tapframe.\n• fix(player): hide addons with no streams @tapframe.\n• fix(player): start playback without waiting for addon subtitles (#1949) @halibiram.\n• fix(trailer): open ios playback in fullscreen @tapframe.\n• Fix anime skip mapping, subtitle language detection, watched badges and Polish translations (#1943) @skoruppa.\n• fix(library): restore LaunchedEffect import after the 0.4.21 merge @luqmanfadlli.\n• feat(streams): add pinned stream sources @luqmanfadlli.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.21/Nuvio-v0.4.21-Enhanced.ipa",
-          "size": 66287229,
+          "version": "0.4.22",
+          "date": "2026-09-17T05:08:08Z",
+          "localizedDescription": "• feat(updater): add stable and beta update channels @tapframe.\n• feat(tmdb): add personal API key override with credential sync @tapframe.\n• feat(details): parse addon episode runtimes @tapframe.\n• Use addon imdb_id as fallback for non-IMDB content enrichment (#1966) @skoruppa.\n• fix(settings): keep page content visible during navigation @tapframe.\n• i18n(vi): update latest Vietnamese strings (#1959) @blueocean2308.\n• fix: limit anime ID preference to entries with anime-specific IDs (#1955) @skoruppa.\n• feat(ratings): add rotten tomatoes status icons @tapframe.\n\n• fix(streams): pin individual providers instead of whole source groups @luqmanfadlli.\n• fix(ios): stop isa-swizzling UINavigationBar for empty-area passthrough @luqmanfadlli.\n• fix(ios): run plugins on large-stack threads to prevent QuickJS stack overflow @luqmanfadlli.\n\n• fix(ios): import kotlinx.coroutines.Runnable in plugin dispatcher @luqmanfadlli.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.22/Nuvio-v0.4.22-Enhanced.ipa",
+          "size": 66450409,
           "minOSVersion": "16.1"
         }
       ],
@@ -3380,10 +3380,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-09-16T09:13:52Z",
-          "localizedDescription": "Release v6.1.19:\n\n• Validate Apple memberships with StoreKit on iOS (f1939b3).\n• Reconstruct OCR text across Webtoon page seams (ae9d8cd).\n• Show repository contacts in WebUI settings (f6b5438).\n• Show repository contact links in extension settings (84d1ec9).\n\n• Open Screen Lookup settings in overlay (01f8745).\n• Make Screen Lookup manual search opt-in (063925d).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.19/Manatan-v6.1.19-iOS.ipa",
-          "size": 366910603,
+          "date": "2026-09-17T06:10:06Z",
+          "localizedDescription": "Release v6.1.20:\n\n• Fix cross-page OCR in desktop readers (50b7bf0).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.20/Manatan-v6.1.20-iOS.ipa",
+          "size": 366903346,
           "minOSVersion": "16.1"
         }
       ],
@@ -3896,10 +3896,10 @@
       "versions": [
         {
           "version": "11.7.0",
-          "date": "2026-09-17T00:52:35Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.7.0).\n\n• Android (debug) — NOOP-android-debug-v11.7.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.7.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.7.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.7.0 · built 2026-09-17 · f332b56.",
+          "date": "2026-09-17T08:44:02Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.7.0).\n\n• Android (debug) — NOOP-android-debug-v11.7.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.7.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.7.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.7.0 · built 2026-09-17 · 6c1502f.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.7.0.ipa",
-          "size": 21320912,
+          "size": 21324376,
           "minOSVersion": "17.0"
         }
       ],
