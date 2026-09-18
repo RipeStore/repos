@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.aoshuang.manicemu",
-    "paige.Navic",
-    "com.noopapp.noop"
+    "moe.itoapp.ito",
+    "com.noopapp.noop",
+    "app.mangatan.mangatan"
   ],
   "apps": [
     {
@@ -2111,7 +2111,7 @@
         {
           "version": "1.0.3",
           "date": "2026-09-17T17:27:35Z",
-          "localizedDescription": "What's new.\n\n• Trakt sync. Connect your Trakt account in Profile and your watchlist and watched history stay in sync.\n• Picture in Picture on iPhone and iPad.\n\n• IMDb, Rotten Tomatoes and Metacritic ratings on the detail page (add an OMDb key in Settings).\n• Playback recovery: if the video freezes while the audio keeps going, the player notices and recovers by itself. Streams that drop are picked back up too.\n• Chromecast support on iPhone and iPad.\n• Apple TV: the episode row opens on the season and episode you're on, and the player controls and episode panel behave better with the remote.\n• Lots of smaller fixes.\n\nImportant: nothing in this release is signed.\n\nNone of the files here are signed with a developer account, and the Mac app is not notarized anymore.\n\nMac: open the dmg and drag SceneBox to Applications. macOS will block it the first time because it isn't notarized. Either right click the app > Open, or go to System Settings > Privacy & Security and press \"Open Anyway\". If it still refuses, run this in Terminal:\n\nBecause the Mac app is unsigned it can't use the Keychain the way the signed builds did, so signing in to an account may not work on Mac. \"Continue as guest\" works fine. If you had an older signed version installed, delete it first.\n\niPhone/iPad: the ipa isn't signed (same as before), use Sideloadly, AltStore, SideStore, Feather or ESign with your own Apple ID. Free Apple ID = resign every 7 days (AltStore/SideStore do it for you), paid dev account = one year.\n\nApple TV: Sideloadly works over Wi-Fi. On the TV go to Settings > Remotes and Devices > Remote App and Devices so it shows up, then pick it in Sideloadly.",
+          "localizedDescription": "What's new.\n\n• Trakt sync. Connect your Trakt account in Profile and your watchlist and watched history stay in sync.\n• Picture in Picture on iPhone and iPad.\n\n• IMDb, Rotten Tomatoes and Metacritic ratings on the detail page (add an OMDb key in Settings).\n• Playback recovery: if the video freezes while the audio keeps going, the player notices and recovers by itself. Streams that drop are picked back up too.\n• Chromecast support on iPhone and iPad.\n• Apple TV: the episode row opens on the season and episode you're on, and the player controls and episode panel behave better with the remote.\n• Lots of smaller fixes.\n\nImportant: this release is NOT signed. You have to allow it yourself.\n\nNothing here is signed with an Apple developer account and the Mac app is not notarized. macOS and iOS will refuse to open it until you explicitly allow it. This is expected, it's not broken.\n\nMac:\n\n• Open the dmg and drag SceneBox to Applications.\n• Open SceneBox. macOS will say it \"could not verify\" the app or that it's from an unidentified developer. Press Done (not Move to Trash).\n• Go to System Settings > Privacy & Security, scroll down to Security and press \"Open Anyway\" next to SceneBox, then confirm.\n• From then on it opens normally.\n\nIf you'd rather skip the dialog, run this in Terminal after copying the app to Applications:\n\nBecause the Mac app has no developer signature it can't use the Keychain the way the old signed builds did, so signing in to an account may not work on Mac. \"Continue as guest\" works. If you had an older signed version installed, delete it first.\n\niPhone/iPad: the ipa isn't signed, you sign it yourself with Sideloadly, AltStore, SideStore, Feather or ESign with your own Apple ID. Free Apple ID = resign every 7 days (AltStore/SideStore do it for you), paid dev account = one year.\n\nApple TV: Sideloadly works over Wi-Fi. On the TV go to Settings > Remotes and Devices > Remote App and Devices so it shows up, then pick it in Sideloadly.",
           "downloadURL": "https://github.com/donbytyqi/scenebox/releases/download/v1.0.3/SceneBox-1.0.3.ipa",
           "size": 30506464,
           "minOSVersion": "18.0"
@@ -3171,10 +3171,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-17T14:35:29Z",
+          "date": "2026-09-18T13:53:30Z",
           "localizedDescription": "Automated unsigned nightly from main at commit 02a33df. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260917-62/Ito-1.0.0-nightly.20260917.62-unsigned.ipa",
-          "size": 10264526,
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260918-63/Ito-1.0.0-nightly.20260918.63-unsigned.ipa",
+          "size": 10264272,
           "minOSVersion": "15.4"
         }
       ],
@@ -3369,10 +3369,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-09-18T05:33:27Z",
-          "localizedDescription": "Release v6.1.21:\n\n• Use direct native HLS playback (e280a96).\n• Improve video episode picker status (7589863).\n• Honor shared reader tap settings (b90113b).\n\n• Show remaining chapters for extension novels (290b7f8).\n• Remember subtitle sidebar visibility (95591ec).\n• Restore OCR in paged WebUI readers (9a684f6).\n\n• Default flashcards to Manatan SRS everywhere (5f30cdf).\n• Add fullscreen control to manga reader (d1289f8).\n• Make Manatan SRS card creation reliable (ff4e7d0).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.21/Manatan-v6.1.21-iOS.ipa",
-          "size": 366999165,
+          "date": "2026-09-18T12:13:33Z",
+          "localizedDescription": "Release v6.1.22:\n\n• Cache Windows symbol tooling across builds (d8fcb2f).\n• Handle Android source configuration errors (c904da6).\n• Explain missing self-hosted media configuration (47e2ac1).\n• Keep mined SRS cards discoverable (04f4558).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.22/Manatan-v6.1.22-iOS.ipa",
+          "size": 367165934,
           "minOSVersion": "16.1"
         }
       ],
@@ -3885,10 +3885,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-18T06:06:53Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-18 · ee8b7e3.",
+          "date": "2026-09-18T12:19:10Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-18 · e02ed9b.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21445674,
+          "size": 21462512,
           "minOSVersion": "17.0"
         }
       ],
