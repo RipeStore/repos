@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.nuvio.media",
     "com.kodjodevf.mangayomi",
-    "moe.itoapp.ito",
-    "com.noopapp.noop"
+    "moe.itoapp.ito"
   ],
   "apps": [
     {
@@ -3316,11 +3316,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.4.23",
-          "date": "2026-09-17T11:02:10Z",
-          "localizedDescription": "• fix(simkl): retain posters when marking items watched @tapframe.\n• fix(home): restore wide continue watching sizing @tapframe.\n• i18n(vi): update latest Vietnamese strings (#1975) @blueocean2308.\n• fix(ui): use filled chips and consistent surface colors @tapframe.\n• feat(playback): support IntroDB movie segments and external forwarding (#1963) @Laskco.\n\n• fix(merge): drop duplicate CancellationException import in SkipIntroApi @luqmanfadlli.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.23-beta/Nuvio-v0.4.23-Enhanced.ipa",
-          "size": 66509993,
+          "version": "0.4.24",
+          "date": "2026-09-18T19:58:08Z",
+          "localizedDescription": "• feat(trailers): let each hero trailer start with sound @luqmanfadlli.\n\n• fix(player): remove extra bottom padding on ios @tapframe.\n• fix(player): remember brightness across playback sessions @tapframe.\n• fix(player): reset auto-hide timer on control interactions @tapframe.\n• feat(player): add runtime toggle and adjust control overflow @tapframe.\n• feat(player): update gesture indicators for new layout @tapframe.\n• feat(player): follow design parity @tapframe.\n• feat(theme): apply the accent gradient to icons, accents and buttons @luqmanfadlli.\n• fix(ios): tint the glass tab bar with the full theme gradient @luqmanfadlli.\n• feat(livetv): pin search and filters with a sticky header @luqmanfadlli.\n• perf(ios): cap the mpv demuxer cache to avoid jetsam on 4K HDR @luqmanfadlli.\n\n• fix(ios): stabilize subtitle font resolver @mucahitpe.\n• feat(settings): add rating visibility controls @tapframe.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.24-beta/Nuvio-0.4.24-Enhanced.ipa",
+          "size": 66911481,
           "minOSVersion": "16.1"
         }
       ],
