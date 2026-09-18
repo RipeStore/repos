@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.exaltedpixels.LensLinkCamera",
     "app.scenebox.SceneBox",
-    "paige.Navic",
-    "moe.itoapp.ito"
+    "paige.Navic"
   ],
   "apps": [
     {
@@ -1582,11 +1582,11 @@
       ],
       "versions": [
         {
-          "version": "1.12.0",
-          "date": "2026-09-14T00:31:24Z",
-          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nOther changes:\n\n• Draw the paused picture on the phone, not in the plugin.",
-          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.12.0/LensLink-unsigned.ipa",
-          "size": 1066735,
+          "version": "1.13.0",
+          "date": "2026-09-18T03:24:41Z",
+          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nNew:\n\n• Live screen: two layers, one dial (beta).\n• Home, Options, Live Activity, and correct lens labels (beta).\n• Format sheet: Codec and Color as check rows that say what they change (beta).\n• Focus: faces first, a tap marker, scene-change reset, and AE/AF Lock (beta).\n• Options: experimental High frame rate mode, 120 and 240 fps (beta).\n• Quality: Maximum mode probes the connection for the most it carries (beta).\n• Live Activity: Stop only; Format sheet: shorter captions (beta).\n• Remove the Live Activity; replace presets with remembered camera settings (beta).\n\n• App: drop Picture in Picture background streaming and the voip/audio background modes.\n• Site: privacy policy and support pages for the App Store listing.\n• App: remove the \"Check broadcast link\" diagnostic from Options.\n\nFixes:\n\n• Maximum: keep the encoder in speed mode where quality mode drops frames (beta).",
+          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.13.0/LensLink-unsigned.ipa",
+          "size": 1055253,
           "minOSVersion": "15.0"
         }
       ],
@@ -1968,8 +1968,8 @@
       "name": "Navic",
       "bundleIdentifier": "paige.Navic",
       "developerName": "ssalggnikool",
-      "subtitle": "A modern Navidrome client for Android and iOS",
-      "localizedDescription": "A modern Navidrome client for Android and iOS.",
+      "subtitle": "Subsonic music streaming app for Android and iOS",
+      "localizedDescription": "Subsonic music streaming app for Android and iOS.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/paige.Navic.png",
       "tintColor": "#6156e2",
       "category": "entertainment",
@@ -2534,7 +2534,7 @@
         {
           "version": "1.0.4",
           "date": "2026-09-15T15:14:06Z",
-          "localizedDescription": "• Carry playback on and reconnect across leaving and coming home, and fix defects found in hardware testing.\n• Keep the listener informed and in control after a tune moves to the phone.\n• Show the device offline, without the Demo Mode offer, to users away from it.\n• droidctl: drive Android containers on Linux phones over SSH.\n• Fix defects found in hardware testing, above all around network transitions.\n• deps: bump hono from 4.13.0 to 4.13.7 in /c64scope[bot].\n• Resolve all open Dependabot alerts.",
+          "localizedDescription": "• Carry playback on and reconnect across leaving and coming home, and fix defects found in hardware testing.\n• Keep the listener informed and in control after a tune moves to the phone.\n• Show the device offline, without the Demo Mode offer, to users away from it.\n• droidctl: drive Android containers on Linux phones over SSH.\n• Fix defects found in hardware testing, above all around network transitions.\n• deps: bump hono from 4.13.0 to 4.13.7 in /c64scope[bot].\n• Keep the page clear of the system bars on WebViews older than 140.\n• Resolve all open Dependabot alerts.",
           "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.0.4/c64commander-1.0.4-ios.ipa",
           "size": 7335544,
           "minOSVersion": "15.0"
@@ -3068,7 +3068,7 @@
           "date": "2026-09-16T05:26:46Z",
           "localizedDescription": "• Fix bug with color of notch hide bar, hopefully.\n• Added text edit annotations (in line note/grammar fixes).\n• Replace text globally (Y/N → name).\n• Fix highlight clipping with low line height.\n• Added more options when importing AO3 links via text paste (folder choice).\n• Fixed find in article bug.\n• Added reading stats and screen time limits.\n• Improved all highlights menu.\n• Changed defaults for text replacement.",
           "downloadURL": "https://github.com/kyrielie/nectar/releases/download/v0.1.8/Nectar-unsigned.ipa",
-          "size": 5084070,
+          "size": 5093712,
           "minOSVersion": "17.0"
         }
       ],
