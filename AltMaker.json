@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.kodjodevf.mangayomi",
     "moe.itoapp.ito",
-    "com.noopapp.noop",
-    "app.mangatan.mangatan"
+    "com.noopapp.noop"
   ],
   "apps": [
     {
@@ -3916,11 +3916,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.9.4",
-          "date": "2026-09-15T09:17:03Z",
-          "localizedDescription": "• Fix double/int cast crash when syncing settings.",
-          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.4/Mangayomi-v0.9.4-ios.ipa",
-          "size": 114238780,
+          "version": "0.9.5",
+          "date": "2026-09-18T16:45:07Z",
+          "localizedDescription": "Reader & Novels:\n\n• Smart Double-Page Mode (#1008):.\n\n• Automatically switch to double-page view based on screen orientation (landscape/portrait).\n• Chapter transition pages now remain isolated for a natural, seamless reading experience.\n\n• Complete Novel Reader Overhaul (#1014):.\n\n• Added double-page reading mode support for novels.\n• Added a Keep screen on toggle to prevent the display from turning off while reading (#1014).\n• Added smooth auto-scroll with fine-tuned speed controls.\n• Redesigned Novel bottom bar and settings sheets: more compact, with quick font-size adjustments.\n• Centralized all novel settings under More > Settings > Novel Reader (#1014).\n\n• Smooth Webtoon Scrolling:.\n\n• Much smoother continuous scrolling without stutter or layout jumps.\n• Fluid auto-scroll that reacts instantly to touch and drag gestures.\n\n• Reliable Page Error Recovery:.\n\n• The Retry button is now immediately clickable with no menu overlay interference.\n• Added a manual Refresh button in the reader top bar to re-fetch fresh pages from the source.\n\n• Dedicated Page Cache:.\n\n• Redesigned chapter caching system (100 MB disk limit with automatic cleanup of older files) to save storage and speed up loading times.\n\nFeatures & User Experience:\n\n• Quick Resume from History (#1005):.\n\n• Double-tap or double-click the History icon in the navigation bar to instantly jump straight back into your latest read chapter or watched episode (filtered by Manga, Anime, or Novel).\n\nOne-Tap Global Search:\n\n• Tap any title in the entry details header to immediately search for it across all extensions (long-press continues to copy to clipboard).\n• Warns you before adding an entry that is already in your library.\n\nMass Migration from Library (#1005):\n\n• Added a dedicated shortcut button in the multi-select bottom action bar to quickly migrate multiple selected entries at once.\n\nAutomatic Sync (#1012):\n\n• Added background auto-sync support and improved sync preference handling.\n\nVideo Player & Desktop:\n\n• Desktop Controls & Performance (#1015):.\n\n• Eliminated stutter caused by mouse hover on the player controls.\n• Added a setting to toggle hardware acceleration on Windows.\n\n• Audio & Subtitle Tracks:.\n\n• Better track synchronization, duplicate removal, and cleaner track labels.\n\nLocalization:\n\n• Fully updated and completed translations across 17 languages (French, German, Spanish, Italian, Portuguese, Russian, Chinese, Japanese, Korean, Arabic, and more).\n\nFixes & Stability:\n\n• Improved error handling and reliability for Kitsu discovery (#1011).\n• File picker improvements and stability updates (#1010).\n\nContributors:\n\n• @NBA2K1 (#1010, #1011).",
+          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.5/Mangayomi-v0.9.5-ios.ipa",
+          "size": 114289495,
           "minOSVersion": "15.0"
         }
       ],
