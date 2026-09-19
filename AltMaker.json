@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.noopapp.noop",
-    "com.husk.app",
-    "com.chrissotraidis.annepad"
+    "moe.itoapp.ito",
+    "org.galaxypad.GalaxyPad",
+    "com.joemattiello.iCube"
   ],
   "apps": [
     {
@@ -109,7 +109,7 @@
       "bundleIdentifier": "com.chrissotraidis.paperpad",
       "developerName": "chrissotraidis",
       "subtitle": "Paper Mario 64, native for Mac, iOS, and iPadOS",
-      "localizedDescription": "PaperPad:\n\nPaperPad combines the pmret Paper Mario decompilation with the statically recompiled runtime and renderer maintained by Paper-Mario-ReCut. It adds a native Apple application shell, Metal presentation, keyboard and controller input, customizable touch controls, native settings, and private first-run ROM import.\n\nPaperPad is a game-specific static recompile, not a general Nintendo 64 emulator. It currently supports only an unmodified Paper Mario (US) 1.0 ROM supplied by the user.\n\nThis repository contains integration source, patches, scripts, and documentation. It does not contain Paper Mario, a ROM, extracted Nintendo assets, generated playable game code, saves, or a playable ROM-derived archive. Read the rights and licensing boundary before redistributing source or a build.",
+      "localizedDescription": "PaperPad:\n\nPaperPad combines the pmret Paper Mario decompilation with the statically recompiled runtime and renderer from Paper-Mario-ReCut, pinned through PaperPad’s maintained source branch. It adds a native Apple application shell, Metal presentation, keyboard and controller input, customizable touch controls, native settings, and private first-run ROM import.\n\nPaperPad is a game-specific static recompile, not a general Nintendo 64 emulator. It currently supports only an unmodified Paper Mario (US) 1.0 ROM supplied by the user.\n\nThis repository contains integration source, pinned maintained dependencies, scripts, and documentation. It does not contain Paper Mario, a ROM, extracted Nintendo assets, generated playable game code, saves, or a playable ROM-derived archive. Read the rights and licensing boundary before redistributing source or a build.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.chrissotraidis.paperpad.png",
       "tintColor": "#00c0f0",
       "category": "games",
@@ -483,7 +483,7 @@
       "bundleIdentifier": "com.chrissotraidis.harkinianpad",
       "developerName": "chrissotraidis",
       "subtitle": "Ocarina of Time native on iOS and iPadOS via Ship of Harkinian with Metal rendering, touch controls, controller support, and ROM-free reproducible builds",
-      "localizedDescription": "HarkinianPad:\n\nHarkinianPad packages the full Ship of Harkinian source port as a native iOS/iPadOS app. It renders through Metal, imports a user-provided supported Ocarina of Time ROM through Files, and includes a landscape touch controller that can be hidden whenever a physical controller is connected.\n\nThis repository contains the mobile integration and reproducible build scripts. It does not contain Ocarina of Time, a ROM, or a playable ROM-derived archive. See the scoped rights and licensing boundary; it does not relicense Shipwright, third-party projects, or game material.\n\nInstall status:\n\nThe current development build has been signed, installed, and played on a 12.9-inch iPad Pro (6th generation) running iPadOS 26.5.2. Files import, on-device archive loading, touch gameplay, save loading, the settings menu, and in-place app updates have all been exercised on that hardware.",
+      "localizedDescription": "HarkinianPad:\n\nHarkinianPad packages the full Ship of Harkinian source port as a native iOS/iPadOS app. It renders through Metal, imports a user-provided supported Ocarina of Time ROM through Files, and includes a landscape touch controller that can be hidden whenever a physical controller is connected.\n\nThis repository contains the mobile integration and pinned build scripts. The exact maintained forks and pins are in sources.lock.json. See mod compatibility and support priorities. The source-maintenance qualification records the remaining source-delivery and reproducibility boundaries. It does not contain Ocarina of Time, a ROM, or a playable ROM-derived archive. See the scoped rights and licensing boundary; it does not relicense Shipwright, third-party projects, or game material.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.chrissotraidis.harkinianpad.png",
       "tintColor": "#002030",
       "category": "games",
@@ -3173,10 +3173,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-18T13:53:30Z",
+          "date": "2026-09-19T13:22:12Z",
           "localizedDescription": "Automated unsigned nightly from main at commit 02a33df. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260918-63/Ito-1.0.0-nightly.20260918.63-unsigned.ipa",
-          "size": 10264272,
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260919-64/Ito-1.0.0-nightly.20260919.64-unsigned.ipa",
+          "size": 10264207,
           "minOSVersion": "15.4"
         }
       ],
@@ -4286,16 +4286,18 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-09-16T11:13:57Z",
-          "localizedDescription": "An experimental iPhone/iPad refinement update, build 7166, based on the app the owner tested and reports is working great on iPad Pro. The macOS Preview 1 remains unchanged.\n\nDownload and update:\n\nDownload GalaxyPad-iOS-iPadOS-0.1.0-preview.3.ipa below. Sign the app and nested module with your own Apple identity. Preserve your existing bundle/signing identity and back up saves before updating in place; do not uninstall first. This is not TestFlight or an App Store build.\n\nThe IPA includes the AOT game-code module but no original game image, extracted game assets, saves or personal provisioning. Supply your own supported USA RMGE01 revision-0 game image. Configured iOS/iPadOS 16+ support is not an every-device guarantee.\n\nChanges from Preview 2:\n\n• Simpler touch controls: removed the duplicate Pause control and kept one Plus button.\n• Game Mode packaging: restored missing opt-in/category metadata and added actual-package checks to prevent recurrence.\n• Audio processing: batched searches, reused sample-energy calculations, and repaired a reproduced low-speed buffer-starvation condition.\n• Expanded regression checks and corrected Simulator configuration overrides.\n\nTested and still open:\n\nDemanding scenes on iPhone 14 can still slow down, and reported audio chopping and finger-tracking limitations remain open. No quantified whole-game FPS improvement or sustained iPhone 60 FPS is claimed. Owner testing is focused acceptance, not full-game certification.",
-          "downloadURL": "https://github.com/chrissotraidis/galaxypad/releases/download/v0.1.0-preview.3/GalaxyPad-iOS-iPadOS-0.1.0-preview.3.ipa",
-          "size": 47743911,
+          "date": "2026-09-19T11:07:02Z",
+          "localizedDescription": "GalaxyPad Preview 4 (build 7168) adds mobile motion aiming and ride controls for iPhone and iPad.\n\n• Gyro cursor: Controls → Gyro Cursor → This Device or Controller. Includes sensitivity, vertical inversion, and recentering; right-stick click also recenters. Defaults to Off. Controller motion depends on support exposed by iOS/iPadOS.\n• Ride stick modes: Controls → Stick Mode → Ray Surfing or Star Ball. Works with the controller left stick or touch movement stick. Ray: hold A to accelerate, Spin to jump. Star Ball: A to jump. Return to Normal after a ride.\n• Keeps Preview 3's WBFS importer, simplified Plus control, Game Mode metadata, and runtime/audio refinements.\n\nThis is an experimental controls update. Mode switching is manual; gyro ride steering is not included. Physical gyro feel and completion of the affected ride missions still need player validation. No new FPS improvement is claimed.\n\nThe native build was installed and launched in place on the owner's iPad. All 36 save/configuration/preference files matched after installation; save and preference bytes also matched after launch (only play-time records changed). Automated sensor tests use synthetic samples and do not establish physical-controller acceptance.\n\nInstall: download the IPA below and sign it with your own Apple account. Back up data, keep the same signing identity/bundle ID, and update in place; do not uninstall. Supply the supported USA RMGE01 revision 0 game image. No game image, extracted assets, saves or personal provisioning are included. The generated AOT game-code module is included. macOS Preview 1 is unchanged.",
+          "downloadURL": "https://github.com/chrissotraidis/galaxypad/releases/download/v0.1.0-preview.4/GalaxyPad-iOS-iPadOS-0.1.0-preview.4.ipa",
+          "size": 47832369,
           "minOSVersion": "16.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSMotionUsageDescription": "Use device motion to aim the Star Pointer when Gyro Cursor is enabled."
+        }
       }
     },
     {
@@ -4434,6 +4436,99 @@
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
+      }
+    },
+    {
+      "name": "iCube SL",
+      "bundleIdentifier": "com.joemattiello.iCube",
+      "developerName": "Provenance-Emu",
+      "subtitle": "Dolphin for iOS, re-reborn",
+      "localizedDescription": "DolphiniOS:\n\nDolphiniOS is a port of the Dolphin Emulator to iOS and iPadOS. For installation instructions and downloads, check our website.\n\nThis is the repository for the new DolphiniOS codebase.\n\nJIT on iOS 26 (Trusted Execution Monitor):\n\niCube runs the JIT recompiler again on iOS 26. TXM will not execute a freshly written code page until a debugger has written to that page, so iCube asks an attached broker to touch every page of its 288 MB code region once at startup. After that the broker can detach and the region stays usable for the life of the process.\n\n• Users: see JIT & Performance for how to turn it on with StikDebug, what to expect without it, and troubleshooting.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.joemattiello.iCube.png",
+      "tintColor": "#6010f0",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://github.com/user-attachments/assets/15e251a2-51de-4fc9-918b-d761db6cfd70",
+        "https://github.com/user-attachments/assets/663d8c86-9cc5-46b2-a337-6a53444cecfd",
+        "https://github.com/user-attachments/assets/c01e370c-8260-4863-81f9-b6dea40f84ec",
+        "https://github.com/user-attachments/assets/790c6798-d791-44f7-bc2e-6d2500f319d4"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-19T10:23:09Z",
+          "localizedDescription": "Alpha Build d09f0ac:\n\nAutomated alpha build from develop.\n\nArtifacts:\n\n• Non-Jailbroken.ipa — SideStore / AltStore / Sideloadly.\n• TrollStore.tipa — TrollStore.\n• Jailbroken-Rootful.deb / Jailbroken-Rootless.deb — jailbroken devices.\n\nThis release is automatically updated on every successful default-branch / develop CI run.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha/Non-Jailbroken.ipa",
+          "size": 91421457,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.activities",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.security.cs.allow-jit",
+          "com.apple.security.cs.allow-unsigned-executable-memory",
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "iCube uses your local network to discover and connect to DSU controllers and devices.",
+          "NSPhotoLibraryAddUsageDescription": "Used to save gameplay clips you record with Instant Replay."
+        }
+      }
+    },
+    {
+      "name": "Provenance",
+      "bundleIdentifier": "org.provenance-emu.provenance",
+      "developerName": "Provenance-Emu",
+      "subtitle": "The best free, open-source iOS game emulator for iPhone, iPad, and Apple TV",
+      "localizedDescription": "Provenance:\n\nThe best free, open-source iOS game emulator for iPhone, iPad, and Apple TV. Play retro games from 50+ classic consoles — no jailbreak required.\n\n🆕 What's New — v3.3.0:\n\n☁️ iCloud Sync — ROMs, saves, BIOS, and artwork sync across all devices via CloudKit 📺 Redesigned tvOS UI — RetroWave side menu, save state browser, cheats UI, TopShelf v2 🎬 Unified Video Filters — Metal shaders across native and RetroArch cores 🎮 Core & Controller Fixes — Mupen64Plus, Dolphin, DuckStation, PicoDrive, FCEUmm, Mednafen 🐛 Stability — Fixed app hangs, crashes, artwork refresh, and game importer.\n\n✨ Features:\n\n🎮 50+ Classic Systems NES, SNES, N64, GameCube, Game Boy, GBA, DS, 3DS, PlayStation, PSP, Saturn, Dreamcast, Atari, Neo Geo, and many more.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.provenance-emu.provenance.png",
+      "tintColor": "#1070f0",
+      "category": "games",
+      "screenshotURLs": [
+        "https://provenance-emu.com/images/mockups/iphone-snes.png",
+        "https://provenance-emu.com/images/mockups/iphone-n64.png",
+        "https://provenance-emu.com/images/mockups/iphone-psx.png",
+        "https://provenance-emu.com/images/mockups/iphone-nes-crt.png",
+        "https://provenance-emu.com/images/mockups/iphone-psp.png"
+      ],
+      "versions": [
+        {
+          "version": "3.3.0",
+          "date": "2026-03-14T02:17:44Z",
+          "localizedDescription": "What's New in 3.3.0:\n\nThis is a big one. Four months of work since 3.2.1 covering iCloud sync, a completely revamped tvOS interface, video filters, and a ton of core and stability fixes.\n\n☁️ iCloud / CloudKit Sync:\n\n• ROMs, save states, BIOS files, and artwork now sync across devices via iCloud.\n\n• Auto BIOS sync on game load when available in iCloud.\n• ROM metadata syncs alongside files.\n• Artwork syncs after library updates.\n• CloudKit records management tab in Settings.\n• iCloud upsell UI for new users with empty libraries.\n• Sync queue pauses during emulation and resumes after.\n\n📺 New tvOS UI (Default):\n\n• Completely redesigned tvOS interface now enabled by default.\n• RetroWave-themed side menu with smooth animations.\n• Save states browser accessible from the main UI with artwork and core name.\n• \"View All\" saves section with per-system filtering.\n• TopShelf v2: recent games and save states with artwork and timestamps.\n• Cheats UI in the pause menu.\n• Game \"More Info\" panel.\n• Log viewer tab.\n• Import status view in side menu.\n• Search with persistent history.\n• Dozens of focus, navigation, and theming fixes throughout.\n\n🎨 Video Filters & Shaders:\n\n• Unified filter pipeline works across native and RetroArch cores.\n• GB and VHS filters improved.\n• Filters accessible from the pause menu.\n• RetroArch GLES 3D cores now supported (Vecx/GLiden, etc.).\n• Dolphin shader/filter support.\n• PPSSPP filter support.\n\n🎮 Core & Controller Fixes:\n\n• RetroArch: Fixed player index mapping for MFi, PS4, and Xbox controllers; PS4 start/select fixed; 32x controls added; GameCube controller responder added.\n• Mupen64Plus: Fixed PS4 start button; fixed tvOS scaling and placement; better save error messages.\n• Dolphin: Fixed Vulkan landscape rendering.\n• GenPluGX: Added CHD support; added wide-screen GameGear core.\n• PicoDrive: Fixed crash on unload; fixed 32x controller mapping.\n• FCEUmm: Fixed start/select button mapping.\n• Mednafen: Fixed DualShock/DualSense pause/play button mapping.\n• GameBatte / TGDB Dual: Fixed PSX/Xbox pause/select button mapping.\n\n🐛 Bug Fixes & Stability:\n\n• Fixed multiple app hangs from main-thread Realm access (moved to background).\n• Fixed crash in pause menu when closing core.\n• Fixed potential crash if audio ring buffer init fails.\n• Fixed crash in share/import extension.\n\n• Fixed FPS label appearing in screenshots.\n• Fixed artwork not refreshing in game library after sync.\n• Fixed game importer re-queuing already-imported items.\n• Fixed Realm contentless core crash.\n• Fixed \"Continue\" carousel metadata mismatch.\n• Skin selector refreshes orientation previews on rotation change.\n• ManicSkin/DeltaSkin files can now be opened directly from Safari.\n• iPad import status modal clipped layout fixed.\n• DSP audio engine fixes.\n\n⚡ Performance:\n\n• Artwork loading significantly faster.\n• Game library UI rendering optimizations (removed unnecessary Observable wrappers).\n• Async tab bar icon loading.\n• CloudKit sync deduplication and repeat-lookup fixes.\n• Game importer skips MD5 hashing for large non-BIOS files.",
+          "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
+          "size": 1076407494,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.icloud-container-development-container-identifiers",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Provenance uses Bluetooth to support game controllers.",
+          "NSCameraUsageDescription": "Used for album artwork.",
+          "NSFileProviderDomainUsageDescription": "Provenance uses file provider for loading ROMs.",
+          "NSLocalNetworkUsageDescription": "RetroArch needs access to Wi-Fi networks for enhanced emulated Wi-Fi network features.",
+          "NSLocationUsageDescription": "Some games may use location data to enhance emulated location gameplay features",
+          "NSLocationWhenInUseUsageDescription": "Some games may use location data to enhance emulated location gameplay features",
+          "NSMicrophoneUsageDescription": "Provenance uses the microphone for systems that support audio input (eg. Famicom, Nintendo DS, 3DS).",
+          "NSMotionUsageDescription": "Provenance uses your device's accelerometer and gyroscope to emulate the portable consoles' built-in accelerometer and gyroscope.",
+          "NSPhotoLibraryAddUsageDescription": "Provenance can set custom artworks from your photos or save screenshots to the Photo Library.",
+          "NSPhotoLibraryUsageDescription": "Provenance can set custom artworks from your photos or save screenshots to the Photo Library."
+        }
       }
     }
   ]
