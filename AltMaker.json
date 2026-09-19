@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.noopapp.noop",
     "com.husk.app",
-    "dev.twilitrealm.dusk",
-    "paige.Navic"
+    "com.chrissotraidis.annepad"
   ],
   "apps": [
     {
@@ -2433,7 +2433,7 @@
       "bundleIdentifier": "org.videolan.vlc-ios",
       "developerName": "videolan",
       "subtitle": "Official release build",
-      "localizedDescription": "Official release build.",
+      "localizedDescription": "Official release build",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.videolan.vlc-ios.png",
       "tintColor": "#f08000",
       "category": "entertainment",
@@ -3887,10 +3887,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-18T12:19:10Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-18 · e02ed9b.",
+          "date": "2026-09-19T08:20:19Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-19 · 8ea500a.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21462512,
+          "size": 21466376,
           "minOSVersion": "17.0"
         }
       ],
@@ -4267,6 +4267,173 @@
         "privacy": {
           "NSLocalNetworkUsageDescription": "iTorrent uses the local network to discover playback devices and cast video on your network."
         }
+      }
+    },
+    {
+      "name": "GalaxyPad",
+      "bundleIdentifier": "org.galaxypad.GalaxyPad",
+      "developerName": "chrissotraidis",
+      "subtitle": "Super Mario Galaxy: native for iOS, iPadOS, and MacOS",
+      "localizedDescription": "GalaxyPad:\n\nSuper Mario Galaxy on iPhone, iPad, and Apple silicon Mac through ahead-of-time recompilation. GalaxyPad is an experimental Apple app with Metal rendering, touch controls, and controller support. It started as a personal experiment and has continued to grow.\n\nThe game's PowerPC code is recompiled ahead of time into native ARM64 code; the Dolphin-derived runtime supplies graphics, audio, and other Wii hardware behavior. You supply your own supported game image; GalaxyPad does not download or include it.\n\nBuilt with ModernGekko, by Hyperway, ExpansionPak and contributors, and DolRecomp, on the RecompCore / Dolphin runtime. See full credits, including the SunPad Apple integration this project builds on.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.galaxypad.GalaxyPad.png",
+      "tintColor": "#001040",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/galaxypad@main/docs/images/galaxypad-mario-planet.png",
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/galaxypad@main/docs/images/galaxypad-title.png",
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/galaxypad@main/docs/images/galaxypad-observatory.png"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-09-16T11:13:57Z",
+          "localizedDescription": "An experimental iPhone/iPad refinement update, build 7166, based on the app the owner tested and reports is working great on iPad Pro. The macOS Preview 1 remains unchanged.\n\nDownload and update:\n\nDownload GalaxyPad-iOS-iPadOS-0.1.0-preview.3.ipa below. Sign the app and nested module with your own Apple identity. Preserve your existing bundle/signing identity and back up saves before updating in place; do not uninstall first. This is not TestFlight or an App Store build.\n\nThe IPA includes the AOT game-code module but no original game image, extracted game assets, saves or personal provisioning. Supply your own supported USA RMGE01 revision-0 game image. Configured iOS/iPadOS 16+ support is not an every-device guarantee.\n\nChanges from Preview 2:\n\n• Simpler touch controls: removed the duplicate Pause control and kept one Plus button.\n• Game Mode packaging: restored missing opt-in/category metadata and added actual-package checks to prevent recurrence.\n• Audio processing: batched searches, reused sample-energy calculations, and repaired a reproduced low-speed buffer-starvation condition.\n• Expanded regression checks and corrected Simulator configuration overrides.\n\nTested and still open:\n\nDemanding scenes on iPhone 14 can still slow down, and reported audio chopping and finger-tracking limitations remain open. No quantified whole-game FPS improvement or sustained iPhone 60 FPS is claimed. Owner testing is focused acceptance, not full-game certification.",
+          "downloadURL": "https://github.com/chrissotraidis/galaxypad/releases/download/v0.1.0-preview.3/GalaxyPad-iOS-iPadOS-0.1.0-preview.3.ipa",
+          "size": 47743911,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "AnnePad",
+      "bundleIdentifier": "com.chrissotraidis.annepad",
+      "developerName": "chrissotraidis",
+      "subtitle": "Pokémon Stadium for iPhone and iPad via static recompilation, with native Metal rendering, touch controls, and ROM-free builds",
+      "localizedDescription": "AnnePad:\n\nPokémon Stadium via static recompilation, rebuilt for iPhone and iPad. Native Metal rendering, Files-based setup, touch controls, persistent saves, and pinned, ROM-free local builds.\n\nAnnePad packages the Pokémon Stadium recompilation project as a native Apple app. It runs ahead-of-time compiled arm64 code through Metal, imports a user-provided Pokémon Stadium (US) 1.0 ROM through Files, and supplies a landscape touch controller that can be customized or hidden when using a physical controller.\n\nNo ROM, save, extracted Nintendo asset, signing identity, or provisioning profile is included in this repository or its IPA. This repository contains the Apple integration and build scripts. The executable contains translated game logic, while ROM files and extracted resource files remain private. See the legal and asset boundaries.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.chrissotraidis.annepad.png",
+      "tintColor": "#102040",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/annepad@main/docs/evidence/readme/title-screen.png",
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/annepad@main/docs/evidence/readme/battle-closeup.png",
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/annepad@main/docs/evidence/readme/entry-pokemon.png",
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/annepad@main/docs/evidence/readme/rental-selection.png",
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/annepad@main/docs/evidence/readme/team-versus.png"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-09-19T00:51:24Z",
+          "localizedDescription": "Version 0.1.0, build 4 · iPhone/iPad arm64 · iOS 16 or later · unsigned IPA.\n\n• Adds Share Diagnostics to the in-game utility menu and ROM setup screen. The bounded local report includes current/previous session, exact build/UUID, lifecycle and memory samples, best-effort fatal-signal information, and numeric guest failure addresses.\n• Excludes raw logs, guest memory, ROMs, saves, file paths, accounts and device identifiers. Nothing uploads automatically.\n\nValidation: clean committed arm64 Release build, strict app/IPA audit, exact prepared-source and input/controller checks; isolated Simulator fault/relaunch/export/privacy tests; two byte-identical package passes. No new physical-device or reporter battle acceptance is claimed. An app handler cannot catch jetsam/SIGKILL; a system crash report may still be necessary.\n\nIPA SHA-256: 406acac6389560a3f6187ac3516d171bdfbc2a6495c97d8b922996a2d561c8d8.\n\nNo ROM or separable game assets are included; you must supply your own supported Pokémon Stadium (US) 1.0 ROM. The executable includes translated game logic. This independent project builds on mstan/PokemonStadiumRecomp, N64ModernRuntime, N64Recomp and RT64; Pokémon trademarks belong to their respective owners. Preview 3 remains available for rollback.",
+          "downloadURL": "https://github.com/chrissotraidis/annepad/releases/download/v0.1.0-preview.4/AnnePad-0.1.0-build4-unsigned.ipa",
+          "size": 85407796,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "KartPad",
+      "bundleIdentifier": "dev.kartpad.app",
+      "developerName": "chrissotraidis",
+      "subtitle": "Mario Kart Wii and Retro Rewind, native for iOS, iPadOS, macOS, tvOS, and Android",
+      "localizedDescription": "KartPad:\n\nKartPad builds on WiiCompiled, the original Mario Kart Wii static recompilation project created by patchzyy. WiiCompiled provides the foundational translator and runtime; KartPad maintains the Apple and Android integration, native controls, game chooser, game-data management, packaging, and releases. The projects are independently maintained.\n\nBring your own game data. KartPad requires a legally obtained supported PAL RMCP01 revision 0 Mario Kart Wii image. Downloads contain translated game logic, but no disc image, extracted game assets, Retro Rewind pack or saves. Apple IPAs require local re-signing; tvOS remains experimental.\n\nUpdate before online play. The downloads below include the console-serial.\n\nOlder affected builds should stay offline. Updating preserves identities and saves; existing server-side identity history or bans require service-admin review.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.kartpad.app.png",
+      "tintColor": "#f02030",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/kartpad@main/docs/images/kartpad-dk-summit-ipad.png"
+      ],
+      "versions": [
+        {
+          "version": "0.4.24",
+          "date": "2026-09-16T12:37:43Z",
+          "localizedDescription": "KartPad 0.4.24 for iPhone and iPad — build 49:\n\nThe accepted mobile update brings consistent settings, Original Time Trial ghost transfers and clearer problem reporting.\n\n• Matching Android/iOS menu order and labels, with Player Identity and Time Trial Ghosts directly under Game Data & Saves.\n• Original .rkg import/export, validation, backup and deferred application that preserves intervening save progress. Retro Rewind custom-track ghosts remain unsupported.\n• Expanded controller D-pad/trigger mappings, optional shared actions and an L1-for-items preset. Mapping and player setup have separate entries.\n• Small/Medium/Large FPS counters; extracted-folder import opens a real folder picker.\n• Scrollable, keyboard-aware problem reports with improved diagnostic context.\n\nIncludes yesterday's racing K icon and launcher, dark mode by default, light-mode toggle, preferred-game selection, return-to-menu navigation, and license rename/Choose Mii repairs.\n\nThe owner accepted the interface and game operation on the attached iPhone. iPad shares the universal UI and assets; this release is not a new physical iPad gameplay certification. No general FPS improvement or resolution of outstanding Android crashes, geometry corruption, screen tearing or existing online-identity failures is claimed.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.24-ios.1/KartPad-v0.4.24-ios.1-unsigned.ipa",
+          "size": 40889948,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "KartPad connects to your selected private Wii server and other players on your local network."
+        }
+      }
+    },
+    {
+      "name": "BallPad",
+      "bundleIdentifier": "com.ballpad.strikers",
+      "developerName": "chrissotraidis",
+      "subtitle": "Super Mario Strikers native for iOS and iPadOS",
+      "localizedDescription": "BallPad:\n\nBallPad is an iOS/iPadOS port of new-coke/strikers. Play Super Mario Strikers on iPhone and iPad through the community native source port. BallPad is an experimental Apple app with Metal rendering, GameCube touch controls, physical controller support, and local game-data import.\n\nBuilt on new-coke/strikers, the native desktop port based on the community decompilation by Yannick Suter and contributors. Aurora provides the platform and graphics layer, and SunPad provides the touch interface BallPad adapts. See full attribution and third-party notices.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.ballpad.strikers.png",
+      "tintColor": "#6156e2",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-09-19T00:01:24Z",
+          "localizedDescription": "BallPad's first public experimental IPA: version 1.0, build 2, for iPhone and iPad. BallPad adapts new-coke/strikers, based on Yannick Suter and contributors' Super Mario Strikers decompilation, with Aurora/Metal rendering and a SunPad-derived touch interface.\n\nInstall:\n\nSupply your own lawfully obtained Super Mario Strikers USA G4QE01, revision 0, raw ISO/GCM (1,459,978,240 bytes). No disc image, extracted game assets, or saves are included. On first launch, choose your image, wait for validation, and select Start the Game.\n\nWhen updating an existing installation, export your memory card first and install in place with the same signing account and application identity. Uninstalling can remove local data.\n\nIncluded:\n\n• GameCube touch controls, editable layouts, and physical-controller mapping.\n• Render-resolution/aspect settings, an FPS counter, memory-card import/export, and offline credits/notices.\n• Build 2's app icon, reporting improvements, movie/scene diagnostics, and sandbox-relative game-data paths that survive app-container relocation.\n• Matching source materials, engine Git history, and portable FFmpeg relink materials. Keep these with the IPA when redistributing it.\n\nDownload all four assets to one directory and verify them with shasum -a 256 -c SHA256SUMS.\n\nKnown limitations:\n\nIntro movies and some stadium introductions have reported rendering artifacts. Two-controller local multiplayer, sustained thermal/audio performance, full-game completion, and broader device coverage remain unverified. Earlier build-2 installation/launch and owner gameplay reports cover iPad Pro and iPhone 14; this publication is not a new physical-device acceptance run.\n\nBuild and validation:\n\n• App source/tag target: 127133d06d0b6ec1ae2b8864bb62d8fa2ce33e08 (merged main).\n• Maintained engine: 37c0ad9a1d2b4fc5627943d737b9db54047f1f0e from chrissotraidis/strikers, preserving the upstream history.\n\n• Passed: 265 native gtests, chunk-bounds checks, 83 Python tool cases, clean-source/dependency verification, fresh-source probe build, and final bundled-notice checks.\n• Passed: unsigned IPA content/platform audit, matching source/archive checksums and notice bytes, game/save/signing-file exclusion scan, complete engine Git bundle verification, and relocated FFmpeg relinking with 667 packaged inputs. Relinking succeeded; byte-identical output is not claimed.\n\nIPA SHA-256: 07f8f5a293271cd65d3aa61e135f05a4d415111937e58cdcfee3b6f27e141bb4.",
+          "downloadURL": "https://github.com/chrissotraidis/ballpad/releases/download/v1.0-preview.1/BallPad-unsigned.ipa",
+          "size": 7074063,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "MeleePad",
+      "bundleIdentifier": "com.meleepad.MeleePad",
+      "developerName": "chrissotraidis",
+      "subtitle": "Super Smash Bros Melee, native on iOS and iPadOS",
+      "localizedDescription": "MeleePad:\n\nSuper Smash Bros. Melee on iPhone, iPad, and Apple Silicon Mac through ahead-of-time recompilation and Metal.\n\nMeleePad turns a supported copy of Melee into a native Apple app you build yourself. It uses touch controls, physical controllers, Metal rendering, and a Dolphin-derived compatibility runtime—without requiring JIT on iPhone or iPad.\n\nBuilt with ModernGekko, by Hyperway, ExpansionPak and contributors, and DolRecomp, on the RecompCore / Dolphin runtime. The Apple integration builds on SunPad. MeleePad's contribution is the Apple app, controls, integration, and game-specific fixes; the underlying compiler and runtime remain the work of their upstream authors.\n\nMaintained dependency forks: ModernGekko, RecompCore, DolRecomp, and ENet. MeleePad is the Apple app repository; its runtime/compiler changes live in these forks and are selected through pinned submodules. See full credits and the source graph.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.meleepad.MeleePad.png",
+      "tintColor": "#e05040",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-09-08T13:13:22Z",
+          "localizedDescription": "MeleePad v0.1.0 Preview 4:\n\nPreview 4 is build 18. It adds recommended USA v1.02 support alongside v1.00, floating touch controls, clearer version selection and Online Play, reduced normal CPU-loop overhead, and lightweight gameplay frame-time summaries. macOS branding and explicit keyboard mappings are corrected.\n\nEach revision keeps its own game data and saves. Existing imports remain in place. The menu identifies the selected version, and online peers must use the same app build, revision, modules, assets and compatible gameplay settings.\n\nThe physical build-17 comparison reduced the normal execution loop's sampled self time by 41.8%, with total CPU-thread samples 2.38% lower in that interval. This is a modest targeted optimization, not a 42% FPS gain. Owner testing reports improvement, but heavy iPhone scenes still slow down under thermal pressure. Build 18 adds logging to help investigate those remaining cases.\n\nGameplay logs now report frame-interval count, average, p95 upper bound, maximum, counts above 20 ms / 33.33 ms / 50 ms, and audio underruns since the previous summary. The p95 uses 1 ms buckets (the observed maximum for the overflow bucket). These are host frame intervals, not GPU execution times or exact missed-vblank counts. Existing pause invalidation excludes the first resumed interval. The recorder reuses existing frame timestamps, keeps a fixed-size accumulator and writes through the existing ten-second log; per-dispatch profiling stays off. Logs remain on-device unless the user shares them through Report a Problem.\n\nPrivate Room and Direct IP remain experimental. There is no production public game browser, relay fallback, ranked matchmaking or Slippi rollback. Completed physical iPhone-to-iPad Internet-match acceptance remains open.\n\nDownload and local builds:\n\nBuild and sign a playable app locally using your own supported image and Apple development identity. The locally installed owner builds include the existing private modules; those modules and the device game data are not release assets.\n\nPublic IPA SHA-256: a69a0466e0bb3e50a40b31dcb5754e0a5d6e130d00f78e2c81e0fcdcaefeebb0.",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.4/MeleePad-v0.1.0-preview.4-module-free-unsigned.ipa",
+          "size": 12123213,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "MeleePad uses your local network to host or join a game with friends."
+        }
+      }
+    },
+    {
+      "name": "Bellpad",
+      "bundleIdentifier": "dev.bellpad.app",
+      "developerName": "chrissotraidis",
+      "subtitle": "Animal Crossing for MacOS, iOS, and iPadOS",
+      "localizedDescription": "Bellpad:\n\nBellpad is an experimental native Apple-platform source port for the original US release of Animal Crossing for Nintendo GameCube. It is not a GameCube emulator or a browser port. The project builds a 64-bit, reverse-engineered game core for Apple Silicon macOS and a Metal-backed iPhone/iPad app through Aurora, SDL3, and Dawn.\n\nThis repository contains source, original Bellpad integration, reproducible build scripts, and documentation. It does not contain Animal Crossing, a GameCube image, extracted game assets, or saves. You supply your own legally obtained, supported game data locally after building or installing Bellpad. Read the scoped legal and clean-room boundary before using or contributing to the project.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.bellpad.app.png",
+      "tintColor": "#f0d080",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/bellpad@main/docs/readme/bellpad-town.png",
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/bellpad@main/docs/readme/bellpad-porter-dialogue.png",
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/bellpad@main/docs/readme/bellpad-nook-dialogue.png"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-08-18T18:01:37Z",
+          "localizedDescription": "Bellpad's second public iPhone and iPad preview.\n\n• Repairs Aurora/SDL3 controller sleep, disconnect, and reconnect ownership.\n• Preserves connected player slots; stale handles can no longer occupy a port.\n• A sole returning controller reclaims player 1; additional controllers use the next free slot.\n• Clears disconnected input and reconciles on foreground resume without restarting SDL.\n• Version 0.1.0 build 2 for ARM64 iOS/iPadOS 17.0+.\n• Unsigned: sign with your own Apple identity before installation.\n• ROM-free: provide your own legally obtained supported Animal Crossing game data after launch.\n\nDeterministic lifecycle tests, full source-release checks, Simulator/device builds, and a preservation-safe physical-iPad in-place update pass. No controller was connected during the captured iPad run, so Bluetooth, wired, natural-sleep, mapping, held-input, and two-controller hardware acceptance remain open.\n\nSHA-256: d9e9ebd5d17fa360de1775cf60deaccd8ca5b196b09842ea633a8ad353a8aaea.",
+          "downloadURL": "https://github.com/chrissotraidis/bellpad/releases/download/v0.1.0-preview.2/Bellpad-0.1.0-preview.2-unsigned.ipa",
+          "size": 14136986
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
       }
     }
   ]
