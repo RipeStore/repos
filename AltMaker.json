@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.nuvio.media",
-    "com.kyrielie.nectar",
-    "com.kodjodevf.mangayomi"
+    "com.mori.downloader",
+    "com.tumoflip.unleashedcompanion",
+    "com.nuvio.media"
   ],
   "apps": [
     {
@@ -2078,11 +2078,11 @@
       ],
       "versions": [
         {
-          "version": "1.11.21",
-          "date": "2026-09-13T09:30:50Z",
-          "localizedDescription": "Исправлена выдача Dev-релизов после публикации Stable: если Stable выпускается позже последнего Dev в той же линии, приложение больше не показывает ложное No releases. Старые несовместимые Dev-линии по-прежнему скрываются. Добавлен регрессионный UI-сценарий и визуальная проверка на iPhone Simulator.",
-          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.21/TumoCompanion-unsigned.ipa",
-          "size": 25719843,
+          "version": "1.11.22",
+          "date": "2026-09-19T18:00:33Z",
+          "localizedDescription": "TumoCompanion 1.11.22:\n\n• Protect the maintained Specter NFC application from replacement by Community Apps.\n• Match protected applications by their canonical SD filename as well as catalog metadata, including case-insensitive paths and renamed catalog entries.\n• Preserve the existing explicit user override in Protected apps.\n\nInstall this Companion update before installing Specter from Tumoflip FW Packages Dev 017. Keep Specter protected if you want to retain the adapted version.\n\nThe unsigned IPA must be signed through your normal Feather/sideloading workflow. No app-data migration or firmware installation is performed by this update.\n\nValidation: production Swift protection-policy host tests and a complete unsigned Release IPA build/signature verification passed in GitHub CI. This is not a physical-device install/overwrite test.",
+          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.22/TumoCompanion-unsigned.ipa",
+          "size": 25837188,
           "minOSVersion": "17.0"
         }
       ],
@@ -2541,7 +2541,7 @@
       "bundleIdentifier": "dev.naveed-gung.monolith",
       "developerName": "naveed-gung",
       "subtitle": "Monolith is an offline-first Flutter music player built for local listening, managed downloads, playlist control, and system-grade playback surfaces across Android and iOS",
-      "localizedDescription": "Monolith:\n\nA personal music player for iOS and Android. Bring your own music, keep a local collection, and listen with the screen locked.\n\nScreenshots:\n\nSix actual Pixel 10a emulator captures with the current coral accent, alternating light and dark: three of each. They show local test audio and a public test download. These are Android captures; iPhone verification remains separate.\n\nYour collection:\n\n• Import readable songs from the iOS Music picker, import the accessible local Music library in one batch, or choose audio files from Files. Failed items retain their individual reasons.\n• Browse songs, artists, albums, playlists, and recent additions.\n• Open the activity dropdown below the header to inspect concurrent transfers and stop individual jobs.\n\n• Read missing durations from native audio metadata without playing every song.",
+      "localizedDescription": "Monolith:\n\nA personal music player for iOS and Android. Bring your own music, keep a local collection, and listen with the screen locked.\n\nScreenshots:\n\nSix actual Pixel 10a emulator captures with the current coral accent, alternating light and dark: three of each. They show local test audio and a public test download. These are Android captures; iPhone verification remains separate.\n\nYour collection:\n\n• Playback follows the displayed song order. Completed activity fades after five seconds.\n• Import readable songs from the iOS Music picker, import the accessible local Music library in one batch, or choose audio files from Files. Failed items retain their individual reasons.\n• Browse songs, artists, albums, playlists, and recent additions.\n• Open the activity dropdown below the header to inspect concurrent transfers and stop individual jobs.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.naveed-gung.monolith.png",
       "tintColor": "#e04050",
       "category": "games",
@@ -2556,9 +2556,9 @@
         {
           "version": "1.4.4",
           "date": "2026-09-10T07:50:38Z",
-          "localizedDescription": "iOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.4.4.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.4.4.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: this build is signed with a debug key (fine for sideloading). Android may warn it's from an unknown developer — that's expected for a non–Play Store APK.",
+          "localizedDescription": "iOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.4.4.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.4.4.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: this build is signed with a debug key (fine for sideloading). Android may warn it's from an unknown developer — that's expected for a non–Play Store APK.\n\niOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.4.4.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.4.4.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: this build is signed with a debug key (fine for sideloading). Android may warn it's from an unknown developer — that's expected for a non–Play Store APK.",
           "downloadURL": "https://github.com/naveed-gung/Monolith/releases/download/v1.4.4/monolith.ipa",
-          "size": 11104378,
+          "size": 11121528,
           "minOSVersion": "16.4"
         }
       ],
@@ -3057,7 +3057,7 @@
         {
           "version": "0.1.9",
           "date": "2026-09-19T17:19:18Z",
-          "localizedDescription": "",
+          "localizedDescription": "• Improved Reading Stats.\n• Changed RSS feed terminology to fanfiction terminology. Feeds are now referred to as \"shelves\". Functionally the same.\n• Added guard for AO3 links greater than 4096 characters long which hit a fallback page.",
           "downloadURL": "https://github.com/kyrielie/nectar/releases/download/v0.1.9/Nectar-unsigned.ipa",
           "size": 5135579,
           "minOSVersion": "17.0"
@@ -3312,7 +3312,7 @@
       "bundleIdentifier": "com.nuvio.media",
       "developerName": "luqmanfadlli",
       "subtitle": "Unofficial Nuvio Mobile repository to build Nuvio with experimental features, improvements, and bug fixes not yet availabe in the official repository",
-      "localizedDescription": "Unofficial. This fork is not affiliated with or supported by the Nuvio team. Please report bugs you find here to this repository, not upstream — unless you can reproduce them on an official build too.\n\nAndroid:\n\nThe app installs as Nuvio Enhanced. It shares the com.nuvio.app application ID with the official Android build, so the two cannot be installed side by side — uninstall one first.\n\nWhat Enhanced adds:\n\nEverythings below are added on top of upstream Nuvio Mobile.\n\nLive TV:\n\nUpstream Nuvio has no Live TV. This fork adds the whole feature.\n\nAndroid:\n\nRequires Android Studio and the Android SDK.\n\niOS:\n\nRequires macOS and Xcode.",
+      "localizedDescription": "Unofficial. This fork is not affiliated with or supported by the Nuvio team. Please report bugs you find here to this repository, not upstream — unless you can reproduce them on an official build too.\n\nWhat Enhanced adds:\n\nEverythings below are added on top of upstream Nuvio Mobile.\n\nLive TV:\n\nUpstream Nuvio has no Live TV. This fork adds the whole feature.\n\nAndroid:\n\nRequires Android Studio and the Android SDK.\n\niOS:\n\nRequires macOS and Xcode.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.nuvio.media.png",
       "tintColor": "#b040f0",
       "category": "other",
@@ -3995,11 +3995,11 @@
       ],
       "versions": [
         {
-          "version": "4.3.2",
-          "date": "2026-09-10T23:57:25Z",
-          "localizedDescription": "What's New in v4.3.2.\n\n• History Favorites: Interactive favorite button with auto-pinning to top of history list and auto-clear protection.\n\n• Expanded Localization: Added 30 new translation keys with 100% key parity across all 9 supported languages.\n\n• Blank Video Thumbnails: Switched to dynamic 50% mid-frame extraction to prevent white or blank thumbnails caused by intro fades.\n• Thumbnail Orientation: Fixed 9:16 vertical video thumbnails incorrectly rotating into landscape orientation.\n\n• Active Slide Sync: Fixed directory path not updating when switching between video and audio slides in history modal.\n• Video Preview Glitch: Fixed split or distorted preview frames on high-framerate videos.\n• Share Overlay: Fixed binary scraper payload loading and security handshake in Android ShareActivity.\n• UI Text Selection: Disabled unwanted native text selection and long-press context menus on cards and dialogs.",
-          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.3.2/Mori-v4.3.2-iOS-Unsigned.ipa",
-          "size": 1697564,
+          "version": "4.3.3",
+          "date": "2026-09-19T22:01:05Z",
+          "localizedDescription": "What's New in v4.3.3.\n\n• Over-The-Air (OTA) Scraper Updates: Hot-patch scrapers dynamically without reinstalling the app.\n• Scraper Core Rollback: Revert active OTA patches back to the bundled baseline with a confirmation modal.\n\n• Native Folder Opener: Open saved media locations directly in system file managers (Finder, Explorer, Android Files, and iOS Files app).\n• Android All Files Access: Optional storage permission for arbitrary directories.\n\n• Native Security Architecture: Precompiled native binaries linked via native FFI across Windows, macOS, and iOS.\n• Safe-Mode Auto Recovery: Automatically purges invalid patches and falls back to bundled core without crashes.\n• Desktop Native Security Verification: Resolved verification failure on Windows and macOS Tauri.\n• iOS Native Security Verification: Resolved false-positive security error on iOS via native binary bridge.\n• iOS Video Thumbnails: Replaced broken placeholders with native AVFoundation extraction and auto-healing for existing history.\n• Android History Quota: Optimized thumbnail dimensions by ~97% and added auto-recovery pruning to prevent storage quota crashes.\n• Android WebView Decompression: Resolved deflate-raw decompression errors on older WebViews using an ESM inflate fallback.\n• Desktop Path Resolution: Fixed duplicate nested directories by preserving leading slashes and expanding tildes (~).\n• Douyin Parsing: Fixed album and slides extraction by resolving final redirect URLs in native bridges (#13).\n• Android Share Overlay: Fixed syntax error and scope mismatch in history saving.",
+          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.3.3/Mori-v4.3.3-iOS-Unsigned.ipa",
+          "size": 1735771,
           "minOSVersion": "14.0"
         }
       ],
