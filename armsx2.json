@@ -398,8 +398,17 @@
       ],
       "tintColor": "#954CD5",
       "category": "games",
-      "size": 30367381,
+      "size": 30493138,
       "versions": [
+        {
+          "version": "nightly.20260919",
+          "channel": "nightly",
+          "date": "2026-09-19",
+          "localizedDescription": "Automated nightly build for community testing (unsigned).\n\nEvery download is named ARMSX2-nightly-DATE-COMMIT-PLATFORM, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distros, or the 16K one on Asahi Linux and other Apple Silicon kernels (run getconf PAGESIZE if unsure)\n- Windows arm64: Windows-arm64.zip\n- RetroArch on Linux arm64: Linux-arm64-libretro-core.tar.zst, a 4K-page build\n- Bare-display kmsdrm handhelds: Linux-arm64-SDL-handheld.tar.zst, a 4K-page build (Rocknix and Batocera run compositors, so use the Qt AppImage there instead)\n- Android: Android-arm64.apk (installs as ARMSX2 Nightly, alongside the stable app)\n- iOS: iOS-arm64.ipa, unsigned, sideload it\n\nComing from an old nightly? It is now a separate app (ARMSX2 Nightly) that installs\nbeside the stable app. The old nightly cannot install a stable over itself, because\nAndroid refuses that version downgrade, so to return to stable: back up your saves\nand memory cards, uninstall the old nightly, then install a stable APK.\n\nWhat's new\n- remove an unneeded file\n- iOS: let a derived number format keep its literal readout\n- iOS: halve the per-game reads behind the resolution poll\n- iOS: read the pad layout identity without parsing the INI\n- iOS: drop the container path fragments that cannot match\n- iOS: use the root Pcsx2Utils instead of the iOS fork\n- iOS: drop the tab bar pill that cannot be reached\n- Android: each package follows one channel; harden the nightly package guard\n- CMake: derive the build version from ARMSX2 tags, not nightly or upstream tags\n- Android: ship nightlies as a separate com.armsx2.nightly app\n- iOS: drop the Swift declarations nothing references\n- iOS: drop the per-game bridge methods nothing calls\n- iOS: pin the export prompt and the zip entry caps\n- iOS: confirm the destination before a link exports the library\n- iOS: bound what a zip entry can unpack to\n- Common: one Darwin clock and sleep path for iOS and macOS\n- iOS: consolidate the per-game INI and settings bridge methods\n- iOS: remove the dead compatibility lab and bisect methods\n- iOS: stream frame time history as raw bytes\n- iOS: reuse the bridge's BIOS scanning and drop the dead document picker\n- iOS: simplify the skin browser filter and its alert bindings\n- Android: park the CPU thread for disc swaps and quiet the park guard\n- iOS: build the two localized screens again\n- macOS: correct tick conversion in SleepUntil\n- Android: pause the VM from the CPU thread when writing a save state\n\nFull changelog: https://github.com/ARMSX2/ARMSX2/compare/nightly-20260917...8b5fad23dc290660aa394e75b0fd23e31099eaec",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260919/ARMSX2-nightly-20260919-8b5fad23dc-iOS-arm64.ipa",
+          "size": 30493138,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "nightly.20260916",
           "channel": "nightly",
@@ -443,15 +452,6 @@
           "localizedDescription": "Automated nightly build for community testing (unsigned).\n\nEvery download is named ARMSX2-nightly-DATE-COMMIT-PLATFORM, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distros, or the 16K one on Asahi Linux and other Apple Silicon kernels (run getconf PAGESIZE if unsure)\n- Windows arm64: Windows-arm64.zip\n- RetroArch on Linux arm64: Linux-arm64-libretro-core.tar.zst, a 4K-page build\n- Bare-display kmsdrm handhelds: Linux-arm64-SDL-handheld.tar.zst, a 4K-page build (Rocknix and Batocera run compositors, so use the Qt AppImage there instead)\n- Android: Android-arm64.apk, sideload it\n- iOS: iOS-arm64.ipa, unsigned, sideload it\n\nWhat's new\n- Libretro: keep the frame size steady between real frames\n\nFull changelog: https://github.com/ARMSX2/ARMSX2/compare/nightly-20260911...bfae0f5a1255e08fa655b667b826cfd41da2e4db",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260912/ARMSX2-nightly-20260912-bfae0f5a12-iOS-arm64.ipa",
           "size": 26821581,
-          "minOSVersion": "17.0"
-        },
-        {
-          "version": "nightly.20260911",
-          "channel": "nightly",
-          "date": "2026-09-11",
-          "localizedDescription": "Automated nightly build for community testing (unsigned).\n\nEvery download is named ARMSX2-nightly-DATE-COMMIT-PLATFORM, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distros, or the 16K one on Asahi Linux and other Apple Silicon kernels (run getconf PAGESIZE if unsure)\n- Windows arm64: Windows-arm64.zip\n- RetroArch on Linux arm64: Linux-arm64-libretro-core.tar.zst, a 4K-page build\n- Bare-display kmsdrm handhelds: Linux-arm64-SDL-handheld.tar.zst, a 4K-page build (Rocknix and Batocera run compositors, so use the Qt AppImage there instead)\n- Android: Android-arm64.apk, sideload it\n- iOS: iOS-arm64.ipa, unsigned, sideload it\n\nWhat's new\n- Libretro: keep the VFS stream table out of static destruction entirely\n- Libretro: keep the VFS stream registry alive to the end\n- Libretro: open the disc through the frontend's file system too\n\nFull changelog: https://github.com/ARMSX2/ARMSX2/compare/nightly-20260909...9027cd3acf8bd599534e2467390efc84cc4cd060",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260911/ARMSX2-nightly-20260911-9027cd3acf-iOS-arm64.ipa",
-          "size": 26821578,
           "minOSVersion": "17.0"
         }
       ],
