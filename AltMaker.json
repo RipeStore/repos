@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.nuvio.media",
-    "com.kodjodevf.mangayomi",
-    "moe.itoapp.ito"
+    "com.husk.app",
+    "dev.twilitrealm.dusk",
+    "paige.Navic"
   ],
   "apps": [
     {
@@ -1179,11 +1179,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.3.1",
-          "date": "2026-09-15T21:17:16Z",
-          "localizedDescription": "What's new?:\n\n• Added a way to customize resolution.",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.3.1/Husk.ipa",
-          "size": 40142603,
+          "version": "0.3.2",
+          "date": "2026-09-19T02:57:31Z",
+          "localizedDescription": "What's new?:\n\n• Added discover tab.\n\n• You can now look through sources to install open source apps for android without needing safari!\n• Powered by F-Droid, however you can also add custom repos.",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.3.2/Husk.ipa",
+          "size": 40271824,
           "minOSVersion": "16.4"
         }
       ],
@@ -1965,10 +1965,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-18T08:32:15Z",
+          "date": "2026-09-18T22:35:28Z",
           "localizedDescription": "• playback crash fix.\n• readme typo.\n• [feat]: option to show time/songs remaining rather than of the whole queue.\n• feat: tap cover art to fullscreen.",
-          "downloadURL": "https://github.com/ssalggnikool/Navic/releases/download/v1.0.0-alpha57/Navic.ipa",
-          "size": 21402989,
+          "downloadURL": "https://github.com/ssalggnikool/Navic/releases/download/v1.0.0-alpha58/Navic.ipa",
+          "size": 21402452,
           "minOSVersion": "14.1"
         }
       ],
@@ -1988,17 +1988,19 @@
       "category": "games",
       "versions": [
         {
-          "version": "1.4.1",
-          "date": "2026-06-16T22:33:28Z",
-          "localizedDescription": "What's new:\n\n• Added: Support Clawshot hanging & Hawkeye with touch controls.\n• Added: Configure Android Surface.setFrameRate; improves performance on some devices.\n• Fixed: Texture replacement regressions in v1.4.0 (load ordering & missing UI textures).\n• Fixed: Performance regression on some GPUs (AMD on Windows in particular).\n\n• Fixed: Hidden Dusklight menu still receiving inputs in some circumstances.\n• Fixed: GPU backend fallback regression.",
-          "downloadURL": "https://github.com/TwilitRealm/dusklight/releases/download/v1.4.1/Dusklight-v1.4.1-ios-arm64.ipa",
-          "size": 27125007,
+          "version": "2.0.0",
+          "date": "2026-09-19T00:04:12Z",
+          "localizedDescription": "Dusklight 2.0 is here! This update brings mod support, an in-game mod browser, and our own built-in randomizer, alongside more polish, performance improvements, and ways to play. Thank you to everyone who helped make it happen!\n\nMods and built-in mods:\n\n• Added: Drag and drop .dusk mods onto the Dusklight window to install them.\n• Added: Enable, disable, and reload mods in-game, with dependency handling and per-mod settings and logs.\n• Added: Built-in Dusklight Randomizer, our own randomizer with seed generation, settings presets, shareable permalinks, and more.\n\n• Customize which items are shuffled, including shop items, NPC gifts, Golden Bugs, Poe Souls, Hidden Skills, and dungeon keys.\n• Randomize entrances to dungeons, boss rooms, caves, interiors, and overworld areas.\n• Choose starting equipment, skip the prologue and other sequences, and customize the requirements for reaching Hyrule Castle.\n• Detailed randomizer spoiler logs to help when you get stuck, with in-game export options for logs and seed data.\n\n• Added: Built-in Cosmetics mod: customize Link's outfits, hair and equipment, Wolf Link, Epona, Midna, and HUD colors.\n\nFor mod creators:\n\n• Added: Asset-only mods: replace disc files, individual files inside .arc archives, and textures without writing code or repacking an entire game archive.\n• Added: Powerful native C++ mods with direct access to game code and built-in mod services. Use hooks on game functions to add or change nearly anything.\n• Added: Luau script mods for simpler UI, settings, and configurable asset replacements, without requiring native mod builds.\n\n• Added: Custom game modes, with separate save files and control over starting and loading a game.\n• Added: Custom actors, stage edits, player spawns, and item rewards for gameplay mods.\n• Added: Custom dialogue and message flows, including new choices, events, full-color text, and gradients.\n• Added: Custom mod windows, dialogs, controls, notifications, and interface themes.\n• Added: Direct GPU rendering and custom camera support for mods, including rendering to separate windows.\n• Added: Native file pickers, persistent storage, and networking services for mods.\n\nDisc support and saves:\n\n• Added: Japanese GameCube disc support.\n\n• .dusksave exports mod data alongside the game save. The Save Manager also supports .gci and .raw files, and drag-and-drop imports.\n\nFixed: Save timestamps drifting after device sleep, and playtime advancing while the game is backgrounded or focus paused.\n\nFixed: Various memory card corruption bugs with both .gci and .raw.\n\nPolish:\n\n• Added: Variable delta time for smoother menus, text boxes, HUD animations, cursors, fades, and transitions at higher framerates. (,, ).\n• Added: Interpolation for more weather and particle effects, the minimap player arrow, aiming reticles, butterflies, bees, and ropes in Ordon Village and the ranch. (,, ).\n• Fixed: Grass and other effects appearing out of sync with the camera when interpolation is enabled.\n• Fixed: Zoras' underwater glow and Epona's stirrups with interpolation enabled.\n• Fixed: Lock-on indicators interpolating between unrelated targets.\n• Fixed: Minimap border pulsing during the wagon escort and Shadow Beast encounters.\n• Added: Allow replacing Ganondorf's cape tearing textures.\n• Added: Allow replacing minimap textures.\n• Fixed: THP (movie) decoding accuracy and playback.\n\nPerformance and platform support:\n\n• Added: More performance improvements, including asynchronous GX FIFO processing. (Aurora cc65b5303f, Aurora ecd2902ade).\n• Added: Streaming texture replacements and improved caching. Eliminates load hitching with HD texture packs. (Aurora 2620df6591, Aurora 7af8deffdd).\n• Fixed: Performance drops when adjusting graphics settings.\n• Fixed: Vulkan initialization on some Adreno devices, including reported Snapdragon 680/685 devices with Adreno 610 GPUs.\n• Fixed: Vulkan library discovery in Nix builds.\n\nAudio:\n\n• Added: 5.1 and 7.1 surround sound output.\n• Added: 48 kHz audio rendering and output (originally 32 kHz).\n• Added: Separate \"Main Music Volume\" setting.\n• Changed: Audio output mode is now selected in Dusklight's settings, alongside the stereo and surround options.\n• Fixed: Incorrect audio buffering affecting Wolf Link's howling pitch.\n• Fixed: Audio corruption with looping streamed audio. (1bae8a5e6a).\n\nControls, interface, and quality of life:\n\n• Added: \"Easy Quick Spin (R+B)\" cheat.\n• Added: \"Always Greatspin\" can now require learning the skill first, while allowing it at any health.\n• Added: \"UI Scale\" setting for Dusklight's menus, separate from the in-game HUD scale.\n• Added: \"Touch Targeting\" options: Hybrid, Hold, and Switch. Hybrid targeting lets you tap to lock onto a target or double-tap to hold L when no target is available. (f81d25b425).\n• Added: Return to the Dusklight menu on Reset.\n• Added: New shader compilation progress display. (277538bb81).\n• Added: \"Button Fishing\" now supports casting from the canoe in the Fishing Pond.\n• Fixed: Gyro and joystick input can be used together again while aiming in first person.\n• Fixed: Disabling mouse/touch input in menus also disabled normal touch controls.\n• Fixed: Mouse and touch menu clicks selecting unintended items after dragging between targets. (2d4e69466b).\n• Fixed: More signs and dialogue giving the wrong directions in Mirror Mode.\n• Fixed: Quick Transform incorrectly working while walking underwater.\n• Fixed: Graphics Backend setting not displaying the active backend correctly.\n\nSpeedrunning and tools:\n\n• Changed: Speedrun Mode is a separate game mode selected from the launch menu, with its own saves. (, ).\n• Fixed: Pause and map screens now capture the correct non-interpolated game frame, matching the item-wheel behavior for frame-buffering tricks.\n• Added: Command console (/) with developer commands; type help to see available commands.\n• Added: Expanded debug tools menu with teleport controls and a trigger viewer.\n• Added: Command-line options to launch directly into a save or stage for testing.\n• Changed: Hold right-click to look around with the mouse in the debug fly camera.\n• Fixed: Texture dumping, including palette textures.\n\nThanks to all contributors:\n\n@Abzol @Ahmad8864 @Antidote @baxlek @cmyui @CraftyBoss @dooplecks @encounter @GiorgioMendieta @gymnast86 @iDarkSSJ @Irastris @jack-wines @jdflyer @kamilink7 @Lypopp @matthewdavidrichardanderson @MelonSpeedruns @pengin @PJB3005 @Pwootage @qubitnano @qwertyquerty @r-burns @R0dn3yS @Sirius902 @SuperDude88 @t0mtee @TakaRikka @theofficialgman @ZipoLabs.",
+          "downloadURL": "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.0/Dusklight-v2.0.0-ios-arm64.ipa",
+          "size": 37055024,
           "minOSVersion": "14.0"
         }
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Dusklight allows network-enabled mods to connect to devices on your local network."
+        }
       }
     },
     {
@@ -2431,7 +2433,7 @@
       "bundleIdentifier": "org.videolan.vlc-ios",
       "developerName": "videolan",
       "subtitle": "Official release build",
-      "localizedDescription": "Official release build",
+      "localizedDescription": "Official release build.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.videolan.vlc-ios.png",
       "tintColor": "#f08000",
       "category": "entertainment",
