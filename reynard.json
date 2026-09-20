@@ -38,6 +38,14 @@
       },
       "versions": [
         {
+          "version": "0.14.0",
+          "buildVersion": "0019395",
+          "date": "2026-09-20T09:28:05Z",
+          "localizedDescription": "## Changes\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.13.1...0.14.0\r\n\r\n### New Features\r\n- Added Reader Mode.\r\n- Added preliminary support for Apple Pencil.\r\n\r\n### Bug Fixes & Improvements\r\n- Improved the reliability of navigation history restoration on startup.\r\n- Fixed taps and the text cursor sometimes landing in the wrong spot on pages with sticky headers or menus.\r\n- Fixed pinned headers, footers, and menus sometimes showing up in the wrong place when the toolbar size changes or during scrolling.\r\n- Fixed pages sometimes settling in the wrong spot after a jump, zoom, or reload, which left part of the page hidden behind the toolbar.\r\n- Fixed an issue where webpages could open with the wrong light or dark appearance on startup when the appearance chosen in Settings differs from the system's.\r\n- Fixed a crash that could occur during audio playback.\r\n\r\n### Engine\r\nUpdated Gecko to [156.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_156_0_RELEASE) (released Sep 15, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.14.0/Reynard.ipa",
+          "size": 108453095
+        },
+        {
           "version": "0.13.1",
           "buildVersion": "2dbc75e",
           "date": "2026-09-14T11:34:26Z",
