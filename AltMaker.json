@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "app.mangatan.mangatan",
-    "paige.Navic",
-    "com.noopapp.noop"
+    "dev.naveed-gung.monolith",
+    "moe.itoapp.ito",
+    "com.husk.app"
   ],
   "apps": [
     {
@@ -1180,10 +1180,10 @@
       "versions": [
         {
           "version": "0.4.0",
-          "date": "2026-09-20T02:35:15Z",
-          "localizedDescription": "What's new?:\n\n• Added TrollStore JIT support (hopefully, untested).",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.4.0/Husk.ipa",
-          "size": 40275335,
+          "date": "2026-09-21T14:38:56Z",
+          "localizedDescription": "What's new:\n\n• Hopefully fixed iOS 26 JIT not working.",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.4.1/Husk.ipa",
+          "size": 40275539,
           "minOSVersion": "16.4"
         }
       ],
@@ -2113,7 +2113,7 @@
         {
           "version": "1.0.3",
           "date": "2026-09-17T17:27:35Z",
-          "localizedDescription": "What's new.\n\n• Trakt sync. Connect your Trakt account in Profile and your watchlist and watched history stay in sync.\n• Picture in Picture on iPhone and iPad.\n\n• IMDb, Rotten Tomatoes and Metacritic ratings on the detail page (add an OMDb key in Settings).\n• Playback recovery: if the video freezes while the audio keeps going, the player notices and recovers by itself. Streams that drop are picked back up too.\n• Chromecast support on iPhone and iPad.\n• Apple TV: the episode row opens on the season and episode you're on, and the player controls and episode panel behave better with the remote.\n• Lots of smaller fixes.\n\nImportant: this release is NOT signed. You have to allow it yourself.\n\nNothing here is signed with an Apple developer account and the Mac app is not notarized. macOS and iOS will refuse to open it until you explicitly allow it. This is expected, it's not broken.\n\nMac:\n\n• Open the dmg and drag SceneBox to Applications.\n• Open SceneBox. macOS will say it \"could not verify\" the app or that it's from an unidentified developer. Press Done (not Move to Trash).\n• Go to System Settings > Privacy & Security, scroll down to Security and press \"Open Anyway\" next to SceneBox, then confirm.\n• From then on it opens normally.\n\nIf you'd rather skip the dialog, run this in Terminal after copying the app to Applications:\n\nSigning in works on the unsigned Mac build. macOS doesn't let unsigned apps use the Keychain, so the app keeps your sign-in session and any API keys you enter in a file inside its own sandbox container instead (readable only by your user account). If you had an older signed version installed, delete it first.\n\niPhone/iPad: the ipa isn't signed, you sign it yourself with Sideloadly, AltStore, SideStore, Feather or ESign with your own Apple ID. Free Apple ID = resign every 7 days (AltStore/SideStore do it for you), paid dev account = one year.\n\nApple TV: Sideloadly works over Wi-Fi. On the TV go to Settings > Remotes and Devices > Remote App and Devices so it shows up, then pick it in Sideloadly.",
+          "localizedDescription": "What's new.\n\n• Trakt sync. Connect your Trakt account in Profile and your watchlist and watched history stay in sync.\n• Picture in Picture on iPhone and iPad.\n\n• IMDb, Rotten Tomatoes and Metacritic ratings on the detail page (add an OMDb key in Settings).\n• Playback recovery: if the video freezes while the audio keeps going, the player notices and recovers by itself. Streams that drop are picked back up too.\n• Apple TV: the episode row opens on the season and episode you're on, and the player controls and episode panel behave better with the remote.\n• Lots of smaller fixes.\n\nKnown issue: a few people report that on iPhone the app closes shortly after a stream starts buffering. It's being looked into. If it hits you, please share the crash log: Settings > Privacy & Security > Analytics & Improvements > Analytics Data, look for a file starting with SceneBox, and post it in the issue. 1.0.2 doesn't have this problem if you need a fallback.\n\nImportant: this release is NOT signed. You have to allow it yourself.\n\nNothing here is signed with an Apple developer account and the Mac app is not notarized. macOS and iOS will refuse to open it until you explicitly allow it. This is expected, it's not broken.\n\nMac:\n\n• Open the dmg and drag SceneBox to Applications.\n• Open SceneBox. macOS will say it \"could not verify\" the app or that it's from an unidentified developer. Press Done (not Move to Trash).\n• Go to System Settings > Privacy & Security, scroll down to Security and press \"Open Anyway\" next to SceneBox, then confirm.\n• From then on it opens normally.\n\nIf you'd rather skip the dialog, run this in Terminal after copying the app to Applications:\n\nSigning in works on the unsigned Mac build. macOS doesn't let unsigned apps use the Keychain, so the app keeps your sign-in session and any API keys you enter in a file inside its own sandbox container instead (readable only by your user account). If you had an older signed version installed, delete it first.\n\niPhone/iPad: the ipa isn't signed, you sign it yourself with Sideloadly, AltStore, SideStore, Feather or ESign with your own Apple ID. Free Apple ID = resign every 7 days (AltStore/SideStore do it for you), paid dev account = one year.\n\nApple TV: Sideloadly works over Wi-Fi. On the TV go to Settings > Remotes and Devices > Remote App and Devices so it shows up, then pick it in Sideloadly.",
           "downloadURL": "https://github.com/donbytyqi/scenebox/releases/download/v1.0.3/SceneBox-1.0.3.ipa",
           "size": 30506464,
           "minOSVersion": "18.0"
@@ -2554,11 +2554,11 @@
       ],
       "versions": [
         {
-          "version": "1.4.4",
-          "date": "2026-09-10T07:50:38Z",
-          "localizedDescription": "iOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.4.4.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.4.4.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: this build is signed with a debug key (fine for sideloading). Android may warn it's from an unknown developer — that's expected for a non–Play Store APK.\n\niOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.4.4.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.4.4.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: this build is signed with a debug key (fine for sideloading). Android may warn it's from an unknown developer — that's expected for a non–Play Store APK.",
-          "downloadURL": "https://github.com/naveed-gung/Monolith/releases/download/v1.4.4/monolith.ipa",
-          "size": 11121528,
+          "version": "1.4.5",
+          "date": "2026-09-21T16:53:47Z",
+          "localizedDescription": "iOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.4.5.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.4.5.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: this build is signed with a debug key (fine for sideloading). Android may warn it's from an unknown developer — that's expected for a non–Play Store APK.",
+          "downloadURL": "https://github.com/naveed-gung/Monolith/releases/download/v1.4.5/monolith.ipa",
+          "size": 11121525,
           "minOSVersion": "16.4"
         }
       ],
@@ -3173,10 +3173,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-20T13:46:11Z",
+          "date": "2026-09-21T16:11:41Z",
           "localizedDescription": "Automated unsigned nightly from main at commit 02a33df. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260920-65/Ito-1.0.0-nightly.20260920.65-unsigned.ipa",
-          "size": 10264206,
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260921-66/Ito-1.0.0-nightly.20260921.66-unsigned.ipa",
+          "size": 10264204,
           "minOSVersion": "15.4"
         }
       ],
@@ -3318,11 +3318,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.4.25",
-          "date": "2026-09-19T17:32:52Z",
-          "localizedDescription": "• fix(details): keep the hero blend layer below the content @luqmanfadlli.\n• feat(player): show seek, volume, and brightness values in the new layout @luqmanfadlli.\n• fix(home): prevent hero flash when cycling @tapframe.\n• i18n(el): translate new 0.4.24 strings and refresh stale ones @nosvasedis.\n• revert(ui): restore previous surface and chip styles @tapframe.\n• test(simkl): expect the percentage an episode row really carries @Judzim.\n• fix(simkl): stop inventing an episode position out of the show runtime @Judzim.\n• fix(simkl): keep a pause the app just recorded over a fetch that lags @Judzim.\n• fix(simkl): never push a whole-series mark to Simkl history @Judzim.\n• fix(player): restore the PiP, quality chooser, and info button in the new layout @luqmanfadlli.\n• fix(ui): fade the primary button's gradient when it is disabled @luqmanfadlli.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.25-beta/Nuvio-0.4.25-Enhanced.ipa",
-          "size": 66955980,
+          "version": "0.4.26",
+          "date": "2026-09-21T11:56:57Z",
+          "localizedDescription": "• fix(merge): keep source pinning in the shared provider filter row @luqmanfadlli.\n\n• fix(navigation): keep the iPad floating bar on the tab that is showing @luqmanfadlli.\n• feat(navigation): bring the jelly floating nav bar to iPad @luqmanfadlli.\n• feat(details): show the library icon on saved items @luqmanfadlli.\n• fix(ios): stop the tab bar crashing when Live TV is disabled @luqmanfadlli.\n• fix(streams): share addon filtering across pickers @tapframe.\n• i18n(nb): complete missing Norwegian Bokmål strings @SimSalabimse.\n• feat(streams): add an optional search bar to the stream selection screen @luqmanfadlli.\n• feat(details): put the actions in an icon row under play @luqmanfadlli.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.26-beta/Nuvio-0.4.26-Enhanced.ipa",
+          "size": 67100856,
           "minOSVersion": "16.1"
         }
       ],
