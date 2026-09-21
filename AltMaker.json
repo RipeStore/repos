@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "dev.akash.skystream",
-    "com.noopapp.noop",
-    "com.nakas.skate3"
+    "app.mangatan.mangatan",
+    "paige.Navic",
+    "com.noopapp.noop"
   ],
   "apps": [
     {
@@ -665,10 +665,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-09-20T07:25:36Z",
-          "localizedDescription": "• Implement legacy bar hit error meter.\n• RankedPlay / Quickplay queue NullReferenceException.\n• Move inlined usages of \"stable magic ratio\" to constant.\n• Use colour hit error meter in catch.\n• Fix legacy bar hit error meter origin resetting to center on every load.\n• Save last song select collection filter to local config.\n• Fix text clipping on form controls.\n• Merge RadioButton model into EditorRadioButton drawable.\n• Inherit previous object's sample settings in polygon tool.\n• Fix stutter on returning to song select when updating large beatmap sets.\n• Automatically close the now playing overlay when interacting with other overlays.\n• Fix spinner spin sample not modulating as high as it should.\n• Refactor report popovers to use dialogs.\n\n• Move up selection state bindables to HitObjectComposer level.\n• Limit star rating display animation duration for large changes.\n• Add support for customizing ruleset-specific editor key bindings.\n• Fix replay analysis cursor path shifting in rare cases.\n• Add store for caching online assets to disk.\n• Precompile path shaders during game load.\n• Fix presenting beatmap sometimes not working correctly when scoped to beatmap.\n• Allow reporting users in ranked play.\n• Fix infinite recursion in song select logic in certain circumstances.\n• Add ability to sync bookmarks/preview point across difficulties.\n• Add ellipsis to menu items which open a dialog.\n• Change extended result screen layout.\n• Improve settings sidebar and ruleset visibility.\n• Avoid using GetDescription for hover sounds lookups.\n• Fix OnlineAssetCachingStore not ever disposing.\n• Adjust operation of left sidebar toggles in editor.\n• Add rebind support for more editor actions.\n• Temporarily disable online asset cache due to unacceptable performance.\n• Fix editor toggle states not applying to current placement.\n• Make \"clear all local scores\" menu item destructive.\n\n• Do not insert leading spaces into song select search bar when it is empty.\n• Fix user tags are not showing on first beatmap selection.\n• Make osu! autoplay mod incompatible with a few mods that move objects around.\n• Fix osu! performance calculator using LegacyTotalScore == null checks.\n• Upgrade to .NET 10.0.\n• Restore Filipino language.\n• Reduce log spew from game-breaking beatmaps.\n\n• Adjust rounding tolerance in distance snap grid ring colour logic again.\n• Fix incorrect dependency container overrides.\n• Remove link on beatmap deletion in recent activity on user profiles.\n\n• Fix VSCode executable path directory.\n• Avoid importing case-sensitive beatmaps files leading to crashes.\n• Fix zero duration storyboard loops potentially causing load thread pool exhaustion and infinite disposal block.\n• Update framework.\n• Fix follow point animation showing twice on low approach rates with Hidden enabled.\n• Ensure report confirmations arrive in the correct channel.\n• Adjust alignment of legacy key counter display.\n• Add a limit to size of files extracted via ZipArchiveReader.\n\n• Add \"block private messages from people not on your friends list\" setting synced with web.\n\nNew Contributors:\n\n• @MingxuanGame made their first contribution.\n• @sp2dev made their first contribution.\n• @SevenSec114 made their first contribution.\n• @AndiTafel made their first contribution.\n• @TechStudent10 made their first contribution.\n• @jotkauser made their first contribution.",
-          "downloadURL": "https://github.com/ppy/osu/releases/download/2026.920.0-lazer/osu.iOS.ipa",
-          "size": 221246574,
+          "date": "2026-09-21T05:32:11Z",
+          "localizedDescription": "Hotfix to fix startup crashes for some users on windows.",
+          "downloadURL": "https://github.com/ppy/osu/releases/download/2026.921.0-lazer/osu.iOS.ipa",
+          "size": 221244419,
           "minOSVersion": "13.4"
         }
       ],
@@ -1965,10 +1965,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-18T22:35:28Z",
-          "localizedDescription": "• playback crash fix.\n• readme typo.\n• [feat]: option to show time/songs remaining rather than of the whole queue.\n• feat: tap cover art to fullscreen.",
-          "downloadURL": "https://github.com/ssalggnikool/Navic/releases/download/v1.0.0-alpha58/Navic.ipa",
-          "size": 21402452,
+          "date": "2026-09-21T07:16:51Z",
+          "localizedDescription": "• properly hide all share buttons if the user can't actually share.\n• fix: slider.\n• Add Android Auto support and fix album track ordering.\n• Revert \"Add Android Auto support and fix album track ordering\".\n• a bunch of fixes;).\n• feat: add option to activate fake beat-by-beat.\n• fix: crash when server is not reachable.\n• feat: progress notifications.\n• feat: listening statistics.\n• feat: proper responsive ui.\n\nNew Contributors:\n\n• @lurida-serpe made their first contribution.",
+          "downloadURL": "https://github.com/ssalggnikool/Navic/releases/download/v1.0.0-alpha59/Navic.ipa",
+          "size": 21475549,
           "minOSVersion": "14.1"
         }
       ],
@@ -3371,10 +3371,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-09-19T22:46:43Z",
-          "localizedDescription": "Release v6.1.23:\n\n• Repair desktop startup through the launcher (e5a10a4).\n• fix: press escape to exit fullscreen (f149cff).\n• Match iOS credits to verified membership (2ca4c86).\n• Allow CBZ manga imports on iOS (15b00d5).\n• Finish purchase restores without waiting forever (0e9a9d3).\n• Classify desktop launcher startup failures (0393e97).\n• Keep Apple membership state tied to real purchases (7eff0b9).\n• Initialize Linux webviews before driving frames (48a6447).\n• Load CEF shutdown through the runtime bridge (0c998e5).\n• Guide users to enable hidden adult media (4dd2658).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.23/Manatan-v6.1.23-iOS.ipa",
-          "size": 367153459,
+          "date": "2026-09-21T07:49:50Z",
+          "localizedDescription": "Release v6.1.24:\n\n• Update readme (e3ed72f).\n• Explain and recover from low-disk update failures (afa8f26).\n• Adapt Lens OCR concurrency to device and network (2785b55).\n• Encode custom audio as M4A on iOS (b633682).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.24/Manatan-v6.1.24-iOS.ipa",
+          "size": 367190932,
           "minOSVersion": "16.1"
         }
       ],
@@ -3887,10 +3887,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-21T03:12:31Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-21 · 1015d07.",
+          "date": "2026-09-21T06:37:57Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-21 · a56840b.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21494982,
+          "size": 21495001,
           "minOSVersion": "17.0"
         }
       ],
