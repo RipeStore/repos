@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "moe.itoapp.ito",
-    "com.noopapp.noop",
-    "com.joemattiello.iCube"
+    "uk.gleissner.c64commander",
+    "com.tumoflip.unleashedcompanion",
+    "com.yuroyami.syncplay.iosApp"
   ],
   "apps": [
     {
@@ -1818,7 +1818,7 @@
       "bundleIdentifier": "org.emexlabs.nyxian",
       "developerName": "emexlab",
       "subtitle": "IDE to develop native code iOS apps and utilities on stock iOS it self just via a certificate and a custom micro kernel for those apps",
-      "localizedDescription": "What is it?:\n\nNyxian is an iOS app that empowers developers with a full toolchain they can use while even being offline for iOS development on iPhone. It supports Swift, C, Objective-C, C++ and Objective-C++. It’s a powerful IDE that made the impossible possible, a fully on-device iOS IDE that doesn’t even need a cloud and can even be used with airplane mode enabled after it downloaded the SDK and resources from our server. It supports officially iOS 18.0 all the way up to the latest iOS version (iOS/iPadOS 27.0 tested). You can compile and run iOS apps on the go with ease, using the entire iOS 26.5 SDK.",
+      "localizedDescription": "What is it?:\n\nNyxian is an iOS app that empowers developers with a full toolchain they can use while even being offline for iOS development on iPhone. It supports Swift, C, Objective-C, C++ and Objective-C++. It’s a powerful IDE that made the impossible possible, a fully on-device iOS IDE that doesn’t even need a cloud and can even be used with airplane mode enabled after it downloaded the SDK and resources from our server. It supports officially iOS 18.0 all the way up to the latest iOS version (iOS/iPadOS 27.2 Beta 2 tested). You can compile and run iOS apps on the go with ease, using the entire iOS 26.5 SDK.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.emexlabs.nyxian.png",
       "tintColor": "#d0a0f0",
       "category": "developer",
@@ -2078,11 +2078,11 @@
       ],
       "versions": [
         {
-          "version": "1.11.23",
-          "date": "2026-09-20T16:17:09Z",
-          "localizedDescription": "TumoCompanion 1.11.23:\n\n• Protect the maintained Bluetooth Remote (hid_ble.fap) and its app-data family from Community Pack replacement. BadUSB, USB Remote and the separate Kodi remote are unchanged.\n• Block installation of this new managed Remote before any SD mutation unless the same freshly read device identity proves Tumoflip F7 / API 88.11+ within major 88. A matching API number on another fork is not sufficient.\n\nInstall this update first, then Tumoflip Dev 009-004, then FW Packages Dev 018. The package owns the new Remote; it is not an iOS remote-control feature.",
-          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.23/TumoCompanion-unsigned.ipa",
-          "size": 25840413,
+          "version": "1.11.24",
+          "date": "2026-09-22T16:51:45Z",
+          "localizedDescription": "TumoCompanion 1.11.24:\n\n• Protect the package-owned Device Library FAP, its cards/history and nested File History plugin from Community Pack replacement. Protection follows the canonical case-insensitive SD path, including renamed catalog entries.\n\n• Explicit Protected apps overrides remain available. No user files, cards, history or Bluetooth pairing data are deleted or migrated.\n\nInstall this companion update before FW Packages Dev 021. Automatic File History also needs the corresponding runtime support from firmware Dev 009-009; passing the minimum FAP API check alone does not enable automatic checkpoints.\n\nThe Bluetooth Remote controller repair is in Tumoflip Dev 009-009, not this iOS patch. Existing Remote 1.3 from FW Packages remains compatible. A companion update alone cannot repair peer selection on older firmware.",
+          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.24/TumoCompanion-unsigned.ipa",
+          "size": 25840904,
           "minOSVersion": "17.0"
         }
       ],
@@ -2523,11 +2523,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.4",
-          "date": "2026-09-15T15:14:06Z",
-          "localizedDescription": "• Carry playback on and reconnect across leaving and coming home, and fix defects found in hardware testing.\n• Keep the listener informed and in control after a tune moves to the phone.\n• Show the device offline, without the Demo Mode offer, to users away from it.\n• droidctl: drive Android containers on Linux phones over SSH.\n• Fix defects found in hardware testing, above all around network transitions.\n• deps: bump hono from 4.13.0 to 4.13.7 in /c64scope[bot].\n• Keep the page clear of the system bars on WebViews older than 140.\n• Resolve all open Dependabot alerts.",
-          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.0.4/c64commander-1.0.4-ios.ipa",
-          "size": 7335544,
+          "version": "1.0.5",
+          "date": "2026-09-22T18:04:06Z",
+          "localizedDescription": "• Define compact keypad navigation.\n• Fix network-transitions E2E test to count only requests started after the offline event.\n• Stop reading a flow's own app relaunch as a crash on iOS.\n• Fix seven defects the keypad user meets, and make the scheduled fuzz finish.\n• Pre-rollout QA: fix Demo Mode snapshots, keypad focus after value changes, and Game Mode start-up frame rate.\n• QA sweep: make the settings file beside a launched file actually work, and prove every kind of launch on hardware.\n• deps: Bump the \"weekly-rollup\" group with 3 updates across multiple ecosystems[bot].",
+          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.0.5/c64commander-1.0.5-ios.ipa",
+          "size": 7354456,
           "minOSVersion": "15.0"
         }
       ],
@@ -2667,17 +2667,19 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.12.1",
-          "date": "2026-03-20T18:17:24Z",
-          "localizedDescription": "• Added support for the new AniList notification types, which fixes the recent app errors.\n• Media activity filter has a \"Self\" option now (thanks @0-BlackSpectrum-0).\n• Bar charts in user/media statistics are not horizontal, more compact and more informative (thanks @0-BlackSpectrum-0).\n• Buttons on the user page are now a grid (thanks @0-BlackSpectrum-0).\n• Android app icon changes depending on light/dark mode (thanks @0-BlackSpectrum-0).\n• Fixed the status bar tint on older android versions (thanks @0-BlackSpectrum-0).",
-          "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.12.1/Otraku-v.1.12.1-ios15%2B.ipa",
-          "size": 9414861,
-          "minOSVersion": "15.6"
+          "version": "1.13.1",
+          "date": "2026-09-22T15:42:22Z",
+          "localizedDescription": "• Added localizations support.\n• Added Turkish localization (thanks @kyoyacchi).\n• Unfinished messages are persisted in storage, so mistakenly closing the sheet won't cause you to loose your progress (thanks @0-BlackSpectrum-0).\n• Added progress and repeats info to the following tab in the media page. (thanks @0-BlackSpectrum-0).\n• Added \"Watchable On\"/\"Readable On\" filter in discover filters for anime/manga.\n• Added support for underline formatting.\n• Added support for the \"Same Universe\" media relation.\n• Made all markdown content selectable: activities, replies, threads, comments, user/character/staff bios, reviews and media descriptions.\n\n• The copy button in the link sheet was replaced by a share button.\n• Fixed the last item in the collection list sheet being cut off.\n• Fixed incorrect marker clipping of unread notifications (thanks @0-BlackSpectrum-0).\n• Fixed markdown not being rendered in list notes.\n• Fixed the back button briefly appearing on some tabs of the home page.",
+          "downloadURL": "https://github.com/lotusprey/otraku/releases/download/v.1.13.1/Otraku-v.1.13.0-ios15.8.8%2B.ipa",
+          "size": 10342207,
+          "minOSVersion": "15.8.8"
         }
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "This app needs permission to save media to your library."
+        }
       }
     },
     {
@@ -3754,12 +3756,12 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.24.0",
-          "date": "2026-09-06T13:58:47Z",
-          "localizedDescription": "The new look:\n\n• The whole app was redrawn: one set of controls, five text sizes, colours that come from the theme, and frosted panels over the video on devices that can draw them.\n• Home is a single form: your name, the server, the player, and Join. It fits a phone, a phone on its side, a tablet or a desktop window.\n• The room has a rail for its actions and a status line. The controls hide while the video plays and come back on a tap.\n• Settings have a search box, grouped rows, values in units people actually read, and colours you edit in place. Each player's settings sit inside the player category.\n• Themes preview as a miniature of the app, and the theme creator shows what a seed colour will do before you save.\n• Motion can be reduced from settings. A screen reader announces who is ready, connection changes and new messages.\n• Watching alone has its own row in About: tap the logo on Home.\n\nPlayers:\n\n• KitePlayer, a new engine written for this app on top of FFmpeg, is available on Android, iOS and desktop as an experimental choice. It has chapters, external and styled subtitles, pitch-preserved speed from 0.25x to 4x, and plays links over https.\n• Three engines per platform: ExoPlayer, mpv and KitePlayer on Android, and the system player, VLCKit and KitePlayer on iOS. VLC on Android and mpv on iOS are gone. VLCKit is the iOS default.\n• Volume can go past 100 on players that can boost (mpv, ExoPlayer, VLCKit). The device volume fills first, then the player's own gain takes over.\n• Double taps add up to one jump, and a long press shows where a seek will land before it commits.\n• When you watch alone, the app remembers where you left a file and offers to continue from there.\n• Seeking with KitePlayer lands on the exact frame in one step and is about twice as fast. Files with tens of thousands of subtitle lines no longer slow it down.\n• YouTube links work again with the updated extractor, and a friend's YouTube link in the shared playlist is accepted without any setup. SoundCloud, PeerTube, Bandcamp and media.ccc.de links work the same way on Android and desktop. iOS handles YouTube only.\n\nSync and playback:\n\n• Fixed the phantom pause: a player stopping on its own no longer pauses the whole room.\n• The room shows when it is waiting for the video instead of looking frozen, and says who it is waiting for before playback starts.\n• Audio and subtitle picks survive a reload on every engine, and follow your preferred languages.\n• Tracks marked as accessibility captions, audio description or forced now say so in the picker.\n• When a file ends, the playlist moves on once, not once per person in the room.\n• A file that is still opening no longer drags the whole room back to the start.\n• iOS with VLC: a video from a network share reported no length at first, and the app filled the gap with a placeholder. Dragging the seek bar then sent the room to a nonsense time, and everyone landed back at the start. The bar now waits until the real length arrives.\n• If you load your file after the room has already started, you now sync to the room instead of sitting paused at the start.\n• A per-user time offset lets two different rips of the same film be watched together.\n• The three drift thresholds (rewind, slowdown, fast-forward) are now settings.\n• A phone coming back from the background follows the room instead of dragging it back.\n\nRoom and chat:\n\n• Volume and brightness have their own controls, so a swipe is no longer the only way.\n• You can mute someone, and image links from other people stay hidden until you tap them.\n• The user list has a compact view and a detailed one. The detailed view shows each person's file, its length, its size and whether it matches yours.\n• A playlist change can be undone.\n• Picture in picture grows out of the video instead of popping up from nowhere.\n• The room can follow the device's rotation or stay in landscape. There is a setting for it.\n• Android: lock screen and headset controls work in the room and follow the same readiness rules as the play button.\n• On a television, the room's controls stay inside the visible area.\n• The locked screen tells you how to unlock it.\n• The room shows whether your connection is encrypted.\n• Panels look right on a light theme.\n• Buffering no longer pushes the play button around. The button rounds into a circle and its colours move until the player catches up.\n• The custom skip button sits between the two jump buttons.\n\n• A bug report sent from the app says which engine, which build and which device.\n\nConnection:\n\n• Encrypted connections now check the server's certificate against the name you typed.\n• You can require encryption. A server that offers none is refused before anything is sent.\n• A dropped connection reconnects with a growing wait instead of hammering the server.\n• A handshake that never finishes gives up instead of hanging.\n• Leaving the server address empty joins the official server, as it always looked like it would.\n• The network you are on can no longer push the app's own services onto plain HTTP.\n• A pasted link is checked against the site it really points to, not the text shown in front of it.\n\nHosting:\n\n• Hosting lives on the home screen now, under the server choice, with the address first.\n• The hosting screen and its notification use the app's language.\n• A silent client is dropped after the timeout the server already advertised.\n• An operator password works only for the room it belongs to.\n• Creating a managed room now really puts the password on your clipboard, which it has claimed to do for a long time.\n\nLanguage:\n\n• Change the app's language from settings, on every platform, with no restart.\n• All seven translations are complete: Arabic, German, Spanish, French, Polish, Russian and Chinese.\n• Audio and subtitle language names are shown in your own language.\n• A crash when opening settings, caused by a string defined twice, is fixed. Strings are now generated at build time and checked for duplicates.\n\nElsewhere:\n\n• Invite links: share a room with a link, and open one to join.\n\n• Settings can be exported to a file and imported back.\n• A damaged settings file no longer crashes the app at launch. It starts on defaults and tells you.\n• Service keys are never written to the log, so a log you share carries none.\n• You can tell the GIF service to forget you between sessions.\n• Reading settings at startup no longer blocks drawing, and neither does logging.\n• Android 13 and up can theme the launcher icon.",
-          "downloadURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.24.0/synkplay-0.24.0-ios.ipa",
-          "size": 89476842,
-          "minOSVersion": "14.1"
+          "version": "0.25.0",
+          "date": "2026-09-22T16:00:29Z",
+          "localizedDescription": "This release is not on Google Play or the App Store yet.\n\n• Audio files can now be played. (#168, requested).\n• Audio files show a visualizer. You can turn it off in the room's player settings.\n• The visualizer changes patterns on its own, or you can pick one.\n• Fixed the keyboard closing after one letter on Home. (#167, #170, reported and @rkpsx7, fixed).\n• Android TV: every control now works with a remote. (#159, contributed).\n• Android TV: the app lists your videos when no file picker is available. (#163, contributed).\n• Invite links are now https links, clickable in any messenger. The page opens the app or links to the stores.\n• The room's side panels are merged into one.\n\n• Long press a GIF to save it or copy its link. Long press a message to copy it.\n\n• GIF and sticker controls share one row. Sending one clears the search text.\n• The shared playlist can be reordered by dragging. After a disconnect, the app offers to restore it.\n• Tracks show more detail, and video tracks can be selected.\n• mpv on Android now uses libmpvKt, which fixes video track selection.\n• iOS: the screen stays on in rooms, including after switching players.\n• iOS VLC: fixed the seek bar freezing and the room jumping backward. (#158, reported).\n• Fixed rapid seeks losing the latest position, and an unfinished seek moving a new file.\n• iOS VLC: fixed seeking in Picture-in-Picture, and the resume offer when watching alone.\n• Home shows what each player supports.\n• Invalid join links and port numbers are now rejected.\n• Screen readers can now reach the join form.\n• The ExoPlayer-only APK is now reproducible, so IzzyOnDroid can verify it. (#105, #172, requested).\n\nTranslations  <a href=\"https://hosted.weblate.org/engage/syncplay-mobile/\"><img src=\"https://hosted.weblate.org/widget/syncplay-mobile/svg-badge.svg\" alt=\"Translation status\" height=\"20\"></a>:\n\nHelp translate Synkplay on Weblate.",
+          "downloadURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.25.0/synkplay-0.25.0-ios.ipa",
+          "size": 89425662,
+          "minOSVersion": "15.0"
         }
       ],
       "appPermissions": {
