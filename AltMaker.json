@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.joemattiello.iCube",
     "com.suwayomi.tachideskSorayomi.tsumiru",
-    "com.emp0ry.mirushin",
-    "dev.naveed-gung.monolith"
+    "com.emp0ry.mirushin"
   ],
   "apps": [
     {
@@ -4389,7 +4389,7 @@
       "bundleIdentifier": "com.meleepad.MeleePad",
       "developerName": "chrissotraidis",
       "subtitle": "Super Smash Bros Melee, native on iOS and iPadOS",
-      "localizedDescription": "MeleePad:\n\nSuper Smash Bros. Melee on iPhone, iPad, and Apple Silicon Mac through ahead-of-time recompilation and Metal.\n\nMeleePad turns a supported copy of Melee into a native Apple app you build yourself. It uses touch controls, physical controllers, Metal rendering, and a Dolphin-derived compatibility runtime—without requiring JIT on iPhone or iPad.\n\nBuilt with ModernGekko, by Hyperway, ExpansionPak and contributors, and DolRecomp, on the RecompCore / Dolphin runtime. The Apple integration builds on SunPad. MeleePad's contribution is the Apple app, controls, integration, and game-specific fixes; the underlying compiler and runtime remain the work of their upstream authors.\n\nMaintained dependency forks: ModernGekko, RecompCore, DolRecomp, and ENet. MeleePad is the Apple app repository; its runtime/compiler changes live in these forks and are selected through pinned submodules. See full credits and the source graph.",
+      "localizedDescription": "MeleePad:\n\nSuper Smash Bros. Melee on iPhone, iPad, and Apple Silicon Mac.\n\nBuild a native Apple app from your own supported copy of Melee, with touch controls, physical-controller support, Metal rendering, and Slippi online play on iPhone and iPad. Game code is compiled ahead of time, so no JIT is required on iOS or iPadOS.\n\nBuilt with ModernGekko, DolRecomp, and the RecompCore / Dolphin runtime, with Apple integration based on SunPad. See credits and maintained sources.\n\n**Build and setup · Slippi profile setup ·.\n\nA physical-iPad development build running at 2x resolution. Performance varies by scene and device; this image is evidence from one observed match, not a universal performance guarantee.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.meleepad.MeleePad.png",
       "tintColor": "#e05040",
       "category": "games",
@@ -4457,10 +4457,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-19T10:23:09Z",
-          "localizedDescription": "Alpha Build d09f0ac:\n\nAutomated alpha build from develop.\n\nArtifacts:\n\n• Non-Jailbroken.ipa — SideStore / AltStore / Sideloadly.\n• TrollStore.tipa — TrollStore.\n• Jailbroken-Rootful.deb / Jailbroken-Rootless.deb — jailbroken devices.\n\nThis release is automatically updated on every successful default-branch / develop CI run.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha/Non-Jailbroken.ipa",
-          "size": 91421457,
+          "date": "2026-09-22T01:33:11Z",
+          "localizedDescription": "Immutable snapshot of alpha build 105 (66f5b2b).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 105, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-105/Non-Jailbroken.ipa",
+          "size": 91506928,
           "minOSVersion": "17.0"
         }
       ],
