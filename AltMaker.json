@@ -11,7 +11,7 @@
   "featuredApps": [
     "com.joemattiello.iCube",
     "com.suwayomi.tachideskSorayomi.tsumiru",
-    "com.emp0ry.mirushin"
+    "app.mangatan.mangatan"
   ],
   "apps": [
     {
@@ -3004,11 +3004,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.3.2",
-          "date": "2026-09-21T21:24:00Z",
-          "localizedDescription": "A manga and webtoon reader for your Suwayomi server.\n\n✨ New Features:\n\nAccounts need a Suwayomi server with multi-user support, which is not in a Suwayomi release yet. Everything else below works on any current server.\n\n• Added an Account screen showing your role and permissions, with Change password and Sign out (@aaronbamblett).\n\n• Added a Library update errors screen that opens from the failed-update notification and lists series that failed during the last library update, each with a Migrate button (@aaronbamblett).\n• Added Select below to the chapter multi-select menu (@yohanim).\n\n• Completed the Chinese translations for zh, zh-Hans and zh-Hant (@AITNR).\n\n⚙️ Changes:\n\n• Added confirmation whenever you delete chapters in bulk, with a warning when they will also be removed from this device (@aaronbamblett).\n• Changed the library update button to a stop button while an update is running (@aaronbamblett).\n• Replaced the Updates summary sheet with the Library update errors screen (@aaronbamblett).\n\n🚀 Improvements:\n\n• Updated the Browse tab's update count after installing, updating or uninstalling an extension (@aaronbamblett).\n• Updated the Updates list to show new entries as a background library check finishes, preserving your place in the list (@yohanim).\n\n🧩 Fixes:\n\n• Fixed background catch-up never retrying chapters it had given up on (@aaronbamblett).\n• Fixed source filters appearing partially selected before you tapped them (@aaronbamblett).\n\n• Fixed bulk chapter deletion doing nothing in the web app (@aaronbamblett).\n• Fixed getting stuck in an unauthorised library by adding a Signed out screen that opens connection settings (@aaronbamblett).\n• Fixed the Library failing to refresh when opened during an ongoing library update (@yohanim).\n\n• Fixed blank labels throughout the German translation (@DattatreyaReddy).\n\n• Fixed kept series being dropped from the device when a library timestamp was misread (@yohanim).\n\nMobile:\n\nAndroid: download the universal APK below and open it to install. Smaller APKs for specific chip types are also attached.\n\n• SideStore signs and refreshes the app on the device itself, with no computer needed after setup. Best for most people.\n• AltStore expires every 7 days and only refreshes while a computer running AltServer is switched on and on the same Wi-Fi as your phone.\n• TrollStore installs permanently with no expiry, but only works on older iPhones and iOS versions with the required vulnerability.\n\nWith SideStore or AltStore the app is re-signed periodically, which those tools automate. There is no App Store build.\n\nDesktop:\n\nWindows: download …-windows-x64.zip, extract it anywhere, and run tsumiru.exe.\n\nmacOS: download …-macos-x64.zip, extract it, and move the app to Applications. If macOS blocks the first launch, approve it under System Settings → Privacy & Security.\n\nLinux: the Flatpak is recommended and auto-updates.\n\nFor a portable option, download …-linux-x86_64.AppImage, mark it executable with chmod +x, and run it.\n\nWeb:\n\nDownload …-web.zip and serve its contents with any static web server.\n\nFull documentation.",
-          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.3.2/tsumiru-v1.3.2-ios.ipa",
-          "size": 19688395,
+          "version": "1.3.3",
+          "date": "2026-09-22T07:11:23Z",
+          "localizedDescription": "A manga and webtoon reader for your Suwayomi server.\n\n🚀 Improvements:\n\n• Added visible progress while checking the server connection, searching the network and signing in during setup (@aaronbamblett).\n• Collapsed Custom HTTP headers into an expandable row during setup, showing the number configured (@aaronbamblett).\n• Removed unused packages and updated dependencies (@yohanim).\n\n🧩 Fixes:\n\n• Fixed large libraries failing to load beyond the first page (@SuperMario22922).\n• Fixed setup losing the entered server address and connection result (@aaronbamblett).\n• Fixed Next doing nothing instead of checking the connection or signing in during setup (@aaronbamblett).\n• Fixed the login form disappearing during sign-in (@aaronbamblett).\n\nMobile:\n\nAndroid: download the universal APK below and open it to install. Smaller APKs for specific chip types are also attached.\n\n• SideStore signs and refreshes the app on the device itself, with no computer needed after setup. Best for most people.\n• AltStore expires every 7 days and only refreshes while a computer running AltServer is switched on and on the same Wi-Fi as your phone.\n• TrollStore installs permanently with no expiry, but only works on older iPhones and iOS versions with the required vulnerability.\n\nWith SideStore or AltStore the app is re-signed periodically, which those tools automate. There is no App Store build.\n\nDesktop:\n\nWindows: download …-windows-x64.zip, extract it anywhere, and run tsumiru.exe.\n\nmacOS: download …-macos-x64.zip, extract it, and move the app to Applications. If macOS blocks the first launch, approve it under System Settings → Privacy & Security.\n\nLinux: the Flatpak is recommended and auto-updates.\n\nFor a portable option, download …-linux-x86_64.AppImage, mark it executable with chmod +x, and run it.\n\nWeb:\n\nDownload …-web.zip and serve its contents with any static web server.\n\nFull documentation.",
+          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.3.3/tsumiru-v1.3.3-ios.ipa",
+          "size": 19721191,
           "minOSVersion": "15.0"
         }
       ],
@@ -3371,10 +3371,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-09-21T07:49:50Z",
-          "localizedDescription": "Release v6.1.24:\n\n• Update readme (e3ed72f).\n• Explain and recover from low-disk update failures (afa8f26).\n• Adapt Lens OCR concurrency to device and network (2785b55).\n• Encode custom audio as M4A on iOS (b633682).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.24/Manatan-v6.1.24-iOS.ipa",
-          "size": 367190932,
+          "date": "2026-09-22T05:42:25Z",
+          "localizedDescription": "Downloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.25/Manatan-v6.1.25-iOS.ipa",
+          "size": 367182415,
           "minOSVersion": "16.1"
         }
       ],
@@ -4457,10 +4457,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-22T01:33:11Z",
-          "localizedDescription": "Immutable snapshot of alpha build 105 (66f5b2b).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 105, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-105/Non-Jailbroken.ipa",
-          "size": 91506928,
+          "date": "2026-09-22T09:21:37Z",
+          "localizedDescription": "Immutable snapshot of alpha build 110 (e5a6542).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 110, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-110/Non-Jailbroken.ipa",
+          "size": 91908673,
           "minOSVersion": "17.0"
         }
       ],
@@ -4473,7 +4473,7 @@
           "get-task-allow"
         ],
         "privacy": {
-          "NSLocalNetworkUsageDescription": "iCube uses your local network to discover and connect to DSU controllers and devices.",
+          "NSLocalNetworkUsageDescription": "iCube uses your local network to discover DSU controllers, to share your library with nearby devices, and to hand a game off to another device. Transfers between devices are not encrypted.",
           "NSPhotoLibraryAddUsageDescription": "Used to save gameplay clips you record with Instant Replay."
         }
       }
