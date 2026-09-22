@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.joemattiello.iCube",
-    "com.suwayomi.tachideskSorayomi.tsumiru",
-    "app.mangatan.mangatan"
+    "moe.itoapp.ito",
+    "com.noopapp.noop",
+    "com.joemattiello.iCube"
   ],
   "apps": [
     {
@@ -3173,10 +3173,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-21T16:11:41Z",
+          "date": "2026-09-22T14:15:37Z",
           "localizedDescription": "Automated unsigned nightly from main at commit 02a33df. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260921-66/Ito-1.0.0-nightly.20260921.66-unsigned.ipa",
-          "size": 10264204,
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260922-67/Ito-1.0.0-nightly.20260922.67-unsigned.ipa",
+          "size": 10264206,
           "minOSVersion": "15.4"
         }
       ],
@@ -3318,11 +3318,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.4.26",
-          "date": "2026-09-21T11:56:57Z",
-          "localizedDescription": "• fix(merge): keep source pinning in the shared provider filter row @luqmanfadlli.\n\n• fix(navigation): keep the iPad floating bar on the tab that is showing @luqmanfadlli.\n• feat(navigation): bring the jelly floating nav bar to iPad @luqmanfadlli.\n• feat(details): show the library icon on saved items @luqmanfadlli.\n• fix(ios): stop the tab bar crashing when Live TV is disabled @luqmanfadlli.\n• fix(streams): share addon filtering across pickers @tapframe.\n• i18n(nb): complete missing Norwegian Bokmål strings @SimSalabimse.\n• feat(streams): add an optional search bar to the stream selection screen @luqmanfadlli.\n• feat(details): put the actions in an icon row under play @luqmanfadlli.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.4.26-beta/Nuvio-0.4.26-Enhanced.ipa",
-          "size": 67100856,
+          "version": "0.5.0",
+          "date": "2026-09-22T10:51:10Z",
+          "localizedDescription": "• feat(player): snooze the movie recommendation card for a minute on dismiss @luqmanfadlli.\n• feat(player): suggest More Like This titles at the end of a movie @luqmanfadlli.\n\n• feat(profile): iOS-style floating header on the Android Profile page @luqmanfadlli.\n• feat(settings): collapse tracker cards by default @tapframe.\n• fix(player): restore subtitles for each episode @tapframe.\n• feat(profile): split finished titles into Watched, Completed and Episodes @luqmanfadlli.\n• fix(profile): show next-7-day episodes under Profile Insight's Upcoming @luqmanfadlli.\n• feat(profile): move edit/switch/save actions to circular header buttons @albertovinaroz.\n• feat(settings): redesign the Profile page hero @albertovinaroz.\n• fix(ios): align the morphed tab bar handoff with the native UITabBar @luqmanfadlli.\n• feat(mdblist): use connected account for ratings with api key override @tapframe.\n• fix(ios): run each plugin on its own large-stack thread to restore scraping speed @luqmanfadlli.\n• Get rid of Tmbd Dates Enrichment @skoruppa.\n• test(player): cover MX Player completion results without position @zuko726.\n• fix(player): record position-less external results when the player reports completion @zuko726.\n• fix(player): keep external player results that report completion without a position @zuko726.\n\n• fix(ios): use clean player framework archive tapframe.\n• fix(player): preserve iOS audio during calls @tapframe.\n• fix(poster): reload pattern on profile switch @tapframe.\n• fix(poster): add missing iOS annotation import @tapframe.\n• Custom poster URL pattern support @skoruppa.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.0-beta/Nuvio-0.5.0-Enhanced.ipa",
+          "size": 67967466,
           "minOSVersion": "16.1"
         }
       ],
@@ -3887,10 +3887,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-21T06:37:57Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-21 · a56840b.",
+          "date": "2026-09-22T12:45:47Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-22 · bca05f0.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21495001,
+          "size": 21511623,
           "minOSVersion": "17.0"
         }
       ],
@@ -3918,11 +3918,11 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "0.9.6",
-          "date": "2026-09-19T16:50:53Z",
-          "localizedDescription": "📖 Reader & Manga:\n\n• Intelligent Double-Page Spreads & RTL Reading (#1018, #1008):.\n\n• Wide and landscape double-page spreads are now shown seamlessly on their own full-width screen instead of being awkwardly paired with single pages.\n• Switching between single and double-page view, rotating your device, or changing reading modes no longer resets your progress back to chapter 1.\n• Resuming chapters in Right-to-Left (manga) reading mode now starts in the correct direction without layout flipping.\n\nSmoother Reading Experience:\n\n• Fixed page flickering and display glitches when scrolling quickly through continuous chapters.\n\nNovel Reader:\n\n• Scroll-Free E-Reader Paged Mode (#1019):.\n\n• Read novels like a real book with page-turning swipes and taps instead of endless vertical scrolling.\n• Quickly switch between Continuous Scroll and Paged Reading directly from the novel settings sheet.\n\n• Single & Double-Page Column Layouts (#1019):.\n\n• Added single-page and side-by-side double-page reading modes, optimized for tablets, foldable devices, and landscape screens.\n• Settings sheet changes (reading mode, page mode) are now applied and previewed instantly.\n\nVideo Player & Anime:\n\n• Player Screen Lock (Mobile):.\n\n• Added a dedicated screen lock button to the mobile controls to prevent accidental touches while watching.\n• When locked, all on-screen controls, touch gestures (swiping to seek, volume/brightness, double-tap jump, 2x speed hold), and the skip button are completely disabled.\n• Protects against accidentally exiting the player with the back button or back gesture.\n• Tap anywhere on the locked screen to display a quick-unlock button in the top-left corner.\n\n• Cleaner Seek Indicator:.\n\n• Simplified and streamlined the swipe-to-seek visual overlay on the player.\n\nFeatures & User Experience:\n\n• Smoother Category Management:.\n\n• Reordering categories in settings is now much more responsive and intuitive using dedicated drag handles.\n\n• Details Header Polish:.\n\n• Improved visual layout and formatting in the manga/anime details header.\n\nFixes & Stability:\n\n• Reliable Background Sync:.\n\n• Fixed occasional crashes and errors that could occur when closing screens or navigating away during library synchronization.\n\nLocalization:\n\n• Added translations for the new player screen lock feature across all supported languages.\n\nContributors:\n\n• @jikkun (#1018, #1019).",
-          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.6/Mangayomi-v0.9.6-ios.ipa",
-          "size": 114296014,
+          "version": "0.9.7",
+          "date": "2026-09-22T11:08:53Z",
+          "localizedDescription": "Reader:\n\n• Reliable Resume to Saved Position:.\n\n• Reopening a chapter in continuous vertical reading now jumps directly and instantly to the page where you left off, even before all images have finished loading.\n\nSmoother Zoomed Panning & Inertia (#1021):\n\n• Dragging a zoomed page now follows your finger precisely using real movement delta instead of an accumulated offset, making panning far more responsive.\n• Flinging a zoomed page now carries natural momentum with a longer, smoother coast animation.\n• Overscrolling past the edge of a zoomed page automatically transfers the momentum to the page list scroll, allowing seamless continued scrolling without lifting your finger.\n\nFixed Grey Screen in Double-Page Mode:\n\n• Chapter transition pages in vertical double-page reading no longer cause a crash or a blank grey screen when the spread is reached.\n\nReader Bottom Bar Positioning:\n\n• The page slider and quick-action bar now correctly sit above the system gesture area and home indicator on all devices, preventing them from being hidden behind system UI.\n\nNovel Reader Performance:\n\n• Page swipes in paged novel mode no longer trigger a full rebuild of the reader tree, making navigation between pages considerably faster.\n\nFixes & Stability:\n\n• Fixed infinite loading spinner when resuming a continuous vertical chapter mid-chapter.\n• Corrected the visible range check that was preventing the initial scroll anchor from being applied reliably.\n• Page image load events now correctly trigger a re-jump to the saved position if the list had not yet settled on the right page.",
+          "downloadURL": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.7/Mangayomi-v0.9.7-ios.ipa",
+          "size": 114301894,
           "minOSVersion": "15.0"
         }
       ],
@@ -4457,10 +4457,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-22T09:21:37Z",
-          "localizedDescription": "Immutable snapshot of alpha build 110 (e5a6542).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 110, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-110/Non-Jailbroken.ipa",
-          "size": 91908673,
+          "date": "2026-09-22T12:37:58Z",
+          "localizedDescription": "Immutable snapshot of alpha build 111 (706d19e).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 111, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-111/Non-Jailbroken.ipa",
+          "size": 92025507,
           "minOSVersion": "17.0"
         }
       ],
