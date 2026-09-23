@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "org.zhaohe.MiniWatts",
-    "com.ballpad.strikers",
-    "de.wiredframe.comicreader"
+    "com.noopapp.noop",
+    "com.crispstrobe.crisperweaver",
+    "org.zhaohe.MiniWatts"
   ],
   "apps": [
     {
@@ -171,11 +171,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.11.0",
-          "date": "2026-08-29T16:14:21Z",
+          "version": "0.11.1",
+          "date": "2026-09-23T04:10:11Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/CrispStrobe/CrisperWeaver/releases/download/v0.11.0/crisper_weaver-ios-unsigned.ipa",
-          "size": 22280193,
+          "downloadURL": "https://github.com/CrispStrobe/CrisperWeaver/releases/download/v0.11.1/crisper_weaver-ios-unsigned.ipa",
+          "size": 22299296,
           "minOSVersion": "15.0"
         }
       ],
@@ -3758,7 +3758,7 @@
         {
           "version": "0.25.0",
           "date": "2026-09-22T16:00:29Z",
-          "localizedDescription": "This release is not on Google Play or the App Store yet.\n\n• Audio files can now be played. (#168, requested).\n• Audio files show a visualizer. You can turn it off in the room's player settings.\n• The visualizer changes patterns on its own, or you can pick one.\n• Fixed the keyboard closing after one letter on Home. (#167, #170, reported and @rkpsx7, fixed).\n• Android TV: every control now works with a remote. (#159, contributed).\n• Android TV: the app lists your videos when no file picker is available. (#163, contributed).\n• Invite links are now https links, clickable in any messenger. The page opens the app or links to the stores.\n• The room's side panels are merged into one.\n\n• Long press a GIF to save it or copy its link. Long press a message to copy it.\n\n• GIF and sticker controls share one row. Sending one clears the search text.\n• The shared playlist can be reordered by dragging. After a disconnect, the app offers to restore it.\n• Tracks show more detail, and video tracks can be selected.\n• mpv on Android now uses libmpvKt, which fixes video track selection.\n• iOS: the screen stays on in rooms, including after switching players.\n• iOS VLC: fixed the seek bar freezing and the room jumping backward. (#158, reported).\n• Fixed rapid seeks losing the latest position, and an unfinished seek moving a new file.\n• iOS VLC: fixed seeking in Picture-in-Picture, and the resume offer when watching alone.\n• Home shows what each player supports.\n• Invalid join links and port numbers are now rejected.\n• Screen readers can now reach the join form.\n• The ExoPlayer-only APK is now reproducible, so IzzyOnDroid can verify it. (#105, #172, requested).\n\nTranslations  <a href=\"https://hosted.weblate.org/engage/syncplay-mobile/\"><img src=\"https://hosted.weblate.org/widget/syncplay-mobile/svg-badge.svg\" alt=\"Translation status\" height=\"20\"></a>:\n\nHelp translate Synkplay on Weblate.",
+          "localizedDescription": "This release is not on Google Play or the App Store yet.\n\n• Audio files can now be played. (#168, requested).\n• Audio files show a visualizer. You can turn it off in the room's player settings.\n• The visualizer changes patterns on its own, or you can pick one.\n• Fixed the keyboard closing after one letter on Home. (#167, #170, reported and @rkpsx7, fixed).\n• Android TV: every control now works with a remote. (#159, contributed).\n• Android TV: the app lists your videos when no file picker is available. (#163, contributed).\n• Invite links are now https links, clickable in any messenger. The page opens the app or links to the stores.\n• The room's side panels are merged into one.\n\n• Long press a GIF to save it or copy its link. Long press a message to copy it.\n\n• GIF and sticker controls share one row. Sending one clears the search text.\n• The shared playlist can be reordered by dragging. After a disconnect, the app offers to restore it.\n• Tracks show more detail, and video tracks can be selected.\n• mpv on Android now uses libmpvKt, which fixes video track selection.\n• iOS: the screen stays on in rooms, including after switching engines.\n• iOS VLC: fixed the seek bar freezing and the room jumping backward. (#158, reported).\n• Fixed rapid seeks losing the latest position, and an unfinished seek moving a new file.\n• iOS VLC: fixed seeking in Picture-in-Picture, and the resume offer when watching alone.\n• Home shows what each engine supports.\n• Invalid join links and port numbers are now rejected.\n• Screen readers can now reach the join form.\n• The ExoPlayer-only APK is now reproducible, so IzzyOnDroid can verify it. (#105, #172, requested).\n\nTranslations  <a href=\"https://hosted.weblate.org/engage/syncplay-mobile/\"><img src=\"https://hosted.weblate.org/widget/syncplay-mobile/svg-badge.svg\" alt=\"Translation status\" height=\"20\"></a>:\n\nHelp translate Synkplay on Weblate.",
           "downloadURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.25.0/synkplay-0.25.0-ios.ipa",
           "size": 89425662,
           "minOSVersion": "15.0"
@@ -3889,10 +3889,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-22T12:45:47Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-22 · bca05f0.",
+          "date": "2026-09-23T07:19:02Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-23 · 266a870.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21511623,
+          "size": 21620823,
           "minOSVersion": "17.0"
         }
       ],
