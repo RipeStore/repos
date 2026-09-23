@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "de.wiredframe.comicreader",
     "uk.gleissner.c64commander",
-    "com.tumoflip.unleashedcompanion",
-    "com.yuroyami.syncplay.iosApp"
+    "com.tumoflip.unleashedcompanion"
   ],
   "apps": [
     {
@@ -394,11 +394,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.16",
-          "date": "2026-08-21T14:07:40Z",
-          "localizedDescription": "Unsigned .ipa for sideloading (AltStore / Sideloadly / TrollStore).\n\nRequires iOS 26 or later. On anything older the install fails with an unhelpful error rather than saying why.\n\niOS can't install this directly — see the README for how to sideload it and re-sign it with your own Apple ID.\n\nWhat changed:\n\n• Replace the reader's free pinch zoom with a fit ladder.\n• Turn the reader sideways from its own toolbar.\n• Retune the settings a fresh install starts with.",
-          "downloadURL": "https://github.com/Wiredframe/paper-comic-reader/releases/download/v1.3.16/PaperComicReader-1.3.16.ipa",
-          "size": 6028637,
+          "version": "1.4.0",
+          "date": "2026-09-22T20:20:39Z",
+          "localizedDescription": "Unsigned .ipa for sideloading (AltStore / Sideloadly / TrollStore).\n\nRequires iOS 26 or later. On anything older the install fails with an unhelpful error rather than saying why.\n\niOS can't install this directly — see the README for how to sideload it and re-sign it with your own Apple ID.\n\nWhat changed:\n\nNotes for this build: the Recent Comic widget in this sideload build offers the Small size only; Extra Large Portrait needs the iOS 27 SDK, which this release runner doesn't have yet (the App Store build includes it). The widget also relies on an App Group; if your sideloading tool drops it when re-signing, the widget stays empty.\n\n• Build the widget with the iOS 26 SDK too.\n• Extract UI strings on every build so the catalogs stay in sync.\n• Localize into German and Italian; steady the widget's way in.\n• Add a Recent Comic home-screen widget.\n• Open portrait pages at fit-height, on request.\n• Let the pinch read the slot instead of the fit's name.",
+          "downloadURL": "https://github.com/Wiredframe/paper-comic-reader/releases/download/v1.4.0/PaperComicReader-1.4.0.ipa",
+          "size": 6125370,
           "minOSVersion": "26.0"
         }
       ],
@@ -2525,7 +2525,7 @@
         {
           "version": "1.0.5",
           "date": "2026-09-22T18:04:06Z",
-          "localizedDescription": "• Define compact keypad navigation.\n• Fix network-transitions E2E test to count only requests started after the offline event.\n• Stop reading a flow's own app relaunch as a crash on iOS.\n• Fix seven defects the keypad user meets, and make the scheduled fuzz finish.\n• Pre-rollout QA: fix Demo Mode snapshots, keypad focus after value changes, and Game Mode start-up frame rate.\n• QA sweep: make the settings file beside a launched file actually work, and prove every kind of launch on hardware.\n• deps: Bump the \"weekly-rollup\" group with 3 updates across multiple ecosystems[bot].",
+          "localizedDescription": "Keypad and compact-handset support:\n\n• Add keypad-first navigation for compact handsets, including configurable F1/F3 shortcuts and reloadable device-specific keymaps.\n• Fix seven keypad, connection-state, and usability defects, while ensuring scheduled fuzz tests complete reliably.\n• Preserve keypad focus after configuration changes and dropdown selections.\n\nLaunching, snapshots, and Game Mode:\n\n• Correctly apply settings files located beside launched files, and verify every supported launch type on real hardware.\n• Fix Demo Mode snapshot and restore operations, and prevent reduced Game Mode frame rates during startup.\n\nTest and release reliability:\n\n• Prevent intentional app relaunches during iOS test flows from being reported as crashes.\n• Fix the network-transition E2E test to count only requests initiated after the offline event.\n• Update three dependencies across multiple ecosystems[bot].",
           "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.0.5/c64commander-1.0.5-ios.ipa",
           "size": 7354456,
           "minOSVersion": "15.0"
