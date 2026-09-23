@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "moe.itoapp.ito",
-    "de.wiredframe.comicreader",
-    "com.nuvio.media"
+    "sh.mateo.empo",
+    "app.scenebox.SceneBox",
+    "com.crispstrobe.crisperweaver"
   ],
   "apps": [
     {
@@ -171,11 +171,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.11.1",
-          "date": "2026-09-23T04:10:11Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/CrispStrobe/CrisperWeaver/releases/download/v0.11.1/crisper_weaver-ios-unsigned.ipa",
-          "size": 22299296,
+          "version": "0.12.0",
+          "date": "2026-09-23T15:37:06Z",
+          "localizedDescription": "CrisperWeaver 0.12.0 brings a newer speech engine, new voices and languages, speaker changes inside long segments, and a new Audio → MIDI tool.\n\nAdded:\n\n• Supertonic-3 text-to-speech: 31 languages, ten preset voices, 44.1 kHz, about 200 MB. The Synthesize screen shows a Language picker for it, since it does not guess the language from the text.\n• FoxNose speaker diarization now splits a transcript segment where the speaker changes inside it (when word timings are available), instead of giving the whole segment one speaker. Recognisers that return long segments — Parakeet can return a 30-second recording as one — now show each speaker's turn separately.\n\n• FireRedTTS3: 24 languages, speaks in the voice of a reference recording (or a built-in English voice), about 3.5 GB with its companion.\n• Chinese speech recognition: Dolphin (Mandarin and 20+ Chinese dialects) and X-ASR (Chinese and English, punctuated).\n• Audio → MIDI gains two piano transcribers: Onsets & Frames (fast) and hFT-Transformer (most accurate, slow on a CPU).\n• The local API server's /v1/audio/speech accepts a model's built-in voice names in voice (Supertonic's M1…F5, Orpheus's tara, …), and an optional language for models that take one. Previously every voice was treated as a voice to clone and required a consent attestation.\n\nChanged:\n\n• Non-commercial models are no longer part of the app: F5-TTS, OuteTTS, Voxtral 4B TTS, the German Moonshine fine-tunes, the BTTR / HMER / PosFormer math OCR models and Qwen2.5-3B. They remain available in development builds (see README, \"Non-commercial models\").\n• Speech engine updated to CrispASR 0.8.35. Parakeet no longer crashes on very long recordings; Qwen3 forced-alignment subtitle times no longer run backwards or land early; M2M100 / WMT21 translation no longer collapses into repetition (it now decodes with beam 5, about 1.5x slower); the temperature setting now takes effect for Voxtral, Qwen3-ASR and Granite; Zonos handles non-Latin scripts.\n\nFixed:\n\n• English Pocket TTS now asks for a reference recording before synthesising. Without one it produced audio with no recognisable words. This also covers the Pocket TTS variants listed from the online catalogue, and the three \"no voice cloning\" variants — which can neither clone nor speak without a reference — are no longer offered.\n• Speech engine moved past CrispASR 0.8.35 to pick up session fixes: Raon (development builds) can now clone a voice, and Breeze-TTS-2 reports the right sample rate.\n• Zonos was described as supporting voice cloning. It does not — a reference recording was ignored in favour of a random speaker — and the model list no longer says so.\n\nEngine: CrispASR at 2570762d (past v0.8.35), which includes the session-API fixes made for this release — Raon's reference voice at its own 16 kHz, Breeze-TTS-2's output sample rate, and the raon session name.\n\nDevelopment builds: non-commercial models are available only with --dart-define=CW_NONCOMMERCIAL_MODELS=true (or CW_NONCOMMERCIAL_MODELS=1 for the build scripts); see README, \"Non-commercial models\".",
+          "downloadURL": "https://github.com/CrispStrobe/CrisperWeaver/releases/download/v0.12.0/crisper_weaver-ios-unsigned.ipa",
+          "size": 22989514,
           "minOSVersion": "15.0"
         }
       ],
@@ -2111,11 +2111,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.3",
-          "date": "2026-09-17T17:27:35Z",
-          "localizedDescription": "What's new.\n\n• Trakt sync. Connect your Trakt account in Profile and your watchlist and watched history stay in sync.\n• Picture in Picture on iPhone and iPad.\n\n• IMDb, Rotten Tomatoes and Metacritic ratings on the detail page (add an OMDb key in Settings).\n• Playback recovery: if the video freezes while the audio keeps going, the player notices and recovers by itself. Streams that drop are picked back up too.\n• Apple TV: the episode row opens on the season and episode you're on, and the player controls and episode panel behave better with the remote.\n• Lots of smaller fixes.\n\nKnown issue: a few people report that on iPhone the app closes shortly after a stream starts buffering. It's being looked into. If it hits you, please share the crash log: Settings > Privacy & Security > Analytics & Improvements > Analytics Data, look for a file starting with SceneBox, and post it in the issue. 1.0.2 doesn't have this problem if you need a fallback.\n\nImportant: this release is NOT signed. You have to allow it yourself.\n\nNothing here is signed with an Apple developer account and the Mac app is not notarized. macOS and iOS will refuse to open it until you explicitly allow it. This is expected, it's not broken.\n\nMac:\n\n• Open the dmg and drag SceneBox to Applications.\n• Open SceneBox. macOS will say it \"could not verify\" the app or that it's from an unidentified developer. Press Done (not Move to Trash).\n• Go to System Settings > Privacy & Security, scroll down to Security and press \"Open Anyway\" next to SceneBox, then confirm.\n• From then on it opens normally.\n\nIf you'd rather skip the dialog, run this in Terminal after copying the app to Applications:\n\nSigning in works on the unsigned Mac build. macOS doesn't let unsigned apps use the Keychain, so the app keeps your sign-in session and any API keys you enter in a file inside its own sandbox container instead (readable only by your user account). If you had an older signed version installed, delete it first.\n\niPhone/iPad: the ipa isn't signed, you sign it yourself with Sideloadly, AltStore, SideStore, Feather or ESign with your own Apple ID. Free Apple ID = resign every 7 days (AltStore/SideStore do it for you), paid dev account = one year.\n\nApple TV: Sideloadly works over Wi-Fi. On the TV go to Settings > Remotes and Devices > Remote App and Devices so it shows up, then pick it in Sideloadly.",
-          "downloadURL": "https://github.com/donbytyqi/scenebox/releases/download/v1.0.3/SceneBox-1.0.3.ipa",
-          "size": 30506464,
+          "version": "1.0.4",
+          "date": "2026-09-23T15:44:54Z",
+          "localizedDescription": "Fixes.\n\n• Apple TV: Trakt lists open when you click them. (#10).\n• Mac: signing in works on the unsigned build. macOS doesn't let unsigned apps use the Keychain, so the app keeps your sign-in session and any API keys you enter in a file inside its own sandbox container instead (readable only by your user account).\n\nStill open.\n\nImportant: this release is NOT signed. You have to allow it yourself.\n\nNothing here is signed with an Apple developer account and the Mac app is not notarized. macOS and iOS will refuse to open it until you explicitly allow it. This is expected, it's not broken.\n\nMac:\n\n• Open the dmg and drag SceneBox to Applications.\n• Open SceneBox. macOS will say it \"could not verify\" the app or that it's from an unidentified developer. Press Done (not Move to Trash).\n• Go to System Settings > Privacy & Security, scroll down to Security and press \"Open Anyway\" next to SceneBox, then confirm.\n• From then on it opens normally.\n\nIf you'd rather skip the dialog, run this in Terminal after copying the app to Applications:\n\nIf you had an older signed version installed, delete it first.\n\niPhone/iPad: the ipa isn't signed, you sign it yourself with Sideloadly, AltStore, SideStore, Feather or ESign with your own Apple ID. Free Apple ID = resign every 7 days (AltStore/SideStore do it for you), paid dev account = one year.\n\nApple TV: Sideloadly works over Wi-Fi. On the TV go to Settings > Remotes and Devices > Remote App and Devices so it shows up, then pick it in Sideloadly.",
+          "downloadURL": "https://github.com/donbytyqi/scenebox/releases/download/v1.0.4/SceneBox-1.0.4.ipa",
+          "size": 30509579,
           "minOSVersion": "18.0"
         }
       ],
@@ -4203,8 +4203,8 @@
       "name": "Empo",
       "bundleIdentifier": "sh.mateo.empo",
       "developerName": "mateo-m",
-      "subtitle": "Run RPG Maker games on iPhone and iPad",
-      "localizedDescription": "Empo is a game launcher for iPhone and iPad. It runs RPG Maker XP, VX, and VX Ace games, and Pokemon Essentials games. Inside, it uses mkxp-z-apple-mobile, an iOS fork of the mkxp-z engine.\n\nThe name's from emporos, ancient Greek for a traveler riding on someone else's ship.\n\nImport a game and play it:\n\nhttps://github.com/user-attachments/assets/d19e44ff-c2ef-435f-b2fe-60f1c97890c8\n\nLibrary view:\n\nhttps://github.com/user-attachments/assets/1a6de8a7-b47c-4ad4-8df9-f028347dfb9c",
+      "subtitle": "Run RPG Maker and PSDK games on iPhone and iPad",
+      "localizedDescription": "Empo is a game launcher for iPhone and iPad. It runs RPG Maker XP, VX, and VX Ace games, Pokemon Essentials games, and PSDK games. RPG Maker games run on mkxp-z-apple-mobile, an iOS fork of the mkxp-z engine. PSDK games run on litergss2-apple-mobile, an iOS fork of LiteRGSS2.\n\nThe name's from emporos, ancient Greek for a traveler riding on someone else's ship.\n\nImport a game and play it:\n\nhttps://github.com/user-attachments/assets/d19e44ff-c2ef-435f-b2fe-60f1c97890c8\n\nLibrary view:\n\nhttps://github.com/user-attachments/assets/1a6de8a7-b47c-4ad4-8df9-f028347dfb9c",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/sh.mateo.empo.png",
       "tintColor": "#f09030",
       "category": "games",
@@ -4215,11 +4215,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.10",
-          "date": "2026-09-16T22:05:23Z",
-          "localizedDescription": "Bug Fixes:\n\n• Apply the UX writing audit to every user-visible string (#148) (225e9ec).\n• Read sticks as eight sectors and rebuild controller input on the physical profile (d426ed8).\n• Keep taps on a presented sheet out of the game view (cca37b6).\n• Count only session logs against the per-game log limit (9ddad9d).\n\nOther:\n\n• Add the EmpoTests target with controller input manager tests (002ba85).\n• Let UI tests drive a virtual pad and ignore the simulator gamepad (9e5a887).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
-          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.6.10/Empo-0.6.10-unsigned.ipa",
-          "size": 19394847,
+          "version": "0.7.0",
+          "date": "2026-09-23T18:12:35Z",
+          "localizedDescription": "Highlights:\n\n• Run PSDK games next to RPG Maker games (#150) (2a9eb75).\n\nFeatures:\n\n• Disable fast forward bindings for a game that has fast forward off (#149) (ab1f074).\n• Show a what's new sheet once after an update (#151) (4653ff2).\n\nBug Fixes:\n\n• Name PSDK games next to RPG Maker games (#153) (f78e000).\n\nUnsigned build - sign the app with SideStore, AltStore (Classic), or Sideloadly before installing.",
+          "downloadURL": "https://github.com/mateo-m/empo-app/releases/download/v0.7.0/Empo-0.7.0-unsigned.ipa",
+          "size": 30737485,
           "minOSVersion": "26.0"
         }
       ],
