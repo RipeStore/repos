@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "de.wiredframe.comicreader",
-    "uk.gleissner.c64commander",
-    "com.tumoflip.unleashedcompanion"
+    "org.zhaohe.MiniWatts",
+    "com.ballpad.strikers",
+    "de.wiredframe.comicreader"
   ],
   "apps": [
     {
@@ -1172,11 +1172,11 @@
       "name": "Husk",
       "bundleIdentifier": "com.husk.app",
       "developerName": "Leviidev",
-      "subtitle": "Android App Launcher for iOS",
+      "subtitle": "Android Emulator for iOS",
       "localizedDescription": "Husk:\n\nAndroid app launcher for iOS.\n\nDrop in an APK, tap it, and the Android app opens full-screen.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.husk.app.png",
       "tintColor": "#a080e0",
-      "category": "other",
+      "category": "games",
       "versions": [
         {
           "version": "0.4.0",
@@ -2315,11 +2315,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.0",
-          "date": "2026-09-17T12:39:09Z",
+          "version": "1.4.0",
+          "date": "2026-09-23T02:58:32Z",
           "localizedDescription": "Unsigned build — sign it with your own Apple ID before installing. https://github.com/ResistanceTo/MiniWatts#install",
-          "downloadURL": "https://github.com/ResistanceTo/MiniWatts/releases/download/v1.3.0/MiniWatts-unsigned.ipa",
-          "size": 3253927,
+          "downloadURL": "https://github.com/ResistanceTo/MiniWatts/releases/download/v1.4.0/MiniWatts-unsigned.ipa",
+          "size": 3264456,
           "minOSVersion": "17.0"
         }
       ],
@@ -4374,10 +4374,10 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-09-19T00:01:24Z",
-          "localizedDescription": "BallPad's first public experimental IPA: version 1.0, build 2, for iPhone and iPad. BallPad adapts new-coke/strikers, based on Yannick Suter and contributors' Super Mario Strikers decompilation, with Aurora/Metal rendering and a SunPad-derived touch interface.\n\nInstall:\n\nSupply your own lawfully obtained Super Mario Strikers USA G4QE01, revision 0, raw ISO/GCM (1,459,978,240 bytes). No disc image, extracted game assets, or saves are included. On first launch, choose your image, wait for validation, and select Start the Game.\n\nWhen updating an existing installation, export your memory card first and install in place with the same signing account and application identity. Uninstalling can remove local data.\n\nIncluded:\n\n• GameCube touch controls, editable layouts, and physical-controller mapping.\n• Render-resolution/aspect settings, an FPS counter, memory-card import/export, and offline credits/notices.\n• Build 2's app icon, reporting improvements, movie/scene diagnostics, and sandbox-relative game-data paths that survive app-container relocation.\n• Matching source materials, engine Git history, and portable FFmpeg relink materials. Keep these with the IPA when redistributing it.\n\nDownload all four assets to one directory and verify them with shasum -a 256 -c SHA256SUMS.\n\nKnown limitations:\n\nIntro movies and some stadium introductions have reported rendering artifacts. Two-controller local multiplayer, sustained thermal/audio performance, full-game completion, and broader device coverage remain unverified. Earlier build-2 installation/launch and owner gameplay reports cover iPad Pro and iPhone 14; this publication is not a new physical-device acceptance run.\n\nBuild and validation:\n\n• App source/tag target: 127133d06d0b6ec1ae2b8864bb62d8fa2ce33e08 (merged main).\n• Maintained engine: 37c0ad9a1d2b4fc5627943d737b9db54047f1f0e from chrissotraidis/strikers, preserving the upstream history.\n\n• Passed: 265 native gtests, chunk-bounds checks, 83 Python tool cases, clean-source/dependency verification, fresh-source probe build, and final bundled-notice checks.\n• Passed: unsigned IPA content/platform audit, matching source/archive checksums and notice bytes, game/save/signing-file exclusion scan, complete engine Git bundle verification, and relocated FFmpeg relinking with 667 packaged inputs. Relinking succeeded; byte-identical output is not claimed.\n\nIPA SHA-256: 07f8f5a293271cd65d3aa61e135f05a4d415111937e58cdcfee3b6f27e141bb4.",
-          "downloadURL": "https://github.com/chrissotraidis/ballpad/releases/download/v1.0-preview.1/BallPad-unsigned.ipa",
-          "size": 7074063,
+          "date": "2026-09-23T01:53:27Z",
+          "localizedDescription": "Changes since Preview 1:\n\n• Brings in upstream fixes for an AI pass crash, goal replay hangs, and controller input lag with VSync.\n• Fixes physical controllers being read twice through the iOS bridge and SDL, which could make submenus act as though B was pressed.\n• Lets UIKit handle the three-dot menu during gameplay, pauses the game while that menu is open, and paces frames when the render surface is unavailable.\n• Adds a way to hide the menu button and show it again with a two-finger tap. The frame-cap setting is labeled to clarify that lifting the cap can speed up the game.\n• Keeps BallPad's iOS disc importer, touch controls, controller mapping, and memory-card support. Upstream's desktop settings app, Switch support, and texture-pack controls are not exposed here.\n\nInstall:\n\nDownload BallPad-unsigned.ipa and sign it with your own Apple account and sideloading tool. It targets iOS/iPadOS 17 or later; the oldest supported devices have not been verified. This is not a TestFlight or App Store build. To preserve an existing app's imported ISO, saves, and settings, install over it using the same signing team and application identity. Export your memory card first. Do not uninstall the existing app as part of the update.\n\nSupply your own lawfully obtained Super Mario Strikers USA G4QE01 revision 0 raw ISO/GCM (1,459,978,240 bytes). No game image, extracted assets, or saves are included.\n\nThe release also contains matching source materials, engine Git history, FFmpeg relinking materials, and SHA256SUMS. Keep these with the IPA when redistributing it. Verify downloaded assets with shasum -a 256 -c SHA256SUMS.\n\nValidation and limits:\n\nBuild 7 compiled for iOS device and Simulator. The engine's 12 data-independent unit checks passed; the Simulator Metal probe presented 90/90 frames. Focused menu, frame-cap, controller-mapping and rebind checks passed. An injected-input Simulator scenario reached a live match and game pause. Build 7 was installed in place and launched on an iPad Pro, with the ISO and memory-card save compared by hash before and after installation. The owner subsequently reported that the game plays well on that iPad. Dedicated physical-controller, extended gameplay, thermal/audio, and broader-device checks remain to be done.\n\nBallPad source/tag target: 6a4ef15de8ec98ad8ef9d730121e58fc98cb1cfd. Maintained engine: c4ee7189e7f9193be6ec7cedd569a17f25266136 from chrissotraidis/strikers, based on upstream v1.3.0 b0e54c9a51cbfcfef7e5487feb02f843ff723d97.",
+          "downloadURL": "https://github.com/chrissotraidis/ballpad/releases/download/v1.0-preview.2/BallPad-unsigned.ipa",
+          "size": 7268574,
           "minOSVersion": "17.0"
         }
       ],
@@ -4562,6 +4562,51 @@
         "entitlements": [],
         "privacy": {}
       }
+    },
+    {
+      "name": "kodi",
+      "bundleIdentifier": "com.ripestore.kodi",
+      "developerName": "RipeStore",
+      "subtitle": "Media center for all your digital entertainment",
+      "localizedDescription": "Kodi can be used to play almost all popular audio and video formats around. It was designed for network playback, so you can stream your multimedia from anywhere in the house or directly from the internet using practically any protocol available.\n\nTHis build is distributed by a third-party not related to Kodi/XMBC.\n\nPoint Kodi to your media and watch it scan and automagically create a personalized library complete with box covers, descriptions, and fanart. There are playlist and slideshow functions, a weather forecast feature and many audio visualizations. Once installed, your computer or HTPC will become a fully functional multimedia jukebox.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
+      "tintColor": "#6156e2",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/RipeStore/kodi@main/screenshots/screenshot_01.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/kodi@main/screenshots/screenshot_02.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/kodi@main/screenshots/screenshot_03.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/kodi@main/screenshots/screenshot_04.webp",
+        "https://cdn.jsdelivr.net/gh/RipeStore/kodi@main/screenshots/screenshot_05.webp"
+      ],
+      "versions": [
+        {
+          "version": "21.3",
+          "date": "2026-08-16T05:10:11Z",
+          "localizedDescription": "Major user-facing changes include:\n\nVideo.\n\n• Added HDR support on Xbox One.\n• Fixed Blu-ray playback on Linux.\n• Fixed handling of HDR10 light metadata changes.\n• Fixed subtitle selection for ISO 639-1 (two-letter) language codes.\n\nLibrary/Sources and Management.\n\n• Improved speed of video library rescans.\n• Fixed multi-episode files overwriting the first episode.\n• Fixed info dialog for certain Movie Versions.\n• Fixed some false positives detecting Movie Versions.\n\nMusic.\n\n• Fixed CDDB lookups using Gnudb.org's CDDB API.\n• Fixed album search failing for artist names.\n\nAudio.\n\n• Fixed rare Pipewire crash when connecting/removing audio devices.\n\nPVR.\n\n• Fixed crash when a PVR stream is stopped via remote app.\n\nPeripherals.\n\n• Added support for Turkish keyboards on Linux.\n• Fixed enabling and disabling Pulse-Eight CEC adapters.\n• Fixed the Delete and Alternative Insert keys on macOS.\n• Fixed minor visual glitches when managing peripherals.\n\nAddons.\n\n• Fixed updating add-ons after 25 days of inactivity (extended to ~68 years).\n\nSkin/GUI.\n\n• Fixed busy dialog crash when multiple dialogs are opened.\n• Fixed suspend dialog remaining open after the system wakes up.\n• Improved touch support for slider dialog arrows.\n\nNetwork.\n\n• Added support for HTTP Basic Authentication.\n• Fixed some network streams failing due to interrupted HTTP/2 transfers.\n• Updated libnfs to v6 for embedded platforms.\n• Updated CA certificates to 2025-07-15 from the Mozilla CA certificate store.",
+          "downloadURL": "https://github.com/RipeStore/kodi/releases/download/v21.3/org.xbmc.kodi-ios_21.3_iphoneos-arm64.ipa",
+          "size": 267889530
+        }
+      ]
+    },
+    {
+      "name": "pico-ios",
+      "bundleIdentifier": "com.ripestore.pico-ios",
+      "developerName": "jevonlipsey",
+      "subtitle": "An iOS Native Emulator for the PICO-8 fantasy console. Free and Open Source. Experimental Alpha available for Android!",
+      "localizedDescription": "https://github.com/user-attachments/assets/ec24f92e-d29a-4319-8293-439487d60b35\n\nFeatures:\n\n• Native Engine: Runs flawlessly on iOS, due to the official PICO-8 engine being implemented as a WASM module.\n• Quick Save & Load: The only PICO-8 experience with instant save states. Freeze time and resume anywhere, across devices.\n\n• Adaptive Controls: Custom Gameboy-esque controls with tactile haptics. Works in portrait and landscape. Swap to virtual joystick.\n\n• Smart Library: Automatically extracts cartridge labels and metadata, presenting your collection in a polished grid.\n\nTechnical Look:\n\nThe core engineering challenge was reconciling the asynchronous nature of mobile file I/O with the synchronous requirements of the Emscripten/WASM virtual file system.\n\nPICO-8 demands a synchronous file system. Bridging this to mobile required completely reverse-engineering the Emscripten boot sequence.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
+      "tintColor": "#6156e2",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.6.2",
+          "date": "2026-01-22T23:33:34Z",
+          "localizedDescription": "• fixed BBS button not opening on iOS.\n• fixed scopedstorage for BBS games on Android.",
+          "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.6.2/pocket8.ipa",
+          "size": 19479747
+        }
+      ]
     }
   ]
 }
