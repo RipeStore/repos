@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.noopapp.noop",
-    "com.crispstrobe.crisperweaver",
-    "org.zhaohe.MiniWatts"
+    "moe.itoapp.ito",
+    "de.wiredframe.comicreader",
+    "com.nuvio.media"
   ],
   "apps": [
     {
@@ -394,11 +394,11 @@
       ],
       "versions": [
         {
-          "version": "1.4.0",
-          "date": "2026-09-22T20:20:39Z",
-          "localizedDescription": "Unsigned .ipa for sideloading (AltStore / Sideloadly / TrollStore).\n\nRequires iOS 26 or later. On anything older the install fails with an unhelpful error rather than saying why.\n\niOS can't install this directly — see the README for how to sideload it and re-sign it with your own Apple ID.\n\nWhat changed:\n\nNotes for this build: the Recent Comic widget in this sideload build offers the Small size only; Extra Large Portrait needs the iOS 27 SDK, which this release runner doesn't have yet (the App Store build includes it). The widget also relies on an App Group; if your sideloading tool drops it when re-signing, the widget stays empty.\n\n• Build the widget with the iOS 26 SDK too.\n• Extract UI strings on every build so the catalogs stay in sync.\n• Localize into German and Italian; steady the widget's way in.\n• Add a Recent Comic home-screen widget.\n• Open portrait pages at fit-height, on request.\n• Let the pinch read the slot instead of the fit's name.",
-          "downloadURL": "https://github.com/Wiredframe/paper-comic-reader/releases/download/v1.4.0/PaperComicReader-1.4.0.ipa",
-          "size": 6125370,
+          "version": "1.4.1",
+          "date": "2026-09-23T14:00:20Z",
+          "localizedDescription": "Unsigned .ipa for sideloading (AltStore / Sideloadly / TrollStore).\n\nRequires iOS 26 or later. On anything older the install fails with an unhelpful error rather than saying why.\n\niOS can't install this directly — see the README for how to sideload it and re-sign it with your own Apple ID.\n\nWhat changed:\n\n• Group Settings by appearance, page turning, portrait and landscape.\n• Read portrait as one page strip and hand over to spreads on rotation.\n• Add a portrait strip reading mode.",
+          "downloadURL": "https://github.com/Wiredframe/paper-comic-reader/releases/download/v1.4.1/PaperComicReader-1.4.1.ipa",
+          "size": 6153225,
           "minOSVersion": "26.0"
         }
       ],
@@ -3175,10 +3175,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-22T14:15:37Z",
+          "date": "2026-09-23T14:33:00Z",
           "localizedDescription": "Automated unsigned nightly from main at commit 02a33df. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260922-67/Ito-1.0.0-nightly.20260922.67-unsigned.ipa",
-          "size": 10264206,
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260923-68/Ito-1.0.0-nightly.20260923.68-unsigned.ipa",
+          "size": 10264137,
           "minOSVersion": "15.4"
         }
       ],
@@ -3320,11 +3320,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.5.0",
-          "date": "2026-09-22T10:51:10Z",
-          "localizedDescription": "• feat(player): snooze the movie recommendation card for a minute on dismiss @luqmanfadlli.\n• feat(player): suggest More Like This titles at the end of a movie @luqmanfadlli.\n\n• feat(profile): iOS-style floating header on the Android Profile page @luqmanfadlli.\n• feat(settings): collapse tracker cards by default @tapframe.\n• fix(player): restore subtitles for each episode @tapframe.\n• feat(profile): split finished titles into Watched, Completed and Episodes @luqmanfadlli.\n• fix(profile): show next-7-day episodes under Profile Insight's Upcoming @luqmanfadlli.\n• feat(profile): move edit/switch/save actions to circular header buttons @albertovinaroz.\n• feat(settings): redesign the Profile page hero @albertovinaroz.\n• fix(ios): align the morphed tab bar handoff with the native UITabBar @luqmanfadlli.\n• feat(mdblist): use connected account for ratings with api key override @tapframe.\n• fix(ios): run each plugin on its own large-stack thread to restore scraping speed @luqmanfadlli.\n• Get rid of Tmbd Dates Enrichment @skoruppa.\n• test(player): cover MX Player completion results without position @zuko726.\n• fix(player): record position-less external results when the player reports completion @zuko726.\n• fix(player): keep external player results that report completion without a position @zuko726.\n\n• fix(ios): use clean player framework archive tapframe.\n• fix(player): preserve iOS audio during calls @tapframe.\n• fix(poster): reload pattern on profile switch @tapframe.\n• fix(poster): add missing iOS annotation import @tapframe.\n• Custom poster URL pattern support @skoruppa.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.0-beta/Nuvio-0.5.0-Enhanced.ipa",
-          "size": 67967466,
+          "version": "0.5.1",
+          "date": "2026-09-23T13:18:13Z",
+          "localizedDescription": "• fix: MDBList login @luqmanfadlli.\n• fix(player): time the movie recommendations to the last two minutes @luqmanfadlli.\n• fix(navigation): keep the tab bar on Settings sub-pages @luqmanfadlli.\n• feat(navigation): inline labels on the tablet floating pill @luqmanfadlli.\n• fix(ios): fix Live TV visibility and legacy tab bar on iOS 26+ @luqmanfadlli.\n• fix(mdblist): correct library sorting @tapframe.\n• feat(settings): let the floating nav bar sit at the top @luqmanfadlli.\n• fix(navigation): skip the pill slide on iPad after a drag @luqmanfadlli.\n• fix(mdblist): batch and reuse rating requests @tapframe.\n• update latest Vietnamese strings @blueocean2308.\n• Fix collections race condition @skoruppa.\n• fix(details) adapt to the new aiom season poster method @chrisk325.\n• Landscape posters in library @skoruppa.\n• feat: traducir strings pendientes al castellano @IberianSoldierPC.\n• Fix custom posters missing in tmdb/trakt collections @skoruppa.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.1-beta/Nuvio-0.5.1-Enhanced.ipa",
+          "size": 68031189,
           "minOSVersion": "16.1"
         }
       ],
@@ -3889,10 +3889,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-23T07:19:02Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-23 · 266a870.",
+          "date": "2026-09-23T13:17:12Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-23 · 3ad2588.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21620823,
+          "size": 21641093,
           "minOSVersion": "17.0"
         }
       ],
