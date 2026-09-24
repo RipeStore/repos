@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "sh.mateo.empo",
-    "app.scenebox.SceneBox",
-    "com.crispstrobe.crisperweaver"
+    "com.joemattiello.iCube",
+    "com.dreamplayer.app",
+    "com.stik.stikdebug"
   ],
   "apps": [
     {
@@ -1542,11 +1542,11 @@
       ],
       "versions": [
         {
-          "version": "0.4.7",
-          "date": "2026-09-19T15:18:48Z",
-          "localizedDescription": "What's new in DreamPlayer 0.4.7:\n\nBug-fix, parity, and library-organization release. Network folder bookmarks now expand recursively (up to 5 levels deep) with correct leaf-vs-container logic, the TMDB details screen can browse and play files from WebDAV/FTP/UPnP bookmarked folders, the stale SMB container dedup is fixed, movie-part folders stay separate with correct per-part TMDB matches, users can manually group any cards into one (select → Group), grouped screens get the full Nova-style header, and the player top bar shows the TMDB title.\n\nAdded:\n\n• Manual grouping (lib/services/manual_groups.dart, new) — select two or more cards on Home (long-press enters selection mode, tap toggles), then Group via the app-bar button or ⋮ menu → name the group → one grouped card appears. Persisted in dreamplayer.manualGroups; groups pruning automatically when a member folder is removed (below 2 members → dissolved).\n• Movie group screen (lib/screens/movie_group_screen.dart, new) — manual groups open the grid-of-cards pattern: backdrop hero app bar, header card (poster + overview + rating + genres), cast row, trailers, then the grouped folders as poster cards in a 2/3/4/6-column grid sized exactly like the home screen cards. A random group with no TMDB info shows just the cards; when any member has TMDB info the header displays it.\n• Player top bar TMDB title — the player screen shows the TMDB-fetched title when a match resolved (resolved on open, live refresh), falling back to the raw video title with the extension stripped (cocktail 2.mkv → cocktail 2).\n\nFixed:\n\n• Movie-part folders no longer auto-grouped — baseNameOf strips trailing numbers only when a season-like tag (S01, Season N, roman numeral) is present; FINALE 01–04 keep their numbers → each gets its own card.\n• Per-part TMDB matches — resolveFolder tries the numbered query first (base as fallback) and threads the folder's trailing number as desiredPart through _resolveFolderCandidates → _resolveFolderNow → TmdApi.bestForQuery → _queryScore/_score; part match +0.45, mismatch -0.35, so FINALE 02 → 496891 (Part II) wins over the base collection entry (474659, Part I) that every part used to match.\n• Poster flash on return fixed — stale movie-part detection no longer clears the cache before the fresh fetch lands (log-only until the replacement arrives); CachedImage keeps the old poster while the new one loads, so offline/return never flashes to placeholder.\n• Manual-group card name on home — FolderCard.displayNameOverride (the user-entered group name) wins over TMDB/folder titles.\n• Single-file cards inside a manual group now play — file entries open video mode (TmdDetailsScreen(video:) built from the folder's videoPath/videoUri + extractFileInfo); folder mode listed a directory which a file entry doesn't have (\"no videos here\" + dead Play).\n• Deep recursive folder scanner (lib/services/folder_scanner.dart, new) — all six sources (local, SMB, WebDAV, FTP, UPnP, Jellyfin) now scan up to 5 levels deep when a folder is bookmarked to Home. Leaf folders (videos, no subdirs) become single library entries; mixed containers (subdirs + loose files) expand into individual cards so files like lanterns s01e05.mkv aren't hidden behind a parent TV Shows card.\n• Stale SMB container dedup fixed — old _isChildOfRoot used networkPrefix which failed when the root folder was at the share root (empty networkPath). Refactored to a static _isChildOfRoot helper that checks networkShare equality + hierarchy for SMB, and networkServerId + networkPath hierarchy for WebDAV/FTP/UPnP. The stale TV Shows card (relative path, wrong share prefix) no longer survives a re-bookmark.\n• bulkAdd path dedup — LibraryFoldersStore.bulkAdd now deduplicates by (source, networkPath) in addition to id, so manually-bookmarked entries for the same location are replaced by the new scanner entries.\n• baseNameOf noise list expanded — added 10bit, 8bit, aac, dts, flac, english, multi, dual, japanese, hindi, korean, bdrip, panda, subs, raw, internal, uncensored; audio channel regex (?<!\\w)\\d+\\.\\d+(?!\\w) strips 5.1/7.1 suffixes so \"Strike the Blood Final\" no longer leaves trailing noise.\n• _nameOf trailing-slash strip — SMB directory entries return names with trailing /; series_seasons_screen.dart and folder_scanner.dart both strip it via replaceAll(RegExp(r'/+$'), '').\n• Miscellaneous folder no longer hides file list — _isMovieFolder in TmdDetailsScreen now returns false when videoCount > 1, so multi-file folders show their entries instead of a single Play button.\n• TmdDetailsScreen folder browsing for all network sources — _loadFolderEntries now lists WebDAV (WebDavClient), FTP (FtpClient), and UPnP (UpnpClient) folders (was SMB + local only). Tapping a bookmarked network folder from Home now shows its file list with TMDB posters.\n• _openFolderEntry / _toVideoItem parity — subfolder navigation and video-item construction now handle all five source types (SMB, WebDAV, FTP, UPnP, local) with correct path, resumeKey, and id prefixes.\n• Lint fixes — _nameOf in series_seasons_screen.dart and folder_scanner.dart converted from if/else if chains to switch expressions; seasonNameMapFor_debug renamed to seasonNameMapForDebug.\n\niOS / CI:\n\n• iOS signed builds + TestFlight upload — ios.yml workflow builds, signs, and uploads to App Store Connect via flutter build ipa + ios/signing_setup.py. Bundle ID: com.dreamplayer.app.\n• iOS signing architecture — standalone ios/signing_setup.py patches project.pbxproj for CODE_SIGN_STYLE=Manual, DEVELOPMENT_TEAM, PROVISIONING_PROFILE_SPECIFIER on the Runner target, builds ExportOptions.plist, and calls flutter build ipa. Keychain setup, WWDR G3 cert, and set-key-partition-list handled in the workflow.\n• Signed build option — workflow signed_build input builds a signed IPA as artifact without uploading to TestFlight (for local device testing).\n• Paywall crash fix — PaywallSheet async methods (_loadProducts, _buy) now check mounted before every setState, preventing crash when the sheet is dismissed during app backgrounding.\n\nPick the APK for your device and allow \"Install unknown apps\" when prompted:\n\nNot sure which to pick? Grab the Universal APK.\n\nVersioning:\n\nApp version follows semver, bumped per release (current release: 0.4.7).\n\nPlaying videos from your NAS / SMB share:\n\nDreamPlayer plays NAS files through the Files app's built-in SMB support and \"Open with\".\n\n• iPhone/iPad: Files → ⋯ → Connect to Server → enter smb://<address> → browse to a video → long-press → Share → Open in \"DreamPlayer\". Prefer a folder? Bookmark it once: home + → Add folder to library → your NAS folder.\n• Android: CX Explorer → Open with → DreamPlayer (streams over CX's local HTTP proxy).",
-          "downloadURL": "https://github.com/RipeStore/dreamplayerbuilder/releases/download/v0.4.7/DreamPlayer-0.4.7.ipa",
-          "size": 20930770,
+          "version": "0.4.9",
+          "date": "2026-09-24T02:37:13Z",
+          "localizedDescription": "Pick the APK for your device and allow \"Install unknown apps\" when prompted:\n\nNot sure which to pick? Grab the Universal APK.\n\nVersioning:\n\nApp version follows semver, bumped per release (current release: 0.4.9).\n\nPlaying videos from your NAS / SMB share:\n\nDreamPlayer plays NAS files through the Files app's built-in SMB support and \"Open with\".\n\n• iPhone/iPad: Files → ⋯ → Connect to Server → enter smb://<address> → browse to a video → long-press → Share → Open in \"DreamPlayer\". Prefer a folder? Bookmark it once: home + → Add folder to library → your NAS folder.\n• Android: CX Explorer → Open with → DreamPlayer (streams over CX's local HTTP proxy).",
+          "downloadURL": "https://github.com/RipeStore/dreamplayerbuilder/releases/download/v0.4.9/DreamPlayer-0.4.9.ipa",
+          "size": 20886597,
           "minOSVersion": "17.0"
         }
       ],
@@ -4077,11 +4077,11 @@
       "category": "developer",
       "versions": [
         {
-          "version": "3.1.10",
-          "date": "2026-08-27T04:07:04Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.10/StikDebug-3.1.10.ipa",
-          "size": 12824047,
+          "version": "3.1.11",
+          "date": "2026-09-23T23:25:55Z",
+          "localizedDescription": "Transitions to mounting the DDI via cryptex, should fix issues with the iPhone 18 Pro series.\n\n• Add Malloc Debugging.\n\nNew Contributors:\n\n• @Leviidev made their first contribution.",
+          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.11/StikDebug-3.1.11.ipa",
+          "size": 13515131,
           "minOSVersion": "17.4"
         }
       ],
@@ -4459,10 +4459,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-22T12:37:58Z",
-          "localizedDescription": "Immutable snapshot of alpha build 111 (706d19e).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 111, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-111/Non-Jailbroken.ipa",
-          "size": 92025507,
+          "date": "2026-09-24T03:19:56Z",
+          "localizedDescription": "Immutable snapshot of alpha build 135 (0dd61c9).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 135, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-135/Non-Jailbroken.ipa",
+          "size": 92536222,
           "minOSVersion": "17.0"
         }
       ],
