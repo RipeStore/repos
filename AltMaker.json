@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "app.mangatan.mangatan",
     "com.joemattiello.iCube",
-    "com.dreamplayer.app",
-    "com.stik.stikdebug"
+    "com.crispstrobe.crisperweaver"
   ],
   "apps": [
     {
@@ -171,11 +171,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.12.0",
-          "date": "2026-09-23T15:37:06Z",
-          "localizedDescription": "CrisperWeaver 0.12.0 brings a newer speech engine, new voices and languages, speaker changes inside long segments, and a new Audio → MIDI tool.\n\nAdded:\n\n• Supertonic-3 text-to-speech: 31 languages, ten preset voices, 44.1 kHz, about 200 MB. The Synthesize screen shows a Language picker for it, since it does not guess the language from the text.\n• FoxNose speaker diarization now splits a transcript segment where the speaker changes inside it (when word timings are available), instead of giving the whole segment one speaker. Recognisers that return long segments — Parakeet can return a 30-second recording as one — now show each speaker's turn separately.\n\n• FireRedTTS3: 24 languages, speaks in the voice of a reference recording (or a built-in English voice), about 3.5 GB with its companion.\n• Chinese speech recognition: Dolphin (Mandarin and 20+ Chinese dialects) and X-ASR (Chinese and English, punctuated).\n• Audio → MIDI gains two piano transcribers: Onsets & Frames (fast) and hFT-Transformer (most accurate, slow on a CPU).\n• The local API server's /v1/audio/speech accepts a model's built-in voice names in voice (Supertonic's M1…F5, Orpheus's tara, …), and an optional language for models that take one. Previously every voice was treated as a voice to clone and required a consent attestation.\n\nChanged:\n\n• Non-commercial models are no longer part of the app: F5-TTS, OuteTTS, Voxtral 4B TTS, the German Moonshine fine-tunes, the BTTR / HMER / PosFormer math OCR models and Qwen2.5-3B. They remain available in development builds (see README, \"Non-commercial models\").\n• Speech engine updated to CrispASR 0.8.35. Parakeet no longer crashes on very long recordings; Qwen3 forced-alignment subtitle times no longer run backwards or land early; M2M100 / WMT21 translation no longer collapses into repetition (it now decodes with beam 5, about 1.5x slower); the temperature setting now takes effect for Voxtral, Qwen3-ASR and Granite; Zonos handles non-Latin scripts.\n\nFixed:\n\n• English Pocket TTS now asks for a reference recording before synthesising. Without one it produced audio with no recognisable words. This also covers the Pocket TTS variants listed from the online catalogue, and the three \"no voice cloning\" variants — which can neither clone nor speak without a reference — are no longer offered.\n• Speech engine moved past CrispASR 0.8.35 to pick up session fixes: Raon (development builds) can now clone a voice, and Breeze-TTS-2 reports the right sample rate.\n• Zonos was described as supporting voice cloning. It does not — a reference recording was ignored in favour of a random speaker — and the model list no longer says so.\n\nEngine: CrispASR at 2570762d (past v0.8.35), which includes the session-API fixes made for this release — Raon's reference voice at its own 16 kHz, Breeze-TTS-2's output sample rate, and the raon session name.\n\nDevelopment builds: non-commercial models are available only with --dart-define=CW_NONCOMMERCIAL_MODELS=true (or CW_NONCOMMERCIAL_MODELS=1 for the build scripts); see README, \"Non-commercial models\".",
-          "downloadURL": "https://github.com/CrispStrobe/CrisperWeaver/releases/download/v0.12.0/crisper_weaver-ios-unsigned.ipa",
-          "size": 22989514,
+          "version": "0.12.1",
+          "date": "2026-09-24T04:39:07Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/CrispStrobe/CrisperWeaver/releases/download/v0.12.1/crisper_weaver-ios-unsigned.ipa",
+          "size": 22989720,
           "minOSVersion": "15.0"
         }
       ],
@@ -3373,10 +3373,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-09-22T05:42:25Z",
-          "localizedDescription": "Downloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.25/Manatan-v6.1.25-iOS.ipa",
-          "size": 367182415,
+          "date": "2026-09-24T09:40:31Z",
+          "localizedDescription": "Release v6.1.26:\n\n• Improve OCR capture recovery and diagnostics (7855d4d).\n• Add sentence audio selection to video OCR (bd3a1ed).\n• Preserve disabled Anki field mappings (1667aaf).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.26/Manatan-v6.1.26-iOS.ipa",
+          "size": 367192256,
           "minOSVersion": "16.1"
         }
       ],
@@ -4079,7 +4079,7 @@
         {
           "version": "3.1.11",
           "date": "2026-09-23T23:25:55Z",
-          "localizedDescription": "Transitions to mounting the DDI via cryptex, should fix issues with the iPhone 18 Pro series.\n\n• Add Malloc Debugging.\n\nNew Contributors:\n\n• @Leviidev made their first contribution.",
+          "localizedDescription": "Transitions to mounting the DDI via cryptex, should fix issues with the iPhone 18 Pro series. Also, now the DDI only unmounts after an update/reset, no more reboots!\n\n• Add Malloc Debugging.\n\nNew Contributors:\n\n• @Leviidev made their first contribution.",
           "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.11/StikDebug-3.1.11.ipa",
           "size": 13515131,
           "minOSVersion": "17.4"
@@ -4459,10 +4459,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-24T03:19:56Z",
-          "localizedDescription": "Immutable snapshot of alpha build 135 (0dd61c9).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 135, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-135/Non-Jailbroken.ipa",
-          "size": 92536222,
+          "date": "2026-09-24T06:16:05Z",
+          "localizedDescription": "Immutable snapshot of alpha build 138 (c0029c9).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 138, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-138/Non-Jailbroken.ipa",
+          "size": 92541183,
           "minOSVersion": "17.0"
         }
       ],
