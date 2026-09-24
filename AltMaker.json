@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "moe.itoapp.ito",
     "app.mangatan.mangatan",
-    "com.joemattiello.iCube",
-    "com.crispstrobe.crisperweaver"
+    "com.joemattiello.iCube"
   ],
   "apps": [
     {
@@ -2527,7 +2527,7 @@
           "date": "2026-09-22T18:04:06Z",
           "localizedDescription": "Keypad and compact-handset support:\n\n• Add keypad-first navigation for compact handsets, including configurable F1/F3 shortcuts and reloadable device-specific keymaps.\n• Fix seven keypad, connection-state, and usability defects, while ensuring scheduled fuzz tests complete reliably.\n• Preserve keypad focus after configuration changes and dropdown selections.\n\nLaunching, snapshots, and Game Mode:\n\n• Correctly apply settings files located beside launched files, and verify every supported launch type on real hardware.\n• Fix Demo Mode snapshot and restore operations, and prevent reduced Game Mode frame rates during startup.\n\nTest and release reliability:\n\n• Prevent intentional app relaunches during iOS test flows from being reported as crashes.\n• Fix the network-transition E2E test to count only requests initiated after the offline event.\n• Update three dependencies across multiple ecosystems[bot].",
           "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.0.5/c64commander-1.0.5-ios.ipa",
-          "size": 7354456,
+          "size": 7354517,
           "minOSVersion": "15.0"
         }
       ],
@@ -3175,10 +3175,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-23T14:33:00Z",
+          "date": "2026-09-24T14:34:49Z",
           "localizedDescription": "Automated unsigned nightly from main at commit 02a33df. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260923-68/Ito-1.0.0-nightly.20260923.68-unsigned.ipa",
-          "size": 10264137,
+          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260924-69/Ito-1.0.0-nightly.20260924.69-unsigned.ipa",
+          "size": 10264504,
           "minOSVersion": "15.4"
         }
       ],
