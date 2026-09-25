@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.void.smarttube.app",
-    "com.joemattiello.iCube",
-    "com.emp0ry.mirushin"
+    "dev.twilitrealm.dusk",
+    "com.noopapp.noop",
+    "com.meleepad.MeleePad"
   ],
   "apps": [
     {
@@ -1988,11 +1988,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "2.0.1",
-          "date": "2026-09-20T00:36:12Z",
-          "localizedDescription": "What's new:\n\n• Added: Option to change a save's region when importing .gci or .dusksave files in Save Manager. (422d7bb1b6).\n• Fixed: Existing saves could be overwritten with empty slots after a load failure with \"Instant Saves\" enabled.\n• Fixed: Memory card errors caused by duplicate .gci backups in the save folder. (, ).\n\n• Now only .gci with an exact name match are loaded. Use Save Manager to import saves with custom filenames.\n\nFixed: Startup crash on Intel Macs. (a0db21a43f).\n\nFixed: Vulkan startup crash, primarily affecting Android users. (Aurora cb0e2794a5).\n\nFixed: Crash when exiting from the Dusklight launch menu. (a2a9158576).\n\nFixed: Crashes with mods that replace dialogue, including Linkle. (e916b61ca0).\n\nFixed: Mods button being available before a disc is loaded. (2bdc1e54e3).\n\nChanged: Removed execution time limits for Luau mods. (ec4d628720).\n\nChanged: Updated bundled Dusklight Randomizer to v1.0.4. (4300fddde5).\n\n• Fixed exporting seed data for seeds already used by a save file.\n• Fixed logic around the Great Bridge of Hylia when starting in Lanayru Twilight. (Randomizer 5c1ea2c9f2).\n\nThanks to all contributors: @encounter @gymnast86 @Irastris @PJB3005 @TakaRikka.",
-          "downloadURL": "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.1/Dusklight-v2.0.1-ios-arm64.ipa",
-          "size": 37057767,
+          "version": "2.0.2",
+          "date": "2026-09-25T07:21:33Z",
+          "localizedDescription": "What's new:\n\n• Added: Save Manager can now import saves between different regions, and between GC/Wii. (, 97ca92a056).\n• Added: Speedrun Mode now displays enabled mods. (7b917f20d1).\n• Fixed: Golden Wolf transition fades displaying incorrectly in Mirror Mode.\n• Fixed: \"Double Defense\" Magic Armor cheat preventing damage from attacks that normally deal a quarter heart.\n• Fixed: Shad not awarding the restored Dominion Rod when his randomized reward was the original item.\n• Fixed: Speedrun Mode allowing \"Easy Quick Spin\" and the debug camera's \"Freeze Time\" setting. (c55cc18003).\n• Fixed: Default B/X button mappings on Xbox One and Xbox 360 controllers.\n• Changed: Updated bundled Dusklight Randomizer to v1.0.5. (b245c6bef8).\n\n• Fixed a crash when rapidly switching game modes, and duplicate entries in the Excluded Locations list. (, ).\n• Prevent deleting seeds that are in use by a save file.\n• Fixed Ooccoo warps, boss-room death respawns, and returning to the dungeon entrance with entrance randomization. (Randomizer 13aa72b12d, 44d508ef56, 9339fdd6f4).\n• Fixed boss exits when both dungeon and boss entrances are randomized. (Randomizer 194775e07b).\n• Fixed entrance randomizer softlocks at Telma's Bar and behind the fences in Bulblin Camp. (Randomizer dc5ffa72c5, a4d3ce2b54, f7c415c31a).\n• Fixed Midna jumps into Coro's house and missing objects in Kakariko Graveyard. (Randomizer c8b7e3f1b2, a4c73d5cb9).\n• Fixed returning to spawn during the opening sewer sequence. (Randomizer 303f9fed5b).\n• Fixed other item drops in Ook's arena giving the Gale Boomerang's randomized reward. (Randomizer 6472dbded6).\n• Fixed the Cave of Ordeals Great Fairy reward being obtainable repeatedly. (Randomizer 72f2732ada).\n• More logic fixes in Faron, Eldin, and the Palace of Twilight, including requirements for Midna's charge attack. (Randomizer 7e4ea62f78, 904c4f73b3, 952f44e504).\n• Fixed the Sacred Grove Portal not being part of Starting Inventory in the permalink. (Randomizer 4b6b5641d2).\n• Spoiler logs now use valid YAML. (Randomizer c05ef76843).\n\nThanks to all contributors: @Abzol @alancorrals95 @Antidote @encounter @gymnast86 @Irastris @kamilink7 @MelonSpeedruns @PJB3005 @SuperDude88 @TakaRikka.",
+          "downloadURL": "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.2/Dusklight-v2.0.2-ios-arm64.ipa",
+          "size": 37085037,
           "minOSVersion": "14.0"
         }
       ],
@@ -3858,10 +3858,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-23T13:17:12Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-23 · 3ad2588.",
+          "date": "2026-09-25T06:52:45Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-25 · ec9a1c8.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21641093,
+          "size": 21676338,
           "minOSVersion": "17.0"
         }
       ],
@@ -4367,10 +4367,10 @@
       "versions": [
         {
           "version": "0.1.0",
-          "date": "2026-09-24T14:56:22Z",
-          "localizedDescription": "MeleePad v0.1.0 Preview 6 — connection visibility:\n\nBuild 28 adds Slippi Connection Check in Home Settings and the in-game three-dot menu. Three short requests measure Slippi website response and show the current network route. This does not test matchmaking UDP or predict an opponent's ping.\n\nWhen a peer connects, a larger banner shows measured peer latency and warns about sustained high latency, severe latency, rollback stalls, and missing ping samples. Rollback stalls can also reflect local device performance. This release does not claim to fix disconnects or slowdowns.\n\nThe maintainer installed the private build 28 in place on a physical iPad, verified the retained game image, Slippi module and settings, and reached the native Slippi runtime. The new UI still needs a live opponent retest. Earlier builds completed Unranked matches on iPad.\n\nDownload and setup:\n\nNo game image, generated module, Slippi account, saves, or signing material is included. See the README for setup and the distinction between the web check and peer warnings.\n\nVerification:\n\n• The public arm64 build 28 IPA passed archive, unsigned-bundle, private-input, account, and notice audits. The packaging script refused the private playable bundle.\n• Two independent packaging runs produced the same IPA SHA-256: fa26217133f6d7e2d182e82d49bd5d94635a774aa53f73b7e4055fbd9657aa75.\n\nAssets: MeleePad-v0.1.0-preview.6-module-free-unsigned.ipa and its .sha256 file. The tag also provides the repository source snapshot; build dependencies are fetched at the pinned revisions by the documented bootstrap scripts.",
-          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.6/MeleePad-v0.1.0-preview.6-module-free-unsigned.ipa",
-          "size": 15739072,
+          "date": "2026-09-25T06:23:08Z",
+          "localizedDescription": "MeleePad v0.1.0 Preview 7 — clearer in-game controls:\n\nPreview 7 packages build 29. The in-game three-dot menu now has a short main list with Slippi, display, controls, game data, help, and Exit to Home. The existing actions remain available under those groups. Peer warnings are shorter and sit below the menu button instead of across Slippi's top-left performance warning and the match timer. Steady Wi-Fi matches no longer keep a status banner on screen.\n\nThe maintainer installed build 29 in place on a physical iPad and confirmed that Melee v1.02, the Slippi module, the account, and settings remained ready. A build 28 Unranked match connected and played but suffered high peer ping and poor frame pacing. Preview 7 does not claim a lag fix. The revised menu and warning still need a live-opponent visual retest.\n\nDownload and build boundary:\n\nMeleePad-v0.1.0-preview.7-module-free-unsigned.ipa is an unsigned ARM64 app shell for inspection. It contains no game image, generated game or Slippi module, account, saves, or signing material. It is not playable as downloaded. Importing an ISO or user.json cannot add the missing modules.\n\nprivate build from your own supported game image. Do not install the public shell over an existing private playable build; it would replace the bundled modules.\n\nSHA-256: 7e9b12c5ce2675bc2af88b0f1b6c3ab49a30e71dde8459a0151dc6414ee2e958.\n\nThe repository checks and unsigned Release iOS build passed. Two package runs produced byte-identical IPAs; the ZIP audit passed, and the public packager rejected the private playable app.",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.7/MeleePad-v0.1.0-preview.7-module-free-unsigned.ipa",
+          "size": 15739495,
           "minOSVersion": "16.0"
         }
       ],
@@ -4428,10 +4428,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-25T02:06:54Z",
-          "localizedDescription": "Immutable snapshot of alpha build 140 (cafc33b).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 140, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-140/Non-Jailbroken.ipa",
-          "size": 92781462,
+          "date": "2026-09-25T05:00:05Z",
+          "localizedDescription": "Immutable snapshot of alpha build 144 (adbbcac).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 144, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-144/Non-Jailbroken.ipa",
+          "size": 92799463,
           "minOSVersion": "17.0"
         }
       ],
