@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.emp0ry.mirushin",
-    "com.nakas.skate3",
-    "com.meleepad.MeleePad"
+    "com.void.smarttube.app",
+    "com.joemattiello.iCube",
+    "com.emp0ry.mirushin"
   ],
   "apps": [
     {
@@ -2329,37 +2329,6 @@
       }
     },
     {
-      "name": "Spotube",
-      "bundleIdentifier": "oss.krtirtho.spotube.stable",
-      "developerName": "KRTirtho",
-      "subtitle": "🎧 Open source music streaming app! Available for both desktop & mobile!",
-      "localizedDescription": "A cross-platform extensible open-source music streaming platform. Bring your own music metadata/playlist/audio-source with plugins created by community or by yourself. A small step towards the decentralized music streaming era!\n\nBtw it's not just another Electron app 😉.\n\n🌃 Features:\n\n• 🧩 Plugin powered, supports any platform or custom music service through plugins.\n• 🗺️ Community driven plugins for popular platforms or create your own.\n\n• 🖥️ 📱 Cross-platform support.\n• 🪶 Small size & less data usage.\n• 🕒 Time synced lyrics regardless of the plugin support.\n• ✋ No telemetry, diagnostics or user data collection.\n• 🚀 Native performance.\n• 📖 Open source/libre software.\n• 🔉 Playback control is done locally, not on the server.\n\n🕳️ Building from source:\n\nYou can compile Spotube's source code by following these instructions.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/oss.krtirtho.spotube.stable.png",
-      "tintColor": "#000030",
-      "category": "entertainment",
-      "screenshotURLs": [
-        "https://user-images.githubusercontent.com/114044633/223920025-83687de0-e463-4c5d-8122-e06e4bb7d40c.png"
-      ],
-      "versions": [
-        {
-          "version": "5.1.2",
-          "date": "2026-06-05T05:10:18Z",
-          "localizedDescription": "Bug Fixes:\n\n• newpipe: Fallback to muxed streams if no audio stream is available.\n• Dismiss search dropdown and keyboard on submission.\n• Custom image helper null exception.",
-          "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v5.1.2/Spotube-iOS.ipa",
-          "size": 34853093,
-          "minOSVersion": "14.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSCameraUsageDescription": "This app require access to the device camera",
-          "NSMicrophoneUsageDescription": "This app does not require access to the device microphone",
-          "NSPhotoLibraryUsageDescription": "This app require access to the photo library"
-        }
-      }
-    },
-    {
       "name": "PicGuard",
       "bundleIdentifier": "com.kjxbyz.picguard",
       "developerName": "picguard",
@@ -3205,10 +3174,10 @@
       "versions": [
         {
           "version": "5.4",
-          "date": "2026-09-15T14:58:30Z",
-          "localizedDescription": "chore: bump version to 5.4 (build 4).\n\nCo-Authored-By: Claude Sonnet 5.\n\nBranch: master.\n\nBuilt from upstream commit 6c461c3 on the master branch.",
-          "downloadURL": "https://github.com/RipeStore/smarttubebuilder/releases/download/v5.1-6c461c3/SmartTube-v5.1-6c461c3-unsigned.ipa",
-          "size": 8869078,
+          "date": "2026-09-25T03:05:43Z",
+          "localizedDescription": "feat: keep watch history on-device and say so in Settings (#150).\n\nDevice-code sign-in yields no YouTube web session cookies, so watches can't be credited to the account's real history. Instead of silently not recording, the app now keeps its own history: videos that start playing (not Incognito, Watch History enabled) are stored in LocalWatchHistoryStore (capped at 300, deduped, persisted) and shown first in the History tab, followed by the account history (best-effort). Settings gains an explanatory footer and a clear-history button.\n\nCo-Authored-By: Claude Sonnet 5.\n\nBranch: master.\n\nBuilt from upstream commit 86d38ce on the master branch.",
+          "downloadURL": "https://github.com/RipeStore/smarttubebuilder/releases/download/v5.1-86d38ce/SmartTube-v5.1-86d38ce-unsigned.ipa",
+          "size": 8914603,
           "minOSVersion": "17.0"
         }
       ],
@@ -4459,10 +4428,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-24T06:16:05Z",
-          "localizedDescription": "Immutable snapshot of alpha build 138 (c0029c9).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 138, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-138/Non-Jailbroken.ipa",
-          "size": 92541183,
+          "date": "2026-09-25T02:06:54Z",
+          "localizedDescription": "Immutable snapshot of alpha build 140 (cafc33b).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 140, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-140/Non-Jailbroken.ipa",
+          "size": 92781462,
           "minOSVersion": "17.0"
         }
       ],
@@ -4470,6 +4439,7 @@
         "entitlements": [
           "com.apple.developer.activities",
           "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.security.application-groups",
           "com.apple.security.cs.allow-jit",
           "com.apple.security.cs.allow-unsigned-executable-memory",
           "get-task-allow"
