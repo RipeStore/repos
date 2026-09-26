@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.emp0ry.mirushin",
-    "moe.itoapp.ito",
-    "org.zhaohe.MiniWatts"
+    "app.mangatan.mangatan",
+    "com.wrngwrld.Chanyan",
+    "com.emp0ry.mirushin"
   ],
   "apps": [
     {
@@ -56,10 +56,10 @@
       "versions": [
         {
           "version": "0.11.5",
-          "date": "2026-07-30T07:46:25Z",
-          "localizedDescription": "• Update App icon.\n• Add sticky threads functionality (#73).",
-          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.11.5-4/Runner.ipa",
-          "size": 33102138,
+          "date": "2026-09-25T21:04:44Z",
+          "localizedDescription": "• fix: Update file handling and display logic for attachments.\n• feat: Add update checker.",
+          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.11.5-5/Runner.ipa",
+          "size": 33149862,
           "minOSVersion": "17.6"
         }
       ],
@@ -3342,10 +3342,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-09-24T09:40:31Z",
-          "localizedDescription": "Release v6.1.26:\n\n• Improve OCR capture recovery and diagnostics (7855d4d).\n• Add sentence audio selection to video OCR (bd3a1ed).\n• Preserve disabled Anki field mappings (1667aaf).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.26/Manatan-v6.1.26-iOS.ipa",
-          "size": 367192256,
+          "date": "2026-09-25T21:08:50Z",
+          "localizedDescription": "Release v6.1.27:\n\n• Open novel images in the fullscreen viewer (4ad608f).\n• Make iOS subtitle files selectable (2ceb932).\n• Improve iOS sentence audio diagnostics (97b9e30).\n• Unify regular and Manatan settings search (10e3382).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.27/Manatan-v6.1.27-iOS.ipa",
+          "size": 367221489,
           "minOSVersion": "16.1"
         }
       ],
