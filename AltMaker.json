@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.emp0ry.mirushin",
-    "com.tfourj.Palladium",
-    "com.joemattiello.iCube"
+    "com.joemattiello.iCube",
+    "com.noopapp.noop",
+    "com.emp0ry.mirushin"
   ],
   "apps": [
     {
@@ -3829,10 +3829,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-26T12:13:23Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-26 · ba68fd8.",
+          "date": "2026-09-26T21:19:47Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-26 · b6e1394.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21715506,
+          "size": 21716106,
           "minOSVersion": "17.0"
         }
       ],
@@ -4399,10 +4399,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-26T17:37:10Z",
-          "localizedDescription": "Immutable snapshot of alpha build 169 (f71f0e8).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 169, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-169/Non-Jailbroken.ipa",
-          "size": 93305526,
+          "date": "2026-09-26T22:30:50Z",
+          "localizedDescription": "Immutable snapshot of alpha build 170 (f24ca87).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 170, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-170/Non-Jailbroken.ipa",
+          "size": 93306177,
           "minOSVersion": "17.0"
         }
       ],
