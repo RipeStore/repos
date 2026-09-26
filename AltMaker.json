@@ -9,8 +9,8 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "dev.kartpad.app",
     "com.noopapp.noop",
+    "dev.kartpad.app",
     "com.exaltedpixels.LensLinkCamera"
   ],
   "apps": [
@@ -3128,35 +3128,6 @@
       }
     },
     {
-      "name": "Ito",
-      "bundleIdentifier": "moe.itoapp.ito",
-      "developerName": "itoapp",
-      "subtitle": "Open source manga, Anime and Novel viewer for iOS",
-      "localizedDescription": "Ito is a free, open-source client for iPhone and iPad. It combines dedicated readers, native video playback, AniList integration, and an extensible WebAssembly plugin system in a single app.\n\nFeatures:\n\n• Anime, manga, and novels — Keep different media types together in one library.\n• Native reading — Dedicated manga and novel readers designed for iOS.\n• Native video playback — Select available video quality, audio tracks, and subtitles.\n• AniList discovery — Browse, search, and filter titles using AniList.\n• Progress tracking — Connect AniList to track what you read and watch.\n\n• Backup and migration — Export native .itobackup files or import libraries from Aidoku and Paperback.\n• On-device storage — Library data and history are stored locally, with tracker credentials protected by Keychain.\n• No advertisements — Ito is free and ad-free.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/moe.itoapp.ito.png",
-      "tintColor": "#90e0c0",
-      "category": "entertainment",
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/itoapp/Ito@main/assets/screenshots/details.png",
-        "https://cdn.jsdelivr.net/gh/itoapp/Ito@main/assets/screenshots/reader.png",
-        "https://cdn.jsdelivr.net/gh/itoapp/Ito@main/assets/screenshots/library.png"
-      ],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "date": "2026-09-25T14:57:02Z",
-          "localizedDescription": "Automated unsigned nightly from main at commit 02a33df. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/itoapp/Ito/releases/download/nightly-20260925-70/Ito-1.0.0-nightly.20260925.70-unsigned.ipa",
-          "size": 10264467,
-          "minOSVersion": "15.4"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      }
-    },
-    {
       "name": "SmartTube",
       "bundleIdentifier": "com.void.smarttube.app",
       "developerName": "RipeStore",
@@ -3858,10 +3829,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-26T03:34:47Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-26 · ca24978.",
+          "date": "2026-09-26T12:13:23Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-26 · ba68fd8.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21700869,
+          "size": 21715506,
           "minOSVersion": "17.0"
         }
       ],
@@ -4316,11 +4287,11 @@
       ],
       "versions": [
         {
-          "version": "0.5.1",
-          "date": "2026-09-26T07:08:53Z",
-          "localizedDescription": "KartPad 0.5.1 — Android, iPhone/iPad and Mac:\n\nAndroid 0.5.1 / code 229, iPhone/iPad 0.5.1 / build 85 and Mac 0.5.1 / build 85. All three are full, clean builds from source revision de3a99c9054042f07e2840066b1bd06f4012659b. Changes below are compared with 0.5.0.\n\nThe Android APK is signed with the same key as 0.5.0 (certificate SHA-256 c1dbe0a0d72d830a5779476b346a750d0a37515adef992cad2f3863058f7f2f2).\n\nOn every platform (Android, iPhone/iPad, Mac):\n\n• Graphics are prepared at launch. KartPad compiles the graphics it has recorded before you race and shows Preparing graphics: X of Y in the top-left corner. Racing before it finishes may stutter briefly.\n• Menus and courses prepare their graphics while loading, and the bundled list now covers more courses, including Star Cup.\n• Races no longer freeze on a new effect. From two seconds into a race, a graphic that is still compiling can be missing for a frame or two instead of stopping the game. Menus and race starts still wait, so thumbnails and loading images stay complete.\n• Online play no longer stalls while waiting for the server. Only the part of the game waiting on the network pauses.\n• Faster game engine work: quicker disc reads and decompression, cheaper graphics command processing, and course-scoped graphics replay.\n• Stability fixes from WiiCompiled: Item Rain crash, stuck sleep timers, flickering surfaces (z-fighting), controller input leaking through the exit prompt, empty saves treated as missing, console identity setup, network send errors and a clean shutdown after a fatal error. The app also checks the game code before launching.\n\nAndroid only:\n\n• Fixes a launch crash on older Adreno drivers, such as the ROG Phone 7S (#321).\n• Android 9 and 10 phones compile graphics in the background instead of on the game thread (#320).\n• Less CPU work per frame and steadier frame pacing. Uses the Android performance hint on Android 13+. Phones with 6 GB of memory or more prepare more graphics at launch.\n\n• Single Joy-Con held sideways (#324). Controller Button Mapping can correct button positions if they differ on your phone.\n• Better crash logging: crash logs now record the last game files and scenes, app lifecycle, memory and network state.\n• New launcher look: sun/moon theme button and matching game buttons.\n• Experimental: broken characters on Snapdragon phones (#104, #193, #211, #316, #308). On the game chooser, tap Help → Character Graphics Test… → Experimental: fix broken characters (Snapdragon), then fully close and reopen KartPad. Off by default and not yet confirmed on an affected phone. Please report whether it helps.\n\niPhone and iPad only:\n\n• Fixes the menu and race stutter after the iPadOS 26.7 update. After an iOS/iPadOS update, KartPad refills the system's graphics cache once in the background.\n\n• Single Joy-Con held sideways works as a controller (#324). A left and right pair combined by iOS already worked and still does.\n• New launcher look: sun/moon theme button and matching game buttons.\n\nMac only:\n\n• The same graphics cache refill after a macOS update.\n\nSending a diagnostic report:\n\n• iPhone/iPad: ••• → Report a Problem….\n• Mac: Help → Report a Problem… in the menu bar.\n\nUpdating:\n\n• Android: install the new APK over 0.5.0. Do not uninstall or clear app data. Your game image, saves and settings stay in place. It cannot replace private test builds signed with a different key.\n• iPhone/iPad: sign the unsigned IPA with the same identity and bundle identifier as your current install and install it over the existing app. This keeps your data.\n• Mac: replace the app. Your data is kept in Application Support.\n\nGame images and the Retro Rewind asset pack are not included.\n\nKnown limitations:\n\n• All: a course or menu seen for the first time can still pause briefly while its graphics compile (once per course). The crash when entering the trophy ceremony after a cup (#131, #323) is unresolved.\n• Android: if Help → Renderer Validation is On, the game closes when a race loads (#325). Turn it Off; it is only a diagnostic setting. RVZ import is not included in this build (#314); convert RVZ to ISO first. The Snapdragon character fix helps characters on at least one phone but vehicles can still be broken (#102). Low-end phones (Helio G85, Kirin 710 and similar) are still well below 60 FPS. PowerVR BXM GPUs still cannot start the game (#304).\n• iPad: the Select a Cup screen can drop to about 20 FPS for a moment. Races are not affected.\n• Controllers: auto-accelerate and single Joy-Con support have not been tested with every controller.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.1/KartPad-v0.5.1-ios-unsigned.ipa",
-          "size": 64870553,
+          "version": "0.5.2",
+          "date": "2026-09-26T10:45:36Z",
+          "localizedDescription": "KartPad 0.5.2 — Android hotfix, iPhone/iPad build 86:\n\nAndroid 0.5.2 / code 230 and iPhone/iPad 0.5.2 / build 86. Mac stays on.\n\nSigned with the same key as 0.5.0 and 0.5.1 (certificate SHA-256 c1dbe0a0d72d830a5779476b346a750d0a37515adef992cad2f3863058f7f2f2). Android built from a92d3289a1431c7fa7d95bf980348d966bef1942; iPhone/iPad built from cc701e2fdac270cd1a8cc27191645fce202b31ea (diagnostics off).\n\nFixes:\n\n• Crash when a race loads with Renderer Validation on (#325). The game asked the GPU for a depth range slightly outside the allowed 0–1, and validation treated it as fatal. The range is now clamped. Verified: 0.5.1 crashes at race load with validation on; 0.5.2 races normally.\n• RVZ import now works (#314). 0.5.1 shipped an older disc reader built before RVZ support. 0.5.2 includes the current reader. Verified: a Mario Kart Wii RVZ imports on a fresh install and plays into a race.\n\nThe release checks now reject a disc reader without RVZ support.\n\nUpdating:\n\n• Android: install the APK over 0.5.0 or 0.5.1. Do not uninstall or clear app data; your game data, saves and settings stay in place.\n• iPhone/iPad: sign the unsigned IPA with the same identity and bundle identifier as your current install and install it over the existing app. This keeps your data.\n\nLicense notices are the same as 0.5.1 (KartPad-v0.5.1-notices.zip); the source for this build is the v0.5.2 tag and the pinned runtime branches.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.2/KartPad-v0.5.2-ios-unsigned.ipa",
+          "size": 64868370,
           "minOSVersion": "16.0"
         }
       ],
