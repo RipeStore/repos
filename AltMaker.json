@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.joemattiello.iCube",
     "com.noopapp.noop",
-    "com.emp0ry.mirushin"
+    "com.void.smarttube.app",
+    "dev.kartpad.app"
   ],
   "apps": [
     {
@@ -3144,11 +3144,11 @@
       ],
       "versions": [
         {
-          "version": "5.4",
-          "date": "2026-09-25T03:05:43Z",
-          "localizedDescription": "feat: keep watch history on-device and say so in Settings (#150).\n\nDevice-code sign-in yields no YouTube web session cookies, so watches can't be credited to the account's real history. Instead of silently not recording, the app now keeps its own history: videos that start playing (not Incognito, Watch History enabled) are stored in LocalWatchHistoryStore (capped at 300, deduped, persisted) and shown first in the History tab, followed by the account history (best-effort). Settings gains an explanatory footer and a clear-history button.\n\nCo-Authored-By: Claude Sonnet 5.\n\nBranch: master.\n\nBuilt from upstream commit 86d38ce on the master branch.",
-          "downloadURL": "https://github.com/RipeStore/smarttubebuilder/releases/download/v5.1-86d38ce/SmartTube-v5.1-86d38ce-unsigned.ipa",
-          "size": 8914603,
+          "version": "5.5",
+          "date": "2026-09-27T03:14:13Z",
+          "localizedDescription": "chore: copyright DeadPixels, all iPhone/iPad orientations, launch screen build settings.\n\n• NSHumanReadableCopyright: \"None\" -> \"DeadPixels\" (iOS + macOS plists and target settings).\n• iPhone now supports upside-down portrait too (iPad already listed all four).\n• Expose the launch storyboard and orientations as INFOPLIST_KEY_* build settings so the target's General tab no longer shows an empty launch-screen field.\n• Sync string catalog with the softened watch-history footer.\n\nCo-Authored-By: Claude Sonnet 5.\n\nBranch: master.\n\nBuilt from upstream commit a08e37c on the master branch.",
+          "downloadURL": "https://github.com/RipeStore/smarttubebuilder/releases/download/v5.1-a08e37c/SmartTube-v5.1-a08e37c-unsigned.ipa",
+          "size": 8957373,
           "minOSVersion": "17.0"
         }
       ],
@@ -3829,10 +3829,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-26T21:19:47Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-26 · b6e1394.",
+          "date": "2026-09-27T04:11:53Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-27 · 62d1f8c.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21716106,
+          "size": 21744779,
           "minOSVersion": "17.0"
         }
       ],
@@ -4287,11 +4287,11 @@
       ],
       "versions": [
         {
-          "version": "0.5.2",
-          "date": "2026-09-26T10:45:36Z",
-          "localizedDescription": "KartPad 0.5.2 — Android hotfix, iPhone/iPad build 86:\n\nAndroid 0.5.2 / code 230 and iPhone/iPad 0.5.2 / build 86. Mac stays on.\n\nSigned with the same key as 0.5.0 and 0.5.1 (certificate SHA-256 c1dbe0a0d72d830a5779476b346a750d0a37515adef992cad2f3863058f7f2f2). Android built from a92d3289a1431c7fa7d95bf980348d966bef1942; iPhone/iPad built from cc701e2fdac270cd1a8cc27191645fce202b31ea (diagnostics off).\n\nFixes:\n\n• Crash when a race loads with Renderer Validation on (#325). The game asked the GPU for a depth range slightly outside the allowed 0–1, and validation treated it as fatal. The range is now clamped. Verified: 0.5.1 crashes at race load with validation on; 0.5.2 races normally.\n• RVZ import now works (#314). 0.5.1 shipped an older disc reader built before RVZ support. 0.5.2 includes the current reader. Verified: a Mario Kart Wii RVZ imports on a fresh install and plays into a race.\n\nThe release checks now reject a disc reader without RVZ support.\n\nUpdating:\n\n• Android: install the APK over 0.5.0 or 0.5.1. Do not uninstall or clear app data; your game data, saves and settings stay in place.\n• iPhone/iPad: sign the unsigned IPA with the same identity and bundle identifier as your current install and install it over the existing app. This keeps your data.\n\nLicense notices are the same as 0.5.1 (KartPad-v0.5.1-notices.zip); the source for this build is the v0.5.2 tag and the pinned runtime branches.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.2/KartPad-v0.5.2-ios-unsigned.ipa",
-          "size": 64868370,
+          "version": "0.5.3",
+          "date": "2026-09-27T02:01:29Z",
+          "localizedDescription": "KartPad 0.5.3 — Android, iPhone/iPad and Mac:\n\nAndroid 0.5.3 / code 231, iPhone/iPad 0.5.3 / build 87 and Mac 0.5.3 / build 86.\n\nAll three were compiled from 838214b23d959b7c7b7a298e4d9fb567b17ce92f. The Android APK is signed with the same key as 0.5.0–0.5.2 (certificate SHA-256 c1dbe0a0d72d830a5779476b346a750d0a37515adef992cad2f3863058f7f2f2). License notices are inside the IPA and Mac ZIP; the Android notices are unchanged from KartPad-v0.5.1-notices.zip.\n\niPhone, iPad and Mac:\n\n• Cup select no longer drops to 20–30 FPS (#327). The course-preview videos on the cup screen were decoded through a slow memory path on Apple devices. Measured on a Mac with the same steps before and after: Select Cup went from 29–30 FPS to a steady 60 FPS.\n• Single Joy-Con (iPhone/iPad, #324): KartPad now listens for a lone Joy-Con through both of iOS's input channels, and the diagnostic report records which buttons iOS says it has, so if it still doesn't respond we can see why.\n\nAndroid:\n\n• New experimental option for Snapdragon track textures (#102). Help → Character Graphics Test… → Experimental: fix characters and track textures (Snapdragon, may be slower). It applies the character fix to every draw, which may also fix the striped track and wall textures on phones like the Z Fold 8. It costs extra CPU, so keep the character-only option if it's slower for you. Fully close and reopen KartPad after choosing it.\n• The same memory-path fix is included. Most Android phones already used the fast path, so expect little change there.\n\nUpdating:\n\n• Android: install the APK over your current version. Do not uninstall or clear app data. Same signing key as 0.5.0–0.5.2.\n• iPhone/iPad: sign the unsigned IPA with the same identity and bundle identifier as your current install and install it over the existing app.\n• Mac: replace the app. Your data is kept in Application Support.\n\nGame images and the Retro Rewind asset pack are not included.\n\nKnown limitations:\n\n• The Snapdragon options are experimental and unconfirmed on affected phones. On the S24 Ultra (Adreno 750) the character fix does not help yet (#104, #193, #211).\n• Single Joy-Con on iPhone is untested with real hardware.\n• Low-end phones are still well below 60 FPS; PowerVR GPUs still can't start (#304); the trophy-ceremony crash (#131, #323) is still open.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.3/KartPad-v0.5.3-ios-unsigned.ipa",
+          "size": 64877720,
           "minOSVersion": "16.0"
         }
       ],
