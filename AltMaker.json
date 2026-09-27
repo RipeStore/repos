@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.emp0ry.mirushin",
-    "com.llsc12.Paicord",
-    "com.stremiox.app.native"
+    "com.xitrix.RPCS3",
+    "com.stik.stikdebug",
+    "com.crispstrobe.crisperweaver"
   ],
   "apps": [
     {
@@ -171,11 +171,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.13.0",
-          "date": "2026-09-27T09:24:51Z",
+          "version": "0.13.1",
+          "date": "2026-09-27T19:29:09Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/CrispStrobe/CrisperWeaver/releases/download/v0.13.0/crisper_weaver-ios-unsigned.ipa",
-          "size": 23261516,
+          "downloadURL": "https://github.com/CrispStrobe/CrisperWeaver/releases/download/v0.13.1/crisper_weaver-ios-unsigned.ipa",
+          "size": 23261437,
           "minOSVersion": "15.0"
         }
       ],
@@ -2777,11 +2777,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.9",
-          "date": "2026-09-15T06:21:32Z",
-          "localizedDescription": "What's new:\n\n• Live Activity and background game compilation.\n\nImprovements:\n\n• Updated core.\n• Experimental paths enabled by default.\n• Maximum JIT region limit increased to 1 GB.\n\nFixes:\n\n• Fixed some crashes on JIT allocation.",
-          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.9/RPCS3.ipa",
-          "size": 24450010,
+          "version": "0.10",
+          "date": "2026-09-27T22:02:00Z",
+          "localizedDescription": "What's new:\n\n• JIT-less mode — launch games without enabling JIT using static interpreters.\n\nImprovements:\n\n• Updated RPCS3 core.\n• ARM64 PPU and SPU improvements, including changes from the ARMSX3 team.\n• Reduced CPU overhead in SPU execution, texture caching and GPU synchronization.\n• Improved audio buffering and time stretching.\n• Improved memory handling during game compilation.\n\nFixes:\n\n• Fixed Gran Turismo 6 startup hang and Prototype 2 launch failures.\n• Fixed facial texture corruption and rectangular line artifacts in GTA V.\n• Fixed crashes when stopping games after loading save states.\n• Fixed stale graphics resources after changing resolution scale.\n• Fixed ARM64 static and dynamic interpreter errors.\n• Fixed socket error handling that could leave games stuck after cache loading.\n• Removed unnecessary Extended Virtual Addressing warning.",
+          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.10/RPCS3.ipa",
+          "size": 24520202,
           "minOSVersion": "17.4"
         }
       ],
@@ -4017,11 +4017,11 @@
       "category": "developer",
       "versions": [
         {
-          "version": "3.1.11",
-          "date": "2026-09-23T23:25:55Z",
-          "localizedDescription": "Transitions to mounting the DDI via cryptex, should fix issues with the iPhone 18 Pro series. Also, now the DDI only unmounts after an update/reset, no more reboots!\n\n• Add Malloc Debugging.\n\nNew Contributors:\n\n• @Leviidev made their first contribution.",
-          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.11/StikDebug-3.1.11.ipa",
-          "size": 13515131,
+          "version": "3.1.12",
+          "date": "2026-09-27T20:57:00Z",
+          "localizedDescription": "Should fix issues with DDI for iOS versions below 26.4. Also, lots of fixes and improvements for TXM scripts, location simulation, and keep-alives.",
+          "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.12/StikDebug-3.1.12.ipa",
+          "size": 13544301,
           "minOSVersion": "17.4"
         }
       ],
