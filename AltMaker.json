@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.xitrix.RPCS3",
-    "com.stik.stikdebug",
-    "com.crispstrobe.crisperweaver"
+    "com.noopapp.noop",
+    "com.moffatman.chan",
+    "com.naine.doer"
   ],
   "apps": [
     {
@@ -1346,11 +1346,11 @@
       ],
       "versions": [
         {
-          "version": "1.8.5.2",
-          "date": "2026-09-16T05:40:12Z",
+          "version": "1.8.5.3",
+          "date": "2026-09-28T04:11:27Z",
           "localizedDescription": "",
-          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.5.2/doer-unsigned.ipa",
-          "size": 28115063,
+          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.5.3/doer-unsigned.ipa",
+          "size": 28033512,
           "minOSVersion": "15.0"
         }
       ],
@@ -1628,11 +1628,11 @@
       "versions": [
         {
           "version": "1.2.9",
-          "date": "2026-08-28T04:02:10Z",
-          "localizedDescription": "Note: you may get spammed with Cloudflare popups on first launch of this version, this is normal to refresh how many files are supported for each site.\n\nNew Features:\n\n• Cookie editor.\n\n• Just to bypass 403 error for now, no voting.\n\n• Setting to disable HTTP/3.\n\n• Appears to be blocked in Russia.\n\nGeneral Improvements:\n\n• Setting to go back to continuously scrollable tabs.\n\nTweaks:\n\n• Use single file pickers when site only supports one file.\n• Put selected files on the right of file add buttons.\n• New highlight effect for tabs.\n• Restored the /slashes/ to the tab switcher.\n• \"Full filename\" popup is now selectable.\n• Tried to optimize file converter to avoid multiple passes.\n• Collapse thread loading error when scrolling down.\n• Offer to hide thread loading error when tapped.\n• Rearrange reply posting status when reply form is open.\n\nBugfixes:\n\n• Stuck forever on \"Getting captcha\".\n• Extra } after board name in saved list.\n• Multiple notification setup errors were not retried.\n• \"Limit uploaded file dimensions\" setting could cause images to get larger.\n• Sometimes unable to tap on tabs in the first page.\n• Threads did not properly transition to archived.\n• GIF conversion did not respect maximum dimensions.\n• pbs.twimg.com suggested files did not use maximum quality.\n\n• Cloudflare was popping up due to 404 thumbnails in tab list or saved list.\n• HTTP 429 queue could get deadlocked.\n\n• When request had a redirect.\n• When more than 5 attempts were blocked.\n\n• Selected tab was buggy when using home board.\n• Migration of sites to support more than 1 file was not done properly.\n• Boards with updated maximum file count were not saved properly.\n• Initial tab switcher position was not restored when launching app via some push notifications.\n• Creating threads gave \"Error: thread created\" on lynxchan-based sites.\n• Timeout logging in to pass was not handled properly.\n• \"Last page\" warning appeared on page 1/1.\n• Clearing cookies did not update pass login status.\n• No way to cancel \"Checking url.\" popup.\n• Bad handling of HTTP3 headers leading to failed pass login.\n• Bad handling of closing multiple HTTP3 streams at once.\n• Bad handling of HTTP3 error 256.\n• TLS errors could get confused between different operations.\n• Default user-agent was not fully readable on Android UI.\n• Thread watcher loading bar didn't update immediately.\n• In landscape mode some interface elements were hidden behind system UI.\n• Tab switcher buggy when screen size changed (foldable).",
-          "downloadURL": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B124-forked-engine/Chance.ipa",
-          "size": 32710607,
-          "minOSVersion": "13.0"
+          "date": "2026-09-28T04:55:38Z",
+          "localizedDescription": "New Features:\n\n• New captcha cloud solver.\n• Small redesign of captcha form.\n• Support image pasting from keyboard on iOS 27.\n• Rename saved attachments.\n\nGeneral Improvements:\n\n• Many QUIC and HTTP/3 bugfixes and performance improvements.\n\nTweaks:\n\n• Don't insert duplicate quotelinks when using \"reply\" to open the reply form.\n• Added a confirmation before clearing cookies when banned.\n• Hide archive name when scrolling to bottom of thread (it's already there).\n• Always restart videos from beginning in gallery.\n• Slight tweak of tab bar resizing for long tab titles.\n\nBugfixes:\n\n• Threads not marked as archived.\n• Gallery changed image when rotating the device.\n\n• Unable to tap tabs on first page sometimes.\n• Intermittent errors about directories not existing.\n• YouTube shorts embeds not shown.\n• Posting multiple files on lynxchan-based sites didn't work and just combined their filenames.\n• Thread tail requests were not properly optimized for caching.\n• Cloudflare popup trying to load Twitter embed data.\n• Backspacing an embeddable URL in the reply box would cause repeated network requests.\n• Tab bar spazzed open and close when slowly scrolling to the bottom of a thread.",
+          "downloadURL": "https://github.com/moffatman/chan/releases/download/v1.2.9%2B125-forked-engine/Chance.ipa",
+          "size": 32697918,
+          "minOSVersion": "15.0"
         }
       ],
       "appPermissions": {
@@ -2011,7 +2011,7 @@
       "localizedDescription": "SunPad:\n\nSuper Mario Sunshine on iPhone, iPad, Apple silicon Mac, and experimental Apple TV through ahead-of-time recompilation. SunPad brings together Metal rendering, touch controls, controller support, and local game-image import. Supply your own supported copy of the game.\n\nBuilt with ModernGekko, by Hyperway, ExpansionPak and contributors, and DolRecomp, on the RecompCore / Dolphin runtime. SunPad provides the Apple app and Sunshine-specific integration. See full credits, including Apple TV contributions and AI/artwork provenance.\n\nMaintained forks: ModernGekko, RecompCore, and DolRecomp. Runtime and compiler dependencies use pinned submodules. The source graph records the separate Apple and tvOS versions.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.sunpad.SunPad.png",
       "tintColor": "#10e0e0",
-      "category": "games",
+      "category": "developer",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/chrissotraidis/sunpad@main/docs/readme/sunpad-delfino-plaza.jpg",
         "https://cdn.jsdelivr.net/gh/chrissotraidis/sunpad@main/docs/readme/sunpad-plaza-conversation.jpg",
@@ -2156,37 +2156,6 @@
         "privacy": {
           "NSMicrophoneUsageDescription": "MeloCafe uses the microphone when Wii U software requests GamePad microphone input."
         }
-      }
-    },
-    {
-      "name": "CTRPad",
-      "bundleIdentifier": "io.github.chrissotraidis.ctrpad",
-      "developerName": "chrissotraidis",
-      "subtitle": "Crash Team Racing for MacOS, iOS, and iPadOS",
-      "localizedDescription": "CTRPad:\n\nCTRPad is an unofficial native Apple-platform port built from CTR Native and the CTR-ModSDK decompilation project. It runs the decompiled game code directly; it is not an emulator and does not need a PlayStation BIOS.\n\nTo our knowledge, this is the first documented native iPhone and iPad port built from the CTR-ModSDK/CTR Native codebase. That is an Apple-platform claim, not a claim that CTRPad created the first native CTR port: CTR Native established the Windows and Linux port on which this work is based.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/io.github.chrissotraidis.ctrpad.png",
-      "tintColor": "#0050f0",
-      "category": "games",
-      "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/chrissotraidis/ctrpad@main/docs/readme/ctrpad-crash-cove-gameplay.png",
-        "https://cdn.jsdelivr.net/gh/chrissotraidis/ctrpad@main/docs/readme/ctrpad-title-screen.png",
-        "https://cdn.jsdelivr.net/gh/chrissotraidis/ctrpad@main/docs/readme/ctrpad-character-select.png",
-        "https://cdn.jsdelivr.net/gh/chrissotraidis/ctrpad@main/docs/readme/ctrpad-polar-pass-grid.png",
-        "https://cdn.jsdelivr.net/gh/chrissotraidis/ctrpad@main/docs/readme/ctrpad-polar-pass-gameplay.png"
-      ],
-      "versions": [
-        {
-          "version": "0.1.2",
-          "date": "2026-09-17T01:43:16Z",
-          "localizedDescription": "• iPhone/iPad Options now puts touch controls first, followed by diagnostic export and display settings. Done stays visible as you scroll.\n• Game stepping and audio pause while Options or the touch-layout editor is open, making the menu more responsive. Closing it resumes the game.\n• Export current/recent logs and build details with Options → Export diagnostic logs → Save to Files. Review the text before sharing; no automatic upload, game data or saves are included.\n• New iOS/iPadOS app icon: an empty blue racing kart, with no characters or mascots.\n• Updated iPad simplified left-steering default layout, Large controls and approximately 53% opacity. Existing custom layouts and phone defaults are preserved.\n\nDownloads:\n\nNo retail game image or playable game data is included. Supply your own compatible disc image. Keep the same signing/bundle identity when updating on iOS so your existing data remains available; do not uninstall as an update workaround.",
-          "downloadURL": "https://github.com/chrissotraidis/ctrpad/releases/download/v0.1.2/CTRPad-0.1.2-4-173fe2f3f9e2-unsigned.ipa",
-          "size": 4716115,
-          "minOSVersion": "15.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
       }
     },
     {
@@ -3829,10 +3798,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-27T11:08:06Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-27 · 0e56473.",
+          "date": "2026-09-28T05:57:03Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-28 · a45ee3d.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21801888,
+          "size": 21821129,
           "minOSVersion": "17.0"
         }
       ],
@@ -3924,7 +3893,7 @@
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
       "subtitle": "Client-side downloader app built with Capacitor and Tauri",
-      "localizedDescription": "Mori is a free, fast, and private downloader for saving videos, photos, and music from 14 popular social media platforms. No ads, no tracking, and no external servers, everything runs directly on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Supported Platforms & Scraper Engines.\n• For Developers & Building from Source.\n• Why the Scraper Core is Pre-Compiled.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download & Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading & User Guide (GUIDE.md).",
+      "localizedDescription": "Videos, photos, and music from 14 platforms. No watermarks. No accounts. No tracking. Everything stays on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Supported Platforms & Scraper Engines.\n• For Developers & Building from Source.\n• Why the Scraper Core is Pre-Compiled.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download & Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading & User Guide (GUIDE.md).\n\n📜 Features:\n\n• 14 Platforms in One App: Save watermark-free videos, high-resolution photos, and audio from TikTok, Instagram, YouTube, Twitter/X, Spotify, Apple Music, Pinterest, Facebook, Threads, Bandcamp, Pixiv, Bilibili, Douyin, and RedNote.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.mori.downloader.png",
       "tintColor": "#6156e2",
       "category": "utilities",
@@ -4570,6 +4539,32 @@
           "size": 6697613
         }
       ]
+    },
+    {
+      "name": "Iridium",
+      "bundleIdentifier": "software.iridium",
+      "developerName": "intraducine",
+      "subtitle": "Experimental iOS Windows-game runtime. Source monorepo; original Iridium code under AGPL-3.0",
+      "localizedDescription": "Iridium:\n\nAn experimental iPhone and iPad Windows-game runtime, with a native game library and touch, keyboard, mouse, and controller integration. Compatibility varies by game and device.\n\nThis monorepo contains Iridium, its runtime forks, and the Madeira runtime source used by the current integration. Game files must be supplied by the user.\n\nOriginal Iridium code is AGPL-3.0-only. Third-party code retains its own licenses. Read LICENSING.md before redistributing. Madeira is credited for the runtime approach and implementation.\n\nGetting the source:\n\nClone this repository. Optional external dependencies are pinned in the root .gitmodules and DEPENDENCIES.json; use git submodule update --init --recursive when preparing them. Some optional upstream test dependencies contain binaries; they are not stored in this repository.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/software.iridium.png",
+      "tintColor": "#6156e2",
+      "category": "other",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-09-27T22:36:34Z",
+          "localizedDescription": "Iridium 0.1.0:\n\nPlay your Windows games on iPhone and iPad. This first release is experimental; game compatibility varies.\n\nDownload:\n\nRequires iOS or iPadOS 18+, JIT, and your own game files. You only need the IPA to install.\n\nInstall:\n\n• Sign and install the IPA with a compatible sideloading tool, including its helper extension, or import it into LiveContainer.\n• Open Iridium and configure JIT in Launch Support.\n• Select Add Game, choose your game folder and executable, then press Play.\n\nUpdating a development build? Back up your saves and update the existing app or LiveContainer entry without deleting its data.\n\nWhat's new:\n\n• A game library with artwork, Favorites, and search.\n• On-screen controls, controller support, and keyboard/mouse input.\n• Game Options, launch logs, and performance controls.\n• The updated Madeira runtime, plus keyboard, artwork, and save-path fixes.\n\nKnown issues:\n\n• Some games may fail to launch or have graphics, video, audio, or input problems.\n\n• JIT and available memory depend on your device and signing setup; LiveContainer and standalone results can differ.\n\nThe remaining assets are for source access, rebuilding, and download verification:\n\n• Both Iridium-corresponding-source.tar.gz.part01 and .part02 contain the complete matching source package.\n\nDownload all five assets into one folder, then run:\n\nThe source guide includes the checksum for the assembled archive and rebuild instructions. GitHub's automatic repository ZIP does not contain all required dependency sources.\n\nSource commit: 305ea4bd427dd5077506df24ad7a8246f94f8186 Build run: https://github.com/intraducine/iridium/actions/runs/36350639335\n\nApp and helper version: 0.1.0 (86.1). Source checks, build, and unsigned-package checks passed. The release files match their checksums. These checks do not establish compatibility with every game or device; a complete device acceptance record for this exact build is not available.\n\nApple compiler-runtime notice uncertainty and unsigned-IPA contractual authorization remain documented risks. See the license guide in Iridium-source-guide.zip.",
+          "downloadURL": "https://github.com/intraducine/iridium/releases/download/v0.1.0/Iridium-unsigned.ipa",
+          "size": 415218419,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Iridium uses the local network to communicate with AltServer and local JIT helpers."
+        }
+      }
     }
   ]
 }
