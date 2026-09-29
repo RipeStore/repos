@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.dreamplayer.app",
-    "com.emp0ry.mirushin",
-    "dev.akash.skystream"
+    "com.joemattiello.iCube",
+    "software.iridium",
+    "com.randomityguy.mbuhaxe"
   ],
   "apps": [
     {
@@ -1670,11 +1670,11 @@
       ],
       "versions": [
         {
-          "version": "1.3.0",
-          "date": "2026-08-16T20:32:00Z",
-          "localizedDescription": "This update fixes a ton of bugs and adds more gameplay to Multiplayer!\n\n• New multiplayer game modes: Competitive Gem Hunt and King.\n• Added Spectator Mode for Multiplayer.\n• Implemented support for Moving Platforms and Trapdoors in Multiplayer.\n• The collision system is now identical to that of the original game, making the physics significantly more accurate.\n• Added Console Cheats.\n• Properly implemented Marble Trail and Bounce particles to look as close as the original game as possible.\n• Optimized performance some more.\n• Added proper TURN server support so that you can join multiplayer servers even if your network doesn't allow you to.\n• Fixed camera sometimes going through shapes and interiors.\n• Fixed lag caused when completing a level.\n• Fixed various bugs with joining a multiplayer match while one is ongoing.\n• Fixed not being able to join multiplayer match in some cases.\n• Fixed certain powerup effects not showing in multiplayer.",
-          "downloadURL": "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.0-mbu/MBHaxe-Ultra-iOS.ipa",
-          "size": 59611102,
+          "version": "1.3.1",
+          "date": "2026-09-28T22:51:40Z",
+          "localizedDescription": "This update brings the following improvements and bugfixes:\n\n• Improved the movement smoothing of marbles in multiplayer.\n• Implemented PowerUp pickup sounds when other players collect them in multiplayer.\n• Minor performance improvements.\n\n• Fixed glass being rotated incorrectly in some custom levels.\n\n• Fixed not being able to rewind properly during gravity changes.\n• Fixed ice restitution being incorrect.",
+          "downloadURL": "https://github.com/RandomityGuy/MBHaxe/releases/download/1.3.1-mbu/MBHaxe-Ultra-iOS.ipa",
+          "size": 59613138,
           "minOSVersion": "14.0"
         }
       ],
@@ -3893,7 +3893,7 @@
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
       "subtitle": "Client-side downloader app built with Capacitor and Tauri",
-      "localizedDescription": "Videos, photos, and music from 14 platforms. No watermarks. No accounts. No tracking. Everything stays on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Supported Platforms & Scraper Engines.\n• For Developers & Building from Source.\n• Why the Scraper Core is Pre-Compiled.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download & Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading & User Guide (GUIDE.md).\n\n📜 Features:\n\n• 14 Platforms in One App: Save watermark-free videos, high-resolution photos, and audio from TikTok, Instagram, YouTube, Twitter/X, Spotify, Apple Music, Pinterest, Facebook, Threads, Bandcamp, Pixiv, Bilibili, Douyin, and RedNote.",
+      "localizedDescription": "Save and download videos, photos, and music from 16 platforms. No watermarks. No accounts. No tracking. Everything stays on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Supported Platforms & Scraper Engines.\n• For Developers & Building from Source.\n• Why the Scraper Core is Pre-Compiled.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download & Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading & User Guide (GUIDE.md).\n\n📜 Features:\n\n• Over-The-Air (OTA) Scraper Hot-Patching: Never wait for app updates when a platform changes its API. Mori seamlessly hot-patches scraper engines in the background without needing to reinstall the app.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.mori.downloader.png",
       "tintColor": "#6156e2",
       "category": "utilities",
@@ -4368,10 +4368,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-09-26T22:30:50Z",
-          "localizedDescription": "Immutable snapshot of alpha build 170 (f24ca87).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 170, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-170/Non-Jailbroken.ipa",
-          "size": 93306177,
+          "date": "2026-09-29T04:36:51Z",
+          "localizedDescription": "Immutable snapshot of alpha build 172 (760e9e8).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 172, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-172/Non-Jailbroken.ipa",
+          "size": 93317310,
           "minOSVersion": "17.0"
         }
       ],
@@ -4551,11 +4551,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.1.0",
-          "date": "2026-09-27T22:36:34Z",
-          "localizedDescription": "Iridium 0.1.0:\n\nPlay your Windows games on iPhone and iPad. This first release is experimental; game compatibility varies.\n\nDownload:\n\nRequires iOS or iPadOS 18+, JIT, and your own game files. You only need the IPA to install.\n\nInstall:\n\n• Sign and install the IPA with a compatible sideloading tool, including its helper extension, or import it into LiveContainer.\n• Open Iridium and configure JIT in Launch Support.\n• Select Add Game, choose your game folder and executable, then press Play.\n\nUpdating a development build? Back up your saves and update the existing app or LiveContainer entry without deleting its data.\n\nWhat's new:\n\n• A game library with artwork, Favorites, and search.\n• On-screen controls, controller support, and keyboard/mouse input.\n• Game Options, launch logs, and performance controls.\n• The updated Madeira runtime, plus keyboard, artwork, and save-path fixes.\n\nKnown issues:\n\n• Some games may fail to launch or have graphics, video, audio, or input problems.\n\n• JIT and available memory depend on your device and signing setup; LiveContainer and standalone results can differ.\n\nThe remaining assets are for source access, rebuilding, and download verification:\n\n• Both Iridium-corresponding-source.tar.gz.part01 and .part02 contain the complete matching source package.\n\nDownload all five assets into one folder, then run:\n\nThe source guide includes the checksum for the assembled archive and rebuild instructions. GitHub's automatic repository ZIP does not contain all required dependency sources.\n\nSource commit: 305ea4bd427dd5077506df24ad7a8246f94f8186 Build run: https://github.com/intraducine/iridium/actions/runs/36350639335\n\nApp and helper version: 0.1.0 (86.1). Source checks, build, and unsigned-package checks passed. The release files match their checksums. These checks do not establish compatibility with every game or device; a complete device acceptance record for this exact build is not available.\n\nApple compiler-runtime notice uncertainty and unsigned-IPA contractual authorization remain documented risks. See the license guide in Iridium-source-guide.zip.",
-          "downloadURL": "https://github.com/intraducine/iridium/releases/download/v0.1.0/Iridium-unsigned.ipa",
-          "size": 415218419,
+          "version": "0.1.1",
+          "date": "2026-09-29T04:10:10Z",
+          "localizedDescription": "Iridium 0.1.1:\n\nIn standalone Iridium, you can now add games from its folder in Files without opening the file picker. This release also makes it easier to import a pairing file for built-in JIT. Game support remains experimental.\n\nDownload:\n\nRequires iOS or iPadOS 18+, JIT, and your own game files. You only need the IPA to install.\n\nInstall:\n\n• Sign and install the IPA with a compatible sideloading tool, including its helper extension, or import it into LiveContainer.\n• Open Iridium and configure JIT in Launch Support.\n• Select Add Game, choose a game folder and executable, then press Play.\n\nBack up your saves before updating. Update the existing app or LiveContainer entry without deleting its data.\n\nWhat's new:\n\n• Add games without the file picker. In standalone Iridium, put each game in its own folder under On My iPhone/iPad → Iridium → Games. Choose Add Game → Find Games in Iridium Folder, select the game, and confirm its executable. Iridium uses the files in that folder without copying them.\n• Import a JIT pairing file from Files. Put pairingFile.plist under On My iPhone/iPad → Iridium → StikJIT. Choose Settings → Launch Support → Import Pairing File → Use File in Iridium Folder. You can still choose a file directly.\n\nKnown issues:\n\n• Some games may fail to launch or have graphics, video, audio, or input problems.\n\n• JIT and available memory depend on your device and signing setup; LiveContainer and standalone results can differ.\n\nThe other release files are for source access, rebuilding, and download verification:\n\n• SHA256SUMS verifies all four files above, including the IPA.\n\nDownload all five release files into one folder, then run:\n\nThe source guide includes the checksum for the assembled archive and rebuild instructions. GitHub's automatic repository ZIP does not contain all required dependency sources.\n\nSource commit: bc5c30fc442f429e8be9001549300160a0934372 Build run: https://github.com/intraducine/iridium/actions/runs/36504918645\n\nApp and helper version: 0.1.1 (98.2). Source checks, build, and unsigned-package checks passed. These checks do not establish compatibility with every game or device.\n\nApple compiler-runtime notice uncertainty and unsigned-IPA contractual authorization remain documented risks. See the license guide in Iridium-source-guide.zip.",
+          "downloadURL": "https://github.com/intraducine/iridium/releases/download/v0.1.1/Iridium-unsigned.ipa",
+          "size": 415260196,
           "minOSVersion": "18.0"
         }
       ],
