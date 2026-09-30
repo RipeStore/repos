@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.emp0ry.mirushin",
-    "com.noopapp.noop",
-    "dev.kartpad.app"
+    "com.meleepad.MeleePad",
+    "com.sunpad.SunPad",
+    "dev.naveed-gung.monolith"
   ],
   "apps": [
     {
@@ -1293,11 +1293,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.10",
-          "date": "2026-09-27T22:02:00Z",
-          "localizedDescription": "What's new:\n\n• JIT-less mode — launch games without enabling JIT using static interpreters.\n\nImprovements:\n\n• Updated RPCS3 core.\n• ARM64 PPU and SPU improvements, including changes from the ARMSX3 team.\n• Reduced CPU overhead in SPU execution, texture caching and GPU synchronization.\n• Improved audio buffering and time stretching.\n• Improved memory handling during game compilation.\n\nFixes:\n\n• Fixed Gran Turismo 6 startup hang and Prototype 2 launch failures.\n• Fixed facial texture corruption and rectangular line artifacts in GTA V.\n• Fixed crashes when stopping games after loading save states.\n• Fixed stale graphics resources after changing resolution scale.\n• Fixed ARM64 static and dynamic interpreter errors.\n• Fixed socket error handling that could leave games stuck after cache loading.\n• Removed unnecessary Extended Virtual Addressing warning.",
-          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.10/RPCS3.ipa",
-          "size": 24520202,
+          "version": "0.10.1",
+          "date": "2026-09-29T19:33:52Z",
+          "localizedDescription": "Improvements:\n\n• Legacy shader compiler is now retired, default replaced by Recompiler with Interpreter.\n\nFixes:\n\n• Relaxed ZCull setting is now working at is should.\n• Fixed bunch of games that got broken in v0.10.",
+          "downloadURL": "https://github.com/XITRIX/RPCS3-iOS-Releases/releases/download/v0.10.1/RPCS3.ipa",
+          "size": 24568899,
           "minOSVersion": "17.4"
         }
       ],
@@ -2193,10 +2193,10 @@
       "versions": [
         {
           "version": "5.5",
-          "date": "2026-09-27T03:14:13Z",
-          "localizedDescription": "chore: copyright DeadPixels, all iPhone/iPad orientations, launch screen build settings.\n\n• NSHumanReadableCopyright: \"None\" -> \"DeadPixels\" (iOS + macOS plists and target settings).\n• iPhone now supports upside-down portrait too (iPad already listed all four).\n• Expose the launch storyboard and orientations as INFOPLIST_KEY_* build settings so the target's General tab no longer shows an empty launch-screen field.\n• Sync string catalog with the softened watch-history footer.\n\nCo-Authored-By: Claude Sonnet 5.\n\nBranch: master.\n\nBuilt from upstream commit a08e37c on the master branch.",
-          "downloadURL": "https://github.com/RipeStore/smarttubebuilder/releases/download/v5.1-a08e37c/SmartTube-v5.1-a08e37c-unsigned.ipa",
-          "size": 8957373,
+          "date": "2026-09-29T17:34:06Z",
+          "localizedDescription": "fix: restore tvOS build (no Stepper / navigationBarTitleDisplayMode on tvOS).\n\nCo-Authored-By: Claude Opus 5.5.\n\nBranch: master.\n\nBuilt from upstream commit d62f123 on the master branch.",
+          "downloadURL": "https://github.com/RipeStore/smarttubebuilder/releases/download/v5.1-d62f123/SmartTube-v5.1-d62f123-unsigned.ipa",
+          "size": 9038657,
           "minOSVersion": "17.0"
         }
       ],
@@ -2377,7 +2377,7 @@
       "bundleIdentifier": "dev.naveed-gung.monolith",
       "developerName": "naveed-gung",
       "subtitle": "Monolith is an offline-first Flutter music player built for local listening, managed downloads, playlist control, and system-grade playback surfaces across Android and iOS",
-      "localizedDescription": "Monolith:\n\nA personal music player for iOS and Android. Bring your own music, keep a local collection, and listen with the screen locked.\n\nScreenshots:\n\nSix actual Pixel 10a emulator captures with the current coral accent, alternating light and dark: three of each. They show local test audio and a public test download. These are Android captures; iPhone verification remains separate.\n\nYour collection:\n\n• Playback follows the displayed song order. Completed activity fades after five seconds.\n• Import readable songs from the iOS Music picker, import the accessible local Music library in one batch, or choose audio files from Files. Failed items retain their individual reasons.\n• Browse songs, artists, albums, playlists, and recent additions.\n• Open the activity dropdown below the header to inspect concurrent transfers and stop individual jobs.",
+      "localizedDescription": "Monolith:\n\nA personal music player for iOS and Android. Bring your own music, keep a local collection, and listen with the screen locked.\n\nv1.4.6 · Build 15: iOS lock-screen and Android media controls can skip between songs in the current listening order. The app stays in sync when a system control changes the song.\n\nScreenshots:\n\nSix actual Pixel 10a emulator captures with the current coral accent, alternating light and dark: three of each. They show local test audio and a public test download. These are Android captures; iPhone verification remains separate.\n\nYour collection:\n\n• Playback follows the displayed song order. Completed activity fades after five seconds.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.naveed-gung.monolith.png",
       "tintColor": "#e04050",
       "category": "games",
@@ -2390,11 +2390,11 @@
       ],
       "versions": [
         {
-          "version": "1.4.5",
-          "date": "2026-09-21T16:53:47Z",
-          "localizedDescription": "iOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.4.5.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.4.5.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: this build is signed with a debug key (fine for sideloading). Android may warn it's from an unknown developer — that's expected for a non–Play Store APK.",
-          "downloadURL": "https://github.com/naveed-gung/Monolith/releases/download/v1.4.5/monolith.ipa",
-          "size": 11121525,
+          "version": "1.4.6",
+          "date": "2026-09-29T20:08:16Z",
+          "localizedDescription": "iOS — monolith.ipa (unsigned):\n\n• App: Monolith.\n• Version: v1.4.6.\n• Bundle ID: dev.naveed-gung.monolith.\n• Developer: naveed-gung.\n\nThis IPA is not App Store signed. Install via AltStore, Sideloadly, TrollStore, or any sideloading tool of your choice.\n\nAndroid — monolith.apk:\n\n• App: Monolith.\n• Version: v1.4.6.\n• Min Android: 7.0 (API 24).\n• Bundle ID: dev.naveed_gung.monolith.\n\nInstall on any Android 7.0+ device: download monolith.apk, then enable Install unknown apps for your browser/file manager when prompted. No Play Store account needed.\n\nNote: this build is signed with a debug key (fine for sideloading). Android may warn it's from an unknown developer — that's expected for a non–Play Store APK.",
+          "downloadURL": "https://github.com/naveed-gung/Monolith/releases/download/v1.4.6/monolith.ipa",
+          "size": 11128634,
           "minOSVersion": "16.4"
         }
       ],
@@ -3401,7 +3401,7 @@
       "bundleIdentifier": "com.mori.downloader",
       "developerName": "coflyn",
       "subtitle": "Client-side downloader app built with Capacitor and Tauri",
-      "localizedDescription": "Save and download videos, photos, and music from 16 platforms. No watermarks. No accounts. No tracking. Everything stays on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Supported Platforms & Scraper Engines.\n• For Developers & Building from Source.\n• Why the Scraper Core is Pre-Compiled.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download & Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading & User Guide (GUIDE.md).\n\n📜 Features:\n\n• Over-The-Air (OTA) Scraper Hot-Patching: Never wait for app updates when a platform changes its API. Mori seamlessly hot-patches scraper engines in the background without needing to reinstall the app.",
+      "localizedDescription": "Save and download videos, photos, and music from 16 platforms. No watermarks. No accounts. No tracking. Everything stays on your device.\n\n📋 Table of Contents:\n\n• How to Use.\n\n• Supported Platforms & Scraper Engines.\n• For Developers & Building from Source.\n• Scraper Architecture.\n\nSaving media with Mori takes only three simple steps:\n\n• Copy Link: Copy any video, photo, or music link from your favorite app (TikTok, Instagram, YouTube, Spotify, etc.).\n\n📥 Download & Installation:\n\n📖 Need help installing or troubleshooting? Read the complete Installation, Sideloading & User Guide (GUIDE.md).\n\n📜 Features:\n\n• Over-The-Air (OTA) Scraper Hot-Patching: Never wait for app updates when a platform changes its API. Mori seamlessly hot-patches scraper engines in the background without needing to reinstall the app.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.mori.downloader.png",
       "tintColor": "#6156e2",
       "category": "utilities",
@@ -4115,6 +4115,61 @@
         "privacy": {
           "NSPhotoLibraryUsageDescription": "SakayoriMusic needs access to your photo library to set custom playlist artwork and profile pictures."
         }
+      }
+    },
+    {
+      "name": "MeleePad",
+      "bundleIdentifier": "com.meleepad.MeleePad",
+      "developerName": "chrissotraidis",
+      "subtitle": "Super Smash Bros Melee, native on iOS and iPadOS",
+      "localizedDescription": "MeleePad:\n\nSuper Smash Bros. Melee on iPhone, iPad, and Apple Silicon Mac.\n\nBuild a native Apple app from your own supported copy of Melee, with touch controls, physical-controller support, Metal rendering, and Slippi online play on iPhone and iPad. Game code is compiled ahead of time, so no JIT is required on iOS or iPadOS.\n\nBuilt with ModernGekko, DolRecomp, and the RecompCore / Dolphin runtime, with Apple integration based on SunPad. See credits and maintained sources.\n\n**Build and setup · Slippi profile setup ·.\n\nA physical-iPad development build running at 2x resolution. Performance varies by scene and device; this image is evidence from one observed match, not a universal performance guarantee.\n\nmakes the game part on your Mac from your own disc and adds it. See Get MeleePad.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.meleepad.MeleePad.png",
+      "tintColor": "#e05040",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "date": "2026-09-29T22:59:20Z",
+          "localizedDescription": "What you need:\n\n• Your own GameCube Super Smash Bros. Melee, USA (GALE01, v1.00 or v1.02), as a disc image.\n• An Apple Silicon Mac with Xcode, rustup with rustup toolchain install 1.88.0 --target aarch64-apple-ios, brew install ripgrep, and about 30 GB of free space.\n• An iPhone or iPad on iOS/iPadOS 16 or later, and AltStore Classic, SideStore or Sideloadly.\n\nGet it:\n\n• Install the IPA PadForge saves with your sideloading tool, over an existing MeleePad to keep your data, then tap Import Game Data and choose the same disc image. The IPA contains code made from your disc: keep it to yourself.\n\nFiles:\n\n• MeleePad-v0.2.0-ios-unsigned.ipa: the app without game code or Nintendo keys (content check passed).\n• MeleePad-v0.2.0-padforge.json: the recipe PadForge follows for this version.\n• SHA256SUMS: checksums of both.",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.0/MeleePad-v0.2.0-ios-unsigned.ipa",
+          "size": 15739487,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "MeleePad uses your local network to host or join a game with friends."
+        }
+      }
+    },
+    {
+      "name": "SunPad",
+      "bundleIdentifier": "com.sunpad.SunPad",
+      "developerName": "chrissotraidis",
+      "subtitle": "Super Mario Sunshine on iPhone, iPad, Apple Silicon Mac, and tVOS through static recompilation and Metal",
+      "localizedDescription": "SunPad:\n\nSuper Mario Sunshine on iPhone, iPad, Apple silicon Mac, and experimental Apple TV through ahead-of-time recompilation. SunPad brings together Metal rendering, touch controls, controller support, and local game-image import. Supply your own supported copy of the game.\n\nBuilt with ModernGekko, by Hyperway, ExpansionPak and contributors, and DolRecomp, on the RecompCore / Dolphin runtime. SunPad provides the Apple app and Sunshine-specific integration. See full credits, including Apple TV contributions and AI/artwork provenance.\n\nMaintained forks: ModernGekko, RecompCore, and DolRecomp. Runtime and compiler dependencies use pinned submodules. The source graph records the separate Apple and tvOS versions.\n\nGet SunPad:\n\ngame code. On an Apple silicon Mac with Xcode, download.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.sunpad.SunPad.png",
+      "tintColor": "#10e0e0",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/sunpad@main/docs/readme/sunpad-delfino-plaza.jpg",
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/sunpad@main/docs/readme/sunpad-plaza-conversation.jpg",
+        "https://cdn.jsdelivr.net/gh/chrissotraidis/sunpad@main/docs/readme/sunpad-isle-delfino-map.jpg"
+      ],
+      "versions": [
+        {
+          "version": "0.2.0",
+          "date": "2026-09-29T22:36:39Z",
+          "localizedDescription": "What you need:\n\n• Your own GameCube Super Mario Sunshine, USA (GMSE01, revision 0), as a disc image.\n• An Apple Silicon Mac with Xcode, and about 30 GB of free space.\n• An iPhone or iPad on iOS/iPadOS 16 or later, and AltStore Classic, SideStore or Sideloadly.\n\nGet it:\n\n• Install the IPA PadForge saves with your sideloading tool, over an existing SunPad to keep your saves. Then open ••• → Game Data & Saves → Import or Reimport Game Data and choose the same disc image in Files. The IPA contains code made from your disc: keep it to yourself.\n\nFiles:\n\n• SunPad-v0.2.0-ios-unsigned.ipa: the app without game code or Nintendo keys (content check passed).\n• SunPad-v0.2.0-padforge.json: the recipe PadForge follows for this version.\n• SHA256SUMS: checksums of both.",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.0/SunPad-v0.2.0-ios-unsigned.ipa",
+          "size": 12259719,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
       }
     }
   ]
