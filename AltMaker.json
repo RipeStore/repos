@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "dev.kartpad.app",
-    "dev.twilitrealm.dusk",
-    "com.noopapp.noop"
+    "com.tfourj.Palladium",
+    "com.exaltedpixels.LensLinkCamera",
+    "dev.kartpad.app"
   ],
   "apps": [
     {
@@ -2135,11 +2135,11 @@
       ],
       "versions": [
         {
-          "version": "1.4.3",
-          "date": "2026-09-26T17:47:58Z",
-          "localizedDescription": "• Add support for alternate JS runtime (QuickJS).\n• Add contributors/translators to About view.",
-          "downloadURL": "https://github.com/tfourj/Palladium/releases/download/v1.4.3/Palladium-v1.4.3.ipa",
-          "size": 36923382,
+          "version": "1.4.4",
+          "date": "2026-09-30T17:35:28Z",
+          "localizedDescription": "• Add settings to customize exported filename.\n\n• Add developer debug menu.\n\nLocalization:\n\n• New Japanese Crowdin updates.",
+          "downloadURL": "https://github.com/tfourj/Palladium/releases/download/v1.4.4/Palladium-v1.4.4.ipa",
+          "size": 37099606,
           "minOSVersion": "17.0"
         }
       ],
@@ -2911,11 +2911,11 @@
       ],
       "versions": [
         {
-          "version": "1.15.1",
-          "date": "2026-09-26T02:22:25Z",
-          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nChanges:\n\n• Screen mirroring: remove the iOS 27 in-app ScreenCaptureKit mirror.",
-          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.15.1/LensLink-unsigned.ipa",
-          "size": 6697613,
+          "version": "1.15.2",
+          "date": "2026-09-30T17:01:26Z",
+          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nChanges:\n\n• Store listing in seven languages, and localized screenshot captions.\n• CI: shared build actions, cache fix, TestFlight on Linux, hardening, repo cleanup.\n\nNew Contributors:\n\n• @gbyo made their first contribution.",
+          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.15.2/LensLink-unsigned.ipa",
+          "size": 6733702,
           "minOSVersion": "15.0"
         }
       ],
@@ -3231,11 +3231,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.2",
-          "date": "2026-09-30T08:49:26Z",
-          "localizedDescription": "KartPad 0.7.2 for Android and iPhone/iPad. Your game pack keeps working: this update needs no new pack.\n\nThe apps below contain no game code: you make the game part yourself with PadMint, on your own Windows, Mac or Linux computer, from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps: Get KartPad.\n\nUpdating from 0.7.0 or 0.7.1:\n\n• Android: install KartPad-v0.7.2-android.apk below over your current KartPad. Your saves and game pack stay.\n• iPhone and iPad: run PadMint and choose iPhone/iPad again. It reuses your game pack, so the new IPA takes about a minute and a half. Install it over your existing KartPad to keep saves.\n\nComing from 0.6.x? Follow the full steps: 0.7.0 and later need one new game pack.\n\nWhat's new:\n\nThese are fixes we promised for \"the next update\" in late September. They were ready but missed the 0.6 and 0.7 releases. Sorry for the wait.\n\n• No more fast-forward after switching apps (#330). After KartPad has been in the background, the game resumes at normal speed instead of racing ahead to catch up.\n• iPhone and iPad launch without the flicker (#327): KartPad opens on a black screen, and the game chooser no longer flashes when you've saved a choice.\n• Android, Adreno 8xx phones: Character Graphics Test → Automatic now turns on the character fix for these GPUs by itself (#329), and characters on the Galaxy S24 use the same fix path (#104).\n• Android: a little less work per frame when the character fix is on (#316).\n\nStill open: PowerVR support (#304) needs a graphics-library update and isn't in this release.\n\nFiles:\n\n• KartPad-v0.7.2-android.apk: the Android app without game code, signed with the same key as earlier versions.\n• KartPad-v0.7.2-ios-unsigned.ipa: the iPhone/iPad app without game code. PadMint adds your game pack to it; you install PadMint's result, not this file.\n• KartPad-v0.7.2-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums for the files above.\n\nTested before release with PadMint 0.2.0: the Android app updated in place from 0.7.1 kept its game pack and raced; after 30 seconds in the background it resumed at normal speed (the race timer advanced 10.57 s in 10.62 s). On an iPhone 14, PadMint reused the game pack (compile step 2 seconds), and the new app installed in place with saves kept and raced. The Adreno fixes are not yet confirmed on an Adreno phone; please tell us how they work on yours.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.2/KartPad-v0.7.2-ios-unsigned.ipa",
-          "size": 8633285,
+          "version": "0.7.3",
+          "date": "2026-09-30T14:26:39Z",
+          "localizedDescription": "KartPad 0.7.3 for Android and iPhone/iPad. Your game pack keeps working: this update needs no new pack.\n\nThe apps below contain no game code: you make the game part yourself with PadMint from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps: Get KartPad.\n\nWhat's new:\n\nThis release is about making your copy in more places. Use PadMint 0.2.2 or newer.\n\n• iPhone and iPad without a Mac (experimental). PadMint can now make your KartPad IPA on a Windows or Linux computer, no Xcode needed. Choose iPhone or iPad (experimental) in PadMint, then install the IPA with Sideloadly, AltStore or SideStore. Tested: IPAs made on Windows 11 (on ARM, in a virtual machine) and on Ubuntu Linux each raced on an iPhone 14 with saves kept. Ordinary Intel and AMD Windows PCs haven't been tried yet, so please tell us how it goes.\n\nNothing changes in the game or the app itself.\n\nUpdating from 0.7.x:\n\n• Android: install KartPad-v0.7.3-android.apk below over your current KartPad. Your saves and game pack stay.\n• iPhone and iPad: run PadMint and choose iPhone/iPad again. It reuses your game pack, so the new IPA takes a few minutes. Install it over your existing KartPad with the same tool and Apple ID to keep your saves.\n\nComing from 0.6.x? Follow the full steps: 0.7.0 and later need one new game pack.\n\nFiles:\n\n• KartPad-v0.7.3-android.apk: the Android app without game code, signed with the same key as earlier versions.\n• KartPad-v0.7.3-ios-unsigned.ipa: the iPhone/iPad app without game code. PadMint adds your game pack to it; you install PadMint's result, not this file.\n• KartPad-v0.7.3-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums for the files above.\n\nTested before release with PadMint 0.2.2: the Android app updated in place from 0.7.2 kept its game pack and raced at 60 FPS. On an iPhone 14, PadMint made the new IPA from this release, and it installed in place with saves kept and raced.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.3/KartPad-v0.7.3-ios-unsigned.ipa",
+          "size": 8633284,
           "minOSVersion": "16.0"
         }
       ],
@@ -4021,9 +4021,9 @@
         {
           "version": "1.0.4",
           "date": "2026-09-23T15:44:54Z",
-          "localizedDescription": "Fixes.\n\n• Apple TV: Trakt lists open when you click them. (#10).\n• Mac: signing in works on the unsigned build. macOS doesn't let unsigned apps use the Keychain, so the app keeps your sign-in session and any API keys you enter in a file inside its own sandbox container instead (readable only by your user account).\n\nStill open.\n\nImportant: this release is NOT signed. You have to allow it yourself.\n\nNothing here is signed with an Apple developer account and the Mac app is not notarized. macOS and iOS will refuse to open it until you explicitly allow it. This is expected, it's not broken.\n\nMac:\n\n• Open the dmg and drag SceneBox to Applications.\n• Open SceneBox. macOS will say it \"could not verify\" the app or that it's from an unidentified developer. Press Done (not Move to Trash).\n• Go to System Settings > Privacy & Security, scroll down to Security and press \"Open Anyway\" next to SceneBox, then confirm.\n• From then on it opens normally.\n\nIf you'd rather skip the dialog, run this in Terminal after copying the app to Applications:\n\nIf you had an older signed version installed, delete it first.\n\niPhone/iPad: the ipa isn't signed, you sign it yourself with Sideloadly, AltStore, SideStore, Feather or ESign with your own Apple ID. Free Apple ID = resign every 7 days (AltStore/SideStore do it for you), paid dev account = one year.\n\nApple TV: Sideloadly works over Wi-Fi. On the TV go to Settings > Remotes and Devices > Remote App and Devices so it shows up, then pick it in Sideloadly.",
+          "localizedDescription": "Important: accounts now need your own Firebase project.\n\nSceneBox no longer connects to a shared Firebase project. Sign-in, profiles and sync between devices now run on a free Firebase project that you create and own. Your data stays in your own account, not mine.\n\n• Guest mode still works without any setup. Everything is kept on the device.\n• To sign in, tap Connect Firebase on the sign-in screen and import the GoogleService-Info.plist from your Firebase project (on Apple TV, type in the values). Step-by-step guide and the security rules: https://github.com/donbytyqi/scenebox#firebase-setup\n• Accounts made on the old shared project don't carry over. Create a new account on your own project.\n• Profile photos need Firebase Storage, which requires Google's Blaze plan (it has a free tier). Everything else works on the free Spark plan.\n\nNew.\n\nFixes.\n\n• Apple TV: Trakt lists open when you click them. (#10).\n• Mac: signing in works on the unsigned build. macOS doesn't let unsigned apps use the Keychain, so the app keeps your sign-in session and any API keys you enter in a file inside its own sandbox container instead (readable only by your user account).\n\nStill open.\n\nImportant: this release is NOT signed. You have to allow it yourself.\n\nNothing here is signed with an Apple developer account and the Mac app is not notarized. macOS and iOS will refuse to open it until you explicitly allow it. This is expected, it's not broken.\n\nMac:\n\n• Open the dmg and drag SceneBox to Applications.\n• Open SceneBox. macOS will say it \"could not verify\" the app or that it's from an unidentified developer. Press Done (not Move to Trash).\n• Go to System Settings > Privacy & Security, scroll down to Security and press \"Open Anyway\" next to SceneBox, then confirm.\n• From then on it opens normally.\n\nIf you'd rather skip the dialog, run this in Terminal after copying the app to Applications:\n\nIf you had an older signed version installed, delete it first.\n\niPhone/iPad: the ipa isn't signed, you sign it yourself with Sideloadly, AltStore, SideStore, Feather or ESign with your own Apple ID. Free Apple ID = resign every 7 days (AltStore/SideStore do it for you), paid dev account = one year.\n\nApple TV: Sideloadly works over Wi-Fi. On the TV go to Settings > Remotes and Devices > Remote App and Devices so it shows up, then pick it in Sideloadly.",
           "downloadURL": "https://github.com/donbytyqi/scenebox/releases/download/v1.0.4/SceneBox-1.0.4.ipa",
-          "size": 30545305,
+          "size": 30593765,
           "minOSVersion": "18.0"
         }
       ],
@@ -4171,6 +4171,25 @@
         "entitlements": [],
         "privacy": {}
       }
+    },
+    {
+      "name": "ksre",
+      "bundleIdentifier": "com.ripestore.ksre",
+      "developerName": "fleetingheart",
+      "subtitle": "Mirror of the KSRE repo. Note that this is just a mirror - we don't work with pull requests on github. To contribute, please visit repo's website",
+      "localizedDescription": "Mirror of the KSRE repo. Note that this is just a mirror - we don't work with pull requests on github. To contribute, please visit repo's website.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
+      "tintColor": "#6156e2",
+      "category": "other",
+      "versions": [
+        {
+          "version": "2.0.4",
+          "date": "2026-02-15T20:02:06Z",
+          "localizedDescription": "Added:\n\n• Traditional Chinese translation (by 307c93).\n• Brazilian Portuguese translation (by Vavan).\n• Configuarion of text box opacity (by Ikariya, original reference code by Dr.Simp).\n• Font scaling (by Ikariya).\n\nChanged:\n\n• Updated to RenPy 8.5.2.\n• Updated Spanish translation (by DrSimp).\n• Make music and sfx volumes configurable on mobile devices (by Ikariya).\n\nFixed:\n\n• Japanese translation fixes (by neparij).\n• Akira CG display and gallery page navigation (by Ikariya).\n• Properly hide sprites when adult content is disabled (by Ikariya).\n• Iwanako's letter during Hanako's route in Russian (by Ikariya).\n\nAbout file replacement of KS Steam version:\n\nThere was recently an issue replacing files of Katawa Shoujo's Steam release with KS:RE files. Our method was implemented for those who would like to enjoy KS:RE with integrated Steam achievements. The issue is now fixed and files can be replaced once again! Our guide on Steam has also been updated accordingly.\n\nSpecial Thanks:\n\nWe would like to give a huge shoutout to @CheeseOmelette for providing Brazilian Portuguese translation! We have been watching his translation development from the very beginning, written entirely by him, by hand, taking him more than a year to complete. It has been an enormous project to him and an even bigger contribution to our port, and we can not thank him enough for providing this translation. We hope that all of our fans speaking the language will enjoy his work which is now available in this release!",
+          "downloadURL": "https://github.com/fleetingheart/ksre/releases/download/v2.0.4/KSRE-ios.ipa",
+          "size": 1485058455
+        }
+      ]
     }
   ]
 }
