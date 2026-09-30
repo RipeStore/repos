@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "dev.kartpad.app",
     "com.meleepad.MeleePad",
-    "com.sunpad.SunPad",
-    "dev.naveed-gung.monolith"
+    "com.sunpad.SunPad"
   ],
   "apps": [
     {
@@ -3231,11 +3231,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.0",
-          "date": "2026-09-29T08:16:44Z",
-          "localizedDescription": "KartPad 0.6.0 for Android and iPhone/iPad. The apps below contain no game code: you make the game part yourself with PadForge, on your own Windows, Mac or Linux computer, from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps: Get KartPad.\n\nWhat you need:\n\n• Your own Mario Kart Wii disc image: PAL (Europe) RMCP01 revision 0, as ISO, WBFS or RVZ.\n• Android: a Windows, Mac or Linux computer, and an ARM64 phone with Vulkan and Android 9+.\n• iPhone/iPad: an Apple Silicon Mac with Xcode, iOS/iPadOS 16+, and AltStore, SideStore or Sideloadly.\n\nGet it:\n\n• Android: install KartPad-v0.6.0-android.apk below (it updates 0.5.x in place and keeps your saves). Copy KartPad-v0.6.0-android-personal.so from PadForge to your phone, open KartPad, tap the Mario Kart Wii card and choose it with Choose file.\n• iPhone and iPad: install KartPad-v0.6.0-ios-personal.ipa from PadForge with AltStore, SideStore or Sideloadly, over your existing KartPad to keep saves.\n\nEach KartPad version needs its own game pack, so after updating, run PadForge again.\n\nWhat's new:\n\n• One version number, 0.6.0 (build 240), for Android, iPhone/iPad and Mac.\n• Android asks for the game pack the first time you play and keeps one pack per KartPad version. If adding it fails, for example because the phone is full, it tells you why.\n• Disc-image import uses your own common-key.bin. An extracted game folder needs no key.\n\nFiles:\n\n• KartPad-v0.6.0-android.apk: the Android app without game code, signed with the same key as 0.5.4.\n• KartPad-v0.6.0-ios-unsigned.ipa: the iPhone/iPad app without game code. PadForge adds your game pack to it; you install PadForge's result, not this file.\n• KartPad-v0.6.0-padforge.json: the recipe PadForge follows for this version.\n• SHA256SUMS: checksums for the files above.\n\nBoth apps were built from commit b6348e9. The v0.6.0 tag adds only the README, the PadForge recipe and a CI test on top of it.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.6.0/KartPad-v0.6.0-ios-unsigned.ipa",
-          "size": 8633023,
+          "version": "0.6.1",
+          "date": "2026-09-30T04:49:41Z",
+          "localizedDescription": "KartPad 0.6.1 for Android and iPhone/iPad. The apps below contain no game code: you make the game part yourself with PadForge, on your own Windows, Mac or Linux computer, from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps: Get KartPad.\n\nAlready playing 0.6.0? You can stay on it. Updating means running PadForge again, because each KartPad version needs its own game pack. This release mainly makes the first install easier.\n\nWhat's new:\n\n• No Dolphin or key needed for new players. PadForge (0.1.8 or newer) now also saves a KartPad game data folder next to your game pack. Copy it to your device and import it with Import from Extracted Game Data Folder (Android) or Import from Extracted Folder (iPhone/iPad).\n• Android: Help → Replace Game Pack lets you swap the game pack you added, for example after rebuilding it. Your saves and game data stay as they are.\n\nWhat you need:\n\n• Your own Mario Kart Wii disc image: PAL (Europe) RMCP01 revision 0, as ISO, WBFS or RVZ.\n• Android: a Windows, Mac or Linux computer, and an ARM64 phone with Vulkan and Android 9+.\n• iPhone/iPad: an Apple Silicon Mac with Xcode, iOS/iPadOS 16+, and AltStore, SideStore or Sideloadly.\n\nGet it:\n\n• Android: install KartPad-v0.6.1-android.apk below (it updates 0.5.x and 0.6.0 in place and keeps your saves). Copy KartPad-v0.6.1-android-personal.so from PadForge to your phone, open KartPad, tap the Mario Kart Wii card and choose it with Choose file.\n• iPhone and iPad: install KartPad-v0.6.1-ios-personal.ipa from PadForge with AltStore, SideStore or Sideloadly, over your existing KartPad to keep saves.\n• New to KartPad? Import the KartPad game data folder PadForge saved. A disc image also works if you have your own Wii's common-key.bin (not included). Updating from 0.5.x or 0.6.0? This is already done.\n\nFiles:\n\n• KartPad-v0.6.1-android.apk: the Android app without game code, signed with the same key as 0.5.4 and 0.6.0.\n• KartPad-v0.6.1-ios-unsigned.ipa: the iPhone/iPad app without game code. PadForge adds your game pack to it; you install PadForge's result, not this file.\n• KartPad-v0.6.1-padforge.json: the recipe PadForge follows for this version.\n• SHA256SUMS: checksums for the files above.\n\nBoth apps were built from the 0.6.1 branch (c96e2c5; the Android app from 50690eb, which differs only in the README and install guides). Tested before release with packs made by PadForge 0.1.8 on a Mac and on Windows 11: the iPhone app on an iPhone 14 (updated in place, saves kept, raced), the Android app updated in place from 0.6.0 (raced, then Help → Replace Game Pack with the Windows-made pack and raced again), and a brand-new Android install that imported the KartPad game data folder with no key (raced).",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.6.1/KartPad-v0.6.1-ios-unsigned.ipa",
+          "size": 8633028,
           "minOSVersion": "16.0"
         }
       ],
@@ -3623,8 +3623,8 @@
       "name": "Navic",
       "bundleIdentifier": "paige.Navic",
       "developerName": "ssalggnikool",
-      "subtitle": "Subsonic music streaming app for Android and iOS",
-      "localizedDescription": "Subsonic music streaming app for Android and iOS.",
+      "subtitle": "Subsonic music streaming app for Android",
+      "localizedDescription": "Subsonic music streaming app for Android.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/paige.Navic.png",
       "tintColor": "#6156e2",
       "category": "entertainment",
@@ -3679,7 +3679,7 @@
       "bundleIdentifier": "com.baconmania.jessi",
       "developerName": "Baconium",
       "subtitle": "JESSI (Java Edition Servers Suck on Ios) is a jailed app for ios 14+ that runs minecraft servers directly on device!",
-      "localizedDescription": "Basic Information:\n\nJESSI is an iOS app that runs Minecraft: Java Edition servers natively on iOS, targeting iOS 14+. JESSI runs on both jailed and jailbroken iOS, only requiring JIT to do so.\n\nJESSI was designed specifically to be as easy to use as possible, even if you have never hosted a Minecraft server before. The UI is simple to understand and use, making JESSI the best beginner friendly option to host a minecraft server.\n\nJESSI is still being actively developed, and plenty of more features will come. Here's a list of some of JESSI's most important features:\n\n• Ability to run minecraft servers (duh).\n\n• Server memory allocation slider.\n• Easy to use server creator, with support for several server softwares.\n• A file manager that allows you to easily manage several servers.",
+      "localizedDescription": "Basic Information:\n\nJESSI is an iOS app that runs Minecraft: Java Edition servers natively on iOS, targeting iOS 14+. JESSI runs on both jailed and jailbroken iOS, only requiring JIT to do so.\n\nJESSI was designed specifically to be as easy to use as possible, even if you have never hosted a Minecraft server before. The UI is simple to understand and use, making JESSI the best beginner friendly option to host a minecraft server.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.baconmania.jessi.png",
       "tintColor": "#604020",
       "category": "games",
