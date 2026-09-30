@@ -10,8 +10,8 @@
   "tintColor": "#6156e2",
   "featuredApps": [
     "dev.kartpad.app",
-    "com.meleepad.MeleePad",
-    "com.sunpad.SunPad"
+    "dev.twilitrealm.dusk",
+    "com.noopapp.noop"
   ],
   "apps": [
     {
@@ -1899,11 +1899,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "2.0.2",
-          "date": "2026-09-25T07:21:33Z",
-          "localizedDescription": "What's new:\n\n• Added: Save Manager can now import saves between different regions, and between GC/Wii. (, 97ca92a056).\n• Added: Speedrun Mode now displays enabled mods. (7b917f20d1).\n• Fixed: Golden Wolf transition fades displaying incorrectly in Mirror Mode.\n• Fixed: \"Double Defense\" Magic Armor cheat preventing damage from attacks that normally deal a quarter heart.\n• Fixed: Shad not awarding the restored Dominion Rod when his randomized reward was the original item.\n• Fixed: Speedrun Mode allowing \"Easy Quick Spin\" and the debug camera's \"Freeze Time\" setting. (c55cc18003).\n• Fixed: Default B/X button mappings on Xbox One and Xbox 360 controllers.\n• Changed: Updated bundled Dusklight Randomizer to v1.0.5. (b245c6bef8).\n\n• Fixed a crash when rapidly switching game modes, and duplicate entries in the Excluded Locations list. (, ).\n• Prevent deleting seeds that are in use by a save file.\n• Fixed Ooccoo warps, boss-room death respawns, and returning to the dungeon entrance with entrance randomization. (Randomizer 13aa72b12d, 44d508ef56, 9339fdd6f4).\n• Fixed boss exits when both dungeon and boss entrances are randomized. (Randomizer 194775e07b).\n• Fixed entrance randomizer softlocks at Telma's Bar and behind the fences in Bulblin Camp. (Randomizer dc5ffa72c5, a4d3ce2b54, f7c415c31a).\n• Fixed Midna jumps into Coro's house and missing objects in Kakariko Graveyard. (Randomizer c8b7e3f1b2, a4c73d5cb9).\n• Fixed returning to spawn during the opening sewer sequence. (Randomizer 303f9fed5b).\n• Fixed other item drops in Ook's arena giving the Gale Boomerang's randomized reward. (Randomizer 6472dbded6).\n• Fixed the Cave of Ordeals Great Fairy reward being obtainable repeatedly. (Randomizer 72f2732ada).\n• More logic fixes in Faron, Eldin, and the Palace of Twilight, including requirements for Midna's charge attack. (Randomizer 7e4ea62f78, 904c4f73b3, 952f44e504).\n• Fixed the Sacred Grove Portal not being part of Starting Inventory in the permalink. (Randomizer 4b6b5641d2).\n• Spoiler logs now use valid YAML. (Randomizer c05ef76843).\n\nThanks to all contributors: @Abzol @alancorrals95 @Antidote @encounter @gymnast86 @Irastris @kamilink7 @MelonSpeedruns @PJB3005 @SuperDude88 @TakaRikka.",
-          "downloadURL": "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.2/Dusklight-v2.0.2-ios-arm64.ipa",
-          "size": 37085037,
+          "version": "2.0.3",
+          "date": "2026-09-30T07:06:44Z",
+          "localizedDescription": "What's new:\n\n• Added: New InterpService: Provides interpolation for custom model rendering.\n• Added: GfxService v1.4: Provides backing textures for resolved framebuffers. (, ).\n• Fixed: HTTPS requests failing in Linux AppImage builds because system CA certificates weren't found. (Borealis 4ac5e7052a).\n• Fixed: WebSocket service being unavailable in Linux AppImage builds. (40457c6adb, Borealis 4ac5e7052a).\n• Fixed: False memory card corruption errors after resetting and switching game modes. (7b60dc8f24).\n• Changed: Significantly improved Mod Manager performance, especially with a large number of mods. (ceda410434, eb5ad19dbc).\n• Changed: Significantly improved Logs window performance. (55e2904ce0).\n• Changed: Updated bundled Dusklight Randomizer to v1.0.6. (b9c370d5d1).\n\n• Fixed entrance randomizer logic incorrectly treating human and wolf abilities as interchangeable in Twilight. (Randomizer cfa99c1944).\n• Fixed some logical areas not taking into account that you could change time of day with Midna. (Randomizer cfa99c1944).\n• Fixed boss exits when dungeon entrances are shuffled but boss entrances are not. (Randomizer 6f650ca077).\n• Fixed inaccessible doors in Kakariko Twilight before obtaining the village's warp portal, which could cause entrance randomizer softlocks. (Randomizer 12d7cf807a).\n• Fixed the map not appearing after howling at the Snowpeak Howling Stone. (Randomizer 2d97aa9a6c).\n• Prevented starting the broken goat-catching sequence with Bo in Ordon Village. (Randomizer 4f5bb4e14d).\n• Fixed some item checks in Ordon Village and south of Castle Town in alternate story states. (Randomizer 4f5bb4e14d, e8d2c020c2).\n• Corrected the logic connection between Snowpeak Ruins' double Freezard room and the west courtyard balcony. (Randomizer 325fcf9358).\n\nThanks to all contributors: @dbalatoni13 @encounter @gymnast86 @PJB3005.",
+          "downloadURL": "https://github.com/TwilitRealm/dusklight/releases/download/v2.0.3/Dusklight-v2.0.3-ios-arm64.ipa",
+          "size": 37056541,
           "minOSVersion": "14.0"
         }
       ],
@@ -2042,10 +2042,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-29T13:44:34Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-29 · 62eab51.",
+          "date": "2026-09-30T06:24:53Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-30 · fbd129f.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21877576,
+          "size": 21877598,
           "minOSVersion": "17.0"
         }
       ],
@@ -3231,11 +3231,11 @@
       ],
       "versions": [
         {
-          "version": "0.6.1",
-          "date": "2026-09-30T04:49:41Z",
-          "localizedDescription": "KartPad 0.6.1 for Android and iPhone/iPad. The apps below contain no game code: you make the game part yourself with PadForge, on your own Windows, Mac or Linux computer, from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps: Get KartPad.\n\nAlready playing 0.6.0? You can stay on it. Updating means running PadForge again, because each KartPad version needs its own game pack. This release mainly makes the first install easier.\n\nWhat's new:\n\n• No Dolphin or key needed for new players. PadForge (0.1.8 or newer) now also saves a KartPad game data folder next to your game pack. Copy it to your device and import it with Import from Extracted Game Data Folder (Android) or Import from Extracted Folder (iPhone/iPad).\n• Android: Help → Replace Game Pack lets you swap the game pack you added, for example after rebuilding it. Your saves and game data stay as they are.\n\nWhat you need:\n\n• Your own Mario Kart Wii disc image: PAL (Europe) RMCP01 revision 0, as ISO, WBFS or RVZ.\n• Android: a Windows, Mac or Linux computer, and an ARM64 phone with Vulkan and Android 9+.\n• iPhone/iPad: an Apple Silicon Mac with Xcode, iOS/iPadOS 16+, and AltStore, SideStore or Sideloadly.\n\nGet it:\n\n• Android: install KartPad-v0.6.1-android.apk below (it updates 0.5.x and 0.6.0 in place and keeps your saves). Copy KartPad-v0.6.1-android-personal.so from PadForge to your phone, open KartPad, tap the Mario Kart Wii card and choose it with Choose file.\n• iPhone and iPad: install KartPad-v0.6.1-ios-personal.ipa from PadForge with AltStore, SideStore or Sideloadly, over your existing KartPad to keep saves.\n• New to KartPad? Import the KartPad game data folder PadForge saved. A disc image also works if you have your own Wii's common-key.bin (not included). Updating from 0.5.x or 0.6.0? This is already done.\n\nFiles:\n\n• KartPad-v0.6.1-android.apk: the Android app without game code, signed with the same key as 0.5.4 and 0.6.0.\n• KartPad-v0.6.1-ios-unsigned.ipa: the iPhone/iPad app without game code. PadForge adds your game pack to it; you install PadForge's result, not this file.\n• KartPad-v0.6.1-padforge.json: the recipe PadForge follows for this version.\n• SHA256SUMS: checksums for the files above.\n\nBoth apps were built from the 0.6.1 branch (c96e2c5; the Android app from 50690eb, which differs only in the README and install guides). Tested before release with packs made by PadForge 0.1.8 on a Mac and on Windows 11: the iPhone app on an iPhone 14 (updated in place, saves kept, raced), the Android app updated in place from 0.6.0 (raced, then Help → Replace Game Pack with the Windows-made pack and raced again), and a brand-new Android install that imported the KartPad game data folder with no key (raced).",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.6.1/KartPad-v0.6.1-ios-unsigned.ipa",
-          "size": 8633028,
+          "version": "0.7.2",
+          "date": "2026-09-30T08:49:26Z",
+          "localizedDescription": "KartPad 0.7.2 for Android and iPhone/iPad. Your game pack keeps working: this update needs no new pack.\n\nThe apps below contain no game code: you make the game part yourself with PadMint, on your own Windows, Mac or Linux computer, from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps: Get KartPad.\n\nUpdating from 0.7.0 or 0.7.1:\n\n• Android: install KartPad-v0.7.2-android.apk below over your current KartPad. Your saves and game pack stay.\n• iPhone and iPad: run PadMint and choose iPhone/iPad again. It reuses your game pack, so the new IPA takes about a minute and a half. Install it over your existing KartPad to keep saves.\n\nComing from 0.6.x? Follow the full steps: 0.7.0 and later need one new game pack.\n\nWhat's new:\n\nThese are fixes we promised for \"the next update\" in late September. They were ready but missed the 0.6 and 0.7 releases. Sorry for the wait.\n\n• No more fast-forward after switching apps (#330). After KartPad has been in the background, the game resumes at normal speed instead of racing ahead to catch up.\n• iPhone and iPad launch without the flicker (#327): KartPad opens on a black screen, and the game chooser no longer flashes when you've saved a choice.\n• Android, Adreno 8xx phones: Character Graphics Test → Automatic now turns on the character fix for these GPUs by itself (#329), and characters on the Galaxy S24 use the same fix path (#104).\n• Android: a little less work per frame when the character fix is on (#316).\n\nStill open: PowerVR support (#304) needs a graphics-library update and isn't in this release.\n\nFiles:\n\n• KartPad-v0.7.2-android.apk: the Android app without game code, signed with the same key as earlier versions.\n• KartPad-v0.7.2-ios-unsigned.ipa: the iPhone/iPad app without game code. PadMint adds your game pack to it; you install PadMint's result, not this file.\n• KartPad-v0.7.2-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums for the files above.\n\nTested before release with PadMint 0.2.0: the Android app updated in place from 0.7.1 kept its game pack and raced; after 30 seconds in the background it resumed at normal speed (the race timer advanced 10.57 s in 10.62 s). On an iPhone 14, PadMint reused the game pack (compile step 2 seconds), and the new app installed in place with saves kept and raced. The Adreno fixes are not yet confirmed on an Adreno phone; please tell us how they work on yours.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.2/KartPad-v0.7.2-ios-unsigned.ipa",
+          "size": 8633285,
           "minOSVersion": "16.0"
         }
       ],
@@ -3685,11 +3685,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "1.0",
-          "date": "2026-03-30T23:25:32Z",
-          "localizedDescription": "Changelog:\n\nJava 25 support (required for minecraft 26.1+).",
-          "downloadURL": "https://github.com/Baconium/JESSI/releases/download/1.0.1/JESSI.ipa",
-          "size": 9284359,
+          "version": "1.1",
+          "date": "2026-09-30T04:56:03Z",
+          "localizedDescription": "Changelog:\n\n• added a built in JIT enabler! you no longer need to use StikDebug in order to enable JIT. this currently only supports iOS 17.4+, but I plan on adding a method that uses darksword in the future.\n• removed the swipe gestures that mostly just got in the way of deleting servers/files.\n• added support for java 8 on iOS 26+.\n\n• added an automatic resource pack merger, which allows you to install multiple resource packs on your server.\n\n• fixed maxpro's bug, as well as plenty of other random bugs.\n• fixed playit.gg integration.\n• minor UI/UX enhancements.\n• added a couple of easter eggs.\n• removed herobrine.",
+          "downloadURL": "https://github.com/Baconium/JESSI/releases/download/1.1/JESSI.ipa",
+          "size": 12086786,
           "minOSVersion": "14.0"
         }
       ],
@@ -4130,7 +4130,7 @@
         {
           "version": "0.2.0",
           "date": "2026-09-29T22:59:20Z",
-          "localizedDescription": "What you need:\n\n• Your own GameCube Super Smash Bros. Melee, USA (GALE01, v1.00 or v1.02), as a disc image.\n• An Apple Silicon Mac with Xcode, rustup with rustup toolchain install 1.88.0 --target aarch64-apple-ios, brew install ripgrep, and about 30 GB of free space.\n• An iPhone or iPad on iOS/iPadOS 16 or later, and AltStore Classic, SideStore or Sideloadly.\n\nGet it:\n\n• Install the IPA PadForge saves with your sideloading tool, over an existing MeleePad to keep your data, then tap Import Game Data and choose the same disc image. The IPA contains code made from your disc: keep it to yourself.\n\nFiles:\n\n• MeleePad-v0.2.0-ios-unsigned.ipa: the app without game code or Nintendo keys (content check passed).\n• MeleePad-v0.2.0-padforge.json: the recipe PadForge follows for this version.\n• SHA256SUMS: checksums of both.",
+          "localizedDescription": "What you need:\n\n• Your own GameCube Super Smash Bros. Melee, USA (GALE01, v1.00 or v1.02), as a disc image.\n• An Apple Silicon Mac with Xcode, rustup with rustup toolchain install 1.88.0 --target aarch64-apple-ios, brew install ripgrep, and about 30 GB of free space.\n• An iPhone or iPad on iOS/iPadOS 16 or later, and AltStore Classic, SideStore or Sideloadly.\n\nGet it:\n\n• Install the IPA PadMint saves with your sideloading tool, over an existing MeleePad to keep your data, then tap Import Game Data and choose the same disc image. The IPA contains code made from your disc: keep it to yourself.\n\nFiles:\n\n• MeleePad-v0.2.0-ios-unsigned.ipa: the app without game code or Nintendo keys (content check passed).\n• MeleePad-v0.2.0-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums of both.",
           "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.0/MeleePad-v0.2.0-ios-unsigned.ipa",
           "size": 15739487,
           "minOSVersion": "16.0"
@@ -4161,7 +4161,7 @@
         {
           "version": "0.2.0",
           "date": "2026-09-29T22:36:39Z",
-          "localizedDescription": "What you need:\n\n• Your own GameCube Super Mario Sunshine, USA (GMSE01, revision 0), as a disc image.\n• An Apple Silicon Mac with Xcode, and about 30 GB of free space.\n• An iPhone or iPad on iOS/iPadOS 16 or later, and AltStore Classic, SideStore or Sideloadly.\n\nGet it:\n\n• Install the IPA PadForge saves with your sideloading tool, over an existing SunPad to keep your saves. Then open ••• → Game Data & Saves → Import or Reimport Game Data and choose the same disc image in Files. The IPA contains code made from your disc: keep it to yourself.\n\nFiles:\n\n• SunPad-v0.2.0-ios-unsigned.ipa: the app without game code or Nintendo keys (content check passed).\n• SunPad-v0.2.0-padforge.json: the recipe PadForge follows for this version.\n• SHA256SUMS: checksums of both.",
+          "localizedDescription": "What you need:\n\n• Your own GameCube Super Mario Sunshine, USA (GMSE01, revision 0), as a disc image.\n• An Apple Silicon Mac with Xcode, and about 30 GB of free space.\n• An iPhone or iPad on iOS/iPadOS 16 or later, and AltStore Classic, SideStore or Sideloadly.\n\nGet it:\n\n• Install the IPA PadMint saves with your sideloading tool, over an existing SunPad to keep your saves. Then open ••• → Game Data & Saves → Import or Reimport Game Data and choose the same disc image in Files. The IPA contains code made from your disc: keep it to yourself.\n\nFiles:\n\n• SunPad-v0.2.0-ios-unsigned.ipa: the app without game code or Nintendo keys (content check passed).\n• SunPad-v0.2.0-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums of both.",
           "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.0/SunPad-v0.2.0-ios-unsigned.ipa",
           "size": 12259719,
           "minOSVersion": "16.0"
