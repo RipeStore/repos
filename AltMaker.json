@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.miketigas.OnionBrowser",
     "com.joemattiello.iCube",
-    "app.mangatan.mangatan",
-    "com.willfaust.madeora"
+    "app.mangatan.mangatan"
   ],
   "apps": [
     {
@@ -1747,11 +1747,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "3.4.1",
-          "date": "2026-08-11T16:27:51Z",
-          "localizedDescription": "• Fixed IP leaks during DNS prefetch found by Mysk: https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/ (The other leaks are mitigated by Lockdown Mode in Onion Browser, included in Silver and Gold security levels.).\n• Updated libevent to 2.1.13.\n• Updated Japanese and Pashto translations.",
-          "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.1/OnionBrowser.ipa",
-          "size": 39611914,
+          "version": "3.4.2",
+          "date": "2026-10-01T16:15:38Z",
+          "localizedDescription": "• Fixed bug wtih DNSTT bridge parsing.\n• Updated Tor to 0.4.9.13, OpenSSL to 3.6.4 and liblzma to 5.8.4.",
+          "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.2/OnionBrowser.ipa",
+          "size": 42091072,
           "minOSVersion": "15.0"
         }
       ],
@@ -4217,6 +4217,32 @@
         ],
         "privacy": {}
       }
+    },
+    {
+      "name": "doer",
+      "bundleIdentifier": "com.ripestore.doer",
+      "developerName": "moliango",
+      "subtitle": "A native iOS client for Linux.do — UIKit + Swift, no SwiftUI in the main app",
+      "localizedDescription": "Features:\n\n• [x] Linux.do browsing — Latest, top, categories, tags, and search, all rendered with native UIKit.\n• [x] Topic detail — Cooked HTML rendered as native text, images, quotes, code, polls, spoilers, oneboxes, tables, videos, and a timeline jumper.\n• [x] Replies & reactions — Reply to topics or floors, like posts, and use Linux.do emoji / Boost.\n• [x] Image viewer — Multi-image swipe, count, share, save, and close.\n• [x] Account & Me — Profile, badges, bookmarks, drafts, browsing history, notifications, and private messages.\n• [x] Auth — Web login, cookie reuse for native requests, and global Cloudflare challenge handling, plus silent session recovery for third-party platforms.\n\n• [x] Share & widget — Share a topic URL into Doer, plus a home-screen quick-launch widget.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
+      "tintColor": "#6156e2",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/moliango/doer@main/assets/default.png",
+        "https://cdn.jsdelivr.net/gh/moliango/doer@main/assets/xiaochegnxu2.png",
+        "https://cdn.jsdelivr.net/gh/moliango/doer@main/assets/me.png",
+        "https://cdn.jsdelivr.net/gh/moliango/doer@main/assets/login.png",
+        "https://cdn.jsdelivr.net/gh/moliango/doer@main/assets/huyan.png"
+      ],
+      "versions": [
+        {
+          "version": "1.8.5.3",
+          "date": "2026-09-28T04:11:27Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/moliango/doer/releases/download/v1.8.5.3/doer-unsigned.ipa",
+          "size": 28033512
+        }
+      ]
     }
   ]
 }
