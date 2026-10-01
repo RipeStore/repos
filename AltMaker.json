@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.tfourj.Palladium",
-    "com.exaltedpixels.LensLinkCamera",
-    "dev.kartpad.app"
+    "com.mori.downloader",
+    "com.meleepad.MeleePad",
+    "com.tfourj.Palladium"
   ],
   "apps": [
     {
@@ -3414,11 +3414,11 @@
       ],
       "versions": [
         {
-          "version": "4.3.3",
-          "date": "2026-09-19T22:01:05Z",
-          "localizedDescription": "What's New in v4.3.3.\n\n• Over-The-Air (OTA) Scraper Updates: Hot-patch scrapers dynamically without reinstalling the app.\n• Scraper Core Rollback: Revert active OTA patches back to the bundled baseline with a confirmation modal.\n\n• Native Folder Opener: Open saved media locations directly in system file managers (Finder, Explorer, Android Files, and iOS Files app).\n• Android All Files Access: Optional storage permission for arbitrary directories.\n\n• Native Security Architecture: Precompiled native binaries linked via native FFI across Windows, macOS, and iOS.\n• Safe-Mode Auto Recovery: Automatically purges invalid patches and falls back to bundled core without crashes.\n• Desktop Native Security Verification: Resolved verification failure on Windows and macOS Tauri.\n• iOS Native Security Verification: Resolved false-positive security error on iOS via native binary bridge.\n• iOS Video Thumbnails: Replaced broken placeholders with native AVFoundation extraction and auto-healing for existing history.\n• Android History Quota: Optimized thumbnail dimensions by ~97% and added auto-recovery pruning to prevent storage quota crashes.\n• Android WebView Decompression: Resolved deflate-raw decompression errors on older WebViews using an ESM inflate fallback.\n• Desktop Path Resolution: Fixed duplicate nested directories by preserving leading slashes and expanding tildes (~).\n• Douyin Parsing: Fixed album and slides extraction by resolving final redirect URLs in native bridges (#13).\n• Android Share Overlay: Fixed syntax error and scope mismatch in history saving.",
-          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.3.3/Mori-v4.3.3-iOS-Unsigned.ipa",
-          "size": 1735771,
+          "version": "4.4.0",
+          "date": "2026-09-30T22:16:05Z",
+          "localizedDescription": "What's New in v4.4.0.\n\n• Custom Fullscreen Video Player: Replaced native WebView fullscreen with a custom cross-platform player featuring a title header, 60fps seek scrubbing, mute toggle, and back-button / Esc navigation.\n\n• Scraper Engine Architecture: Removed binary obfuscation/encryption layer in favor of plain bundled JavaScript (bundle.js) with deterministic OTA hot-patching.\n• Spotify Engine Provider: Migrated Server 2 (SoundLoaders) to the active spotimate.app backend with multipart token authentication.\n\n• History Multi-Photo Previews: Fixed duplicate slide preview in History modal where Image 1 was mistakenly repeated across all slide previews.",
+          "downloadURL": "https://github.com/coflyn/Mori/releases/download/v4.4.0/Mori-v4.4.0-iOS-Unsigned.ipa",
+          "size": 1662745,
           "minOSVersion": "14.0"
         }
       ],
@@ -4128,11 +4128,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.2.0",
-          "date": "2026-09-29T22:59:20Z",
-          "localizedDescription": "What you need:\n\n• Your own GameCube Super Smash Bros. Melee, USA (GALE01, v1.00 or v1.02), as a disc image.\n• An Apple Silicon Mac with Xcode, rustup with rustup toolchain install 1.88.0 --target aarch64-apple-ios, brew install ripgrep, and about 30 GB of free space.\n• An iPhone or iPad on iOS/iPadOS 16 or later, and AltStore Classic, SideStore or Sideloadly.\n\nGet it:\n\n• Install the IPA PadMint saves with your sideloading tool, over an existing MeleePad to keep your data, then tap Import Game Data and choose the same disc image. The IPA contains code made from your disc: keep it to yourself.\n\nFiles:\n\n• MeleePad-v0.2.0-ios-unsigned.ipa: the app without game code or Nintendo keys (content check passed).\n• MeleePad-v0.2.0-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums of both.",
-          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.0/MeleePad-v0.2.0-ios-unsigned.ipa",
-          "size": 15739487,
+          "version": "0.2.1",
+          "date": "2026-09-30T20:43:00Z",
+          "localizedDescription": "What's new:\n\n• Running PadMint again now works. If a MeleePad build stopped partway (or you built an earlier version before), running PadMint again used to stop with \"Use a new output directory\" or \"does not match the source. used to generate cache\". MeleePad now moves the earlier build files aside and carries on.\n• Use PadMint 0.2.5 or newer: it fixes a Mac setting that made some iPhone builds link the wrong libraries.\n\nThe game is the same as 0.2.0.\n\nWhat you need:\n\n• Your own GameCube Super Smash Bros. Melee, USA (GALE01, v1.00 or v1.02), as a disc image.\n• An Apple Silicon Mac with Xcode, rustup with rustup toolchain install 1.88.0 --target aarch64-apple-ios, brew install ripgrep, and about 30 GB of free space.\n• An iPhone or iPad on iOS/iPadOS 16 or later, and AltStore Classic, SideStore or Sideloadly.\n\nGet it:\n\n• Install the IPA PadMint saves with your sideloading tool, over an existing MeleePad to keep your data. New to MeleePad? Tap Import Game Data and choose the same disc image. The IPA contains code made from your disc: keep it to yourself.\n\nFiles:\n\n• MeleePad-v0.2.1-ios-unsigned.ipa: the app without game code or Nintendo keys (content check passed).\n• MeleePad-v0.2.1-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums of both.",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.1/MeleePad-v0.2.1-ios-unsigned.ipa",
+          "size": 15739652,
           "minOSVersion": "16.0"
         }
       ],
