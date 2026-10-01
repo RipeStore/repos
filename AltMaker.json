@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.exaltedpixels.LensLinkCamera",
     "com.joemattiello.iCube",
-    "com.yuroyami.syncplay.iosApp"
+    "app.mangatan.mangatan",
+    "com.willfaust.madeora"
   ],
   "apps": [
     {
@@ -1445,10 +1445,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-01T04:58:22Z",
-          "localizedDescription": "Immutable snapshot of alpha build 177 (6e4bebd).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 177, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-177/Non-Jailbroken.ipa",
-          "size": 93396534,
+          "date": "2026-10-01T09:36:08Z",
+          "localizedDescription": "Immutable snapshot of alpha build 178 (c508e6d).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 178, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-178/Non-Jailbroken.ipa",
+          "size": 93401672,
           "minOSVersion": "17.0"
         }
       ],
@@ -2221,7 +2221,7 @@
         {
           "version": "0.26.0",
           "date": "2026-10-01T01:08:16Z",
-          "localizedDescription": "This release is not on Google Play or the App Store yet.\n\n• iOS: picture-in-picture now works with AVPlayer and KitePlayer.\n• A hosted room can now encrypt its connections. Turn on Encrypt connections when you host. When a server's certificate is not trusted by the system, the app shows its fingerprint and lets you decide.\n• Small drifts between watchers are now corrected with a speed change of half a percent, which nobody notices, instead of a jump.\n• Headset buttons, the lock screen and the notification no longer pause or seek the whole room by accident. On a TV, the remote's media keys still control the room.\n• When a connection fails, the app now says why.\n• Home keeps your five recent rooms under the join key.\n• KitePlayer is now on 0.2.0. Its audio visualizer studies a linked song in seconds and remembers it, and switching between the visualizer and the video no longer cuts the sound.\n• The audio visualizer now asks once before it first turns on, because it can flash. Reduce motion also calms it, with no flashes at all. Two patterns that flashed too often on a busy beat were fixed.\n• ExoPlayer now shows chapters from MKV and MP4 files, and each chapter shows a still frame.\n• The seek bar shows what is buffered with mpv, KitePlayer and AVPlayer.\n• An audio or subtitle track that you pick now carries to the next file, by its language.\n• Subtitle searches now send the episode and the file's hash, for better matches.\n• Media folders show when the app lost access to them. A playlist file that none of your folders holds is marked, and you can point the app to it.\n• The hosted server now limits connections and drops a client that floods it.\n\n• Joining from a link, a shortcut or a Quick Action now works at any time.\n• Screen readers: the room controls stay on screen while a screen reader runs.\n• Android: you can pick the app's language in the system's per-app language setting.\n• Android: a baseline profile makes the app start faster.\n• About now lists the open source licences, and its panel is liquid glass.\n• iOS VLC: updated to VLCKit 4.0.0a24.\n• The log now hides identifying details and limits its size.\n• Notices now fade in and out.\n• Small fixes for Android TV focus, the picture-in-picture offer, mpv volume and ExoPlayer subtitles.\n\nTranslations  <a href=\"https://hosted.weblate.org/engage/syncplay-mobile/\"><img src=\"https://hosted.weblate.org/widget/syncplay-mobile/svg-badge.svg\" alt=\"Translation status\" height=\"20\"></a>:\n\nHelp translate Synkplay on Weblate.",
+          "localizedDescription": "This release is not on Google Play or the App Store yet.\n\n• Extended iOS support for picture-in-picture to AVPlayer and KitePlayer.\n• Implemented secure connection support for servers hosted by the user in the mobile app (and when a server's certificate is not trusted by the system, the app shows its fingerprint and lets you decide).\n• Small drifts between watchers are now corrected with a speed change of 0.5% which nobody notices instead of a jump.\n• Headset buttons, the lock screen and the notification no longer pause or seek the whole room by accident. On a TV, the remote's media keys still control the room.\n• Show a non-generic explicitly-defined error when a connection fails.\n• New Feature: Home keeps your 5 recent rooms remembered (under the join key).\n• New Feature: ExoPlayer now loads chapters from MKV and MP4 files, and each chapter shows a still frame taken from around the time the chapter starts.\n• Enhanced focus control for Android TV.\n• The seek bar shows what is buffered with mpv, KitePlayer and AVPlayer.\n• An audio or subtitle track that you pick now is remembered with the next file by its language.\n• Subtitle searches now send the episode and the file's hash for better matches.\n• Shared playlist quality-of-life change: Media folders show when the app lost access to them + a playlist file that none of your folders holds is now marked as such (and you can point the app to it).\n• The in-app hosted server now limits connections and drops a client that floods it.\n\n• Joining from an invite link, a shortcut or a Quick Action now works at any time.\n• Screen readers: the room controls stay on screen while a screen reader runs.\n• Android: you can pick the app's language in the system's per-app language setting.\n• Android: added a baseline profile inside the APK which makes the app start faster.\n• In-room notifications/notices now fade in and out instead appearing/disappearing out of nowhere.\n• iOS VLC: updated to VLCKit 4.0.0a24.\n• Updated KitePlayer from 0.0.27 to 0.2.0 on both iOS and Android. Major performance gains come with it.\n• The log now hides identifying details and limits its size.\n\nTranslations  <a href=\"https://hosted.weblate.org/engage/syncplay-mobile/\"><img src=\"https://hosted.weblate.org/widget/syncplay-mobile/svg-badge.svg\" alt=\"Translation status\" height=\"20\"></a>:\n\nHelp translate Synkplay on Weblate.",
           "downloadURL": "https://github.com/yuroyami/syncplay-mobile/releases/download/v0.26.0/synkplay-0.26.0-ios.ipa",
           "size": 94047950,
           "minOSVersion": "15.0"
@@ -2422,10 +2422,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-09-29T05:27:31Z",
-          "localizedDescription": "Release v6.1.29:\n\n• Improve production failure diagnostics (5d9fc92).\n• Use repository URLs for extension sources (f88a263).\n• Fix remote novel chapter positioning (e36af7b).\n• Recover Fast dictionaries after incomplete restores (4a38800).\n• Automatically select sentence audio for video OCR (6cac7b0).\n• Restore novel positions at rendered chapter boundaries (00246e0).\n• Keep continuous reader chapters stable during alignment (7911b2c).\n• Stabilize remote EPUB navigation and restore (98d3c3b).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.29/Manatan-v6.1.29-iOS.ipa",
-          "size": 369195698,
+          "date": "2026-10-01T09:18:12Z",
+          "localizedDescription": "Release v6.1.30:\n\n• Retry transient extension server builds (85031053).\n• Prevent illustrated novel reader stalls during language detection (34063d54).\n• Fix novel reader presentation and Komga resume positions (871e8ba9).\n• Fix Komga novel loading, navigation and reading progress (8a2072fb).\n• Generate cloud subtitles in the active profile language (9d410e24).\n• Clarify manga reader settings labels (a42d6cd1).\n• Keep desktop updates unobtrusive in More (5883973f).\n• Make no-key manga lookup follow text and dismiss reliably (354bc502).\n• Fix Windows runtime artifact activation (3a97ad35).\n• Fix iOS novel text selection dismissal (c064ecdf).\n• Keep continuous reader at its opened chapter boundary (9ec73388).\n• Support importing Mokuro manga folders (db130817).\n• Add secure publisher change confirmation (8db6efb2).\n• Add actionable manga image failure diagnostics (33bf8ee4).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.30/Manatan-v6.1.30-iOS.ipa",
+          "size": 369704429,
           "minOSVersion": "16.1"
         }
       ],
@@ -3825,11 +3825,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.5.4",
-          "date": "2026-09-28T10:25:25Z",
-          "localizedDescription": "• fix(player): ignore short clips for tracking @tapframe.\n• fix(ios): update quickjs to 1.0.15 @tapframe.\n• feat(ratings): star rating row under details actions, fit icon row, episode badge @luqmanfadlli.\n• fix(player): reduce buffer durations @tapframe.\n• fix(details): keep custom posters when returning to a title @tapframe.\n• feat(ratings): in-app ratings synced with Trakt, Simkl and MDBList @luqmanfadlli.\n• fix(library): move header actions onto the Saved/Cloud row @luqmanfadlli.\n• fix(settings): use shared chip on detail page @tapframe.\n• fix(details): replay watched series from first episode @tapframe.\n• fix(player): resume restored player from current position @tapframe.\n• fix(i18n): align episode labels and metadata with tv @tapframe.\n• fix(streams): prevent rotation during binge group lookup @tapframe.\n• fix(profiles): center pin dialog content @tapframe.\n• Plugin timeout (#2091) @paregi12.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.4-beta/Nuvio-0.5.4-Enhanced.ipa",
-          "size": 68808545,
+          "version": "0.5.5",
+          "date": "2026-10-01T05:54:34Z",
+          "localizedDescription": "• feat(visualsubtitlesync) @chrisk325.\n• feat(i18n): add Bengali (বাংলা) language support and UI localization @TanvirSdq.\n• i18n(el): translate new strings and finish the Greek wording sweep @nosvasedis.\n• Fix clearlogo + backdrop @skoruppa.\n• fix(profile): make Profile Insight consistent across devices @luqmanfadlli.\n• Fix hero alignment to follow HeroContentBlock alignment @ThEgIGN.\n• feat(userratings): add shimmer animation to stars @chrisk325.\n• feat(userratings): add animation to the bottomsheet @chrisk325.\n• fix(player): show the swipe-to-seek preview in the new player layout @deejay189393.\n• feat(settings): add Clear Metadata Cache to Advanced settings @luqmanfadlli.\n• perf(profile,library): keep background metadata lookups within API limits @luqmanfadlli.\n• feat(profile,library): add manual refresh and surface load failures @luqmanfadlli.\n\n• fix(debrid): select requested episode files @tapframe.\n• perf(profile): persist Profile Insight title facts across launches @luqmanfadlli.\n• perf(profile): compute Profile Insight stats off the main thread @luqmanfadlli.\n• i18n(vi): update latest Vietnamese strings (#2096) @blueocean2308.\n• Translation improvements and adjustments for Slovak language (#2104) @mmsw91.\n• fix(mdblist): show newest library additions first (#2103) @halibiram.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.5-beta/Nuvio-0.5.5-Enhanced.ipa",
+          "size": 69276861,
           "minOSVersion": "16.1"
         }
       ],
@@ -4190,6 +4190,33 @@
           "size": 1485058455
         }
       ]
+    },
+    {
+      "name": "Madeira",
+      "bundleIdentifier": "com.willfaust.madeora",
+      "developerName": "willfaust",
+      "subtitle": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+      "localizedDescription": "Madeira runs Windows PC games on an iPhone, with no jailbreak. Games run as they are, unmodified, inside a single iOS app.\n\nMadeira is an active research project. Many games start and some play well, but performance and compatibility vary from game to game, and things change quickly. Expect rough edges.\n\nHow it works:\n\niOS apps cannot start other programs, so everything runs in one process: even Wine's server runs as a thread instead of a separate program.\n\nFeatures:\n\n• Game library with artwork, search and a Windows desktop session.\n\n• Controllers: Bluetooth controllers through XInput, plus customisable on-screen touch controls.\n• Keyboard, mouse and trackpad passed through to games as real input.\n• Video and audio for cutscenes and music, through FFmpeg, VideoToolbox and AudioToolbox.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.willfaust.madeora.png",
+      "tintColor": "#001030",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-10-01T08:46:35Z",
+          "localizedDescription": "Madeira runs Windows PC games on iPhone in a single app: FEX-Emu translates x86-64 to ARM64, a Wine 11 fork runs as ARM64EC, DXMT maps Direct3D 11 to Metal, and Direct3D 12 runs natively.\n\nInstall:\n\n• The IPA is ad-hoc signed (no certificate) and carries the app's entitlements, including the increased memory limit. Sideload it with your own Apple ID (SideStore, AltStore, Sideloadly, Plume or similar), which signs it for your device. Settings should show both JIT and Memory+ green before you play.\n• Games need JIT: enable it with StikDebug (the app's Enable JIT button). Settings shows JIT and Memory+ status and says Ready to play when both are on.\n• Requires iOS 17 or later; the interface is designed for iOS 26.\n\nIn this build:\n\n• Liquid metal in place of Liquid Glass on the navigation bar's buttons, the tab bar and the Desktop button, with a metal rim on the tab bar's lens and the search field (MADEIRA_GLASS_SKIN=0 / MADEIRA_LIQUID_METAL=0 in madeira.cfg turn them off).\n• Library: ambient light around game artwork, a card press animation, icon-only tab bar.\n• fastsync is the default sync engine.\n• New app icon.\n\nNot included:\n\nThe Microsoft Visual C++ runtime DLLs are not redistributed (see legal/THIRD-PARTY-NOTICES.md). Building from source: tools/fetch-vcruntime.md.",
+          "downloadURL": "https://github.com/willfaust/Madeira/releases/download/v0.1.0/Madeira-0.1.0.ipa",
+          "size": 142433883,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.kernel.increased-memory-limit",
+          "get-task-allow"
+        ],
+        "privacy": {}
+      }
     }
   ]
 }
