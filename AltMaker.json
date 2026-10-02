@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.husk.app",
-    "com.stremiox.app.native",
-    "com.miketigas.OnionBrowser"
+    "com.baconmania.jessi",
+    "com.noopapp.noop",
+    "com.husk.app"
   ],
   "apps": [
     {
@@ -2042,10 +2042,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-30T06:24:53Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-09-30 · fbd129f.",
+          "date": "2026-10-02T02:01:16Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-10-02 · 08a4998.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21877598,
+          "size": 21882811,
           "minOSVersion": "17.0"
         }
       ],
@@ -3686,10 +3686,10 @@
       "versions": [
         {
           "version": "1.1",
-          "date": "2026-09-30T04:56:03Z",
+          "date": "2026-10-02T03:30:11Z",
           "localizedDescription": "Changelog:\n\n• added a built in JIT enabler! you no longer need to use StikDebug in order to enable JIT. this currently only supports iOS 17.4+, but I plan on adding a method that uses darksword in the future.\n• removed the swipe gestures that mostly just got in the way of deleting servers/files.\n• added support for java 8 on iOS 26+.\n\n• added an automatic resource pack merger, which allows you to install multiple resource packs on your server.\n\n• fixed maxpro's bug, as well as plenty of other random bugs.\n• fixed playit.gg integration.\n• minor UI/UX enhancements.\n• added a couple of easter eggs.\n• removed herobrine.",
-          "downloadURL": "https://github.com/Baconium/JESSI/releases/download/1.1/JESSI.ipa",
-          "size": 12086786,
+          "downloadURL": "https://github.com/Baconium/JESSI/releases/download/1.1.1/JESSI.ipa",
+          "size": 12089113,
           "minOSVersion": "14.0"
         }
       ],
