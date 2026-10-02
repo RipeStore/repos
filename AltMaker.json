@@ -9,8 +9,8 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.willfaust.madeora",
-    "app.mangatan.mangatan",
+    "com.exaltedpixels.LensLinkCamera",
+    "net.flist.solstice",
     "com.joemattiello.iCube"
   ],
   "apps": [
@@ -1445,10 +1445,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-02T06:38:14Z",
-          "localizedDescription": "Immutable snapshot of alpha build 180 (6bd7119).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 180, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-180/Non-Jailbroken.ipa",
-          "size": 93440595,
+          "date": "2026-10-02T13:58:10Z",
+          "localizedDescription": "Immutable snapshot of alpha build 188 (ae374fd).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 188, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-188/Non-Jailbroken.ipa",
+          "size": 93637141,
           "minOSVersion": "17.0"
         }
       ],
@@ -2042,10 +2042,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-10-02T02:01:16Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-10-02 · 08a4998.",
+          "date": "2026-10-02T12:26:42Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-10-02 · c800fb6.",
           "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21882811,
+          "size": 21883299,
           "minOSVersion": "17.0"
         }
       ],
@@ -2318,11 +2318,7 @@
       "tintColor": "#6156e2",
       "category": "utilities",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Dashboard.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details_2.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png"
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png"
       ],
       "versions": [
         {
@@ -2881,12 +2877,12 @@
       "category": "social",
       "versions": [
         {
-          "version": "2026.6.4.55",
-          "date": "2026-07-23T14:55:05Z",
-          "localizedDescription": "Built on Horizon 2.3.3.\n\nThis release rounds out the new mobile notifications on both Android and iOS and fixes the cramped log viewer.\n\nChanges since v2026.6.3:\n\n• Richer message notifications. Incoming messages now vibrate correctly, show an unread count, and collapse into one notification per conversation instead of stacking up.\n• Message notifications are tagged as messages on Android (#14). They now use the system's message category, so they behave correctly with Do Not Disturb allow-lists, notification history, and paired watches.\n• Notifications respect the ring switch on Android (#13). With your phone set to vibrate or silent, an incoming message vibrates instead of pinging out loud. (iOS already honored the silent switch.).\n• Steadier background connection on iOS. The audio keep-alive now recovers after the system resets its media server, so the app is less likely to go quiet while backgrounded.\n• The log viewer fills the screen (#12). The conversation log list now uses the full height of the window instead of being squeezed into a sliver beneath the filters, and it shrinks correctly when the keyboard opens.",
-          "downloadURL": "https://github.com/Fchat-Horizon/Solstice/releases/download/v2026.6.4/Solstice-2026.6.4.ipa",
-          "size": 17963443,
-          "minOSVersion": "14.0"
+          "version": "2026.10.0.71",
+          "date": "2026-10-02T15:24:52Z",
+          "localizedDescription": "Built on Horizon 2.4.0.\n\nSolstice can now pull your chat log history off Horizon on your computer, exporting logs works on both platforms, and a large import no longer freezes the app.\n\nChanges since v2026.6.4:\n\n• Syncing copes with big log folders. Logs transfer one bounded batch at a time in both directions instead of being packed into a single archive, so neither device holds the whole log set in memory and folders that were simply too big to sync now go through. The sync screen shows progress as each batch lands, and a conversation whose stored log turns out to be damaged is reported at the end instead of quietly ending the transfer.\n\n• A large import no longer freezes the app. Importing a desktop backup locked everything up until it finished: 16 seconds for a 58 MB backup, 85 seconds for a 296 MB one. The import now runs in small batches and gives the app room to redraw between them, so it stays responsive throughout.\n\n• Manage Data survives signing out (#17). Its tabs no longer freeze and its dialogs open again after logging out and back in.\n• Tidier sign-in screen. The checkboxes and loading spinner match the rest of the app, the stray theme name under the picker is gone, and the screen now renders in whichever theme you picked rather than only the built-in ones.\n• iOS builds against the current SDK (#20). Rebuilt for the iOS 26 and Xcode 27 SDK with scene-based lifecycle support. The minimum supported version is now iOS 15.\n\nFrom Horizon 2.4.0:\n\n• Dates and times follow your language. Timestamps use your display language's formatting instead of always using English.\n• Translated summaries and correct plurals. The messages shown after an export or import are translated, and counted things (\"5 messages\", \"1 channel\") use the right plural form for your language, including the missing Spanish plural in the export summary.\n• Character pickers show avatars. The character select dropdowns, such as on the profile viewer and the friends dialog, show the selected character's avatar.\n• Friend requests show as pending. Sending a request from the profile viewer no longer lists you as that person's friend before they have accepted.\n• Channels stay grouped. The grace period for pruning grouped channels is more sensible, so channels you joined correctly are no longer ungrouped moments after connecting.\n• Ads and smart filters behave. Smart filters work with \"Colorize ads\" off, a busy ad queue no longer lets ads slip past unfiltered, and changing a filter setting now applies to ads already on screen.\n• The quick switcher respects your channel groups. It follows your group order again.\n• HQ profile pictures toggle without a restart. Turning the setting on or off takes effect immediately.\n• \"Standardize profile fonts\" no longer breaks BBCode. Profiles using characters that parse into brackets render correctly, and emoji stay visible.\n• Guestbook counts are accurate. Guestbooks with more than 15 posts show the real number.\n• Searching the log viewer scrolls properly. Scrolling up while searching loads older messages without having to scroll again.\n• Friend colors in the All Friends tab. Names are no longer all green when you color friends and bookmarks differently.\n• Accessibility fixes. Colorblind mode colors and button text contrast were corrected, and screen reader labels no longer claim every public and private channel is official.\n• Species matching. Lamia and naga are no longer scored as the same species when matching profiles.\n\nThanks:\n\n• @FatCatClient for cleaning up the sign-in screen (#34) and for making the login screen load non-vanilla themes (#38). Their first contributions to Solstice.\n• The Horizon contributors and the Weblate translators behind everything in the section above, who keep the German, Spanish, French, Hungarian, Italian and Russian catalogs current.",
+          "downloadURL": "https://github.com/Fchat-Horizon/Solstice/releases/download/v2026.10.0/Solstice-2026.10.0.ipa",
+          "size": 18005672,
+          "minOSVersion": "15.0"
         }
       ],
       "appPermissions": {
@@ -2911,11 +2907,11 @@
       ],
       "versions": [
         {
-          "version": "1.16.0",
-          "date": "2026-10-01T04:59:50Z",
-          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nChanges:\n\n• Arm remote start explicitly; keep Maximum in speed mode above 1080p.",
-          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.16.0/LensLink-unsigned.ipa",
-          "size": 6738345,
+          "version": "1.16.1",
+          "date": "2026-10-02T17:05:36Z",
+          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nChanges:\n\n• Web API: reject an unknown?src= instead of controlling another source.\n• Plugin: unit test harness, CI job and a fake phone.\n• Plugin: parse HELLO and VIDEO_CONFIG with a bounded JSON reader.\n• iOS app: set brightness through the window scene, not UIScreen.main.",
+          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.16.1/LensLink-unsigned.ipa",
+          "size": 6740564,
           "minOSVersion": "15.0"
         }
       ],
