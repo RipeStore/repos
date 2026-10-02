@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.baconmania.jessi",
-    "com.noopapp.noop",
-    "com.husk.app"
+    "com.willfaust.madeora",
+    "app.mangatan.mangatan",
+    "com.joemattiello.iCube"
   ],
   "apps": [
     {
@@ -1445,10 +1445,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-01T09:36:08Z",
-          "localizedDescription": "Immutable snapshot of alpha build 178 (c508e6d).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 178, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-178/Non-Jailbroken.ipa",
-          "size": 93401672,
+          "date": "2026-10-02T06:38:14Z",
+          "localizedDescription": "Immutable snapshot of alpha build 180 (6bd7119).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 180, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-180/Non-Jailbroken.ipa",
+          "size": 93440595,
           "minOSVersion": "17.0"
         }
       ],
@@ -2422,10 +2422,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-10-01T09:18:12Z",
-          "localizedDescription": "Release v6.1.30:\n\n• Retry transient extension server builds (85031053).\n• Prevent illustrated novel reader stalls during language detection (34063d54).\n• Fix novel reader presentation and Komga resume positions (871e8ba9).\n• Fix Komga novel loading, navigation and reading progress (8a2072fb).\n• Generate cloud subtitles in the active profile language (9d410e24).\n• Clarify manga reader settings labels (a42d6cd1).\n• Keep desktop updates unobtrusive in More (5883973f).\n• Make no-key manga lookup follow text and dismiss reliably (354bc502).\n• Fix Windows runtime artifact activation (3a97ad35).\n• Fix iOS novel text selection dismissal (c064ecdf).\n• Keep continuous reader at its opened chapter boundary (9ec73388).\n• Support importing Mokuro manga folders (db130817).\n• Add secure publisher change confirmation (8db6efb2).\n• Add actionable manga image failure diagnostics (33bf8ee4).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.30/Manatan-v6.1.30-iOS.ipa",
-          "size": 369704429,
+          "date": "2026-10-02T08:37:46Z",
+          "localizedDescription": "Release v6.1.31:\n\n• Restore current Komga bookmarks across devices and reader sessions (93b09227).\n• Preserve episode progress when refreshing server metadata (287e8575).\n• Unify global search controls across video, manga, and novels (40e0ca8b).\n• Open Jellyfin items with canonical web client links (b1de4867).\n• Show full language names in audio track labels (5677c967).\n• Handle Screen Lookup volume navigation in the focused overlay (c8311f74).\n• Preserve and display complete dictionary import details (13deaaa7).\n• Remember audio track choices across episodes and player restarts (b83cec25).\n• Add manual update checks to About on Android and desktop (5db2d02c).\n• Keep cached manga OCR available offline (29399449).\n• Fix local PDF discovery and reader restoration (129da671).\n• Fix PDF reader startup in native apps (3095ad7c).\n• Retry transient Linux dependency installs (c0e266e4).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.31/Manatan-v6.1.31-iOS.ipa",
+          "size": 370036858,
           "minOSVersion": "16.1"
         }
       ],
@@ -3679,7 +3679,7 @@
       "bundleIdentifier": "com.baconmania.jessi",
       "developerName": "Baconium",
       "subtitle": "JESSI (Java Edition Servers Suck on Ios) is a jailed app for ios 14+ that runs minecraft servers directly on device!",
-      "localizedDescription": "Basic Information:\n\nJESSI is an iOS app that runs Minecraft: Java Edition servers natively on iOS, targeting iOS 14+. JESSI runs on both jailed and jailbroken iOS, only requiring JIT to do so.\n\nJESSI was designed specifically to be as easy to use as possible, even if you have never hosted a Minecraft server before. The UI is simple to understand and use, making JESSI the best beginner friendly option to host a minecraft server.",
+      "localizedDescription": "Basic Information:\n\nJESSI is an iOS app that runs Minecraft: Java Edition servers natively on iOS, targeting iOS 14+. JESSI runs on both jailed and jailbroken iOS, only requiring JIT to do so.\n\nJESSI is designed specifically to be as easy to use as possible, even if you have never hosted a Minecraft server before. The UI is simple to understand and use, making JESSI the best beginner friendly option to host a minecraft server.\n\nJESSI is still being actively developed, and plenty of more features will come. Here's a list of some of JESSI's most important features:\n\n• Ability to run minecraft servers (duh).\n\n• Automatic JIT enabler (iOS 17.4+).\n• Server memory allocation slider.\n• Easy to use server creator, with support for several server softwares.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.baconmania.jessi.png",
       "tintColor": "#604020",
       "category": "games",
@@ -4202,11 +4202,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.1.0",
-          "date": "2026-10-01T08:46:35Z",
-          "localizedDescription": "Madeira runs Windows PC games on iPhone in a single app: FEX-Emu translates x86-64 to ARM64, a Wine 11 fork runs as ARM64EC, DXMT maps Direct3D 11 to Metal, and Direct3D 12 runs natively.\n\nInstall:\n\n• The IPA is ad-hoc signed (no certificate) and carries the app's entitlements, including the increased memory limit. Sideload it with your own Apple ID (SideStore, AltStore, Sideloadly, Plume or similar), which signs it for your device. Settings should show both JIT and Memory+ green before you play.\n• Games need JIT: enable it with StikDebug (the app's Enable JIT button). Settings shows JIT and Memory+ status and says Ready to play when both are on.\n• Requires iOS 17 or later; the interface is designed for iOS 26.\n\nIn this build:\n\n• Liquid metal in place of Liquid Glass on the navigation bar's buttons, the tab bar and the Desktop button, with a metal rim on the tab bar's lens and the search field (MADEIRA_GLASS_SKIN=0 / MADEIRA_LIQUID_METAL=0 in madeira.cfg turn them off).\n• Library: ambient light around game artwork, a card press animation, icon-only tab bar.\n• fastsync is the default sync engine.\n• New app icon.\n\nNot included:\n\nThe Microsoft Visual C++ runtime DLLs are not redistributed (see legal/THIRD-PARTY-NOTICES.md). Building from source: tools/fetch-vcruntime.md.",
-          "downloadURL": "https://github.com/willfaust/Madeira/releases/download/v0.1.0/Madeira-0.1.0.ipa",
-          "size": 142433883,
+          "version": "0.1.1",
+          "date": "2026-10-02T08:54:33Z",
+          "localizedDescription": "Fixed:\n\n• Games start on iOS 26 again for free-Apple-ID installs. Those installs get a smaller (63 GB) address map, on which Madeira's JIT memory setup failed, so every launch ended with \"The session could not start\". (#109).\n• Enabling JIT from StikDebug's own app list no longer crashes Madeira when a game starts. Madeira now explains how to enable JIT from its own Enable JIT button instead. (#109).\n• When a session can't start, Madeira now says why. (#109).\n• Games with a shared data section that isn't aligned to the iPhone's 16 KB memory pages now load. (#110).\n• Small 64-bit games built without relocation data now start. (#111).\n• The user profile's AppData\\LocalLow folder now exists. Games and Steam components that keep files there work, and some no longer crash at start. (#112).\n• A Steam launch that fails because the game couldn't be loaded now says so, instead of a generic \"code 45\". (#113).\n\nChanged:\n\n• Liquid metal is now a toggle in Settings › Appearance, off by default, with the system's Liquid Glass as the default look. It fades in and out.\n• Dark-mode metal highlights are a little dimmer. The ambient light around library cards is tighter and gentler on very bright artwork.\n• Diagnostic logs now begin with the device, system and signing set-up ([device] lines), with no names or identifiers.\n\nInstall:\n\n• Requires iOS 26 or later.\n• The IPA is ad-hoc signed (no certificate) and carries the app's entitlements, including the increased memory limit. Sideload it with your own Apple ID (SideStore, AltStore, Sideloadly, Plume or similar), which signs it for your device.\n• Enable JIT with Madeira's Enable JIT button (StikDebug). Settings shows JIT and Memory+ with green checks and says Ready to play.\n\nNot included:\n\nThe Microsoft Visual C++ runtime DLLs are not redistributed (see legal/THIRD-PARTY-NOTICES.md). Building from source: tools/fetch-vcruntime.md.",
+          "downloadURL": "https://github.com/willfaust/Madeira/releases/download/v0.1.1/Madeira-0.1.1.ipa",
+          "size": 142473173,
           "minOSVersion": "17.0"
         }
       ],
