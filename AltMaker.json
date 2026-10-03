@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.wrngwrld.Chanyan",
-    "com.exaltedpixels.LensLinkCamera",
-    "net.flist.solstice"
+    "dev.kartpad.app",
+    "com.dmilin.hydra",
+    "com.nuvio.media"
   ],
   "apps": [
     {
@@ -2608,11 +2608,11 @@
       ],
       "versions": [
         {
-          "version": "4.2.2",
-          "date": "2026-09-11T15:26:03Z",
-          "localizedDescription": "What's Changed in Upstream Hydra:\n\nBuilt from upstream commit d336b19 on master.\n\n🔄 Commits Since App Store Release (v4.2.2)::\n\n• d8bad7a Add toggle to mute videos by default (#61).\n• a649c34 mute videos by default cleanup.\n• d336b19 simplify the way the player is passed to the video overlay.\n\nBugfixes:\n\n• In certain conditions, the login page could end up frozen.\n• When changing device orientation while watching a video, the audio track could end up cutting out.",
-          "downloadURL": "https://github.com/RipeStore/hydrabuilder/releases/download/v4.2.2-d336b19/Hydra-v4.2.2-d336b19-unsigned.ipa",
-          "size": 33710330,
+          "version": "4.3.0",
+          "date": "2026-10-03T02:50:43Z",
+          "localizedDescription": "What's Changed in Upstream Hydra:\n\nBuilt from upstream commit 7c3dfff on master.\n\n🔄 Commits Since App Store Release (v4.2.2)::\n\n• d8bad7a Add toggle to mute videos by default (#61).\n• a649c34 mute videos by default cleanup.\n• d336b19 simplify the way the player is passed to the video overlay.\n• 4fe3412 media viewer performance improvements on ios.\n• 85567cf adds a setting for inbox replies when creating a new post.\n• 946a496 text bodies in blurred nsfw or spoiler posts would sometimes not be blurred correctly due to rendering optimizations.\n• 9b77258 pan gestures on zoomed in images would sometimes be counted as a tap by the media viewer overlay.\n• b68627d fixed login breaking due to malformed user agents.\n\n• 4b443c3 adds setting to hide the floating scroll to next comment button.\n• 7c3dfff update info.\n\nBugfixes:\n\n• In certain conditions, the login page could end up frozen.\n• When changing device orientation while watching a video, the audio track could end up cutting out.",
+          "downloadURL": "https://github.com/RipeStore/hydrabuilder/releases/download/v4.3.0-7c3dfff/Hydra-v4.3.0-7c3dfff-unsigned.ipa",
+          "size": 33708186,
           "minOSVersion": "16.4"
         }
       ],
@@ -3231,11 +3231,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.3",
-          "date": "2026-09-30T14:26:39Z",
-          "localizedDescription": "KartPad 0.7.3 for Android and iPhone/iPad. Your game pack keeps working: this update needs no new pack.\n\nThe apps below contain no game code: you make the game part yourself with PadMint from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps: Get KartPad.\n\nWhat's new:\n\nThis release is about making your copy in more places. Use PadMint 0.2.2 or newer.\n\n• iPhone and iPad without a Mac (experimental). PadMint can now make your KartPad IPA on a Windows or Linux computer, no Xcode needed. Choose iPhone or iPad (experimental) in PadMint, then install the IPA with Sideloadly, AltStore or SideStore. Tested: IPAs made on Windows 11 (on ARM, in a virtual machine) and on Ubuntu Linux each raced on an iPhone 14 with saves kept. Ordinary Intel and AMD Windows PCs haven't been tried yet, so please tell us how it goes.\n\nNothing changes in the game or the app itself.\n\nUpdating from 0.7.x:\n\n• Android: install KartPad-v0.7.3-android.apk below over your current KartPad. Your saves and game pack stay.\n• iPhone and iPad: run PadMint and choose iPhone/iPad again. It reuses your game pack, so the new IPA takes a few minutes. Install it over your existing KartPad with the same tool and Apple ID to keep your saves.\n\nComing from 0.6.x? Follow the full steps: 0.7.0 and later need one new game pack.\n\nFiles:\n\n• KartPad-v0.7.3-android.apk: the Android app without game code, signed with the same key as earlier versions.\n• KartPad-v0.7.3-ios-unsigned.ipa: the iPhone/iPad app without game code. PadMint adds your game pack to it; you install PadMint's result, not this file.\n• KartPad-v0.7.3-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums for the files above.\n\nTested before release with PadMint 0.2.2: the Android app updated in place from 0.7.2 kept its game pack and raced at 60 FPS. On an iPhone 14, PadMint made the new IPA from this release, and it installed in place with saves kept and raced.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.3/KartPad-v0.7.3-ios-unsigned.ipa",
-          "size": 8633284,
+          "version": "0.7.4",
+          "date": "2026-10-03T03:33:59Z",
+          "localizedDescription": "KartPad 0.7.4 for Android and iPhone/iPad. Your game pack keeps working: this update needs no new pack.\n\nThe apps below contain no game code: you make the game part yourself with PadMint from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps: Get KartPad.\n\nWhat's new:\n\n• iPhone and iPad: importing the KartPad game data folder works again. In 0.7.3, choosing Import from Extracted Folder… (from the setup screen or the in-game ⋯ menu) could close KartPad or leave the Open button greyed out. The picker now opens your folder where it is and copies the game data into KartPad, without changing your original folder.\n• Android: a renderer fix for phones with PowerVR graphics. It hasn't been confirmed on a PowerVR phone yet, so please tell us how it goes.\n• PadMint reuses a game pack it already made for your disc instead of translating it again, and recovers when a build was interrupted.\n\nYou only import game data once. Updating in place keeps it, so if KartPad doesn't ask for game data, you're ready to play.\n\nUpdating from 0.7.x:\n\n• Android: install KartPad-v0.7.4-android.apk below over your current KartPad. Your saves and game pack stay.\n• iPhone and iPad: run PadMint and choose iPhone/iPad again. It reuses your game pack, so the new IPA takes a few minutes. Install it over your existing KartPad with the same tool and Apple ID to keep your saves.\n\nComing from 0.6.x? Follow the full steps: 0.7.0 and later need one new game pack.\n\nFiles:\n\n• KartPad-v0.7.4-android.apk: the Android app without game code, signed with the same key as earlier versions.\n• KartPad-v0.7.4-ios-unsigned.ipa: the iPhone/iPad app without game code. PadMint adds your game pack to it; you install PadMint's result, not this file.\n• KartPad-v0.7.4-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums for the files above.\n\nTested before release: on an Android emulator, 0.7.3 with a PadMint-made game pack updated in place to this APK, kept its pack and data, and raced at about 60 FPS. In the iOS Simulator, the game data folder imported through the Files picker on first launch and again from the in-game menu, with KartPad staying open. Not yet tested on a physical iPhone, iPad or PowerVR phone. Apps built from 291cd636; the tag points to the merge commit with the same source tree.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.4/KartPad-v0.7.4-ios-unsigned.ipa",
+          "size": 8635033,
           "minOSVersion": "16.0"
         }
       ],
@@ -3825,11 +3825,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.5.5",
-          "date": "2026-10-01T05:54:34Z",
-          "localizedDescription": "• feat(visualsubtitlesync) @chrisk325.\n• feat(i18n): add Bengali (বাংলা) language support and UI localization @TanvirSdq.\n• i18n(el): translate new strings and finish the Greek wording sweep @nosvasedis.\n• Fix clearlogo + backdrop @skoruppa.\n• fix(profile): make Profile Insight consistent across devices @luqmanfadlli.\n• Fix hero alignment to follow HeroContentBlock alignment @ThEgIGN.\n• feat(userratings): add shimmer animation to stars @chrisk325.\n• feat(userratings): add animation to the bottomsheet @chrisk325.\n• fix(player): show the swipe-to-seek preview in the new player layout @deejay189393.\n• feat(settings): add Clear Metadata Cache to Advanced settings @luqmanfadlli.\n• perf(profile,library): keep background metadata lookups within API limits @luqmanfadlli.\n• feat(profile,library): add manual refresh and surface load failures @luqmanfadlli.\n\n• fix(debrid): select requested episode files @tapframe.\n• perf(profile): persist Profile Insight title facts across launches @luqmanfadlli.\n• perf(profile): compute Profile Insight stats off the main thread @luqmanfadlli.\n• i18n(vi): update latest Vietnamese strings (#2096) @blueocean2308.\n• Translation improvements and adjustments for Slovak language (#2104) @mmsw91.\n• fix(mdblist): show newest library additions first (#2103) @halibiram.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.5-beta/Nuvio-0.5.5-Enhanced.ipa",
-          "size": 69276861,
+          "version": "0.5.6",
+          "date": "2026-10-03T01:19:21Z",
+          "localizedDescription": "• fix(settings): restore missing isIos import in AppearanceSettingsPage @luqmanfadlli.\n• feat(details): use desktop hero layout on tablets @tapframe.\n• feat(settings): show restart prompt when layout direction changes @tapframe.\n• fix(ios): declare supported localizations @tapframe.\n• fix(player): auto-play next episode on end after dismissing prompt @tapframe.\n• i18n(vi): update latest Vietnamese strings (#2146) @blueocean2308.\n• Preload next episode sources (#2140) @skoruppa.\n• Fix mising poster fallback in Catalog Screen (#2139) @skoruppa.\n• fix(player): backport automatic skip notifications from Desktop (#2137) @Laskco.\n• fix(player): make Android volume boost audible on Dolby audio @luqmanfadlli.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.6-beta/Nuvio-0.5.6-Enhanced.ipa",
+          "size": 69320719,
           "minOSVersion": "16.1"
         }
       ],
