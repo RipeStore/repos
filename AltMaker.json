@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.tumoflip.unleashedcompanion",
+    "com.exaltedpixels.LensLinkCamera",
     "dev.kartpad.app",
-    "com.stremiox.app.native"
+    "com.willfaust.madeora"
   ],
   "apps": [
     {
@@ -2911,11 +2911,11 @@
       ],
       "versions": [
         {
-          "version": "1.16.2",
-          "date": "2026-10-02T20:45:00Z",
-          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nChanges:\n\n• iOS app: hide list separators between the Start buttons.",
-          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.16.2/LensLink-unsigned.ipa",
-          "size": 6743588,
+          "version": "1.17.0",
+          "date": "2026-10-03T18:24:15Z",
+          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nChanges:\n\n• App Store screenshots from the Simulator.\n• Store screenshots: back to plain 9:41 on the simulator status bar.\n• White balance calibration + camera diagnostics (beta).\n• Camera diagnostics: report model, optics, exposure ranges and lens switch-overs.\n• Add a 2× lens button for the Main camera's full-detail sensor crop.\n• Pinned hold, tray lock button, chip order, natural motion blur.\n• In-app help for the tray lock and natural motion blur (beta).\n• Live screen: clearer tray, lens-row zoom and green screen, auto subject cutoff.\n\n• Green screen: depth format tags, dotted Subject button, EV tap reset.\n• Polish: Format depth tags, one-line rows, 1x lens tap, Options groups, OBS card.\n• Hide zoom controls while green screen depth assist runs.",
+          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.17.0/LensLink-unsigned.ipa",
+          "size": 6889375,
           "minOSVersion": "15.0"
         }
       ],
@@ -3222,7 +3222,7 @@
       "bundleIdentifier": "dev.kartpad.app",
       "developerName": "chrissotraidis",
       "subtitle": "Mario Kart Wii and Retro Rewind, native for iOS, iPadOS, macOS, tvOS, and Android",
-      "localizedDescription": "KartPad:\n\nKartPad builds on WiiCompiled, the original Mario Kart Wii static recompilation project created by patchzyy. WiiCompiled provides the foundational translator and runtime; KartPad maintains the Apple and Android integration, native controls, game chooser, game-data management, packaging, and releases. The projects are independently maintained.\n\nBring your own game data. KartPad requires a legally obtained supported PAL RMCP01 revision 0 Mario Kart Wii image. tvOS remains experimental.\n\nAI disclosure: KartPad uses substantial AI assistance for code, tests, documentation, debugging and maintenance. Some support replies and maintenance tasks are automated. There is no audited percentage of AI-generated code. Build, test and device records describe what was checked. This disclosure concerns KartPad's workflow, not the authorship of its upstream projects.",
+      "localizedDescription": "KartPad:\n\nKartPad builds on WiiCompiled, the original Mario Kart Wii static recompilation project created by patchzyy. WiiCompiled provides the foundational translator and runtime; KartPad maintains the Apple and Android integration, native controls, game chooser, game-data management, packaging, and releases. The projects are independently maintained.\n\nBring your own game data. KartPad requires a legally obtained supported PAL RMCP01 revision 0 Mario Kart Wii image. tvOS remains experimental.\n\nAI disclosure: KartPad uses substantial AI assistance for code, tests, documentation, debugging and maintenance. Some support replies and maintenance tasks are automated. There is no audited percentage of AI-generated code. Build, test and device records describe what was checked. This disclosure concerns KartPad's workflow, not the authorship of its upstream projects.\n\nGet KartPad:\n\nKartPad is free. Download it from the.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.kartpad.app.png",
       "tintColor": "#f02030",
       "category": "games",
@@ -3231,11 +3231,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.6",
-          "date": "2026-10-03T09:49:54Z",
-          "localizedDescription": "KartPad 0.7.6 for Android and iPhone/iPad. Your game pack keeps working: this update needs no new pack.\n\nThe apps below contain no game code: you make the game part yourself with PadMint from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps: Get KartPad.\n\nWhat's new:\n\n• Android: controllers can no longer open the \"Quit the game?\" box by accident (#378). Some controllers send an Escape key along with a button, which opened that box mid-game. KartPad now ignores Escape from controllers. A real keyboard's Escape still works.\n• Android: Report a Problem now includes your controllers. It lists each connected controller's name and the buttons it sends, so if a controller still doesn't work, one report shows what's going wrong. You review the text before posting, and nothing is sent until you do.\n\nUpdating from 0.7.x:\n\n• Android: install KartPad-v0.7.6-android.apk below over your current KartPad. Your saves and game pack stay. If you're on 0.7.5, Update available next to Help takes you here.\n\nComing from 0.6.x? Follow the full steps: 0.7.0 and later need one new game pack.\n\nFiles:\n\n• KartPad-v0.7.6-android.apk: the Android app without game code, signed with the same key as earlier versions.\n• KartPad-v0.7.6-ios-unsigned.ipa: the iPhone/iPad app without game code. PadMint adds your game pack to it; you install PadMint's result, not this file.\n• KartPad-v0.7.6-padmint.json: the recipe PadMint follows for this version.\n• SHA256SUMS: checksums for the files above.\n\nTested before release: on an Android emulator, the public 0.7.3 app with its game pack updated in place to this APK, kept its pack and data, and loaded a race with the menus driven by controller input. Not yet tested with a physical phone or the controllers reported in #378. Apps built from fc8dcf2d; the tag points to the merge commit with the same source tree.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.6/KartPad-v0.7.6-ios-unsigned.ipa",
-          "size": 8633782,
+          "version": "0.7.9",
+          "date": "2026-10-03T18:17:02Z",
+          "localizedDescription": "KartPad 0.7.9 brings back ready-to-play downloads. PadMint is still in beta and has been hard for many of you, especially on Android, so you no longer need it: download, install, and add your own game data the first time you open KartPad.\n\nFull steps: Get KartPad.\n\nYou still need your own Mario Kart Wii (PAL, RMCP01, revision 0): an extracted game data folder (from Dolphin's Extract Entire Disc, or the KartPad game data folder PadMint makes), or your disc image plus your own Wii common key. No disc images, game files or keys are included.\n\nUpdating:\n\n• Android: install the APK over your current KartPad; don't uninstall first. Your saves and game data stay. If you used a PadMint game pack, KartPad no longer needs it and frees the space it took.\n• Mac: replace the old app with the new one. Your settings and saves in ~/Library/Application Support/KartPad stay.\n\nPrefer to build your own?:\n\nPadMint still works for KartPad. It uses KartPad-v0.7.9-ios-for-padmint.ipa (the iPhone app without game code) and the recipe below; don't install that IPA by itself.\n\nChecked before release:\n\n• Mac: this Mac reached a race at 60 FPS.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.9/KartPad-v0.7.9-ios-for-padmint.ipa",
+          "size": 8633896,
           "minOSVersion": "16.0"
         }
       ],
@@ -4202,11 +4202,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.1.2",
-          "date": "2026-10-03T05:43:06Z",
-          "localizedDescription": "Fixed:\n\n• Direct3D 9 and Direct3D 11 games run on iOS 26 again. The graphics layer's built-in shader library was compiled for the newest Metal version (4.1), which only iOS 27 understands, so on iOS 26 every 64-bit D3D11 game and every 32-bit D3D9 and D3D11 game failed at start-up (\"This library is using language version 4.1 which is not supported on this OS\"). The library now targets Metal 3.1, which every supported iOS accepts. Affects v0.1.0 and v0.1.1. (#129).\n\nInstall:\n\n• Requires iOS 26 or later.\n• The IPA is ad-hoc signed (no certificate) and carries the app's entitlements, including the increased memory limit. Sideload it with your own Apple ID (SideStore, AltStore, Sideloadly, Plume or similar), which signs it for your device.\n• Enable JIT with Madeira's Enable JIT button (StikDebug). Settings shows JIT and Memory+ with green checks and says Ready to play.\n\nNot included:\n\nThe Microsoft Visual C++ runtime DLLs are not redistributed (see legal/THIRD-PARTY-NOTICES.md). Building from source: tools/fetch-vcruntime.md.\n\nThanks to Nick (@125hz) for tracking this down.",
-          "downloadURL": "https://github.com/willfaust/Madeira/releases/download/v0.1.2/Madeira-0.1.2.ipa",
-          "size": 142471753,
+          "version": "0.1.3",
+          "date": "2026-10-03T16:49:54Z",
+          "localizedDescription": "New:\n\n• In-app JIT: no StikDebug needed. Madeira can enable JIT by itself through a bundled helper built on StikJIT. On iOS 27 it pairs with the iPhone it runs on: in Settings › Privacy & Security › Developer Mode, tap Pair with Madeira and enter the PIN Madeira shows. No computer needed. On iOS 26, import a pairing file instead. The pairing is kept in the Keychain. StikDebug still works. (#127).\n• Play turns JIT on for you. If JIT is off, Play enables it and then starts the game. The button reads Starting JIT meanwhile.\n• Madeira JIT shortcut (iOS 27, optional). LocalDevVPN's loopback does not work over cellular data. The shortcut connects LocalDevVPN, turns Cellular Data off when there is no Wi-Fi, and puts both back once the game has started, along with any VPN you were using. Add it during setup or in Settings › JIT.\n• Steam Cloud saves for installed Steam games, on by default. Saves sync before and after you play, and the cloud copy is backed up before it is replaced. (#130).\n• A controller as keyboard and mouse, chosen per game, with a Controller binds page. DirectInput is now a per-game choice too. (#128).\n• Setup starts by installing LocalDevVPN when it is missing. It opens once more after this update, so you can pick one of the new JIT options.\n\nFixed:\n\n• Games start faster: Wine starts as soon as the wineserver is ready, not after a fixed 2 s. (#125).\n• Cuphead (#107), Nine Sols (#108) and Hades II (#119, #120) now run, and Steam app info with escaped quotes is read correctly (#118).\n• JIT errors now explain the problem and offer a fix: Pair Again or Connect LocalDevVPN. The error also shows on the Settings tab.\n\nKnown issues:\n\n• With Wi-Fi and Cellular Data both off, LocalDevVPN cannot connect, so JIT cannot be enabled, even with the shortcut. Connect LocalDevVPN while a network is available.\n\nInstall:\n\n• Requires iOS 26 or later. In-app pairing and the Madeira JIT shortcut need iOS 27.\n• If your sideloader asks whether to keep app extensions, keep them: Madeira's in-app JIT runs in one.\n• The IPA is ad-hoc signed (no certificate) and carries the app's entitlements, including the increased memory limit. Sideload it with your own Apple ID (SideStore, AltStore, Sideloadly, Plume or similar), which signs it for your device.\n• First-run setup walks you through JIT. Settings shows JIT and Memory+ with green checks and says Ready to play.\n\nNot included:\n\nThe Microsoft Visual C++ runtime DLLs are not redistributed (see legal/THIRD-PARTY-NOTICES.md). Building from source: tools/fetch-vcruntime.md.\n\nThanks to Dan Perks (@danperks) for in-app JIT and pairing, Jesse (@JesseLovelace) for Steam Cloud saves, faster launches and the game fixes, and Nick (@125hz) for keyboard-and-mouse controllers.",
+          "downloadURL": "https://github.com/willfaust/Madeira/releases/download/v0.1.3/Madeira-0.1.3.ipa",
+          "size": 145554426,
           "minOSVersion": "17.0"
         }
       ],
@@ -4215,7 +4215,9 @@
           "com.apple.developer.kernel.increased-memory-limit",
           "get-task-allow"
         ],
-        "privacy": {}
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Madeira uses the local network to pair with this device for JIT, without a computer."
+        }
       }
     },
     {
