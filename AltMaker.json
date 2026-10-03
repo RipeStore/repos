@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.wrngwrld.Chanyan",
     "com.exaltedpixels.LensLinkCamera",
-    "net.flist.solstice",
-    "com.joemattiello.iCube"
+    "net.flist.solstice"
   ],
   "apps": [
     {
@@ -719,10 +719,10 @@
       "versions": [
         {
           "version": "0.11.5",
-          "date": "2026-09-25T21:04:44Z",
-          "localizedDescription": "• fix: Update file handling and display logic for attachments.\n• feat: Add update checker.",
-          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.11.5-5/Runner.ipa",
-          "size": 33149862,
+          "date": "2026-10-02T21:58:54Z",
+          "localizedDescription": "Video:\n\n• Videos near the screen load ahead of time, so they start almost instantly while you scroll.\n• Opening a video in fullscreen continues it without reloading.\n• Swiping between videos in fullscreen is faster.\n• Drag sideways on a video in a thread to seek.\n\nInterface:\n\n• Menus, navigation bars, settings pages and dialogs now use native iOS components.\n• Liquid Glass styling is kept for large titles, the tab bar and toolbar buttons.\n\nFixes:\n\n• The progress bar no longer goes missing or freezes after seeking.\n• The time display in fullscreen no longer shows 00:00.\n• Lower memory and CPU use while scrolling.",
+          "downloadURL": "https://github.com/NekoSurf/NekoSurf/releases/download/v0.11.5-6/Runner.ipa",
+          "size": 33184105,
           "minOSVersion": "17.6"
         }
       ],
@@ -2318,7 +2318,11 @@
       "tintColor": "#6156e2",
       "category": "utilities",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png"
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Dashboard.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details_2.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png"
       ],
       "versions": [
         {
@@ -2907,11 +2911,11 @@
       ],
       "versions": [
         {
-          "version": "1.16.1",
-          "date": "2026-10-02T17:05:36Z",
-          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nChanges:\n\n• Web API: reject an unknown?src= instead of controlling another source.\n• Plugin: unit test harness, CI job and a fake phone.\n• Plugin: parse HELLO and VIDEO_CONFIG with a bounded JSON reader.\n• iOS app: set brightness through the window scene, not UIScreen.main.",
-          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.16.1/LensLink-unsigned.ipa",
-          "size": 6740564,
+          "version": "1.16.2",
+          "date": "2026-10-02T20:45:00Z",
+          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nChanges:\n\n• iOS app: hide list separators between the Start buttons.",
+          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.16.2/LensLink-unsigned.ipa",
+          "size": 6743588,
           "minOSVersion": "15.0"
         }
       ],
@@ -3247,7 +3251,7 @@
       "bundleIdentifier": "software.iridium",
       "developerName": "intraducine",
       "subtitle": "Experimental iOS Windows-game runtime. Source monorepo; original Iridium code under AGPL-3.0",
-      "localizedDescription": "Iridium:\n\nAn experimental iPhone and iPad Windows-game runtime, with a native game library and touch, keyboard, mouse, and controller integration. Compatibility varies by game and device.\n\nThis monorepo contains Iridium, its runtime forks, and the Madeira runtime source used by the current integration. Game files must be supplied by the user.\n\nOriginal Iridium code is AGPL-3.0-only. Third-party code retains its own licenses. Read LICENSING.md before redistributing. Madeira is credited for the runtime approach and implementation.\n\nGetting the source:\n\nClone this repository. Optional external dependencies are pinned in the root .gitmodules and DEPENDENCIES.json; use git submodule update --init --recursive when preparing them. Some optional upstream test dependencies contain binaries; they are not stored in this repository.",
+      "localizedDescription": "Iridium:\n\nAn experimental iPhone and iPad Windows-game runtime, with a native game library and touch, keyboard, mouse, and controller integration. Compatibility varies by game and device.\n\nOriginal Iridium code is AGPL-3.0-only. Third-party code retains its own licenses. Read LICENSING.md before redistributing. Madeira is credited for the runtime approach and implementation.\n\nGetting the source:\n\nClone this repository. Optional external dependencies are pinned in the root .gitmodules and DEPENDENCIES.json; use git submodule update --init --recursive when preparing them. Some optional upstream test dependencies contain binaries; they are not stored in this repository.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/software.iridium.png",
       "tintColor": "#6156e2",
       "category": "other",
