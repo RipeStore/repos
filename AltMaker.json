@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "app.mangatan.mangatan",
     "com.exaltedpixels.LensLinkCamera",
-    "dev.kartpad.app",
-    "com.willfaust.madeora"
+    "dev.kartpad.app"
   ],
   "apps": [
     {
@@ -2422,10 +2422,10 @@
       "versions": [
         {
           "version": "3.5.0",
-          "date": "2026-10-02T08:37:46Z",
-          "localizedDescription": "Release v6.1.31:\n\n• Restore current Komga bookmarks across devices and reader sessions (93b09227).\n• Preserve episode progress when refreshing server metadata (287e8575).\n• Unify global search controls across video, manga, and novels (40e0ca8b).\n• Open Jellyfin items with canonical web client links (b1de4867).\n• Show full language names in audio track labels (5677c967).\n• Handle Screen Lookup volume navigation in the focused overlay (c8311f74).\n• Preserve and display complete dictionary import details (13deaaa7).\n• Remember audio track choices across episodes and player restarts (b83cec25).\n• Add manual update checks to About on Android and desktop (5db2d02c).\n• Keep cached manga OCR available offline (29399449).\n• Fix local PDF discovery and reader restoration (129da671).\n• Fix PDF reader startup in native apps (3095ad7c).\n• Retry transient Linux dependency installs (c0e266e4).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.31/Manatan-v6.1.31-iOS.ipa",
-          "size": 370036858,
+          "date": "2026-10-03T20:55:44Z",
+          "localizedDescription": "Release v6.1.32:\n\n• Repair cached anime source links and open the correct WebView (af0e542b).\n• Show Hanzi dictionary results in Chinese profiles (a1aaaee3).\n• Add study playback modes and dialogue skipping (8cba695c).\n• Fix kanji dictionary imports with malformed Unicode escapes (5c61da5b).\n• Keep remote EPUB reading progress scoped to the current volume (e731fc0b).\n• Restore dictionary import speed while retaining details (1d819b17).\n• Improve Windows desktop startup performance and reliability (782350a1).\n• Preserve installed package versions across desktop restarts (507ac240).\n• Adapt navigation pins to available window height (cef45be5).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.32/Manatan-v6.1.32-iOS.ipa",
+          "size": 370169829,
           "minOSVersion": "16.1"
         }
       ],
@@ -3233,9 +3233,9 @@
         {
           "version": "0.7.9",
           "date": "2026-10-03T18:17:02Z",
-          "localizedDescription": "KartPad 0.7.9 brings back ready-to-play downloads. PadMint is still in beta and has been hard for many of you, especially on Android, so you no longer need it: download, install, and add your own game data the first time you open KartPad.\n\nFull steps: Get KartPad.\n\nYou still need your own Mario Kart Wii (PAL, RMCP01, revision 0): an extracted game data folder (from Dolphin's Extract Entire Disc, or the KartPad game data folder PadMint makes), or your disc image plus your own Wii common key. No disc images, game files or keys are included.\n\nUpdating:\n\n• Android: install the APK over your current KartPad; don't uninstall first. Your saves and game data stay. If you used a PadMint game pack, KartPad no longer needs it and frees the space it took.\n• Mac: replace the old app with the new one. Your settings and saves in ~/Library/Application Support/KartPad stay.\n\nPrefer to build your own?:\n\nPadMint still works for KartPad. It uses KartPad-v0.7.9-ios-for-padmint.ipa (the iPhone app without game code) and the recipe below; don't install that IPA by itself.\n\nChecked before release:\n\n• Mac: this Mac reached a race at 60 FPS.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.9/KartPad-v0.7.9-ios-for-padmint.ipa",
-          "size": 8633896,
+          "localizedDescription": "KartPad 0.7.9 brings back ready-to-play downloads. PadMint is still in beta and has been hard for many of you, especially on Android, so you no longer need it: download, install, and add your own game data the first time you open KartPad.\n\nFull steps: Get KartPad.\n\nYou still need your own Mario Kart Wii (PAL, RMCP01, revision 0): an extracted game data folder (from Dolphin's Extract Entire Disc, or the KartPad game data folder PadMint makes), or your disc image plus your own Wii common key. No disc images, game files or keys are included.\n\nUpdating:\n\n• Android: install the APK over your current KartPad; don't uninstall first. Your saves and game data stay. If you used a PadMint game pack, KartPad no longer needs it and frees the space it took.\n• iPhone and iPad: install the IPA over your current KartPad with the same tool and Apple ID to keep your saves and game data.\n• Mac: replace the old app with the new one. Your settings and saves in ~/Library/Application Support/KartPad stay.\n\nPrefer to build your own?:\n\nPadMint still works for KartPad. It uses KartPad-v0.7.9-ios-for-padmint.ipa (the iPhone app without game code) and the recipe below; don't install that IPA by itself.\n\nChecked before release:\n\n• Mac: this Mac reached a race at 60 FPS.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.9/KartPad-v0.7.9-ios.ipa",
+          "size": 64479419,
           "minOSVersion": "16.0"
         }
       ],
