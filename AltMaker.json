@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.noopapp.noop",
     "com.rebelancap.perfectdark",
-    "software.iridium",
-    "com.husk.app"
+    "software.iridium"
   ],
   "apps": [
     {
@@ -2042,10 +2042,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-09-17T12:39:24Z",
-          "localizedDescription": "NOOP v11.8.0:\n\nA release about doing more on the strap itself, and about turning off the parts you do not want.\n\nA gym log book, advanced from your wrist:\n\nNOOP now carries an on-device lift log. Build a session, and move between sets with a double-tap on the strap rather than picking the phone up mid-set. It is stored in a new schema with a matching Room twin on Android, and the set metrics are computed by the same engine on both platforms rather than by two that can drift apart.\n\nA Coach that switches off:\n\nThe AI Coach now has a single master switch. Turning it off retires the tab, the generated brief, the home-screen widget and the tray notification, and it stops every request that would otherwise leave the device. This is the whole feature going quiet, not just the screen being hidden.\n\nIts settings moved onto their own screen rather than sitting in a crowded list. Android gained the bottom-bar tab that iPhone already had, Disconnect is now somewhere an iPhone can reach, the current OpenAI models are offered with the catalogue kept up to date, and a rate-limited request shows what the provider actually said instead of a generic failure.\n\nSync the strap from a shortcut:\n\nA Sync Strap App Intent runs a sync from Shortcuts, the Lock Screen or a Home Screen button. A Live Activity shows the offload while it runs, and an optional setting keeps the screen awake for as long as it takes.\n\nReconnecting when the app is off-screen changed underneath that. iOS throttles background scanning hard enough that a strap could sit undiscovered for minutes and then appear seconds after the app came to the foreground. NOOP now asks for the last strap by name in the background, which iOS does honour, and keeps scanning in the foreground so a strap you have switched to is still found.\n\nWorkouts that are easier to keep tidy:\n\nSessions shorter than a minute are discarded rather than cluttering the list, and the list itself splits into Current and Archived so a long history stays navigable. Deleting a workout now clears it from every namespace the list reads, including the copy Apple Health had kept after the store let go of it.\n\nThe WHOOP sports that were missing are selectable, and the icons those exposed are fixed. Auto-detection no longer saves anything on its own: it asks, and waits.\n\nReadings that admit when they failed:\n\nA failed WHOOP 5 flag read was being reported as though it were a value. It now says it failed, on both platforms. The frame integrity verdict reaches every consumer intact rather than being narrowed on the way through, and the strap family NOOP records is the one the connection actually established rather than the one it initially picked.\n\nOn Oura, a notification that tiles exactly into several packets is now read to the end instead of stopping at the first. A young ring no longer adopts an anchor unit ten times too large, settled by adjacency rather than assumption, and a diagnostic reports which ring epoch each sidecar row believes in.\n\nCharts that stop redrawing everything:\n\nWorkouts and Sleep were re-evaluating their entire screens on every live heart-rate tick, roughly once a second whenever a strap was connected. They no longer do. Three charts that had no hover gained a tooltip, two uncapped series are downsampled before drawing, the sleep motion trace computes its peak once rather than per epoch, and the Apple stress level rounds the way Android's already did.\n\nThe steps charts are clearer, with an optional 30-day average card.\n\nApple Health that keeps up:\n\nA re-score that was deferred now publishes to Apple Health once it lands, rather than being missed because the publish already ran. Workouts are observed for live delivery, and a pass running in the background paces itself under the CPU limit iOS enforces instead of being killed by it. A CSV import no longer turns a correct SDNN into RMSSD on the way back out.\n\nLocalization:\n\nChinese is complete in both scripts, across the app and the watch complications. The French recovery and strain words are repaired, and the theme picker says light rather than lightweight.\n\nA gap that had been letting UI copy ship English in every locale is closed. The scan that checks whether a string has a catalogue entry was not looking at the spelling the codebase tells you to prefer, so nothing reported strings that had none. Closing it surfaced the Home screen's own labels and the terms you agree to on first launch, both of which are now translated.\n\n• Add the v46 schema for an in-app strength log, with its Room twin.\n• coach(ios): put Disconnect where iPhone can reach it.\n\n• health(ios): delete the workouts Apple Health kept and the store did not.\n• battery: say whose charge it is on all seven surfaces, not three.\n• nav(android): give Coach the bottom-bar tab it has on iOS.\n• Repair parity governance maintenance flow.\n\n• fix(workouts): make auto-detection confirmation-only.\n• fix: do not report a failed WHOOP 5 flag read as a value.\n• whoop5: guard the failed flag read on every platform, and on Android too.\n• test(sleep): pin the night-caption label and date pairing (#2199).\n• Lift Log: an on-device gym log book, advanced by a double-tap on the strap.\n• i18n(zh): complete the Android locale and carry it to the Apple catalogue.\n• i18n(watch): translate the complications into both Chinese scripts, and build them.\n• i18n(apple): complete zh-Hans in the main catalogue, and take zh-Hant to 79.\n\n• tools(parity): make a one-sided property declarable.\n• analytics(android): Kotlin LiftMetrics twin of the Swift engine (#2099).\n• tools(parity): give the stale-base dead end an exit, then take it.\n• parity_ledger: keep trailing hex digits f/d when stripping literal suffixes.\n• fix(sleep): name a night by the evening it belongs to, not its onset date.\n• i18n(design): complete Chinese, and stop asking anyone to translate previews.\n• i18n(design): repair the French recovery and strain state words.\n• i18n: make the theme picker say light, not lightweight, on both platforms.\n• i18n: drop two dead keys, and gate format specifiers in every locale.\n• Fix Coach rate-limit error details.\n• fix(rescore): let a resumed pass stand down when nothing changed.\n• fix(oura): settle the 0x13 anchor unit by adjacency so a young ring never adopts ticks×10.\n• diag(oura): report which ring epoch each sidecar row believes in.\n• feat(coach): move the coach settings onto their own screen.\n• Propagate the full frame integrity verdict to every consumer.\n• feat(coach): make the live model catalogue reachable, and keep it current.\n• feat(coach): offer the current OpenAI models.\n• fix(oura): read every packet of a notification that tiles exactly into several.\n• test(oura): name the framing test hex helper so it cannot alias a production one.\n\n• Align Apple stress-level rounding with Android.\n• tools(parity): stop the scan walking into build output.\n• feat(workouts): offer the WHOOP sports NOOP was missing, and fix the icons they exposed.\n• stress: take the Apple screen's work off the main actor too.\n• Persist the family the strap actually established.\n• fix: stop the half-open range operator erasing a callsite in the parity scan.\n• feat(coach): offer a master switch that turns the AI Coach off.\n• fix(health): stop a CSV import turning a correct SDNN into RMSSD on export.\n\n• fix(workouts): delete from every namespace the list reads, not just the active strap.\n• feat(workouts): discard sub-minute sessions and split the list into Current and Archived.\n• perf(sleep): compute the motion trace peak once per body evaluation.\n• fix(notif): stop the morning recap arriving at 00:40.\n• feat(health): observe workouts, so a Watch session does not wait for the next app open.\n• fix(timeline): name the active device on the Deep Timeline source row, not a hardcoded \"My WHOOP\".\n• fix(ui): stop stat labels running into their neighbour.\n• fix(health): publish to Apple Health once a deferred re-score lands, and stop a suspended pass deferring every one after it.\n• fix(rescore): pace a backgrounded pass under iOS CPU limits (rebase of #2280).\n• Ios sync shortcut.\n• perf(charts): stop AppModel's 1 Hz tick re-rendering chart screens, and add the missing chart tooltips.\n• i18n: check the catalog key behind String(localized:) copy, and localize the terms and Home strings it surfaces.\n\nNew Contributors:\n\n• @Iskrata made their first contribution.\n• @npapatheodorou made their first contribution.\n\nDownloads — NOOP Staging identity, installs beside the official app (separate data):\n\n• Android — NOOP-android-v11.8.0.apk (com.noop.whoop.staging).\n• macOS — NOOP-macos-v11.8.0.zip (unzip, then right-click → Open).\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa (AltStore / Sideloadly).",
-          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v11.8.0/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21442326,
+          "date": "2026-10-04T04:55:09Z",
+          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-10-04 · f34c4c4.",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
+          "size": 21917702,
           "minOSVersion": "17.0"
         }
       ],
@@ -2377,7 +2377,7 @@
       "bundleIdentifier": "dev.naveed-gung.monolith",
       "developerName": "naveed-gung",
       "subtitle": "Monolith is an offline-first Flutter music player built for local listening, managed downloads, playlist control, and system-grade playback surfaces across Android and iOS",
-      "localizedDescription": "Monolith:\n\nA personal music player for iOS and Android. Bring your own music, keep a local collection, and listen with the screen locked.\n\nv1.4.6 · Build 15: iOS lock-screen and Android media controls can skip between songs in the current listening order. The app stays in sync when a system control changes the song.\n\nScreenshots:\n\nSix actual Pixel 10a emulator captures with the current coral accent, alternating light and dark: three of each. They show local test audio and a public test download. These are Android captures; iPhone verification remains separate.\n\nYour collection:\n\n• Playback follows the displayed song order. Completed activity fades after five seconds.",
+      "localizedDescription": "Monolith:\n\nA personal music player for iOS and Android. Bring your own music, keep a local collection, and listen with the screen locked.\n\nOn a computer? Monolith Desktop is the companion Rust + Slint project. Windows is verified; Linux builds and Debian packaging remain pending. The apps share a visual identity, with separate libraries and no automatic cross-device sync.\n\nv1.4.6 · Build 15: iOS lock-screen and Android media controls can skip between songs in the current listening order. The app stays in sync when a system control changes the song.\n\nScreenshots:\n\nSix actual Pixel 10a emulator captures with the current coral accent, alternating light and dark: three of each. They show local test audio and a public test download. These are Android captures; iPhone verification remains separate.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.naveed-gung.monolith.png",
       "tintColor": "#e04050",
       "category": "games",
@@ -3685,11 +3685,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "1.1",
+          "version": "1.1.1",
           "date": "2026-10-02T03:30:11Z",
           "localizedDescription": "Changelog:\n\n• added a built in JIT enabler! you no longer need to use StikDebug in order to enable JIT. this currently only supports iOS 17.4+, but I plan on adding a method that uses darksword in the future.\n• removed the swipe gestures that mostly just got in the way of deleting servers/files.\n• added support for java 8 on iOS 26+.\n\n• added an automatic resource pack merger, which allows you to install multiple resource packs on your server.\n\n• fixed maxpro's bug, as well as plenty of other random bugs.\n• fixed playit.gg integration.\n• minor UI/UX enhancements.\n• added a couple of easter eggs.\n• removed herobrine.",
           "downloadURL": "https://github.com/Baconium/JESSI/releases/download/1.1.1/JESSI.ipa",
-          "size": 12089113,
+          "size": 12095211,
           "minOSVersion": "14.0"
         }
       ],
@@ -4580,6 +4580,38 @@
         ],
         "privacy": {
           "NSLocalNetworkUsageDescription": "Lighthouse uses the local network to host or join co-op (Anchor) sessions with players on your network, and for the developer console when you enable it."
+        }
+      }
+    },
+    {
+      "name": "MeloNX",
+      "bundleIdentifier": "com.stossy11.MeloNX",
+      "developerName": "Layla S",
+      "subtitle": "A Nintendo Switch Emulator based on Ryujinx for iOS",
+      "localizedDescription": "FAQ:\n\nWe do not support piracy, It is forbidden to request copyrighted content.\n\nDo I need a Switch to use this emulator?:\n\nMeloNX emulator is capable of running many homebrew applications, and can be a crucial tool in the development and debugging of homebrew applications and games. To play commercial games, you will need access to a Switch compatible with custom firmware (CFW), which will enable you to dump your system firmware, keys and legally purchased games.\n\nHow can I dump my firmware/games/keys?:\n\nFirst, you need to hack your Nintendo Switch, which you can learn how to do here: https://nh-server.github.io/switch-guide/.\n\nInfo:\n\n• A Paid Developer account or TrollStore may be needed for specific devices (Read about Entitlements below).\n• MeloNX REQUIRES JIT and CANNOT run without it.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.stossy11.MeloNX.png",
+      "tintColor": "#6040c0",
+      "category": "games",
+      "versions": [
+        {
+          "version": "2.6",
+          "date": "2026-08-26T13:23:25Z",
+          "localizedDescription": "",
+          "downloadURL": "https://starforgejo.dev/projects/MeloNX/releases/download/2.6/MeloNX.ipa",
+          "size": 48808901,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "MeloNX needs local network access for LAN / Local Multiplaer"
         }
       }
     }
