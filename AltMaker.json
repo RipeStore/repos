@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "app.mangatan.mangatan",
-    "com.exaltedpixels.LensLinkCamera",
-    "dev.kartpad.app"
+    "com.rebelancap.perfectdark",
+    "software.iridium",
+    "com.husk.app"
   ],
   "apps": [
     {
@@ -1445,10 +1445,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-02T13:58:10Z",
-          "localizedDescription": "Immutable snapshot of alpha build 188 (ae374fd).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 188, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-188/Non-Jailbroken.ipa",
-          "size": 93637141,
+          "date": "2026-10-04T01:13:14Z",
+          "localizedDescription": "Immutable snapshot of alpha build 191 (d9522dd).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 191, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-191/Non-Jailbroken.ipa",
+          "size": 93586425,
           "minOSVersion": "17.0"
         }
       ],
@@ -2042,10 +2042,10 @@
       "versions": [
         {
           "version": "11.8.0",
-          "date": "2026-10-02T12:26:42Z",
-          "localizedDescription": "Rolling latest testing build — refreshed in place, so this tag is always the newest. NOOP main + ryanbr's open PRs + vetted community PRs, built with the NOOP Staging identity (installs beside the official app, separate data). Filenames carry the base app version (v11.8.0).\n\n• Android (debug) — NOOP-android-debug-v11.8.0.apk — debuggable build. com.noop.whoop.debug.\n• macOS — NOOP-macos-v11.8.0.zip — unzip, then right-click → Open (ad-hoc signed, not notarized; Gatekeeper warns once). If it says \"damaged\", run xattr -dr com.apple.quarantine /Applications/NOOP.app.\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa — sideload via AltStore / Sideloadly (re-signs on-device); embedded watch app stripped, widget extension retained for Home/Lock-Screen widgets and Live Activities.\n\nBase app version 11.8.0 · built 2026-10-02 · c800fb6.",
-          "downloadURL": "https://github.com/ryanbr/noop/releases/download/testing-latest/NOOP-ios-unsigned-v11.8.0.ipa",
-          "size": 21883299,
+          "date": "2026-09-17T12:39:24Z",
+          "localizedDescription": "NOOP v11.8.0:\n\nA release about doing more on the strap itself, and about turning off the parts you do not want.\n\nA gym log book, advanced from your wrist:\n\nNOOP now carries an on-device lift log. Build a session, and move between sets with a double-tap on the strap rather than picking the phone up mid-set. It is stored in a new schema with a matching Room twin on Android, and the set metrics are computed by the same engine on both platforms rather than by two that can drift apart.\n\nA Coach that switches off:\n\nThe AI Coach now has a single master switch. Turning it off retires the tab, the generated brief, the home-screen widget and the tray notification, and it stops every request that would otherwise leave the device. This is the whole feature going quiet, not just the screen being hidden.\n\nIts settings moved onto their own screen rather than sitting in a crowded list. Android gained the bottom-bar tab that iPhone already had, Disconnect is now somewhere an iPhone can reach, the current OpenAI models are offered with the catalogue kept up to date, and a rate-limited request shows what the provider actually said instead of a generic failure.\n\nSync the strap from a shortcut:\n\nA Sync Strap App Intent runs a sync from Shortcuts, the Lock Screen or a Home Screen button. A Live Activity shows the offload while it runs, and an optional setting keeps the screen awake for as long as it takes.\n\nReconnecting when the app is off-screen changed underneath that. iOS throttles background scanning hard enough that a strap could sit undiscovered for minutes and then appear seconds after the app came to the foreground. NOOP now asks for the last strap by name in the background, which iOS does honour, and keeps scanning in the foreground so a strap you have switched to is still found.\n\nWorkouts that are easier to keep tidy:\n\nSessions shorter than a minute are discarded rather than cluttering the list, and the list itself splits into Current and Archived so a long history stays navigable. Deleting a workout now clears it from every namespace the list reads, including the copy Apple Health had kept after the store let go of it.\n\nThe WHOOP sports that were missing are selectable, and the icons those exposed are fixed. Auto-detection no longer saves anything on its own: it asks, and waits.\n\nReadings that admit when they failed:\n\nA failed WHOOP 5 flag read was being reported as though it were a value. It now says it failed, on both platforms. The frame integrity verdict reaches every consumer intact rather than being narrowed on the way through, and the strap family NOOP records is the one the connection actually established rather than the one it initially picked.\n\nOn Oura, a notification that tiles exactly into several packets is now read to the end instead of stopping at the first. A young ring no longer adopts an anchor unit ten times too large, settled by adjacency rather than assumption, and a diagnostic reports which ring epoch each sidecar row believes in.\n\nCharts that stop redrawing everything:\n\nWorkouts and Sleep were re-evaluating their entire screens on every live heart-rate tick, roughly once a second whenever a strap was connected. They no longer do. Three charts that had no hover gained a tooltip, two uncapped series are downsampled before drawing, the sleep motion trace computes its peak once rather than per epoch, and the Apple stress level rounds the way Android's already did.\n\nThe steps charts are clearer, with an optional 30-day average card.\n\nApple Health that keeps up:\n\nA re-score that was deferred now publishes to Apple Health once it lands, rather than being missed because the publish already ran. Workouts are observed for live delivery, and a pass running in the background paces itself under the CPU limit iOS enforces instead of being killed by it. A CSV import no longer turns a correct SDNN into RMSSD on the way back out.\n\nLocalization:\n\nChinese is complete in both scripts, across the app and the watch complications. The French recovery and strain words are repaired, and the theme picker says light rather than lightweight.\n\nA gap that had been letting UI copy ship English in every locale is closed. The scan that checks whether a string has a catalogue entry was not looking at the spelling the codebase tells you to prefer, so nothing reported strings that had none. Closing it surfaced the Home screen's own labels and the terms you agree to on first launch, both of which are now translated.\n\n• Add the v46 schema for an in-app strength log, with its Room twin.\n• coach(ios): put Disconnect where iPhone can reach it.\n\n• health(ios): delete the workouts Apple Health kept and the store did not.\n• battery: say whose charge it is on all seven surfaces, not three.\n• nav(android): give Coach the bottom-bar tab it has on iOS.\n• Repair parity governance maintenance flow.\n\n• fix(workouts): make auto-detection confirmation-only.\n• fix: do not report a failed WHOOP 5 flag read as a value.\n• whoop5: guard the failed flag read on every platform, and on Android too.\n• test(sleep): pin the night-caption label and date pairing (#2199).\n• Lift Log: an on-device gym log book, advanced by a double-tap on the strap.\n• i18n(zh): complete the Android locale and carry it to the Apple catalogue.\n• i18n(watch): translate the complications into both Chinese scripts, and build them.\n• i18n(apple): complete zh-Hans in the main catalogue, and take zh-Hant to 79.\n\n• tools(parity): make a one-sided property declarable.\n• analytics(android): Kotlin LiftMetrics twin of the Swift engine (#2099).\n• tools(parity): give the stale-base dead end an exit, then take it.\n• parity_ledger: keep trailing hex digits f/d when stripping literal suffixes.\n• fix(sleep): name a night by the evening it belongs to, not its onset date.\n• i18n(design): complete Chinese, and stop asking anyone to translate previews.\n• i18n(design): repair the French recovery and strain state words.\n• i18n: make the theme picker say light, not lightweight, on both platforms.\n• i18n: drop two dead keys, and gate format specifiers in every locale.\n• Fix Coach rate-limit error details.\n• fix(rescore): let a resumed pass stand down when nothing changed.\n• fix(oura): settle the 0x13 anchor unit by adjacency so a young ring never adopts ticks×10.\n• diag(oura): report which ring epoch each sidecar row believes in.\n• feat(coach): move the coach settings onto their own screen.\n• Propagate the full frame integrity verdict to every consumer.\n• feat(coach): make the live model catalogue reachable, and keep it current.\n• feat(coach): offer the current OpenAI models.\n• fix(oura): read every packet of a notification that tiles exactly into several.\n• test(oura): name the framing test hex helper so it cannot alias a production one.\n\n• Align Apple stress-level rounding with Android.\n• tools(parity): stop the scan walking into build output.\n• feat(workouts): offer the WHOOP sports NOOP was missing, and fix the icons they exposed.\n• stress: take the Apple screen's work off the main actor too.\n• Persist the family the strap actually established.\n• fix: stop the half-open range operator erasing a callsite in the parity scan.\n• feat(coach): offer a master switch that turns the AI Coach off.\n• fix(health): stop a CSV import turning a correct SDNN into RMSSD on export.\n\n• fix(workouts): delete from every namespace the list reads, not just the active strap.\n• feat(workouts): discard sub-minute sessions and split the list into Current and Archived.\n• perf(sleep): compute the motion trace peak once per body evaluation.\n• fix(notif): stop the morning recap arriving at 00:40.\n• feat(health): observe workouts, so a Watch session does not wait for the next app open.\n• fix(timeline): name the active device on the Deep Timeline source row, not a hardcoded \"My WHOOP\".\n• fix(ui): stop stat labels running into their neighbour.\n• fix(health): publish to Apple Health once a deferred re-score lands, and stop a suspended pass deferring every one after it.\n• fix(rescore): pace a backgrounded pass under iOS CPU limits (rebase of #2280).\n• Ios sync shortcut.\n• perf(charts): stop AppModel's 1 Hz tick re-rendering chart screens, and add the missing chart tooltips.\n• i18n: check the catalog key behind String(localized:) copy, and localize the terms and Home strings it surfaces.\n\nNew Contributors:\n\n• @Iskrata made their first contribution.\n• @npapatheodorou made their first contribution.\n\nDownloads — NOOP Staging identity, installs beside the official app (separate data):\n\n• Android — NOOP-android-v11.8.0.apk (com.noop.whoop.staging).\n• macOS — NOOP-macos-v11.8.0.zip (unzip, then right-click → Open).\n• iOS — NOOP-ios-unsigned-v11.8.0.ipa (AltStore / Sideloadly).",
+          "downloadURL": "https://github.com/ryanbr/noop/releases/download/v11.8.0/NOOP-ios-unsigned-v11.8.0.ipa",
+          "size": 21442326,
           "minOSVersion": "17.0"
         }
       ],
@@ -2966,17 +2966,17 @@
       "bundleIdentifier": "com.husk.app",
       "developerName": "Leviidev",
       "subtitle": "Android Emulator for iOS",
-      "localizedDescription": "Husk:\n\nAndroid app launcher for iOS.\n\nDrop in an APK, tap it, and the Android app opens full-screen.",
+      "localizedDescription": "Husk:\n\nAndroid app launcher for iOS.\n\nDrop in an APK, tap it, and the Android app opens full-screen.\n\nBuilds:\n\nEvery push builds an unsigned Husk.ipa in GitHub Actions (build-ipa.yml). It is attached to the run as an artifact, ready for AltStore, SideStore or TrollStore to sign and install. The first run builds QEMU and its dependencies from scratch, which takes a couple of hours; after that they are cached.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.husk.app.png",
       "tintColor": "#a080e0",
       "category": "games",
       "versions": [
         {
-          "version": "0.5.0",
-          "date": "2026-10-01T23:46:10Z",
-          "localizedDescription": "• Fix guest seed packaging and snapshot preservation.\n• Add a light mode (Settings › Appearance).\n• Fixed UI bugs.\n\nNew Contributors:\n\n• @creeper4004 made their first contribution.\n• @hernan0078 made their first contribution.",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.5.0/Husk.ipa",
-          "size": 40279923,
+          "version": "0.5.1",
+          "date": "2026-10-04T02:00:07Z",
+          "localizedDescription": "What's new?:\n\n• Fixed iOS26 JIT crashes.\n• Fixed a fatal pipe2 crash, (added fallback).\n\nCredits:\n\n@Yaryk007 - made the HuskPatch repo where I got the iOS26 JIT fixes:).",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.5.1/Husk.ipa",
+          "size": 40386325,
           "minOSVersion": "16.4"
         }
       ],
@@ -3257,11 +3257,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.1.1",
-          "date": "2026-09-29T04:10:10Z",
-          "localizedDescription": "Iridium 0.1.1:\n\nIn standalone Iridium, you can now add games from its folder in Files without opening the file picker. This release also makes it easier to import a pairing file for built-in JIT. Game support remains experimental.\n\nDownload:\n\nRequires iOS or iPadOS 18+, JIT, and your own game files. You only need the IPA to install.\n\nInstall:\n\n• Sign and install the IPA with a compatible sideloading tool, including its helper extension, or import it into LiveContainer.\n• Open Iridium and configure JIT in Launch Support.\n• Select Add Game, choose a game folder and executable, then press Play.\n\nBack up your saves before updating. Update the existing app or LiveContainer entry without deleting its data.\n\nWhat's new:\n\n• Add games without the file picker. In standalone Iridium, put each game in its own folder under On My iPhone/iPad → Iridium → Games. Choose Add Game → Find Games in Iridium Folder, select the game, and confirm its executable. Iridium uses the files in that folder without copying them.\n• Import a JIT pairing file from Files. Put pairingFile.plist under On My iPhone/iPad → Iridium → StikJIT. Choose Settings → Launch Support → Import Pairing File → Use File in Iridium Folder. You can still choose a file directly.\n\nKnown issues:\n\n• Some games may fail to launch or have graphics, video, audio, or input problems.\n\n• JIT and available memory depend on your device and signing setup; LiveContainer and standalone results can differ.\n\nThe other release files are for source access, rebuilding, and download verification:\n\n• SHA256SUMS verifies all four files above, including the IPA.\n\nDownload all five release files into one folder, then run:\n\nThe source guide includes the checksum for the assembled archive and rebuild instructions. GitHub's automatic repository ZIP does not contain all required dependency sources.\n\nSource commit: bc5c30fc442f429e8be9001549300160a0934372 Build run: https://github.com/intraducine/iridium/actions/runs/36504918645\n\nApp and helper version: 0.1.1 (98.2). Source checks, build, and unsigned-package checks passed. These checks do not establish compatibility with every game or device.\n\nApple compiler-runtime notice uncertainty and unsigned-IPA contractual authorization remain documented risks. See the license guide in Iridium-source-guide.zip.",
-          "downloadURL": "https://github.com/intraducine/iridium/releases/download/v0.1.1/Iridium-unsigned.ipa",
-          "size": 415260196,
+          "version": "0.2.0",
+          "date": "2026-10-04T02:20:31Z",
+          "localizedDescription": "Iridium 0.2.0:\n\nDownload your Steam games directly in Iridium, manage repairs and updates, and try the updated Windows runtime. Game support remains experimental.\n\nDownload:\n\nRequires iOS or iPadOS 18+, JIT, and games you own. You only need the IPA to install; supply your own game files or download owned games from Steam.\n\nInstall:\n\n• Sign and install the IPA and helper with a compatible sideloading tool, or import it into LiveContainer using its supported JIT setup.\n• Open Iridium and configure JIT in Launch Support.\n\nFor standalone installation, preserve com.apple.developer.kernel.increased-memory-limit=true in both Iridium's final app signature and provisioning profile. The anonymous ad-hoc carrier alone grants no installation or memory rights. In LiveContainer, the container process's signature, profile, and JIT setup determine effective rights; importing the guest IPA does not grant them. Both routes still need device validation.\n\nBack up your saves before updating. Update the existing app or LiveContainer entry without deleting its data. Steam repairs and updates keep older installations; saves stored inside an older game folder may need to be copied manually to the new one. Keep that older folder until you have checked your saves.\n\nWhat's new:\n\n• Updated Windows runtime. Includes 32-bit WoW64 support and D3D9/D3D12 updates. Support still varies by game and device.\n• Game prerequisite installers. Run supported setup steps included with a game, or choose Game Options → Run Installer for an EXE or MSI installer you provide. Some installers need interaction. Closing the player requests cancellation; Iridium keeps observing the runtime's exit and reports when a restart is required.\n• Reduced duplicate runtime data. Identical Windows runtime files share one packaged copy. The main app's anonymous ad-hoc signature carries only the increased-memory-limit request; helpers remain unsigned until you sign them.\n\nKnown issues:\n\n• JIT and available memory depend on your device and signing setup; LiveContainer and standalone results can differ. Built-in JIT requires standalone Iridium, debugging permission, a valid pairing file, and LocalDevVPN. Hosted Iridium uses external JIT. Recipient signing, LiveContainer hosting, and game prerequisite success still need device testing.\n\nThe other release files are for source access, rebuilding, and download verification:\n\n• SHA256SUMS verifies the IPA, both source parts, and the source guide.\n\nDownload all five release files into one folder, then run:\n\nThe source guide includes the assembled archive's checksum and rebuild instructions. Keep the matching source and guide beside the IPA at this versioned release URL. GitHub's automatic repository ZIP does not contain all required dependency sources.\n\nSource commit: b7e24f9fb4dd17f5d940c4763123f2b00d0e121f Build run: https://github.com/intraducine/iridium/actions/runs/37142663989\n\nApp and helper version: 0.2.0 (115.1), minimum iOS 18.0, confirmed in the actual delivered Info.plist files. The IPA is 399,916,792 bytes; SHA-256 1934922a1fcf1509e305a29d6f0d26579a4318ba95dfcf5b406d5e38f88c9763.\n\nApple compiler-runtime notice uncertainty and unsigned-IPA contractual authorization remain documented risks. Retain the license guide in Iridium-source-guide.zip.",
+          "downloadURL": "https://github.com/intraducine/iridium/releases/download/v0.2.0/Iridium-unsigned.ipa",
+          "size": 399916792,
           "minOSVersion": "18.0"
         }
       ],
@@ -4148,7 +4148,7 @@
       "bundleIdentifier": "com.sunpad.SunPad",
       "developerName": "chrissotraidis",
       "subtitle": "Super Mario Sunshine on iPhone, iPad, Apple Silicon Mac, and tVOS through static recompilation and Metal",
-      "localizedDescription": "SunPad:\n\nSuper Mario Sunshine on iPhone, iPad, Apple silicon Mac, and experimental Apple TV through ahead-of-time recompilation. SunPad brings together Metal rendering, touch controls, controller support, and local game-image import. Supply your own supported copy of the game.\n\nBuilt with ModernGekko, by Hyperway, ExpansionPak and contributors, and DolRecomp, on the RecompCore / Dolphin runtime. SunPad provides the Apple app and Sunshine-specific integration. See full credits, including Apple TV contributions and AI/artwork provenance.\n\nMaintained forks: ModernGekko, RecompCore, and DolRecomp. Runtime and compiler dependencies use pinned submodules. The source graph records the separate Apple and tvOS versions.\n\nGet SunPad:\n\ngame code. On an Apple silicon Mac with Xcode, download.",
+      "localizedDescription": "SunPad:\n\nSuper Mario Sunshine on iPhone, iPad, Apple silicon Mac, and experimental Apple TV through ahead-of-time recompilation. SunPad brings together Metal rendering, touch controls, controller support, and local game-image import. Supply your own supported copy of the game.\n\nBuilt with ModernGekko, by Hyperway, ExpansionPak and contributors, and DolRecomp, on the RecompCore / Dolphin runtime. SunPad provides the Apple app and Sunshine-specific integration. See full credits, including Apple TV contributions and AI/artwork provenance.\n\nMaintained forks: ModernGekko, RecompCore, and DolRecomp. Runtime and compiler dependencies use pinned submodules. The source graph records the separate Apple and tvOS versions.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.sunpad.SunPad.png",
       "tintColor": "#10e0e0",
       "category": "games",
@@ -4245,6 +4245,343 @@
           "size": 28033512
         }
       ]
+    },
+    {
+      "name": "Tsubomi",
+      "bundleIdentifier": "org.vita3k.experimental.ios",
+      "developerName": "125hz",
+      "subtitle": "Tsubomi is an experimental PlayStation Vita emulator for iOS (iPhone/iPad)",
+      "localizedDescription": "Tsubomi:\n\nTsubomi is an experimental PlayStation Vita emulator for iOS (iPhone/iPad).\n\nTsubomi is a fork of Vita3K and uses it as its emulation base. All of the heavy lifting — the CPU, GPU (GXM→Vulkan/MoltenVK), kernel and module HLE — is Vita3K's work; Tsubomi adds a native iOS front-end, an on-device import pipeline, a touch controller, and the platform glue needed to run on a non-jailbroken iPhone with JIT. Please support the upstream Vita3K project.\n\n⚠️ Legal / piracy disclaimer:\n\nTsubomi does not condone or support piracy or any other illegal activity.\n\n• Tsubomi ships with no games, firmware, or keys, and none are provided.\n• Booting Vitamin dumps or other pirated content is not supported.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.vita3k.experimental.ios.png",
+      "tintColor": "#305090",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/125hz/Tsubomi@ios-upstream-core/_readme/screenshots/Persona%204%20Golden.png",
+        "https://cdn.jsdelivr.net/gh/125hz/Tsubomi@ios-upstream-core/_readme/screenshots/VA-11%20HALL-A.png",
+        "https://cdn.jsdelivr.net/gh/125hz/Tsubomi@ios-upstream-core/_readme/screenshots/Amagami%20Ebikore+.png"
+      ],
+      "versions": [
+        {
+          "version": "0.47.0",
+          "date": "2026-10-03T21:18:29Z",
+          "localizedDescription": "Initial release of Tsubomi. PS Vita firmware files are required, but are not provided. You can get them from Sony's official site, or through Vita3k on your computer.",
+          "downloadURL": "https://github.com/125hz/Tsubomi/releases/download/0.47.0/Tsubomi.ipa",
+          "size": 19485724,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Ship of Harkinian",
+      "bundleIdentifier": "com.rebelancap.soh",
+      "developerName": "rebelancap",
+      "subtitle": "Ship of Harkinian (Ocarina of Time) for iPhone & Apple Vision Pro — a native Metal port with a stereoscopic 3D mode on Vision Pro. Bring your own ROM",
+      "localizedDescription": "Ship of Harkinian for iPhone & Apple Vision Pro:\n\nPlay The Legend of Zelda: Ocarina of Time on your iPhone and Apple Vision Pro — the full quest with saves, the Ship of Harkinian enhancements menu, HD/4K texture packs, game controllers and a tunable touch layout, and on Vision Pro a stereoscopic 3D mode that puts the game on a world-locked panel floating in your room with real depth — plus a full immersive VR mode where you stand in Hyrule and swing the sword with your own hand.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.rebelancap.soh.png",
+      "tintColor": "#7090e0",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/rebelancap/Shipwright-ios@main/docs/screenshots/visionos-window.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.1.2",
+          "date": "2026-10-03T02:44:01Z",
+          "localizedDescription": "Fixes the two 1.1.1 bugs reported in issue #1: the Scarecrow's Song softlock, and the game coming back stretched after Control Center, a notification or an app switch. Also fixes building from a fresh clone.\n\niPhone & iPad.\n\n• Scarecrow's Song no longer softlocks. Recording Bonooru's song or playing it for Pierre used to leave the ocarina staff on screen most of the time; an ocarina note-timer could wrap under the iOS audio thread's pacing. Thanks to GMoxFr for the root cause and the tested fix.\n• No more stretched picture after leaving the app. Control Center, the notification shade, an app switch or lock/unlock brought the game back squashed into portrait proportions until a relaunch. The app now re-asserts landscape and its window size on every return (built against the iOS 27 SDK, which broke the orientation query SDL relied on). LiveContainer users: this also fixes the black screen and the stuck-in-portrait cases.\n• Building from a fresh clone works again (two overlay patches had lost their CRLF bytes in this repo; two shell-script fixes in the audio deps build).\n\nApple Vision Pro.\n\n• No VR-facing changes; the visionOS build carries the ocarina fix.\n\nThis public build does not include the developer console; the OTA test builds do.\n\nBuilt on Ship of Harkinian 9.2.3 (upstream commit 417256b42). Bring your own ROM; the app extracts it on device.",
+          "downloadURL": "https://github.com/rebelancap/Shipwright-ios/releases/download/v1.1.2/soh-1.1.2-iOS.ipa",
+          "size": 27686972,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Gopeed",
+      "bundleIdentifier": "com.gopeed.gopeed",
+      "developerName": "GopeedLab",
+      "subtitle": "A fast, modern download manager for HTTP, BitTorrent, Magnet, and ed2k. Cross-platform, built with Golang and Flutter",
+      "localizedDescription": "English | 中文 | 日本語 | 正體中文 | Tiếng Việt.\n\n🚀 Introduction:\n\nGopeed (short for Go Speed) is a fast, modern, free, and open-source download manager built with Go and Flutter. It supports HTTP, HTTPS, BitTorrent, magnet links, and ed2k on desktop, mobile, and the web.\n\nBeyond core download management, Gopeed offers browser integration, JavaScript extensions, a REST API, a CLI, and a self-hosted web UI for customization and automation.\n\nVisit ✈ Official Website.\n\n✨ Features:\n\n• 📋 Flexible task management — pause, resume, retry, run batch operations, search, filter by status, organize with categories, and recover tasks after a restart.\n• 🪶 Lightweight native experience — the main interface is rendered natively with Flutter. No Electron. No WebView shell. Enjoy a smaller footprint, lower overhead, and responsive performance.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.gopeed.gopeed.png",
+      "tintColor": "#50c060",
+      "category": "utilities",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/GopeedLab/gopeed@main/_docs/img/ui-concept-en.png"
+      ],
+      "versions": [
+        {
+          "version": "1.9.3",
+          "date": "2026-03-18T12:54:20Z",
+          "localizedDescription": "🐛 Bug Fixes:\n\n• fix: update isCreate logic for pending tasks @Roxym3 (#1314).\n• fix: update RPM icon path @monkeyWie (#1309).\n\n🌎 Internationalization:\n\n• feat(lang): Catalan language added @kayron8 (#1303).\n• feat(lang): update Turkish translation @Hweord (#1304).\n\n🆕 新特性:\n\n• feat: ed2k 协议支持 (重大特性！！！) @monkeyWie (#1316).\n\n🐛 Bug Fixes:\n\n• fix: 不支持断点下载的 HTTP 链接下载超出文件总大小 @monkeyWie (#1317).\n• fix: 更新 isCreate 逻辑用于等待中的任务 @Roxym3 (#1314).\n• fix: 更新 RPM 图标路径 @monkeyWie (#1309).\n\n🌎 Internationalization:\n\n• feat(lang): 添加加泰罗尼亚语言 @kayron8 (#1303).\n• feat(lang): 更新土耳其语言 @Hweord (#1304).",
+          "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopeed-v1.9.3-ios.ipa",
+          "size": 27488140,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "Photos can be shared to and used in this app"
+        }
+      }
+    },
+    {
+      "name": "COD4iOS",
+      "bundleIdentifier": "com.devz.cod4ios",
+      "developerName": "DevZer0D4Y",
+      "subtitle": "Call of Duty 4 port for iOS and Nintendo Switch",
+      "localizedDescription": "COD4iOS-COD4NS --> For now, only COD4iOS is available.:\n\nCall of Duty 4: Modern Warfare on iPhone and iPad, based on KisakCOD.\n\nCOD4iOS includes single-player and CoD4x multiplayer in one app, with touch controls and Xbox-style controller support. This source release is 1.0.3, build 4. The port is still in development, so expect bugs and differences between devices and servers.\n\nYou need your own copy of the original PC game, Call of Duty 4: Modern Warfare (2007). Modern Warfare Remastered files will not work. The source and IPA do not include the retail game data.\n\nIf you want to support me and remain up-to-date about this and other projects, you can in different ways:\n\nKo-Fi: https://ko-fi.com/dev_zer0\n\nYouTube: https://www.youtube.com/@develop_erZ\n\nWhat you need:\n\n• An iPhone or iPad running iOS/iPadOS 17 or later.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.devz.cod4ios.png",
+      "tintColor": "#505020",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.0.3",
+          "date": "2026-10-03T06:49:12Z",
+          "localizedDescription": "Multiplayer works too, you can play with PC users by joining the same servers.",
+          "downloadURL": "https://github.com/DevZer0D4Y/COD4iOS-COD4NS/releases/download/R1/COD4iOS_v1.0.3.ipa",
+          "size": 9596607,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Spaghetti Kart",
+      "bundleIdentifier": "com.rebelancap.spaghettikart",
+      "developerName": "rebelancap",
+      "subtitle": "SpaghettiKart (Mario Kart 64) for iPhone & Apple Vision Pro — a native Metal port with a stereoscopic 3D mode on Vision Pro. Bring your own ROM",
+      "localizedDescription": "SpaghettiKart for iPhone & Apple Vision Pro:\n\nPlay Mario Kart 64 on your iPhone and Apple Vision Pro — all the cups and battle courses with the SpaghettiKart enhancements menu, HD/4K texture packs, game controllers and a tunable touch layout, and on Vision Pro a stereoscopic 3D mode that puts the race on a world-locked panel floating in your room with real depth.\n\nBuilt on SpaghettiKart (Harbour Masters' native Mario Kart 64 port) and libultraship, rendering natively on Metal — no translation layer. 100% vibe coded with lots of passion and attention to detail.\n\nMario Kart 64 on Apple Vision Pro — a resizable window floating in your room, with the on-screen touch layout. The same build also runs in stereoscopic 3D.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.rebelancap.spaghettikart.png",
+      "tintColor": "#001030",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/rebelancap/SpaghettiKart-ios@main/docs/screenshots/visionos-window.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T07:19:53Z",
+          "localizedDescription": "Fixes game controller buttons triggering menu actions on iPad — B opened and closed the menu on every press.",
+          "downloadURL": "https://github.com/rebelancap/SpaghettiKart-ios/releases/download/v1.0.1/spaghettikart-1.0.1-iOS.ipa",
+          "size": 7997996,
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Theft4",
+      "bundleIdentifier": "com.lukebrosious.theft4",
+      "developerName": "KoreanSeats1",
+      "subtitle": "Experimental static AOT recompilation of GTA IV's Xbox 360 build for ARM64 iOS and iPadOS. No game files included",
+      "localizedDescription": "Thank you to everyone behind the unprecedented work on LibertyRecomp and the ReXGlue SDK. Without their foundation, Theft4 would have taken much, much longer to reach this point. Please support their projects and the upstream developers who made this work possible.\n\nHelp improve Theft4 on your device: capture a slow or problematic scene with the built-in short performance capture, export the saved log, and upload it with your survey answers and screenshots. Smooth runs are useful comparisons too. Follow the capture, export, and submission instructions below.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.lukebrosious.theft4.png",
+      "tintColor": "#103040",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/KoreanSeats1/Theft4@main/docs/images/capture-interface.png"
+      ],
+      "versions": [
+        {
+          "version": "0.2.0",
+          "date": "2026-09-22T21:50:03Z",
+          "localizedDescription": "M5 Lab 0.1.3 (41) is now the foundation of the official Theft4 app. This 0.2.0b release adds first-launch game setup and System → Download Latest Log Capture to that Lab renderer and launcher.\n\nHighlights: batched render-command delivery, reduced redundant state work, bounded pipeline preparation and frame resources, independent internal resolution and FSR controls, performance preset, FPS/frame-time display, and bounded 600-frame diagnostics. The capture can be exported after quitting and reopening the app.\n\nApple version: 0.2.0 (44). Bundle ID: com.lukebrosious.theft4. The historical com.theft4.m5lab app has a separate data container; copy or back up game files and saves before removing it. This IPA is unsigned for sideload tools to re-sign. No game data is included.\n\nMeasured Lab command-delivery improvements are detailed in the README. They are directional captures, not a claim of locked 30 FPS or measured heat reduction.\n\nIPA SHA-256: 9a80b818ead779e88258315d69e58380592c366f9a39d6175a779a4dbafbee70.",
+          "downloadURL": "https://github.com/KoreanSeats1/Theft4/releases/download/v0.2.0b/Theft4-0.2.0-44-ios-arm64.ipa",
+          "size": 27552252,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "GoldenEye",
+      "bundleIdentifier": "com.rebelancap.goldeneye",
+      "developerName": "rebelancap",
+      "subtitle": "GoldenEye 007 XBLA remaster for iPhone and Apple Vision Pro, via static recompilation",
+      "localizedDescription": "GoldenEye 007 for iPhone & Apple Vision Pro:\n\nThe GoldenEye 007 XBLA remaster — Rare's Xbox 360 remake, finished in 2007 and never released — running natively on iPhone and Apple Vision Pro. This is a static recompilation, not an emulator: the original PowerPC game code is translated ahead of time into C++ and compiled for Apple silicon, with the Xbox 360 GPU, audio and kernel layers reimplemented on top of Vulkan (via MoltenVK) on Metal. The remaster's signature feature — the instant switch between the 2007 remastered art and the original N64 look, mid-game, with no reload — works here too.\n\nBuilt on GoldenEye-Recomp and the ReXGlue SDK.\n\nRequires iOS 16 or later, or Apple Vision Pro on visionOS 26 or later.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.rebelancap.goldeneye.png",
+      "tintColor": "#e00000",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/rebelancap/GoldenEye-Recomp-ios@main/docs/screenshots/vision-pro-dam-remaster.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.0.2",
+          "date": "2026-09-11T03:11:47Z",
+          "localizedDescription": "Screen update for GoldenEye 007 (the XBLA remaster) on iPhone and Apple Vision Pro.\n\nInstall with SideStore / AltStore (auto-updates):\n\nOr install the IPA below manually. The app ships with no game data — see the README for the file layout it expects. We cannot help you obtain the game files.\n\nWhat's new.\n\n• The game's own Screen Letterbox and Screen Ratio settings now work, and the app follows them. 21:9 fills the whole iPhone screen; 16:9 + Wide fills it in gameplay; 16:9 + Full shows the frame with side bars. New installs start on 21:9.\n• The app's Screen setting is gone (it fought the in-game one).\n• Vision Pro: the window reshapes to match 21:9 or 16:9, no bars.\n\nRequires iOS 16+ or visionOS 26+.",
+          "downloadURL": "https://github.com/rebelancap/GoldenEye-Recomp-ios/releases/download/v1.0.2/goldeneye-xbla-1.0.2-iOS.ipa",
+          "size": 12949124,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "2 Ship 2 Harkinian",
+      "bundleIdentifier": "com.rebelancap.2ship",
+      "developerName": "rebelancap",
+      "subtitle": "2 Ship 2 Harkinian (Majora's Mask) for iPhone & Apple Vision Pro — a native Metal port with a stereoscopic 3D mode on Vision Pro. Bring your own ROM",
+      "localizedDescription": "2 Ship 2 Harkinian for iPhone & Apple Vision Pro:\n\nPlay The Legend of Zelda: Majora's Mask on your iPhone and Apple Vision Pro — the full three-day cycle with saves, the 2 Ship 2 Harkinian enhancements menu, HD/4K texture packs, game controllers and a tunable touch layout, and on Vision Pro a stereoscopic 3D mode that puts the game on a world-locked panel floating in your room with real depth.\n\nBuilt on 2 Ship 2 Harkinian (Harbour Masters' native Majora's Mask port) and libultraship, rendering natively on Metal — no translation layer. 100% vibe coded with lots of passion and attention to detail.\n\nCurrently based on upstream 5.0.1 \"Battler Bravo\". This port carries its own version number, so it can ship fixes between upstream releases.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.rebelancap.2ship.png",
+      "tintColor": "#9060a0",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/rebelancap/2ship2harkinian-ios@main/docs/screenshots/visionos-window.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.1.1",
+          "date": "2026-08-30T08:52:33Z",
+          "localizedDescription": "Folds in upstream 2 Ship 2 Harkinian 5.0.1 \"Battler Bravo\".\n\nYour existing mm.o2r and save files carry over. Unlike 1.1.0, this update does not require re-extracting from your ROM — 5.0.1 keeps the same archive format major version.\n\nUpstream fixes in 5.0.1:\n\n• Song of Time now returns Link to the file select properly.\n• Owl Statue saving skips to the file select.\n• Save delay is allowed when voiding out during an owl save.\n• Pause-buffer input fix: no more pause loop when pausing to save.\n• The moon-crash cutscene is no longer skipped when attempting the 4th-day glitch.\n• The aliens cutscene is no longer skipped while Sun's Song is active.\n• Shrine feathers no longer despawn when voiding out.\n• Blast mask check no longer granted for killing/ignoring Sakon.\n• Frame interpolation fixed for archery-minigame enemies and bubbles.\n• masksGivenOnMoon is reset on file load.\n• Two item-tracker quirks fixed; tracker handles incremented events; small Snowhead logic tweak.\n• Tingle map & Bomber's Notebook checks are re-obtainable again.\n• Time Moves When You Move: fixes saving a zero time speed.\n• Incompatible .o2r archives are now removed properly across app directories.\n• Fixes a crash when opening the menu while regenerating an OTR.\n\niOS / visionOS port:\n\nNo port-side changes this release beyond the version bump — the iOS shell, touch layout, controller support, and visionOS 3D mode are unchanged from 1.1.0.",
+          "downloadURL": "https://github.com/rebelancap/2ship2harkinian-ios/releases/download/v1.1.1/2ship-1.1.1-iOS.ipa",
+          "size": 12271881,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Halo: CE",
+      "bundleIdentifier": "org.haloce.ios",
+      "developerName": "NicholasDominici",
+      "subtitle": "Experimental native Halo: CE for iPhone and iPad, with on-device import of your own Xbox XISO. No JIT or jailbreak",
+      "localizedDescription": "Halo: CE for iPhone and iPad:\n\nHalo: Combat Evolved running natively on iPhone and iPad. It's a port of the Halo decompilation projects (see credits), compiled for ARM64 with OpenGL ES 3 graphics, SDL audio, and on-screen touch controls.\n\nYou'll need to provide your own Halo: CE XISO, which the app imports right on your device.\n\nI've been testing it on an iPhone 17 Pro Max and an iPad Pro 13-inch (M5). The iPad imports a XISO on-device and runs at its native 2752 × 2064 resolution. It stays horizontal when turned upright. It's still early, so if you hit a bug, please open an issue.\n\nWhat you need:\n\n• An iPhone or iPad on iOS 16 or newer.\n\n• An Apple account to sign the app.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.haloce.ios.png",
+      "tintColor": "#507020",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/NicholasDominici/halo-ce-ios@ios-port/docs/ios/menu.png",
+        "https://cdn.jsdelivr.net/gh/NicholasDominici/halo-ce-ios@ios-port/docs/ios/import.jpg"
+      ],
+      "versions": [
+        {
+          "version": "0.1.2",
+          "date": "2026-09-28T18:39:38Z",
+          "localizedDescription": "Halo: CE 0.1.2 (build 6) renders at native display resolution by default and keeps iPhone/iPad gameplay and importing in landscape.\n\n• Retina drawable and matching internal color/depth render targets. The HUD and touch controls retain their original logical size.\n\n• screen_width = 0 fits the display; 640 selects original 4:3 framing. See display settings.\n• Landscape-only orientation masks and a full-screen orientation-lock request on recent iPadOS versions.\n• In-app importing of your own original Xbox Halo XISO, the Halo: CE icon, touch controls, and hidden debug overlays remain included.\n\nInstall:\n\nDownload Halo-CE-iOS-unsigned.ipa, sign it with your own Apple account/profile, and install it. The IPA is unsigned and cannot be installed directly. Keep your existing bundle identifier when updating to retain app data. Back up the save folder before uninstalling.\n\nHalo-CE-simulator.zip is an ARM64 simulator app for Apple Silicon Macs. The .sha256 file verifies the IPA download. See the build and installation guide.\n\nValidation and limitations:\n\nA signed build 6 was installed on a physical iPad Pro 13-inch (M5). Its renderer reported 2752 × 2064; the complete landscape menu was visible, and the player confirmed turning the iPad upright keeps Halo horizontal with all controls visible. All three persistent save files matched their pre-update SHA-256 hashes. The preceding build imported a real NTSC-US XISO on this iPad and reached the opening campaign scene.\n\nBuild 6 was also installed and launched on a physical iPhone 17 Pro Max. Its renderer reported 2868 × 1320, a screenshot showed the complete landscape profile menu and controls, and all three persistent save files matched their pre-update SHA-256 hashes. The earlier runtime was played with audible sound on this phone. Native-resolution campaign performance, prolonged play, older devices/OS versions, physical controllers, and multiplayer remain unverified. Anti-aliasing and an in-app graphics settings menu are not implemented yet. Bink intro videos are unsupported.\n\nAn iPadOS 27 beta simulator cold-started with a portrait canvas that cropped landscape content despite a landscape scene. This did not occur in the physical iPad session. See the validation record for coverage and remaining limitations.\n\nThanks to cybersecurity/halo-ce-universal, bnunu/halo-1, punpckhdq/halo, and their contributors. This product includes software developed by in. This is an unofficial community port, unaffiliated with the Halo rights holders.",
+          "downloadURL": "https://github.com/NicholasDominici/halo-ce-ios/releases/download/v0.1.2-ios/Halo-CE-iOS-unsigned.ipa",
+          "size": 5663938,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Connect to other Halo players on your local network."
+        }
+      }
+    },
+    {
+      "name": "Perfect Dark",
+      "bundleIdentifier": "com.rebelancap.perfectdark",
+      "developerName": "rebelancap",
+      "subtitle": "Perfect Dark (Dab's Mod, with the Xbox 360 XBLA art) for iPhone & Apple Vision Pro",
+      "localizedDescription": "Perfect Dark for iPhone & Apple Vision Pro:\n\nPerfect Dark — Rare's N64 shooter — running natively on iPhone, iPad and Apple Vision Pro. Not an emulator: this is the Perfect Dark decompilation compiled for Apple silicon, through the Perfect Dark PC port and Dab's Mod, rendering on Metal.\n\nDab's Mod is what makes this the version worth porting: jump, a combat roll, melee combos and a third-person camera the N64 game never had, the Combat Simulator's simulant cap raised from 8 to 80, bodies that stay where they fell — and XBLA support, which draws the 2010 Xbox 360 release's high-resolution textures, meshes, rooms, font and explosions in place of the N64 art, from your own copy of that release.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.rebelancap.perfectdark.png",
+      "tintColor": "#204050",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/rebelancap/perfect-dark-ios@main/docs/screenshots/vision-pro-airbase-xbla.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.0.3",
+          "date": "2026-10-04T04:44:46Z",
+          "localizedDescription": "Perfect Dark 1.0.3: Goldfinger 64 support and the latest Dab's Mod (v3.14.0), on top of 1.0.2.\n\nGoldfinger 64:\n\n• Goldfinger 64, the GoldenEye 007 ROM hack, now plays beside GE Plus with its own row in the Perfect Menu: its missions, arenas, guns and music, with its own folder screens. It always draws in the N64 look.\n• To add it: go to Settings → GoldenEye 007 → Goldfinger 64 and pick your file, or drop it into added-content/ in the Files app. Use either goldfinger64.zip (or the .xdelta patch inside it) beside your GoldenEye 007 (US) ROM, which the patch is applied to, or a Goldfinger 64 ROM you have already patched, in any byte order. The next launch converts it once (a few seconds).\n\nGoldenEye 007 (GE Plus):\n\n• GE Plus converts again once on the first start after updating. This is expected and only happens once.\n• Upstream GE Plus fidelity fixes, plus level and prop repairs for the GoldenEye XBLA art.\n\nFixes from upstream (Dab's Mod v3.14.0):\n\n• In GE Plus, a gun no longer freezes the game for up to a second the first time it appears.\n• Crash fixes, including in the randomizer and in mods, and randomizer fixes.\n\nGame data:\n\nThis app ships with no game content. You supply your own Perfect Dark (USA) (Rev 1) ROM (pd.ntsc-final.z64, md5 e03b088b6ac9e0080440efed07c1e40f) by dropping it into the app's Documents folder in the Files app. PAL, JPN and US 1.0 ROMs are not supported. The XBLA art, GoldenEye 007 and Goldfinger 64 are optional and likewise yours to supply: drop your own files into added-content/. We cannot help you obtain any of them.\n\nInstall:\n\niPhone / iPad: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-ios.json Apple Vision Pro: https://raw.githubusercontent.com/rebelancap/all-ports/main/apps-visionos.json\n\nOn Apple Vision Pro, first install SideStore onto the headset with.\n\nthen add the source in SideStore.\n\nCredits:\n\nDab's Mod by DabDavis (this release is built on its v3.14.0), the Perfect Dark PC port, and the Perfect Dark decompilation. MIT.",
+          "downloadURL": "https://github.com/rebelancap/perfect-dark-ios/releases/download/v1.0.3/perfectdark-1.0.3-iOS.ipa",
+          "size": 8860854,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "Perfect Dark can connect to Bluetooth game controllers.",
+          "NSBluetoothPeripheralUsageDescription": "Perfect Dark can connect to Bluetooth game controllers."
+        }
+      }
+    },
+    {
+      "name": "Lighthouse",
+      "bundleIdentifier": "com.rebelancap.lighthouse",
+      "developerName": "rebelancap",
+      "subtitle": "Play Banjo-Kazooie on your iPhone and Apple Vision Pro — the full adventure with the",
+      "localizedDescription": "Lighthouse for iPhone & Apple Vision Pro:\n\nPlay Banjo-Kazooie on your iPhone and Apple Vision Pro — the full adventure with the Lighthouse enhancements menu, the randomizer, online co-op, game controllers and a tunable touch layout, and on Vision Pro a stereoscopic 3D mode that puts Spiral Mountain on a world-locked panel floating in your room with real depth.\n\nBuilt on Lighthouse (Harbour Masters' native Banjo-Kazooie port) and libultraship, rendering natively on Metal — no translation layer. 100% vibe coded with lots of passion and attention to detail.\n\nBanjo-Kazooie on Apple Vision Pro — a freely resizable window floating in your room, rendering at true 4K, with the on-screen touch layout. The same build also runs in stereoscopic 3D.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.rebelancap.lighthouse.png",
+      "tintColor": "#102040",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/rebelancap/Lighthouse-ios@main/docs/screenshots/visionos-window.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.1.0",
+          "date": "2026-08-19T23:00:50Z",
+          "localizedDescription": "Folds in upstream Lighthouse 1.1.0 \"Hatteras Alfa\" — 18 commits from Harbour Masters, plus updated libultraship and Torch.\n\nWhat upstream brings:\n\n• Presets — a new Presets menu applies curated bundles of enhancement settings in one tap.\n• Widescreen — reworked camera and actor handling for wide aspect ratios.\n• Romhacks — Snowglow Village support, plus other romhack improvements.\n• Audio — the audio cushion refills after a stall, so a stutter no longer leaves the sound starved behind it.\n• Co-op — player animations sync over Anchor again.\n• Save editor — Mumbo tokens, music notes, and tooltips added.\n• Cutscenes — screenshake glitches fixed; additional cutscenes in the Sequences menu.\n\nMuch faster first-run extraction:\n\nUpstream boosted ROM and hack extraction speed by up to 95%. On an iPhone, first-run ROM extraction now takes about half a minute instead of several.\n\nYour existing bk.o2r stays valid — no re-extraction needed. (The new extractor produces the same retail archive; the new tables feed the romhack path.).\n\nInstall:\n\nOr install the IPA below manually through SideStore/AltStore (iPhone can also use Sideloadly).\n\nRequirements:\n\n• iPhone on iOS 15+, or Apple Vision Pro (visionOS 2+).\n• Your own Banjo-Kazooie ROM (.z64) — US v1.0, US v1.1, Japan or PAL.\n\nThe app ships no game content.\n\n🤖 Generated with Claude Code.",
+          "downloadURL": "https://github.com/rebelancap/Lighthouse-ios/releases/download/v1.1.0/lighthouse-1.1.0-iOS.ipa",
+          "size": 5502846,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Lighthouse uses the local network to host or join co-op (Anchor) sessions with players on your network, and for the developer console when you enable it."
+        }
+      }
     }
   ]
 }
