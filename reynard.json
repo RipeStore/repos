@@ -42,8 +42,16 @@
           "buildVersion": "a3315eb",
           "date": "2026-09-27T08:38:17Z",
           "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.14.1...0.15.0\r\n\r\n### New Features\r\n- Added support for printing a webpage or an online PDF viewed in the browser, accessible as a **Print** option in the share sheet or with the Command + P keyboard shortcut.\r\n- You can now see which tab is playing audio and mute tabs directly from the address bar.\r\n- You can now configure whether Reader Mode is shown automatically for a specific website or for all websites.\r\n- Built-in add-on pages, such as those that provide a custom new tab appearance, can now be set as your new tab page.\r\n- For links that open in a new tab automatically or from the context menu, you can now return to the opener tab using the back button, or by swiping from the left edge of the screen to the right.\r\n\r\n### Bug Fixes & Improvements\r\n- JIT can now be enabled on iPhone 18 Pro and iPhone 18 Pro Max.\r\n- Greatly reduced memory and power usage when the camera is active.\r\n- The Command + W keyboard shortcut now activates the adjacent tab instead of the most recently opened one.\r\n- If you set the last tab to show on startup, the browser now loads its URL immediately instead of after a short delay.\r\n- The list of recently closed tabs now clears when you remove browsing history in the browser settings.\r\n- Fixed a regression where Reader Mode’s serif font would be used as the default serif font for all websites.\r\n- Fixed numerous bugs and improved UI animations.\r\n\r\n### Translations\r\nAdded Vietnamese translation.\r\n\r\n### Engine\r\nUpdated Gecko to [156.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_156_0_1_RELEASE) (released Sep 22, 2026).",
-          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.15.0/Reynard.ipa",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/untagged-23abdc1166ed468511e0/Reynard.ipa",
           "size": 108690287
+        },
+        {
+          "version": "0.16.0",
+          "buildVersion": "63fb54d",
+          "date": "2026-10-04T13:42:17Z",
+          "localizedDescription": "## Changes\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.15.0...0.16.0\r\n\r\n### Bug Fixes & Improvements\r\n- Fixed an issue where the iPad floating keyboard pushed the web view upward.\r\n\r\n### Engine\r\nUpdated Gecko to [157.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_RELEASE) (released Sep 29, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.16.0/Reynard.ipa",
+          "size": 109163229
         },
         {
           "version": "0.14.1",
