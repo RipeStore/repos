@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.joemattiello.iCube",
-    "com.emp0ry.mirushin",
-    "dev.kartpad.app"
+    "dev.kartpad.app",
+    "com.kyrielie.nectar",
+    "com.husk.app"
   ],
   "apps": [
     {
@@ -216,11 +216,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.1.9",
-          "date": "2026-09-19T17:19:18Z",
-          "localizedDescription": "• Improved Reading Stats.\n• Changed RSS feed terminology to fanfiction terminology. Feeds are now referred to as \"shelves\". Functionally the same.\n• Added guard for AO3 links greater than 4096 characters long which hit a fallback page.",
-          "downloadURL": "https://github.com/kyrielie/nectar/releases/download/v0.1.9/Nectar-unsigned.ipa",
-          "size": 5135579,
+          "version": "0.2.0",
+          "date": "2026-10-05T02:13:37Z",
+          "localizedDescription": "• Refactored modules.\n• Fixed reading stats bug.\n• Removed some themes, moved to themes gallery site.\n• Updated ao3 settings menu.",
+          "downloadURL": "https://github.com/kyrielie/nectar/releases/download/v0.2.0/Nectar-unsigned.ipa",
+          "size": 5308342,
           "minOSVersion": "17.0"
         }
       ],
@@ -2911,11 +2911,11 @@
       ],
       "versions": [
         {
-          "version": "1.17.0",
-          "date": "2026-10-03T18:24:15Z",
-          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nChanges:\n\n• App Store screenshots from the Simulator.\n• Store screenshots: back to plain 9:41 on the simulator status bar.\n• White balance calibration + camera diagnostics (beta).\n• Camera diagnostics: report model, optics, exposure ranges and lens switch-overs.\n• Add a 2× lens button for the Main camera's full-detail sensor crop.\n• Pinned hold, tray lock button, chip order, natural motion blur.\n• In-app help for the tray lock and natural motion blur (beta).\n• Live screen: clearer tray, lens-row zoom and green screen, auto subject cutoff.\n\n• Green screen: depth format tags, dotted Subject button, EV tap reset.\n• Polish: Format depth tags, one-line rows, 1x lens tap, Options groups, OBS card.\n• Hide zoom controls while green screen depth assist runs.",
-          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.17.0/LensLink-unsigned.ipa",
-          "size": 6889375,
+          "version": "1.17.1",
+          "date": "2026-10-03T20:08:08Z",
+          "localizedDescription": "Install:\n\nPlugin builds match OBS Studio 32.x; the macOS build is universal (macOS 13+).\n\n• USB on Windows needs iTunes (it provides Apple's device driver).\n\nFull setup guide: the README.\n\nHighlights:\n\n• Stabilization (Options → Camera): Off (default), Standard or Cinematic. Cinematic looks smoothest but adds a lot of delay, and the app now warns you when you pick it.\n• Web panel parity: the browser panel gets the app's tray, lens buttons, the Stabilization setting and a white balance eyedropper.\n• Fixes: remote Stop works again, and the web panel's eyedropper sets white balance correctly.\n\nChanges:\n\n• Store What's New (es-MX): use \"computadora\".\n• Add opt-in Stabilization setting (Off, Standard, Cinematic).\n• Warn that Cinematic stabilization adds a lot of delay.\n• Web panel: the app's tray, lens buttons, Stabilization and a WB eyedropper.\n• Fix remote Stop and the web panel eyedropper's white balance.",
+          "downloadURL": "https://github.com/MyNamesEMurray/LensLink/releases/download/v1.17.1/LensLink-unsigned.ipa",
+          "size": 6901185,
           "minOSVersion": "15.0"
         }
       ],
@@ -2972,11 +2972,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "0.5.1",
-          "date": "2026-10-04T02:00:07Z",
-          "localizedDescription": "What's new?:\n\n• Fixed iOS26 JIT crashes.\n• Fixed a fatal pipe2 crash, (added fallback).\n\nCredits:\n\n@Yaryk007 - made the HuskPatch repo where I got the iOS26 JIT fixes:).",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.5.1/Husk.ipa",
-          "size": 40386325,
+          "version": "0.6.0",
+          "date": "2026-10-04T23:36:46Z",
+          "localizedDescription": "What's new?:\n\n• Implementation for the experimental Android Translation Layer.\n\n• You can test it by going to: Settings -> Android Translation Layer -> Add APK -> Chosen APK -> Run Translation Layer Attempt.\n• It currently can 100% emulate Flappy Bird and Subway 60 FPS.\n\nCredits:\n\nOriginal Android Translation Layer: https://gitlab.com/android_translation_layer/android_translation_layer",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.6.0/Husk.ipa",
+          "size": 40778819,
           "minOSVersion": "16.4"
         }
       ],
@@ -3231,11 +3231,11 @@
       ],
       "versions": [
         {
-          "version": "0.7.10",
-          "date": "2026-10-04T13:58:08Z",
-          "localizedDescription": "KartPad 0.7.10 fixes the biggest problems reported since 0.7.9. Like 0.7.9, the downloads are ready to play: install, then add your own game data the first time you open KartPad.\n\nFull steps: Get KartPad.\n\nWhat's new:\n\n• Incomplete game data is caught at startup (#370). If a copy of your game data didn't finish (for example from a cloud drive or the Files app), KartPad used to say \"Ready to play\" and then crash or go black. It now checks every game file when the game starts and tells you which ones are missing, so you know to import your game data again.\n• No more silent black screen on iPhone and iPad. When the game stops because of an error, KartPad now shows what happened instead of leaving a black screen. On Android the message appears on the game chooser.\n• Snapdragon 8 Elite / Adreno 8xx phones (#316). Automatic in Help → Character Graphics Test now uses the full fix, so tracks and menus draw correctly as well as characters. If karts or item boxes go missing in Retro Rewind on your phone, choose Experimental: fix broken characters instead.\n• Hide the ⋯ button with a controller (#402). With a controller connected and Hide on controller on, the ⋯ button fades out with the touch controls. Touch the screen (or click) to bring it back for a few seconds.\n• PowerVR phones (#304). No change to drawing yet. The diagnostic log now records whether the GPU's limits are the cause, so one report from an affected phone can settle it.\n\nUpdating:\n\n• Android: install the APK over your current KartPad; don't uninstall first. Your saves and game data stay.\n• iPhone and iPad: install the IPA over your current KartPad with the same tool and Apple ID to keep your saves and game data.\n• Mac: replace the old app with the new one. Your settings and saves in ~/Library/Application Support/KartPad stay. The Mac app has no changes besides the version number.\n\nYou still need your own Mario Kart Wii (PAL, RMCP01, revision 0): an extracted game data folder (from Dolphin's Extract Entire Disc, or the KartPad game data folder PadMint makes), or your disc image plus your own Wii common key. No disc images, game files or keys are included.\n\nPrefer to build your own?:\n\nPadMint still works for KartPad. It uses KartPad-v0.7.10-ios-for-padmint.ipa (the iPhone app without game code) and the recipe below; don't install that IPA by itself. Game packs made for 0.7.x keep working.\n\nChecked before release:\n\n• iPhone and iPad: on an iPad Pro (6th generation), the app with the game installed over an older KartPad without losing data and ran at 60 FPS, and a forced error showed the new message instead of a black screen.\n• Mac: this Mac reached the game.\n\nNot yet checked on a Snapdragon 8xx or PowerVR phone. If you have one, a reply on #316 or #304 helps.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.10/KartPad-v0.7.10-ios.ipa",
-          "size": 64483064,
+          "version": "0.7.12",
+          "date": "2026-10-05T03:48:00Z",
+          "localizedDescription": "KartPad 0.7.12 helps track down the Android graphics problems where characters go missing, turn white or look washed out. Like 0.7.11, the downloads are ready to play: install, then add your own game data the first time you open KartPad.\n\nFull steps: Get KartPad.\n\nWhat's new:\n\n• Android: a built-in drawing check. About a minute into a session, KartPad quietly draws one character twice off screen in two different ways and compares the results. It writes one line to the log saying whether they match. Nothing on screen changes, and it runs once per session.\n• Report a Problem shows the result near the top of the saved log, so if you're on a phone where characters look wrong (Galaxy S24, Moto G85, Moto G54 and similar), the log you attach tells us what's going on without you trying any settings.\n\nNothing changes in the game itself. If KartPad already plays for you, you don't need to do anything.\n\nUpdating:\n\n• Android: install the APK over your current KartPad; don't uninstall first. Your saves and game data stay.\n• iPhone and iPad: install the IPA over your current KartPad with the same tool and Apple ID to keep your saves and game data. No changes besides the version number.\n• Mac: replace the old app with the new one. No changes besides the version number.\n\nYou still need your own Mario Kart Wii (PAL, RMCP01, revision 0): an extracted game data folder (from Dolphin's Extract Entire Disc, or the KartPad game data folder PadMint makes), or your disc image plus your own Wii common key. No disc images, game files or keys are included.\n\nPrefer to build your own?:\n\nPadMint still works for KartPad. It uses KartPad-v0.7.12-ios-for-padmint.ipa (the iPhone app without game code) and the recipe below; don't install that IPA by itself. Game packs made for 0.7.x keep working.\n\nChecked before release:\n\n• Mac: the app runs the game at 60 FPS.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.12/KartPad-v0.7.12-ios.ipa",
+          "size": 64482351,
           "minOSVersion": "16.0"
         }
       ],
