@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.emp0ry.mirushin",
-    "com.husk.app",
-    "dev.kartpad.app"
+    "com.matthewfecher.SwiftRadio",
+    "app.mangatan.mangatan",
+    "com.emp0ry.mirushin"
   ],
   "apps": [
     {
@@ -1576,7 +1576,7 @@
       "bundleIdentifier": "com.matthewfecher.SwiftRadio",
       "developerName": "analogcode",
       "subtitle": "Professional Radio Station App for iOS!",
-      "localizedDescription": "Swift Radio:\n\nOpen-source radio station app built entirely in Swift. Used by 80+ apps on the App Store.\n\nLooking for Android? See Swift Radio Android. Same station format, native Kotlin and Jetpack Compose.\n\nFeatures:\n\n• Stream live radio with background audio playback.\n• Scrubber and progress bar for non-live streams.\n• Apple CarPlay support.\n• Album art and track metadata from streams and iTunes API.\n• Lock screen and Control Center integration.\n• Multiple stations from a local or remote JSON file.\n• Pull to refresh and optional search bar.\n• Localization-ready via Xcode String Catalog.\n• About screen with email, sharing, and external links.\n\nBuilt on FRadioPlayer for streaming, metadata parsing, and iTunes album art fetching.\n\nGetting Started:\n\n• Open SwiftRadio.xcodeproj in Xcode.\n• Update your stations in SwiftRadio/Data/stations.json or host the file remotely.",
+      "localizedDescription": "Swift Radio:\n\nOpen-source iOS radio app with a SwiftUI interface. Used by 80+ apps on the App Store.\n\nLooking for Android? See Swift Radio Android. Same station format, native Kotlin and Jetpack Compose.\n\nFeatures:\n\n• Stream live radio with background audio playback.\n• Scrubber and progress bar for non-live streams.\n• Apple CarPlay support.\n• Album art and track metadata from streams and iTunes API.\n• Lock screen and Control Center integration.\n• Multiple stations from a local or remote JSON file.\n• Pull to refresh and optional search bar.\n• Localization-ready via Xcode String Catalog.\n• About screen with email, sharing, and external links.\n\nBuilt on FRadioPlayer for streaming, metadata parsing, and iTunes album art fetching.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.matthewfecher.SwiftRadio.png",
       "tintColor": "#6156e2",
       "category": "entertainment",
@@ -1585,12 +1585,12 @@
       ],
       "versions": [
         {
-          "version": "3.1.0",
-          "date": "2026-07-04T20:18:33Z",
-          "localizedDescription": "The attached .ipa is unsigned. Install it by sideloading with AltStore or Sideloadly, which re-sign it with your own Apple ID. Or clone the repo and run it from Xcode with your personal team.\n\n• Localize About screen.\n• Add link to Swift Radio Android in README.\n• Move Android link below screenshots.\n• Fix CI builds by using iPhone 17 Pro simulator.\n\n• Fix iOS app icon: use square full-bleed artwork.",
-          "downloadURL": "https://github.com/analogcode/Swift-Radio-Pro/releases/download/v3.1.0/swift-radio-v3.1.0-unsigned.ipa",
-          "size": 6178833,
-          "minOSVersion": "16.0"
+          "version": "4.0.0",
+          "date": "2026-10-05T18:05:00Z",
+          "localizedDescription": "Swift Radio’s stations list, Now Playing, station information and About screens have been rebuilt in SwiftUI, preserving the familiar station cards, artwork, marquee titles and popup player.\n\nWhat’s new:\n\n• Rebuilt navigation, popup presentation and options-sheet transitions, including returning directly to the player after sharing.\n• Improved playback and audio-session coordination. Scrubbing resumes playback, while a later Pause, Stop or station change takes precedence over an older seek.\n• Shared station and playback state across iPhone and CarPlay, keeping artwork and metadata aligned.\n• Loading, retry and pagination support for larger CarPlay catalogs.\n• SwiftRadioCore separates playback, catalog loading, artwork and system-media integration from the interface, making the app easier to maintain and extend.\n• Swift 6 with complete concurrency checking.\n• FRadioPlayer 0.4.0, LNPopupUI 4.0.1 and LNPopupController 4.5.12.\n\nAlso on Android:\n\nOur Android equivalent, Swift Radio Android, uses Kotlin, Jetpack Compose and the same station JSON format. We’ve added compose-popupbar for its expandable Now Playing bar and full player, bringing a similar popup experience to the iOS version’s LNPopupUI and LNPopupController.\n\nRequirements and upgrading:\n\nRequires iOS 17+ and Xcode 26.6+. Existing forks should migrate custom UIKit controllers and coordinators into the SwiftUI structure. The station JSON format remains compatible; branding and content remain configurable through Config, assets and the String Catalog.",
+          "downloadURL": "https://github.com/analogcode/Swift-Radio-Pro/releases/download/v4.0.0/swift-radio-v4.0.0-unsigned.ipa",
+          "size": 6564137,
+          "minOSVersion": "17.0"
         }
       ],
       "appPermissions": {
@@ -2421,11 +2421,11 @@
       ],
       "versions": [
         {
-          "version": "3.5.0",
-          "date": "2026-10-03T20:55:44Z",
-          "localizedDescription": "Release v6.1.32:\n\n• Repair cached anime source links and open the correct WebView (af0e542b).\n• Show Hanzi dictionary results in Chinese profiles (a1aaaee3).\n• Add study playback modes and dialogue skipping (8cba695c).\n• Fix kanji dictionary imports with malformed Unicode escapes (5c61da5b).\n• Keep remote EPUB reading progress scoped to the current volume (e731fc0b).\n• Restore dictionary import speed while retaining details (1d819b17).\n• Improve Windows desktop startup performance and reliability (782350a1).\n• Preserve installed package versions across desktop restarts (507ac240).\n• Adapt navigation pins to available window height (cef45be5).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.32/Manatan-v6.1.32-iOS.ipa",
-          "size": 370169829,
+          "version": "6.1.33",
+          "date": "2026-10-05T17:19:04Z",
+          "localizedDescription": "Release v6.1.33:\n\n• Fix local manga reading across devices (404dadb8).\n• Fix closing PDFs in the desktop novel reader (9c7cc422).\n• Fix Android reader audio export for Anki cards (6bd1b52e).\n• Allow independent primary and secondary video subtitle sizes (2631fad7).\n• Honor kanji lookup settings and preserve dictionary navigation (96338232).\n• Allow Kanji and Hanzi dictionaries to collapse (df196b74).\n• Add PDF zoom and local novel folder discovery (a2cf7328).\n• Preserve renewed playback sessions across cookie synchronization (c66a6a20).\n• Show Chinese stroke order in Hanzi diagrams (3e69433a).\n• Keep video playback working across rotating CDN hosts (07597f62).\n• Keep desktop dictionary popup controls aligned after layout changes (7cf45b70).\n• Add weekly anime schedule across desktop, mobile, and WebUI (405868aa).\n• Improve Jimaku show selection with a unified native dialog (f3d33a8b).\n• Add search to Manatan and WebUI settings (d68d0eaf).\n• Improve native study editing and reader navigation (ad5202af).\n• Prevent false pitch accents in dictionary results (62fcfb35).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.33/Manatan-v6.1.33-iOS.ipa",
+          "size": 383396464,
           "minOSVersion": "16.1"
         }
       ],
@@ -2966,10 +2966,10 @@
       "bundleIdentifier": "com.husk.app",
       "developerName": "Leviidev",
       "subtitle": "Android Emulator for iOS",
-      "localizedDescription": "Husk:\n\nAndroid app launcher for iOS.\n\nDrop in an APK, tap it, and the Android app opens full-screen.\n\nBuilds:\n\nEvery push builds an unsigned Husk.ipa in GitHub Actions (build-ipa.yml). It is attached to the run as an artifact, ready for AltStore, SideStore or TrollStore to sign and install. The first run builds QEMU and its dependencies from scratch, which takes a couple of hours; after that they are cached.",
+      "localizedDescription": "Husk:\n\nAndroid app launcher for iOS.\n\nDrop in an APK, tap it, and the Android app opens full-screen.\n\nJIT:\n\nHusk needs JIT, which on iOS takes an attached debugger. Use StikDebug, or Husk's built-in StikJIT helper (iOS 26+), which on iOS 27 can pair with your iPhone from Settings with no computer. The app walks you through it; see.\n\nBuilds:\n\nEvery push builds an unsigned Husk.ipa in GitHub Actions (build-ipa.yml). It is attached to the run as an artifact, ready for AltStore, SideStore or TrollStore to sign and install. The first run builds QEMU and its dependencies from scratch, which takes a couple of hours; after that they are cached.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.husk.app.png",
       "tintColor": "#a080e0",
-      "category": "games",
+      "category": "developer",
       "versions": [
         {
           "version": "0.6.1",
@@ -4613,6 +4613,35 @@
         "privacy": {
           "NSLocalNetworkUsageDescription": "MeloNX needs local network access for LAN / Local Multiplaer"
         }
+      }
+    },
+    {
+      "name": "LiveExec32",
+      "bundleIdentifier": "com.kdt.LiveExec32",
+      "developerName": "LiveContainer",
+      "subtitle": "Run 32-bit binaries on 64-bit iOS by passing through syscalls",
+      "localizedDescription": "LiveExec32:\n\nRun 32-bit binaries on 64-bit iOS by passing through syscalls.\n\nNot all apps will work and will mostly run into missing symbols issue. Please open an issue for that.\n\nSome further work in this branch is done by LLM, mainly GPT-5.6 Sol; notable for implementing GDB Stub, Native Threads, more shims, etc. Its commit history is kept for later reference. Last commit before LLM is dbd36e3.\n\nWhile I'd love to work more on it myself more, I can't really do it due to lack of time and I have too many side projects still left in the dust. I still try to review changes. LLM also validates them through test cases made by itself.\n\nContributions are welcome.\n\nThis project is heavily based on unidbg.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
+      "tintColor": "#6156e2",
+      "category": "developer",
+      "versions": [
+        {
+          "version": "0.0.1",
+          "date": "2026-10-03T04:10:18Z",
+          "localizedDescription": "Commit: f919185cf4066e64734f8d66ec4c9be3b4699444 Message: Fix legacy delayed presentation and EAGL drawable identity.\n\nThis is a nightly release created automatically with GitHub Actions workflow.",
+          "downloadURL": "https://github.com/LiveContainer/LiveExec32/releases/download/nightly/com.kdt.liveexec32_0.0.1.ipa",
+          "size": 14500852,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.kernel.extended-virtual-addressing",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "get-task-allow",
+          "jb.pmap_cs.custom_trust"
+        ],
+        "privacy": {}
       }
     }
   ]
