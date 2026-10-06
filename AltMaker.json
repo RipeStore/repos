@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.matthewfecher.SwiftRadio",
-    "app.mangatan.mangatan",
-    "com.emp0ry.mirushin"
+    "com.husk.app",
+    "com.aigch.OpenParsec",
+    "com.matthewfecher.SwiftRadio"
   ],
   "apps": [
     {
@@ -2163,10 +2163,10 @@
       "versions": [
         {
           "version": "1.3.0",
-          "date": "2026-09-02T06:16:29Z",
+          "date": "2026-10-06T03:26:37Z",
           "localizedDescription": "This is a nightly release created automatically with GitHub Actions workflow.",
           "downloadURL": "https://github.com/hugeBlack/OpenParsec/releases/download/nightly/OpenParsec.ipa",
-          "size": 4341582,
+          "size": 4351201,
           "minOSVersion": "14.0"
         }
       ],
@@ -2972,17 +2972,19 @@
       "category": "developer",
       "versions": [
         {
-          "version": "0.6.1",
-          "date": "2026-10-05T11:16:32Z",
-          "localizedDescription": "What’s new?:\n\n• WiFi support for Unity Games.\n• Geometry Dash support.\n• Minecraft Support.\n\nNotes:\n\nThis release only edits the Android Translation Layer. The fully emulated android OS has not been changed this build.",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.6.1/Husk.ipa",
-          "size": 40885768,
+          "version": "0.7.0",
+          "date": "2026-10-06T03:36:02Z",
+          "localizedDescription": "What’s new?:\n\n• Built-in StikJIT: pair on the device and enable JIT without a second app.\n• Wi-Fi support for all games.\n• UI Revamp: Now fully built with Swift.\n• Moved Translation layer to the main 4 tabs, replacing the Discover tab.\n\nNew game support:\n\n• Beach Buggy Racing 2 - 60 FPS.\n\nNew Contributors:\n\n• @danperks made their first contribution.",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.7.0/Husk.ipa",
+          "size": 44993209,
           "minOSVersion": "16.4"
         }
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {}
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Husk uses the local network to pair with this iPhone for JIT, without a computer."
+        }
       }
     },
     {
@@ -4397,7 +4399,7 @@
       "bundleIdentifier": "com.lukebrosious.theft4",
       "developerName": "KoreanSeats1",
       "subtitle": "Experimental static AOT recompilation of GTA IV's Xbox 360 build for ARM64 iOS and iPadOS. No game files included",
-      "localizedDescription": "Thank you to everyone behind the unprecedented work on LibertyRecomp and the ReXGlue SDK. Without their foundation, Theft4 would have taken much, much longer to reach this point. Please support their projects and the upstream developers who made this work possible.\n\nHelp improve Theft4 on your device: capture a slow or problematic scene with the built-in short performance capture, export the saved log, and upload it with your survey answers and screenshots. Smooth runs are useful comparisons too. Follow the capture, export, and submission instructions below.",
+      "localizedDescription": "Thank you to everyone behind the unprecedented work on LibertyRecomp and the ReXGlue SDK. Without their foundation, Theft4 would have taken much, much longer to reach this point. Please support their projects and the upstream developers who made this work possible.\n\nHelp improve Theft4 on your device: capture a slow or problematic scene with the built-in Long Performance Capture, export the saved log, and upload it with your survey answers and screenshots. Smooth runs are useful comparisons too. Follow the capture, export, and submission instructions below.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.lukebrosious.theft4.png",
       "tintColor": "#103040",
       "category": "games",
