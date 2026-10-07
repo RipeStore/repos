@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.nuvio.media",
-    "com.husk.app",
-    "com.crispstrobe.crisperweaver"
+    "app.mangatan.mangatan",
+    "com.alyn.resamp.launcher",
+    "com.nuvio.media"
   ],
   "apps": [
     {
@@ -2421,11 +2421,11 @@
       ],
       "versions": [
         {
-          "version": "6.1.33",
-          "date": "2026-10-05T17:19:04Z",
-          "localizedDescription": "Release v6.1.33:\n\n• Fix local manga reading across devices (404dadb8).\n• Fix closing PDFs in the desktop novel reader (9c7cc422).\n• Fix Android reader audio export for Anki cards (6bd1b52e).\n• Allow independent primary and secondary video subtitle sizes (2631fad7).\n• Honor kanji lookup settings and preserve dictionary navigation (96338232).\n• Allow Kanji and Hanzi dictionaries to collapse (df196b74).\n• Add PDF zoom and local novel folder discovery (a2cf7328).\n• Preserve renewed playback sessions across cookie synchronization (c66a6a20).\n• Show Chinese stroke order in Hanzi diagrams (3e69433a).\n• Keep video playback working across rotating CDN hosts (07597f62).\n• Keep desktop dictionary popup controls aligned after layout changes (7cf45b70).\n• Add weekly anime schedule across desktop, mobile, and WebUI (405868aa).\n• Improve Jimaku show selection with a unified native dialog (f3d33a8b).\n• Add search to Manatan and WebUI settings (d68d0eaf).\n• Improve native study editing and reader navigation (ad5202af).\n• Prevent false pitch accents in dictionary results (62fcfb35).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.33/Manatan-v6.1.33-iOS.ipa",
-          "size": 383396464,
+          "version": "6.1.34",
+          "date": "2026-10-07T06:39:12Z",
+          "localizedDescription": "Release v6.1.34:\n\n• Add local popup input diagnostics (967b001).\n• Add cross-device immersion stats and progress tracking (de437e4).\n• update the build pipeline (850ea94).\n• Fix Jellyfin tracker progress, refresh, and browser links (3be1869).\n• Distinguish iOS distribution builds with a shared monotonic counter (bc4b916).\n• Fix local manga page loading and OCR recovery (2c700f9).\n• Fix catalog refresh errors and removal state (4cc9823).\n• Update text (de5d4a1).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.34/Manatan-v6.1.34-iOS.ipa",
+          "size": 395313611,
           "minOSVersion": "16.1"
         }
       ],
@@ -4618,31 +4618,437 @@
       }
     },
     {
-      "name": "LiveExec32",
-      "bundleIdentifier": "com.kdt.LiveExec32",
-      "developerName": "LiveContainer",
-      "subtitle": "Run 32-bit binaries on 64-bit iOS by passing through syscalls",
-      "localizedDescription": "LiveExec32:\n\nRun 32-bit binaries on 64-bit iOS by passing through syscalls.\n\nNot all apps will work and will mostly run into missing symbols issue. Please open an issue for that.\n\nSome further work in this branch is done by LLM, mainly GPT-5.6 Sol; notable for implementing GDB Stub, Native Threads, more shims, etc. Its commit history is kept for later reference. Last commit before LLM is dbd36e3.\n\nWhile I'd love to work more on it myself more, I can't really do it due to lack of time and I have too many side projects still left in the dust. I still try to review changes. LLM also validates them through test cases made by itself.\n\nContributions are welcome.\n\nThis project is heavily based on unidbg.",
-      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
-      "tintColor": "#6156e2",
-      "category": "developer",
+      "name": "MCX360 Edition",
+      "bundleIdentifier": "com.devz.mc360",
+      "developerName": "DevZer0D4Y",
+      "subtitle": "A recomp (using the RexGlue SDK) of Minecraft Xbox 360 Edition for iOS",
+      "localizedDescription": "MCX360 Edition: Minecraft: Xbox 360 Edition for iPhone:\n\nA native iOS port of Minecraft: Xbox 360 Edition (Title Update 9), built with the ReXGlue static recompilation SDK. The Xbox 360 code is recompiled ahead of time to run natively on iPhone. Graphics run through Vulkan on Metal via MoltenVK. Developer mode MIGHT be required on older and newer iOS, enable it going trough: Settings > Privacy & Security, scroll to the bottom, toggle on Developer Mode, and restart your device.\n\nYou need your own copy of the game. This release does not include the game's data files (textures, sounds, worlds, the original default.xex). You provide them from a disc and title update you own. This project is not affiliated with Mojang, Microsoft, or 4J Studios.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.devz.mc360.png",
+      "tintColor": "#90c0e0",
+      "category": "games",
       "versions": [
         {
-          "version": "0.0.1",
-          "date": "2026-10-03T04:10:18Z",
-          "localizedDescription": "Commit: f919185cf4066e64734f8d66ec4c9be3b4699444 Message: Fix legacy delayed presentation and EAGL drawable identity.\n\nThis is a nightly release created automatically with GitHub Actions workflow.",
-          "downloadURL": "https://github.com/LiveContainer/LiveExec32/releases/download/nightly/com.kdt.liveexec32_0.0.1.ipa",
-          "size": 14500852,
+          "version": "1.1",
+          "date": "2026-09-26T07:36:36Z",
+          "localizedDescription": "New:\n\n• On-screen touch controls, using the layout from the XeniOS emulator. They show when no controller is connected and hide when one connects. Adjust them with touch_controls, touch_controls_opacity and touch_haptics in mc360.toml.\n• Save thumbnails: your worlds now show a picture in the world list.\n• Exit Game now closes the app instead of leaving a black screen.\n\nPerformance:\n\n• Much lower CPU load while playing. The game's threads no longer queue up on a shared lock, calls inside the game run directly, and waits end as soon as the GPU is ready instead of sleeping in whole milliseconds.\n• Frame rate capped at a steady, evenly paced 60 FPS (framerate_limit, default 60).\n• The game's main thread and GPU thread now get priority on the iPhone's performance cores.\n• Less heat: the game no longer spins a core at full power while waiting for the GPU, and no longer copies the whole screen image back and forth several times per frame.\n\nFixes:\n\n• Fixed random crashes after playing for a while.\n• Fixed choppy audio.\n• Fixed \"ghost\" blocks and old terrain showing where the world had changed.\n• Devices with 3 GB of RAM now show an explanation at launch instead of crashing.\n\nKnown issues:\n\n• Long sessions heat the phone, and iOS then slows it down, so the frame rate can drop over time. Playing unplugged and without a case helps.\n• The on-screen D-pad's up arrow sits over the first world's thumbnail in the Load menu. It's part of the controls, not the save.\n• Devices with 3 GB of RAM (iPhone 8 Plus, iPhone X, iPad 8th gen) can't run the game with a normal sideload. They need TrollStore, or a signing method that grants the Extended Virtual Addressing entitlement.\n\nInstalling over 1.0 keeps your worlds and settings.",
+          "downloadURL": "https://github.com/DevZer0D4Y/MCX360-EDITION/releases/download/R2/MCX360Edition.ipa",
+          "size": 27602175,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Alyn ReSA Multiplayer",
+      "bundleIdentifier": "com.alyn.resamp.launcher",
+      "developerName": "RipeStore",
+      "subtitle": "Alyn's San Andreas Multiplayer for iOS",
+      "localizedDescription": "An iOS client for San Andreas Multiplayer. Native code, live server discovery, and a launcher built around how people actually play on an iPhone.\n\nFeatures :\n\n• Player counts, ping, gamemode and status pulled continuously. Filter, favourite, and join without leaving the launcher.\n• Every on-screen control can be moved, resized or hidden. Save a layout once and it follows your account.\n• Frame cap, draw distance, texture quality and memory ceiling configurations.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.alyn.resamp.launcher.png",
+      "tintColor": "#001030",
+      "category": "other",
+      "versions": [
+        {
+          "version": "1.0.2",
+          "date": "2026-10-07T05:40:29Z",
+          "localizedDescription": "Alyn ReSA Multiplayer 1.0.2 (102):\n\nBundle ID: com.alyn.resamp.launcher.\n\nManifest version: 1.0.2.\n\nRelease tag: v1.0.2.\n\nSource manifest: https://alynsampmobile.pro/api/resa/ios/manifest\n\nSource IPA: https://alynsampmobile.pro/api/resa/ios/ipa\n\nSource IPA SHA-256: 24a7ed86c50c9466170fc5cf8d8974b8c42c142f84578bcd7503a32f9c895563.\n\nStripped IPA SHA-256: cfecb1f90266c4ae4a1a09322df201dabdf33545dae56881524d5bc99351316f.\n\nMach-O signatures removed: 6.\n\n_CodeSignature archive entries removed: 12.",
+          "downloadURL": "https://github.com/RipeStore/SA-MP_Mobile/releases/download/v1.0.2/Alyn_ReSA_Multiplayer_v1.0.2.ipa",
+          "size": 35612846,
+          "minOSVersion": "15.1"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "Voice chat on multiplayer servers uses the microphone while you talk.",
+          "NSPhotoLibraryUsageDescription": "Select an image to use as a custom launcher background."
+        }
+      }
+    },
+    {
+      "name": "VidGrab",
+      "bundleIdentifier": "com.t4mag0.vidgrab",
+      "developerName": "iamjhe08",
+      "subtitle": "Download videos on iPhone by pasting a link or browsing",
+      "localizedDescription": "VidGrab:\n\nVidGrab is a video downloader for iPhone and iPad. Paste a link, choose your preferred quality, and download. You can also browse directly in the built-in browser, play a video, and use the Download button when it appears.\n\nI made VidGrab to keep video downloading simple and straightforward, without requiring jailbreak tweaks or a bunch of additional packages.\n\nMade by T4MAG0 · github.com/iamjhe08.\n\nWhat it can do:\n\n• Browse sites inside the app and grab whatever video is playing.\n• Ad blocker in the browser.\n\n• Saves videos as MP4 so they play right away and can go into Photos.\n• Save just the sound as MP3 or M4A.\n• Keeps YouTube videos in their original language instead of a dubbed track.\n• Favorites you can add, rename and rearrange.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.t4mag0.vidgrab.png",
+      "tintColor": "#f03070",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/iamjhe08/VidGrab@main/VidGrab-screenshot-1.jpg",
+        "https://cdn.jsdelivr.net/gh/iamjhe08/VidGrab@main/VidGrab-screenshot-2.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.3.1",
+          "date": "2026-10-05T08:27:13Z",
+          "localizedDescription": "What's new in 1.3.1:\n\n• When the engine can't start, the error now shows the exact reason.\n\nNew in 1.3.0:\n\n• Copy a video link anywhere, open VidGrab and it's ready on Home.\n\n• Player: picture-in-picture, keeps playing with the screen off, playback speed, and resumes where you left off.\n• Private Vault: hide videos behind a passcode, Face ID, or both.\n\n• Back up your settings to a file and load them on another phone.\n\nThe floating bubble uses code from TrollSpeed by Lessica (MIT license).",
+          "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.1/VidGrab-1.3.1.ipa",
+          "size": 29749559,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSFaceIDUsageDescription": "VidGrab uses Face ID to unlock your Private Vault.",
+          "NSPhotoLibraryAddUsageDescription": "VidGrab saves the videos you download to your Photos."
+        }
+      }
+    },
+    {
+      "name": "AmazingSpiderMan2",
+      "bundleIdentifier": "com.gameloft.AmazingSpiderMan2",
+      "developerName": "Jonathan8520",
+      "subtitle": "Patches The Amazing Spider-Man 2 (iOS 1.3.1) to launch, play and save entirely offline, years after Gameloft's servers went dark. Nine arm64 instructions, no injected code, no size change",
+      "localizedDescription": "TASM2 offline patch — The Amazing Spider-Man 2 (iOS 1.3.1):\n\nGameloft's servers for The Amazing Spider-Man 2 have been dead since ~2018, and the iOS build hangs forever on “Downloading profile”. This patches the game so it launches, plays and saves entirely offline.\n\nNine instructions, all in the arm64 slice, every one derived from the disassembly and verified on the binary that actually ships. No new save format, no injected code, no size change.\n\nConfirmed on device (LiveContainer, iOS): a continuous playthrough through the prologue, all of chapter 1 and into chapter 2, with the app force-quit several times along the way. Settings, trophies, exploration, skills, position, tutorial state and the story cursor all survive.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.gameloft.AmazingSpiderMan2.png",
+      "tintColor": "#800000",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/Jonathan8520/patch-tasm2@main/docs/home-menu-chapter-2.jpg"
+      ],
+      "versions": [
+        {
+          "version": "1.3.1",
+          "date": "2026-07-30T07:51:53Z",
+          "localizedDescription": "The Amazing Spider-Man 2 (1.3.1) — patched to launch, play and save entirely offline, after Gameloft shut down its servers.\n\nNine instructions in the arm64 slice, all derived from the disassembly and re-verified on the binary in this IPA. No size change, no injected code.\n\nExtra patch flags for this build: --fail-network --kill-spinner (empty means the nine shipped edits and nothing else).\n\nConfirmed on device: a continuous playthrough through the prologue, all of chapter 1 and into chapter 2, with the app force-quit several times. Settings, trophies, exploration, skills, position, tutorial state and the story cursor all survive.\n\n• Signature stripped — re-sign with LiveContainer / SideStore / Sideloadly.\n• Install fresh rather than over the top: LiveContainer converts the executable at install time, and replacing a binary inside an installed .app produces cannot dlopen a main executable.\n• Built by the Patch TASM2 IPA workflow (run #37).\n\nSee the README for what works, what does not, and how each edit was arrived at.",
+          "downloadURL": "https://github.com/Jonathan8520/patch-tasm2/releases/download/v1.0/SpiderMan2_patched.ipa",
+          "size": 769110891,
+          "minOSVersion": "8.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCalendarsUsageDescription": "Adding events",
+          "NSCameraUsageDescription": "Adding events",
+          "NSMotionUsageDescription": "Adding events",
+          "NSPhotoLibraryUsageDescription": "Adding events"
+        }
+      }
+    },
+    {
+      "name": "Sonic Unleashed",
+      "bundleIdentifier": "com.devz.sonicunleashed",
+      "developerName": "DevZer0D4Y",
+      "subtitle": "An iOS port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation",
+      "localizedDescription": "UnleashedRecompiled for iOS is an iOS port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation. The port offers iOS support with numerous built-in enhancements such as high resolutions, ultrawide support, high frame rates, improved performance and modding.\n\nThis project does not include any game assets. You must provide the files from your own legally acquired copy of the game to install or build UnleashedRecompiled for iOS.\n\nXenonRecomp and XenosRecomp are the main recompilers used for converting the game's original PowerPC code and Xenos shaders into compatible C++ and HLSL code respectively.\n\nIf you want to support me and remain up-to-date about this and other projects, you can in different ways:\n\nKo-Fi: https://ko-fi.com/dev_zer0\n\nYouTube: https://www.youtube.com/@develop_erZ",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.devz.sonicunleashed.png",
+      "tintColor": "#e0b000",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.0.3",
+          "date": "2026-09-27T17:19:04Z",
+          "localizedDescription": "First release.",
+          "downloadURL": "https://github.com/DevZer0D4Y/UnleashedRecompilediOS/releases/download/R1/SonicUnleashed_Release.ipa",
+          "size": 61370785,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Roam Control",
+      "bundleIdentifier": "com.roamcontrol",
+      "developerName": "seanhowarthdev",
+      "subtitle": "Choose, test and move an iPhone’s reported location",
+      "localizedDescription": "About:\n\nRoam Control is an iPhone app for location-based development, quality assurance and responsible personal testing on a device you own and control.\n\nIt supports fixed reported locations, Walking, Driving and Cycling routes, Joystick movement, GPX import/export, favourites, history, on-device pairing and guided LocalDevVPN-compatible sessions.\n\nRoam Control is distributed as a prebuilt IPA. The application source code is not publicly distributed.\n\nFeatures:\n\n• Search for places, enter coordinates or select a position on the map.\n• Start and update a fixed reported location.\n• Simulate Apple Maps Walking, Driving and Cycling routes.\n• Build manual routes with point-by-point or freehand drawing.\n• Import and export GPX routes.\n• Move freely with the Joystick without creating a route.\n• Pause, resume, reverse or redirect active route sessions.\n• Choose Miles/Kilometres and mph/km/h route units.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.roamcontrol.png",
+      "tintColor": "#1090f0",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/seanhowarthdev/Roam-Control@main/Documentation/Images/README/roam-welcome.png",
+        "https://cdn.jsdelivr.net/gh/seanhowarthdev/Roam-Control@main/Documentation/Images/README/roam-fixed-location.png",
+        "https://cdn.jsdelivr.net/gh/seanhowarthdev/Roam-Control@main/Documentation/Images/README/roam-walking-preview.png",
+        "https://cdn.jsdelivr.net/gh/seanhowarthdev/Roam-Control@main/Documentation/Images/README/roam-connection-health.png"
+      ],
+      "versions": [
+        {
+          "version": "0.9.6",
+          "date": "2026-10-04T21:08:32Z",
+          "localizedDescription": "Upgrading from Roam Control 0.9.4? Back up before installing 0.9.6.\n\nRoam Control 0.9.6 uses the new app identifier, so your existing 0.9.4 app data will not automatically carry across.\n\nBefore installing 0.9.6, open Roam Control 0.9.4 and create a backup from Settings > Backup & Restore if you want to preserve your favourites, history and supported settings.\n\nAfter installing 0.9.6, choose Restore Backup during the migration flow.\n\nPairing information is not included in backups, so this iPhone will need to be paired again.\n\nIf you install 0.9.6 without creating a backup first, Roam Control cannot automatically recover those items from the old app.\n\nRoam Control 0.9.6 carries forward everything introduced in the major 0.9.5 update, while improving backup and GPX file importing for signing environments where selecting a file could previously fail to return it to Roam Control.\n\nWhat's fixed in 0.9.6:\n\n• More reliable GPX importing - GPX files use the same improved import path.\n\n• Automatic build timestamps - About and diagnostics now receive build-date metadata generated during the actual app build rather than inheriting a manually stored timestamp.\n\nHighlights:\n\n• A redesigned Roam Control - a major visual refresh across the map, controls, Settings, Connection Health, onboarding, pairing and recovery.\n• Driving and Cycling - routes are no longer limited to walking, with movement behaviour tailored to each mode.\n• New Joystick mode - move the simulated location freely in any direction without creating a route.\n• Much smoother movement - higher-frequency location updates and smoother on-screen interpolation, plus improved map following.\n• GPX import and export - bring existing routes into Roam Control or export prepared routes for use elsewhere.\n• A safer move from 0.9.4 - dedicated migration and backup/restore flows for the switch to the new com.roamcontrol app identity.\n• Pairing and recovery improvements - clearer preparation, better expiry handling, improved retries and stronger interrupted-session recovery.\n• Miles or kilometres - route distance and speed can now follow your preferred units.\n\nBuild metadata:\n\n• Build date metadata is now generated automatically during every app build.\n\nUpdate compatibility:\n\n• Roam Control 0.9.5 and later use semantic-version update detection.\n\nA major new interface:\n\n• Roam Control has had a substantial visual redesign using the new glass-style interface throughout the app.\n• The main map, search controls, location cards, connection/status controls, route planning, active movement sessions, mobile-data guidance, recovery screens, onboarding and pairing all received the new presentation.\n\n• Connection Health, Backup & Restore, Privacy Details and About Roam Control have all been substantially redesigned rather than simply restyled.\n• Update notifications and the special 0.9.5 migration warning now use dedicated in-app glass panels instead of ordinary system alerts.\n• About Roam Control now doubles as a much more comprehensive in-app guide to choosing locations, map controls, location sessions, routes, pairing, recovery and support.\n\nWalking, Driving and Cycling:\n\n• Route simulation is no longer walking-only. Roam Control now supports Walking, Driving and Cycling modes.\n• Apple Maps routing uses the appropriate transport type for each mode.\n• Route controls, status, progress, speed, remaining distance/time, pause/resume, Stop & Restore and route-back behaviour have been generalised across the new movement modes.\n• Driving uses a new motion model with acceleration, cruising, deceleration, braking toward the destination, slower behaviour around manoeuvres and realistic pauses at selected route manoeuvres.\n• Cycling uses route-aware automatic speed behaviour and slows for approaching manoeuvres.\n• Manual and Freehand routes work with the selected movement mode, including bend detection so driving/cycling behaviour can react to manually created routes.\n• Route-back actions adapt appropriately, including Walk Route Back, Drive Route Back and Ride Route Back.\n\nJoystick movement:\n\n• Added a completely new Joystick mode for free manual movement without creating a route.\n• Open the joystick directly from the map and drag the control to move the simulated location in any direction.\n• Movement speed responds progressively to joystick input rather than behaving as a simple on/off control.\n• The joystick can begin from an already active simulated location or establish a new session.\n• Manual joystick movement does not fill normal location history with every intermediate position.\n• Joystick sessions participate in Stop & Restore and recovery handling.\n• Speed is shown using the user's selected mph or km/h units.\n\nSmoother simulated movement and map following:\n\n• Route and joystick location writes now update around five times per second rather than the previous one-second route cadence.\n• Map presentation interpolates those updates at roughly display-frame cadence, making the simulated marker visibly smoother.\n• Added proper follow simulated location behaviour.\n• Starting movement can automatically centre and follow the simulated position.\n• Dragging the map temporarily breaks follow mode so the map can be explored manually.\n• Pinch zooming can retain follow mode instead of immediately fighting the user's gesture.\n• The location control can be used to resume following the simulated position.\n• Existing zoom, heading and pitch are preserved where appropriate instead of constantly resetting the camera.\n• Walking, driving, cycling and joystick sessions use sensible initial follow distances.\n• Route framing and map padding have been reworked to leave better space around route endpoints and on-screen controls.\n\nGPX routes:\n\n• Added GPX import.\n• GPX tracks and routes can be loaded directly into Roam Control and used with the selected movement mode.\n• Imported coordinates are validated and cleaned before use.\n• Multiple separate track segments are rejected rather than silently joining unrelated tracks.\n• Added GPX export for prepared routes.\n• Import/export failures now provide proper user-facing errors.\n\nMiles, kilometres and speed units:\n\n• Added a route-unit preference with Miles and Kilometres.\n• The initial default follows the device's region.\n• Imperial distance displays yards below 0.25 miles and miles above it.\n• Metric distance displays metres below 1 km and kilometres above it.\n• Speeds display in mph or km/h.\n• Joystick speed respects this preference.\n• Route-unit preference is included in Roam Control backups.\n\nThe 0.9.5 migration:\n\n• Roam Control moves from the old com.sean.roamcontrol app identifier to com.roamcontrol.\n• Because that identifier change prevents iOS from automatically carrying the old app container across, 0.9.5 has a dedicated migration flow.\n• 0.9.4 users are warned to create a backup before moving to 0.9.5.\n• The 0.9.5 first-run flow can restore an existing 0.9.4 backup or set up Roam Control as a new installation.\n• Favourites, history and included app preferences can be restored.\n• Pairing deliberately does not transfer in the backup, so the iPhone is paired again after migration.\n• The migration flow makes the privacy/anonymous-statistics choice clear before pairing.\n• The update prompt for this migration specifically offers Create Backup, Continue Without Backup and Not Now.\n\nBackup & Restore:\n\n• Backup & Restore has a substantially redesigned interface.\n• It now makes the distinction between included and excluded information much clearer.\n• Included data covers favourites, history and selected preferences.\n• Pairing records, active/interrupted sessions and anonymous-statistics identity remain excluded.\n• Backup restore validates the new route-unit preference as well as the existing stored preferences.\n• Warnings around backups containing saved place names and coordinates are clearer.\n\nPairing reliability and recovery:\n\n• Pairing now opens a new Get Settings ready sheet before starting the timed pairing session.\n• It walks the user through opening Settings > Privacy & Security > Developer Mode and leaving that screen ready before the pairing timer begins.\n• Failed pairing now provides a direct Try Pairing Again action.\n• Pairing expiry handling is phase-aware instead of always returning a generic timeout message.\n• Expiry while waiting for Settings, displaying the PIN, saving the pairing or preparing the session now gives appropriate recovery guidance.\n• Pairing expiry is recorded explicitly as pairingExpired, improving diagnostics and telemetry.\n• Pairing setup itself received the new UI treatment and clearer Replace Pairing File, Remove Pairing, Import Existing File and LocalDevVPN actions.\n\nLiveContainer:\n\n• The guide explains that Fix Local Notifications should be enabled for Roam Control before its first launch so pairing notifications return to the correct app instance.\n\n• SideStore behaviour is unaffected.\n\nSession recovery:\n\n• Interrupted-session recovery has been generalised from walking routes to Walking, Driving and Cycling routes.\n• Recovery remembers the route movement type and offers the correct Resume Walking, Resume Driving or Resume Cycling behaviour.\n• Route recovery regenerates the remaining route from the last saved point.\n• Joystick movement periodically saves its current reported position so a force-close still has a useful recovery point.\n• Recovery wording and icons reflect the actual session type rather than assuming every route is a walk.\n\nConnection Health and diagnostics:\n\n• Connection Health has been extensively reorganised and redesigned.\n• Pairing, LocalDevVPN and location-session state are presented more clearly.\n• Added clearer restoration status and guidance explaining that other apps may briefly show a stale simulated location while iOS reacquires the real position.\n• Current location and connection-check information have cleaner dedicated sections.\n• The connection check remains non-destructive and does not start, change or stop a simulated location.\n• Support and Share Diagnostics have clearer explanations.\n• The diagnostics review explicitly shows what will and will not be shared before upload.\n• Support codes and their retention information are presented more clearly.\n• Personal VPN coexistence/conflict guidance has been moved into an explicit Other VPNs section.\n• Pairing help and the LocalDevVPN App Store link are easier to reach.\n\nPrivacy and anonymous statistics:\n\n• The Privacy Details screen has been comprehensively redesigned.\n• Optional Anonymous Usage Statistics remain off by default.\n• The app clearly lists the limited event information that can be shared and the categories that are never shared.\n• Privacy wording now distinguishes normal anonymous usage statistics from the separate install-country counter.\n• The privacy manifest has been updated accordingly.\n\nAnonymous install-country count:\n\n• Added a separate anonymous one-per-install country counter to understand Roam Control's geographic reach.\n• This is independent of the optional Anonymous Usage Statistics toggle.\n• The app sends a bodyless authenticated HTTPS request. It does not send an installation ID, coordinates, city, region, country, version, activity data or user content in that request body.\n• The server derives only an approximate country from the connection IP.\n• Raw IP addresses are not retained for this feature and the endpoint is excluded from Roam Control's normal web-server access log.\n• Only aggregate country totals are stored.\n• VPN/proxy users may be counted against their exit country.\n• Failed reports retry on a later foreground activation.\n• Once a report succeeds, that installation does not report again.\n• Reset Roam Control preserves the successful-report flag, while reinstalling the app may count as another installation.\n\nTelemetry refinements:\n\n• Added separate anonymous session-start events for Driving and Cycling when Anonymous Usage Statistics are enabled.\n• Known harmless sideload scheduler-registration noise is no longer promoted into anonymous failure/recovery telemetry.\n• Recoverable telemetry deduplication is tracked independently by failure signature instead of only remembering the most recent recoverable failure.\n• Scheduler/configuration status participates in that deduplication so genuinely different failures are not collapsed together.\n\nRelease and update handling:\n\n• Restored the packaged build timestamp so About/diagnostics can report the precise build creation time.\n\nRequirements:\n\n• iOS 27 or newer.\n• Developer Mode.\n• SideStore or another compatible personal-signing workflow, or LiveContainer.\n\nVerification:\n\nSHA-256.\n\n2844744c44fa81407c118db33fb48d4a6f5d1774caed2fa35dbed3e9625d6836.\n\nFile.\n\nRoam-Control-0.9.6-Build-92.ipa.\n\nRoam Control is intended for development, quality assurance and responsible testing on an iPhone you own and control.",
+          "downloadURL": "https://github.com/seanhowarthdev/Roam-Control/releases/download/v0.9.6/Roam-Control-0.9.6-Build-92.ipa",
+          "size": 4098591,
+          "minOSVersion": "27.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Roam Control uses the local network to securely pair with and control this iPhone through LocalDevVPN.",
+          "NSLocationWhenInUseUsageDescription": "Roam Control uses location updates to keep fixed and walking sessions running in the background, and to recenter on your real position after a session stops."
+        }
+      }
+    },
+    {
+      "name": "Flappy Bird",
+      "bundleIdentifier": "org.brandonplank.flappybird",
+      "developerName": "brandonplank",
+      "subtitle": "A 1:1 Flappy Bird Clone written 100% in swift!",
+      "localizedDescription": "FlappyBird:\n\nThis is an extremely close clone to the original FlappyBird by Dong Nguyen.\n\nCompatibility:\n\nFlappyBird is compatible with the iPhone 6s and above on iOS 13 and later. Compatible with watchOS 6.0 and above.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/org.brandonplank.flappybird.png",
+      "tintColor": "#40c050",
+      "category": "games",
+      "versions": [
+        {
+          "version": "4.5",
+          "date": "2026-09-10T17:53:41Z",
+          "localizedDescription": "• Added support for iOS 27.\n• Made the bird act like the original game.\n\nMore coming soon. sorry for 4 years without updates:(.",
+          "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.5/org.brandonplank.flappybird.ipa",
+          "size": 1238203,
           "minOSVersion": "16.0"
         }
       ],
       "appPermissions": {
         "entitlements": [
-          "com.apple.developer.kernel.extended-virtual-addressing",
-          "com.apple.developer.kernel.increased-memory-limit",
+          "application-identifier",
+          "com.apple.developer.team-identifier",
           "get-task-allow",
-          "jb.pmap_cs.custom_trust"
+          "keychain-access-groups"
         ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Onside TV",
+      "bundleIdentifier": "tv.onside.app",
+      "developerName": "mongoosemonke504",
+      "subtitle": "Constant releases of my clean IPTV app with a built in sports score center",
+      "localizedDescription": "Onside TV:\n\nA clean IPTV app for iPhone with a sports score center built in. It used to be called Nebulo, same app with a new name.\n\nCheck the scores, tap a game, and it finds the channel that's showing it on your own IPTV service.\n\nHeads up: Onside TV doesn't come with any channels. You need your own subscription from an IPTV provider.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/tv.onside.app.png",
+      "tintColor": "#105030",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/mongoosemonke504/OnsideTV@main/docs/screenshots/multiview.jpg"
+      ],
+      "versions": [
+        {
+          "version": "3.0.0",
+          "date": "2026-09-28T14:29:27Z",
+          "localizedDescription": "Nebulo is now Onside TV!:\n\nSame app, new name, and the biggest update so far.\n\nRead this before you install:\n\n• You need iOS 26 or newer. If your phone is on an older version, stay on Nebulo V2.3 for now.\n• Onside TV installs as a new app next to Nebulo. You'll have to log in again, and your favorites and settings from Nebulo won't carry over. Once you're set up you can delete Nebulo.\n• There's just one IPA this time, no backup version.\n\nWhat's New:\n\n• New look: Liquid Glass all through the app, a new home screen with big channel cards and a full screen hero at the top.\n• Way bigger sports section: Game cards with lineups, stats, momentum, shot maps, win probability and box scores, plus standings, team pages and schedules.\n• Favorite teams: Follow your teams, leagues, drivers and golfers and see their next game or live score on the home screen.\n• Live Activities: Follow the score from your Lock Screen and Dynamic Island.\n• Smarter game search: Tap a game and the app checks your TV guide for both teams around the start time, then plays the right channel or shows you the best matches.\n• New search: Live games, recently watched channels and your categories all in one place.\n• Recordings: Stop, delete or jump to the live channel right from the recordings section, and recordings now show their own guide info.\n• Connection warning: If your provider only gives you one connection, the app warns you before watching something else would cut off a recording.\n\nFixes:\n\n• If your login is wrong the app now tells you, instead of dropping you on an empty home screen. The guide also loads right away the first time you log in.\n• Streams don't keep playing sound anymore after you close them and lock your phone.\n• Smoother scrolling and less heat.\n• Show pictures on the home screen only appear when they actually match the show.\n\nUnder the Hood:\n\n• Update checks still come from GitHub, so you'll get a heads up in Settings when a new version is out.",
+          "downloadURL": "https://github.com/mongoosemonke504/OnsideTV/releases/download/V3.0.0/OnsideTV_V3.0.0.ipa",
+          "size": 51168260,
+          "minOSVersion": "26"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Veeb",
+      "bundleIdentifier": "dev.vita3k.Vita3KIos",
+      "developerName": "veebteam",
+      "subtitle": "Veeb is an experimental PlayStation Vita emulator built specifically for iOS 26 and newer",
+      "localizedDescription": "Veeb:\n\nVita is for Weebs.\n\n!\n\nVeeb is an experimental PlayStation Vita emulator built specifically for iOS 26 and newer.\n\nThe project is focused on bringing Vita emulation to modern Apple devices while providing an iOS-native experience, including controller support, iCloud save synchronization, and JIT execution through StikDebug.\n\nVeeb is highly experimental. Compatibility, performance, and stability may vary significantly between games and iOS versions.\n\nFeatures:\n\n• iOS 26+ support.\n• Tested on iPhone 17 Pro.\n• JIT support through StikDebug.\n• iCloud synchronization for save data.\n• Support for physical game controllers.\n• iOS-focused interface and platform integrations.\n\n• Based on the mature Vita3K emulator core.\n\nJIT and StikDebug:\n\nPlayStation Vita emulation requires significantly more processing power than a traditional interpreter can reasonably provide on mobile devices.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/dev.vita3k.Vita3KIos.png",
+      "tintColor": "#001030",
+      "category": "games",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/killzone_mercenary.PNG",
+        "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/ys_viii.PNG",
+        "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/zero_escape_1.PNG",
+        "https://cdn.jsdelivr.net/gh/veebteam/Veeb@main/_readme/screenshots/senran_kagura_estival.PNG"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-10-01T19:05:57Z",
+          "localizedDescription": "",
+          "downloadURL": "https://github.com/veebteam/Veeb/releases/download/0.1.0/Veeb-unsigned.ipa",
+          "size": 20219082,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Star Fox Enhanced",
+      "bundleIdentifier": "com.starfoxenhanced.runtime",
+      "developerName": "yoshisuga",
+      "subtitle": "A native 60 FPS PC source port built from the UltraStarFox codebase",
+      "localizedDescription": "Star Fox Enhanced for iOS:\n\nA native iOS port of the open-source UltraStarFox codebase. It presents at a selectable 20, 30, 60, 90, 120, 240, 360, or 480 frames per second while preserving the original game's intended NTSC simulation speed and assembled model data. The default is 60 FPS.\n\nYou do not need to build this yourself. Prebuilt alpha downloads are available under GitHub Releases, and the current Windows x64 nightly is also kept in dist/StarFoxEnhanced.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.starfoxenhanced.runtime.png",
+      "tintColor": "#101030",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-08-28T19:53:52Z",
+          "localizedDescription": "For iOS: Download IPA, and re-sign with your preferred tool. No additional entitlements needed.\n\nFor macOS: The build is not notarized so you need to open security settings and open the app.\n\nYou need to supply your own Star Fox rev2 USA ROM and place it using the Files app, under \"On my iPhone\" -> Star Fox Enhanced.\n\nAdditions:\n\n• Onscreen controls and game controllers.\n• Save States.",
+          "downloadURL": "https://github.com/yoshisuga/starfox-enhanced/releases/download/2026.08.28/StarFoxEnhanced.ipa",
+          "size": 2262896,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "com.apple.developer.team-identifier",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Sonic (2006)",
+      "bundleIdentifier": "com.devz.sonic2006",
+      "developerName": "DevZer0D4Y",
+      "subtitle": "An unofficial iOS port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
+      "localizedDescription": "This port is experimental. It has been played on an iPhone 14 Pro Max, but full playthroughs of all three episodes, long sessions and other devices have not been tested yet.\n\nMarathon Recompiled for iOS is an unofficial iOS port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation. It is based on Marathon Recompiled and brings it to iPhone and iPad with touch controls, Metal rendering and an installer that works with the Files app.\n\nThis project does not include any game assets. You must provide the files from your own legally acquired copy of the game to install or build Marathon Recompiled for iOS.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.devz.sonic2006.png",
+      "tintColor": "#405090",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-05T18:29:37Z",
+          "localizedDescription": "First release!",
+          "downloadURL": "https://github.com/DevZer0D4Y/MarathonRecompilediOS/releases/download/R1/Sonic06-iOS.ipa",
+          "size": 35609295,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "MCLA",
+      "bundleIdentifier": "com.koreanseats.mcla",
+      "developerName": "KoreanSeats1",
+      "subtitle": "Midnight Club: Los Angeles on iPhone and iPad — ARM64 static recompilation, native Metal, and an experimental 60 FPS patch. Bring your own game files",
+      "localizedDescription": "An unofficial iOS adaptation built on LARecomp, ReXGlue and the Theft4 Apple foundation. The app combines ahead-of-time ARM64 execution with a title-specific native Metal renderer, a custom UIKit launcher, editable touch controls, tilt steering and physical controllers.\n\nNo original game files are included. You need your own extracted Xbox 360 Complete Edition copy. Version 1.0 is a release milestone; the known issues still apply.\n\nWhat's new in 1.0:\n\n• Redesigned cyan touch artwork: circular utility controls, a split gas/drift pedal, a separate steering base and knob, and distinct pressed/disabled states.\n• Continuous thumb slides between Gas, Gas + Handbrake and Brake. The middle of the drift/brake connection holds all three driving inputs together.\n\n• The approved M5 arrangement is the new default. Drag, resize, add or remove controls and keep your own saved layout.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.koreanseats.mcla.png",
+      "tintColor": "#603020",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-10-06T03:31:27Z",
+          "localizedDescription": "MCLA 4iOS 1.0:\n\nCustom touch controls, continuous driving slides, raised map/speed panels and the audited red-light glow correction for iPhone and iPad.\n\nNew in this release:\n\n• Scalable cyan native touch artwork, split gas/drift pedal and steering base/knob.\n• Continuous Gas ↔ Gas + Handbrake ↔ Brake slides; the drift/brake midpoint combines all three driving inputs.\n\n• Approved M5 layout as the default, saved edits retained, editable positions/sizes and palette actions.\n• Larger minimap at the upper left and speed/RPM at the upper right; padded map border uses the same transform as the fill.\n• Fresh Weight, Lights, music-track and pause/play icons.\n• Corrected two post-tonemap glow passes that changed red signals to blue/purple; Metal tests pass and M5 gameplay was user-confirmed.\n• Expanded README, detailed changelog, feature guide and validation record.\n\nIncluded foundation:\n\nNative ARM64 AOT execution, a handwritten Metal backend and 603 offline native shader libraries; controller/touch/tilt support; save import/export; scene-resolution/filter/bloom/blur controls; optional spatial FSR 1; Retail Mode and bounded diagnostics; standard 30 FPS and experimental real-frame 60 FPS.\n\nDownload and install:\n\nThe IPA contains no personal provisioning profile and requires recipient signing. SHA256SUMS.txt and release-manifest.json identify the artifact and source commit. iOS/iPadOS 18 is the deployment minimum; gameplay testing is limited to Air/M5 and does not certify every compatible OS/device. Export your saves and preserve your signing account/bundle identifier when updating.\n\nValidation and limits:\n\nTwo shader programs remain missing. Road shimmer, some checkpoint smoke/colors, fades, new-game ride height and broader warm-device/60 FPS behavior need work. Small blue/purple street-name signs exist in original source textures; green freeway boards are separate. Road sun-reflection math is present, but matching visual coverage at the same time/weather/view remains outstanding. No MetalFX frame generation, online-play acceptance or standard-build SMAA feature is claimed.",
+          "downloadURL": "https://github.com/KoreanSeats1/MCLA-4iOS/releases/download/v1.0/MCLA-4iOS-1.0.ipa",
+          "size": 26525583,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Twitter",
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "developerName": "orionblur",
+      "subtitle": "A tweak for Twitter that reverts branding to pre-2023, blocks ads, unlocks Twitter Blue features, and more!",
+      "localizedDescription": "NeoFreeBird-BHTwitter:\n\nThe ultimate way to tweak your Twitter/X experience.\n\nSupporting the Project:\n\nI welcome all help on NeoFreeBird! Translations, bug fixes, and new features are all welcome. If you do see any issues with the app, feel free to open an issue and follow the templates provided. I also have a Ko-Fi linked in the repo if you wish to support me directly, but by no means is it required! NeoFreeBird will always be open-source and free to use.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.atebits.Tweetie2.png",
+      "tintColor": "#1090f0",
+      "category": "other",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/orionblur/NeoFreeBird@v7/resources/main/1.png",
+        "https://cdn.jsdelivr.net/gh/orionblur/NeoFreeBird@v7/resources/main/2.png",
+        "https://cdn.jsdelivr.net/gh/orionblur/NeoFreeBird@v7/resources/main/3.png",
+        "https://cdn.jsdelivr.net/gh/orionblur/NeoFreeBird@v7/resources/main/4.png",
+        "https://cdn.jsdelivr.net/gh/orionblur/NeoFreeBird@v7/resources/timeline/timeline1.png"
+      ],
+      "versions": [
+        {
+          "version": "12.31.1",
+          "date": "2026-10-05T04:33:00Z",
+          "localizedDescription": "New Features:\n\n• Added option to see quote and retweet numbers (with an option for unrounded counts).\n• Added an option to play a custom sound (under 7 seconds and with the AAC format) when a tweet is posted.\n\n• NeoFreeBird now has (preliminary!) support for MacOS!\n• Updated X to 12.31.1.\n\nFixes:\n\n• Fixed Spaces not loading.\n• Fixed all web views not loading (including Community Notes, reports, and web replying).\n• Fixed the header switching back to black from dim on iPad.\n• Fixed mute settings not loading.\n• Fixed ads showing up in the Tiktok-like video feed.\n• Fixed verified tweets not showing up in searches and edit histories when the “Hide verified tweets” option was on.\n• dev: Fixed formatting on MacOS.\n• Removed the “Edit Tweet” prompt showing up, this has been server-side for a while.\n• Removed tweet source labels from the codebase, as X has removed it from all API calls.\n• Fixed manual Grok Translate calls.\n• Complete Spanish translation, added localized terminology file.\n• Update Turkish localization and terminology.\n• Updated Croatian ( HR ) translations.\n• Revise Japanese localization strings for clarity.\n• Improve Arabic localization.\n• Update Korean localization.\n\nKnown Issues:\n\n• The option to see quote and retweet numbers is not localized. Most likely will be fixed in the next version.\n\nNew Contributors:\n\n• @polygonMicrosystems made their first contribution.\n• @MarioBarisa made their first contribution.\n• @ipapplus made their first contribution.\n• @hooray804 made their first contribution.",
+          "downloadURL": "https://github.com/orionblur/NeoFreeBird/releases/download/v7.1.0/orionblur-NFB-BHTwitter-sideloaded-Twitter_7.1.0_12.31.1.ipa",
+          "size": 257060615,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-appclip-app-identifiers",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.devicecheck.appattest-environment",
+          "com.apple.developer.networking.carrier-constrained.app-optimized",
+          "com.apple.developer.networking.carrier-constrained.appcategory",
+          "com.apple.developer.pass-type-identifiers",
+          "com.apple.developer.payment-pass-provisioning",
+          "com.apple.developer.siri",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCalendarsUsageDescription": "Add events to your calendar from X.",
+          "NSCameraUsageDescription": "Capture and post photos and videos from X.",
+          "NSContactsUsageDescription": "We will securely upload your contacts to our servers to help you connect with friends and suggest users to follow on X.",
+          "NSFaceIDUsageDescription": "Use FaceID to authenticate on X.",
+          "NSLocationUsageDescription": "Enjoy the X experience tailored to your location.",
+          "NSLocationWhenInUseUsageDescription": "Enjoy the X experience tailored to your location.",
+          "NSMicrophoneUsageDescription": "Capture and post videos with sound from X.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you download photos and videos to your Photos.",
+          "NSPhotoLibraryUsageDescription": "Allow access to share photos from your camera roll.",
+          "NSSpeechRecognitionUsageDescription": "Going forward, whenever you choose to share captions on this device, Apple will provide the service. Doing so helps make sure people of all hearing abilities can access your content.",
+          "NSUserTrackingUsageDescription": "This helps X show you more relevant ads."
+        }
+      }
+    },
+    {
+      "name": "Ito",
+      "bundleIdentifier": "moe.itoapp.ito",
+      "developerName": "AtiinLabs",
+      "subtitle": "Open source manga, Anime and Novel viewer for iOS",
+      "localizedDescription": "Ito is a free, open-source client for iPhone and iPad. It combines dedicated readers, native video playback, AniList integration, and an extensible WebAssembly plugin system in a single app.\n\nFeatures:\n\n• Anime, manga, and novels — Keep different media types together in one library.\n• Native reading — Dedicated manga and novel readers designed for iOS.\n• Native video playback — Select available video quality, audio tracks, and subtitles.\n• AniList discovery — Browse, search, and filter titles using AniList.\n• Progress tracking — Connect AniList to track what you read and watch.\n\n• Backup and migration — Export native .itobackup files or import libraries from Aidoku and Paperback.\n• On-device storage — Library data and history are stored locally, with tracker credentials protected by Keychain.\n• No advertisements — Ito is free and ad-free.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/moe.itoapp.ito.png",
+      "tintColor": "#90e0c0",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://cdn.jsdelivr.net/gh/AtiinLabs/Ito@main/assets/screenshots/details.png",
+        "https://cdn.jsdelivr.net/gh/AtiinLabs/Ito@main/assets/screenshots/reader.png",
+        "https://cdn.jsdelivr.net/gh/AtiinLabs/Ito@main/assets/screenshots/library.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-06T16:15:11Z",
+          "localizedDescription": "Automated unsigned nightly from main at commit 02a33df. This build is for testing and may be unstable.",
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261006-81/Ito-1.0.0-nightly.20261006.81-unsigned.ipa",
+          "size": 10264581,
+          "minOSVersion": "15.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
         "privacy": {}
       }
     }
