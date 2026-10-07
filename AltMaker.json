@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.nuvio.media",
     "com.husk.app",
-    "com.crispstrobe.crisperweaver",
-    "com.kodjodevf.mangayomi"
+    "com.crispstrobe.crisperweaver"
   ],
   "apps": [
     {
@@ -3827,11 +3827,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.5.6",
-          "date": "2026-10-03T01:19:21Z",
-          "localizedDescription": "• fix(settings): restore missing isIos import in AppearanceSettingsPage @luqmanfadlli.\n• feat(details): use desktop hero layout on tablets @tapframe.\n• feat(settings): show restart prompt when layout direction changes @tapframe.\n• fix(ios): declare supported localizations @tapframe.\n• fix(player): auto-play next episode on end after dismissing prompt @tapframe.\n• i18n(vi): update latest Vietnamese strings (#2146) @blueocean2308.\n• Preload next episode sources (#2140) @skoruppa.\n• Fix mising poster fallback in Catalog Screen (#2139) @skoruppa.\n• fix(player): backport automatic skip notifications from Desktop (#2137) @Laskco.\n• fix(player): make Android volume boost audible on Dolby audio @luqmanfadlli.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.6-beta/Nuvio-0.5.6-Enhanced.ipa",
-          "size": 69320719,
+          "version": "0.5.7",
+          "date": "2026-10-07T02:11:42Z",
+          "localizedDescription": "• fix(buffer): make the java heap large @chrisk325.\n• feat(player): make the movie recommendation card less intrusive @luqmanfadlli.\n• feat(player): show buffered range on the seek bar @luqmanfadlli.\n\n• fix(p2p): correct torrent cache path and usage @tapframe.\n• fix player crash with exo native memory @chrisk325.\n• feat(details): add letterbox zoom to hero trailer @tapframe.\n• feat(mdblist): choose which lists appear in the library (#2171) @kernexshadow.\n• fix(player): follow system brightness when touch gestures are off @tapframe.\n• feat(player): feat custom buffer and exo native engine @chrisk325.\n• feat(streams): match tv refresh spin in streams and player panels @tapframe.\n• feat(player): add switch player and stream info actions @tapframe.\n• feat(streams): spin refresh button until addons finish loading @tapframe.\n• fix custom poster pattern URL validation and decoding (#2153) @skoruppa.\n• feat(details): rework tablet hero actions layout @luqmanfadlli.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.7-beta/Nuvio-0.5.7-Enhanced.ipa",
+          "size": 69669767,
           "minOSVersion": "16.1"
         }
       ],
