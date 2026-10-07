@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
+    "com.husk.app",
     "com.crispstrobe.crisperweaver",
-    "com.kodjodevf.mangayomi",
-    "sh.mateo.empo"
+    "com.kodjodevf.mangayomi"
   ],
   "apps": [
     {
@@ -2972,11 +2972,11 @@
       "category": "developer",
       "versions": [
         {
-          "version": "0.7.0",
-          "date": "2026-10-06T03:36:02Z",
-          "localizedDescription": "What’s new?:\n\n• Built-in StikJIT: pair on the device and enable JIT without a second app.\n• Wi-Fi support for all games.\n• UI Revamp: Now fully built with Swift.\n• Moved Translation layer to the main 4 tabs, replacing the Discover tab.\n\nNew game support:\n\n• Beach Buggy Racing 2 - 60 FPS.\n\nNew Contributors:\n\n• @danperks made their first contribution.",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.7.0/Husk.ipa",
-          "size": 44993209,
+          "version": "0.8.0",
+          "date": "2026-10-06T21:57:43Z",
+          "localizedDescription": "What's new?:\n\n• Touch Screen Gamepad for all games.\n\nMajor::\n\n• Minecraft: Dungeons.\n• GTA: San Andreas.\n• Super Tux Kart.\n\nMinor:\n\n• Brogue CE.\n• Infra Arcana.\n• Dungeon Crawl Stone Soup.\n• Anarch RE.\n• Pekka Kana 2.\n• Cat a shooter.\n• Open Golf.\n• Box Smasher.\n• Alex vs Bus.",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.8.0/Husk.ipa",
+          "size": 46478895,
           "minOSVersion": "16.4"
         }
       ],
