@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "moe.itoapp.ito",
-    "com.emp0ry.mirushin",
-    "com.aigch.OpenParsec"
+    "com.husk.app",
+    "app.mangatan.mangatan",
+    "com.crispstrobe.crisperweaver"
   ],
   "apps": [
     {
@@ -1445,10 +1445,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-07T08:01:37Z",
-          "localizedDescription": "Immutable snapshot of alpha build 268 (208197c).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 268, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-268/Non-Jailbroken.ipa",
-          "size": 93680687,
+          "date": "2026-10-07T17:50:11Z",
+          "localizedDescription": "Immutable snapshot of alpha build 270 (c2ccae7).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 270, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-270/Non-Jailbroken.ipa",
+          "size": 93695600,
           "minOSVersion": "17.0"
         }
       ],
@@ -2421,11 +2421,11 @@
       ],
       "versions": [
         {
-          "version": "6.1.34",
-          "date": "2026-10-07T06:39:12Z",
-          "localizedDescription": "Release v6.1.34:\n\n• Add local popup input diagnostics (967b001).\n• Add cross-device immersion stats and progress tracking (de437e4).\n• update the build pipeline (850ea94).\n• Fix Jellyfin tracker progress, refresh, and browser links (3be1869).\n• Distinguish iOS distribution builds with a shared monotonic counter (bc4b916).\n• Fix local manga page loading and OCR recovery (2c700f9).\n• Fix catalog refresh errors and removal state (4cc9823).\n• Update text (de5d4a1).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.34/Manatan-v6.1.34-iOS.ipa",
-          "size": 395313611,
+          "version": "6.1.35",
+          "date": "2026-10-07T22:25:34Z",
+          "localizedDescription": "Release v6.1.35:\n\n• Upload symbol mappings independently (152c23c7).\n• Stabilize Windows dependency build ordering (cdece604).\n\n• Add targeted Windows artifact recovery (1f09e8c4).\n\n• Install missing Android native build dependency (06d9fa66).\n• Add optional animated AVIF captures for video cards (2a71ecce).\n• Fix YouTube subtitle word lookup and popup placement (da7709ef).\n• Allow independent primary and secondary subtitle timing (9c128cae).\n• Add shortcut to toggle automatic Screen Lookup popups (5a75068a).\n• Add adjustable manga tap zones and preserve reader padding (3cc11232).\n• Hide stroke diagrams in collapsed dictionaries (ecc2b397).\n• Reject invalid word audio and preserve provider failure details (560d1d60).\n• Upgrade Android playback to mpv 0.41 and FFmpeg 8.1.2 (f401885a).\n• Add experimental ARM32 Android builds and architecture-aware updates (e92ac334).\n• Keep dictionary lookups alive when the Android card provider restarts (4935559c).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.35/Manatan-v6.1.35-iOS.ipa",
+          "size": 396559225,
           "minOSVersion": "16.1"
         }
       ],
@@ -2548,11 +2548,11 @@
       "category": "utilities",
       "versions": [
         {
-          "version": "0.14.0",
-          "date": "2026-10-06T14:21:46Z",
-          "localizedDescription": "",
-          "downloadURL": "https://github.com/CrispStrobe/CrisperWeaver/releases/download/v0.14.0/crisper_weaver-ios-unsigned.ipa",
-          "size": 24088349,
+          "version": "0.14.2",
+          "date": "2026-10-07T18:40:58Z",
+          "localizedDescription": "CrisperWeaver 0.14.2 (build 101) improves live German captioning and microphone handling.\n\n• Select and refresh microphone inputs in live captions. The CLI can list/select microphones, save the exact input WAV, and record transcript/latency events.\n• Cohere live captions retain up to 25 seconds of acoustic context, use three-second GUI updates with at most three CPU threads, and avoid an extra full interval before the first draft. Stop drains queued audio before committing the final text.\n• Fixed-language selection checks model language support; Nemotron control tags are stripped. macOS system-audio permission failures now explain how to restore access.\n\nBackend source is pinned to CrispASR 2bf39c58 from PR #515, retaining the merged live-translate revision work in #513. Local source-build evidence and CI artifacts are separate; Apple builds are produced and signed by this release workflow.\n\nClean macOS builds now normalize the official ONNX Runtime SDK archive layout before configuration.",
+          "downloadURL": "https://github.com/CrispStrobe/CrisperWeaver/releases/download/v0.14.2/crisper_weaver-ios-unsigned.ipa",
+          "size": 24252444,
           "minOSVersion": "15.0"
         }
       ],
@@ -2977,11 +2977,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.1",
-          "date": "2026-10-07T11:26:52Z",
-          "localizedDescription": "What’s new?:\n\n• TrollStore/Dopamine JIT support (beta).\n• Per-app settings for Translation Layer Games.\n• UI Revamp.\n• Bug fixes.\n\nNotes::\n\nIf a game is failing to launch now, but it ran in the previous release, clear the data for the app in app settings. Your GlobalSave file may have nothing in it.",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.8.1/Husk.ipa",
-          "size": 46728037,
+          "version": "0.9.0",
+          "date": "2026-10-07T22:40:28Z",
+          "localizedDescription": "What's new?:\n\n• Sound for Unity and Java games.\n• Turn on JIT at launch with a setting (StikJIT).\n• Share apps to Husk and import it (skips the file picker bugs).\n• New App User Interface.\n• Game details for each game (screenshots, etc).\n\nInfo:\n\nHusk's first stable release (1.0.0), is right around the corner. It will probably be the best release, fixing issues for almost all devices, but it is not out yet. This IPA may not work, and that is ok. It will be fixed soon, just open a GitHub issue.",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.9.0/Husk.ipa",
+          "size": 46958334,
           "minOSVersion": "16.4"
         }
       ],
@@ -4301,11 +4301,11 @@
       ],
       "versions": [
         {
-          "version": "1.2.1",
-          "date": "2026-10-07T09:31:36Z",
-          "localizedDescription": "Touch players can now steer the camera with a finger: turn on Free Look and drag on any empty part of the screen to look around. Your saves and extracted game data carry over unchanged.\n\niPhone & iPad.\n\n• Touch camera: turn on Free Look in Settings > Controls > Camera Controls, then drag on empty screen space (anywhere that isn't a button or the stick) to turn the camera. Free Look's own sensitivity and invert options apply. A new Touch Camera Sensitivity slider in Settings > iOS sets how far a drag turns; at 1.00, one screen width turns the camera 180 degrees. The left-handed layout mirrors the drag area too.\n• Fix: tapping a touch C-button no longer jerks the camera when Free Look is on. C-buttons still do everything else they did (C-up still looks in first person), and a game controller's right stick still moves the camera as before.\n\nApple Vision Pro.\n\nTexture packs.\n\n• The pause menu's \"C-button to Equip\" prompt with HD packs now uses upstream's own fix instead of ours. We checked it with the Reloaded 4K pack, and it looks the same as before.\n\nThis public build does not include the developer console; the OTA test builds do.\n\nBuilt on Ship of Harkinian 9.3.0 (upstream commit ecd889c). Bring your own ROM; the app extracts it on device.",
-          "downloadURL": "https://github.com/rebelancap/Shipwright-ios/releases/download/v1.2.1/soh-1.2.1-iOS.ipa",
-          "size": 37099848,
+          "version": "1.2.2",
+          "date": "2026-10-07T17:54:06Z",
+          "localizedDescription": "A fix for touch players: the on-screen R button works again. Your saves and extracted game data carry over unchanged.\n\niPhone & iPad.\n\n• Fix: the touch R button now raises your shield (and does everything else R does) with the default controller settings. It used to send a button the default layout doesn't use, so tapping it did nothing unless you rebound R by hand. If you already rebound R to RB as a workaround, that keeps working too; you can also put it back to the default.\n\nApple Vision Pro.\n\n• The window's touch R button gets the same fix. Nothing else changes.\n\nThis public build does not include the developer console; the OTA test builds do.\n\nBuilt on Ship of Harkinian 9.3.0 (upstream commit ecd889c). Bring your own ROM; the app extracts it on device.",
+          "downloadURL": "https://github.com/rebelancap/Shipwright-ios/releases/download/v1.2.2/soh-1.2.2-iOS.ipa",
+          "size": 37099571,
           "minOSVersion": "15.0"
         }
       ],
