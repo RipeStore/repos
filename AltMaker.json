@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.roamcontrol",
-    "com.koreanseats.mcla",
-    "moe.itoapp.ito"
+    "com.rebelancap.soh",
+    "com.ripestore.nuviomobile-enhanced",
+    "com.husk.app"
   ],
   "apps": [
     {
@@ -2965,11 +2965,11 @@
       "name": "Husk",
       "bundleIdentifier": "com.husk.app",
       "developerName": "Leviidev",
-      "subtitle": "Android Emulator for iOS",
+      "subtitle": "Run Android on your iPhone. Natively or Emulated",
       "localizedDescription": "Husk:\n\nAndroid apps and games on your iPhone.\n\nAdd an APK, tap it, and it opens full-screen. Husk runs it in one of two ways, shown as the two sides of its Library:\n\n• Translation Layer. The game's own 64-bit Android code runs directly on the iPhone's processor, and Husk stands in for Android around it: the C library, the Java calls the game makes, OpenGL ES (through ANGLE), Vulkan (through MoltenVK), sound, touch and controllers. No Android boots, so a game starts in seconds, and its code is never emulated.\n• Emulation. A full Android system (LineageOS) boots under QEMU inside Husk, for apps the translation layer cannot run yet and for using Android itself. iOS gives apps no hypervisor, so the processor is emulated, and this is much slower than the translation layer.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.husk.app.png",
       "tintColor": "#a080e0",
-      "category": "games",
+      "category": "developer",
       "screenshotURLs": [
         "https://cdn.jsdelivr.net/gh/Leviidev/Husk@main/Screenshots/library.png",
         "https://cdn.jsdelivr.net/gh/Leviidev/Husk@main/Screenshots/game-settings.png",
@@ -2977,12 +2977,12 @@
       ],
       "versions": [
         {
-          "version": "0.9.0",
-          "date": "2026-10-07T22:40:28Z",
-          "localizedDescription": "What's new?:\n\n• Sound for Unity and Java games.\n• Turn on JIT at launch with a setting (StikJIT).\n• Share apps to Husk and import it (skips the file picker bugs).\n• New App User Interface.\n• Game details for each game (screenshots, etc).\n\nInfo:\n\nHusk's first stable release (1.0.0), is right around the corner. It will probably be the best release, fixing issues for almost all devices, but it is not out yet. This IPA may not work, and that is ok. It will be fixed soon, just open a GitHub issue.",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/0.9.0/Husk.ipa",
-          "size": 46958334,
-          "minOSVersion": "16.4"
+          "version": "1.0.1",
+          "date": "2026-10-09T01:17:20Z",
+          "localizedDescription": "What's new?:\n\n• Fixes a failure on logging into Google Accounts, (MissingDroidGuard).\n\nNotes::\n\nCheck out Husk 1.0.0 release notes for all new features.",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/1.0.1/Husk.ipa",
+          "size": 55925239,
+          "minOSVersion": "16.0"
         }
       ],
       "appPermissions": {
@@ -4301,11 +4301,11 @@
       ],
       "versions": [
         {
-          "version": "1.2.2",
-          "date": "2026-10-07T17:54:06Z",
-          "localizedDescription": "A fix for touch players: the on-screen R button works again. Your saves and extracted game data carry over unchanged.\n\niPhone & iPad.\n\n• Fix: the touch R button now raises your shield (and does everything else R does) with the default controller settings. It used to send a button the default layout doesn't use, so tapping it did nothing unless you rebound R by hand. If you already rebound R to RB as a workaround, that keeps working too; you can also put it back to the default.\n\nApple Vision Pro.\n\n• The window's touch R button gets the same fix. Nothing else changes.\n\nThis public build does not include the developer console; the OTA test builds do.\n\nBuilt on Ship of Harkinian 9.3.0 (upstream commit ecd889c). Bring your own ROM; the app extracts it on device.",
-          "downloadURL": "https://github.com/rebelancap/Shipwright-ios/releases/download/v1.2.2/soh-1.2.2-iOS.ipa",
-          "size": 37099571,
+          "version": "1.2.3",
+          "date": "2026-10-09T03:36:06Z",
+          "localizedDescription": "A performance update for iPhone, plus gyro aiming. Your saves and extracted game data carry over unchanged.\n\niPhone & iPad.\n\n• Smoother and faster: Hyrule Field now holds a locked 120 fps on a 120 Hz iPhone (it used to swing between about 63 and 110 fps). Music no longer slows down when frames run late, because the game clock keeps real time. The sun's lens flare and light glows no longer stall the game every tick, and moving the touch stick no longer redraws the whole on-screen overlay.\n• Gyro aiming (off by default, with a sensitivity slider): tilt the device to aim the bow, slingshot, hookshot and first-person view. It does not move the free camera.\n• Always Show Menu Button: a new option that keeps the menu button on screen during gameplay.\n• Anchor (online co-op): a warning under Team ID when players in your room are on different teams.\n\nApple Vision Pro.\n\n• The light-glow stall fix applies here too, Window mode gets the same music-timing fix, and the Anchor team warning is included.\n\nThis public build does not include the developer console; the OTA test builds do.\n\nBuilt on Ship of Harkinian 9.3.0 (upstream commit ecd889c). Bring your own ROM; the app extracts it on device.",
+          "downloadURL": "https://github.com/rebelancap/Shipwright-ios/releases/download/v1.2.3/soh-1.2.3-iOS.ipa",
+          "size": 37124164,
           "minOSVersion": "15.0"
         }
       ],
@@ -5061,6 +5061,25 @@
         "entitlements": [],
         "privacy": {}
       }
+    },
+    {
+      "name": "NuvioMobile-Enhanced",
+      "bundleIdentifier": "com.ripestore.nuviomobile-enhanced",
+      "developerName": "luqmanfadlli",
+      "subtitle": "Unofficial Nuvio Mobile repository to build Nuvio with experimental features, improvements, and bug fixes not yet availabe in the official repository",
+      "localizedDescription": "Unofficial. This fork is not affiliated with or supported by the Nuvio team. Please report bugs you find here to this repository, not upstream — unless you can reproduce them on an official build too.\n\nWhat Enhanced adds:\n\nEverythings below are added on top of upstream Nuvio Mobile.\n\nLive TV:\n\nUpstream Nuvio has no Live TV. This fork adds the whole feature.\n\nAndroid:\n\nRequires Android Studio and the Android SDK.\n\niOS:\n\nRequires macOS and Xcode.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/placeholder.png",
+      "tintColor": "#6156e2",
+      "category": "other",
+      "versions": [
+        {
+          "version": "0.5.8",
+          "date": "2026-10-09T02:01:29Z",
+          "localizedDescription": "• fix(player): hide upstream's Stream Info action in the new layout @luqmanfadlli.\n• fix(player): keep controls visible while a finger rests on the seek bar @luqmanfadlli.\n• fix(omdb): only call OMDb for episode ratings on the details page @luqmanfadlli.\n• feat(player): pick playback speed instead of cycling @luqmanfadlli.\n\n• feat(player): read chapters from mpv on iOS and Android libmpv @luqmanfadlli.\n• fix(player): restore engine switching and media info on Android @luqmanfadlli.\n• fix(player): grab seek-bar thumbnails from extension-less HLS streams @luqmanfadlli.\n• fix(player): send stream headers when grabbing seek-bar thumbnails @luqmanfadlli.\n• feat(player): 23 commits to add chapter segments if the source has it @chrisk325.\n• fix(plugins,addons): guard activeRefreshJobs against concurrent modification @luqmanfadlli.\n• feat(player): show thumbnail previews while dragging the seek bar @luqmanfadlli.\n• i18n: Add Croatian (hr) translation (#2169) @Anarchydr.\n\n• Reset next episode preload flag on episode transition (#2193) @skoruppa.\n• fix(UI): fix hero content shifting on horizontal and tablet layouts (#2190) @ThEgIGN.\n• feat(servers): add experimental Jellyfin and Emby support (#2081) @tapframe.\n• fix(streams): play streams that only have a ytId (#2115) @deejay189393.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.8-beta/Nuvio-0.5.8-Enhanced.ipa",
+          "size": 70482935
+        }
+      ]
     }
   ]
 }
