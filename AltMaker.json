@@ -10,8 +10,8 @@
   "tintColor": "#6156e2",
   "featuredApps": [
     "com.t4mag0.vidgrab",
-    "com.rebelancap.lighthouse",
-    "com.void.smarttube.app"
+    "io.github.friesi23.mhabit",
+    "com.rebelancap.lighthouse"
   ],
   "apps": [
     {
@@ -891,10 +891,10 @@
       "versions": [
         {
           "version": "1.3.4",
-          "date": "2026-10-09T19:57:53Z",
-          "localizedDescription": "VidGrab 1.3.4 — What's New.\n\nNew Features.\n\n• Mini Player: Minimize the video player with the down arrow and keep playback going in a compact bar above the tab bar.\n• Library Music Player: A frosted-glass player featuring album artwork, a progress bar, and playback controls. Swipe left on the cover to view lyrics.\n\n• High-Quality Streaming: Choose your preferred streaming quality directly from Home or the browser, including 2K and 4K.\n• Track List: View the full track list when streaming a playlist and jump straight to any song.\n• Improved Playlist Playback: Shuffle now displays each track's original number. Shuffle, repeat, playback speed, and video on/off preferences are remembered between sessions.\n\n• Recently Saved: Swipe left or right through recently saved content on Home.\n• Lock Screen Controls: Previous and next buttons and album artwork now appear on the Lock Screen during playlist streaming.\n\nFixes & Improvements.\n\n• Fixed music playback stopping after a notification sound.\n• Fixed disabled floating bubble options on some jailbroken devices.\n• Fixed YouTube videos not loading in the browser on some iOS 15 devices.",
-          "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.4/VidGrab-1.3.4.ipa",
-          "size": 30654333,
+          "date": "2026-10-10T04:35:22Z",
+          "localizedDescription": "New Features:\n\n• Themes: Choose from Default, SP, SC, FL, or PR using the palette button on the Home screen. The floating bubble automatically matches your selected theme.",
+          "downloadURL": "https://github.com/iamjhe08/VidGrab/releases/download/1.3.4a/VidGrab-1.3.4a.ipa",
+          "size": 30663682,
           "minOSVersion": "15.0"
         }
       ],
@@ -2002,11 +2002,11 @@
       ],
       "versions": [
         {
-          "version": "1.27.9",
-          "date": "2026-09-20T23:24:07Z",
-          "localizedDescription": "Release: v1.27.9+198:\n\nIncludes updates since the previous stable release, v1.27.6+195.\n\n✨ Features:\n\n• Cycle check-ins from unknown to done, skipped, and back to unknown (#657).\n\n• Delete a single check-in or several at once with confirmation.\n• Sync deletions across devices and keep record identity for later check-ins.\n\n• Improve dialogs and page layouts across window sizes (#661).\n\n• Adapt sheets and dialogs when resizing while preserving the open form and navigation state.\n• Migrate group management, sync editing, changelog, donation, and about dialogs to shared adaptive presentation.\n• Keep nested navigation and close confirmation within the active dialog.\n• Align scrolling page headers, safe areas, and window-control avoidance.\n\n• Improve habit detail actions and refresh retained details when returning to them (#662).\n• Improve Settings, grouped lists, and dialogs across window sizes (#663).\n\n• Add date format, reminder, export, import progress, and group editing flows.\n• Keep import results and group actions tied to the selected items.\n\n🐛 Fixes:\n\n• Restore batch check-in actions for selected habits in Apple layouts (#661).\n• Preserve Settings scroll position when rebuilding the page (#661).\n• Prevent a delayed group save from closing the group selector after the user has already returned from the creation form (#661).\n• Improve loading error recovery (#662).\n• Bound import concurrency and expose failures for individual items (#663).\n\n🌐 Localization:\n\n• Update Italian translation, thanks to Simone De Carli's contribution on Weblate (#664).",
-          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.9%2B198/mhabit-unsigned.ipa",
-          "size": 15044222,
+          "version": "1.27.13",
+          "date": "2026-10-10T00:16:09Z",
+          "localizedDescription": "Released: v1.27.13+202:\n\nIncludes updates since the previous stable release, v1.27.9+198.\n\n✨ Features:\n\n• Add adaptive, collapsible side navigation with an edge style on newer Apple systems (#667).\n\n• Preserve navigation state, search, selection, and page actions across layout changes.\n\n• Apply app theme colors and custom palettes to the side navigation (#668).\n• Let users show or hide navigation destinations in the top toolbar when the Apple sidebar is collapsed (#671).\n• Adapt navigation and content safe areas for iPhone Duo and compact-height layouts (#674).\n• Scroll Habits and Today to the top when reselecting the active root tab (#675).\n\n• Return nested pages to the tab's root before scrolling on a subsequent tap.\n• Respect reduced motion preferences and pages that prevent back navigation.\n\n🐛 Fixes:\n\n• Improve adaptive interaction styling, keyboard focus, and action-menu behavior (#669).\n• Keep search filters available across layout changes (#669).\n• Align theme labels and Markdown typography (#669).\n• Refresh habit and group views as soon as synced changes are applied, while preserving sync progress and in-progress edits (#672).\n• Keep neutral action colors consistent across app bars, dialogs, search, sidebars, and group actions, and restore modal blur after nested navigation (#673).\n• Keep system status and navigation bars visible while the app launches.\n\n🌐 Localization:\n\n• Update Hebrew translation, thanks to Omer I.S.'s contribution on Weblate.\n\n🧹 Others:\n\n• Pin Apple build and submission workflows to Xcode 27.0 (#674).\n• Raise the minimum supported macOS version to 12.0 (#674).\n• Centralize generated-code formatting in the Melos workflow (#674).",
+          "downloadURL": "https://github.com/FriesI23/mhabit/releases/download/v1.27.13%2B202/mhabit-unsigned.ipa",
+          "size": 15116961,
           "minOSVersion": "15.0"
         }
       ],
@@ -2740,11 +2740,7 @@
       "tintColor": "#6156e2",
       "category": "utilities",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Dashboard.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details_2.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png"
+        "https://github.com/user-attachments/assets/b808c9b7-c4f2-43e4-9f4d-3bcab96b9f36"
       ],
       "versions": [
         {
@@ -5011,6 +5007,30 @@
           "downloadURL": "https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-iOS.ipa",
           "size": 28187923,
           "minOSVersion": "12.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Podium",
+      "bundleIdentifier": "com.leviidev.podium",
+      "developerName": "Leviidev",
+      "subtitle": "Podium is a Classic iPod Touch Emulator",
+      "localizedDescription": "Podium is a Classic iPod Touch Emulator.",
+      "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.leviidev.podium.png",
+      "tintColor": "#5060e0",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "date": "2026-10-01T22:23:47Z",
+          "localizedDescription": "Welcome to Podium 0.1.0!\n\nPodium is a iPod Touch emulator for iOS and currently only emulates iOS 6.1.6 with the iPod Touch (4th gen.). You can try other software versions and devices, but are probably going to fail as they aren't compatible. I hope you enjoy this release, and remember for JIT, you must use universal.js in StikDebug. TrollStore / Dopamine support soon.",
+          "downloadURL": "https://github.com/Leviidev/Podium/releases/download/0.1.0/Podium_v0.1.0.ipa",
+          "size": 5193178,
+          "minOSVersion": "17.0"
         }
       ],
       "appPermissions": {
