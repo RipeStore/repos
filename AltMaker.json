@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "app.mangatan.mangatan",
-    "com.joemattiello.iCube",
-    "com.degenk.boorusama"
+    "com.tumoflip.unleashedcompanion",
+    "moe.itoapp.ito",
+    "app.mangatan.mangatan"
   ],
   "apps": [
     {
@@ -669,11 +669,11 @@
       ],
       "versions": [
         {
-          "version": "1.11.26",
-          "date": "2026-10-03T10:18:24Z",
-          "localizedDescription": "TumoCompanion 1.11.26:\n\n• Passive RAW Timeline: compare two saved RAW recordings, zoom and inspect pulse timing statistics, and save SHA256-bound local notes. Original captures are never changed or transmitted.\n• Firmware → Before/after update checks: verify installed firmware identity, SD capacity, catalog evidence and capture inventory; compare against an explicitly saved per-device checkpoint. Missing files are reported without inventing a deletion cause. A checkpoint is not a backup.\n• Verified incremental backup: reuse only validated bytes from an earlier verified backup when current device hashes match, while producing a new standalone ZIP. App data is optional. This reduces BLE traffic; it does not make restore atomic across a disconnect.\n• ESP32 → Remote ID diagnostics: read stopped Marauder logs from a compatible ESP32 build. This is an offline broadcast-observation viewer, not a live tracker or authentication claim; operator identity/location is not retained by the viewer.\n• Retains the verified backup, crash inspection and ESP32 package checks previously shipped in 1.11.25 RC1.\n• Bounded RPC reads drain oversized responses safely; explicit read-budget initialization fixes compilation on Xcode 26.3.\n\nRequires iOS 17 or newer. Build 279. Simulator unit tests and unsigned Release packaging/signature verification are separate from physical iPhone/Flipper acceptance. For the paired firmware update, install Dev 009-018 before FW Packages Dev 024.\n\nThe IPA is unsigned/ad-hoc packaged for signing through your existing Feather workflow. No new device flash, pairing reset or automatic file cleanup is performed.",
-          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.26/TumoCompanion-unsigned.ipa",
-          "size": 25888155,
+          "version": "1.11.27",
+          "date": "2026-10-11T18:45:54Z",
+          "localizedDescription": "Bluetooth background recovery: log CoreBluetooth disconnect/connect error codes and retry failed keep-alive connections with bounded backoff. No firmware update required. Physical iPhone/Flipper acceptance remains pending.",
+          "downloadURL": "https://github.com/squazaryu/TumoCompanion/releases/download/v1.11.27/TumoCompanion-unsigned.ipa",
+          "size": 25894921,
           "minOSVersion": "17.0"
         }
       ],
@@ -1095,7 +1095,7 @@
         {
           "version": "1.1.5",
           "date": "2026-09-11T13:11:53Z",
-          "localizedDescription": "Release v1.1.6:\n\n• Fixed resumed manga panels not rendering until user scroll action — root cause was a desynchronization between currentPage, scrolledID, and sliderValue when restoring reading progress, which caused isAllowedToLoad to deadlock on unmounted offscreen pages.\n• Fixed scrubber slider staying at page 1 on resume — slider value now initializes to the resumed page and stays synced with scroll position during normal reading.\n• Improved Analytics chart scaling across long time ranges — replaced Catmull-Rom interpolation with monotone cubic to prevent negative read dips, added proper calendar units to bar marks, and implemented adaptive day/month/year bucketing for multi-year data.\n• Removed dead Cache Expiry setting that was never wired to Nuke's disk cache eviction.\n• Fixed inflated cache size reporting — now shows actual disk cache usage only, excluding volatile in-memory bitmap overhead.\n• Stopped aggressive RAM cache purging on reader exit that was clearing all cached thumbnails app-wide.\n• Cache size changes no longer rebuild the entire image pipeline — updates the existing DataCache.sizeLimit directly.",
+          "localizedDescription": "Release v1.1.6:\n\n• Fixed resumed manga panels not rendering until user scroll action — root cause was a desynchronization between currentPage, scrolledID, and sliderValue when restoring reading progress, which caused isAllowedToLoad to deadlock on unmounted offscreen pages.\n• Fixed scrubber slider staying at page 1 on resume — slider value now initializes to the resumed page and stays synced with scroll position during normal reading.\n• Improved Analytics chart scaling across long time ranges — replaced Catmull-Rom interpolation with monotone cubic to prevent negative read dips, added proper calendar units to bar marks, and implemented adaptive day/month/year bucketing for multi-year data.\n• Removed dead Cache Expiry setting that was never wired to Nuke's disk cache eviction.\n• Fixed inflated cache size reporting — now shows actual disk cache usage only, excluding volatile in-memory bitmap overhead.\n• Stopped aggressive RAM cache purging on reader exit that was clearing all cached thumbnails app-wide.\n• Cache size changes no longer rebuild the entire image pipeline — updates the existing DataCache.sizeLimit directly.\n\nNote: I am aware of some leftover placeholder code, as well as some options that make sense in the webUI but not in the app. Unused functions exist. Broken manga detection is session-local, meaning if your connection is choppy, it could lead to false positives and might cause some mangas in the listings to disappear, this is very rare though and the benefits far outweigh any side-effects. Plus this feature can be disabled in settings.",
           "downloadURL": "https://github.com/Cat-Ling/violet-ios/releases/download/v1.1.6/Violetta.ipa",
           "size": 19924124,
           "minOSVersion": "18.0"
@@ -2746,7 +2746,7 @@
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details.png",
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details_2.png",
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png"
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library_Search.png"
       ],
       "versions": [
         {
@@ -3814,10 +3814,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-10T15:39:43Z",
+          "date": "2026-10-11T15:57:41Z",
           "localizedDescription": "Automated unsigned nightly from main at commit 02a33df. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261010-85/Ito-1.0.0-nightly.20261010.85-unsigned.ipa",
-          "size": 10264294,
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261011-86/Ito-1.0.0-nightly.20261011.86-unsigned.ipa",
+          "size": 10264380,
           "minOSVersion": "15.4"
         }
       ],
@@ -4074,10 +4074,10 @@
       "versions": [
         {
           "version": "0.5.0",
-          "date": "2026-10-10T17:08:06Z",
-          "localizedDescription": "0.5.0 Beta 4 - Cinema polish and smoother detail screens:\n\nBuild 265. Local Apple builds, uploaded directly here. One IPA supports iPhone and iPad; the DMG is for Apple Silicon Macs running macOS 14 or newer.\n\nThis includes the fixes in the tested build 264, plus the changes from the latest Mac screenshots. It is an Apple test prerelease, not a full all-device rollout. The TV and Android builds and automatic update feeds have not been changed by this release.\n\nNew in this build:\n\n• Removed the black gap between Home's menu and featured artwork. The extra artwork strip behind the menu now fades away as you scroll past the title's hero.\n• Add-ons use the full window for scrolling, with a centred, readable content area rather than a panel stuck on the left.\n• Mac settings text is larger. Episode cards and source rows have a restrained profile-colour glass tint, with readable accessibility fallbacks.\n• The add-on tabs in Sources have small Previous/Next buttons for mouse navigation. Selecting a tab brings it into view; swipe and trackpad navigation still work.\n• The Mac player uses the selected seek-bar style again, including Wave and the profile accent. Bottom controls have larger hit areas, white labels and quieter glass instead of solid coloured buttons.\n• Removed a costly conversion of playback data during detail-screen rendering. This fixes one confirmed source of interface stutter; it is not a claim that every playback freeze is resolved.\n\nIncluded from build 264:\n\n• Search-as-you-type with separate Movies, Series and Collections rows.\n• A closeable title popup with the Watchlist action, improved episode sizing, episode navigation and watched/unwatched actions.\n• Add-on responses can refresh links, headers, file selection and ordering even when their result count does not change.\n• Profile switching preserves saved profile settings. Pending settings do not hold up unrelated Watchlist, library and Continue Watching uploads; interrupted changes remain pending rather than being silently discarded.\n• Bounded offline settings edits, stale-upload protection and a refreshed last-success display after an accepted forced sync.\n\nThese changes passed controlled add-on, encrypted sync, profile-switch and rendering checks. Real-account sync and sustained provider playback still need device testing; please send the full build-265 diagnostic if something fails.\n\nInstallation:\n\n• iPhone/iPad: the IPA is unsigned. Use your usual sideload/re-sign tool.\n• Mac: the app is ad-hoc signed, not notarized. Drag VortX to Applications. macOS may ask for permission to use your existing saved VortX login in Keychain; approve only a prompt that names VortX.\n\nStill being worked on:\n\n• Further Usenet throughput/refill and accelerated AVPlayer recovery changes are not in these packages. Sustained Usenet playback, AIOStreams/decoder freezes and automatic episode handoffs are not declared fully resolved.\n• Trakt/SIMKL connection client IDs and the auxiliary Edge build input are not provisioned in these local packages, as with the previous local test builds. Do not use this build to accept those connection/auxiliary QR flows. Native add-on URL loading and VortX account sync use separate paths.\n\nBoth Apple packages report version 0.5.0 (265). Source: 56460f299f0f466c386de6841852aa95c9d2565d. Native engine: dd520b0c9e540e11b9e115467b4fe5ec0ccb3fb2. Player: reviewed MPVKit-DVFEL v3.",
-          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.0-beta.4/VortX-iOS-0.5.0-265-test.ipa",
-          "size": 50954021,
+          "date": "2026-10-11T06:55:29Z",
+          "localizedDescription": "VortX 0.5.0 Beta 5 — Sync & Apple TV Hotfix:\n\nBuild 266. These Apple packages are built locally from the same source. This beta is available through the attached files; it does not change the existing automatic-update feeds or Latest release.\n\nSync changes:\n\n• Fixes the server limit that could reject larger account backups.\n• Stops an outdated app or delayed upload from replacing a newer backup. Conflicting saves reread the latest backup and keep your pending changes for retry.\n• Preserves extra saved fields when Apple TV Lite updates its backup, instead of dropping fields it does not understand.\n• Adds shared Apple sync fixes, including Apple TV: safer restore/retry handling, refreshed visible settings, and clearer feedback when a save really fails.\n• Cuts repeated work when the server has no new data, so background sync does not keep reloading the same account.\n• Keeps first sign-in, QR restore, manual sync and conflict recovery as complete checks rather than treating an unchanged response as a successful save.\n• Fixes a cross-device profile mismatch that could hide saved settings or Watchlist entries. Ambiguous records are kept safe rather than assigned to the wrong profile.\n\nThese changes have passed source and automated checks. Automatic phone-to-Mac-to-Apple-TV convergence still needs confirmation on installed devices; this release is not a claim that every reported sync case has been reproduced and cleared.\n\nUpdate your other devices too. After an updated app successfully saves to your account, older VortX versions can no longer upload to that account. They keep their local saved data and local playback, but need updating to resume cloud uploads. This prevents an older app from overwriting your newer backup.\n\nApple TV changes:\n\n• The cinematic profile picker now has larger, TV-sized profiles and text, centered rows, warmed full-screen artwork and a background change about every five seconds with a fade.\n• Search separates Movies, Series and Collections and opens real collection destinations.\n• A dedicated Watchlist is available from Library and follows the active profile.\n• Episode lists start at the current or next unwatched episode once history has loaded, while keeping manual remote navigation in control.\n• Marking an episode watched/unwatched now waits for the save and offers a retry if it fails.\n• Discover finishes failed loads with a clear retry instead of leaving a spinner stuck. It remains its own TV menu item; there are no Featured/Browse controls added to TV Home.\n• Adds an obvious Close control to the player’s stream-link QR panel and a Back control to account restore. Closing the QR panel keeps the video open.\n\niPhone, iPad and Mac:\n\n• Reduces unnecessary diagnostic and sorting work while source lists fill in.\n• Retains the earlier profile, grouped-search and Library fixes in this source.\n\nThe source-list change is validated by automated checks, not a measured claim that every device stutter is gone. Browser look, language, playback/filter and owner add-on edits have updated sync handling. Browser watch-progress editing and Library removal are not yet supported; pending progress changes are kept rather than reported as saved.\n\nInstalling these local packages:\n\nThe iOS/iPadOS and Apple TV IPAs are unsigned and must be signed by your normal signing service before installation. Apple TV Full includes Top Shelf; Lite does not. Both TV versions require tvOS 18 or later. The Mac package is for Apple silicon, requires macOS 14 or later, and is ad-hoc signed rather than notarized.\n\nIf macOS blocks the app after copying it into Applications, run:\n\nmacOS may ask for your password to let VortX use its saved sign-in information in Keychain after replacing the app. Approve only a prompt that names VortX. Do not delete Keychain entries or sign out just to get past a sync error.\n\nvortx-platforms: apple vortx-distribution: direct-test.",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.0-beta.5/VortX-iOS-0.5.0-266-test.ipa",
+          "size": 51091028,
           "minOSVersion": "16.0"
         }
       ],
