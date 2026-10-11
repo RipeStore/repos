@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.t4mag0.vidgrab",
     "com.joemattiello.iCube",
-    "com.emp0ry.mirushin"
+    "app.mangatan.mangatan",
+    "com.nuvio.media"
   ],
   "apps": [
     {
@@ -377,17 +377,18 @@
       ],
       "versions": [
         {
-          "version": "2.15.4",
-          "date": "2026-07-29T20:30:05Z",
-          "localizedDescription": "• [Automated] Update fallback static snode list.\n\n• Removed synchronous log flush from scene lifecycle callbacks.\n\n• Fix number 1 crash: off-main-thread Auto Layout background crash.",
-          "downloadURL": "https://github.com/session-foundation/session-ios/releases/download/2.15.4/session-2.15.4.ipa",
-          "size": 46295255,
+          "version": "2.15.5",
+          "date": "2026-10-11T00:52:58Z",
+          "localizedDescription": "• Bind Apple Pro payments to the master key via appAccountToken.\n• Fixed dependency race condition, removed redundant function.\n\n• [Automated] Update translations from Crowdin.\n\n• Stop a cancelled poll task from cancelling its own replacement.\n• Stop substituting non-translatable constants at runtime.\n• Pro redemption reflow (iOS): implicit redemption, libsession renewal/rotation.\n• Updated dev settings, fixed a couple minor UI regressions.\n• Pro: allow the Session Pro backend to be overridden for QA/testing.\n• Fixed a gesture recogniser conflict preventing a button press.\n• Pro redemption reflow, part 2.\n• Pro followup fixes.\n• Pro: fully remove the pre-launch Pro-availability gate.\n\n• Pro: accessibility ids for the Pro surface, plus two VoiceOver fixes and a CTA copy bug.\n• Network: populate swarm_pubkey_hex on snode requests.\n• Pro: unify the get_pro_status refresh design (iOS).\n• [Automated] Update translations from Crowdin.\n• Input: name the character-limit countdown and hide it when it is hidden.\n• Pro: show hero copy in every Pro status, not just never-subscribed and the sheet.\n• Notifications: stop extension messages being discarded on import.\n• Notifications: stop a cold background fetch waiting on the home screen.\n• [Automated] Update translations from Crowdin.\n• Apple developer account transfer preparation changes.\n• Pro: identify each message-info feature row.\n• Pro: split access from display, and stop upselling an active plan.\n• Pro: correct the link destinations, the refund window and the pin gate.\n• Pro: compare revocation instants against network time.\n• fix: add mocking logic for refund screens.\n• Pro: revocation-path conformance fixes.\n• feat: add accessibility identifiers to the \"Open URL\" confirmation.\n• Network: disable QUIC path-MTU discovery.\n• Pro: do not raise the expiry CTA over the Pro settings screen.\n• Media: identify the attachment loading state.\n• Attachments: make stream encryption the default and drop the legacy encryptor.\n• fix(pro): drop the proof's version field.\n• feat: route refunds through Session's own two links.\n• Pro: fix the stats counters, and cover them.\n\n• Fill the display picture frame with a picture, keep fitting a glyph.\n• [Automated] Update translations from Crowdin.\n• [Automated] Update fallback static snode list.\n• Name the Pro badges so a test can tell them apart.\n• Don't un-hide a conversation because of our own synced message.\n• qa: tag the first stage of the clear-data flow.\n• Count pinned conversations on launch, so the limit cannot be bypassed by relaunching.\n• fix: confirm a device-only clear for every account, not just Pro.\n• Truncate an incoming message by code point, not UTF-16 unit.\n• Enforce the pin limit against pins that arrive from config, and tag the marker.\n• Pro: make in-memory state changes atomic, so a rotation cannot be undone by a stale snapshot.\n• Keep the access expiry on a revoked proof, and confirm the account status at once.\n• Make the Fast Mode row title addressable.\n• Let the typing indicator settle when animations are disabled.\n• [Automated] Update fallback static snode list.\n• [Automated] Update translations from Crowdin.\n• Increased build and version number.\n• Show our own Pro badge on a message in a community.\n• Updated to libSession 1.9.1.\n\n• Turn the Pro badge on when an account gets its first ever proof.\n• Notifications: restore the sound on the extension's fallback notifications.\n• Don't treat an unreadable identity as a new user.\n• Allow voice messages to run to five minutes.\n• Stop a failed word-set read from crashing every message send.\n• Stop the full-screen media viewer racing on its album cache.\n• Expand the body when \"Read more\" is tapped on a link preview message.\n• Count config messages against the same denominator as standard ones.\n• Keep the Message Info quote and body inside the screen.\n• Terminate with _exit so a deliberate quit stops crashing.\n• Stop the QR scanner configuring two camera sessions at once.\n• Stop an in-flight poll undoing a cursor reset.\n• [Automated] Update translations from Crowdin.\n• Send the shorten/extend flags updateExpiry is given.\n• [Automated] Update fallback static snode list.\n• Renew config message TTLs at most once an hour per swarm.\n\n• ci: detach the simulator keep-alive step.\n• [Automated] Update translations from Crowdin[bot].\n• Stop offering Session Router and move anyone on it back to onion requests.\n• [Automated] Update fallback static snode list.\n• Pro: restore the Session Pro gate, off by default.\n• Update session-lucide to 0.473.4 so the app builds on Xcode 27.\n• Autolink iconv when compiling libSession from source.\n• Update libSession to 1.9.4 and cap the QUIC UDP payload at 1372.\n• [Automated] Update fallback static snode list[bot].\n• Erase group entries a config merge recreated after another device erased them.\n• [Automated] Update translations from Crowdin[bot].\n• Show a placeholder for messages this version can't process, and retain them.\n• Bump version to 2.15.5 (build 726).\n\nNew Contributors:\n\n• @Bilb made their first contribution.\n• @session-localisation[bot] made their first contribution.",
+          "downloadURL": "https://github.com/session-foundation/session-ios/releases/download/2.15.5/session-2.15.5.ipa",
+          "size": 57795332,
           "minOSVersion": "15.6"
         }
       ],
       "appPermissions": {
         "entitlements": [
           "application-identifier",
+          "beta-reports-active",
           "com.apple.developer.team-identifier",
           "com.apple.security.application-groups",
           "get-task-allow",
@@ -1591,10 +1592,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-10T20:28:49Z",
-          "localizedDescription": "Immutable snapshot of alpha build 288 (27b459f).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 288, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-288/Non-Jailbroken.ipa",
-          "size": 93583581,
+          "date": "2026-10-11T04:55:26Z",
+          "localizedDescription": "Immutable snapshot of alpha build 293 (0e49340).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 293, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-293/Non-Jailbroken.ipa",
+          "size": 96932312,
           "minOSVersion": "17.0"
         }
       ],
@@ -2676,11 +2677,11 @@
       ],
       "versions": [
         {
-          "version": "6.1.36",
-          "date": "2026-10-09T07:30:02Z",
-          "localizedDescription": "Release v6.1.36:\n\n• Validate Android camera providers by application ID (3b6db967).\n• Fix Jellyfin tracking when media record IDs overlap (6c22187b).\n• Scope Android bridge linkage check by flavor (cb1d32ba).\n• Accept NDK readelf symlink in Play audit (1faf077f).\n• Disable unused Compose plugin for Play build (36038def).\n• Restage Android classes for packaged builds (d70c30a5).\n• Fix Google Play resource namespace (b8bb6513).\n• Fix dictionary popup clicks across zoom and display scales (b3214db1).\n• Upload signed Android builds to Google Play (ee970e86).\n• Adapt manga library filters to available screen space (343d9be2).\n• Improve local OCR setup and immersion activity diagnostics (eece4584).\n• Add desktop startup debug export (644903a9).\n• Restore cover artwork in immersion statistics (ac43e6b3).\n• Fix iOS startup and immersion activity saving (2afe7e1f).\n• Prepare Google Play memberships and signed app bundles (786f6c6d).\n• Simplify subtitle timing selection and add player shortcut (84bebc43).\n• Add single-page novel layout and optional landscape spread (2798cf76).\n\n• Upload symbol mappings independently (152c23c7).\n• Stabilize Windows dependency build ordering (cdece604).\n\n• Add targeted Windows artifact recovery (1f09e8c4).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.36/Manatan-v6.1.36-iOS.ipa",
-          "size": 396607210,
+          "version": "6.1.39",
+          "date": "2026-10-11T03:13:07Z",
+          "localizedDescription": "Release v6.1.39:\n\n• Filter dictionary conjugations by word class (d0ff2f6b).\n• Repair the desktop app when rerunning Windows setup (97c3f0ab).\n• Verify Play Billing metadata across Android build tools (a17b3bd4).\n• Keep automatic Android updates idle during app use (298afc0e).\n• Render weekly anime schedule natively in Flutter (5108bfff).\n• Preserve resolved Google Play Billing metadata (495a1dc6).\n• Allow selecting multiple Jellyfin media libraries (6645e233).\n• Keep popup toggle shortcut active in Windows settings (e982636d).\n• Preserve playback speed when reopening videos (f7619609).\n• Show simultaneous subtitle lines during study pauses (3287a6ed).\n• Share Android package identity and signing across distributions (a286b2fa).\n• Add on-device Paddle OCR for Android with aligned text geometry (ab6f03f0).\n• Record verified Play build and remaining testing gates (4cc14f63).\n\n• Record Play replacement build and playback capture review notes (673a8e13).\n\n• Serialize bootstrap smoke payload launches (49e38490).\n• Fix Play startup resource bindings and shortcut consent (ad1021f7).\n• Preserve macOS recovery smoke fixes (8d84121f).\n• Sign macOS bootstrap smoke fixtures (3c61406d).\n• Allow empty Play draft placeholders (eb0bcb67).\n• Identify conflicting Play drafts safely (58634cb3).\n• Respect automatic Play review submission (acece7b7).\n\n• Explain Play upload rejections safely (0df67d77).\n• Handle resumable Play upload responses (16b8ebca).\n• Add signed Play upload recovery (d9cb8b06).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.39/Manatan-v6.1.39-iOS.ipa",
+          "size": 396848819,
           "minOSVersion": "16.1"
         }
       ],
@@ -2740,8 +2741,11 @@
       "tintColor": "#6156e2",
       "category": "utilities",
       "screenshotURLs": [
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Tablet/Details_2.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Tablet/Library.png"
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Dashboard.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details_2.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png"
       ],
       "versions": [
         {
@@ -4545,17 +4549,18 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.5.8",
-          "date": "2026-10-09T02:01:29Z",
-          "localizedDescription": "• fix(player): hide upstream's Stream Info action in the new layout @luqmanfadlli.\n• fix(player): keep controls visible while a finger rests on the seek bar @luqmanfadlli.\n• fix(omdb): only call OMDb for episode ratings on the details page @luqmanfadlli.\n• feat(player): pick playback speed instead of cycling @luqmanfadlli.\n\n• feat(player): read chapters from mpv on iOS and Android libmpv @luqmanfadlli.\n• fix(player): restore engine switching and media info on Android @luqmanfadlli.\n• fix(player): grab seek-bar thumbnails from extension-less HLS streams @luqmanfadlli.\n• fix(player): send stream headers when grabbing seek-bar thumbnails @luqmanfadlli.\n• feat(player): 23 commits to add chapter segments if the source has it @chrisk325.\n• fix(plugins,addons): guard activeRefreshJobs against concurrent modification @luqmanfadlli.\n• feat(player): show thumbnail previews while dragging the seek bar @luqmanfadlli.\n• i18n: Add Croatian (hr) translation (#2169) @Anarchydr.\n\n• Reset next episode preload flag on episode transition (#2193) @skoruppa.\n• fix(UI): fix hero content shifting on horizontal and tablet layouts (#2190) @ThEgIGN.\n• feat(servers): add experimental Jellyfin and Emby support (#2081) @tapframe.\n• fix(streams): play streams that only have a ytId (#2115) @deejay189393.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.8-beta/nuvio-0.5.8-enhanced.ipa",
-          "size": 70490675,
+          "version": "0.5.9",
+          "date": "2026-10-11T01:54:54Z",
+          "localizedDescription": "• fix(ios): restore Kotlin/Native build for biometric profile lock @luqmanfadlli.\n• feat(tracking): add anilist integration with id tracking, scrobbling, and library @chrisk325.\n• feat(login): add biometric profile lock @jeff25steve.\n• feat(servers): sync libraries that mix movies and shows @tapframe.\n• fix(servers): mark playback info requests as playback @tapframe.\n• feat(servers): show libraries that mix movies and shows @tapframe.\n• fix(servers): open libraries that need a genre on their first one @tapframe.\n• fix(servers): skip versions that cannot play @tapframe.\n• fix(servers): search each server once per type @tapframe.\n• i18n(vi): update strings.xml and add strings_mdblist.xml + strings_servers.xml (#2216) @blueocean2308.\n• Fix TorBox Cloud loading for large libraries (#2215) @Laskco.\n• Defer custom poster URL resolution to UI layer (#2207) @skoruppa.\n• fix(i18n): comprehensive update to Bengali localization (missing strings & UI fit) (#2204) @TanvirSdq.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.9-beta/nuvio-0.5.9-enhanced.ipa",
+          "size": 70941356,
           "minOSVersion": "16.1"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
+          "NSFaceIDUsageDescription": "Use biometric authentication to unlock your primary Nuvio profile.",
           "NSLocalNetworkUsageDescription": "Nuvio connects to media servers on your local network."
         }
       }
