@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.joemattiello.iCube",
     "app.mangatan.mangatan",
-    "com.nuvio.media"
+    "com.joemattiello.iCube",
+    "com.degenk.boorusama"
   ],
   "apps": [
     {
@@ -1592,10 +1592,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-11T04:55:26Z",
-          "localizedDescription": "Immutable snapshot of alpha build 293 (0e49340).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 293, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-293/Non-Jailbroken.ipa",
-          "size": 96932312,
+          "date": "2026-10-11T09:47:35Z",
+          "localizedDescription": "Immutable snapshot of alpha build 296 (b7fdf8a).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 296, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-296/Non-Jailbroken.ipa",
+          "size": 96932382,
           "minOSVersion": "17.0"
         }
       ],
@@ -2392,11 +2392,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "2.6",
-          "date": "2026-08-26T13:23:25Z",
-          "localizedDescription": "",
-          "downloadURL": "https://starforgejo.dev/projects/MeloNX/releases/download/2.6/MeloNX.ipa",
-          "size": 48808901,
+          "version": "2.7",
+          "date": "2026-10-11T05:14:40Z",
+          "localizedDescription": "Highlights:\n\n• Ram Limit Workaround using NSExtensions and xpc_shmem.\n\n• This does NOT contribute to the in-app \"Memory limit tester \".\n\n• In-App Controller Remapping.\n• Controller Navigation.\n• (experimental) Steam Controller Support via CoreBluetooth.\n• iOS 27 AirPlay Support.\n• Add MetalFX Upscaling.\n\nCore & Graphics:\n\n• Improved Async Shader Compilation.\n• NSExtensions and xpc_shmem for offloading Guest RAM to NSExtensions, shared mem does not contribute to the main app's phys_footprint.\n• Fix fragment ClipDistance SPIR-V lookup.\n• Add BCn > ETC2 Texture Recompression for GPUs that do not support BCn.\n• Memory Pressure GPU Buffer Eviction.\n• Add MetalFX Spatial Upscaling.\n\nUI & Controllers:\n\n• Game List Controller Navigation.\n• Full Controller Remapping.\n• Fix Opacity with Virtual Controls.\n• Move Firmware Importing off the Main Thread and Improve Error Reporting.\n• (experimental) Steam Controller Support via CoreBluetooth.\n• Anti-Aliasing option added to Settings.\n• Fix Virtual Controller not disabling when option is enabled.\n• Improve Per-Game Settings.\n• Open Save Folder option.",
+          "downloadURL": "https://starforgejo.dev/projects/MeloNX/releases/download/2.7/MeloNX.ipa",
+          "size": 49196463,
           "minOSVersion": "15.0"
         }
       ],
@@ -2409,6 +2409,7 @@
           "keychain-access-groups"
         ],
         "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "MeloNX uses Bluetooth to connect to Steam Controllers and receive game input.",
           "NSLocalNetworkUsageDescription": "MeloNX needs local network access for LAN / Local Multiplaer"
         }
       }
@@ -2468,12 +2469,12 @@
       "category": "other",
       "versions": [
         {
-          "version": "4.5.0",
-          "date": "2026-06-14T17:17:28Z",
-          "localizedDescription": "• Add support for Nozomi.\n• [Sankaku] Add favorite support.\n• [Suzurubooru] Add pool and comments support.\n\n• Add last-page jumping for sites that support it.\n• Improve Dtext rendering.\n• Improve post details copy action with more media and link options.\n• Improve Cloudflare/DDOS challenge handling.\n• Improve data transfer reliability.",
-          "downloadURL": "https://github.com/khoadng/Boorusama/releases/download/v4.5.0/boorusama-4.5.0%2B185-ios.ipa",
-          "size": 38047337,
-          "minOSVersion": "13.0"
+          "version": "4.6.0",
+          "date": "2026-10-11T06:14:35Z",
+          "localizedDescription": "• Add PIN app lock and app-preview blur for privacy.\n\n• Support up to two quick actions on post thumbnails.\n• Add per-profile media host overrides.\n• Improve favorite tag and label management.\n• Add Arabic and Indonesian, update Turkish, Tamil, and Spanish translations.",
+          "downloadURL": "https://github.com/khoadng/Boorusama/releases/download/v4.6.0/boorusama-4.6.0%2B187-ios.ipa",
+          "size": 34237176,
+          "minOSVersion": "15.0"
         }
       ],
       "appPermissions": {
@@ -2677,11 +2678,11 @@
       ],
       "versions": [
         {
-          "version": "6.1.39",
-          "date": "2026-10-11T03:13:07Z",
-          "localizedDescription": "Release v6.1.39:\n\n• Filter dictionary conjugations by word class (d0ff2f6b).\n• Repair the desktop app when rerunning Windows setup (97c3f0ab).\n• Verify Play Billing metadata across Android build tools (a17b3bd4).\n• Keep automatic Android updates idle during app use (298afc0e).\n• Render weekly anime schedule natively in Flutter (5108bfff).\n• Preserve resolved Google Play Billing metadata (495a1dc6).\n• Allow selecting multiple Jellyfin media libraries (6645e233).\n• Keep popup toggle shortcut active in Windows settings (e982636d).\n• Preserve playback speed when reopening videos (f7619609).\n• Show simultaneous subtitle lines during study pauses (3287a6ed).\n• Share Android package identity and signing across distributions (a286b2fa).\n• Add on-device Paddle OCR for Android with aligned text geometry (ab6f03f0).\n• Record verified Play build and remaining testing gates (4cc14f63).\n\n• Record Play replacement build and playback capture review notes (673a8e13).\n\n• Serialize bootstrap smoke payload launches (49e38490).\n• Fix Play startup resource bindings and shortcut consent (ad1021f7).\n• Preserve macOS recovery smoke fixes (8d84121f).\n• Sign macOS bootstrap smoke fixtures (3c61406d).\n• Allow empty Play draft placeholders (eb0bcb67).\n• Identify conflicting Play drafts safely (58634cb3).\n• Respect automatic Play review submission (acece7b7).\n\n• Explain Play upload rejections safely (0df67d77).\n• Handle resumable Play upload responses (16b8ebca).\n• Add signed Play upload recovery (d9cb8b06).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.39/Manatan-v6.1.39-iOS.ipa",
-          "size": 396848819,
+          "version": "6.1.41",
+          "date": "2026-10-11T09:56:29Z",
+          "localizedDescription": "Release v6.1.41:\n\n• Fix manga coverage recording and prefetch OCR (944ed27a).\n• Preserve diagnostics when desktop startup fails (8b8b5a7e).\n• Fix Play OCR setup and model recovery (cfd0b45e).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.41/Manatan-v6.1.41-iOS.ipa",
+          "size": 396947394,
           "minOSVersion": "16.1"
         }
       ],
@@ -3251,10 +3252,10 @@
       "versions": [
         {
           "version": "1.0.2",
-          "date": "2026-10-07T05:40:29Z",
-          "localizedDescription": "Alyn ReSA Multiplayer 1.0.2 (102):\n\nBundle ID: com.alyn.resamp.launcher.\n\nManifest version: 1.0.2.\n\nRelease tag: v1.0.2.\n\nSource manifest: https://alynsampmobile.pro/api/resa/ios/manifest\n\nSource IPA: https://alynsampmobile.pro/api/resa/ios/ipa\n\nSource IPA SHA-256: 24a7ed86c50c9466170fc5cf8d8974b8c42c142f84578bcd7503a32f9c895563.\n\nStripped IPA SHA-256: cfecb1f90266c4ae4a1a09322df201dabdf33545dae56881524d5bc99351316f.\n\nMach-O signatures removed: 6.\n\n_CodeSignature archive entries removed: 12.",
-          "downloadURL": "https://github.com/RipeStore/SA-MP_Mobile/releases/download/v1.0.2/Alyn_ReSA_Multiplayer_v1.0.2.ipa",
-          "size": 35612846,
+          "date": "2026-10-11T05:45:23Z",
+          "localizedDescription": "Alyn ReSA Multiplayer 1.0.2 (102):\n\nBundle ID: com.alyn.resamp.launcher.\n\nManifest version: 1.0.2.\n\nRelease tag: v1.0.2-r2.\n\nSource manifest: https://alynsampmobile.pro/api/resa/ios/manifest\n\nSource IPA: https://alynsampmobile.pro/api/resa/ios/ipa\n\nSource IPA SHA-256: f1703eba6ed12309a5958687721ed50cd68fb43c669e98364a380d51851a1986.\n\nStripped IPA SHA-256: eb8bc72c5d63e1009dfad455cc946d6c23c48598598239e145b5b572e8b91a9f.\n\nMach-O signatures removed: 6.\n\n_CodeSignature archive entries removed: 12.",
+          "downloadURL": "https://github.com/RipeStore/SA-MP_Mobile/releases/download/v1.0.2-r2/Alyn_ReSA_Multiplayer_v1.0.2-r2.ipa",
+          "size": 36623076,
           "minOSVersion": "15.1"
         }
       ],

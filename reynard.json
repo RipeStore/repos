@@ -38,6 +38,14 @@
       },
       "versions": [
         {
+          "version": "0.17.0",
+          "buildVersion": "cd934ca",
+          "date": "2026-10-11T06:01:38Z",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.16.0...0.17.0\r\n\r\n### Improvements\r\n- The native text input integration has been rewritten from scratch, so typing now feels truly native, supports nearly all iOS text editing behaviors, and is significantly more stable.\r\n\r\n### New Features\r\n- The address bar now automatically focuses for input on new tab pages when using a physical keyboard.\r\n- You can now cycle between tabs using the Ctrl + Tab and Shift + Ctrl + Tab keyboard shortcuts.\r\n\r\n### Bug Fixes\r\n- Fixed an issue where a tab would appear blank after closing another tab in the tab overview.\r\n- Fixed an issue where dragging the iPad floating keyboard or shortcut bar would push the web view upward.\r\n- Fixed an issue where taps would sometimes land in the wrong spot on some iframe elements when the scroll to hide toolbar is enabled.\r\n- Fixed several UI issues.\r\n\r\n### Engine\r\n\r\nUpdated Gecko to [157.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_157_0_1_RELEASE) (released Oct 6, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.0/Reynard.ipa",
+          "size": 109222723
+        },
+        {
           "version": "0.16.0",
           "buildVersion": "63fb54d",
           "date": "2026-10-04T13:42:17Z",
