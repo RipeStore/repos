@@ -38,6 +38,14 @@
       },
       "versions": [
         {
+          "version": "0.17.1",
+          "buildVersion": "c4b79f7",
+          "date": "2026-10-12T06:12:24Z",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.0...0.17.1\r\n\r\nThis is a minor release that fixes issues found in 0.17.0. For the complete list of changes, see the [0.17.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.17.0).\r\n\r\n### Bug Fixes & Improvements\r\n- Text selections outside input fields now offer more actions, such as Look Up, Find Selection, Translate, and Share.\r\n- Fixed a crash when editing in scrollable text fields on iOS 14 and older.\r\n- Fixed an issue where touching the selection handles to drag them would clear the selection in text fields on some webpages.\r\n- Fixed an issue where the caret and text selection would not stay aligned with sticky text while scrolling.\r\n- Fixed an issue where tapping a focused text field or caret would not bring up the edit menu on iOS 17 and later.\r\n- Fixed an issue where images copied from another app would not paste into webpages.",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.17.1/Reynard.ipa",
+          "size": 109225943
+        },
+        {
           "version": "0.17.0",
           "buildVersion": "cd934ca",
           "date": "2026-10-11T06:01:38Z",
