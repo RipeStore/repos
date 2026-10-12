@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.tumoflip.unleashedcompanion",
-    "moe.itoapp.ito",
-    "app.mangatan.mangatan"
+    "com.husk.app",
+    "com.joemattiello.iCube",
+    "com.stremiox.app.native"
   ],
   "apps": [
     {
@@ -1592,10 +1592,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-11T09:47:35Z",
-          "localizedDescription": "Immutable snapshot of alpha build 296 (b7fdf8a).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 296, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-296/Non-Jailbroken.ipa",
-          "size": 96932382,
+          "date": "2026-10-11T21:26:08Z",
+          "localizedDescription": "Immutable snapshot of alpha build 297 (52f2704).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 297, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-297/Non-Jailbroken.ipa",
+          "size": 96932399,
           "minOSVersion": "17.0"
         }
       ],
@@ -2125,11 +2125,11 @@
       ],
       "versions": [
         {
-          "version": "1.1.0",
-          "date": "2026-10-09T09:47:21Z",
-          "localizedDescription": "Game Support:\n\n• Grand Theft Auto 5 (unofficial).\n\n• fix: support TrollStore.\n\nNew Contributors:\n\n• @azyarashi made their first contribution.",
-          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/1.1.0/Husk.ipa",
-          "size": 54385494,
+          "version": "2.0.0",
+          "date": "2026-10-11T22:41:49Z",
+          "localizedDescription": "Welcome to Husk 2.0.:\n\nI’ve been working hard over the past few days, and I’m glad to say, Husk 2.0 is out! You’ll enjoy it, a lot.\n\nWhat’s new?:\n\n• Christmas Decoration.\n• In-app help feature.\n• Window manager.\n• New UI.\n\nNew App Support:\n\n• Over 150+ games and apps, now running on Husk.\n\nNotes::\n\nThank you all for the continuous support, It’s been a good few months, and I’m just amazed at how big Husk got. Thank you so much, and enjoy Husk 2.0. There is more to come.\n\nLinks::\n\n• X Profile: https://x.com/leviidev01",
+          "downloadURL": "https://github.com/Leviidev/Husk/releases/download/2.0/Husk.ipa",
+          "size": 110921859,
           "minOSVersion": "16.0"
         }
       ],
@@ -2746,7 +2746,7 @@
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details.png",
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details_2.png",
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library_Search.png"
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png"
       ],
       "versions": [
         {
@@ -4073,11 +4073,11 @@
       ],
       "versions": [
         {
-          "version": "0.5.0",
-          "date": "2026-10-11T06:55:29Z",
-          "localizedDescription": "VortX 0.5.0 Beta 5 — Sync & Apple TV Hotfix:\n\nBuild 266. These Apple packages are built locally from the same source. This beta is available through the attached files; it does not change the existing automatic-update feeds or Latest release.\n\nSync changes:\n\n• Fixes the server limit that could reject larger account backups.\n• Stops an outdated app or delayed upload from replacing a newer backup. Conflicting saves reread the latest backup and keep your pending changes for retry.\n• Preserves extra saved fields when Apple TV Lite updates its backup, instead of dropping fields it does not understand.\n• Adds shared Apple sync fixes, including Apple TV: safer restore/retry handling, refreshed visible settings, and clearer feedback when a save really fails.\n• Cuts repeated work when the server has no new data, so background sync does not keep reloading the same account.\n• Keeps first sign-in, QR restore, manual sync and conflict recovery as complete checks rather than treating an unchanged response as a successful save.\n• Fixes a cross-device profile mismatch that could hide saved settings or Watchlist entries. Ambiguous records are kept safe rather than assigned to the wrong profile.\n\nThese changes have passed source and automated checks. Automatic phone-to-Mac-to-Apple-TV convergence still needs confirmation on installed devices; this release is not a claim that every reported sync case has been reproduced and cleared.\n\nUpdate your other devices too. After an updated app successfully saves to your account, older VortX versions can no longer upload to that account. They keep their local saved data and local playback, but need updating to resume cloud uploads. This prevents an older app from overwriting your newer backup.\n\nApple TV changes:\n\n• The cinematic profile picker now has larger, TV-sized profiles and text, centered rows, warmed full-screen artwork and a background change about every five seconds with a fade.\n• Search separates Movies, Series and Collections and opens real collection destinations.\n• A dedicated Watchlist is available from Library and follows the active profile.\n• Episode lists start at the current or next unwatched episode once history has loaded, while keeping manual remote navigation in control.\n• Marking an episode watched/unwatched now waits for the save and offers a retry if it fails.\n• Discover finishes failed loads with a clear retry instead of leaving a spinner stuck. It remains its own TV menu item; there are no Featured/Browse controls added to TV Home.\n• Adds an obvious Close control to the player’s stream-link QR panel and a Back control to account restore. Closing the QR panel keeps the video open.\n\niPhone, iPad and Mac:\n\n• Reduces unnecessary diagnostic and sorting work while source lists fill in.\n• Retains the earlier profile, grouped-search and Library fixes in this source.\n\nThe source-list change is validated by automated checks, not a measured claim that every device stutter is gone. Browser look, language, playback/filter and owner add-on edits have updated sync handling. Browser watch-progress editing and Library removal are not yet supported; pending progress changes are kept rather than reported as saved.\n\nInstalling these local packages:\n\nThe iOS/iPadOS and Apple TV IPAs are unsigned and must be signed by your normal signing service before installation. Apple TV Full includes Top Shelf; Lite does not. Both TV versions require tvOS 18 or later. The Mac package is for Apple silicon, requires macOS 14 or later, and is ad-hoc signed rather than notarized.\n\nIf macOS blocks the app after copying it into Applications, run:\n\nmacOS may ask for your password to let VortX use its saved sign-in information in Keychain after replacing the app. Approve only a prompt that names VortX. Do not delete Keychain entries or sign out just to get past a sync error.\n\nvortx-platforms: apple vortx-distribution: direct-test.",
-          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.0-beta.5/VortX-iOS-0.5.0-266-test.ipa",
-          "size": 51091028,
+          "version": "0.5.1",
+          "date": "2026-10-11T21:17:52Z",
+          "localizedDescription": "VortX 0.5.1: Apple TV Profiles, History Import and Smoother Sync:\n\nBuild 268. VortX 0.5.1 fixes profiles that never finished loading on real Apple TV hardware, brings in watch history saved by older VortX versions where it can be merged safely, and includes everything from 0.5.0 Beta 6. These Apple packages are built locally from the tagged source. This is the Latest release, so the download links on vortx.tv serve it. The automatic-update feeds are unchanged.\n\nFixed:\n\n• Apple TV profiles never loading. On a real Apple TV (not the simulator), VortX tried to keep your profiles in a storage location tvOS does not allow apps to create, so profiles never finished loading. Home showed \"Waiting for this profile's acknowledged account and Continue Watching settings\", Library kept spinning and nothing opened. Apple TV now keeps this data where tvOS allows it. If tvOS ever clears that space to free up storage, VortX simply reloads your account from the cloud.\n• History saved by older VortX versions. Older versions, such as an Apple TV still on 0.4, save watch history in an older format. Some of those changes could not be merged, and one such change blocked the rest. VortX now merges the changes it can safely place in time, such as watch progress and newly watched titles, and sets aside only the rest. Newer progress from your current devices is never overwritten by older data.\n• Trakt and SIMKL caches on Apple TV. These now use the same allowed storage location instead of silently failing to save.\n• Clearer diagnostics. If profiles cannot load because of a system error, the diagnostics log now names the error type, so it can be fixed quickly.\n\nIncluded from 0.5.0 Beta 6:\n\n• Profiles that would not finish loading and Sync Now failing on iPhone, iPad and Mac.\n• Playback no longer uploads your whole account every few seconds. Watch progress syncs 15 seconds after you pause or stop, or at most once a minute while you keep watching.\n• Resuming after a long pause no longer waits before restarting the stream.\n• Player controls respond to a single tap on iPhone and iPad, and use your profile colour while staying readable over bright scenes.\n• Discover on iPhone no longer wraps into \"D / is\", and the Mac no longer keeps asking for Keychain access to its installation key.\n\nUpdate every device you use. Once a device on 0.5.1 saves to your account, older VortX versions can no longer upload to it. They keep their local data and playback, but need updating to sync again. Apple TVs that are still on 0.4 should update so their watching syncs again.\n\nKnown issue. Connecting Trakt or SIMKL is not available in these locally built packages. It will return in a following update.\n\nAndroid. This release is Apple only. VortX is Apple first, and the Android APK is an early technical preview rather than the finished app, so expect missing features and rough edges there.\n\nPlease test:\n\n• Apple TV: open VortX and pick your profile. Home, Library and Continue Watching should load, and your recent history should appear.\n• On any device, Sync Now should succeed, and a change on one device should show up on the others.\n• On Apple TV, pause for more than a minute, then press Play: playback should resume within a couple of seconds.\n\nInstall:\n\nThese packages were built locally from the tagged source rather than by the GitHub Actions workflow. SHA256SUMS-v0.5.1.txt lists a SHA-256 checksum for each file so you can confirm your download is intact.\n\nvortx-platforms: apple.",
+          "downloadURL": "https://github.com/VortXTV/VortX/releases/download/v0.5.1/VortX-iOS-v0.5.1.ipa",
+          "size": 51167893,
           "minOSVersion": "16.0"
         }
       ],
