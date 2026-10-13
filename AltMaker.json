@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.emp0ry.mirushin",
-    "moe.itoapp.ito",
-    "com.kodjodevf.mangayomi"
+    "dev.kartpad.app",
+    "uk.gleissner.c64commander",
+    "app.mangatan.mangatan"
   ],
   "apps": [
     {
@@ -2648,11 +2648,11 @@
       "category": "games",
       "versions": [
         {
-          "version": "1.0.3",
-          "date": "2026-09-27T17:19:04Z",
-          "localizedDescription": "First release.",
-          "downloadURL": "https://github.com/DevZer0D4Y/UnleashedRecompilediOS/releases/download/R1/SonicUnleashed_Release.ipa",
-          "size": 61370785,
+          "version": "1.1.0",
+          "date": "2026-10-12T19:57:45Z",
+          "localizedDescription": "Sonic Unleashed for iOS v1.1.0 — Native Mod Manager:\n\n• Added a native startup mod manager with folder import through Files.\n• Enable or disable mods, reorder priority, and preserve selections across launches.\n• Check dependency IDs and minimum numeric versions before starting.\n• Toggle the built-in game codes from the manager.\n• Connect selections to the existing asset replacements, append archives, loose files, UMM merges, and mod save redirection.\n• Display unsupported DLL and custom HMM script requirements.\n• Confine mod include/save paths and reject symbolic links.\n• Compile the game Metal shader cache for iOS 15 with the iPhone SDK.\n• Target iOS 15 for bundled dependencies and use numeric bundle versions.\n• Add an IPA packaging helper for builds made with the Ninja preset.\n\nInstall and use:\n\nDownload SonicUnleashed_iOS_v1.1.0.ipa and re-sign it with your sideloading tool before installation. This IPA has an ad-hoc signature and no Apple provisioning profile. Supply your own runtime game assets through Files.\n\nExtract an Unleashed Recompiled mod, launch the app, tap Import folder, and select the folder containing mod.ini. Enable it, set its priority, and tap Play. New imports start disabled. The first mod wins file replacement conflicts.\n\nCompatibility and validation:\n\nThe complete app compiled and linked successfully. Mod backend tests passed with AddressSanitizer and UndefinedBehaviorSanitizer, and the native UI passed ARM64 iOS SDK syntax checks. The packaged IPA passed ZIP integrity, bundle metadata, and ad-hoc signature checks. Physical-device gameplay and individual mod packages have not been verified.\n\nSource: 5625afe81d2f9f2bac947087034260dc8c87dcc1.",
+          "downloadURL": "https://github.com/DevZer0D4Y/UnleashedRecompilediOS/releases/download/v1.1.0/SonicUnleashed_iOS_v1.1.0.ipa",
+          "size": 55943360,
           "minOSVersion": "15.0"
         }
       ],
@@ -2681,11 +2681,11 @@
       ],
       "versions": [
         {
-          "version": "6.1.42",
-          "date": "2026-10-12T06:59:21Z",
-          "localizedDescription": "Release v6.1.42:\n\n• Keep iOS signing keychain available (019b38b1).\n• Recover Android account sign-in after process restart (8e78255f).\n• Include Google Play checkout activities in Android packages (361d6ed2).\n• Preserve glossary sections in mined cards (1b123588).\n• Improve subtitle sidebar search and timing controls (40fd5fea).\n• Resolve duplicate Android runtime classes (4dcbac40).\n\n• Use automatic immersion tracking in the novel reader (152f36ee).\n• Add audiobook read-along and subtitle books (0e2d2b93).\n• Improve performance monitor readability and reduce popup layout work (b4a7ac78).\n• Add podcast discovery and RSS to the audio library (fe2961e6).\n• Track automatic manga reading pace and integrate reader stats (9f0386e5).\n• Reduce subtitle rebuilds and add performance monitor (4b8bd72f).\n• Restore compact subtitle timing controls (38a76371).\n• Fix embedded subtitle timelines and track labels on Windows (1078611a).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.42/Manatan-v6.1.42-iOS.ipa",
-          "size": 397433501,
+          "version": "6.1.43",
+          "date": "2026-10-12T20:14:26Z",
+          "localizedDescription": "Release v6.1.43:\n\n• Recover damaged Windows UI preferences safely (0f06daad).\n• Resolve Linux ARM64 bundle output (f7b21c91).\n• Enable iOS speech audio encoding (9441c28d).\n• Prepare iOS native frameworks before CocoaPods (fa6988e9).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.43/Manatan-v6.1.43-iOS.ipa",
+          "size": 397402552,
           "minOSVersion": "16.1"
         }
       ],
@@ -4243,11 +4243,11 @@
       ],
       "versions": [
         {
-          "version": "0.8.0",
-          "date": "2026-10-12T08:04:11Z",
-          "localizedDescription": "KartPad 0.8.0 moves to the latest WiiCompiled engine, fixes controllers on the Mac, tries a new fix for invisible characters on older Snapdragon phones, and adds update notices, Shake to Trick and a choice of app icons. The Mac version is back through PadMint.\n\nDon't install KartPad-v0.8.0-ios-for-padmint.ipa yourself: it has no game in it. PadMint downloads it and adds the game from your own disc.\n\nFull steps: Get KartPad.\n\nWhat's new:\n\n• Mac: controllers work again. An Xbox, PlayStation or Switch Pro controller could show as connected in Controller Settings and still do nothing, because the keyboard was also active for Player 1 and took over. Now the keyboard and the controller both work.\n• Android: a new fix for invisible characters on Snapdragon 8 Gen 3 and older (Adreno 6xx/7xx, #104, #301). On these phones KartPad now reads the game's matrices the standard way and repacks character vertices. It's chosen automatically and only on those GPUs; it hasn't been confirmed on an affected phone yet. If characters still look wrong, Help → Report a Problem sends the line that tells us why.\n• Latest WiiCompiled engine. Includes the fix for 3D models and tracks that could disappear while the HUD kept drawing, and cleaner recovery when an online connection fails partway through.\n• Update notices on iPhone, iPad and Mac. When a new KartPad is out, Update available appears next to Help on the iPhone/iPad game chooser. On Mac, use Help → Check for Updates….\n• Shake to Trick. Controls → Shake to Trick… on Android, iPhone and iPad. It's off by default and works without tilt steering.\n• Choose the app icon. Display → App Icon offers the red K, Circuit and Mono.\n• Android: Fill Screen draws races under the display cutout, which may remove the black band on handhelds such as the AYN Thor.\n• PadMint: builds the Mac app without Homebrew tools, and the iPhone/iPad app on an Intel Mac (experimental). Both need PadMint 0.5.1.\n\nUpdating:\n\n• Android: tap Update available → Update Now on the game chooser, or install the APK over your current KartPad; don't uninstall first. Saves and game data stay.\n• iPhone and iPad: build 0.8.0 with PadMint and install over your current KartPad with the same sideloading tool and Apple ID to keep your saves.\n• Mac: build 0.8.0 with PadMint 0.5.1 (This Mac). It replaces the old app; your saves stay.\n• PadMint needs about 16 GB free while it builds, for the translated game code and compiler output. You can delete PadMint's build folder afterwards.\n\nRetro Rewind online: \"Invalid pack version\" (error 22010):\n\nRetro WFC only accepts the current Retro Rewind (6.13.1). Android downloads it inside the app. On iPhone, iPad and Mac, Retro Rewind is built into your copy, so the fix is to build 0.8.0 with PadMint. Retro Rewind updates almost always change its game code, so Apple devices need a new build after each one; KartPad tells you when it's ready.\n\nYou still need your own Mario Kart Wii (PAL, RMCP01, revision 0). No disc images, game files or keys are included.\n\nChecked before release:\n\n• Android emulator: this APK installs over the published 0.7.15 with all 2,076 app data files unchanged and reaches a race at 60 FPS. A fresh install imports a game data ZIP through the Files picker, creates a licence and races on Luigi Circuit.\n• Pixel 9 Pro XL: a test copy of this build (same app code, test signature) updated in place and raced in Original at 60 FPS. The Snapdragon fix only switches on for Adreno 6xx/7xx GPUs, and this phone has a Mali GPU, so it is still unconfirmed on an affected phone.\n• iPad Pro: this iPhone/iPad app, with its game pack, installs in place with saves, licences, Miis and settings unchanged, and shows both games ready to play. Its game code is unchanged from the earlier 0.8.0 test build, which ran Original at 60 FPS on the same iPad.\n• Mac: PadMint builds the Mac app from this source the way a player's PadMint does (Apple's Python and an empty PadMint folder). The controller fix is covered by a test that drives a virtual controller while the keyboard is active; it fails without the fix. It hasn't been tried yet with a physical Xbox or Switch Pro controller.\n• Shake to Trick and the icon picker have automated and emulator checks; they haven't had hands-on testing on a phone or iPad.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.0/KartPad-v0.8.0-ios-for-padmint.ipa",
-          "size": 9290784,
+          "version": "0.8.1",
+          "date": "2026-10-13T01:18:40Z",
+          "localizedDescription": "KartPad 0.8.1 fixes two problems in 0.8.0: characters that disappeared on some Snapdragon phones, and Mac builds that refused most disc images. It also fixes choosing a game folder on iPhone and iPad.\n\nDon't install KartPad-v0.8.1-ios-for-padmint.ipa yourself: it has no game in it. PadMint downloads it and adds the game from your own disc.\n\nFull steps: Get KartPad.\n\nFixed:\n\n• Android: invisible characters on some Snapdragon phones. 0.8.0 switched every Adreno 6xx/7xx GPU (Snapdragon 8 Gen 3 and older) to an experimental graphics path in Automatic, which hid the characters on phones that showed them before. Automatic works as it did in 0.7.15 again. If you switched Help → Character Graphics Test to a Compare option to get characters back, switch it back to Automatic (recommended): the Compare options are slow.\n• Mac: \"disc-image SHA-256 is unsupported\". Building the Mac app with PadMint only accepted one exact disc image file. Any PAL (RMCP01) disc image whose game files are unmodified now works, whether it's an ISO or a WBFS.\n• iPhone and iPad: choosing the game folder in Files could do nothing after Open (#380). Import from Extracted Folder… now opens a picker that only chooses folders, and always tells you whether the import worked.\n\nNew test option:\n\n• Android: Help → Character Graphics Test → Experimental: matrix rows like Dolphin. For Snapdragon 8 Gen 3 and older phones where characters have always been invisible (#104, #301): it reads character bones the way Dolphin does. It's off unless you choose it, and we don't know yet whether it helps; if you try it, tell us on GitHub.\n\nUpdating:\n\n• Android: tap Update available → Update Now on the game chooser, or install the APK over your current KartPad; don't uninstall first. Saves and game data stay.\n• iPhone and iPad: build 0.8.1 with PadMint and install over your current KartPad with the same sideloading tool and Apple ID to keep your saves. Your game pack from 0.8.0 still fits.\n• Mac: build 0.8.1 with PadMint 0.5.1 or newer (This Mac). It replaces the old app; your saves stay.\n\nYou still need your own Mario Kart Wii (PAL, RMCP01, revision 0). No disc images, game files or keys are included.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.1/KartPad-v0.8.1-ios-for-padmint.ipa",
+          "size": 9292669,
           "minOSVersion": "16.0"
         }
       ],
@@ -4472,11 +4472,11 @@
       ],
       "versions": [
         {
-          "version": "1.0.7",
-          "date": "2026-10-04T12:09:11Z",
-          "localizedDescription": "Usability and accessibility:\n\n• Resume where you left off. Each page now remembers its previous state. Tap its tab again to return to the starting view. #452.\n• Improved support for small keypad screens, including the guided tour, compact layout, remote play and HVSC browsing, alongside hardware test harness improvements. #442.\n• More accessible tour and search overlays, with improved support for assistive technology and UI automation. #440.\n\nPlayback and reliability:\n\n• Fixed playback seeking, background audio and cleanup when stopping playback. #446.\n• Fixed 41 defects found during hardware testing on Pixel 4, C64U and U2. #447.\n\nMaintenance:\n\n• Upgraded React to 19.3. #451.\n• Updated dependencies across the app and supporting tools. #441 #443 #445 #448 #450.",
-          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.0.7/c64commander-1.0.7-ios.ipa",
-          "size": 7423537,
+          "version": "1.0.8",
+          "date": "2026-10-12T22:51:31Z",
+          "localizedDescription": "• Smoother performance on smaller phones: Faster page and overlay rendering, more responsive tab switching, and reduced Live View overhead. (#453, #460).\n• Seek during C64 SID playback: Use Previous, Next, and the progress bar to seek within SID tunes played by the C64 itself. (#456).\n• New SID Radio collections: Discover collections built from STIL, the SID Tune Information List. (#461).\n• Faster SID emulation: Added the native libSidplayEZ renderer, which is faster than libsidplayfp-wasm while delivering the same emulation accuracy. Also updated libsidplayfp-wasm and made the SID emulation choice available to everyone. (#462, #465).\n• Improved phone audio: Added audio processing and a spectrum view, with corrected timing when handing over between tracks during crossfades. (#466).\n• More reliable playback controls: Improved output switching and playback transport on the Play page, verified through extended hardware testing. (#463).\n• Clearer diagnostics: Chromium's ResizeObserver loop notice is now logged as a debug message rather than an error. (#464).\n• Maintenance and security: Updated dependencies, including security patches for undici and brace-expansion. (#454, #455, #457, #458, #459).",
+          "downloadURL": "https://github.com/chrisgleissner/c64commander/releases/download/1.0.8/c64commander-1.0.8-ios.ipa",
+          "size": 7481451,
           "minOSVersion": "15.0"
         }
       ],
