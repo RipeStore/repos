@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.joemattiello.iCube",
-    "app.mangatan.mangatan",
-    "com.nuvio.media"
+    "moe.itoapp.ito",
+    "com.devz.cod4ios",
+    "com.joemattiello.iCube"
   ],
   "apps": [
     {
@@ -2160,10 +2160,10 @@
       "versions": [
         {
           "version": "1.0.4",
-          "date": "2026-10-13T19:57:59Z",
-          "localizedDescription": "Fixed performance, you can now edit your controls, better stability (known crash after rescue Nikolai mission).",
-          "downloadURL": "https://github.com/DevZer0D4Y/COD4iOS-COD4NS/releases/download/R2/COD4iOS-1.0.4.ipa",
-          "size": 9665598,
+          "date": "2026-10-14T12:20:08Z",
+          "localizedDescription": "What's fixed in this build:\n\n• Confirmed checkpoints used to remain in RAM; they are now immediately written to disk.\n• \"Resume\" now retrieves the save reference even if it is missing from config.cfg.",
+          "downloadURL": "https://github.com/DevZer0D4Y/COD4iOS-COD4NS/releases/download/R3/COD4iOS-1.0.4.ipa",
+          "size": 9675463,
           "minOSVersion": "17.0"
         }
       ],
@@ -2748,8 +2748,8 @@
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Dashboard.png",
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details.png",
         "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Details_2.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Favourites.png",
-        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library.png"
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Library_Search.png",
+        "https://cdn.jsdelivr.net/gh/DonutWare/Fladder@develop/assets/marketing/screenshots/Mobile/Resume_Tab.png"
       ],
       "versions": [
         {
@@ -3817,10 +3817,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-13T17:24:17Z",
+          "date": "2026-10-14T14:50:03Z",
           "localizedDescription": "Automated unsigned nightly from main at commit d387ebc. This build is for testing and may be unstable.",
-          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261013-88/Ito-1.0.0-nightly.20261013.88-unsigned.ipa",
-          "size": 10289689,
+          "downloadURL": "https://github.com/AtiinLabs/Ito/releases/download/nightly-20261014-89/Ito-1.0.0-nightly.20261014.89-unsigned.ipa",
+          "size": 10289671,
           "minOSVersion": "15.4"
         }
       ],
