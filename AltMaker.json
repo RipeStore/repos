@@ -9,9 +9,9 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "com.devz.cod4ios",
-    "com.example.openstrapEdge",
-    "moe.itoapp.ito"
+    "app.mangatan.mangatan",
+    "com.joemattiello.iCube",
+    "com.nuvio.media"
   ],
   "apps": [
     {
@@ -1592,10 +1592,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-13T04:51:58Z",
-          "localizedDescription": "Immutable snapshot of alpha build 325 (39e278e).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 325, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-325/Non-Jailbroken.ipa",
-          "size": 97295372,
+          "date": "2026-10-14T02:27:11Z",
+          "localizedDescription": "Immutable snapshot of alpha build 329 (72a1fbc).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 329, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-329/Non-Jailbroken.ipa",
+          "size": 97222881,
           "minOSVersion": "17.0"
         }
       ],
@@ -2116,7 +2116,7 @@
       "name": "Husk",
       "bundleIdentifier": "com.husk.app",
       "developerName": "Leviidev",
-      "subtitle": "Run Android on your iPhone. Natively or Emulated",
+      "subtitle": "Run Android on iOS. Natively or Emulated",
       "localizedDescription": "Husk:\n\nAndroid apps and games on your iPhone.\n\nAdd an APK, tap it, and it opens full-screen. Husk runs it in one of two ways, shown as the two sides of its Library:\n\n• Translation Layer. The game's own 64-bit Android code runs directly on the iPhone's processor, and Husk stands in for Android around it: the C library, the Java calls the game makes, OpenGL ES (through ANGLE), Vulkan (through MoltenVK), sound, touch and controllers. No Android boots, so a game starts in seconds, and its code is never emulated.\n• Emulation. A full Android system (LineageOS) boots under QEMU inside Husk, for apps the translation layer cannot run yet and for using Android itself. iOS gives apps no hypervisor, so the processor is emulated, and this is much slower than the translation layer.",
       "iconURL": "https://cdn.jsdelivr.net/gh/RipeStore/altmaker@main/icons/com.husk.app.png",
       "tintColor": "#a080e0",
@@ -2681,11 +2681,11 @@
       ],
       "versions": [
         {
-          "version": "6.1.44",
-          "date": "2026-10-13T08:20:44Z",
-          "localizedDescription": "Release v6.1.44:\n\n• Support AVIF manga images on Android (d604dbe0).\n• Keep repository consent responsive during runtime startup (cd4b223a).\n• Verify immersion history survives library removal (d9fc6a0a).\n• Improve mobile review controls and learning intervals (d9b5830d).\n• Prevent Windows webview crashes during resizing (77aa470d).\n• Request repository consent when opening add links (8b85d601).\n• Disable subscription purchases in TestFlight builds (005ca24c).\n• Show correct membership tier and billing provider (203d98fb).\n• Improve study playback input and crash diagnostics (1df03f88).\n• Enable Android background playback and system audio controls (4af6a5c6).\n• Isolate desktop prerequisite failures (85c14f26).\n• Preserve Windows recovery dependency definition (440f8363).\n• Use reliable Windows dependency source (cdb8997f).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
-          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.44/Manatan-v6.1.44-iOS.ipa",
-          "size": 397636241,
+          "version": "6.1.45",
+          "date": "2026-10-14T02:42:04Z",
+          "localizedDescription": "Release v6.1.45:\n\n• Disambiguate Windows string comparison (81ff8574c).\n• Preserve appearance and chapter sorting preferences (8e1e90620).\n• Restore subtitle hover lookup and playback controls (9ef8d78fc).\n• Keep dictionary definitions within the screen width (8c2454313).\n• Fix dictionary frequency sorting and picker options (05f267dc4).\n• Display dictionary images at their requested size (b6b974d5a).\n• Restore selected profile dictionaries after app restart (294eeddb8).\n• Restore novel reader swipe threshold controls (19919ef95).\n• Keep novel reading fullscreen and progress clear (bb2f10303).\n• Add five-second video seek shortcuts (748dc41a3).\n\n• Prevent stale episode lists during concurrent refreshes (239d3177f).\n• Sync completed Jellyfin episodes automatically (3c8766f28).\n• Keep checkbox ticks visible across app color schemes (eb0a35331).\n• Install Play recovery Python runtime (b2a612d6b).\n• Run Play recovery driver outside source tree (60a08e6bc).\n• Clean detached recovery worktrees (234c1bb79).\n• Preserve Play recovery provenance (00b03a8c7).\n• Install Git in Android recovery jobs (a6cd9150b).\n\n• Update Android ABI test fixtures (1ad62ea00).\n\nDownloads:\n\n• The manatan-app and manatan-launcher archives are updater payloads, not the normal manual install path.\n• The legacy Manatan archives are one-time migration assets for older clients.\n• Android requires Android 8.0 or newer. Choose ARM64 for a 64-bit Android system, or ARM32 for a 32-bit Android system.\n• ARM32 support is experimental.",
+          "downloadURL": "https://github.com/KolbyML/Manatan/releases/download/v6.1.45/Manatan-v6.1.45-iOS.ipa",
+          "size": 397923709,
           "minOSVersion": "16.1"
         }
       ],
@@ -4554,11 +4554,11 @@
       "category": "other",
       "versions": [
         {
-          "version": "0.5.9",
-          "date": "2026-10-11T01:54:54Z",
-          "localizedDescription": "• fix(ios): restore Kotlin/Native build for biometric profile lock @luqmanfadlli.\n• feat(tracking): add anilist integration with id tracking, scrobbling, and library @chrisk325.\n• feat(login): add biometric profile lock @jeff25steve.\n• feat(servers): sync libraries that mix movies and shows @tapframe.\n• fix(servers): mark playback info requests as playback @tapframe.\n• feat(servers): show libraries that mix movies and shows @tapframe.\n• fix(servers): open libraries that need a genre on their first one @tapframe.\n• fix(servers): skip versions that cannot play @tapframe.\n• fix(servers): search each server once per type @tapframe.\n• i18n(vi): update strings.xml and add strings_mdblist.xml + strings_servers.xml (#2216) @blueocean2308.\n• Fix TorBox Cloud loading for large libraries (#2215) @Laskco.\n• Defer custom poster URL resolution to UI layer (#2207) @skoruppa.\n• fix(i18n): comprehensive update to Bengali localization (missing strings & UI fit) (#2204) @TanvirSdq.",
-          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.9-beta/nuvio-0.5.9-enhanced.ipa",
-          "size": 70941356,
+          "version": "0.5.10",
+          "date": "2026-10-14T01:20:17Z",
+          "localizedDescription": "feat(ios): adopt @albertovinaroz morphed tabbar via native segmented glass bar @luqmanfadlli fix(details): start from the top of the list after re-sorting episodes @luqmanfadlli feat(details): show the episode navigator for every season @luqmanfadlli feat(details): add episode search, go-to and sort with a sticky bar @luqmanfadlli feat add mini player and incognito mode in playback settings @chrisk325 feat(blur): add haze blur on bottom sheets for Android @chrisk325 fix(simkl): dedupe multi-season anime in Continue Watching @chrisk325 feat(epg): add EPG to Live TV and player @chrisk325 fix(progress): add progress bar to episode cards in details page @chrisk325 perf(home): make the full-bleed hero swipe and scroll smoothly @luqmanfadlli fix(home): keep hero age rating bound to its own item @luqmanfadlli feat(home): rework full-bleed hero and dynamic background @luqmanfadlli fix(player): stop downloads re-pausing and fix libass overlay offset @chrisk325 feat(tracker): add WeTrakr with library, rating and scrobbling support @chrisk325 feat(ios): add native PiP with existing MPV VideoToolbox frames (#2248) @WhiteGiso Fix dismissed shows staying hidden after marking episodes watched (#2244) @Laskco Add non-AI Subtitle AutoSync for mobile add-on subtitles (#2143) @DavidVamaiotu fix(i18n): localize generic Episode N titles like TV (#2241) @blueocean2308 fix next episode card timing and prefetch with heuristic post-credits (#2238) @skoruppa Optimize custom poster URL resolving performance (#2239) @halibiram fix: In Poster Card Style settings screen one toggle get bigger then other and pushed out of the screen safe area. (#2219) @AdityasahuX07.",
+          "downloadURL": "https://github.com/luqmanfadlli/NuvioMobile-Enhanced/releases/download/0.5.10-beta/nuvio-0.5.10-enhanced-release.ipa",
+          "size": 71604983,
           "minOSVersion": "16.1"
         }
       ],
