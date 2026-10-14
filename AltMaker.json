@@ -9,8 +9,8 @@
   "patreonURL": "https://ripestore.github.io/",
   "tintColor": "#6156e2",
   "featuredApps": [
-    "app.mangatan.mangatan",
     "com.joemattiello.iCube",
+    "app.mangatan.mangatan",
     "com.nuvio.media"
   ],
   "apps": [
@@ -1592,10 +1592,10 @@
       "versions": [
         {
           "version": "1.0.0",
-          "date": "2026-10-14T02:27:11Z",
-          "localizedDescription": "Immutable snapshot of alpha build 329 (72a1fbc).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 329, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-329/Non-Jailbroken.ipa",
-          "size": 97222881,
+          "date": "2026-10-14T05:44:36Z",
+          "localizedDescription": "Immutable snapshot of alpha build 330 (d6d21ab).\n\nThis tag exists so the sideload feed can link bytes that never change. Its Non-Jailbroken.ipa carries CFBundleVersion 330, matching the tag name. For the newest build, use the rolling.\n\nPruned automatically; only the most recent few are kept.",
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-330/Non-Jailbroken.ipa",
+          "size": 97252132,
           "minOSVersion": "17.0"
         }
       ],
