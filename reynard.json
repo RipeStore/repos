@@ -38,6 +38,14 @@
       },
       "versions": [
         {
+          "version": "0.18.0",
+          "buildVersion": "860bb6f",
+          "date": "2026-10-18T01:21:55Z",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.17.1...0.18.0\r\n\r\n### New Features\r\n- When a webpage uses a keyboard shortcut that conflicts with one of the app's, the first press now goes to the webpage, and a hint appears in the address bar letting you press the shortcut again to trigger the app's.\r\n\r\n### Improvements\r\n- Scrolling on webpages is now smoother and more accurate.\r\n- Improved audio handling, with better echo cancellation, voice processing, recovery after interruptions, and handling of audio device changes.\r\n\r\n### Bug Fixes\r\n- Fixed an issue where keyboard shortcuts would not be recognized by websites after using Find in Page or a <select> element.\r\n- Fixed an issue where the image preview and its actions would not work on certain images, such as those requiring authentication or in the WebP format.\r\n- Fixed an issue where tapping the status bar to scroll to the top would not scroll completely to the top of the webpage when using the top address bar.\r\n- Fixed an issue where touches on some webpages would land in the wrong place.\r\n- Added small performance improvements and fixed several UI issues.\r\n\r\n### Engine\r\n\r\nUpdated Gecko to [158.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_RELEASE) (released Oct 13, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.18.0/Reynard.ipa",
+          "size": 109731773
+        },
+        {
           "version": "0.17.1",
           "buildVersion": "c4b79f7",
           "date": "2026-10-12T06:12:24Z",
