@@ -38,6 +38,14 @@
       },
       "versions": [
         {
+          "version": "0.19.0",
+          "buildVersion": "24a99b7",
+          "date": "2026-10-25T12:56:01Z",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.18.0...0.19.0\r\n\r\n### New Features\r\n- Added support for game controllers.\r\n- You can now import and export your bookmarks, history, and add-ons:\r\n  - Bookmarks can be imported from and exported to other browsers as an HTML file.\r\n  - History can be imported from Safari or Google Takeout (Chrome), and exported in Safari's format.\r\n  - Add-ons can be imported from and exported to another Reynard install.\r\n\r\n### Bug Fixes & Improvements\r\n- Webpages that fail to load now show an error page explaining what went wrong, with options to try again or go back.\r\n- You can now right-click a Favorite site on the homepage using a pointer device to reveal its context menu.\r\n- Fixed an issue where pull to refresh would occasionally get stuck, with the refresh spinner appearing indefinitely.\r\n- Fixed numerous UI issues.\r\n\r\n### Engine\r\n\r\nUpdated Gecko to [158.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_158_0_1_RELEASE) (released Oct 20, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.19.0/Reynard.ipa",
+          "size": 111139976
+        },
+        {
           "version": "0.18.0",
           "buildVersion": "860bb6f",
           "date": "2026-10-18T01:21:55Z",
