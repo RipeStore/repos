@@ -2108,9 +2108,202 @@
           "NSLocalNetworkUsageDescription": "SceneBox connects directly to peers over your local network and the internet to stream and download."
         }
       }
+    },
+    {
+      "name": "BuildBox",
+      "bundleIdentifier": "com.mikevillarroel.buildbox",
+      "developerName": "MikeBuilds",
+      "subtitle": "Compile, sign and install iOS apps from your iPhone",
+      "localizedDescription": "Compile Swift apps straight from your iPhone (GitHub Actions backend), then sign them on-device with your own certificate and install - the full cycle in one app. It can also import any IPA just to sign it, and inject .deb/.zip tweak packages before signing. Ships as an unsigned IPA. Free with a donate button.",
+      "iconURL": "https://mikevillarroel.github.io/mikebuilds-source/icons/buildbox.png",
+      "tintColor": "2f7cf6",
+      "category": "utilities",
+      "beta": false,
+      "screenshotURLs": [],
+      "version": "2.1.0",
+      "versionDate": "2026-11-02",
+      "versionDescription": "Catalog-first redesign (Catalog home tab, Sources as a sheet, restyled Signed tab), signing fixed (release apps open again, catalog signing no longer closes the app), Catalog refresh, Clear All logs, matching page titles; requires iOS 18+.",
+      "size": 17956353,
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BuildBox.v2.1.0.ipa",
+      "versions": [
+        {
+          "version": "2.1.0",
+          "date": "2026-11-02",
+          "localizedDescription": "Catalog-first redesign (Catalog home tab, Sources as a sheet, restyled Signed tab), signing fixed (release apps open again, catalog signing no longer closes the app), Catalog refresh, Clear All logs, matching page titles; requires iOS 18+.",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/BuildBox.v2.1.0.ipa",
+          "size": 17956353,
+          "sha256": "3c33a63f15589add88f7fd8d965192f37ef20005b7a3e959a2a7a5e65b746df8",
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "privacy": {}
+      }
+    },
+    {
+      "name": "TendieMaker",
+      "bundleIdentifier": "com.mikevillarroel.tendiemaker",
+      "developerName": "MikeBuilds",
+      "subtitle": "Make .tendie live wallpapers from your own videos",
+      "localizedDescription": "Turn your videos into .tendie live wallpapers right on your iPhone. Includes a built-in gallery of community tendies. Ships as an unsigned IPA - sign it with BuildBox, ESign, SideStore or AltStore. Free with a donate button.",
+      "iconURL": "https://mikevillarroel.github.io/mikebuilds-source/icons/tendiemaker.png",
+      "tintColor": "fdac03",
+      "category": "photo-video",
+      "beta": false,
+      "screenshotURLs": [],
+      "version": "1.0.9",
+      "versionDate": "2026-11-02",
+      "versionDescription": "App icon fix.",
+      "size": 3697748,
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TendieMaker.v1.0.9.ipa",
+      "versions": [
+        {
+          "version": "1.0.9",
+          "date": "2026-11-02",
+          "localizedDescription": "App icon fix.",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/TendieMaker.v1.0.9.ipa",
+          "size": 3697748,
+          "sha256": "41ad5467138ac79cfe05400396f8258743f9434813e1409d3ea41361ab43ab8b",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Layers",
+      "bundleIdentifier": "com.mikevillarroel.layers",
+      "developerName": "MikeBuilds",
+      "subtitle": "Icon borders, dock tint and depth shadows in your wallpaper",
+      "localizedDescription": "Bakes icon borders, dock tint and depth shadows into your wallpaper at the exact icon-grid positions - home screen customization, no jailbreak. Ships as an unsigned IPA - sign it with BuildBox, ESign, SideStore or AltStore. Free with a donate button.",
+      "iconURL": "https://mikevillarroel.github.io/mikebuilds-source/icons/layers.png",
+      "tintColor": "7d5cff",
+      "category": "utilities",
+      "beta": false,
+      "screenshotURLs": [],
+      "version": "1.0.5",
+      "versionDate": "2026-11-02",
+      "versionDescription": "Effect presets (Soft/Medium/Strong pills for Depth shadow and 3D border); tighter 3D frame and smaller shadows.",
+      "size": 889664,
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Layers.v1.0.5.ipa",
+      "versions": [
+        {
+          "version": "1.0.5",
+          "date": "2026-11-02",
+          "localizedDescription": "Effect presets (Soft/Medium/Strong pills for Depth shadow and 3D border); tighter 3D frame and smaller shadows.",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Layers.v1.0.5.ipa",
+          "size": 889664,
+          "sha256": "d687a0e7d5aad0947a719427cdea3d45ebda938fe3d59918a68bd8359e4d49ad",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Layers saves your finished wallpaper to Photos so you can set it as your Home Screen wallpaper."
+        }
+      }
+    },
+    {
+      "name": "CapCut++",
+      "bundleIdentifier": "com.lemon.lvoverseas",
+      "developerName": "BYTEDANCE PTE. LTD.",
+      "subtitle": "Video editor",
+      "localizedDescription": "CapCut offers easy-to-use video editing functions, in-APP fonts and effects, advanced features such as keyframe animation, smooth slow-motion, chroma key, and stabilization, to help you capture and snip moments.\n\nCreate fancy videos with other unique features: auto captions, text-to-speech, motion tracking, and background removal. Show your personality and go viral on TikTok, YouTube, Instagram, WhatsApp, and Facebook!\n\nFEATURES\nBasic video editing\n• Trim and shorten clips and split or merge videos.\n• Adjust video speed from 0.1x to 100x, and apply speed curves to clips.\n• Animate video clips with incredible zoom in/out effects.\n• Highlight the best moments with the freeze feature.\n• Explore transition options with awesome effects on and between clips.\n\nAdvanced video editor\n• Keyframe video animation is available for all settings.\n• Edit videos to create smooth slow-motion with the optical flow feature and speed curve tool.\n• Use the chroma key to remove specific colors from videos.\n• Easy to arrange and preview clips on multi-track timeline.\n• The stabilizing feature keeps video footage steady.\n\nIntelligent features\n• Auto captions: automate speech recognition and subtitles in videos.\n• Text-to-speech: apply text-to-speech in multiple languages and voices.\n• Background removal: automatically remove backgrounds.\n\nText & Stickers\n• Add text to videos with different fonts and styles, choose unique text templates. Fonts can be imported locally.\n• Subtitles can be added to the timeline of video tracks and can be moved and adjusted in one step.\n\nTrending Effects & Filters\n• Match video content with diverse filters that are updated weekly with the latest trends.\n• Edit videos with hundreds of trending effects, including Glitch, Blur, 3D, etc.\n• Add movie-style video filters or adjust video brightness, contrast, etc.\n\nMusic & Sound Effects\n• Add millions of music clips and sound effects to videos.\n• Extract audio, clips, and recordings from videos.\n\nEasy to Share\n• Custom video export resolution, HD video editor supports 4K 60fps exports and smart HDR.\n• Adjust the format and share with your friends on social media platforms.\n\nCapCut is an all-in-one video editor and video maker application with everything you need to create stunning, high-quality videos. Beginners can get started with CapCut in a matter of seconds, while advanced users can enjoy all the functions they need to edit videos.\n\nTerms of Service —\nhttps://www.capcut.com/clause/terms-of-service\n\nPrivacy Policy —\nhttps://www.capcut.net/clause/privacy\n\nContact Us\nAny questions about CapCut? Please contact us at capcut.support@bytedance.com.\nFacebook: https://www.facebook.com/capcutapp\nInstagram: https://www.instagram.com/capcutapp\nYouTube: https://www.youtube.com/capcutofficial\nTikTok: https://www.tiktok.com/@capcut",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/d8/5b/31d85b5d-7785-5789-df84-1b052afd2e43/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "tintColor": "d81a14",
+      "category": "Entertainment",
+      "beta": false,
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/97/6a/0f976a15-bf3c-2b50-1580-522a28d14eab/1.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/7c/30/d47c303c-f52e-0938-006a-c3ed22c8075c/2.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bb/4a/86/bb4a8623-5e02-8e9e-eb72-35a849e56b57/3.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/d5/4b/90d54b90-e0a3-72e4-7e04-f60f498f204e/4.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/8e/33/bc8e3385-04d1-cc3d-a4f7-ff2ab0f91768/5.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9e/ba/e1/9ebae15f-f165-5f5c-2305-d1464366778a/6.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/a4/ac/25a4acc0-61f9-d3f4-a69a-32d46ffa4a00/7.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/53/eb/7153ebb3-0e4b-3af5-8544-ecf22a9775a0/8.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/48/cc/d748ccca-13ac-375d-b07d-71a64d9d31aa/9.png/392x696bb.png"
+      ],
+      "version": "12.6.0",
+      "versionDate": "2026-11-02",
+      "versionDescription": "Added CapCut v12.6.0",
+      "size": 146689221,
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/CapCut.v12.6.0.ipa",
+      "versions": [
+        {
+          "version": "12.6.0",
+          "date": "2026-11-02",
+          "localizedDescription": "Added CapCut v12.6.0",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/CapCut.v12.6.0.ipa",
+          "size": 146689221,
+          "sha256": "e0c176b049c0a7e8f7b619de6481aaaf892993d59e701de0393e26b26e5a5fe3",
+          "minOSVersion": "10.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.networking.networkextension",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.team-identifier",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "CapCut requires permission to import and add music from Apple's media library to video editing project files.",
+          "NSCameraUsageDescription": "CapCut requires permission to use the camera to capture photos and videos for video editing, saving, publishing.",
+          "NSMicrophoneUsageDescription": "CapCut requires permission to access your microphone to record sounds for video editing, saving, publishing.",
+          "NSPhotoLibraryUsageDescription": "CapCut requires access to the album to import photos and videos to video editing project files and save videos to the device.",
+          "NSUserTrackingUsageDescription": "CapCut requires access to UserTracking to identify the device for managing data statistics, analyzing service effects, ensuring service security and improving user experience.Please rest assured that opening the permission will not obtain your private information on other sites."
+        }
+      }
     }
   ],
   "news": [
+    {
+      "title": "CapCut++ Added!",
+      "identifier": "capcut-added",
+      "caption": "CapCut++ has been added to the source! Click here for more info",
+      "date": "2026-11-02",
+      "tintColor": "d81a14",
+      "notify": false,
+      "appID": "com.lemon.lvoverseas",
+      "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/d8/5b/31d85b5d-7785-5789-df84-1b052afd2e43/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "title": "Layers Added!",
+      "identifier": "layers-added",
+      "caption": "Layers has been added to the source! Click here for more info",
+      "date": "2026-11-02",
+      "tintColor": "7d5cff",
+      "notify": false,
+      "appID": "com.mikevillarroel.layers",
+      "imageURL": "https://mikevillarroel.github.io/mikebuilds-source/icons/layers.png"
+    },
+    {
+      "title": "TendieMaker Added!",
+      "identifier": "tendiemaker-added",
+      "caption": "TendieMaker has been added to the source! Click here for more info",
+      "date": "2026-11-02",
+      "tintColor": "fdac03",
+      "notify": false,
+      "appID": "com.mikevillarroel.tendiemaker",
+      "imageURL": "https://mikevillarroel.github.io/mikebuilds-source/icons/tendiemaker.png"
+    },
+    {
+      "title": "BuildBox Added!",
+      "identifier": "buildbox-added",
+      "caption": "BuildBox has been added to the source! Click here for more info",
+      "date": "2026-11-02",
+      "tintColor": "2f7cf6",
+      "notify": false,
+      "appID": "com.mikevillarroel.buildbox",
+      "imageURL": "https://mikevillarroel.github.io/mikebuilds-source/icons/buildbox.png"
+    },
     {
       "title": "X++ Updated!",
       "identifier": "update-com.atebits.Tweetie2",
@@ -2434,6 +2627,6 @@
     "com.duolingo.DuolingoMobile"
   ],
   "iconURL": "https://external-content.duckduckgo.com/iu/?u=https://external-content.duckduckgo.com/iu/?u=https://i.imgur.com/g17kMl9.png",
-  "subtitle": "The Most Up-To-Date IPA Library on AltStore.",
+  "subtitle": "The Most Up-To-Date IPA Library.",
   "website": "https://bit.ly/wuxus-sources"
 }
