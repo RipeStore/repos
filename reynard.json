@@ -38,6 +38,14 @@
       },
       "versions": [
         {
+          "version": "0.20.0",
+          "buildVersion": "e81351f",
+          "date": "2026-11-02T09:00:02Z",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.19.0...0.20.0\r\n\r\n### Engine\r\n\r\nUpdated Gecko to [159.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_159_0_RELEASE) (released Oct 27, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.20.0/Reynard.ipa",
+          "size": 111452819
+        },
+        {
           "version": "0.19.0",
           "buildVersion": "24a99b7",
           "date": "2026-10-25T12:56:01Z",
