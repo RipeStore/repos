@@ -106,12 +106,12 @@
       "versions": [
         {
           "version": "3.4.0",
-          "buildVersion": "10999",
-          "marketingVersion": "3.4.0-alpha.20261102.b165e63",
-          "date": "2026-11-02",
-          "localizedDescription": "Alpha build b165e63 · 2026-11-02\n\nChanges in this build:\n• fix: library header clearance and floating controls (#3786)\n\nInstalls alongside the stable app. Built automatically from develop — expect rough edges.",
+          "buildVersion": "11037",
+          "marketingVersion": "3.4.0-alpha.20261103.5111a15",
+          "date": "2026-11-03",
+          "localizedDescription": "Alpha build 5111a15 · 2026-11-03\n\nChanges in this build:\n• fix: preserve free save access and reconcile shared Plus ownership (#3787)\n• chore(skins): pin SkinKit to 0.2.0\n• chore(skins): pin SkinKit to 0.2.0\n• chore(skins): pin SkinKit to 0.2.0\n• [Agent] fix(skins): match gameOverrides by md5, crc, filename, then title\n• chore(skins): bump the SkinKit pin to the variant-families review fixes\n• chore(skins): point resolved SkinKit pins at the variant-families revision\n• feat(skins): variant families in the store and picker\n• fix: address review — keep unrelated UITesting pins\n• build: adopt SkinKit 0.1.1\n• feat(debug): screenshot-mode chrome, NES input pulse, safer boot\n• fix(importer): bound artwork lookup and mirror off the import path\n• fix(webserver): keep first-chunk body bytes in streaming uploads\n• test(emulator): cover which quick actions desktop mode shows\n• docs(atari800): update responder-conformance note after OSD removal\n• refactor(controls): delete the classic on-screen controller\n• refactor(emulator): stop installing the classic on-screen controller\n• Pin SkinKit core/alt-representations at 278115e\n• fix: address Copilot review — alt layout screen identity and external display\n• feat(skins): Ignited altRepresentations toggle with dual-screen relayout\n• fix: address review — keep unrelated UITesting pins\n• [Agent] fix(skins): match gameOverrides by md5, crc, filename, then title\n• build: adopt SkinKit 0.1.1\n\nInstalls alongside the stable app. Built automatically from develop — expect rough edges.",
           "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/alpha/Provenance-iOS-NoExtensions.ipa",
-          "size": 780995217,
+          "size": 780937183,
           "minOSVersion": "17.0"
         }
       ],
@@ -157,6 +157,72 @@
         "https://ifly-emu.com/screenshots/iphone/import.jpg"
       ],
       "versions": [
+        {
+          "version": "1.0.0+1793663689",
+          "buildVersion": "1793663689",
+          "date": "2026-11-03",
+          "localizedDescription": "iFly 1.0.0 (build 1793663689) for iOS",
+          "downloadURL": "https://github.com/JoeMatt/iFly-releases/releases/download/v1.0.0%2B1793663689/iFly-1.0.0-1793663689.ipa",
+          "size": 133145293,
+          "minOSVersion": "17.0",
+          "platform": "iOS",
+          "isBeta": true
+        },
+        {
+          "version": "1.0.0+1793661737",
+          "buildVersion": "1793661737",
+          "date": "2026-11-02",
+          "localizedDescription": "iFly 1.0.0 (build 1793661737) for iOS",
+          "downloadURL": "https://github.com/JoeMatt/iFly-releases/releases/download/v1.0.0%2B1793661737/iFly-1.0.0-1793661737.ipa",
+          "size": 133145279,
+          "minOSVersion": "17.0",
+          "platform": "iOS",
+          "isBeta": true
+        },
+        {
+          "version": "1.0.0+1793661024",
+          "buildVersion": "1793661024",
+          "date": "2026-11-02",
+          "localizedDescription": "iFly 1.0.0 (build 1793661024) for iOS",
+          "downloadURL": "https://github.com/JoeMatt/iFly-releases/releases/download/v1.0.0%2B1793661024/iFly-1.0.0-1793661024.ipa",
+          "size": 133145306,
+          "minOSVersion": "17.0",
+          "platform": "iOS",
+          "isBeta": true
+        },
+        {
+          "version": "1.0.0+1793659803",
+          "buildVersion": "1793659803",
+          "date": "2026-11-02",
+          "localizedDescription": "iFly 1.0.0 (build 1793659803) for iOS",
+          "downloadURL": "https://github.com/JoeMatt/iFly-releases/releases/download/v1.0.0%2B1793659803/iFly-1.0.0-1793659803.ipa",
+          "size": 133145302,
+          "minOSVersion": "17.0",
+          "platform": "iOS",
+          "isBeta": true
+        },
+        {
+          "version": "1.0.0+1793658447",
+          "buildVersion": "1793658447",
+          "date": "2026-11-02",
+          "localizedDescription": "iFly 1.0.0 (build 1793658447) for iOS",
+          "downloadURL": "https://github.com/JoeMatt/iFly-releases/releases/download/v1.0.0%2B1793658447/iFly-1.0.0-1793658447.ipa",
+          "size": 133143905,
+          "minOSVersion": "17.0",
+          "platform": "iOS",
+          "isBeta": true
+        },
+        {
+          "version": "1.0.0+1793657811",
+          "buildVersion": "1793657811",
+          "date": "2026-11-02",
+          "localizedDescription": "iFly 1.0.0 (build 1793657811) for iOS",
+          "downloadURL": "https://github.com/JoeMatt/iFly-releases/releases/download/v1.0.0%2B1793657811/iFly-1.0.0-1793657811.ipa",
+          "size": 133143897,
+          "minOSVersion": "17.0",
+          "platform": "iOS",
+          "isBeta": true
+        },
         {
           "version": "1.0.0+1793600633",
           "buildVersion": "1793600633",
@@ -357,11 +423,11 @@
       "versions": [
         {
           "version": "1.0.0",
-          "buildVersion": "421",
-          "date": "2026-11-02T21:28:43.786Z",
+          "buildVersion": "436",
+          "date": "2026-11-03T05:39:11.183Z",
           "localizedDescription": "Rolling CI alpha from GitHub Releases. Unsigned; replaced on every successful default-branch or develop build.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-421/Non-Jailbroken.ipa",
-          "size": 98943996,
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-436/Non-Jailbroken.ipa",
+          "size": 104516725,
           "minOSVersion": "17.0",
           "platform": "iOS",
           "isBeta": true
@@ -369,7 +435,7 @@
         {
           "version": "1.0.0-beta9-ios",
           "buildVersion": "1.0.0-beta9-ios",
-          "date": "2026-11-02",
+          "date": "2026-11-03",
           "localizedDescription": "iCube 1.0.0-beta9-ios Beta 9 for iOS",
           "downloadURL": "https://icube-emu.com/builds-versioned/1.0.0/iOS-Beta9/iCube.ipa",
           "size": 82799373,
@@ -381,7 +447,7 @@
         {
           "version": "1.0.0-beta8-ios",
           "buildVersion": "1.0.0-beta8-ios",
-          "date": "2026-11-02",
+          "date": "2026-11-03",
           "localizedDescription": "iCube 1.0.0-beta8-ios Beta 8 for iOS",
           "downloadURL": "https://icube-emu.com/builds-versioned/1.0.0/iOS-Beta8/iCube.ipa",
           "size": 82893911,
@@ -393,7 +459,7 @@
         {
           "version": "1.0.0-beta7-ios",
           "buildVersion": "1.0.0-beta7-ios",
-          "date": "2026-11-02",
+          "date": "2026-11-03",
           "localizedDescription": "iCube 1.0.0-beta7-ios Beta 7 for iOS",
           "downloadURL": "https://icube-emu.com/builds-versioned/1.0.0/iOS-Beta7/iCube.ipa",
           "size": 82893502,
