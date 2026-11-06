@@ -38,6 +38,14 @@
       },
       "versions": [
         {
+          "version": "0.20.1",
+          "buildVersion": "219bc31",
+          "date": "2026-11-05T12:23:29Z",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.20.0...0.20.1\r\n\r\nThis is a minor release that fixes issues found in 0.20.0. For the complete list of changes, see the [0.20.0 release notes](https://github.com/minh-ton/reynard-browser/releases/tag/0.20.0).\r\n\r\n### Bug Fixes\r\n- Fixed an issue where signing in to most websites would fail.",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.20.1/Reynard.ipa",
+          "size": 111460493
+        },
+        {
           "version": "0.20.0",
           "buildVersion": "e81351f",
           "date": "2026-11-02T09:00:02Z",
