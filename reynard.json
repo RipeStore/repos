@@ -33,10 +33,19 @@
           "NSMicrophoneUsageDescription": "Microphone access lets websites in this browser capture your voice for calls and audio recordings.",
           "NSPhotoLibraryAddUsageDescription": "Photo library access lets this browser save images and other media you download from websites to Photos.",
           "NSPhotoLibraryUsageDescription": "Photo library access lets this browser upload photos and videos from your library and save images and other media you download from websites to Photos.",
-          "NSLocationWhenInUseUsageDescription": "Location access lets websites in this browser provide location-based content such as maps, directions, and nearby places."
+          "NSLocationWhenInUseUsageDescription": "Location access lets websites in this browser provide location-based content such as maps, directions, and nearby places.",
+          "NSBluetoothAlwaysUsageDescription": "Bluetooth access lets websites in this browser connect to nearby Bluetooth devices."
         }
       },
       "versions": [
+        {
+          "version": "0.21.0",
+          "buildVersion": "85a507c",
+          "date": "2026-11-10T11:09:08Z",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.20.1...0.21.0\r\n\r\n### New Features\r\n\r\n- Added preliminary support for Web MIDI, allowing websites to use your MIDI devices.\r\n- Webpages can now ask you to confirm before leaving, so you don't lose unsaved changes.\r\n- You can now long-press or right-click entries in the Bookmarks and History pages to copy, open in a new tab, edit, or delete them.\r\n\r\n### Engine\r\n\r\nUpdated Gecko to [159.0.1](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_159_0_1_RELEASE) (released Nov 3, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.21.0/Reynard.ipa",
+          "size": 111496704
+        },
         {
           "version": "0.20.1",
           "buildVersion": "219bc31",
