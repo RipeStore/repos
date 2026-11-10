@@ -875,15 +875,23 @@
     },
     {
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "size": 278110517,
+      "size": 278327800,
       "category": "Social",
       "beta": false,
-      "versionDescription": "• X updated to v12.42\n• NFB updated to v7.3.1",
+      "versionDescription": "• X updated to v12.42.1",
       "developerName": "Densor",
       "localizedDescription": "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
       "subtitle": "An new tweak for X!",
       "bundleIdentifier": "com.atebits.Tweetie2",
       "versions": [
+        {
+          "version": "12.42.1",
+          "date": "2026-11-09",
+          "localizedDescription": "• X updated to v12.42.1",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.42.1.+.NFB.v7.3.1.ipa",
+          "size": 278327800,
+          "sha256": "31db2fd2be302c338feb511dee374d0388539c5eedf6ce5f64240a59e7418e9d"
+        },
         {
           "version": "12.42",
           "date": "2026-11-09",
@@ -1001,9 +1009,9 @@
           "size": 93000000
         }
       ],
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.42.+.NFB.v7.3.1.ipa",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.42.1.+.NFB.v7.3.1.ipa",
       "tintColor": "030303",
-      "version": "12.42",
+      "version": "12.42.1",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/82/3c/21823c75-d122-f771-fba1-2521b3f3237e/1242x2688-1.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/a8/8e/65a88e08-0c52-8675-0b0e-c7ef2dad4325/1242x2688-2.jpg/320x480bb.jpg",
@@ -2420,12 +2428,20 @@
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/90/f0/3e90f04b-3370-8693-9da7-389727269bd1/39c1679e-1446-4ba0-b49d-95337ee04d49_Reddit_SS_5.5_4.jpg/392x696bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cd/ef/32/cdef3232-e4b6-64ef-0c86-68edc197000b/d4453d1f-b547-44e2-b761-1316d216b3b0_Reddit_SS_5.5_5.jpg/392x696bb.jpg"
       ],
-      "version": "2026.44.1",
-      "versionDate": "2026-11-06",
-      "versionDescription": "• Reddit updated to v2026.44.1",
-      "size": 146915526,
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.44.1.+.RedditFilter.fixed.ipa",
+      "version": "2026.45.0",
+      "versionDate": "2026-11-09",
+      "versionDescription": "• Reddit updated to v2026.45.0",
+      "size": 141506307,
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.45.0.+.RedditFilter.ipa",
       "versions": [
+        {
+          "version": "2026.45.0",
+          "date": "2026-11-09",
+          "localizedDescription": "• Reddit updated to v2026.45.0",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Reddit.v2026.45.0.+.RedditFilter.ipa",
+          "size": 141506307,
+          "sha256": "4dc4ba7f44949f28385026507a29cce6e31e2c9da366a56874089fff6fb3fec7"
+        },
         {
           "version": "2026.44.1",
           "date": "2026-11-06",
@@ -2472,6 +2488,26 @@
   ],
   "news": [
     {
+      "title": "Reddit++ Updated!",
+      "identifier": "update-com.reddit.Reddit",
+      "caption": "Reddit updated to v2026.45.0",
+      "date": "2026-11-10",
+      "tintColor": "a24320",
+      "notify": false,
+      "appID": "com.reddit.Reddit",
+      "imageURL": "https://www.investopedia.com/thmb/q2-oTV_wD-ynvqaI2OYvE-y4QB4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1048288996-865a5458473b4ede9773207d39ad29d0.jpg"
+    },
+    {
+      "title": "X++ Updated!",
+      "identifier": "update-com.atebits.Tweetie2",
+      "caption": "X updated to v12.42.1",
+      "date": "2026-11-09",
+      "tintColor": "030303",
+      "notify": true,
+      "appID": "com.atebits.Tweetie2",
+      "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"
+    },
+    {
       "title": "SoundCloud++ Updated!",
       "identifier": "update-com.soundcloud.TouchApp",
       "caption": "SoundCloud updated to v8.86.0",
@@ -2492,16 +2528,6 @@
       "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
     },
     {
-      "title": "X++ Updated!",
-      "identifier": "update-com.atebits.Tweetie2",
-      "caption": "X updated to v12.42",
-      "date": "2026-11-09",
-      "tintColor": "030303",
-      "notify": true,
-      "appID": "com.atebits.Tweetie2",
-      "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"
-    },
-    {
       "title": "BuildBox Updated!",
       "identifier": "update-com.mikevillarroel.buildbox",
       "caption": "BuildBox updated to v2.1.7",
@@ -2510,16 +2536,6 @@
       "notify": false,
       "appID": "com.mikevillarroel.buildbox",
       "imageURL": "https://mikevillarroel.github.io/mikebuilds-source/icons/buildbox.png"
-    },
-    {
-      "title": "Reddit++ Updated!",
-      "identifier": "update-com.reddit.Reddit",
-      "caption": "Reddit updated to v2026.44.1",
-      "date": "2026-11-06",
-      "tintColor": "a24320",
-      "notify": false,
-      "appID": "com.reddit.Reddit",
-      "imageURL": "https://www.investopedia.com/thmb/q2-oTV_wD-ynvqaI2OYvE-y4QB4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1048288996-865a5458473b4ede9773207d39ad29d0.jpg"
     },
     {
       "title": "Facebook++ Updated!",
