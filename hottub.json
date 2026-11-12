@@ -29,6 +29,40 @@
       "tintColor": "#A700FF",
       "versions": [
         {
+          "version": "2.4.0",
+          "buildVersion": "60",
+          "date": "2026-11-11T19:18:31.000Z",
+          "size": 101922650,
+          "downloadURL": "https://cdn.hottubapp.io/releases/Hot%20Tub-2.4.0(60).ipa",
+          "localizedDescription": "Preliminary support for iPhone Duo\nIntroducing the Library hub, with quick access to downloads, Moments, and Clips\nSave videos for offline viewing and keep replay highlights in your library\nOrganize your library with tags, playlists, and new collection tools\nView Live Photos in your Vault\nFind performers more easily with a dedicated people search rail\nCreate and share stickers in Messages, edit images, and cover sensitive areas before sharing\nExplore the refreshed VIP home, profile, and lounge\nTry Heat Sense and new smart features\nClear cached media from the new cache management screen\n\nEnhancements:\n\nFind content more easily with improved search, filters, and recommendations\nEnjoy smoother video playback, with easier scrubbing, more reliable previews, and better resume behavior\nBrowse with improved in-app previews, tab controls, and navigation\nGet clearer membership options, a redesigned account hub, Pro trials, and one-time unlocks\nRestore purchases and check linked account status more reliably\nEnjoy more responsive taps and haptics across buttons, cards, and filters\nOpen the right upgrade page for your app installation\n\nBug fixes:\n\nFix thumbnails and previews that could stay stuck loading\nKeep playback controls and progress steady while videos buffer or you scrub\nResume playback more reliably after navigating back\nFix video zoom and layout issues when rotating or changing display modes\nRecognize purchases that are already owned and refresh membership correctly",
+          "minOSVersion": "15.0",
+          "hash": {
+            "md5": "f39e27431101e589a3d0db761a0901cc",
+            "sha256": "f7ac387174651497f84d689a077ab4a572a1ff464f842c7466ffeab9d1a55134"
+          },
+          "metadata": {
+            "appPermissions": {
+              "privacy": {
+                "NSCameraUsageDescription": "This app needs access to your camera to capture photos and videos for your vault.",
+                "NSFaceIDUsageDescription": "FaceID is used to prevent unauthorized access to the app.",
+                "NSMotionUsageDescription": "This app uses motion sensors to enhance visual effects and detect shake gestures for the debug menu.",
+                "NSMicrophoneUsageDescription": "This app needs access to your microphone to record audio with videos for your vault.",
+                "NSLocalNetworkUsageDescription": "Hot Tub uses your local network to find Hot Tub Relay and Hot Tub Diagnostics on your computer.",
+                "NSPhotoLibraryUsageDescription": "Hot Tub needs access to your photo library to scan for sensitive content. Scanning is done only on your device; nothing is uploaded.",
+                "NSPhotoLibraryAddUsageDescription": "Hot Tub saves media you choose to your photo library."
+              },
+              "entitlements": [
+                "com.apple.developer.applesignin",
+                "com.apple.developer.associated-domains",
+                "com.apple.developer.kernel.extended-virtual-addressing",
+                "com.apple.developer.kernel.increased-memory-limit",
+                "com.apple.security.application-groups",
+                "get-task-allow"
+              ]
+            }
+          }
+        },
+        {
           "version": "2.3.7",
           "buildVersion": "59",
           "date": "2026-08-18T23:38:40.000Z",
@@ -238,7 +272,9 @@
           "NSFaceIDUsageDescription": "FaceID is used to prevent unauthorized access to the app.",
           "NSMicrophoneUsageDescription": "This app needs access to your microphone to record audio with videos for your vault.",
           "NSMotionUsageDescription": "This app uses motion sensors to enhance visual effects and detect shake gestures for the debug menu.",
-          "NSPhotoLibraryUsageDescription": "Hot Tub needs access to your photo library to scan for sensitive content. Scanning is done only on your device; nothing is uploaded."
+          "NSPhotoLibraryUsageDescription": "Hot Tub needs access to your photo library to scan for sensitive content. Scanning is done only on your device; nothing is uploaded.",
+          "NSLocalNetworkUsageDescription": "Hot Tub uses your local network to find Hot Tub Relay and Hot Tub Diagnostics on your computer.",
+          "NSPhotoLibraryAddUsageDescription": "Hot Tub saves media you choose to your photo library."
         }
       }
     }
