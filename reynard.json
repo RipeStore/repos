@@ -39,6 +39,14 @@
       },
       "versions": [
         {
+          "version": "0.22.0",
+          "buildVersion": "fde6cbf",
+          "date": "2026-11-17T07:43:19Z",
+          "localizedDescription": "## Changes\r\n\r\n**Full Changelog**: https://github.com/minh-ton/reynard-browser/compare/0.21.0...0.22.0\r\n\r\n### New Features\r\n- Online PDF files now open in the mobile PDF viewer instead of the desktop version.\r\n- Links with custom URL schemes can now open in their corresponding apps on your device.\r\n\r\n### Bug Fixes & Improvements\r\n- WebGL content is now rendered using Apple’s Metal graphics API through ANGLE, which can improve performance on some sites.\r\n- Made minor performance improvements, particularly when the browser is in the background or the device is hot.\r\n- Fixed an issue where add-on update checks would always report that no updates were available.\r\n- Fixed an issue where typing Vietnamese in rich text editors or contenteditable elements could duplicate characters when entering accents or pressing Backspace.\r\n- Fixed an issue where the browser could not connect to any websites when DNS over HTTPS was enabled with Max Protection.\r\n\r\n### Engine\r\n\r\nUpdated Gecko to [160.0](https://github.com/mozilla-firefox/firefox/commit/FIREFOX_160_0_RELEASE) (released Nov 10, 2026).",
+          "downloadURL": "https://github.com/minh-ton/reynard-browser/releases/download/0.22.0/Reynard.ipa",
+          "size": 113650109
+        },
+        {
           "version": "0.21.0",
           "buildVersion": "85a507c",
           "date": "2026-11-10T11:09:08Z",
