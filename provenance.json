@@ -5,7 +5,7 @@
   "apps": [
     {
       "name": "Provenance",
-      "bundleIdentifier": "com.provenance-emu.provenance",
+      "bundleIdentifier": "org.provenance-emu.provenance",
       "developerName": "Provenance-EMU",
       "subtitle": "Multi-system retro emulator for iOS & tvOS",
       "localizedDescription": "Provenance supports 60+ retro gaming systems including NES, SNES, N64, Genesis, PlayStation, GBA, and many more. Features iCloud sync, controller skins, RetroAchievements, and a beautiful native UI.",
@@ -96,7 +96,7 @@
     },
     {
       "name": "Provenance Alpha",
-      "bundleIdentifier": "com.provenance-emu.provenance.alpha",
+      "bundleIdentifier": "org.provenance-emu.provenance.alpha",
       "developerName": "Provenance-EMU",
       "subtitle": "Latest dev builds - test new features early",
       "localizedDescription": "Alpha builds of Provenance from the develop branch. These builds include the latest features and fixes but may contain bugs. Install alongside the stable version to test new features without losing your stable install.\n\nSupports 60+ retro gaming systems including NES, SNES, N64, Genesis, PlayStation, GBA, and many more.",
@@ -106,12 +106,12 @@
       "versions": [
         {
           "version": "3.4.0",
-          "buildVersion": "11154",
-          "marketingVersion": "3.4.0-alpha.20261113.45eca85",
-          "date": "2026-11-13",
-          "localizedDescription": "Alpha build 45eca85 · 2026-11-13\n\nChanges in this build:\n• feat(input): route controller tilt to Dolphin Wii Remote\n\nInstalls alongside the stable app. Built automatically from develop — expect rough edges.",
+          "buildVersion": "11283",
+          "marketingVersion": "3.4.0-alpha.20261121.490bb7b",
+          "date": "2026-11-21",
+          "localizedDescription": "Alpha build 490bb7b · 2026-11-21\n\nChanges in this build:\n• fix(ci): sideload feed and fakesign use the ids the builds carry\n• revert: auto-translation strings that created partial localizations\n• [Auto-translation] Translate new/changed strings\n• fix(sync): register sync settings defaults on the main thread\n\nInstalls alongside the stable app. Built automatically from develop — expect rough edges.",
           "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/alpha/Provenance-iOS-NoExtensions.ipa",
-          "size": 783048569,
+          "size": 785237349,
           "minOSVersion": "17.0"
         }
       ],
@@ -149,14 +149,93 @@
       "tintColor": "#ff6900",
       "category": "games",
       "screenshots": [
+        "https://ifly-emu.com/screenshots/2026-11/iphone/play.jpg",
+        "https://ifly-emu.com/screenshots/2026-11/iphone/library.jpg",
+        "https://ifly-emu.com/screenshots/2026-11/iphone/themes.jpg",
         "https://ifly-emu.com/screenshots/iphone/library.jpg",
         "https://ifly-emu.com/screenshots/iphone/library-theme.jpg",
         "https://ifly-emu.com/screenshots/iphone/search.jpg",
         "https://ifly-emu.com/screenshots/iphone/settings-themes.jpg",
-        "https://ifly-emu.com/screenshots/iphone/cheats.jpg",
-        "https://ifly-emu.com/screenshots/iphone/import.jpg"
+        "https://ifly-emu.com/screenshots/iphone/cheats.jpg"
       ],
       "versions": [
+        {
+          "version": "1.0.0+1795170836",
+          "buildVersion": "1795170836",
+          "date": "2026-11-20",
+          "localizedDescription": "iFly 1.0.0 (build 1795170836) for iOS",
+          "downloadURL": "https://github.com/JoeMatt/iFly-releases/releases/download/v1.0.0%2B1795170836/iFly-1.0.0-1795170836.ipa",
+          "size": 137000688,
+          "minOSVersion": "17.0",
+          "platform": "iOS",
+          "isBeta": true
+        },
+        {
+          "version": "1.0.0+1795163016",
+          "buildVersion": "1795163016",
+          "date": "2026-11-20",
+          "localizedDescription": "iFly 1.0.0 (build 1795163016) for iOS",
+          "downloadURL": "https://github.com/JoeMatt/iFly-releases/releases/download/v1.0.0%2B1795163016/iFly-1.0.0-1795163016.ipa",
+          "size": 136974214,
+          "minOSVersion": "17.0",
+          "platform": "iOS",
+          "isBeta": true
+        },
+        {
+          "version": "1.0.0+1795158816",
+          "buildVersion": "1795158816",
+          "date": "2026-11-20",
+          "localizedDescription": "iFly 1.0.0 (build 1795158816) for iOS",
+          "downloadURL": "https://github.com/JoeMatt/iFly-releases/releases/download/v1.0.0%2B1795158816/iFly-1.0.0-1795158816.ipa",
+          "size": 136685811,
+          "minOSVersion": "17.0",
+          "platform": "iOS",
+          "isBeta": true
+        },
+        {
+          "version": "1.0.0+1795156932",
+          "buildVersion": "1795156932",
+          "date": "2026-11-20",
+          "localizedDescription": "iFly 1.0.0 (build 1795156932) for iOS",
+          "downloadURL": "https://github.com/JoeMatt/iFly-releases/releases/download/v1.0.0%2B1795156932/iFly-1.0.0-1795156932.ipa",
+          "size": 136593040,
+          "minOSVersion": "17.0",
+          "platform": "iOS",
+          "isBeta": true
+        },
+        {
+          "version": "1.0.0+1795156210",
+          "buildVersion": "1795156210",
+          "date": "2026-11-20",
+          "localizedDescription": "iFly 1.0.0 (build 1795156210) for iOS",
+          "downloadURL": "https://github.com/JoeMatt/iFly-releases/releases/download/v1.0.0%2B1795156210/iFly-1.0.0-1795156210.ipa",
+          "size": 136592814,
+          "minOSVersion": "17.0",
+          "platform": "iOS",
+          "isBeta": true
+        },
+        {
+          "version": "1.0.0+1795155398",
+          "buildVersion": "1795155398",
+          "date": "2026-11-20",
+          "localizedDescription": "iFly 1.0.0 (build 1795155398) for iOS",
+          "downloadURL": "https://github.com/JoeMatt/iFly-releases/releases/download/v1.0.0%2B1795155398/iFly-1.0.0-1795155398.ipa",
+          "size": 136592825,
+          "minOSVersion": "17.0",
+          "platform": "iOS",
+          "isBeta": true
+        },
+        {
+          "version": "1.0.0+1795154718",
+          "buildVersion": "1795154718",
+          "date": "2026-11-20",
+          "localizedDescription": "iFly 1.0.0 (build 1795154718) for iOS",
+          "downloadURL": "https://github.com/JoeMatt/iFly-releases/releases/download/v1.0.0%2B1795154718/iFly-1.0.0-1795154718.ipa",
+          "size": 136577963,
+          "minOSVersion": "17.0",
+          "platform": "iOS",
+          "isBeta": true
+        },
         {
           "version": "1.0.0+1794465576",
           "buildVersion": "1794465576",
@@ -884,23 +963,23 @@
       "tintColor": "#3B82F6",
       "category": "games",
       "screenshots": [
+        "https://icube-emu.com/screenshots/2026-11/iphone/play.jpg",
+        "https://icube-emu.com/screenshots/2026-11/iphone/library.jpg",
+        "https://icube-emu.com/screenshots/2026-11/iphone/trinitron.jpg",
         "https://icube-emu.com/screenshots/iphone/library-light.jpg",
         "https://icube-emu.com/screenshots/iphone/search.jpg",
         "https://icube-emu.com/screenshots/iphone/emulation.jpg",
         "https://icube-emu.com/screenshots/iphone/library-dark.jpg",
-        "https://icube-emu.com/screenshots/iphone/shaders.jpg",
-        "https://icube-emu.com/screenshots/iphone/settings-graphics.jpg",
-        "https://icube-emu.com/screenshots/iphone/settings-controllers.jpg",
-        "https://icube-emu.com/screenshots/iphone/emulation-shader.jpg"
+        "https://icube-emu.com/screenshots/iphone/shaders.jpg"
       ],
       "versions": [
         {
           "version": "1.0.0",
-          "buildVersion": "514",
-          "date": "2026-11-13T05:43:32.297Z",
+          "buildVersion": "545",
+          "date": "2026-11-20T10:02:09.180Z",
           "localizedDescription": "Rolling CI alpha from GitHub Releases. Unsigned; replaced on every successful default-branch or develop build.",
-          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-514/Non-Jailbroken.ipa",
-          "size": 123996636,
+          "downloadURL": "https://github.com/Provenance-Emu/iCube/releases/download/alpha-545/Non-Jailbroken.ipa",
+          "size": 124781056,
           "minOSVersion": "17.0",
           "platform": "iOS",
           "isBeta": true
@@ -908,7 +987,7 @@
         {
           "version": "1.0.0-beta9-ios",
           "buildVersion": "1.0.0-beta9-ios",
-          "date": "2026-11-13",
+          "date": "2026-11-20",
           "localizedDescription": "iCube 1.0.0-beta9-ios Beta 9 for iOS",
           "downloadURL": "https://icube-emu.com/builds-versioned/1.0.0/iOS-Beta9/iCube.ipa",
           "size": 82799373,
@@ -920,7 +999,7 @@
         {
           "version": "1.0.0-beta8-ios",
           "buildVersion": "1.0.0-beta8-ios",
-          "date": "2026-11-13",
+          "date": "2026-11-20",
           "localizedDescription": "iCube 1.0.0-beta8-ios Beta 8 for iOS",
           "downloadURL": "https://icube-emu.com/builds-versioned/1.0.0/iOS-Beta8/iCube.ipa",
           "size": 82893911,
@@ -932,7 +1011,7 @@
         {
           "version": "1.0.0-beta7-ios",
           "buildVersion": "1.0.0-beta7-ios",
-          "date": "2026-11-13",
+          "date": "2026-11-20",
           "localizedDescription": "iCube 1.0.0-beta7-ios Beta 7 for iOS",
           "downloadURL": "https://icube-emu.com/builds-versioned/1.0.0/iOS-Beta7/iCube.ipa",
           "size": 82893502,
@@ -952,7 +1031,7 @@
       "date": "2026-03-14T02:17:44Z",
       "tintColor": "8A2BE2",
       "url": "https://github.com/Provenance-Emu/Provenance/releases/tag/3.3.0",
-      "appID": "com.provenance-emu.provenance",
+      "appID": "org.provenance-emu.provenance",
       "notify": false
     },
     {
@@ -962,7 +1041,7 @@
       "date": "2025-11-23T18:54:37Z",
       "tintColor": "8A2BE2",
       "url": "https://github.com/Provenance-Emu/Provenance/releases/tag/3.2.1",
-      "appID": "com.provenance-emu.provenance",
+      "appID": "org.provenance-emu.provenance",
       "notify": false
     },
     {
@@ -972,7 +1051,7 @@
       "date": "2025-11-20T20:56:43Z",
       "tintColor": "8A2BE2",
       "url": "https://github.com/Provenance-Emu/Provenance/releases/tag/3.2.0",
-      "appID": "com.provenance-emu.provenance",
+      "appID": "org.provenance-emu.provenance",
       "notify": false
     }
   ]
