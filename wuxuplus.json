@@ -875,15 +875,23 @@
     },
     {
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/46/c4/bf46c48e-94bb-c30d-601f-d73ed5a70689/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg",
-      "size": 317414110,
+      "size": 322425556,
       "category": "Social",
       "beta": false,
-      "versionDescription": "• X updated to v12.45.1",
+      "versionDescription": "• X updated to v12.46",
       "developerName": "Densor",
       "localizedDescription": "Features:\n\n• Download Videos (even if account private).\n• Replay later feature.\n• Video zoom feature.\n• No history feature.\n• Hide topics tweet feature.\n• Disable video layer caption.\n• Padlock.\n• Font changer.\n• Auto load photos in highest quality feature\n• Undo tweet feature.\n• Reader mode feature.\n• Disable new tweet style (A.K.A edge to edge tweet)\n• Enable voice tweet and voice message in DM.\n• Hide promoted tweet from the timeline.\n• Confirm alert when hit the tweet button.\n• Confirm alert when hit like button.\n• FLEX for debugging.\n\n• And more!",
       "subtitle": "An new tweak for X!",
       "bundleIdentifier": "com.atebits.Tweetie2",
       "versions": [
+        {
+          "version": "12.46",
+          "date": "2026-11-23",
+          "localizedDescription": "• X updated to v12.46",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.46.+.NFB.v7.3.1.ipa",
+          "size": 322425556,
+          "sha256": "87e08be939111857657099c5f7c6097dfefe104b1f59a83dcf17c2c9841d1af2"
+        },
         {
           "version": "12.45.1",
           "date": "2026-11-19",
@@ -1033,9 +1041,9 @@
           "size": 93000000
         }
       ],
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.45.1.+.NFB.v7.3.1.ipa",
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/X.v12.46.+.NFB.v7.3.1.ipa",
       "tintColor": "030303",
-      "version": "12.45.1",
+      "version": "12.46",
       "screenshotURLs": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/82/3c/21823c75-d122-f771-fba1-2521b3f3237e/1242x2688-1.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/a8/8e/65a88e08-0c52-8675-0b0e-c7ef2dad4325/1242x2688-2.jpg/320x480bb.jpg",
@@ -1085,7 +1093,7 @@
         }
       },
       "name": "X++",
-      "versionDate": "2026-11-19"
+      "versionDate": "2026-11-23"
     },
     {
       "category": "Social",
@@ -1940,6 +1948,14 @@
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/43/35/8e43350e-2dad-ac27-13d4-71eac741cf80/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg",
       "versions": [
         {
+          "version": "21.47.6",
+          "date": "2026-11-22",
+          "localizedDescription": "• YouTube updated to v21.47.6",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.47.6.+.YTPlus.6.0.base.ipa",
+          "size": 172278702,
+          "sha256": "f8682c9574b7c86808436d70f7c2ea5ca4083a43403efa89888edf8038ac2a01"
+        },
+        {
           "version": "21.46.3",
           "date": "2026-11-16",
           "localizedDescription": "• YouTube updated to v21.46.3",
@@ -2025,11 +2041,11 @@
         }
       ],
       "localizedDescription": "DO NOT ENABLE RETURN YOUTUBE DISLIKE, IT CAN CRASH THE APP.\n\nTweak preferences can be found in the YouTube Settings\n\nFeatures:\n\n• Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n• Copy video, comment, and post information\n• Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n• Player settings: Gestures, default quality, preferred audio track\n• Save, Load and Restore settings. Clear cache once or automatically on app startup\n• Built-in SponsorBlock\n• And much, much more",
-      "size": 171073553,
-      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.46.3.+.YTPlus.v6.0.ipa",
-      "versionDate": "2026-11-16",
+      "size": 172278702,
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/YouTube.v21.47.6.+.YTPlus.6.0.base.ipa",
+      "versionDate": "2026-11-22",
       "beta": false,
-      "versionDescription": "• YouTube updated to v21.46.3",
+      "versionDescription": "• YouTube updated to v21.47.6",
       "appPermissions": {
         "entitlements": [
           "application-identifier",
@@ -2073,7 +2089,7 @@
       "subtitle": "The All-In-One Tweak for YouTube.",
       "tintColor": "f90505",
       "bundleIdentifier": "com.google.ios.youtube",
-      "version": "21.46.3"
+      "version": "21.47.6"
     },
     {
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/b2/08/d6b20859-b86e-5b7c-4ebc-8258c0f9b754/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -2596,6 +2612,64 @@
           "NSMicrophoneUsageDescription": "Reddit needs access to your microphone to post videos with audio.",
           "NSFaceIDUsageDescription": "Reddit needs access to Face ID to unlock your Vault.",
           "NSPhotoLibraryUsageDescription": "Reddit needs access to your photo library to post, save, and upload photos or videos."
+        }
+      }
+    },
+    {
+      "name": "Twitch++",
+      "bundleIdentifier": "tv.twitch",
+      "developerName": "zeroxdeadbeef",
+      "subtitle": "All-In-One Tweak for Twitch!",
+      "localizedDescription": "(Coming Soon)",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/9e/c0/649ec0ba-0f46-b437-401a-6633a175b235/TwitchAppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg",
+      "tintColor": "67419f",
+      "category": "Entertainment",
+      "beta": false,
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/4e/1d/684e1de1-a959-ca48-ce23-c40f689e6554/37b30cee-8c44-4162-944b-4def125308cf_01-1242x2208.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/51/65/12/51651214-6c86-bb9f-76be-488912a721ff/121623e7-1287-49f0-9ea7-068ffc760e1f_02-1242x2208.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/fb/0c/59fb0cbc-21c9-616d-f506-900d754a4624/77c505ba-b565-443b-83da-642a3bbc96f8_03-1242x2208.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/a6/e6/dfa6e626-5e8e-b267-a9fa-e299fb81ca96/f1b8408a-d231-4e9a-aeff-9bcc55be2d34_04-1242x2208.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/32/6d/2a/326d2a95-329a-bb30-c491-a8e219ecaa70/d09d7800-f33b-4f91-b9a7-1c0a8a9fc7bb_05-1242x2208.png/392x696bb.png"
+      ],
+      "version": "32.1",
+      "versionDate": "2026-11-23",
+      "versionDescription": "- Added Twitch v32.1 with TwitchControl v0.0.7",
+      "size": 197299449,
+      "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitch.v32.1.ipa",
+      "versions": [
+        {
+          "version": "32.1",
+          "date": "2026-11-23",
+          "localizedDescription": "- Added Twitch v32.1 with TwitchControl v0.0.7",
+          "downloadURL": "https://github.com/WuXu1/WuXu1.github.io/releases/download/Latest/Twitch.v32.1.ipa",
+          "size": 197299449,
+          "sha256": "4449b5147b0627317c435b66bb140389746a334f4c37892197048c9ba04b41c4",
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.group-session",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Twitch needs permission to access the camera on this device to stream live video and change your profile image.",
+          "NSLocalNetworkUsageDescription": "Twitch uses the local network to discover Cast-enabled devices on your WiFi network.",
+          "NSMicrophoneUsageDescription": "Twitch needs permission to access the microphone on this device to stream live video.",
+          "NSPhotoLibraryAddUsageDescription": "Twitch needs permission to write to your photo library in order to save images.",
+          "NSUserTrackingUsageDescription": "Your iOS advertising ID and device data will be used to support creators and provide a personal ad experience."
         }
       }
     }
